@@ -1,0 +1,410 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_game_state_manager" kind="class" language="C#" prot="public">
+    <compoundname>GameStateManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_game_state_manager_1a87e1de70e766821616aa1e1aa9051178" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>PauseType</name>
+        <qualifiedname>GameStateManager.PauseType</qualifiedname>
+        <enumvalue id="class_game_state_manager_1a87e1de70e766821616aa1e1aa9051178a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_game_state_manager_1a87e1de70e766821616aa1e1aa9051178ace3c492368b2ff2cf78d64c7c58ed866" prot="public">
+          <name>EscPause</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_game_state_manager_1a87e1de70e766821616aa1e1aa9051178a9269423ea8dd7080e203ea29b5b625b2" prot="public">
+          <name>LevelUpPause</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" line="24" column="11" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_game_state_manager_1ad6c81ee9ec40a6522bcf47bdc7172b07" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_game_state_manager" kindref="compound">GameStateManager</ref></type>
+        <definition>GameStateManager GameStateManager.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>GameStateManager.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" line="9" column="36" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" bodystart="9" bodyend="9"/>
+        <referencedby refid="class_transition_quest_start_panel_1a1cdb9ac8359275a138bb1946c57b5f71" compoundref="_transition_quest_start_panel_8cs" startline="126" endline="145">TransitionQuestStartPanel.HidePanel</referencedby>
+        <referencedby refid="class_level_up_controller_1ad5ebf4833d7180c4d5bb1eb1546a3064" compoundref="_level_up_controller_8cs" startline="98" endline="119">LevelUpController.ShowLevelUpOptionsAsync</referencedby>
+        <referencedby refid="class_transition_quest_start_panel_1acd996a2a1565df4e97405dc14577310c" compoundref="_transition_quest_start_panel_8cs" startline="54" endline="79">TransitionQuestStartPanel.ShowTransitionQuestConfirmation</referencedby>
+        <referencedby refid="class_item_reward_info_1ae6547a0dfdc9411e1af8799284610a0f" compoundref="_item_reward_info_8cs" startline="218" endline="222">ItemRewardInfo.Skip</referencedby>
+        <referencedby refid="class_transition_manager_1a07ace306d8e06a65104a52ea9240260c" compoundref="_transition_manager_8cs" startline="38" endline="91">TransitionManager.TransitPlayerToLevel</referencedby>
+        <referencedby refid="class_player_1a247f716c901112b1f3650112f5c47711" compoundref="_player_8cs" startline="52" endline="56">Player.TriggerLoose</referencedby>
+        <referencedby refid="class_player_1a3d8af79716a818a93b0d0f5a1a0718ad" compoundref="_player_8cs" startline="61" endline="65">Player.TriggerWin</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_game_state_manager_1afd4ba1ca38a29fc5c327abce10051b27" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool GameStateManager.IsPaused</definition>
+        <argsstring></argsstring>
+        <name>IsPaused</name>
+        <qualifiedname>GameStateManager.IsPaused</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" line="11" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" bodystart="11" bodyend="11"/>
+        <referencedby refid="class_transition_quest_start_panel_1a1cdb9ac8359275a138bb1946c57b5f71" compoundref="_transition_quest_start_panel_8cs" startline="126" endline="145">TransitionQuestStartPanel.HidePanel</referencedby>
+        <referencedby refid="class_game_state_manager_1a99eb55de665c0ded19721f97626f49f2" compoundref="_game_state_manager_8cs" startline="85" endline="120">SetPaused</referencedby>
+        <referencedby refid="class_game_state_manager_1a90f2b3f817c1e397a3b28f89f752cc79" compoundref="_game_state_manager_8cs" startline="54" endline="78">TogglePause</referencedby>
+        <referencedby refid="class_transition_manager_1a07ace306d8e06a65104a52ea9240260c" compoundref="_transition_manager_8cs" startline="38" endline="91">TransitionManager.TransitPlayerToLevel</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_game_state_manager_1a43cedada9898f65b434654172172df02" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool GameStateManager.IsInCountdown</definition>
+        <argsstring></argsstring>
+        <name>IsInCountdown</name>
+        <qualifiedname>GameStateManager.IsInCountdown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" line="12" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" bodystart="12" bodyend="12"/>
+        <referencedby refid="class_game_state_manager_1a41c5a9f0f536079bcb8c1fb6e1e85f6b" compoundref="_game_state_manager_8cs" startline="143" endline="147">EndCountdown</referencedby>
+        <referencedby refid="class_game_state_manager_1a99eb55de665c0ded19721f97626f49f2" compoundref="_game_state_manager_8cs" startline="85" endline="120">SetPaused</referencedby>
+        <referencedby refid="class_game_state_manager_1a25af8a7b516bc217e1a5de3a2fc4b887" compoundref="_game_state_manager_8cs" startline="134" endline="138">StartCountdown</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_game_state_manager_1a979a52ff86e862f27c196cf846411a85" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_game_state_manager_1a87e1de70e766821616aa1e1aa9051178" kindref="member">PauseType</ref></type>
+        <definition>PauseType GameStateManager.CurrentPauseType</definition>
+        <argsstring></argsstring>
+        <name>CurrentPauseType</name>
+        <qualifiedname>GameStateManager.CurrentPauseType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" line="13" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" bodystart="13" bodyend="13"/>
+        <referencedby refid="class_transition_quest_start_panel_1a1cdb9ac8359275a138bb1946c57b5f71" compoundref="_transition_quest_start_panel_8cs" startline="126" endline="145">TransitionQuestStartPanel.HidePanel</referencedby>
+        <referencedby refid="class_game_state_manager_1a99eb55de665c0ded19721f97626f49f2" compoundref="_game_state_manager_8cs" startline="85" endline="120">SetPaused</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="class_game_state_manager_1acf314abde0b89c8d94b35d6ae6fb3b78" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; bool, <ref refid="class_game_state_manager_1a87e1de70e766821616aa1e1aa9051178" kindref="member">PauseType</ref> &gt;</type>
+        <definition>Action&lt;bool, PauseType&gt; GameStateManager.OnPauseStateChanged</definition>
+        <argsstring></argsstring>
+        <name>OnPauseStateChanged</name>
+        <qualifiedname>GameStateManager.OnPauseStateChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" line="14" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_game_state_manager_1a99eb55de665c0ded19721f97626f49f2" compoundref="_game_state_manager_8cs" startline="85" endline="120">SetPaused</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_game_state_manager_1a92292294bead53ea9784eca8b8d0ba49" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject GameStateManager.MenuCanvas</definition>
+        <argsstring></argsstring>
+        <name>MenuCanvas</name>
+        <qualifiedname>GameStateManager.MenuCanvas</qualifiedname>
+        <briefdescription>
+<para>The MenuCanvas field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" line="18" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_game_state_manager_1a90f2b3f817c1e397a3b28f89f752cc79" compoundref="_game_state_manager_8cs" startline="54" endline="78">TogglePause</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_state_manager_1a2dbd22293beca722e4dfe840c9067a66" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject GameStateManager.SettingsCanvas</definition>
+        <argsstring></argsstring>
+        <name>SettingsCanvas</name>
+        <qualifiedname>GameStateManager.SettingsCanvas</qualifiedname>
+        <briefdescription>
+<para>The SettingsCanvas field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" line="22" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_game_state_manager_1a90f2b3f817c1e397a3b28f89f752cc79" compoundref="_game_state_manager_8cs" startline="54" endline="78">TogglePause</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_state_manager_1ad6348496aec9b561747ea76858594f28" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameStateManager.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>GameStateManager.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" line="31" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" bodystart="31" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_state_manager_1aafd65d08a33dcd5cf32adf580991cef3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameStateManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>GameStateManager.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" line="42" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" bodystart="42" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_state_manager_1a90f2b3f817c1e397a3b28f89f752cc79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameStateManager.TogglePause</definition>
+        <argsstring>()</argsstring>
+        <name>TogglePause</name>
+        <qualifiedname>GameStateManager.TogglePause</qualifiedname>
+        <briefdescription>
+<para>Executes the TogglePause operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" line="54" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" bodystart="54" bodyend="78"/>
+        <references refid="class_audio_manager_1af96f8bc4f9a0ad3f1a63a028bb31f790" compoundref="_audio_manager_8cs" startline="11">AudioManager.Instance</references>
+        <references refid="class_items_panel_1a18ff80103e6714cc05f4d1adaae29c1a" compoundref="_items_panel_8cs" startline="9" endline="9">ItemsPanel.Instance</references>
+        <references refid="class_quest_panel_1a37bc222ec71bcd33a7ddce8d030eddc4" compoundref="_quest_panel_8cs" startline="10" endline="10">QuestPanel.Instance</references>
+        <references refid="class_game_state_manager_1afd4ba1ca38a29fc5c327abce10051b27" compoundref="_game_state_manager_8cs" startline="11" endline="11">IsPaused</references>
+        <references refid="class_game_state_manager_1a92292294bead53ea9784eca8b8d0ba49" compoundref="_game_state_manager_8cs" startline="18">MenuCanvas</references>
+        <references refid="class_audio_manager_1a1218fdfd8ea5963b7277d6e4d317e34b" compoundref="_audio_manager_8cs" startline="319" endline="333">AudioManager.ResumeMusic</references>
+        <references refid="class_game_state_manager_1a99eb55de665c0ded19721f97626f49f2" compoundref="_game_state_manager_8cs" startline="85" endline="120">SetPaused</references>
+        <references refid="class_quest_panel_1a44b9e890d99fc96c9a458dd52209cf2c" compoundref="_quest_panel_8cs" startline="56" endline="59">QuestPanel.SetQuestsInfo</references>
+        <references refid="class_game_state_manager_1a2dbd22293beca722e4dfe840c9067a66" compoundref="_game_state_manager_8cs" startline="22">SettingsCanvas</references>
+        <references refid="class_countdown_controller_1a22adef5f25b4d5caaf7d1e9cfcdba154" compoundref="_countdown_controller_8cs" startline="19" endline="25">CountdownController.StartCountdown</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_state_manager_1a99eb55de665c0ded19721f97626f49f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameStateManager.SetPaused</definition>
+        <argsstring>(bool paused, PauseType pauseType=PauseType.EscPause)</argsstring>
+        <name>SetPaused</name>
+        <qualifiedname>GameStateManager.SetPaused</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>paused</declname>
+        </param>
+        <param>
+          <type><ref refid="class_game_state_manager_1a87e1de70e766821616aa1e1aa9051178" kindref="member">PauseType</ref></type>
+          <declname>pauseType</declname>
+          <defval><ref refid="class_game_state_manager_1a87e1de70e766821616aa1e1aa9051178ace3c492368b2ff2cf78d64c7c58ed866" kindref="member">PauseType.EscPause</ref></defval>
+        </param>
+        <briefdescription>
+<para>Sets the Paused. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>paused</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The paused.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pauseType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pauseType.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" line="85" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" bodystart="85" bodyend="120"/>
+        <references refid="class_enemy_spawn_manager_1a0829c1ba3e308acace22f1e5d42dd024">EnemySpawnManager.ChangeActiveEnemySpawn</references>
+        <references refid="class_game_state_manager_1a979a52ff86e862f27c196cf846411a85" compoundref="_game_state_manager_8cs" startline="13" endline="13">CurrentPauseType</references>
+        <references refid="class_audio_manager_1a7bf98859611fc62a5fda8564a99cce65" compoundref="_audio_manager_8cs" startline="373" endline="379">AudioManager.DuckMusic</references>
+        <references refid="class_audio_manager_1af96f8bc4f9a0ad3f1a63a028bb31f790" compoundref="_audio_manager_8cs" startline="11">AudioManager.Instance</references>
+        <references refid="class_enemy_spawn_manager_1a32b8d121e97cef9b4d9ccce249736096" compoundref="_enemy_spawn_manager_8cs" startline="13">EnemySpawnManager.Instance</references>
+        <references refid="class_game_state_manager_1a43cedada9898f65b434654172172df02" compoundref="_game_state_manager_8cs" startline="12" endline="12">IsInCountdown</references>
+        <references refid="class_game_state_manager_1afd4ba1ca38a29fc5c327abce10051b27" compoundref="_game_state_manager_8cs" startline="11" endline="11">IsPaused</references>
+        <references refid="class_game_state_manager_1acf314abde0b89c8d94b35d6ae6fb3b78" compoundref="_game_state_manager_8cs" startline="14">OnPauseStateChanged</references>
+        <references refid="class_audio_manager_1ae85cb5dd19dca76dedfb184d17b99266" compoundref="_audio_manager_8cs" startline="184" endline="189">AudioManager.StopAllSFX</references>
+        <references refid="class_audio_manager_1acb374da8c9ebcfb9978c7347914d05bc" compoundref="_audio_manager_8cs" startline="385" endline="391">AudioManager.UnduckMusic</references>
+        <referencedby refid="class_game_state_manager_1a05c4e25e28a3d356613da753b34386c3" compoundref="_game_state_manager_8cs" startline="125" endline="129">ResumeGame</referencedby>
+        <referencedby refid="class_game_state_manager_1a90f2b3f817c1e397a3b28f89f752cc79" compoundref="_game_state_manager_8cs" startline="54" endline="78">TogglePause</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_state_manager_1a05c4e25e28a3d356613da753b34386c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameStateManager.ResumeGame</definition>
+        <argsstring>()</argsstring>
+        <name>ResumeGame</name>
+        <qualifiedname>GameStateManager.ResumeGame</qualifiedname>
+        <briefdescription>
+<para>Executes the ResumeGame operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" line="125" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" bodystart="125" bodyend="129"/>
+        <references refid="class_audio_manager_1af96f8bc4f9a0ad3f1a63a028bb31f790" compoundref="_audio_manager_8cs" startline="11">AudioManager.Instance</references>
+        <references refid="class_game_state_manager_1a99eb55de665c0ded19721f97626f49f2" compoundref="_game_state_manager_8cs" startline="85" endline="120">SetPaused</references>
+        <references refid="class_audio_manager_1acb374da8c9ebcfb9978c7347914d05bc" compoundref="_audio_manager_8cs" startline="385" endline="391">AudioManager.UnduckMusic</references>
+        <referencedby refid="class_transition_quest_start_panel_1a1cdb9ac8359275a138bb1946c57b5f71" compoundref="_transition_quest_start_panel_8cs" startline="126" endline="145">TransitionQuestStartPanel.HidePanel</referencedby>
+        <referencedby refid="class_item_reward_info_1ae6547a0dfdc9411e1af8799284610a0f" compoundref="_item_reward_info_8cs" startline="218" endline="222">ItemRewardInfo.Skip</referencedby>
+        <referencedby refid="class_transition_manager_1a07ace306d8e06a65104a52ea9240260c" compoundref="_transition_manager_8cs" startline="38" endline="91">TransitionManager.TransitPlayerToLevel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_state_manager_1a25af8a7b516bc217e1a5de3a2fc4b887" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameStateManager.StartCountdown</definition>
+        <argsstring>()</argsstring>
+        <name>StartCountdown</name>
+        <qualifiedname>GameStateManager.StartCountdown</qualifiedname>
+        <briefdescription>
+<para>Executes the StartCountdown operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" line="134" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" bodystart="134" bodyend="138"/>
+        <references refid="class_game_state_manager_1a43cedada9898f65b434654172172df02" compoundref="_game_state_manager_8cs" startline="12" endline="12">IsInCountdown</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_state_manager_1a41c5a9f0f536079bcb8c1fb6e1e85f6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameStateManager.EndCountdown</definition>
+        <argsstring>()</argsstring>
+        <name>EndCountdown</name>
+        <qualifiedname>GameStateManager.EndCountdown</qualifiedname>
+        <briefdescription>
+<para>Executes the EndCountdown operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" line="143" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" bodystart="143" bodyend="147"/>
+        <references refid="class_game_state_manager_1a43cedada9898f65b434654172172df02" compoundref="_game_state_manager_8cs" startline="12" endline="12">IsInCountdown</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_state_manager_1ae967ecb32f9e0bee555e56ecc6afddba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameStateManager.PauseGame</definition>
+        <argsstring>()</argsstring>
+        <name>PauseGame</name>
+        <qualifiedname>GameStateManager.PauseGame</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" line="149" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_state_manager_1a721710229b8ed5218ad08892379e5d63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameStateManager.PauseForLevelUp</definition>
+        <argsstring>()</argsstring>
+        <name>PauseForLevelUp</name>
+        <qualifiedname>GameStateManager.PauseForLevelUp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" line="150" column="17"/>
+        <referencedby refid="class_level_up_controller_1ad5ebf4833d7180c4d5bb1eb1546a3064" compoundref="_level_up_controller_8cs" startline="98" endline="119">LevelUpController.ShowLevelUpOptionsAsync</referencedby>
+        <referencedby refid="class_transition_quest_start_panel_1acd996a2a1565df4e97405dc14577310c" compoundref="_transition_quest_start_panel_8cs" startline="54" endline="79">TransitionQuestStartPanel.ShowTransitionQuestConfirmation</referencedby>
+        <referencedby refid="class_player_1a247f716c901112b1f3650112f5c47711" compoundref="_player_8cs" startline="52" endline="56">Player.TriggerLoose</referencedby>
+        <referencedby refid="class_player_1a3d8af79716a818a93b0d0f5a1a0718ad" compoundref="_player_8cs" startline="61" endline="65">Player.TriggerWin</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_game_state_manager" kindref="compound">GameStateManager</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GameStateManager</label>
+        <link refid="class_game_state_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GameStateManager</label>
+        <link refid="class_game_state_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" line="7" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/GameStateManager.cs" bodystart="8" bodyend="151"/>
+    <listofallmembers>
+      <member refid="class_game_state_manager_1ad6348496aec9b561747ea76858594f28" prot="private" virt="non-virtual"><scope>GameStateManager</scope><name>Awake</name></member>
+      <member refid="class_game_state_manager_1a979a52ff86e862f27c196cf846411a85" prot="public" virt="non-virtual"><scope>GameStateManager</scope><name>CurrentPauseType</name></member>
+      <member refid="class_game_state_manager_1a41c5a9f0f536079bcb8c1fb6e1e85f6b" prot="public" virt="non-virtual"><scope>GameStateManager</scope><name>EndCountdown</name></member>
+      <member refid="class_game_state_manager_1ad6c81ee9ec40a6522bcf47bdc7172b07" prot="public" virt="non-virtual"><scope>GameStateManager</scope><name>Instance</name></member>
+      <member refid="class_game_state_manager_1a43cedada9898f65b434654172172df02" prot="public" virt="non-virtual"><scope>GameStateManager</scope><name>IsInCountdown</name></member>
+      <member refid="class_game_state_manager_1afd4ba1ca38a29fc5c327abce10051b27" prot="public" virt="non-virtual"><scope>GameStateManager</scope><name>IsPaused</name></member>
+      <member refid="class_game_state_manager_1a92292294bead53ea9784eca8b8d0ba49" prot="public" virt="non-virtual"><scope>GameStateManager</scope><name>MenuCanvas</name></member>
+      <member refid="class_game_state_manager_1acf314abde0b89c8d94b35d6ae6fb3b78" prot="public" virt="non-virtual"><scope>GameStateManager</scope><name>OnPauseStateChanged</name></member>
+      <member refid="class_game_state_manager_1a721710229b8ed5218ad08892379e5d63" prot="public" virt="non-virtual"><scope>GameStateManager</scope><name>PauseForLevelUp</name></member>
+      <member refid="class_game_state_manager_1ae967ecb32f9e0bee555e56ecc6afddba" prot="public" virt="non-virtual"><scope>GameStateManager</scope><name>PauseGame</name></member>
+      <member refid="class_game_state_manager_1a87e1de70e766821616aa1e1aa9051178" prot="public" virt="non-virtual"><scope>GameStateManager</scope><name>PauseType</name></member>
+      <member refid="class_game_state_manager_1a05c4e25e28a3d356613da753b34386c3" prot="public" virt="non-virtual"><scope>GameStateManager</scope><name>ResumeGame</name></member>
+      <member refid="class_game_state_manager_1a99eb55de665c0ded19721f97626f49f2" prot="public" virt="non-virtual"><scope>GameStateManager</scope><name>SetPaused</name></member>
+      <member refid="class_game_state_manager_1a2dbd22293beca722e4dfe840c9067a66" prot="public" virt="non-virtual"><scope>GameStateManager</scope><name>SettingsCanvas</name></member>
+      <member refid="class_game_state_manager_1a25af8a7b516bc217e1a5de3a2fc4b887" prot="public" virt="non-virtual"><scope>GameStateManager</scope><name>StartCountdown</name></member>
+      <member refid="class_game_state_manager_1a90f2b3f817c1e397a3b28f89f752cc79" prot="public" virt="non-virtual"><scope>GameStateManager</scope><name>TogglePause</name></member>
+      <member refid="class_game_state_manager_1aafd65d08a33dcd5cf32adf580991cef3" prot="private" virt="non-virtual"><scope>GameStateManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,11 @@
+<map id="GatherGasQuest" name="GatherGasQuest">
+<area shape="rect" id="Node000001" title="The GatherGasQuest class." alt="" coords="47,304,166,331"/>
+<area shape="rect" id="Node000002" href="$class_quest_data.html" title="The QuestData class." alt="" coords="64,229,149,256"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,270,109,305,104,303,105,274"/>
+<area shape="rect" id="Node000003" href="$class_quest_s_o.html" title="The QuestSO class." alt="" coords="69,155,144,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="108,195,109,230,104,228,105,200"/>
+<area shape="rect" id="Node000004" href="$class_singleton_scriptable_object-1-g.html" title=" " alt="" coords="5,80,208,107"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="107,120,109,155,104,154,106,125"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="48,5,165,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="107,45,109,80,104,79,106,50"/>
+</map>

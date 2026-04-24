@@ -1,0 +1,410 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_lvl_up_weapon_items_info" kind="class" language="C#" prot="public">
+    <compoundname>LvlUpWeaponItemsInfo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_lvl_up_weapon_items_info_1a1db031ef400bc31b351b75b71dc0dda4" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_weapon" kindref="compound">Weapon</ref> &gt;</type>
+        <definition>List&lt;Weapon&gt; LvlUpWeaponItemsInfo._currentWeaponList</definition>
+        <argsstring></argsstring>
+        <name>_currentWeaponList</name>
+        <qualifiedname>LvlUpWeaponItemsInfo._currentWeaponList</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_weapon" kindref="compound">Weapon</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="15" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_lvl_up_weapon_items_info_1a306762c2d79bcb2554a82c5c85849828" compoundref="_lvl_up_weapon_items_info_8cs" startline="166" endline="241">SetItemsInfo</referencedby>
+        <referencedby refid="class_lvl_up_weapon_items_info_1ab705e74539b42b336d1e919b9091bc44" compoundref="_lvl_up_weapon_items_info_8cs" startline="119" endline="149">TransferRandomObjects</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lvl_up_weapon_items_info_1ab6418ec732c0e05b905f5cf5f9394c42" prot="public" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; LvlUpWeaponItemsInfo.ItemsList</definition>
+        <argsstring></argsstring>
+        <name>ItemsList</name>
+        <qualifiedname>LvlUpWeaponItemsInfo.ItemsList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="18" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_lvl_up_weapon_items_info_1a306762c2d79bcb2554a82c5c85849828" compoundref="_lvl_up_weapon_items_info_8cs" startline="166" endline="241">SetItemsInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lvl_up_weapon_items_info_1a7614be2c3b11d9a8ecb6c4505114b6bd" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_weapon" kindref="compound">Weapon</ref> &gt;</type>
+        <definition>List&lt;Weapon&gt; LvlUpWeaponItemsInfo.allWeaponList</definition>
+        <argsstring></argsstring>
+        <name>allWeaponList</name>
+        <qualifiedname>LvlUpWeaponItemsInfo.allWeaponList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="19" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_lvl_up_weapon_items_info_1a45e7d029b995e0635c0f5686490c0487" compoundref="_lvl_up_weapon_items_info_8cs" startline="103" endline="114">SetWeaponList</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lvl_up_weapon_items_info_1a90cb196de37a69fd7a796aca46566f56" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LvlUpWeaponItemsInfo.numberOfCurrentWeaponList</definition>
+        <argsstring></argsstring>
+        <name>numberOfCurrentWeaponList</name>
+        <qualifiedname>LvlUpWeaponItemsInfo.numberOfCurrentWeaponList</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+<para>The numberOfCurrentWeaponList field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="23" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_lvl_up_weapon_items_info_1ab705e74539b42b336d1e919b9091bc44" compoundref="_lvl_up_weapon_items_info_8cs" startline="119" endline="149">TransferRandomObjects</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lvl_up_weapon_items_info_1a53625799e967b47bb00b40a8e9b31d3f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_level_up_controller" kindref="compound">LevelUpController</ref></type>
+        <definition>LevelUpController LvlUpWeaponItemsInfo.levelUpController</definition>
+        <argsstring></argsstring>
+        <name>levelUpController</name>
+        <qualifiedname>LvlUpWeaponItemsInfo.levelUpController</qualifiedname>
+        <briefdescription>
+<para>The levelUpController field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="28" column="30" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lvl_up_weapon_items_info_1a773778340266d585a556da37045bc752" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip LvlUpWeaponItemsInfo.lvlUpClip</definition>
+        <argsstring></argsstring>
+        <name>lvlUpClip</name>
+        <qualifiedname>LvlUpWeaponItemsInfo.lvlUpClip</qualifiedname>
+        <briefdescription>
+<para>The lvlUpClip field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="33" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lvl_up_weapon_items_info_1aadd09812293e5693e1ac6ebe3397aacd" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool LvlUpWeaponItemsInfo.AllWeaponsGathered</definition>
+        <argsstring></argsstring>
+        <name>AllWeaponsGathered</name>
+        <qualifiedname>LvlUpWeaponItemsInfo.AllWeaponsGathered</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>The AllWeaponsGathered field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="37" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_lvl_up_weapon_items_info_1af40a2934cc4eccc1cf4b7dc4fb746400" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_weapon" kindref="compound">Weapon</ref> &gt;</type>
+        <definition>List&lt;Weapon&gt; LvlUpWeaponItemsInfo.weaponList</definition>
+        <argsstring></argsstring>
+        <name>weaponList</name>
+        <qualifiedname>LvlUpWeaponItemsInfo.weaponList</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_weapon" kindref="compound">Weapon</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="16" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_lvl_up_weapon_items_info_1a55cbba3abb66b213ca42c66dcbc77966" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LvlUpWeaponItemsInfo.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>LvlUpWeaponItemsInfo.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="39" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="39" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lvl_up_weapon_items_info_1afa44ae575e832fe008739a85cd3607d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LvlUpWeaponItemsInfo.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>LvlUpWeaponItemsInfo.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="45" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="45" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lvl_up_weapon_items_info_1a740233c30ba68dde5ae1e6f4c9723168" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LvlUpWeaponItemsInfo.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>LvlUpWeaponItemsInfo.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="52" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lvl_up_weapon_items_info_1a3c069a75a8bf7188120f734e1a9aa7ef" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LvlUpWeaponItemsInfo.SubscribeToAllWeapons</definition>
+        <argsstring>()</argsstring>
+        <name>SubscribeToAllWeapons</name>
+        <qualifiedname>LvlUpWeaponItemsInfo.SubscribeToAllWeapons</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="57" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="57" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lvl_up_weapon_items_info_1a897d54f7faf001626f0a45c89093a9a7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LvlUpWeaponItemsInfo.UnsubscribeFromAllWeapons</definition>
+        <argsstring>()</argsstring>
+        <name>UnsubscribeFromAllWeapons</name>
+        <qualifiedname>LvlUpWeaponItemsInfo.UnsubscribeFromAllWeapons</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="73" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="73" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lvl_up_weapon_items_info_1a92f5a76e6b8810aee98db68dfc6a522d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LvlUpWeaponItemsInfo.OnWeaponAvailableChanged</definition>
+        <argsstring>()</argsstring>
+        <name>OnWeaponAvailableChanged</name>
+        <qualifiedname>LvlUpWeaponItemsInfo.OnWeaponAvailableChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="85" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="85" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lvl_up_weapon_items_info_1a17db4c3246494b6a12c0398d364aaafb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LvlUpWeaponItemsInfo.OnWeaponLevelUp</definition>
+        <argsstring>(Weapon weapon)</argsstring>
+        <name>OnWeaponLevelUp</name>
+        <qualifiedname>LvlUpWeaponItemsInfo.OnWeaponLevelUp</qualifiedname>
+        <param>
+          <type><ref refid="class_weapon" kindref="compound">Weapon</ref></type>
+          <declname>weapon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="91" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="91" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lvl_up_weapon_items_info_1af193b102b326f6b90ab4c2dfa1befb6a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LvlUpWeaponItemsInfo.ShuffleWeaponList</definition>
+        <argsstring>()</argsstring>
+        <name>ShuffleWeaponList</name>
+        <qualifiedname>LvlUpWeaponItemsInfo.ShuffleWeaponList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="152" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="152" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lvl_up_weapon_items_info_1a0b8986970a1d3fed89a722ef34a51159" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LvlUpWeaponItemsInfo.OnItemSelected</definition>
+        <argsstring>(int itemIndex)</argsstring>
+        <name>OnItemSelected</name>
+        <qualifiedname>LvlUpWeaponItemsInfo.OnItemSelected</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>itemIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="243" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="243" bodyend="267"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_lvl_up_weapon_items_info_1a45e7d029b995e0635c0f5686490c0487" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LvlUpWeaponItemsInfo.SetWeaponList</definition>
+        <argsstring>()</argsstring>
+        <name>SetWeaponList</name>
+        <qualifiedname>LvlUpWeaponItemsInfo.SetWeaponList</qualifiedname>
+        <briefdescription>
+<para>Sets the WeaponList. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="103" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="103" bodyend="114"/>
+        <references refid="class_lvl_up_weapon_items_info_1a7614be2c3b11d9a8ecb6c4505114b6bd" compoundref="_lvl_up_weapon_items_info_8cs" startline="19">allWeaponList</references>
+        <referencedby refid="class_lvl_up_weapon_items_info_1a306762c2d79bcb2554a82c5c85849828" compoundref="_lvl_up_weapon_items_info_8cs" startline="166" endline="241">SetItemsInfo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_lvl_up_weapon_items_info_1ab705e74539b42b336d1e919b9091bc44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LvlUpWeaponItemsInfo.TransferRandomObjects</definition>
+        <argsstring>()</argsstring>
+        <name>TransferRandomObjects</name>
+        <qualifiedname>LvlUpWeaponItemsInfo.TransferRandomObjects</qualifiedname>
+        <briefdescription>
+<para>Executes the TransferRandomObjects operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="119" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="119" bodyend="149"/>
+        <references refid="class_lvl_up_weapon_items_info_1a1db031ef400bc31b351b75b71dc0dda4" compoundref="_lvl_up_weapon_items_info_8cs" startline="15">_currentWeaponList</references>
+        <references refid="class_lvl_up_weapon_items_info_1a90cb196de37a69fd7a796aca46566f56" compoundref="_lvl_up_weapon_items_info_8cs" startline="23">numberOfCurrentWeaponList</references>
+        <referencedby refid="class_lvl_up_weapon_items_info_1a306762c2d79bcb2554a82c5c85849828" compoundref="_lvl_up_weapon_items_info_8cs" startline="166" endline="241">SetItemsInfo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_lvl_up_weapon_items_info_1a306762c2d79bcb2554a82c5c85849828" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LvlUpWeaponItemsInfo.SetItemsInfo</definition>
+        <argsstring>()</argsstring>
+        <name>SetItemsInfo</name>
+        <qualifiedname>LvlUpWeaponItemsInfo.SetItemsInfo</qualifiedname>
+        <briefdescription>
+<para>Sets the ItemsInfo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="166" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="166" bodyend="241"/>
+        <references refid="class_lvl_up_weapon_items_info_1a1db031ef400bc31b351b75b71dc0dda4" compoundref="_lvl_up_weapon_items_info_8cs" startline="15">_currentWeaponList</references>
+        <references refid="class_weapons_panel_1a02b78c4af24f745b5e1ae494bfb5d53e" compoundref="_weapons_panel_8cs" startline="10" endline="10">WeaponsPanel.Instance</references>
+        <references refid="class_lvl_up_weapon_items_info_1ab6418ec732c0e05b905f5cf5f9394c42" compoundref="_lvl_up_weapon_items_info_8cs" startline="18">ItemsList</references>
+        <references refid="class_lvl_up_weapon_items_info_1a45e7d029b995e0635c0f5686490c0487" compoundref="_lvl_up_weapon_items_info_8cs" startline="103" endline="114">SetWeaponList</references>
+        <references refid="class_weapons_panel_1ad9412e1cf0ca5729bec07fe4f94670ce" compoundref="_weapons_panel_8cs" startline="38" endline="74">WeaponsPanel.SetWeaponsInfo</references>
+        <references refid="class_lvl_up_weapon_items_info_1ab705e74539b42b336d1e919b9091bc44" compoundref="_lvl_up_weapon_items_info_8cs" startline="119" endline="149">TransferRandomObjects</references>
+        <referencedby refid="class_lvl_up_weapon_items_info_1a39d1e98dc31bb0e8cfc40fe5396da4b3" compoundref="_lvl_up_weapon_items_info_8cs" startline="274" endline="277">ForceRefreshUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_lvl_up_weapon_items_info_1a39d1e98dc31bb0e8cfc40fe5396da4b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LvlUpWeaponItemsInfo.ForceRefreshUI</definition>
+        <argsstring>()</argsstring>
+        <name>ForceRefreshUI</name>
+        <qualifiedname>LvlUpWeaponItemsInfo.ForceRefreshUI</qualifiedname>
+        <briefdescription>
+<para>Executes the ForceRefreshUI operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="274" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="274" bodyend="277"/>
+        <references refid="class_lvl_up_weapon_items_info_1a306762c2d79bcb2554a82c5c85849828" compoundref="_lvl_up_weapon_items_info_8cs" startline="166" endline="241">SetItemsInfo</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_lvl_up_weapon_items_info" kindref="compound">LvlUpWeaponItemsInfo</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>LvlUpWeaponItemsInfo</label>
+        <link refid="class_lvl_up_weapon_items_info"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>LevelUpController</label>
+        <link refid="class_level_up_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>Instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>LvlUpWeaponItemsInfo</label>
+        <link refid="class_lvl_up_weapon_items_info"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>levelUpController</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" line="13" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/LvlUpWeaponItemsInfo.cs" bodystart="14" bodyend="278"/>
+    <listofallmembers>
+      <member refid="class_lvl_up_weapon_items_info_1a1db031ef400bc31b351b75b71dc0dda4" prot="public" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>_currentWeaponList</name></member>
+      <member refid="class_lvl_up_weapon_items_info_1a7614be2c3b11d9a8ecb6c4505114b6bd" prot="public" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>allWeaponList</name></member>
+      <member refid="class_lvl_up_weapon_items_info_1aadd09812293e5693e1ac6ebe3397aacd" prot="public" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>AllWeaponsGathered</name></member>
+      <member refid="class_lvl_up_weapon_items_info_1a39d1e98dc31bb0e8cfc40fe5396da4b3" prot="public" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>ForceRefreshUI</name></member>
+      <member refid="class_lvl_up_weapon_items_info_1ab6418ec732c0e05b905f5cf5f9394c42" prot="public" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>ItemsList</name></member>
+      <member refid="class_lvl_up_weapon_items_info_1a53625799e967b47bb00b40a8e9b31d3f" prot="public" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>levelUpController</name></member>
+      <member refid="class_lvl_up_weapon_items_info_1a773778340266d585a556da37045bc752" prot="public" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>lvlUpClip</name></member>
+      <member refid="class_lvl_up_weapon_items_info_1a90cb196de37a69fd7a796aca46566f56" prot="public" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>numberOfCurrentWeaponList</name></member>
+      <member refid="class_lvl_up_weapon_items_info_1a740233c30ba68dde5ae1e6f4c9723168" prot="private" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>OnDisable</name></member>
+      <member refid="class_lvl_up_weapon_items_info_1afa44ae575e832fe008739a85cd3607d2" prot="private" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>OnEnable</name></member>
+      <member refid="class_lvl_up_weapon_items_info_1a0b8986970a1d3fed89a722ef34a51159" prot="private" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>OnItemSelected</name></member>
+      <member refid="class_lvl_up_weapon_items_info_1a92f5a76e6b8810aee98db68dfc6a522d" prot="private" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>OnWeaponAvailableChanged</name></member>
+      <member refid="class_lvl_up_weapon_items_info_1a17db4c3246494b6a12c0398d364aaafb" prot="private" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>OnWeaponLevelUp</name></member>
+      <member refid="class_lvl_up_weapon_items_info_1a306762c2d79bcb2554a82c5c85849828" prot="public" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>SetItemsInfo</name></member>
+      <member refid="class_lvl_up_weapon_items_info_1a45e7d029b995e0635c0f5686490c0487" prot="public" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>SetWeaponList</name></member>
+      <member refid="class_lvl_up_weapon_items_info_1af193b102b326f6b90ab4c2dfa1befb6a" prot="private" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>ShuffleWeaponList</name></member>
+      <member refid="class_lvl_up_weapon_items_info_1a55cbba3abb66b213ca42c66dcbc77966" prot="private" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>Start</name></member>
+      <member refid="class_lvl_up_weapon_items_info_1a3c069a75a8bf7188120f734e1a9aa7ef" prot="private" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>SubscribeToAllWeapons</name></member>
+      <member refid="class_lvl_up_weapon_items_info_1ab705e74539b42b336d1e919b9091bc44" prot="public" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>TransferRandomObjects</name></member>
+      <member refid="class_lvl_up_weapon_items_info_1a897d54f7faf001626f0a45c89093a9a7" prot="private" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>UnsubscribeFromAllWeapons</name></member>
+      <member refid="class_lvl_up_weapon_items_info_1af40a2934cc4eccc1cf4b7dc4fb746400" prot="private" virt="non-virtual"><scope>LvlUpWeaponItemsInfo</scope><name>weaponList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

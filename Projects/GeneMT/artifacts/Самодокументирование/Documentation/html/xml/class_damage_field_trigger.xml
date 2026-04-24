@@ -1,0 +1,400 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_damage_field_trigger" kind="class" language="C#" prot="public">
+    <compoundname>DamageFieldTrigger</compoundname>
+    <basecompoundref refid="class_weapon" prot="public" virt="non-virtual">Weapon</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_damage_field_trigger_1ae25cbdac2d2eda8aefa38424ceb45a55" prot="private" static="no" mutable="no">
+        <type><ref refid="class_damage_field" kindref="compound">DamageField</ref></type>
+        <definition>DamageField DamageFieldTrigger.damageField</definition>
+        <argsstring></argsstring>
+        <name>damageField</name>
+        <qualifiedname>DamageFieldTrigger.damageField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" line="9" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_damage_field_trigger_1a87f58da736b13ad851c380d0a46ef06c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DamageFieldTrigger.currentArea</definition>
+        <argsstring></argsstring>
+        <name>currentArea</name>
+        <qualifiedname>DamageFieldTrigger.currentArea</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" line="11" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_damage_field_trigger_1a0de20f3b9ffcf224282c377a70a194ab" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_damage_field_data_s_o" kindref="compound">DamageFieldDataSO</ref></type>
+        <definition>DamageFieldDataSO DamageFieldTrigger.DamageFieldData</definition>
+        <argsstring></argsstring>
+        <name>DamageFieldData</name>
+        <qualifiedname>DamageFieldTrigger.DamageFieldData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" line="12" column="31" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_damage_field_trigger_1a8977c6674db64922471d0b4794058919" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override float</type>
+        <definition>override float DamageFieldTrigger.GetArea</definition>
+        <argsstring>()</argsstring>
+        <name>GetArea</name>
+        <qualifiedname>DamageFieldTrigger.GetArea</qualifiedname>
+        <reimplements refid="class_weapon_1a5367855dc2202f9cbf9f23b8de25ae92">GetArea</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" line="14" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_damage_field_trigger_1a851882bddf00fe6fd2efc7133a6c9440" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string DamageFieldTrigger.GetWeaponStats</definition>
+        <argsstring>()</argsstring>
+        <name>GetWeaponStats</name>
+        <qualifiedname>DamageFieldTrigger.GetWeaponStats</qualifiedname>
+        <reimplements refid="class_weapon_1ae72d0bc59613640dd76e71f72931f68e">GetWeaponStats</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" line="109" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" bodystart="109" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_damage_field_trigger_1a74cd2f8bc9dc1d23c6586f8542c0e028" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string DamageFieldTrigger.GetTextTitleInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetTextTitleInfo</name>
+        <qualifiedname>DamageFieldTrigger.GetTextTitleInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" line="116" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" bodystart="116" bodyend="119"/>
+        <references refid="class_weapon_1a08149e046d2aa78ee427066886146517" compoundref="_weapon_8cs" startline="14">Weapon.weaponData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_damage_field_trigger_1ae4e9bc63377580fad99488f2f0bec1f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string DamageFieldTrigger.GetTextDescriptionInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetTextDescriptionInfo</name>
+        <qualifiedname>DamageFieldTrigger.GetTextDescriptionInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" line="121" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" bodystart="121" bodyend="128"/>
+        <references refid="class_weapon_1ad13d312d049e1ebd6b5fe3c1a890a66c" compoundref="_weapon_8cs" startline="239" endline="249">Weapon.GetUpgradeDescriptionForNextLevel</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_damage_field_trigger_1a1c60d43355aa871c98787318dbf54fea" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void DamageFieldTrigger.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>DamageFieldTrigger.Awake</qualifiedname>
+        <reimplements refid="class_weapon_1ada39248fef5791eef332e2be9b701fce">Awake</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" line="16" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" bodystart="16" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_damage_field_trigger_1ac30a53c87a1fc7746a5ff80abd87ce0c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void DamageFieldTrigger.InitializeWeapon</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeWeapon</name>
+        <qualifiedname>DamageFieldTrigger.InitializeWeapon</qualifiedname>
+        <reimplements refid="class_weapon_1a9182d6c16efa79826dbe1a268f430594">InitializeWeapon</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" line="23" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" bodystart="23" bodyend="31"/>
+        <references refid="class_weapon_1a08149e046d2aa78ee427066886146517" compoundref="_weapon_8cs" startline="14">Weapon.weaponData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_damage_field_trigger_1a7466f62601fe0dbf9b72e38cfbafa8db" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void DamageFieldTrigger.SubscribeToPlayerStats</definition>
+        <argsstring>()</argsstring>
+        <name>SubscribeToPlayerStats</name>
+        <qualifiedname>DamageFieldTrigger.SubscribeToPlayerStats</qualifiedname>
+        <reimplements refid="class_weapon_1ab616652596d92596f8fce9f408319f3c">SubscribeToPlayerStats</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" line="33" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" bodystart="33" bodyend="41"/>
+        <references refid="class_weapon_1afa5c22658e6121b9a39e3e9936c4ad2d" compoundref="_weapon_8cs" startline="10">Weapon.playerStats</references>
+      </memberdef>
+      <memberdef kind="function" id="class_damage_field_trigger_1a0dc18c2a7337c4949ae7651d4165f64d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void DamageFieldTrigger.UnsubscribeFromPlayerStats</definition>
+        <argsstring>()</argsstring>
+        <name>UnsubscribeFromPlayerStats</name>
+        <qualifiedname>DamageFieldTrigger.UnsubscribeFromPlayerStats</qualifiedname>
+        <reimplements refid="class_weapon_1a328e690c7cf25db86ec7d361f57be72f">UnsubscribeFromPlayerStats</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" line="43" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" bodystart="43" bodyend="51"/>
+        <references refid="class_weapon_1afa5c22658e6121b9a39e3e9936c4ad2d" compoundref="_weapon_8cs" startline="10">Weapon.playerStats</references>
+      </memberdef>
+      <memberdef kind="function" id="class_damage_field_trigger_1ad29c5a29b60babd74ef5483fbcbbd977" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void DamageFieldTrigger.CalculateAllStats</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateAllStats</name>
+        <qualifiedname>DamageFieldTrigger.CalculateAllStats</qualifiedname>
+        <reimplements refid="class_weapon_1a06a4040601202b7335c1066af462861f">CalculateAllStats</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" line="84" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" bodystart="84" bodyend="89"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_damage_field_trigger_1a72b4670bad1c3f221528fda8b28f0419" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DamageFieldTrigger.OnAreaMultiplierChanged</definition>
+        <argsstring>(float areaMultiplier)</argsstring>
+        <name>OnAreaMultiplierChanged</name>
+        <qualifiedname>DamageFieldTrigger.OnAreaMultiplierChanged</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>areaMultiplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" line="53" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_damage_field_trigger_1a02c481e75331f39689e639775f3bcd8b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DamageFieldTrigger.CalculateArea</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateArea</name>
+        <qualifiedname>DamageFieldTrigger.CalculateArea</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" line="58" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" bodystart="58" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_damage_field_trigger_1a37eb87498c86a85968da1fc6e7bf06a9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DamageFieldTrigger.ApplyAreaToVisual</definition>
+        <argsstring>()</argsstring>
+        <name>ApplyAreaToVisual</name>
+        <qualifiedname>DamageFieldTrigger.ApplyAreaToVisual</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" line="91" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" bodystart="91" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_damage_field_trigger_1a1df8a90087068a49346ab7254ddbf1cd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DamageFieldTrigger.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <qualifiedname>DamageFieldTrigger.OnTriggerEnter</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" line="101" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" bodystart="101" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_damage_field_trigger_1a47bbecc22e90d071af5cc0c644a83042" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DamageFieldTrigger.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>DamageFieldTrigger.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" line="131" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" bodystart="131" bodyend="134"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_damage_field_trigger" kindref="compound">DamageFieldTrigger</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DamageFieldTrigger</label>
+        <link refid="class_damage_field_trigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>Weapon</label>
+        <link refid="class_weapon"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>DamageFieldTrigger</label>
+        <link refid="class_damage_field_trigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>LevelUpgrade</label>
+        <link refid="class_level_upgrade"/>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="4">
+        <label>PlayerStatsSO</label>
+        <link refid="class_player_stats_s_o"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="5">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Weapon</label>
+        <link refid="class_weapon"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>playerStats</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>weaponData</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>WeaponDataSO</label>
+        <link refid="class_weapon_data_s_o"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>ExstraLevelUpgrades</edgelabel>
+          <edgelabel>levelUpgrades</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>currentWeapon</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" line="6" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/DamageFieldTrigger.cs" bodystart="7" bodyend="135"/>
+    <listofallmembers>
+      <member refid="class_weapon_1a6d7148708171a55fe10eb250d73c9f71" prot="public" virt="virtual"><scope>DamageFieldTrigger</scope><name>AddLevel</name></member>
+      <member refid="class_damage_field_trigger_1a37eb87498c86a85968da1fc6e7bf06a9" prot="private" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>ApplyAreaToVisual</name></member>
+      <member refid="class_weapon_1a6311c5a63cd709c4b2ca3a0161ff7ad5" prot="public" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>AvailableChanged</name></member>
+      <member refid="class_damage_field_trigger_1a1c60d43355aa871c98787318dbf54fea" prot="protected" virt="virtual"><scope>DamageFieldTrigger</scope><name>Awake</name></member>
+      <member refid="class_damage_field_trigger_1ad29c5a29b60babd74ef5483fbcbbd977" prot="protected" virt="virtual"><scope>DamageFieldTrigger</scope><name>CalculateAllStats</name></member>
+      <member refid="class_damage_field_trigger_1a02c481e75331f39689e639775f3bcd8b" prot="private" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>CalculateArea</name></member>
+      <member refid="class_weapon_1a074f6fa47b6ee3202dc6751eabdfb000" prot="protected" virt="virtual"><scope>DamageFieldTrigger</scope><name>CalculateCooldown</name></member>
+      <member refid="class_weapon_1ad860905094346042ba8ea674dd78de6d" prot="protected" virt="virtual"><scope>DamageFieldTrigger</scope><name>CalculateDamage</name></member>
+      <member refid="class_weapon_1aee4ad85a276c0d27301fdf29d379bacb" prot="protected" virt="virtual"><scope>DamageFieldTrigger</scope><name>CalculateDamage</name></member>
+      <member refid="class_weapon_1a188e2513ead27db5ffe844e168804ae4" prot="public" virt="virtual"><scope>DamageFieldTrigger</scope><name>CanLevelUp</name></member>
+      <member refid="class_damage_field_trigger_1a87f58da736b13ad851c380d0a46ef06c" prot="private" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>currentArea</name></member>
+      <member refid="class_weapon_1ad532fb0f0dfc1c6360f208fc34156197" prot="protected" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>currentCooldown</name></member>
+      <member refid="class_weapon_1aaf922eb1468b4fc9a7621717db389c5b" prot="protected" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>currentDamage</name></member>
+      <member refid="class_weapon_1a2a0c19d2dbdb2cddf5f548a140589791" prot="public" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>CurrentLevel</name></member>
+      <member refid="class_weapon_1ae299df08a60611f9f0fc6fdc4c659b46" prot="public" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>currentLevel</name></member>
+      <member refid="class_damage_field_trigger_1ae25cbdac2d2eda8aefa38424ceb45a55" prot="private" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>damageField</name></member>
+      <member refid="class_damage_field_trigger_1a0de20f3b9ffcf224282c377a70a194ab" prot="private" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>DamageFieldData</name></member>
+      <member refid="class_weapon_1a635065fdc99dea24985f112f1254ed5a" prot="public" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>Data</name></member>
+      <member refid="class_weapon_1a479491c816e68b0137996348b49fe781" prot="public" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>DebugWeaponStats</name></member>
+      <member refid="class_damage_field_trigger_1a8977c6674db64922471d0b4794058919" prot="public" virt="virtual"><scope>DamageFieldTrigger</scope><name>GetArea</name></member>
+      <member refid="class_weapon_1a31a4342b893bf970f73826ff0c343c44" prot="public" virt="virtual"><scope>DamageFieldTrigger</scope><name>GetCooldown</name></member>
+      <member refid="class_weapon_1a0d972514250825c4b7aaecd42235f0e7" prot="public" virt="virtual"><scope>DamageFieldTrigger</scope><name>GetDamage</name></member>
+      <member refid="class_weapon_1aca9f32807207e86ccf29a6ffb126bde7" prot="public" virt="virtual"><scope>DamageFieldTrigger</scope><name>GetDamageType</name></member>
+      <member refid="class_weapon_1a50e11db3148996b29f6bbc6856120c95" prot="public" virt="virtual"><scope>DamageFieldTrigger</scope><name>GetItemDescription</name></member>
+      <member refid="class_weapon_1a69d700917c994a2da5273a50db72ba8e" prot="public" virt="virtual"><scope>DamageFieldTrigger</scope><name>GetLifetime</name></member>
+      <member refid="class_weapon_1ac586cb11ef39baffaa3d7365d48ce12f" prot="public" virt="virtual"><scope>DamageFieldTrigger</scope><name>GetProjectileSpeed</name></member>
+      <member refid="class_damage_field_trigger_1ae4e9bc63377580fad99488f2f0bec1f1" prot="public" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>GetTextDescriptionInfo</name></member>
+      <member refid="class_damage_field_trigger_1a74cd2f8bc9dc1d23c6586f8542c0e028" prot="public" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>GetTextTitleInfo</name></member>
+      <member refid="class_weapon_1ad13d312d049e1ebd6b5fe3c1a890a66c" prot="public" virt="virtual"><scope>DamageFieldTrigger</scope><name>GetUpgradeDescriptionForNextLevel</name></member>
+      <member refid="class_damage_field_trigger_1a851882bddf00fe6fd2efc7133a6c9440" prot="public" virt="virtual"><scope>DamageFieldTrigger</scope><name>GetWeaponStats</name></member>
+      <member refid="class_damage_field_trigger_1ac30a53c87a1fc7746a5ff80abd87ce0c" prot="protected" virt="virtual"><scope>DamageFieldTrigger</scope><name>InitializeWeapon</name></member>
+      <member refid="class_weapon_1a69231f675123b5bf16b82c1b05804eff" prot="public" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>IsAvailable</name></member>
+      <member refid="class_weapon_1a9e59d0d3f26119eccc69d89d216ed887" prot="public" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>IsMaxLevel</name></member>
+      <member refid="class_damage_field_trigger_1a72b4670bad1c3f221528fda8b28f0419" prot="private" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>OnAreaMultiplierChanged</name></member>
+      <member refid="class_weapon_1a9529168f0afe4ae01428686c03852eec" prot="public" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>OnLevelUp</name></member>
+      <member refid="class_damage_field_trigger_1a1df8a90087068a49346ab7254ddbf1cd" prot="private" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>OnTriggerEnter</name></member>
+      <member refid="class_weapon_1afa5c22658e6121b9a39e3e9936c4ad2d" prot="public" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>playerStats</name></member>
+      <member refid="class_weapon_1ac4df25f5b4036c98320959a73f28e947" prot="public" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>PlayerStatsData</name></member>
+      <member refid="class_weapon_1a4ac4fcc1733a670d99607f52d6160701" prot="public" virt="virtual"><scope>DamageFieldTrigger</scope><name>ReduceLevel</name></member>
+      <member refid="class_weapon_1aa2c6401b0e18582811ac05d70e5c167c" prot="public" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>SetAvailable</name></member>
+      <member refid="class_damage_field_trigger_1a7466f62601fe0dbf9b72e38cfbafa8db" prot="protected" virt="virtual"><scope>DamageFieldTrigger</scope><name>SubscribeToPlayerStats</name></member>
+      <member refid="class_weapon_1afe9d6a5606e4e8bcd65e3f5280269038" prot="public" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>TestAddLevel</name></member>
+      <member refid="class_damage_field_trigger_1a0dc18c2a7337c4949ae7651d4165f64d" prot="protected" virt="virtual"><scope>DamageFieldTrigger</scope><name>UnsubscribeFromPlayerStats</name></member>
+      <member refid="class_damage_field_trigger_1a47bbecc22e90d071af5cc0c644a83042" prot="private" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>Update</name></member>
+      <member refid="class_weapon_1a08149e046d2aa78ee427066886146517" prot="public" virt="non-virtual"><scope>DamageFieldTrigger</scope><name>weaponData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

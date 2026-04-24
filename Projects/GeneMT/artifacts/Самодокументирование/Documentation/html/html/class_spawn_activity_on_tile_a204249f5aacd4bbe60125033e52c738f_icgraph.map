@@ -1,0 +1,7 @@
+<map id="SpawnActivityOnTile.SpawnQuestGiverOfType" name="SpawnActivityOnTile.SpawnQuestGiverOfType">
+<area shape="rect" id="Node000001" title="Spawns QuestGiverOfType." alt="" coords="463,5,650,48"/>
+<area shape="rect" id="Node000002" href="$class_generation.html#a74e1078328d45b8768c86ef5f72d6b9a" title="Adds QuestsToTiles." alt="" coords="220,13,415,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="444,27,416,29,415,24,450,27"/>
+<area shape="rect" id="Node000003" href="$class_generation.html#a0afdceb93ad62b910ee4d733623bec9f" title="Generates Map." alt="" coords="5,13,172,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="202,27,172,29,172,24,207,26"/>
+</map>

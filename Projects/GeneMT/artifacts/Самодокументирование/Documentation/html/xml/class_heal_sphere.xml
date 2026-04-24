@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_heal_sphere" kind="class" language="C#" prot="public">
+    <compoundname>HealSphere</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_heal_sphere_1a2b68cf1b3072f769d6db1685f4a886cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HealSphere.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <qualifiedname>HealSphere.OnTriggerEnter</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/HealSphere.cs" line="10" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/HealSphere.cs" bodystart="10" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_heal_sphere" kindref="compound">HealSphere</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>HealSphere</label>
+        <link refid="class_heal_sphere"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>HealSphere</label>
+        <link refid="class_heal_sphere"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/HealSphere.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/HealSphere.cs" bodystart="9" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_heal_sphere_1a2b68cf1b3072f769d6db1685f4a886cf" prot="private" virt="non-virtual"><scope>HealSphere</scope><name>OnTriggerEnter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

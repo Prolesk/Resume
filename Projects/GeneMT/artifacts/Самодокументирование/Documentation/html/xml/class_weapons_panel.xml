@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_weapons_panel" kind="class" language="C#" prot="public">
+    <compoundname>WeaponsPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_weapons_panel_1a02b78c4af24f745b5e1ae494bfb5d53e" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_weapons_panel" kindref="compound">WeaponsPanel</ref></type>
+        <definition>WeaponsPanel WeaponsPanel.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>WeaponsPanel.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponsUI/WeaponsPanel.cs" line="10" column="32" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponsUI/WeaponsPanel.cs" bodystart="10" bodyend="10"/>
+        <referencedby refid="class_lvl_up_weapon_items_info_1a306762c2d79bcb2554a82c5c85849828" compoundref="_lvl_up_weapon_items_info_8cs" startline="166" endline="241">LvlUpWeaponItemsInfo.SetItemsInfo</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_weapons_panel_1a9a21aedca2daadfc436f3f3edcffa361" prot="public" static="no" mutable="no">
+        <type><ref refid="class_lvl_up_weapon_items_info" kindref="compound">LvlUpWeaponItemsInfo</ref></type>
+        <definition>LvlUpWeaponItemsInfo WeaponsPanel.LvlUpWeaponItemsInfo</definition>
+        <argsstring></argsstring>
+        <name>LvlUpWeaponItemsInfo</name>
+        <qualifiedname>WeaponsPanel.LvlUpWeaponItemsInfo</qualifiedname>
+        <briefdescription>
+<para>The <ref refid="class_lvl_up_weapon_items_info" kindref="compound">LvlUpWeaponItemsInfo</ref> field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponsUI/WeaponsPanel.cs" line="14" column="33" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponsUI/WeaponsPanel.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapons_panel_1acd52c1b7eb2780681b89f2375d5eabc3" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_weapon_data_s_o" kindref="compound">WeaponDataSO</ref> &gt;</type>
+        <definition>List&lt;WeaponDataSO&gt; WeaponsPanel.AllPlayerWeapons</definition>
+        <argsstring></argsstring>
+        <name>AllPlayerWeapons</name>
+        <qualifiedname>WeaponsPanel.AllPlayerWeapons</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponsUI/WeaponsPanel.cs" line="15" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponsUI/WeaponsPanel.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapons_panel_1a29b06ec2606bf83fd4f4c6ed2756ef9c" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_weapon_data_s_o" kindref="compound">WeaponDataSO</ref> &gt;</type>
+        <definition>List&lt;WeaponDataSO&gt; WeaponsPanel.currentPlayerWeapons</definition>
+        <argsstring></argsstring>
+        <name>currentPlayerWeapons</name>
+        <qualifiedname>WeaponsPanel.currentPlayerWeapons</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponsUI/WeaponsPanel.cs" line="16" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponsUI/WeaponsPanel.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_weapons_panel_1ad9412e1cf0ca5729bec07fe4f94670ce" compoundref="_weapons_panel_8cs" startline="38" endline="74">SetWeaponsInfo</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_weapons_panel_1ab5c25742ea54da1835f2f0fc8eba032e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WeaponsPanel.NeedIndex</definition>
+        <argsstring></argsstring>
+        <name>NeedIndex</name>
+        <qualifiedname>WeaponsPanel.NeedIndex</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponsUI/WeaponsPanel.cs" line="18" column="9" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponsUI/WeaponsPanel.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_weapons_panel_1a44927a0999d934227c58cb7500a7b0e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WeaponsPanel.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>WeaponsPanel.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponsUI/WeaponsPanel.cs" line="22" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponsUI/WeaponsPanel.cs" bodystart="22" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_weapons_panel_1ad9412e1cf0ca5729bec07fe4f94670ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WeaponsPanel.SetWeaponsInfo</definition>
+        <argsstring>()</argsstring>
+        <name>SetWeaponsInfo</name>
+        <qualifiedname>WeaponsPanel.SetWeaponsInfo</qualifiedname>
+        <briefdescription>
+<para>Sets the WeaponsInfo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponsUI/WeaponsPanel.cs" line="38" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponsUI/WeaponsPanel.cs" bodystart="38" bodyend="74"/>
+        <references refid="class_weapons_panel_1a29b06ec2606bf83fd4f4c6ed2756ef9c" compoundref="_weapons_panel_8cs" startline="16">currentPlayerWeapons</references>
+        <referencedby refid="class_lvl_up_weapon_items_info_1a306762c2d79bcb2554a82c5c85849828" compoundref="_lvl_up_weapon_items_info_8cs" startline="166" endline="241">LvlUpWeaponItemsInfo.SetItemsInfo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_weapons_panel_1a6f6634c266935b9968b1eaa35f79f04d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WeaponsPanel.ClearWeaponsList</definition>
+        <argsstring>()</argsstring>
+        <name>ClearWeaponsList</name>
+        <qualifiedname>WeaponsPanel.ClearWeaponsList</qualifiedname>
+        <briefdescription>
+<para>Executes the ClearWeaponsList operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponsUI/WeaponsPanel.cs" line="79" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponsUI/WeaponsPanel.cs" bodystart="79" bodyend="85"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_weapons_panel" kindref="compound">WeaponsPanel</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>WeaponsPanel</label>
+        <link refid="class_weapons_panel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>LevelUpController</label>
+        <link refid="class_level_up_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>Instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>LvlUpWeaponItemsInfo</label>
+        <link refid="class_lvl_up_weapon_items_info"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>levelUpController</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>WeaponsPanel</label>
+        <link refid="class_weapons_panel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>LvlUpWeaponItemsInfo</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponsUI/WeaponsPanel.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponsUI/WeaponsPanel.cs" bodystart="9" bodyend="88"/>
+    <listofallmembers>
+      <member refid="class_weapons_panel_1acd52c1b7eb2780681b89f2375d5eabc3" prot="public" virt="non-virtual"><scope>WeaponsPanel</scope><name>AllPlayerWeapons</name></member>
+      <member refid="class_weapons_panel_1a44927a0999d934227c58cb7500a7b0e8" prot="private" virt="non-virtual"><scope>WeaponsPanel</scope><name>Awake</name></member>
+      <member refid="class_weapons_panel_1a6f6634c266935b9968b1eaa35f79f04d" prot="public" virt="non-virtual"><scope>WeaponsPanel</scope><name>ClearWeaponsList</name></member>
+      <member refid="class_weapons_panel_1a29b06ec2606bf83fd4f4c6ed2756ef9c" prot="public" virt="non-virtual"><scope>WeaponsPanel</scope><name>currentPlayerWeapons</name></member>
+      <member refid="class_weapons_panel_1a02b78c4af24f745b5e1ae494bfb5d53e" prot="public" virt="non-virtual"><scope>WeaponsPanel</scope><name>Instance</name></member>
+      <member refid="class_weapons_panel_1a9a21aedca2daadfc436f3f3edcffa361" prot="public" virt="non-virtual"><scope>WeaponsPanel</scope><name>LvlUpWeaponItemsInfo</name></member>
+      <member refid="class_weapons_panel_1ab5c25742ea54da1835f2f0fc8eba032e" prot="private" virt="non-virtual"><scope>WeaponsPanel</scope><name>NeedIndex</name></member>
+      <member refid="class_weapons_panel_1ad9412e1cf0ca5729bec07fe4f94670ce" prot="public" virt="non-virtual"><scope>WeaponsPanel</scope><name>SetWeaponsInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

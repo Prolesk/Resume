@@ -1,0 +1,7 @@
+<map id="AudioManager.SetMasterVolume" name="AudioManager.SetMasterVolume">
+<area shape="rect" id="Node000001" title="Sets the MasterVolume." alt="" coords="265,43,476,69"/>
+<area shape="rect" id="Node000002" href="$class_audio_manager.html#a70a5070acb33543c2b52b61d43a80595" title="Sets the MasterVolumeMixer." alt="" coords="5,5,217,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,43,217,41,217,36,252,42"/>
+<area shape="rect" id="Node000003" href="$class_audio_manager.html#af6d026a547fb9bad6021b4f3c38f86f7" title="Executes the ToggleMute operation." alt="" coords="23,72,199,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="247,70,199,78,199,73,252,69"/>
+</map>

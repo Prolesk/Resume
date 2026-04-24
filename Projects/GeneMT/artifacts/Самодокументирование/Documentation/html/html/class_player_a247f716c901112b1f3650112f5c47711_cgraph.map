@@ -1,0 +1,5 @@
+<map id="Player.TriggerLoose" name="Player.TriggerLoose">
+<area shape="rect" id="Node000001" title="Executes the TriggerLoose operation." alt="" coords="5,13,143,40"/>
+<area shape="rect" id="Node000002" href="$class_game_state_manager.html#a721710229b8ed5218ad08892379e5d63" title=" " alt="" coords="191,5,388,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,24,178,26,172,27,143,29"/>
+</map>

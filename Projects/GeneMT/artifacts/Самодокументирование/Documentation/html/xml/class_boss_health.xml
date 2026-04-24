@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_boss_health" kind="class" language="C#" prot="public">
+    <compoundname>BossHealth</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_boss_health_1a2eb6e1ae852b608b5ea71113d61e73d9" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI BossHealth._name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <qualifiedname>BossHealth._name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" line="13" column="30" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_boss_health_1a0902e9259b14c977ef732449f68b8870" prot="private" static="no" mutable="no">
+        <type><ref refid="class_enemy_h_p" kindref="compound">EnemyHP</ref></type>
+        <definition>EnemyHP BossHealth._health</definition>
+        <argsstring></argsstring>
+        <name>_health</name>
+        <qualifiedname>BossHealth._health</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" line="14" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_boss_health_1ac09b0e8ff1f198d4e85609803182c038" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI BossHealth._healthText</definition>
+        <argsstring></argsstring>
+        <name>_healthText</name>
+        <qualifiedname>BossHealth._healthText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" line="15" column="30" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_boss_health_1a3f10a8ce26adc24858b111c56e72325f" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image BossHealth._healthProgressBarImage</definition>
+        <argsstring></argsstring>
+        <name>_healthProgressBarImage</name>
+        <qualifiedname>BossHealth._healthProgressBarImage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" line="16" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_boss_health_1a7a1796f4edb70c42fee3ad24ba68e2ee" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject BossHealth._portal</definition>
+        <argsstring></argsstring>
+        <name>_portal</name>
+        <qualifiedname>BossHealth._portal</qualifiedname>
+        <briefdescription>
+<para>The _portal field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" line="21" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_boss_health_1a1efb6dbe4c40aaf6110f594d6d85a19f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BossHealth.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>BossHealth.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" line="24" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" bodystart="24" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_boss_health_1a9e4dc5a43e8bb399c5d845b982543c28" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BossHealth.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>BossHealth.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" line="30" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" bodystart="30" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_boss_health_1a21aa0c56cad326cc8652e59ac1cdbe05" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BossHealth.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>BossHealth.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" line="36" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_boss_health_1a6f6a1b3f003341dea1eca8a92dfa65ce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BossHealth.TakeDamage</definition>
+        <argsstring>()</argsstring>
+        <name>TakeDamage</name>
+        <qualifiedname>BossHealth.TakeDamage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" line="41" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" bodystart="41" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_boss_health_1a0192a5056c3f2508b46f96dee6d0a6cc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void BossHealth.EndBossFight</definition>
+        <argsstring>()</argsstring>
+        <name>EndBossFight</name>
+        <qualifiedname>BossHealth.EndBossFight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" line="56" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" bodystart="56" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_boss_health" kindref="compound">BossHealth</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BossHealth</label>
+        <link refid="class_boss_health"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BossHealth</label>
+        <link refid="class_boss_health"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" line="11" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossHealth.cs" bodystart="12" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_boss_health_1a0902e9259b14c977ef732449f68b8870" prot="private" virt="non-virtual"><scope>BossHealth</scope><name>_health</name></member>
+      <member refid="class_boss_health_1a3f10a8ce26adc24858b111c56e72325f" prot="private" virt="non-virtual"><scope>BossHealth</scope><name>_healthProgressBarImage</name></member>
+      <member refid="class_boss_health_1ac09b0e8ff1f198d4e85609803182c038" prot="private" virt="non-virtual"><scope>BossHealth</scope><name>_healthText</name></member>
+      <member refid="class_boss_health_1a2eb6e1ae852b608b5ea71113d61e73d9" prot="private" virt="non-virtual"><scope>BossHealth</scope><name>_name</name></member>
+      <member refid="class_boss_health_1a7a1796f4edb70c42fee3ad24ba68e2ee" prot="public" virt="non-virtual"><scope>BossHealth</scope><name>_portal</name></member>
+      <member refid="class_boss_health_1a0192a5056c3f2508b46f96dee6d0a6cc" prot="private" virt="non-virtual"><scope>BossHealth</scope><name>EndBossFight</name></member>
+      <member refid="class_boss_health_1a21aa0c56cad326cc8652e59ac1cdbe05" prot="private" virt="non-virtual"><scope>BossHealth</scope><name>OnDisable</name></member>
+      <member refid="class_boss_health_1a9e4dc5a43e8bb399c5d845b982543c28" prot="private" virt="non-virtual"><scope>BossHealth</scope><name>OnEnable</name></member>
+      <member refid="class_boss_health_1a1efb6dbe4c40aaf6110f594d6d85a19f" prot="private" virt="non-virtual"><scope>BossHealth</scope><name>Start</name></member>
+      <member refid="class_boss_health_1a6f6a1b3f003341dea1eca8a92dfa65ce" prot="private" virt="non-virtual"><scope>BossHealth</scope><name>TakeDamage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

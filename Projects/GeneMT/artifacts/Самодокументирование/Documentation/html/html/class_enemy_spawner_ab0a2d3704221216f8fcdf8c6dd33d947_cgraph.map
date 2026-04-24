@@ -1,0 +1,6 @@
+<map id="EnemySpawner.SpawnFastMeleeEnemy" name="EnemySpawner.SpawnFastMeleeEnemy">
+<area shape="rect" id="Node000001" title="Spawns FastMeleeEnemy." alt="" coords="5,29,224,72"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="64,28,62,19,71,10,88,5,115,3,143,5,161,13,156,14,142,10,114,8,89,10,74,15,68,21,70,29"/>
+<area shape="rect" id="Node000002" href="$class_enemy_spawner.html#a7f9d3940bf199320404dbcce5c9e818e" title="Gets the RandomEdgePoint." alt="" coords="272,29,489,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,48,259,51,253,51,224,53"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="LvlUpWeaponItemsInfo.SetItemsInfo" name="LvlUpWeaponItemsInfo.SetItemsInfo">
+<area shape="rect" id="Node000001" title="Sets the ItemsInfo." alt="" coords="5,64,187,107"/>
+<area shape="rect" id="Node000002" href="$class_lvl_up_weapon_items_info.html#a45e7d029b995e0635c0f5686490c0487" title="Sets the WeaponList." alt="" coords="249,5,430,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,61,236,51,231,53,188,66"/>
+<area shape="rect" id="Node000003" href="$class_weapons_panel.html#ad9412e1cf0ca5729bec07fe4f94670ce" title="Sets the WeaponsInfo." alt="" coords="235,72,444,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,83,222,85,217,86,188,88"/>
+<area shape="rect" id="Node000004" href="$class_lvl_up_weapon_items_info.html#ab705e74539b42b336d1e919b9091bc44" title="Executes the TransferRandomObjects operation." alt="" coords="235,123,444,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="187,105,236,118,231,119,187,110"/>
+</map>

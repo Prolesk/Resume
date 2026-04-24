@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_player_h_p_view" kind="class" language="C#" prot="public">
+    <compoundname>PlayerHPView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_h_p_view_1a842c1a2e165c5aa97611658dbc2f7f8d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_player_h_p" kindref="compound">PlayerHP</ref></type>
+        <definition>PlayerHP PlayerHPView._health</definition>
+        <argsstring></argsstring>
+        <name>_health</name>
+        <qualifiedname>PlayerHPView._health</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHPView.cs" line="12" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHPView.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_h_p_view_1a4ded114d2b9ffe982042dba87129c7d7" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI PlayerHPView._healthText</definition>
+        <argsstring></argsstring>
+        <name>_healthText</name>
+        <qualifiedname>PlayerHPView._healthText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHPView.cs" line="13" column="30" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHPView.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_h_p_view_1a8570248794a8492eb2c47f6540c1e223" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image PlayerHPView._healthProgressBarImage</definition>
+        <argsstring></argsstring>
+        <name>_healthProgressBarImage</name>
+        <qualifiedname>PlayerHPView._healthProgressBarImage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHPView.cs" line="14" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHPView.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_h_p_view_1a2db763ecedb5c021e915f02ed1cce4c3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHPView.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>PlayerHPView.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHPView.cs" line="17" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHPView.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_h_p_view_1aea6d8ced195fe99861acd4f63731744b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHPView.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>PlayerHPView.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHPView.cs" line="22" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHPView.cs" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_h_p_view_1a62907b00ed74568f35b6e2c1584ef5bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHPView.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>PlayerHPView.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHPView.cs" line="28" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHPView.cs" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_h_p_view_1a4fbb9fd235847b8041e40300e8891693" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHPView.TakeDamage</definition>
+        <argsstring>(float currentHP)</argsstring>
+        <name>TakeDamage</name>
+        <qualifiedname>PlayerHPView.TakeDamage</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>currentHP</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHPView.cs" line="34" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHPView.cs" bodystart="34" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_h_p_view_1aed2809ab21d13355858712e3a11d95a4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHPView.ChangeMaxHPText</definition>
+        <argsstring>(float maxHP)</argsstring>
+        <name>ChangeMaxHPText</name>
+        <qualifiedname>PlayerHPView.ChangeMaxHPText</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>maxHP</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHPView.cs" line="45" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHPView.cs" bodystart="45" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_player_h_p_view" kindref="compound">PlayerHPView</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PlayerHPView</label>
+        <link refid="class_player_h_p_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PlayerHPView</label>
+        <link refid="class_player_h_p_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHPView.cs" line="10" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHPView.cs" bodystart="11" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_player_h_p_view_1a842c1a2e165c5aa97611658dbc2f7f8d" prot="private" virt="non-virtual"><scope>PlayerHPView</scope><name>_health</name></member>
+      <member refid="class_player_h_p_view_1a8570248794a8492eb2c47f6540c1e223" prot="private" virt="non-virtual"><scope>PlayerHPView</scope><name>_healthProgressBarImage</name></member>
+      <member refid="class_player_h_p_view_1a4ded114d2b9ffe982042dba87129c7d7" prot="private" virt="non-virtual"><scope>PlayerHPView</scope><name>_healthText</name></member>
+      <member refid="class_player_h_p_view_1aed2809ab21d13355858712e3a11d95a4" prot="private" virt="non-virtual"><scope>PlayerHPView</scope><name>ChangeMaxHPText</name></member>
+      <member refid="class_player_h_p_view_1a62907b00ed74568f35b6e2c1584ef5bc" prot="private" virt="non-virtual"><scope>PlayerHPView</scope><name>OnDisable</name></member>
+      <member refid="class_player_h_p_view_1aea6d8ced195fe99861acd4f63731744b" prot="private" virt="non-virtual"><scope>PlayerHPView</scope><name>OnEnable</name></member>
+      <member refid="class_player_h_p_view_1a2db763ecedb5c021e915f02ed1cce4c3" prot="private" virt="non-virtual"><scope>PlayerHPView</scope><name>Start</name></member>
+      <member refid="class_player_h_p_view_1a4fbb9fd235847b8041e40300e8891693" prot="private" virt="non-virtual"><scope>PlayerHPView</scope><name>TakeDamage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

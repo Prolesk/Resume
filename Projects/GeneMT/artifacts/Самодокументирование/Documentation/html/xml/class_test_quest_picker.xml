@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_test_quest_picker" kind="class" language="C#" prot="public">
+    <compoundname>TestQuestPicker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_test_quest_picker_1ad9e3beeec77ff57c6ba75537c66569ae" prot="public" static="no" mutable="no">
+        <type><ref refid="class_quest_data" kindref="compound">QuestData</ref></type>
+        <definition>QuestData TestQuestPicker.quest</definition>
+        <argsstring></argsstring>
+        <name>quest</name>
+        <qualifiedname>TestQuestPicker.quest</qualifiedname>
+        <briefdescription>
+<para>The quest field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TestQuestPicker.cs" line="13" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TestQuestPicker.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_test_quest_picker_1ad1200675c86165674563aeca3c098550" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestQuestPicker.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <qualifiedname>TestQuestPicker.OnTriggerEnter</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TestQuestPicker.cs" line="15" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TestQuestPicker.cs" bodystart="15" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_test_quest_picker" kindref="compound">TestQuestPicker</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TestQuestPicker</label>
+        <link refid="class_test_quest_picker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8">
+        <label>EInteractable</label>
+        <link refid="class_e_interactable"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="3">
+        <label>QuestData</label>
+        <link refid="class_quest_data"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>_questGiver</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>QuestGiver</label>
+        <link refid="class_quest_giver"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>QuestSO</label>
+        <link refid="class_quest_s_o"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="5">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>TestQuestPicker</label>
+        <link refid="class_test_quest_picker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>quest</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TestQuestPicker.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TestQuestPicker.cs" bodystart="9" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_test_quest_picker_1ad1200675c86165674563aeca3c098550" prot="private" virt="non-virtual"><scope>TestQuestPicker</scope><name>OnTriggerEnter</name></member>
+      <member refid="class_test_quest_picker_1ad9e3beeec77ff57c6ba75537c66569ae" prot="public" virt="non-virtual"><scope>TestQuestPicker</scope><name>quest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

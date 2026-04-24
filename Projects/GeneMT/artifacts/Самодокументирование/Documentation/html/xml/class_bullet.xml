@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_bullet" kind="class" language="C#" prot="public">
+    <compoundname>Bullet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_bullet_1a6cd7170f42ac9024a42160ce59c17798" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform Bullet.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <qualifiedname>Bullet.target</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" line="11" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_1a57ca0fe70c6448383f315ee426f67074" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Bullet.currentSpeed</definition>
+        <argsstring></argsstring>
+        <name>currentSpeed</name>
+        <qualifiedname>Bullet.currentSpeed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" line="12" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_1a5946569547b465645584a4ef6c58d4d6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Bullet.currentLifetime</definition>
+        <argsstring></argsstring>
+        <name>currentLifetime</name>
+        <qualifiedname>Bullet.currentLifetime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" line="13" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_1af641875ddd54910ba8dd54ae4354aa5d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Bullet.currentDamageType</definition>
+        <argsstring></argsstring>
+        <name>currentDamageType</name>
+        <qualifiedname>Bullet.currentDamageType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" line="14" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_1afe61cdc265217f2eb37f373c2e84c374" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Bullet.currentDamage</definition>
+        <argsstring></argsstring>
+        <name>currentDamage</name>
+        <qualifiedname>Bullet.currentDamage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" line="15" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_1a8846b4bce2fae85afa8c3598c3e91edc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Bullet.hasTarget</definition>
+        <argsstring></argsstring>
+        <name>hasTarget</name>
+        <qualifiedname>Bullet.hasTarget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" line="16" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_1afecfa842024b15521943f649272e813c" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 Bullet.lastDirection</definition>
+        <argsstring></argsstring>
+        <name>lastDirection</name>
+        <qualifiedname>Bullet.lastDirection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" line="17" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_1a2efe4ebae19eb3633a5bc04f0bc0223e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_weapon" kindref="compound">Weapon</ref></type>
+        <definition>Weapon Bullet.sourceWeapon</definition>
+        <argsstring></argsstring>
+        <name>sourceWeapon</name>
+        <qualifiedname>Bullet.sourceWeapon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" line="18" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_bullet_1ac6941e4e535a484e4b3a86b993633572" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Bullet.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>Bullet.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" line="20" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" bodystart="20" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_1a0f662048149d5320581bfe1aff5fa589" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Bullet.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>Bullet.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" line="35" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_1a65a79ccf00fadcca3c2428986935897a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Bullet.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>Bullet.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" line="41" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" bodystart="41" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_1a27b53e0f4f5e3ea744dcb77e25285492" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Bullet.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <qualifiedname>Bullet.OnTriggerEnter</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" line="74" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" bodystart="74" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_1a1a18113cfc13d2675c0ccfec184288bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Bullet.ReturnToPool</definition>
+        <argsstring>()</argsstring>
+        <name>ReturnToPool</name>
+        <qualifiedname>Bullet.ReturnToPool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" line="89" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" bodystart="89" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_1a177dc8dc1360d25472d314daa38c05bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Bullet.ResetBullet</definition>
+        <argsstring>()</argsstring>
+        <name>ResetBullet</name>
+        <qualifiedname>Bullet.ResetBullet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" line="100" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" bodystart="100" bodyend="106"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bullet_1a52dd80e5393c36f022bef8abb9d22457" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Bullet.InitializeBullet</definition>
+        <argsstring>(Transform newTarget, float newSpeed, float newLifetime, int newDamageType, float newDamage, Weapon source=null)</argsstring>
+        <name>InitializeBullet</name>
+        <qualifiedname>Bullet.InitializeBullet</qualifiedname>
+        <param>
+          <type>Transform</type>
+          <declname>newTarget</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>newSpeed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>newLifetime</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newDamageType</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>newDamage</declname>
+        </param>
+        <param>
+          <type><ref refid="class_weapon" kindref="compound">Weapon</ref></type>
+          <declname>source</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Initializes <ref refid="class_bullet" kindref="compound">Bullet</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newTarget</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The newTarget.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newSpeed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The newSpeed.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newLifetime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The newLifetime.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newDamageType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The newDamageType.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newDamage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The newDamage.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The source.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" line="56" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" bodystart="56" bodyend="72"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_bullet" kindref="compound">Bullet</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Bullet</label>
+        <link refid="class_bullet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Bullet</label>
+        <link refid="class_bullet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" line="6" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/Bullet.cs" bodystart="7" bodyend="107"/>
+    <listofallmembers>
+      <member refid="class_bullet_1afe61cdc265217f2eb37f373c2e84c374" prot="private" virt="non-virtual"><scope>Bullet</scope><name>currentDamage</name></member>
+      <member refid="class_bullet_1af641875ddd54910ba8dd54ae4354aa5d" prot="private" virt="non-virtual"><scope>Bullet</scope><name>currentDamageType</name></member>
+      <member refid="class_bullet_1a5946569547b465645584a4ef6c58d4d6" prot="private" virt="non-virtual"><scope>Bullet</scope><name>currentLifetime</name></member>
+      <member refid="class_bullet_1a57ca0fe70c6448383f315ee426f67074" prot="private" virt="non-virtual"><scope>Bullet</scope><name>currentSpeed</name></member>
+      <member refid="class_bullet_1a8846b4bce2fae85afa8c3598c3e91edc" prot="private" virt="non-virtual"><scope>Bullet</scope><name>hasTarget</name></member>
+      <member refid="class_bullet_1a52dd80e5393c36f022bef8abb9d22457" prot="public" virt="non-virtual"><scope>Bullet</scope><name>InitializeBullet</name></member>
+      <member refid="class_bullet_1afecfa842024b15521943f649272e813c" prot="private" virt="non-virtual"><scope>Bullet</scope><name>lastDirection</name></member>
+      <member refid="class_bullet_1a65a79ccf00fadcca3c2428986935897a" prot="private" virt="non-virtual"><scope>Bullet</scope><name>OnDisable</name></member>
+      <member refid="class_bullet_1a0f662048149d5320581bfe1aff5fa589" prot="private" virt="non-virtual"><scope>Bullet</scope><name>OnEnable</name></member>
+      <member refid="class_bullet_1a27b53e0f4f5e3ea744dcb77e25285492" prot="private" virt="non-virtual"><scope>Bullet</scope><name>OnTriggerEnter</name></member>
+      <member refid="class_bullet_1a177dc8dc1360d25472d314daa38c05bc" prot="private" virt="non-virtual"><scope>Bullet</scope><name>ResetBullet</name></member>
+      <member refid="class_bullet_1a1a18113cfc13d2675c0ccfec184288bc" prot="private" virt="non-virtual"><scope>Bullet</scope><name>ReturnToPool</name></member>
+      <member refid="class_bullet_1a2efe4ebae19eb3633a5bc04f0bc0223e" prot="private" virt="non-virtual"><scope>Bullet</scope><name>sourceWeapon</name></member>
+      <member refid="class_bullet_1a6cd7170f42ac9024a42160ce59c17798" prot="private" virt="non-virtual"><scope>Bullet</scope><name>target</name></member>
+      <member refid="class_bullet_1ac6941e4e535a484e4b3a86b993633572" prot="private" virt="non-virtual"><scope>Bullet</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

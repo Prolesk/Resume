@@ -1,0 +1,12 @@
+<map id="WeaponsPanel" name="WeaponsPanel">
+<area shape="rect" id="Node000001" title="The WeaponsPanel class." alt="" coords="5,279,114,305"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="33,5,144,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,46,66,180,62,279,57,278,61,180,81,49"/>
+<area shape="rect" id="Node000003" href="$class_lvl_up_weapon_items_info.html" title="The LvlUpWeaponItemsInfo class." alt="" coords="76,180,233,207"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="96,44,117,107,150,180,145,180,112,109,95,50"/>
+<area shape="rect" id="Node000004" href="$class_level_up_controller.html" title="The LevelUpController class." alt="" coords="126,81,252,108"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="118,39,174,80,169,82,118,44"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="134,219,73,280,70,276,129,217"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="181,121,161,181,156,178,177,125"/>
+<area shape="poly" id="edge6_Node000004_Node000004" title=" " alt="" coords="267,87,278,95,270,102,253,104,251,99,268,97,273,95,267,92"/>
+</map>

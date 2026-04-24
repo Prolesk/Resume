@@ -1,0 +1,585 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_quest_notification" kind="class" language="C#" prot="public">
+    <compoundname>QuestNotification</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_quest_notification_1aa50af957293577a62b11a6b6501381ae" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_quest_notification" kindref="compound">QuestNotification</ref></type>
+        <definition>QuestNotification QuestNotification.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>QuestNotification.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="11" column="37" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="11" bodyend="11"/>
+        <referencedby refid="class_quest_manager_1ab1471bbeb7ffe4bf53b0c66152758f44" compoundref="_quest_manager_8cs" startline="108" endline="125">QuestManager.CancelQuest</referencedby>
+        <referencedby refid="class_quest_manager_1afe709fc19f3a1bbc4e85576820aea006" compoundref="_quest_manager_8cs" startline="131" endline="144">QuestManager.OnQuestProgressUpdated</referencedby>
+        <referencedby refid="class_quest_manager_1a1395a03cb6c72209747309163e62ef6f" compoundref="_quest_manager_8cs" startline="46" endline="61">QuestManager.RegisterQuest</referencedby>
+        <referencedby refid="class_quest_manager_1a2268c6fddc34c70db4d39a20865a7ab2" compoundref="_quest_manager_8cs" startline="89" endline="102">QuestManager.TurnInQuest</referencedby>
+        <referencedby refid="class_quest_manager_1aea24d979636f69fa40f33d064fa54109" compoundref="_quest_manager_8cs" startline="67" endline="83">QuestManager.UnregisterQuest</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_quest_notification_1a46755facfd840615dc0197c07c42917f" prot="private" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform QuestNotification.notificationPanel</definition>
+        <argsstring></argsstring>
+        <name>notificationPanel</name>
+        <qualifiedname>QuestNotification.notificationPanel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="14" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_notification_1a992c43f6ead8e405ac0e074e7f04ce45" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image QuestNotification.backgroundImage</definition>
+        <argsstring></argsstring>
+        <name>backgroundImage</name>
+        <qualifiedname>QuestNotification.backgroundImage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="15" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_notification_1a92613c3b088e5f7c53dc8c8929652057" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI QuestNotification.titleText</definition>
+        <argsstring></argsstring>
+        <name>titleText</name>
+        <qualifiedname>QuestNotification.titleText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="16" column="30" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_notification_1ac3bbe882010532b4f62d5e0fd6469c89" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI QuestNotification.descriptionText</definition>
+        <argsstring></argsstring>
+        <name>descriptionText</name>
+        <qualifiedname>QuestNotification.descriptionText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="17" column="30" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_notification_1a50fae17be6851ea7d3a1bac861f084c2" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image QuestNotification.iconImage</definition>
+        <argsstring></argsstring>
+        <name>iconImage</name>
+        <qualifiedname>QuestNotification.iconImage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="18" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_notification_1a744fbbd7ef2522edc41c71d84a25a774" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float QuestNotification.slideDuration</definition>
+        <argsstring></argsstring>
+        <name>slideDuration</name>
+        <qualifiedname>QuestNotification.slideDuration</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="22" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_notification_1a92220fa12752412286829d2a851bbb66" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float QuestNotification.hideDelay</definition>
+        <argsstring></argsstring>
+        <name>hideDelay</name>
+        <qualifiedname>QuestNotification.hideDelay</qualifiedname>
+        <initializer>= 2.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="23" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_notification_1a0aed305c33df011a32c1bfd8870985b2" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color QuestNotification.acceptedColor</definition>
+        <argsstring></argsstring>
+        <name>acceptedColor</name>
+        <qualifiedname>QuestNotification.acceptedColor</qualifiedname>
+        <initializer>= new Color(0.2f, 0.8f, 0.2f, 0.9f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="26" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_notification_1ac03fdb5daf69d715d1fe834b704d886e" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color QuestNotification.completedColor</definition>
+        <argsstring></argsstring>
+        <name>completedColor</name>
+        <qualifiedname>QuestNotification.completedColor</qualifiedname>
+        <initializer>= new Color(0.9f, 0.9f, 0.2f, 0.9f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="27" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_notification_1a3a5a516f56ab0f8f6740335a2a8d5a1d" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color QuestNotification.turnedInColor</definition>
+        <argsstring></argsstring>
+        <name>turnedInColor</name>
+        <qualifiedname>QuestNotification.turnedInColor</qualifiedname>
+        <initializer>= new Color(0.2f, 0.5f, 1f, 0.9f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="28" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_notification_1ad48640cfff2b607eb5670cbadfc671a1" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color QuestNotification.failedColor</definition>
+        <argsstring></argsstring>
+        <name>failedColor</name>
+        <qualifiedname>QuestNotification.failedColor</qualifiedname>
+        <initializer>= new Color(1f, 0.3f, 0.3f, 0.9f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="29" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_notification_1abcbed0b865d5fb7f218a1e9ecce2de3a" prot="private" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite QuestNotification.acceptedIcon</definition>
+        <argsstring></argsstring>
+        <name>acceptedIcon</name>
+        <qualifiedname>QuestNotification.acceptedIcon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="32" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_notification_1ad65a4905c7d70dd632b0d93d59e3e04b" prot="private" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite QuestNotification.completedIcon</definition>
+        <argsstring></argsstring>
+        <name>completedIcon</name>
+        <qualifiedname>QuestNotification.completedIcon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="33" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_notification_1a76fe02be553a2d2af194c2bd6fde0af7" prot="private" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite QuestNotification.turnedInIcon</definition>
+        <argsstring></argsstring>
+        <name>turnedInIcon</name>
+        <qualifiedname>QuestNotification.turnedInIcon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="34" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_notification_1afee6b0d9124b6109b65647313a223fef" prot="private" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite QuestNotification.failedIcon</definition>
+        <argsstring></argsstring>
+        <name>failedIcon</name>
+        <qualifiedname>QuestNotification.failedIcon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="35" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_notification_1ae1588d0a61505cdb4d05ef3603a574ca" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 QuestNotification.hiddenPosition</definition>
+        <argsstring></argsstring>
+        <name>hiddenPosition</name>
+        <qualifiedname>QuestNotification.hiddenPosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="37" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_notification_1a23ddaea0b2831b397304148a52257d33" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 QuestNotification.shownPosition</definition>
+        <argsstring></argsstring>
+        <name>shownPosition</name>
+        <qualifiedname>QuestNotification.shownPosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="38" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_notification_1ae0f1adfd3c7ccfade9abe260742af3b2" prot="private" static="no" mutable="no">
+        <type>Sequence</type>
+        <definition>Sequence QuestNotification.currentAnimation</definition>
+        <argsstring></argsstring>
+        <name>currentAnimation</name>
+        <qualifiedname>QuestNotification.currentAnimation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="39" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_quest_notification_1a7a05e94fc4621bebd5cf674789584c1e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestNotification.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>QuestNotification.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="41" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="41" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_notification_1ae1e2ae826888b814b50ae125a8726614" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestNotification.ShowNotification</definition>
+        <argsstring>(string title, string description, Color color, Sprite icon)</argsstring>
+        <name>ShowNotification</name>
+        <qualifiedname>QuestNotification.ShowNotification</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>Sprite</type>
+          <declname>icon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="132" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="132" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_notification_1ab3a1bde1d034c7917506374b6dbda8f5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestNotification.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <qualifiedname>QuestNotification.OnDestroy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="190" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="190" bodyend="196"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_quest_notification_1a148ef532c29d8808c84f357f0fa93ada" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestNotification.ShowQuestAccepted</definition>
+        <argsstring>(string questName)</argsstring>
+        <name>ShowQuestAccepted</name>
+        <qualifiedname>QuestNotification.ShowQuestAccepted</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>questName</declname>
+        </param>
+        <briefdescription>
+<para>Shows UI element. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>questName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The questName.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="65" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="65" bodyend="73"/>
+        <referencedby refid="class_quest_manager_1a1395a03cb6c72209747309163e62ef6f" compoundref="_quest_manager_8cs" startline="46" endline="61">QuestManager.RegisterQuest</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_notification_1a87c226bbe820f908e0e893debcfcc368" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestNotification.ShowQuestCompleted</definition>
+        <argsstring>(string questName)</argsstring>
+        <name>ShowQuestCompleted</name>
+        <qualifiedname>QuestNotification.ShowQuestCompleted</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>questName</declname>
+        </param>
+        <briefdescription>
+<para>Shows UI element. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>questName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The questName.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="79" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="79" bodyend="87"/>
+        <referencedby refid="class_quest_manager_1aea24d979636f69fa40f33d064fa54109" compoundref="_quest_manager_8cs" startline="67" endline="83">QuestManager.UnregisterQuest</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_notification_1ad9640c8733a9dcb21f770a691fa497ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestNotification.ShowQuestTurnedIn</definition>
+        <argsstring>(string questName)</argsstring>
+        <name>ShowQuestTurnedIn</name>
+        <qualifiedname>QuestNotification.ShowQuestTurnedIn</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>questName</declname>
+        </param>
+        <briefdescription>
+<para>Shows UI element. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>questName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The questName.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="93" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="93" bodyend="101"/>
+        <referencedby refid="class_quest_manager_1a2268c6fddc34c70db4d39a20865a7ab2" compoundref="_quest_manager_8cs" startline="89" endline="102">QuestManager.TurnInQuest</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_notification_1a4268cda90274fc198cd43dcf7272605a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestNotification.ShowQuestFailed</definition>
+        <argsstring>(string questName)</argsstring>
+        <name>ShowQuestFailed</name>
+        <qualifiedname>QuestNotification.ShowQuestFailed</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>questName</declname>
+        </param>
+        <briefdescription>
+<para>Shows UI element. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>questName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The questName.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="107" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="107" bodyend="115"/>
+        <referencedby refid="class_quest_manager_1ab1471bbeb7ffe4bf53b0c66152758f44" compoundref="_quest_manager_8cs" startline="108" endline="125">QuestManager.CancelQuest</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_notification_1aa2157b58d47f20f3b70bf71782687a5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestNotification.ShowQuestProgress</definition>
+        <argsstring>(string questName, int progress)</argsstring>
+        <name>ShowQuestProgress</name>
+        <qualifiedname>QuestNotification.ShowQuestProgress</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>questName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+<para>Shows UI element. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>questName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The questName.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>progress</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The progress.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="122" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="122" bodyend="130"/>
+        <referencedby refid="class_quest_manager_1afe709fc19f3a1bbc4e85576820aea006" compoundref="_quest_manager_8cs" startline="131" endline="144">QuestManager.OnQuestProgressUpdated</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_notification_1a45c3a5d418b210e3db586b81f1300ded" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestNotification.HideNotification</definition>
+        <argsstring>()</argsstring>
+        <name>HideNotification</name>
+        <qualifiedname>QuestNotification.HideNotification</qualifiedname>
+        <briefdescription>
+<para>Hides UI element. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="178" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="178" bodyend="188"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_quest_notification" kindref="compound">QuestNotification</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>QuestNotification</label>
+        <link refid="class_quest_notification"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>QuestNotification</label>
+        <link refid="class_quest_notification"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestNotification.cs" bodystart="10" bodyend="197"/>
+    <listofallmembers>
+      <member refid="class_quest_notification_1a0aed305c33df011a32c1bfd8870985b2" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>acceptedColor</name></member>
+      <member refid="class_quest_notification_1abcbed0b865d5fb7f218a1e9ecce2de3a" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>acceptedIcon</name></member>
+      <member refid="class_quest_notification_1a7a05e94fc4621bebd5cf674789584c1e" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>Awake</name></member>
+      <member refid="class_quest_notification_1a992c43f6ead8e405ac0e074e7f04ce45" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>backgroundImage</name></member>
+      <member refid="class_quest_notification_1ac03fdb5daf69d715d1fe834b704d886e" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>completedColor</name></member>
+      <member refid="class_quest_notification_1ad65a4905c7d70dd632b0d93d59e3e04b" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>completedIcon</name></member>
+      <member refid="class_quest_notification_1ae0f1adfd3c7ccfade9abe260742af3b2" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>currentAnimation</name></member>
+      <member refid="class_quest_notification_1ac3bbe882010532b4f62d5e0fd6469c89" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>descriptionText</name></member>
+      <member refid="class_quest_notification_1ad48640cfff2b607eb5670cbadfc671a1" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>failedColor</name></member>
+      <member refid="class_quest_notification_1afee6b0d9124b6109b65647313a223fef" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>failedIcon</name></member>
+      <member refid="class_quest_notification_1ae1588d0a61505cdb4d05ef3603a574ca" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>hiddenPosition</name></member>
+      <member refid="class_quest_notification_1a92220fa12752412286829d2a851bbb66" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>hideDelay</name></member>
+      <member refid="class_quest_notification_1a45c3a5d418b210e3db586b81f1300ded" prot="public" virt="non-virtual"><scope>QuestNotification</scope><name>HideNotification</name></member>
+      <member refid="class_quest_notification_1a50fae17be6851ea7d3a1bac861f084c2" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>iconImage</name></member>
+      <member refid="class_quest_notification_1aa50af957293577a62b11a6b6501381ae" prot="public" virt="non-virtual"><scope>QuestNotification</scope><name>Instance</name></member>
+      <member refid="class_quest_notification_1a46755facfd840615dc0197c07c42917f" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>notificationPanel</name></member>
+      <member refid="class_quest_notification_1ab3a1bde1d034c7917506374b6dbda8f5" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>OnDestroy</name></member>
+      <member refid="class_quest_notification_1ae1e2ae826888b814b50ae125a8726614" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>ShowNotification</name></member>
+      <member refid="class_quest_notification_1a23ddaea0b2831b397304148a52257d33" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>shownPosition</name></member>
+      <member refid="class_quest_notification_1a148ef532c29d8808c84f357f0fa93ada" prot="public" virt="non-virtual"><scope>QuestNotification</scope><name>ShowQuestAccepted</name></member>
+      <member refid="class_quest_notification_1a87c226bbe820f908e0e893debcfcc368" prot="public" virt="non-virtual"><scope>QuestNotification</scope><name>ShowQuestCompleted</name></member>
+      <member refid="class_quest_notification_1a4268cda90274fc198cd43dcf7272605a" prot="public" virt="non-virtual"><scope>QuestNotification</scope><name>ShowQuestFailed</name></member>
+      <member refid="class_quest_notification_1aa2157b58d47f20f3b70bf71782687a5f" prot="public" virt="non-virtual"><scope>QuestNotification</scope><name>ShowQuestProgress</name></member>
+      <member refid="class_quest_notification_1ad9640c8733a9dcb21f770a691fa497ed" prot="public" virt="non-virtual"><scope>QuestNotification</scope><name>ShowQuestTurnedIn</name></member>
+      <member refid="class_quest_notification_1a744fbbd7ef2522edc41c71d84a25a774" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>slideDuration</name></member>
+      <member refid="class_quest_notification_1a92613c3b088e5f7c53dc8c8929652057" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>titleText</name></member>
+      <member refid="class_quest_notification_1a3a5a516f56ab0f8f6740335a2a8d5a1d" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>turnedInColor</name></member>
+      <member refid="class_quest_notification_1a76fe02be553a2d2af194c2bd6fde0af7" prot="private" virt="non-virtual"><scope>QuestNotification</scope><name>turnedInIcon</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

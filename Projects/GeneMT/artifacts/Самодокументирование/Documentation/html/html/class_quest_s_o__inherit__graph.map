@@ -1,0 +1,17 @@
+<map id="QuestSO" name="QuestSO">
+<area shape="rect" id="Node000001" title="The QuestSO class." alt="" coords="284,155,359,181"/>
+<area shape="rect" id="Node000004" href="$class_quest_data.html" title="The QuestData class." alt="" coords="280,229,364,256"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="323,195,324,230,319,228,320,199"/>
+<area shape="rect" id="Node000002" href="$class_singleton_scriptable_object-1-g.html" title=" " alt="" coords="220,80,423,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="323,120,324,155,319,153,320,125"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="263,5,380,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="323,45,324,81,319,79,320,50"/>
+<area shape="rect" id="Node000005" href="$class_blood_experiment_quest.html" title="The BloodExperimentQuest class." alt="" coords="5,304,161,331"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="267,263,126,306,124,301,264,259"/>
+<area shape="rect" id="Node000006" href="$class_enemy_killer_quest.html" title="The EnemyKillerQuest class." alt="" coords="185,304,312,331"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="300,266,262,306,260,301,296,268"/>
+<area shape="rect" id="Node000007" href="$class_gather_gas_quest.html" title="The GatherGasQuest class." alt="" coords="335,304,455,331"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="346,265,385,304,380,303,344,270"/>
+<area shape="rect" id="Node000008" href="$class_magic_blizzard_quest.html" title="The MagicBlizzardQuest class." alt="" coords="479,304,618,331"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="376,258,511,303,506,304,375,264"/>
+</map>

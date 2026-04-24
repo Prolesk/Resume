@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_item_reward_info" kind="class" language="C#" prot="public">
+    <compoundname>ItemRewardInfo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_item_reward_info_1a4bb8312d526bbfb599940ea32b4de3b6" prot="public" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; ItemRewardInfo.ItemsList</definition>
+        <argsstring></argsstring>
+        <name>ItemsList</name>
+        <qualifiedname>ItemRewardInfo.ItemsList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" line="14" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_item_reward_info_1a87439f3318a810fde1e251e47252ead3" compoundref="_item_reward_info_8cs" startline="98" endline="201">SetItemsInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_reward_info_1afd5b0b9e81105ca002a285e976722f54" prot="public" static="no" mutable="no">
+        <type><ref refid="_item_type_8cs_1a443f647757dde85043b49343f5cbe66b" kindref="member">ItemType</ref></type>
+        <definition>ItemType ItemRewardInfo._questGiverType</definition>
+        <argsstring></argsstring>
+        <name>_questGiverType</name>
+        <qualifiedname>ItemRewardInfo._questGiverType</qualifiedname>
+        <briefdescription>
+<para>The _questGiverType field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" line="20" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_item_reward_info_1a6719e6b8dc62b41714579f6fa4216104" compoundref="_item_reward_info_8cs" startline="50" endline="93">TransferRandomObjects</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_reward_info_1afbf11125c8f9510bc4f014bf81002a59" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ItemRewardInfo.numberOfCurrentWeaponList</definition>
+        <argsstring></argsstring>
+        <name>numberOfCurrentWeaponList</name>
+        <qualifiedname>ItemRewardInfo.numberOfCurrentWeaponList</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+<para>The numberOfCurrentWeaponList field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" line="29" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_reward_info_1a8bf7b2f32b126e588a48fbbb1b00ef30" prot="public" static="no" mutable="no">
+        <type><ref refid="class_item_controller_s_o" kindref="compound">ItemControllerSO</ref></type>
+        <definition>ItemControllerSO ItemRewardInfo._itemControllerSO</definition>
+        <argsstring></argsstring>
+        <name>_itemControllerSO</name>
+        <qualifiedname>ItemRewardInfo._itemControllerSO</qualifiedname>
+        <briefdescription>
+<para>The _itemControllerSO field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" line="34" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_item_reward_info_1a6719e6b8dc62b41714579f6fa4216104" compoundref="_item_reward_info_8cs" startline="50" endline="93">TransferRandomObjects</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_item_reward_info_1a879fae7d596f91d61a72d5efbc0b907a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref></type>
+        <definition>ItemDataSO ItemRewardInfo._universalItem</definition>
+        <argsstring></argsstring>
+        <name>_universalItem</name>
+        <qualifiedname>ItemRewardInfo._universalItem</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" line="15" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_reward_info_1aabc67ce7b7bc8d03ea500cc2403b3f6e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref></type>
+        <definition>ItemDataSO ItemRewardInfo._specialisedItem</definition>
+        <argsstring></argsstring>
+        <name>_specialisedItem</name>
+        <qualifiedname>ItemRewardInfo._specialisedItem</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" line="16" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_reward_info_1a9454f162a1731b4c8cd9e8d696f2ca6f" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ItemRewardInfo._itemRewardCanvas</definition>
+        <argsstring></argsstring>
+        <name>_itemRewardCanvas</name>
+        <qualifiedname>ItemRewardInfo._itemRewardCanvas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" line="21" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_reward_info_1a7045ad1d307448162878499ba0d4f69b" prot="private" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite ItemRewardInfo.NoItemsSprite</definition>
+        <argsstring></argsstring>
+        <name>NoItemsSprite</name>
+        <qualifiedname>ItemRewardInfo.NoItemsSprite</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" line="23" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_item_reward_info_1a00d22f0a33b661ebfcfd61e608ca8188" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemRewardInfo.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>ItemRewardInfo.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" line="38" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" bodystart="38" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_item_reward_info_1aa71ac9cf738d2be6ebf0e35a9ae17073" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemRewardInfo.OnItemSelected</definition>
+        <argsstring>(ItemDataSO item)</argsstring>
+        <name>OnItemSelected</name>
+        <qualifiedname>ItemRewardInfo.OnItemSelected</qualifiedname>
+        <param>
+          <type><ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" line="203" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" bodystart="203" bodyend="213"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_item_reward_info_1a6719e6b8dc62b41714579f6fa4216104" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemRewardInfo.TransferRandomObjects</definition>
+        <argsstring>()</argsstring>
+        <name>TransferRandomObjects</name>
+        <qualifiedname>ItemRewardInfo.TransferRandomObjects</qualifiedname>
+        <briefdescription>
+<para>Executes the TransferRandomObjects operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" line="50" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" bodystart="50" bodyend="93"/>
+        <references refid="class_item_reward_info_1a8bf7b2f32b126e588a48fbbb1b00ef30" compoundref="_item_reward_info_8cs" startline="34">_itemControllerSO</references>
+        <references refid="class_item_reward_info_1afd5b0b9e81105ca002a285e976722f54" compoundref="_item_reward_info_8cs" startline="20">_questGiverType</references>
+        <referencedby refid="class_item_reward_info_1a87439f3318a810fde1e251e47252ead3" compoundref="_item_reward_info_8cs" startline="98" endline="201">SetItemsInfo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_item_reward_info_1a87439f3318a810fde1e251e47252ead3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemRewardInfo.SetItemsInfo</definition>
+        <argsstring>()</argsstring>
+        <name>SetItemsInfo</name>
+        <qualifiedname>ItemRewardInfo.SetItemsInfo</qualifiedname>
+        <briefdescription>
+<para>Sets the ItemsInfo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" line="98" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" bodystart="98" bodyend="201"/>
+        <references refid="class_item_reward_info_1a4bb8312d526bbfb599940ea32b4de3b6" compoundref="_item_reward_info_8cs" startline="14">ItemsList</references>
+        <references refid="class_item_reward_info_1ae6547a0dfdc9411e1af8799284610a0f" compoundref="_item_reward_info_8cs" startline="218" endline="222">Skip</references>
+        <references refid="class_item_reward_info_1a6719e6b8dc62b41714579f6fa4216104" compoundref="_item_reward_info_8cs" startline="50" endline="93">TransferRandomObjects</references>
+        <referencedby refid="class_item_reward_info_1a5ebe8ce9e761055ce11cbd2aa225a69e" compoundref="_item_reward_info_8cs" startline="228" endline="231">ForceRefreshUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_item_reward_info_1ae6547a0dfdc9411e1af8799284610a0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemRewardInfo.Skip</definition>
+        <argsstring>()</argsstring>
+        <name>Skip</name>
+        <qualifiedname>ItemRewardInfo.Skip</qualifiedname>
+        <briefdescription>
+<para>Executes the Skip operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" line="218" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" bodystart="218" bodyend="222"/>
+        <references refid="class_game_state_manager_1ad6c81ee9ec40a6522bcf47bdc7172b07" compoundref="_game_state_manager_8cs" startline="9" endline="9">GameStateManager.Instance</references>
+        <references refid="class_game_state_manager_1a05c4e25e28a3d356613da753b34386c3" compoundref="_game_state_manager_8cs" startline="125" endline="129">GameStateManager.ResumeGame</references>
+        <referencedby refid="class_item_reward_info_1a87439f3318a810fde1e251e47252ead3" compoundref="_item_reward_info_8cs" startline="98" endline="201">SetItemsInfo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_item_reward_info_1a5ebe8ce9e761055ce11cbd2aa225a69e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemRewardInfo.ForceRefreshUI</definition>
+        <argsstring>()</argsstring>
+        <name>ForceRefreshUI</name>
+        <qualifiedname>ItemRewardInfo.ForceRefreshUI</qualifiedname>
+        <briefdescription>
+<para>Executes the ForceRefreshUI operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" line="228" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" bodystart="228" bodyend="231"/>
+        <references refid="class_item_reward_info_1a87439f3318a810fde1e251e47252ead3" compoundref="_item_reward_info_8cs" startline="98" endline="201">SetItemsInfo</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_item_reward_info" kindref="compound">ItemRewardInfo</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ItemRewardInfo</label>
+        <link refid="class_item_reward_info"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>ItemControllerSO</label>
+        <link refid="class_item_controller_s_o"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ItemRewardInfo</label>
+        <link refid="class_item_reward_info"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_itemControllerSO</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="5">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="4">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" line="11" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemRewardInfo.cs" bodystart="12" bodyend="232"/>
+    <listofallmembers>
+      <member refid="class_item_reward_info_1a8bf7b2f32b126e588a48fbbb1b00ef30" prot="public" virt="non-virtual"><scope>ItemRewardInfo</scope><name>_itemControllerSO</name></member>
+      <member refid="class_item_reward_info_1a9454f162a1731b4c8cd9e8d696f2ca6f" prot="private" virt="non-virtual"><scope>ItemRewardInfo</scope><name>_itemRewardCanvas</name></member>
+      <member refid="class_item_reward_info_1afd5b0b9e81105ca002a285e976722f54" prot="public" virt="non-virtual"><scope>ItemRewardInfo</scope><name>_questGiverType</name></member>
+      <member refid="class_item_reward_info_1aabc67ce7b7bc8d03ea500cc2403b3f6e" prot="private" virt="non-virtual"><scope>ItemRewardInfo</scope><name>_specialisedItem</name></member>
+      <member refid="class_item_reward_info_1a879fae7d596f91d61a72d5efbc0b907a" prot="private" virt="non-virtual"><scope>ItemRewardInfo</scope><name>_universalItem</name></member>
+      <member refid="class_item_reward_info_1a5ebe8ce9e761055ce11cbd2aa225a69e" prot="public" virt="non-virtual"><scope>ItemRewardInfo</scope><name>ForceRefreshUI</name></member>
+      <member refid="class_item_reward_info_1a4bb8312d526bbfb599940ea32b4de3b6" prot="public" virt="non-virtual"><scope>ItemRewardInfo</scope><name>ItemsList</name></member>
+      <member refid="class_item_reward_info_1a7045ad1d307448162878499ba0d4f69b" prot="private" virt="non-virtual"><scope>ItemRewardInfo</scope><name>NoItemsSprite</name></member>
+      <member refid="class_item_reward_info_1afbf11125c8f9510bc4f014bf81002a59" prot="public" virt="non-virtual"><scope>ItemRewardInfo</scope><name>numberOfCurrentWeaponList</name></member>
+      <member refid="class_item_reward_info_1a00d22f0a33b661ebfcfd61e608ca8188" prot="private" virt="non-virtual"><scope>ItemRewardInfo</scope><name>OnEnable</name></member>
+      <member refid="class_item_reward_info_1aa71ac9cf738d2be6ebf0e35a9ae17073" prot="private" virt="non-virtual"><scope>ItemRewardInfo</scope><name>OnItemSelected</name></member>
+      <member refid="class_item_reward_info_1a87439f3318a810fde1e251e47252ead3" prot="public" virt="non-virtual"><scope>ItemRewardInfo</scope><name>SetItemsInfo</name></member>
+      <member refid="class_item_reward_info_1ae6547a0dfdc9411e1af8799284610a0f" prot="public" virt="non-virtual"><scope>ItemRewardInfo</scope><name>Skip</name></member>
+      <member refid="class_item_reward_info_1a6719e6b8dc62b41714579f6fa4216104" prot="public" virt="non-virtual"><scope>ItemRewardInfo</scope><name>TransferRandomObjects</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

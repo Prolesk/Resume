@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_65c899ec4a1cc0335f97f08e01c7c7ed" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsSO</compoundname>
+    <innerfile refid="_mutation_area_s_o_8cs">MutationAreaSO.cs</innerfile>
+    <innerfile refid="_mutation_cooldown_reduction_s_o_8cs">MutationCooldownReductionSO.cs</innerfile>
+    <innerfile refid="_mutation_damage_s_o_8cs">MutationDamageSO.cs</innerfile>
+    <innerfile refid="_mutation_max_h_p_s_o_8cs">MutationMaxHPSO.cs</innerfile>
+    <innerfile refid="_mutation_move_speed_s_o_8cs">MutationMoveSpeedSO.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsSO/"/>
+  </compounddef>
+</doxygen>

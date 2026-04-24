@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_settings" kind="class" language="C#" prot="public">
+    <compoundname>Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_settings_1aa256d72d90e8ea25309c54ce5890c95f" prot="public" static="no" mutable="no">
+        <type>TMP_Dropdown</type>
+        <definition>TMP_Dropdown Settings.resolutionDropdown</definition>
+        <argsstring></argsstring>
+        <name>resolutionDropdown</name>
+        <qualifiedname>Settings.resolutionDropdown</qualifiedname>
+        <briefdescription>
+<para>The resolutionDropdown field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" line="16" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_settings_1a6a6c9a3190e073677da161bb2688da69" compoundref="_settings_8cs" startline="120" endline="151">LoadSettings</referencedby>
+        <referencedby refid="class_settings_1afc56b158420a2185d37a4013c766ce5b" compoundref="_settings_8cs" startline="108" endline="114">SaveSettings</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_settings_1ab728d724d5f24b2116b5662600760dc1" prot="public" static="no" mutable="no">
+        <type>TMP_Dropdown</type>
+        <definition>TMP_Dropdown Settings.qualityDropdown</definition>
+        <argsstring></argsstring>
+        <name>qualityDropdown</name>
+        <qualifiedname>Settings.qualityDropdown</qualifiedname>
+        <briefdescription>
+<para>The qualityDropdown field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" line="20" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_settings_1a6a6c9a3190e073677da161bb2688da69" compoundref="_settings_8cs" startline="120" endline="151">LoadSettings</referencedby>
+        <referencedby refid="class_settings_1afc56b158420a2185d37a4013c766ce5b" compoundref="_settings_8cs" startline="108" endline="114">SaveSettings</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_settings_1a7dcc7ffa38cb1c253b25597a912e4034" prot="public" static="no" mutable="no">
+        <type>Toggle</type>
+        <definition>Toggle Settings.fullscreenToggle</definition>
+        <argsstring></argsstring>
+        <name>fullscreenToggle</name>
+        <qualifiedname>Settings.fullscreenToggle</qualifiedname>
+        <briefdescription>
+<para>The fullscreenToggle field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" line="24" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_settings_1a6a6c9a3190e073677da161bb2688da69" compoundref="_settings_8cs" startline="120" endline="151">LoadSettings</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_settings_1a722a488db5053ea19ec61e6666142579" prot="private" static="no" mutable="no">
+        <type>Resolution[]</type>
+        <definition>Resolution [] Settings.resolutions</definition>
+        <argsstring></argsstring>
+        <name>resolutions</name>
+        <qualifiedname>Settings.resolutions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" line="25" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_settings_1a391d96f3dbdf828df1ed7dd2cd4b70fa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Settings.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>Settings.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" line="27" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" bodystart="27" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_settings_1a01d05ae912e4b8a7b803eebccf432488" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Settings.SetFullscreen</definition>
+        <argsstring>(bool isFullscreen)</argsstring>
+        <name>SetFullscreen</name>
+        <qualifiedname>Settings.SetFullscreen</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isFullscreen</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Fullscreen. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isFullscreen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The isFullscreen.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" line="81" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_1affb5ef6b02746b611ca8a6f1e5516105" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Settings.SetResolution</definition>
+        <argsstring>(int resolutionIndex)</argsstring>
+        <name>SetResolution</name>
+        <qualifiedname>Settings.SetResolution</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>resolutionIndex</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Resolution. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resolutionIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The resolutionIndex.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" line="90" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" bodystart="90" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_1a645bf9526163a42bd85944230b44d2ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Settings.SetQuality</definition>
+        <argsstring>(int qualityIndex)</argsstring>
+        <name>SetQuality</name>
+        <qualifiedname>Settings.SetQuality</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>qualityIndex</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Quality. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>qualityIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The qualityIndex.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" line="100" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_1afc56b158420a2185d37a4013c766ce5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Settings.SaveSettings</definition>
+        <argsstring>()</argsstring>
+        <name>SaveSettings</name>
+        <qualifiedname>Settings.SaveSettings</qualifiedname>
+        <briefdescription>
+<para>Saves data. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" line="108" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" bodystart="108" bodyend="114"/>
+        <references refid="class_settings_1ab728d724d5f24b2116b5662600760dc1" compoundref="_settings_8cs" startline="20">qualityDropdown</references>
+        <references refid="class_settings_1aa256d72d90e8ea25309c54ce5890c95f" compoundref="_settings_8cs" startline="16">resolutionDropdown</references>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_1a6a6c9a3190e073677da161bb2688da69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Settings.LoadSettings</definition>
+        <argsstring>(int currentResolutionIndex)</argsstring>
+        <name>LoadSettings</name>
+        <qualifiedname>Settings.LoadSettings</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>currentResolutionIndex</declname>
+        </param>
+        <briefdescription>
+<para>Loads data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>currentResolutionIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The currentResolutionIndex.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" line="120" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" bodystart="120" bodyend="151"/>
+        <references refid="class_settings_1a7dcc7ffa38cb1c253b25597a912e4034" compoundref="_settings_8cs" startline="24">fullscreenToggle</references>
+        <references refid="class_settings_1ab728d724d5f24b2116b5662600760dc1" compoundref="_settings_8cs" startline="20">qualityDropdown</references>
+        <references refid="class_settings_1aa256d72d90e8ea25309c54ce5890c95f" compoundref="_settings_8cs" startline="16">resolutionDropdown</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_settings" kindref="compound">Settings</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Settings</label>
+        <link refid="class_settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Settings</label>
+        <link refid="class_settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" line="11" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Settings.cs" bodystart="12" bodyend="152"/>
+    <listofallmembers>
+      <member refid="class_settings_1a7dcc7ffa38cb1c253b25597a912e4034" prot="public" virt="non-virtual"><scope>Settings</scope><name>fullscreenToggle</name></member>
+      <member refid="class_settings_1a6a6c9a3190e073677da161bb2688da69" prot="public" virt="non-virtual"><scope>Settings</scope><name>LoadSettings</name></member>
+      <member refid="class_settings_1ab728d724d5f24b2116b5662600760dc1" prot="public" virt="non-virtual"><scope>Settings</scope><name>qualityDropdown</name></member>
+      <member refid="class_settings_1aa256d72d90e8ea25309c54ce5890c95f" prot="public" virt="non-virtual"><scope>Settings</scope><name>resolutionDropdown</name></member>
+      <member refid="class_settings_1a722a488db5053ea19ec61e6666142579" prot="private" virt="non-virtual"><scope>Settings</scope><name>resolutions</name></member>
+      <member refid="class_settings_1afc56b158420a2185d37a4013c766ce5b" prot="public" virt="non-virtual"><scope>Settings</scope><name>SaveSettings</name></member>
+      <member refid="class_settings_1a01d05ae912e4b8a7b803eebccf432488" prot="public" virt="non-virtual"><scope>Settings</scope><name>SetFullscreen</name></member>
+      <member refid="class_settings_1a645bf9526163a42bd85944230b44d2ef" prot="public" virt="non-virtual"><scope>Settings</scope><name>SetQuality</name></member>
+      <member refid="class_settings_1affb5ef6b02746b611ca8a6f1e5516105" prot="public" virt="non-virtual"><scope>Settings</scope><name>SetResolution</name></member>
+      <member refid="class_settings_1a391d96f3dbdf828df1ed7dd2cd4b70fa" prot="private" virt="non-virtual"><scope>Settings</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

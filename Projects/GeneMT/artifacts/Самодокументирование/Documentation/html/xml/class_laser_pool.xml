@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_laser_pool" kind="class" language="C#" prot="public">
+    <compoundname>LaserPool</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_laser_pool_1a2a8ba5b998cf7099d1105e89222dbca4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LaserPool.initialPoolSize</definition>
+        <argsstring></argsstring>
+        <name>initialPoolSize</name>
+        <qualifiedname>LaserPool.initialPoolSize</qualifiedname>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" line="10" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_pool_1ab8f2f9c6e96a9baed17aaec39f14303e" prot="private" static="no" mutable="no">
+        <type>Queue&lt; <ref refid="class_laser_beam" kindref="compound">LaserBeam</ref> &gt;</type>
+        <definition>Queue&lt;LaserBeam&gt; LaserPool.laserPool</definition>
+        <argsstring></argsstring>
+        <name>laserPool</name>
+        <qualifiedname>LaserPool.laserPool</qualifiedname>
+        <initializer>= new Queue&lt;<ref refid="class_laser_beam" kindref="compound">LaserBeam</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" line="13" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_pool_1a61d2d11d3c246e3d25a2c00e3411c75a" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_laser_beam" kindref="compound">LaserBeam</ref> &gt;</type>
+        <definition>List&lt;LaserBeam&gt; LaserPool.allLasers</definition>
+        <argsstring></argsstring>
+        <name>allLasers</name>
+        <qualifiedname>LaserPool.allLasers</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_laser_beam" kindref="compound">LaserBeam</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" line="14" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_laser_pool_1ab48fd796f75db8d62be6a938f1d8bb5e" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_laser_pool" kindref="compound">LaserPool</ref></type>
+        <definition>LaserPool LaserPool.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>LaserPool.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" line="16" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" bodystart="16" bodyend="16"/>
+        <referencedby refid="class_laser_1a224f3532761149816549ba1edff2ad84" compoundref="_laser_8cs" startline="207" endline="215">Laser.OnLaserFinished</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_laser_pool_1ad0301346f9d009b970efc8722715b5ba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LaserPool.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>LaserPool.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" line="18" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" bodystart="18" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_pool_1af1576f1f851671f12be43cdac1286b43" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LaserPool.InitializePool</definition>
+        <argsstring>()</argsstring>
+        <name>InitializePool</name>
+        <qualifiedname>LaserPool.InitializePool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" line="31" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_pool_1acdca1c29698eb9c891da1bef7cce04e5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LaserPool.ExpandPool</definition>
+        <argsstring>(int count)</argsstring>
+        <name>ExpandPool</name>
+        <qualifiedname>LaserPool.ExpandPool</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" line="36" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" bodystart="36" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_pool_1a8381ab2d8f326279eca1d6b7d6da0aca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LaserPool.CreateNewLaser</definition>
+        <argsstring>()</argsstring>
+        <name>CreateNewLaser</name>
+        <qualifiedname>LaserPool.CreateNewLaser</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" line="44" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" bodystart="44" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_pool_1a783fa4a8754f8554820099ca3d7952e3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LaserPool.CleanPool</definition>
+        <argsstring>()</argsstring>
+        <name>CleanPool</name>
+        <qualifiedname>LaserPool.CleanPool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" line="124" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" bodystart="124" bodyend="139"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_laser_pool_1ace1cd53211ae87232c4bdc889d96215d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_laser_beam" kindref="compound">LaserBeam</ref></type>
+        <definition>LaserBeam LaserPool.GetLaser</definition>
+        <argsstring>(float length, float lifetime, float damage, Material material, float area, Laser source, Vector3 startPos, Vector3 targetPos)</argsstring>
+        <name>GetLaser</name>
+        <qualifiedname>LaserPool.GetLaser</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lifetime</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>damage</declname>
+        </param>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>area</declname>
+        </param>
+        <param>
+          <type><ref refid="class_laser" kindref="compound">Laser</ref></type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>startPos</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>targetPos</declname>
+        </param>
+        <briefdescription>
+<para>Gets the <ref refid="class_laser" kindref="compound">Laser</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The length.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lifetime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The lifetime.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>damage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The damage.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>material</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The material.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>area</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The area.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The source.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startPos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The startPos.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>targetPos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The targetPos.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The result as <ref refid="class_laser_beam" kindref="compound">LaserBeam</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" line="73" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" bodystart="73" bodyend="102"/>
+        <references refid="class_laser_beam_1ae22aee42ea06be34d6696f49d2681f48" compoundref="_laser_beam_8cs" startline="67" endline="88">LaserBeam.Initialize</references>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_pool_1adcc6d6c567957654a96ce8635f9d803c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LaserPool.ReturnLaser</definition>
+        <argsstring>(LaserBeam laserBeam)</argsstring>
+        <name>ReturnLaser</name>
+        <qualifiedname>LaserPool.ReturnLaser</qualifiedname>
+        <param>
+          <type><ref refid="class_laser_beam" kindref="compound">LaserBeam</ref></type>
+          <declname>laserBeam</declname>
+        </param>
+        <briefdescription>
+<para>Executes the ReturnLaser operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>laserBeam</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The laserBeam.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" line="108" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" bodystart="108" bodyend="122"/>
+        <referencedby refid="class_laser_1a224f3532761149816549ba1edff2ad84" compoundref="_laser_8cs" startline="207" endline="215">Laser.OnLaserFinished</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_laser_pool" kindref="compound">LaserPool</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>LaserPool</label>
+        <link refid="class_laser_pool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>LaserPool</label>
+        <link refid="class_laser_pool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" line="7" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserPool.cs" bodystart="8" bodyend="140"/>
+    <listofallmembers>
+      <member refid="class_laser_pool_1a61d2d11d3c246e3d25a2c00e3411c75a" prot="private" virt="non-virtual"><scope>LaserPool</scope><name>allLasers</name></member>
+      <member refid="class_laser_pool_1ad0301346f9d009b970efc8722715b5ba" prot="private" virt="non-virtual"><scope>LaserPool</scope><name>Awake</name></member>
+      <member refid="class_laser_pool_1a783fa4a8754f8554820099ca3d7952e3" prot="private" virt="non-virtual"><scope>LaserPool</scope><name>CleanPool</name></member>
+      <member refid="class_laser_pool_1a8381ab2d8f326279eca1d6b7d6da0aca" prot="private" virt="non-virtual"><scope>LaserPool</scope><name>CreateNewLaser</name></member>
+      <member refid="class_laser_pool_1acdca1c29698eb9c891da1bef7cce04e5" prot="private" virt="non-virtual"><scope>LaserPool</scope><name>ExpandPool</name></member>
+      <member refid="class_laser_pool_1ace1cd53211ae87232c4bdc889d96215d" prot="public" virt="non-virtual"><scope>LaserPool</scope><name>GetLaser</name></member>
+      <member refid="class_laser_pool_1af1576f1f851671f12be43cdac1286b43" prot="private" virt="non-virtual"><scope>LaserPool</scope><name>InitializePool</name></member>
+      <member refid="class_laser_pool_1a2a8ba5b998cf7099d1105e89222dbca4" prot="private" virt="non-virtual"><scope>LaserPool</scope><name>initialPoolSize</name></member>
+      <member refid="class_laser_pool_1ab48fd796f75db8d62be6a938f1d8bb5e" prot="public" virt="non-virtual"><scope>LaserPool</scope><name>Instance</name></member>
+      <member refid="class_laser_pool_1ab8f2f9c6e96a9baed17aaec39f14303e" prot="private" virt="non-virtual"><scope>LaserPool</scope><name>laserPool</name></member>
+      <member refid="class_laser_pool_1adcc6d6c567957654a96ce8635f9d803c" prot="public" virt="non-virtual"><scope>LaserPool</scope><name>ReturnLaser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

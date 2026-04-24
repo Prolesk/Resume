@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_notification_data" kind="class" language="C#" prot="public">
+    <compoundname>NotificationData</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_notification_data_1a6214ef707466d0209bf738438c3e1118" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string NotificationData.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <qualifiedname>NotificationData.title</qualifiedname>
+        <briefdescription>
+<para>The title field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="236" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="236" bodyend="-1"/>
+        <referencedby refid="class_notification_data_1ad8929073161b8a968c3f1031dba607f0" compoundref="_universal_notification_8cs" startline="255" endline="259">NotificationData</referencedby>
+        <referencedby refid="class_notification_data_1a80023f5b25cb01cf525c663de78d8ade" compoundref="_universal_notification_8cs" startline="268" endline="274">NotificationData</referencedby>
+        <referencedby refid="class_universal_notification_1aa55526c14cf1e9d97f15b01842e03c83" compoundref="_universal_notification_8cs" startline="54" endline="62">UniversalNotification.ShowNotification</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_notification_data_1a86bbadfdd86bcc851d8f1381e4bc9134" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string NotificationData.description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <qualifiedname>NotificationData.description</qualifiedname>
+        <briefdescription>
+<para>The description field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="240" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="240" bodyend="-1"/>
+        <referencedby refid="class_notification_data_1ad8929073161b8a968c3f1031dba607f0" compoundref="_universal_notification_8cs" startline="255" endline="259">NotificationData</referencedby>
+        <referencedby refid="class_notification_data_1a80023f5b25cb01cf525c663de78d8ade" compoundref="_universal_notification_8cs" startline="268" endline="274">NotificationData</referencedby>
+        <referencedby refid="class_universal_notification_1aa55526c14cf1e9d97f15b01842e03c83" compoundref="_universal_notification_8cs" startline="54" endline="62">UniversalNotification.ShowNotification</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_notification_data_1afad0f28b45b4a899684275de22df2f7d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NotificationData.showDuration</definition>
+        <argsstring></argsstring>
+        <name>showDuration</name>
+        <qualifiedname>NotificationData.showDuration</qualifiedname>
+        <initializer>= 2.5f</initializer>
+        <briefdescription>
+<para>The showDuration field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="244" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="244" bodyend="-1"/>
+        <referencedby refid="class_notification_data_1a80023f5b25cb01cf525c663de78d8ade" compoundref="_universal_notification_8cs" startline="268" endline="274">NotificationData</referencedby>
+        <referencedby refid="class_universal_notification_1aa55526c14cf1e9d97f15b01842e03c83" compoundref="_universal_notification_8cs" startline="54" endline="62">UniversalNotification.ShowNotification</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_notification_data_1a35ac36620e3d9c080ac4ee78f8960438" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool NotificationData.autoHide</definition>
+        <argsstring></argsstring>
+        <name>autoHide</name>
+        <qualifiedname>NotificationData.autoHide</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>The autoHide field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="248" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="248" bodyend="-1"/>
+        <referencedby refid="class_notification_data_1a80023f5b25cb01cf525c663de78d8ade" compoundref="_universal_notification_8cs" startline="268" endline="274">NotificationData</referencedby>
+        <referencedby refid="class_universal_notification_1aa55526c14cf1e9d97f15b01842e03c83" compoundref="_universal_notification_8cs" startline="54" endline="62">UniversalNotification.ShowNotification</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_notification_data_1ad8929073161b8a968c3f1031dba607f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NotificationData.NotificationData</definition>
+        <argsstring>(string title, string description)</argsstring>
+        <name>NotificationData</name>
+        <qualifiedname>NotificationData.NotificationData</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+<para>Executes the <ref refid="class_notification_data" kindref="compound">NotificationData</ref> operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>description</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The description.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="255" column="12" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="255" bodyend="259"/>
+        <references refid="class_notification_data_1a86bbadfdd86bcc851d8f1381e4bc9134" compoundref="_universal_notification_8cs" startline="240">description</references>
+        <references refid="class_notification_data_1a6214ef707466d0209bf738438c3e1118" compoundref="_universal_notification_8cs" startline="236">title</references>
+      </memberdef>
+      <memberdef kind="function" id="class_notification_data_1a80023f5b25cb01cf525c663de78d8ade" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NotificationData.NotificationData</definition>
+        <argsstring>(string title, string description, float showDuration, bool autoHide)</argsstring>
+        <name>NotificationData</name>
+        <qualifiedname>NotificationData.NotificationData</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>showDuration</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>autoHide</declname>
+        </param>
+        <briefdescription>
+<para>Executes the <ref refid="class_notification_data" kindref="compound">NotificationData</ref> operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>description</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The description.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>showDuration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The showDuration.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>autoHide</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The autoHide.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="268" column="12" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="268" bodyend="274"/>
+        <references refid="class_notification_data_1a35ac36620e3d9c080ac4ee78f8960438" compoundref="_universal_notification_8cs" startline="248">autoHide</references>
+        <references refid="class_notification_data_1a86bbadfdd86bcc851d8f1381e4bc9134" compoundref="_universal_notification_8cs" startline="240">description</references>
+        <references refid="class_notification_data_1afad0f28b45b4a899684275de22df2f7d" compoundref="_universal_notification_8cs" startline="244">showDuration</references>
+        <references refid="class_notification_data_1a6214ef707466d0209bf738438c3e1118" compoundref="_universal_notification_8cs" startline="236">title</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_notification_data" kindref="compound">NotificationData</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="231" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="232" bodyend="275"/>
+    <listofallmembers>
+      <member refid="class_notification_data_1a35ac36620e3d9c080ac4ee78f8960438" prot="public" virt="non-virtual"><scope>NotificationData</scope><name>autoHide</name></member>
+      <member refid="class_notification_data_1a86bbadfdd86bcc851d8f1381e4bc9134" prot="public" virt="non-virtual"><scope>NotificationData</scope><name>description</name></member>
+      <member refid="class_notification_data_1ad8929073161b8a968c3f1031dba607f0" prot="public" virt="non-virtual"><scope>NotificationData</scope><name>NotificationData</name></member>
+      <member refid="class_notification_data_1a80023f5b25cb01cf525c663de78d8ade" prot="public" virt="non-virtual"><scope>NotificationData</scope><name>NotificationData</name></member>
+      <member refid="class_notification_data_1afad0f28b45b4a899684275de22df2f7d" prot="public" virt="non-virtual"><scope>NotificationData</scope><name>showDuration</name></member>
+      <member refid="class_notification_data_1a6214ef707466d0209bf738438c3e1118" prot="public" virt="non-virtual"><scope>NotificationData</scope><name>title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

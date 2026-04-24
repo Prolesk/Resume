@@ -1,0 +1,12 @@
+<map id="PlayerHP.Damage" name="PlayerHP.Damage">
+<area shape="rect" id="Node000001" title="Applies damage." alt="" coords="5,81,134,108"/>
+<area shape="rect" id="Node000002" href="$class_audio_manager.html#a17e851a2b8b630428424fa4533ba19c8" title="Plays animation or sound." alt="" coords="210,5,362,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,78,181,42,208,35,203,38,183,46,99,83"/>
+<area shape="rect" id="Node000003" href="$class_audio_manager.html#ac9614e62cc317d8d60399bfc00617546" title="Resets MusicPitch." alt="" coords="182,56,390,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="133,85,168,82,164,85,135,90"/>
+<area shape="rect" id="Node000004" href="$class_audio_manager.html#afaea7cecdb292c3ba0ccf8ab8a3f18fd" title="Sets the MusicPitch." alt="" coords="438,81,631,108"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="134,92,423,92,421,97,134,97"/>
+<area shape="rect" id="Node000005" href="$class_player_hit_effect.html#a23d9d5e337a9deadf3bd0f0f490ba49b" title="Executes the TakeHit operation." alt="" coords="207,157,365,184"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="104,106,183,136,225,152,220,152,181,141,104,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="390,77,425,83,420,84,391,83"/>
+</map>

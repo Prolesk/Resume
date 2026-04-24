@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_transition_manager" kind="class" language="C#" prot="public">
+    <compoundname>TransitionManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_transition_manager_1aac7c98df529819401bab3dc4ebfd894e" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_transition_manager" kindref="compound">TransitionManager</ref></type>
+        <definition>TransitionManager TransitionManager.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>TransitionManager.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/TransitionManager.cs" line="13" column="37" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/TransitionManager.cs" bodystart="13" bodyend="13"/>
+        <referencedby refid="class_quest_giver_1a969ad607369c939921780414df7e4056" compoundref="_quest_giver_8cs" startline="111" endline="160">QuestGiver.Interact</referencedby>
+        <referencedby refid="class_menu_1a89c08f92cd5cc738e6e4f4e0b492d485" compoundref="_menu_8cs" startline="20" endline="23">Menu.QuitGame</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_transition_manager_1a21d1dd0dd060b7a765ea34672bbd92b8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransitionManager.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>TransitionManager.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/TransitionManager.cs" line="15" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/TransitionManager.cs" bodystart="15" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_transition_manager_1ac9f7fcaa4e03ce6dfdcefddc6e19f3ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransitionManager.TransitPlayerToNextLevel</definition>
+        <argsstring>()</argsstring>
+        <name>TransitPlayerToNextLevel</name>
+        <qualifiedname>TransitionManager.TransitPlayerToNextLevel</qualifiedname>
+        <briefdescription>
+<para>Executes the TransitPlayerToNextLevel operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/TransitionManager.cs" line="30" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/TransitionManager.cs" bodystart="30" bodyend="33"/>
+        <references refid="class_transition_manager_1a07ace306d8e06a65104a52ea9240260c" compoundref="_transition_manager_8cs" startline="38" endline="91">TransitPlayerToLevel</references>
+        <referencedby refid="class_quest_giver_1a969ad607369c939921780414df7e4056" compoundref="_quest_giver_8cs" startline="111" endline="160">QuestGiver.Interact</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_transition_manager_1a07ace306d8e06a65104a52ea9240260c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransitionManager.TransitPlayerToLevel</definition>
+        <argsstring>(int i)</argsstring>
+        <name>TransitPlayerToLevel</name>
+        <qualifiedname>TransitionManager.TransitPlayerToLevel</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Executes the TransitPlayerToLevel operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The i.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/TransitionManager.cs" line="38" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/TransitionManager.cs" bodystart="38" bodyend="91"/>
+        <references refid="class_quest_manager_1ad53c3722c53e017b28f77ff42bc6c1ce" compoundref="_quest_manager_8cs" startline="14">QuestManager.activeQuests</references>
+        <references refid="class_quest_manager_1ab1471bbeb7ffe4bf53b0c66152758f44" compoundref="_quest_manager_8cs" startline="108" endline="125">QuestManager.CancelQuest</references>
+        <references refid="class_quest_manager_1a7bce441bd9d913a6614f2ee67a4f6a09" compoundref="_quest_manager_8cs" startline="13">QuestManager.completedQuests</references>
+        <references refid="class_enemy_pool_list_1ae8b1de7e21047ee017c8a7ec482628b0" compoundref="_enemy_pool_list_8cs" startline="32" endline="38">EnemyPoolList.EnquePools</references>
+        <references refid="class_game_state_manager_1ad6c81ee9ec40a6522bcf47bdc7172b07" compoundref="_game_state_manager_8cs" startline="9" endline="9">GameStateManager.Instance</references>
+        <references refid="class_quest_manager_1a8e1cd09cf2af8f04d6854f0b54d8b0bf" compoundref="_quest_manager_8cs" startline="11">QuestManager.Instance</references>
+        <references refid="class_enemy_pool_list_1a70df750ffd21fdbdc900b1702237a9f1" compoundref="_enemy_pool_list_8cs" startline="11">EnemyPoolList.instance</references>
+        <references refid="class_game_state_manager_1afd4ba1ca38a29fc5c327abce10051b27" compoundref="_game_state_manager_8cs" startline="11" endline="11">GameStateManager.IsPaused</references>
+        <references refid="class_game_state_manager_1a05c4e25e28a3d356613da753b34386c3" compoundref="_game_state_manager_8cs" startline="125" endline="129">GameStateManager.ResumeGame</references>
+        <referencedby refid="class_menu_1a89c08f92cd5cc738e6e4f4e0b492d485" compoundref="_menu_8cs" startline="20" endline="23">Menu.QuitGame</referencedby>
+        <referencedby refid="class_transition_manager_1ac9f7fcaa4e03ce6dfdcefddc6e19f3ca" compoundref="_transition_manager_8cs" startline="30" endline="33">TransitPlayerToNextLevel</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_transition_manager" kindref="compound">TransitionManager</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TransitionManager</label>
+        <link refid="class_transition_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TransitionManager</label>
+        <link refid="class_transition_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/TransitionManager.cs" line="10" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/TransitionManager.cs" bodystart="11" bodyend="93"/>
+    <listofallmembers>
+      <member refid="class_transition_manager_1a21d1dd0dd060b7a765ea34672bbd92b8" prot="private" virt="non-virtual"><scope>TransitionManager</scope><name>Awake</name></member>
+      <member refid="class_transition_manager_1aac7c98df529819401bab3dc4ebfd894e" prot="public" virt="non-virtual"><scope>TransitionManager</scope><name>Instance</name></member>
+      <member refid="class_transition_manager_1a07ace306d8e06a65104a52ea9240260c" prot="public" virt="non-virtual"><scope>TransitionManager</scope><name>TransitPlayerToLevel</name></member>
+      <member refid="class_transition_manager_1ac9f7fcaa4e03ce6dfdcefddc6e19f3ca" prot="public" virt="non-virtual"><scope>TransitionManager</scope><name>TransitPlayerToNextLevel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

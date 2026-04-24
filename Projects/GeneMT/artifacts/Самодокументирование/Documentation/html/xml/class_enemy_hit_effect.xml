@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_enemy_hit_effect" kind="class" language="C#" prot="public">
+    <compoundname>EnemyHitEffect</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_enemy_hit_effect_1a2506de778031beb1710e3b12791312ec" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color EnemyHitEffect.hitColor</definition>
+        <argsstring></argsstring>
+        <name>hitColor</name>
+        <qualifiedname>EnemyHitEffect.hitColor</qualifiedname>
+        <initializer>= Color.red</initializer>
+        <briefdescription>
+<para>The hitColor field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" line="13" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_hit_effect_1a4646ed3a5c88b0d65ec9b6cc16411183" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyHitEffect.flashDuration</definition>
+        <argsstring></argsstring>
+        <name>flashDuration</name>
+        <qualifiedname>EnemyHitEffect.flashDuration</qualifiedname>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+<para>The flashDuration field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" line="17" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_enemy_hit_effect_1a12833fa7de9b01411fabfc6684a90e7c" prot="private" static="no" mutable="no">
+        <type>Renderer[]</type>
+        <definition>Renderer [] EnemyHitEffect.renderers</definition>
+        <argsstring></argsstring>
+        <name>renderers</name>
+        <qualifiedname>EnemyHitEffect.renderers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" line="19" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_hit_effect_1ae03039220934b5d33999334f2bce04bb" prot="private" static="no" mutable="no">
+        <type>Coroutine</type>
+        <definition>Coroutine EnemyHitEffect.flashCoroutine</definition>
+        <argsstring></argsstring>
+        <name>flashCoroutine</name>
+        <qualifiedname>EnemyHitEffect.flashCoroutine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" line="20" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_enemy_hit_effect_1aff84256ac25434cc828c4b6f29734099" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyHitEffect.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>EnemyHitEffect.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" line="22" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" bodystart="22" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_hit_effect_1a40042fe7878494572779aa5a08ead12d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator EnemyHitEffect.FlashOnce</definition>
+        <argsstring>()</argsstring>
+        <name>FlashOnce</name>
+        <qualifiedname>EnemyHitEffect.FlashOnce</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" line="46" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" bodystart="46" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_hit_effect_1a5ceeb3c6f2e2e04485e6a83675efa389" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyHitEffect.SetColorToRed</definition>
+        <argsstring>()</argsstring>
+        <name>SetColorToRed</name>
+        <qualifiedname>EnemyHitEffect.SetColorToRed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" line="61" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" bodystart="61" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_hit_effect_1a326abfb2f6c44d9e644072deb0b67fae" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyHitEffect.SetColorToOriginal</definition>
+        <argsstring>()</argsstring>
+        <name>SetColorToOriginal</name>
+        <qualifiedname>EnemyHitEffect.SetColorToOriginal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" line="75" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" bodystart="75" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_hit_effect_1a0417eb89ff3d0cbcdce8de4cd67f9de6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyHitEffect.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>EnemyHitEffect.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" line="84" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" bodystart="84" bodyend="92"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_enemy_hit_effect_1a3cb373940e4a54a0d8918128d22203c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyHitEffect.TakeHit</definition>
+        <argsstring>()</argsstring>
+        <name>TakeHit</name>
+        <qualifiedname>EnemyHitEffect.TakeHit</qualifiedname>
+        <briefdescription>
+<para>Executes the TakeHit operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" line="35" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" bodystart="35" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_enemy_hit_effect" kindref="compound">EnemyHitEffect</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EnemyHitEffect</label>
+        <link refid="class_enemy_hit_effect"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EnemyHitEffect</label>
+        <link refid="class_enemy_hit_effect"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" line="7" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHitEffect.cs" bodystart="8" bodyend="93"/>
+    <listofallmembers>
+      <member refid="class_enemy_hit_effect_1aff84256ac25434cc828c4b6f29734099" prot="private" virt="non-virtual"><scope>EnemyHitEffect</scope><name>Awake</name></member>
+      <member refid="class_enemy_hit_effect_1ae03039220934b5d33999334f2bce04bb" prot="private" virt="non-virtual"><scope>EnemyHitEffect</scope><name>flashCoroutine</name></member>
+      <member refid="class_enemy_hit_effect_1a4646ed3a5c88b0d65ec9b6cc16411183" prot="public" virt="non-virtual"><scope>EnemyHitEffect</scope><name>flashDuration</name></member>
+      <member refid="class_enemy_hit_effect_1a40042fe7878494572779aa5a08ead12d" prot="private" virt="non-virtual"><scope>EnemyHitEffect</scope><name>FlashOnce</name></member>
+      <member refid="class_enemy_hit_effect_1a2506de778031beb1710e3b12791312ec" prot="public" virt="non-virtual"><scope>EnemyHitEffect</scope><name>hitColor</name></member>
+      <member refid="class_enemy_hit_effect_1a0417eb89ff3d0cbcdce8de4cd67f9de6" prot="private" virt="non-virtual"><scope>EnemyHitEffect</scope><name>OnDisable</name></member>
+      <member refid="class_enemy_hit_effect_1a12833fa7de9b01411fabfc6684a90e7c" prot="private" virt="non-virtual"><scope>EnemyHitEffect</scope><name>renderers</name></member>
+      <member refid="class_enemy_hit_effect_1a326abfb2f6c44d9e644072deb0b67fae" prot="private" virt="non-virtual"><scope>EnemyHitEffect</scope><name>SetColorToOriginal</name></member>
+      <member refid="class_enemy_hit_effect_1a5ceeb3c6f2e2e04485e6a83675efa389" prot="private" virt="non-virtual"><scope>EnemyHitEffect</scope><name>SetColorToRed</name></member>
+      <member refid="class_enemy_hit_effect_1a3cb373940e4a54a0d8918128d22203c0" prot="public" virt="non-virtual"><scope>EnemyHitEffect</scope><name>TakeHit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

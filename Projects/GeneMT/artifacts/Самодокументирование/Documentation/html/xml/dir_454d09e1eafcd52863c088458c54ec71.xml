@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_454d09e1eafcd52863c088458c54ec71" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField</compoundname>
+    <innerfile refid="_damage_field_8cs">DamageField.cs</innerfile>
+    <innerfile refid="_damage_field_trigger_8cs">DamageFieldTrigger.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageField/"/>
+  </compounddef>
+</doxygen>

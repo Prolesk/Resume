@@ -1,0 +1,15 @@
+<map id="MutationDataSO" name="MutationDataSO">
+<area shape="rect" id="Node000001" title="The MutationDataSO class." alt="" coords="171,107,289,133"/>
+<area shape="rect" id="Node000003" href="$class_mutation_area_s_o.html" title="The MutationAreaSO class." alt="" coords="382,5,499,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="256,94,293,67,336,42,384,28,379,30,338,46,296,71,259,99"/>
+<area shape="rect" id="Node000004" href="$class_mutation_cooldown_reduction_s_o.html" title="The MutationCooldownReductionSO class." alt="" coords="337,56,544,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="303,100,385,82,380,84,304,105"/>
+<area shape="rect" id="Node000005" href="$class_mutation_damage_s_o.html" title="The MutationDamageSO class." alt="" coords="371,107,510,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="304,117,373,119,368,121,305,123"/>
+<area shape="rect" id="Node000006" href="$class_mutation_max_h_p_s_o.html" title="The MutationMaxHPSO class." alt="" coords="374,157,508,184"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="304,135,385,156,379,157,303,140"/>
+<area shape="rect" id="Node000007" href="$class_mutation_move_speed_s_o.html" title="The MutationMoveSpeedSO class." alt="" coords="361,208,520,235"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="259,141,296,169,338,194,371,208,366,207,336,198,293,173,257,146"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,107,123,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,117,173,119,168,121,139,123"/>
+</map>

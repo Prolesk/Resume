@@ -1,0 +1,19 @@
+<map id="Laser" name="Laser">
+<area shape="rect" id="Node000001" title="The Laser class." alt="" coords="5,376,59,403"/>
+<area shape="rect" id="Node000002" href="$class_weapon.html" title=" " alt="" coords="98,256,166,283"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,286,67,295,53,308,43,324,38,343,34,376,29,375,32,341,38,322,49,305,64,291,85,282"/>
+<area shape="rect" id="Node000007" href="$class_weapon_data_s_o.html" title="The WeaponDataSO class." alt="" coords="193,376,308,403"/>
+<area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="151,293,161,305,172,329,186,350,221,376,216,375,182,354,167,332,156,308,150,298"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="210,157,321,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="250,195,214,234,168,258,165,254,210,230,246,198"/>
+<area shape="rect" id="Node000004" href="$class_player_stats_s_o.html" title="The PlayerStatsSO class." alt="" coords="78,157,186,184"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="133,197,135,256,129,255,131,202"/>
+<area shape="rect" id="Node000005" href="$class_singleton_scriptable_object-1-g.html" title=" " alt="" coords="192,81,394,108"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="250,117,161,159,158,155,253,113"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="339,5,456,32"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="365,43,313,83,309,79,369,39"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="434,39,459,62,466,77,469,93,469,271,467,317,459,335,443,354,420,366,387,375,309,386,308,381,385,370,418,361,440,350,455,333,462,316,464,271,464,94,461,79,454,65,434,44"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="175,383,116,374,92,365,76,354,68,342,67,330,75,305,87,291,104,281,101,285,90,295,80,308,72,330,73,340,80,350,94,360,118,368,180,381"/>
+<area shape="rect" id="Node000008" href="$class_level_upgrade.html" title="The LevelUpgrade class." alt="" coords="263,256,364,283"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="309,296,300,326,286,353,266,378,263,373,282,351,295,324,305,299"/>
+</map>

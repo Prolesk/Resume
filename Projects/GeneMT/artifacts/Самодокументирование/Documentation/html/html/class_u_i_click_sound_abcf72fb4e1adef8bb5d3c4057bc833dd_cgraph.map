@@ -1,0 +1,5 @@
+<map id="UIClickSound.UiClickSound" name="UIClickSound.UiClickSound">
+<area shape="rect" id="Node000001" title="Executes the UiClickSound operation." alt="" coords="5,5,192,32"/>
+<area shape="rect" id="Node000002" href="$class_audio_manager.html#addedc9299992cf2181ad2f7c7699597f" title="Plays animation or sound." alt="" coords="240,5,404,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,16,227,19,221,19,192,21"/>
+</map>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_c06fe235995f4884f330e3fe41dca828" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight</compoundname>
+    <innerdir refid="dir_469587db84b642204085cf4986ba1086">C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion</innerdir>
+    <innerfile refid="_boss_fight_initialization_8cs">BossFightInitialization.cs</innerfile>
+    <innerfile refid="_boss_health_8cs">BossHealth.cs</innerfile>
+    <innerfile refid="_end_boss_fight_portal_8cs">EndBossFightPortal.cs</innerfile>
+    <innerfile refid="_minotour_boss_unique_attacks_8cs">MinotourBossUniqueAttacks.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/"/>
+  </compounddef>
+</doxygen>

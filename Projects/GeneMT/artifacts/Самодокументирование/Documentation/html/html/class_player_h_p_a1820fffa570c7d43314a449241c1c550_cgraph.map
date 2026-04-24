@@ -1,0 +1,8 @@
+<map id="PlayerHP.Heal" name="PlayerHP.Heal">
+<area shape="rect" id="Node000001" title="Applies healing." alt="" coords="5,31,112,57"/>
+<area shape="rect" id="Node000002" href="$class_audio_manager.html#ac9614e62cc317d8d60399bfc00617546" title="Resets MusicPitch." alt="" coords="160,5,368,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,35,147,33,142,34,112,40"/>
+<area shape="rect" id="Node000003" href="$class_audio_manager.html#afaea7cecdb292c3ba0ccf8ab8a3f18fd" title="Sets the MusicPitch." alt="" coords="416,31,609,57"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="112,41,401,41,400,47,112,47"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="369,27,403,33,398,33,368,32"/>
+</map>

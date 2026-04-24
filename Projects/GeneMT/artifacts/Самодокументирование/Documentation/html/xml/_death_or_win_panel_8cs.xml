@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="_death_or_win_panel_8cs" kind="file" language="C#">
+    <compoundname>DeathOrWinPanel.cs</compoundname>
+    <innerclass refid="class_death_or_win_panel" prot="public">DeathOrWinPanel</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">TMPro;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_death_or_win_panel" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_death_or_win_panel" kindref="compound">DeathOrWinPanel</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TMP_Text<sp/>timerText;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TMP_Text<sp/>coinsText;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TMP_Text<sp/>killsText;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnEnable()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>timerText.text<sp/>=<sp/><ref refid="class_race_stats" kindref="compound">RaceStats</ref>.<ref refid="class_race_stats_1ae6304e89b0f9de191272e1ccff46150a" kindref="member">Instance</ref>.<ref refid="class_race_stats_1a120a46eafaaf03cab825e1507c7e67cb" kindref="member">timerText</ref>.text;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coinsText.text<sp/>=<sp/><ref refid="class_player_stats_s_o" kindref="compound">PlayerStatsSO</ref>.<ref refid="class_singleton_scriptable_object-1-g_1aa59148a0a9bc37057ef216e7c9a814a8" kindref="member">Instance</ref>.MaxMoney.ToString();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>killsText.text<sp/>=<sp/><ref refid="class_race_stats" kindref="compound">RaceStats</ref>.<ref refid="class_race_stats_1ae6304e89b0f9de191272e1ccff46150a" kindref="member">Instance</ref>.<ref refid="class_race_stats_1a6d393787247cf91d5433b659073047ee" kindref="member">killsText</ref>.text;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/DeathOrWinPanel.cs"/>
+  </compounddef>
+</doxygen>

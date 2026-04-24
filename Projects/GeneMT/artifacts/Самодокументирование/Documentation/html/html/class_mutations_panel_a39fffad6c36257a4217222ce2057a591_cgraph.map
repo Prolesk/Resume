@@ -1,0 +1,5 @@
+<map id="MutationsPanel.UpdateMutationsDisplay" name="MutationsPanel.UpdateMutationsDisplay">
+<area shape="rect" id="Node000001" title="Updates MutationsDisplay." alt="" coords="5,5,220,48"/>
+<area shape="rect" id="Node000002" href="$class_mutations_panel.html#ae15190f985e61c23d7505cb356a9208d" title="Sets the MutationInfo." alt="" coords="268,13,475,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,24,255,27,249,27,220,29"/>
+</map>

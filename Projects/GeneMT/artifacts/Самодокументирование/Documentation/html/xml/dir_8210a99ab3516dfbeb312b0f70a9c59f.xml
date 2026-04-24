@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_8210a99ab3516dfbeb312b0f70a9c59f" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP</compoundname>
+    <innerfile refid="_e_x_p_8cs">EXP.cs</innerfile>
+    <innerfile refid="_player_e_x_p_8cs">PlayerEXP.cs</innerfile>
+    <innerfile refid="_player_e_x_p_view_8cs">PlayerEXPView.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/"/>
+  </compounddef>
+</doxygen>

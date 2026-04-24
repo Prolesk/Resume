@@ -1,0 +1,5 @@
+<map id="ItemDataSO.OnLVLUp" name="ItemDataSO.OnLVLUp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="228,13,382,40"/>
+<area shape="rect" id="Node000002" href="$class_item_controller_s_o.html#a9336a815d728ee23e27abd1cf8888df8" title="Executes the ActivateOnLVLUpEvent operation." alt="" coords="5,5,180,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,27,180,29,180,24,215,26"/>
+</map>

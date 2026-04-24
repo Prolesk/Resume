@@ -1,0 +1,5 @@
+<map id="PlayerStatsSO.UpdateAllPlayerStats" name="PlayerStatsSO.UpdateAllPlayerStats">
+<area shape="rect" id="Node000001" title="Updates AllPlayerStats." alt="" coords="233,5,439,48"/>
+<area shape="rect" id="Node000002" href="$class_initialization_manager.html#a8b8b28545af161dc53b60beccc5170d0" title="Resets PlayerStats." alt="" coords="5,5,185,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,27,185,29,185,24,220,26"/>
+</map>

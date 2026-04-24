@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_death_or_win_panel" kind="class" language="C#" prot="public">
+    <compoundname>DeathOrWinPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_death_or_win_panel_1a0030cdff7f9146830c0e79ce32462994" prot="private" static="no" mutable="no">
+        <type>TMP_Text</type>
+        <definition>TMP_Text DeathOrWinPanel.timerText</definition>
+        <argsstring></argsstring>
+        <name>timerText</name>
+        <qualifiedname>DeathOrWinPanel.timerText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/DeathOrWinPanel.cs" line="9" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/DeathOrWinPanel.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_death_or_win_panel_1a61f74866ed761b27e2b8edbf11443595" prot="private" static="no" mutable="no">
+        <type>TMP_Text</type>
+        <definition>TMP_Text DeathOrWinPanel.coinsText</definition>
+        <argsstring></argsstring>
+        <name>coinsText</name>
+        <qualifiedname>DeathOrWinPanel.coinsText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/DeathOrWinPanel.cs" line="10" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/DeathOrWinPanel.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_death_or_win_panel_1a87cd8509d580e513c3993842b25e7f3e" prot="private" static="no" mutable="no">
+        <type>TMP_Text</type>
+        <definition>TMP_Text DeathOrWinPanel.killsText</definition>
+        <argsstring></argsstring>
+        <name>killsText</name>
+        <qualifiedname>DeathOrWinPanel.killsText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/DeathOrWinPanel.cs" line="11" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/DeathOrWinPanel.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_death_or_win_panel_1a3d7fc282809f90ee62d7ebd21b4f8061" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DeathOrWinPanel.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>DeathOrWinPanel.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/DeathOrWinPanel.cs" line="13" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/DeathOrWinPanel.cs" bodystart="13" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_death_or_win_panel" kindref="compound">DeathOrWinPanel</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DeathOrWinPanel</label>
+        <link refid="class_death_or_win_panel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>DeathOrWinPanel</label>
+        <link refid="class_death_or_win_panel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/DeathOrWinPanel.cs" line="7" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/DeathOrWinPanel.cs" bodystart="8" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_death_or_win_panel_1a61f74866ed761b27e2b8edbf11443595" prot="private" virt="non-virtual"><scope>DeathOrWinPanel</scope><name>coinsText</name></member>
+      <member refid="class_death_or_win_panel_1a87cd8509d580e513c3993842b25e7f3e" prot="private" virt="non-virtual"><scope>DeathOrWinPanel</scope><name>killsText</name></member>
+      <member refid="class_death_or_win_panel_1a3d7fc282809f90ee62d7ebd21b4f8061" prot="private" virt="non-virtual"><scope>DeathOrWinPanel</scope><name>OnEnable</name></member>
+      <member refid="class_death_or_win_panel_1a0030cdff7f9146830c0e79ce32462994" prot="private" virt="non-virtual"><scope>DeathOrWinPanel</scope><name>timerText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

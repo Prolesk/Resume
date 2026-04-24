@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_transition_to_next_level_trigger" kind="class" language="C#" prot="public">
+    <compoundname>TransitionToNextLevelTrigger</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_transition_to_next_level_trigger_1a3e417604ab1e6473a51fd1e5f93059aa" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TransitionToNextLevelTrigger._transitionScene</definition>
+        <argsstring></argsstring>
+        <name>_transitionScene</name>
+        <qualifiedname>TransitionToNextLevelTrigger._transitionScene</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/TransitionToNextLevelTrigger.cs" line="11" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/TransitionToNextLevelTrigger.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_transition_to_next_level_trigger_1a487d49e31bacc4d0169a3424813c1339" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransitionToNextLevelTrigger.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <qualifiedname>TransitionToNextLevelTrigger.OnTriggerEnter</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/TransitionToNextLevelTrigger.cs" line="12" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/TransitionToNextLevelTrigger.cs" bodystart="12" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_transition_to_next_level_trigger" kindref="compound">TransitionToNextLevelTrigger</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TransitionToNextLevelTrigger</label>
+        <link refid="class_transition_to_next_level_trigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TransitionToNextLevelTrigger</label>
+        <link refid="class_transition_to_next_level_trigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/TransitionToNextLevelTrigger.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/TransitionToNextLevelTrigger.cs" bodystart="9" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_transition_to_next_level_trigger_1a3e417604ab1e6473a51fd1e5f93059aa" prot="private" virt="non-virtual"><scope>TransitionToNextLevelTrigger</scope><name>_transitionScene</name></member>
+      <member refid="class_transition_to_next_level_trigger_1a487d49e31bacc4d0169a3424813c1339" prot="private" virt="non-virtual"><scope>TransitionToNextLevelTrigger</scope><name>OnTriggerEnter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

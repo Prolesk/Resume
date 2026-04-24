@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_countdown_controller" kind="class" language="C#" prot="public">
+    <compoundname>CountdownController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_countdown_controller_1aa127b653899c79d8d145e30b438ea4bc" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI CountdownController.countdownText</definition>
+        <argsstring></argsstring>
+        <name>countdownText</name>
+        <qualifiedname>CountdownController.countdownText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CountdownController.cs" line="10" column="30" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CountdownController.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_countdown_controller_1a9aa46657a4aadbf3578e085ce0f84a7e" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CountdownController.countdownPanel</definition>
+        <argsstring></argsstring>
+        <name>countdownPanel</name>
+        <qualifiedname>CountdownController.countdownPanel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CountdownController.cs" line="11" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CountdownController.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_countdown_controller_1aa8bddb893338fc6f01252703dd15a7bb" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CountdownController.countdownDuration</definition>
+        <argsstring></argsstring>
+        <name>countdownDuration</name>
+        <qualifiedname>CountdownController.countdownDuration</qualifiedname>
+        <initializer>= 3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CountdownController.cs" line="12" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CountdownController.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_countdown_controller_1a84758fc77f665a9ba74b1489cf64652a" prot="private" static="no" mutable="no">
+        <type>Coroutine</type>
+        <definition>Coroutine CountdownController.countdownCoroutine</definition>
+        <argsstring></argsstring>
+        <name>countdownCoroutine</name>
+        <qualifiedname>CountdownController.countdownCoroutine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CountdownController.cs" line="14" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CountdownController.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_countdown_controller_1a22adef5f25b4d5caaf7d1e9cfcdba154" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CountdownController.StartCountdown</definition>
+        <argsstring>()</argsstring>
+        <name>StartCountdown</name>
+        <qualifiedname>CountdownController.StartCountdown</qualifiedname>
+        <briefdescription>
+<para>Executes the StartCountdown operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CountdownController.cs" line="19" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CountdownController.cs" bodystart="19" bodyend="25"/>
+        <referencedby refid="class_game_state_manager_1a90f2b3f817c1e397a3b28f89f752cc79" compoundref="_game_state_manager_8cs" startline="54" endline="78">GameStateManager.TogglePause</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_countdown_controller_1ab0920bcb503cd580158327780f89a188" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator CountdownController.CountdownRoutine</definition>
+        <argsstring>()</argsstring>
+        <name>CountdownRoutine</name>
+        <qualifiedname>CountdownController.CountdownRoutine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CountdownController.cs" line="27" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CountdownController.cs" bodystart="27" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_countdown_controller_1a5a336d9b12bf65701468cf36135fbf7c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CountdownController.EndCountdown</definition>
+        <argsstring>()</argsstring>
+        <name>EndCountdown</name>
+        <qualifiedname>CountdownController.EndCountdown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CountdownController.cs" line="57" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CountdownController.cs" bodystart="57" bodyend="66"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_countdown_controller" kindref="compound">CountdownController</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CountdownController</label>
+        <link refid="class_countdown_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CountdownController</label>
+        <link refid="class_countdown_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CountdownController.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CountdownController.cs" bodystart="9" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_countdown_controller_1a84758fc77f665a9ba74b1489cf64652a" prot="private" virt="non-virtual"><scope>CountdownController</scope><name>countdownCoroutine</name></member>
+      <member refid="class_countdown_controller_1aa8bddb893338fc6f01252703dd15a7bb" prot="private" virt="non-virtual"><scope>CountdownController</scope><name>countdownDuration</name></member>
+      <member refid="class_countdown_controller_1a9aa46657a4aadbf3578e085ce0f84a7e" prot="private" virt="non-virtual"><scope>CountdownController</scope><name>countdownPanel</name></member>
+      <member refid="class_countdown_controller_1ab0920bcb503cd580158327780f89a188" prot="private" virt="non-virtual"><scope>CountdownController</scope><name>CountdownRoutine</name></member>
+      <member refid="class_countdown_controller_1aa127b653899c79d8d145e30b438ea4bc" prot="private" virt="non-virtual"><scope>CountdownController</scope><name>countdownText</name></member>
+      <member refid="class_countdown_controller_1a5a336d9b12bf65701468cf36135fbf7c" prot="private" virt="non-virtual"><scope>CountdownController</scope><name>EndCountdown</name></member>
+      <member refid="class_countdown_controller_1a22adef5f25b4d5caaf7d1e9cfcdba154" prot="public" virt="non-virtual"><scope>CountdownController</scope><name>StartCountdown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

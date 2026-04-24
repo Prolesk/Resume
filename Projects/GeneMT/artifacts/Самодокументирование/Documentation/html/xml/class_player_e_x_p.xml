@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_player_e_x_p" kind="class" language="C#" prot="public">
+    <compoundname>PlayerEXP</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_e_x_p_1a17d9eee3a86d3ec8e45c1ae8375eca02" prot="private" static="no" mutable="no">
+        <type><ref refid="class_player_stats_s_o" kindref="compound">PlayerStatsSO</ref></type>
+        <definition>PlayerStatsSO PlayerEXP._statsSO</definition>
+        <argsstring></argsstring>
+        <name>_statsSO</name>
+        <qualifiedname>PlayerEXP._statsSO</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" line="13" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_e_x_p_1a371fc6723e1c4efd3b6f5aabec49c87b" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image PlayerEXP._expProgressBarImage</definition>
+        <argsstring></argsstring>
+        <name>_expProgressBarImage</name>
+        <qualifiedname>PlayerEXP._expProgressBarImage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" line="14" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_e_x_p_1aa8f78ba7c214acd84af612281c3e8ae3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_lvl_up_weapon_items_info" kindref="compound">LvlUpWeaponItemsInfo</ref></type>
+        <definition>LvlUpWeaponItemsInfo PlayerEXP._lvlUpGatherCanvasInfo</definition>
+        <argsstring></argsstring>
+        <name>_lvlUpGatherCanvasInfo</name>
+        <qualifiedname>PlayerEXP._lvlUpGatherCanvasInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" line="16" column="35" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_e_x_p_1a6d876ac871c5d623ac8d8fbe93d190ac" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerEXP._currentEXP</definition>
+        <argsstring></argsstring>
+        <name>_currentEXP</name>
+        <qualifiedname>PlayerEXP._currentEXP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" line="21" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_e_x_p_1ad27a0b37dbf140394c67f3bc89610479" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerEXP._currentLVL</definition>
+        <argsstring></argsstring>
+        <name>_currentLVL</name>
+        <qualifiedname>PlayerEXP._currentLVL</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" line="22" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_player_e_x_p_1a918ba58b00c1bdabc488525f9f30d949" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_player_e_x_p" kindref="compound">PlayerEXP</ref></type>
+        <definition>PlayerEXP PlayerEXP.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>PlayerEXP.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" line="18" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_e_x_p_1abe7cf0917ef429543150556963b7250c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float PlayerEXP.MaxEXP</definition>
+        <argsstring></argsstring>
+        <name>MaxEXP</name>
+        <qualifiedname>PlayerEXP.MaxEXP</qualifiedname>
+        <briefdescription>
+<para>The MaxEXP field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" line="27" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_player_e_x_p_1acfc123cf58ef3f19b744a222b987b6c4" compoundref="_player_e_x_p_8cs" startline="53" endline="73">GetEXP</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_player_e_x_p_1a4006f4b49e8c815db6690d36e6261550" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float PlayerEXP.CurrentEXP</definition>
+        <argsstring></argsstring>
+        <name>CurrentEXP</name>
+        <qualifiedname>PlayerEXP.CurrentEXP</qualifiedname>
+        <briefdescription>
+<para>The CurrentEXP field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" line="31" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_e_x_p_1a16adea366088a34036eca3c44eb1ef75" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float PlayerEXP.CurrentLVL</definition>
+        <argsstring></argsstring>
+        <name>CurrentLVL</name>
+        <qualifiedname>PlayerEXP.CurrentLVL</qualifiedname>
+        <briefdescription>
+<para>The CurrentLVL field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" line="35" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="class_player_e_x_p_1aa632de5dd7e369f24387b34a4fbcb1cd" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; float &gt;</type>
+        <definition>Action&lt;float&gt; PlayerEXP.EXPChanged</definition>
+        <argsstring></argsstring>
+        <name>EXPChanged</name>
+        <qualifiedname>PlayerEXP.EXPChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" line="37" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_player_e_x_p_1ae1438b1d2caf5142f114d73c78459273" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; float &gt;</type>
+        <definition>Action&lt;float&gt; PlayerEXP.LVLChanged</definition>
+        <argsstring></argsstring>
+        <name>LVLChanged</name>
+        <qualifiedname>PlayerEXP.LVLChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" line="38" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_player_e_x_p_1a1a72d4477d26e8e9913a5ea233f0daab" compoundref="_player_e_x_p_8cs" startline="119" endline="145">HandleMultipleLevelUpsWithNoCheck</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_e_x_p_1ad819e48eac6932f03e468a0540759d4f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerEXP.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>PlayerEXP.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" line="40" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_e_x_p_1abd3a951a70c1259cca4c8f3c208de4a1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerEXP.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>PlayerEXP.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" line="44" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_e_x_p_1a03c26a4f83ea6b0f454120c19d7987ce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async UniTaskVoid</type>
+        <definition>async UniTaskVoid PlayerEXP.HandleMultipleLevelUps</definition>
+        <argsstring>(int countOfLevelUps)</argsstring>
+        <name>HandleMultipleLevelUps</name>
+        <qualifiedname>PlayerEXP.HandleMultipleLevelUps</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>countOfLevelUps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" line="75" column="31" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" bodystart="75" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_e_x_p_1ab3d9ba03ecd935588632ea83ab23c040" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async UniTask</type>
+        <definition>async UniTask PlayerEXP.ShowLevelUpAndWait</definition>
+        <argsstring>()</argsstring>
+        <name>ShowLevelUpAndWait</name>
+        <qualifiedname>PlayerEXP.ShowLevelUpAndWait</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" line="148" column="27" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" bodystart="148" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_e_x_p_1ab02441aab9dce5f2e88ce0c88420560f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerEXP.UpdateUI</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateUI</name>
+        <qualifiedname>PlayerEXP.UpdateUI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" line="162" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" bodystart="162" bodyend="170"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_e_x_p_1acfc123cf58ef3f19b744a222b987b6c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerEXP.GetEXP</definition>
+        <argsstring>(float EXPamount)</argsstring>
+        <name>GetEXP</name>
+        <qualifiedname>PlayerEXP.GetEXP</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>EXPamount</declname>
+        </param>
+        <briefdescription>
+<para>Gets the <ref refid="class_e_x_p" kindref="compound">EXP</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>EXPamount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The EXPamount.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" line="53" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" bodystart="53" bodyend="73"/>
+        <references refid="class_player_e_x_p_1abe7cf0917ef429543150556963b7250c" compoundref="_player_e_x_p_8cs" startline="27">MaxEXP</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_e_x_p_1a1a72d4477d26e8e9913a5ea233f0daab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async UniTaskVoid</type>
+        <definition>async UniTaskVoid PlayerEXP.HandleMultipleLevelUpsWithNoCheck</definition>
+        <argsstring>(int countOfLevelUps)</argsstring>
+        <name>HandleMultipleLevelUpsWithNoCheck</name>
+        <qualifiedname>PlayerEXP.HandleMultipleLevelUpsWithNoCheck</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>countOfLevelUps</declname>
+        </param>
+        <briefdescription>
+<para>Executes the HandleMultipleLevelUpsWithNoCheck operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>countOfLevelUps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The countOfLevelUps.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The result as UniTaskVoid.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" line="119" column="30" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" bodystart="119" bodyend="145"/>
+        <references refid="class_singleton_scriptable_object-1-g_1aa59148a0a9bc37057ef216e7c9a814a8" compoundref="_singleton_scriptable_object_8cs" startline="8" endline="34">SingletonScriptableObject&lt; T &gt;.Instance</references>
+        <references refid="class_player_e_x_p_1ae1438b1d2caf5142f114d73c78459273" compoundref="_player_e_x_p_8cs" startline="38">LVLChanged</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_player_e_x_p" kindref="compound">PlayerEXP</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PlayerEXP</label>
+        <link refid="class_player_e_x_p"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PlayerEXP</label>
+        <link refid="class_player_e_x_p"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" line="11" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXP.cs" bodystart="12" bodyend="171"/>
+    <listofallmembers>
+      <member refid="class_player_e_x_p_1a6d876ac871c5d623ac8d8fbe93d190ac" prot="private" virt="non-virtual"><scope>PlayerEXP</scope><name>_currentEXP</name></member>
+      <member refid="class_player_e_x_p_1ad27a0b37dbf140394c67f3bc89610479" prot="private" virt="non-virtual"><scope>PlayerEXP</scope><name>_currentLVL</name></member>
+      <member refid="class_player_e_x_p_1a371fc6723e1c4efd3b6f5aabec49c87b" prot="private" virt="non-virtual"><scope>PlayerEXP</scope><name>_expProgressBarImage</name></member>
+      <member refid="class_player_e_x_p_1aa8f78ba7c214acd84af612281c3e8ae3" prot="private" virt="non-virtual"><scope>PlayerEXP</scope><name>_lvlUpGatherCanvasInfo</name></member>
+      <member refid="class_player_e_x_p_1a17d9eee3a86d3ec8e45c1ae8375eca02" prot="private" virt="non-virtual"><scope>PlayerEXP</scope><name>_statsSO</name></member>
+      <member refid="class_player_e_x_p_1ad819e48eac6932f03e468a0540759d4f" prot="private" virt="non-virtual"><scope>PlayerEXP</scope><name>Awake</name></member>
+      <member refid="class_player_e_x_p_1a4006f4b49e8c815db6690d36e6261550" prot="public" virt="non-virtual"><scope>PlayerEXP</scope><name>CurrentEXP</name></member>
+      <member refid="class_player_e_x_p_1a16adea366088a34036eca3c44eb1ef75" prot="public" virt="non-virtual"><scope>PlayerEXP</scope><name>CurrentLVL</name></member>
+      <member refid="class_player_e_x_p_1aa632de5dd7e369f24387b34a4fbcb1cd" prot="public" virt="non-virtual"><scope>PlayerEXP</scope><name>EXPChanged</name></member>
+      <member refid="class_player_e_x_p_1acfc123cf58ef3f19b744a222b987b6c4" prot="public" virt="non-virtual"><scope>PlayerEXP</scope><name>GetEXP</name></member>
+      <member refid="class_player_e_x_p_1a03c26a4f83ea6b0f454120c19d7987ce" prot="private" virt="non-virtual"><scope>PlayerEXP</scope><name>HandleMultipleLevelUps</name></member>
+      <member refid="class_player_e_x_p_1a1a72d4477d26e8e9913a5ea233f0daab" prot="public" virt="non-virtual"><scope>PlayerEXP</scope><name>HandleMultipleLevelUpsWithNoCheck</name></member>
+      <member refid="class_player_e_x_p_1a918ba58b00c1bdabc488525f9f30d949" prot="public" virt="non-virtual"><scope>PlayerEXP</scope><name>Instance</name></member>
+      <member refid="class_player_e_x_p_1ae1438b1d2caf5142f114d73c78459273" prot="public" virt="non-virtual"><scope>PlayerEXP</scope><name>LVLChanged</name></member>
+      <member refid="class_player_e_x_p_1abe7cf0917ef429543150556963b7250c" prot="public" virt="non-virtual"><scope>PlayerEXP</scope><name>MaxEXP</name></member>
+      <member refid="class_player_e_x_p_1ab3d9ba03ecd935588632ea83ab23c040" prot="private" virt="non-virtual"><scope>PlayerEXP</scope><name>ShowLevelUpAndWait</name></member>
+      <member refid="class_player_e_x_p_1abd3a951a70c1259cca4c8f3c208de4a1" prot="private" virt="non-virtual"><scope>PlayerEXP</scope><name>Start</name></member>
+      <member refid="class_player_e_x_p_1ab02441aab9dce5f2e88ce0c88420560f" prot="private" virt="non-virtual"><scope>PlayerEXP</scope><name>UpdateUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

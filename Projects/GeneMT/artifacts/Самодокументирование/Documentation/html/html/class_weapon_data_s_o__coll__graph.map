@@ -1,0 +1,17 @@
+<map id="WeaponDataSO" name="WeaponDataSO">
+<area shape="rect" id="Node000001" title="The WeaponDataSO class." alt="" coords="323,201,439,228"/>
+<area shape="rect" id="Node000004" href="$class_weapon.html" title=" " alt="" coords="192,300,260,327"/>
+<area shape="poly" id="edge8_Node000004_Node000001" title=" " alt="" coords="314,233,278,254,253,277,235,302,232,298,249,274,274,250,309,235"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="300,5,417,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="402,37,431,53,460,74,487,100,507,131,516,155,514,167,507,179,493,193,476,203,440,214,438,209,474,198,490,189,503,176,509,165,510,156,503,133,483,104,457,78,428,58,402,42"/>
+<area shape="rect" id="Node000007" href="$class_singleton_scriptable_object-1-g.html" title=" " alt="" coords="93,81,296,108"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="314,40,224,83,221,79,318,37"/>
+<area shape="rect" id="Node000003" href="$class_level_upgrade.html" title="The LevelUpgrade class." alt="" coords="320,81,421,108"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="371,121,375,177,380,202,375,200,369,178,368,125"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="276,308,321,298,342,288,360,274,373,252,379,230,382,227,378,254,364,278,345,292,322,303,277,313"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,201,117,228"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="97,234,207,298,202,301,95,239"/>
+<area shape="rect" id="Node000006" href="$class_player_stats_s_o.html" title="The PlayerStatsSO class." alt="" coords="140,201,248,228"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="180,240,176,259,179,275,188,287,202,300,197,299,185,291,174,277,171,259,176,244"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="196,122,197,202,192,200,193,126"/>
+</map>

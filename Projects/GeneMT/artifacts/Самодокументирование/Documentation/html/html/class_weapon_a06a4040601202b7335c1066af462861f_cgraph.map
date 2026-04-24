@@ -1,0 +1,7 @@
+<map id="Weapon.CalculateAllStats" name="Weapon.CalculateAllStats">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,179,57"/>
+<area shape="rect" id="Node000002" href="$class_weapon.html#a074f6fa47b6ee3202dc6751eabdfb000" title=" " alt="" coords="227,5,412,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,32,214,30,209,31,179,37"/>
+<area shape="rect" id="Node000003" href="$class_weapon.html#ad860905094346042ba8ea674dd78de6d" title=" " alt="" coords="231,56,408,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="179,51,219,58,213,58,179,56"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="PlayerHP.DamageInPercent" name="PlayerHP.DamageInPercent">
+<area shape="rect" id="Node000001" title="Applies damage." alt="" coords="265,13,449,40"/>
+<area shape="rect" id="Node000002" href="$class_blood_experiment_quest.html#ab034a2d629ca4e2cb0880ff89bb446fc" title=" " alt="" coords="5,5,217,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="246,27,217,29,217,24,252,27"/>
+</map>

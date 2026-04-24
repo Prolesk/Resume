@@ -1,0 +1,5 @@
+<map id="ItemDataSO.OnSceneChange" name="ItemDataSO.OnSceneChange">
+<area shape="rect" id="Node000001" title=" " alt="" coords="228,13,425,40"/>
+<area shape="rect" id="Node000002" href="$class_item_controller_s_o.html#a7bb62a49d5302720ba7dadbb0ae0d753" title="Executes the ActivateOnSceneChangeEvent operation." alt="" coords="5,5,180,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,27,180,29,180,24,215,26"/>
+</map>

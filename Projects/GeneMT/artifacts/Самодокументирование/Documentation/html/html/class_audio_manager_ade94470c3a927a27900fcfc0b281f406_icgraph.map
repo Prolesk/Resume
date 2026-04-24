@@ -1,0 +1,5 @@
+<map id="AudioManager.PlayOpenChest" name="AudioManager.PlayOpenChest">
+<area shape="rect" id="Node000001" title="Plays animation or sound." alt="" coords="158,5,358,32"/>
+<area shape="rect" id="Node000002" href="$class_chest.html#a1f382bd9cea967ac4aa29ba97ce332fd" title=" " alt="" coords="5,5,110,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,19,110,21,110,16,144,18"/>
+</map>

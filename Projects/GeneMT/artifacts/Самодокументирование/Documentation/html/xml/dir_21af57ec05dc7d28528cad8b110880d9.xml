@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_21af57ec05dc7d28528cad8b110880d9" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common</compoundname>
+    <innerfile refid="_death_or_win_panel_8cs">DeathOrWinPanel.cs</innerfile>
+    <innerfile refid="_e_interactable_8cs">EInteractable.cs</innerfile>
+    <innerfile refid="_event_trigger_8cs">EventTrigger.cs</innerfile>
+    <innerfile refid="_flexible_u_i_mover_8cs">FlexibleUIMover.cs</innerfile>
+    <innerfile refid="_initialization_manager_8cs">InitializationManager.cs</innerfile>
+    <innerfile refid="_race_stats_8cs">RaceStats.cs</innerfile>
+    <innerfile refid="_u_i_animator_8cs">UIAnimator.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/"/>
+  </compounddef>
+</doxygen>

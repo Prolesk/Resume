@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_e_interactable" kind="class" language="C#" prot="public">
+    <compoundname>EInteractable</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_chest" prot="public" virt="non-virtual">Chest</derivedcompoundref>
+    <derivedcompoundref refid="class_gas_tank" prot="public" virt="non-virtual">GasTank</derivedcompoundref>
+    <derivedcompoundref refid="class_quest_giver" prot="public" virt="non-virtual">QuestGiver</derivedcompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_e_interactable_1af1f8cd46e7b07856580221fa78567798" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EInteractable._isReady</definition>
+        <argsstring></argsstring>
+        <name>_isReady</name>
+        <qualifiedname>EInteractable._isReady</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EInteractable.cs" line="11" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EInteractable.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_chest_1a1f382bd9cea967ac4aa29ba97ce332fd" compoundref="_chest_8cs" startline="40" endline="70">Chest.Interact</referencedby>
+        <referencedby refid="class_chest_1ab3b0f385ce75fe487d2e459476cadf59" compoundref="_chest_8cs" startline="30" endline="38">Chest.MakeNonReady</referencedby>
+        <referencedby refid="class_e_interactable_1a7e988abf8905a1e950ea8250ffd9c3cc" compoundref="_e_interactable_8cs" startline="27" endline="34">MakeNonReady</referencedby>
+        <referencedby refid="class_chest_1a73861e79b16f6f267dac2d9cfec13e92" compoundref="_chest_8cs" startline="24" endline="29">Chest.MakeReady</referencedby>
+        <referencedby refid="class_e_interactable_1a44bb9f4d40378f111d187079ea172a6b" compoundref="_e_interactable_8cs" startline="21" endline="25">MakeReady</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_e_interactable_1ac47e15623305977907027a395d42ec02" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EInteractable._canBeInteractedWith</definition>
+        <argsstring></argsstring>
+        <name>_canBeInteractedWith</name>
+        <qualifiedname>EInteractable._canBeInteractedWith</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EInteractable.cs" line="12" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EInteractable.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_chest_1a1f382bd9cea967ac4aa29ba97ce332fd" compoundref="_chest_8cs" startline="40" endline="70">Chest.Interact</referencedby>
+        <referencedby refid="class_quest_giver_1a969ad607369c939921780414df7e4056" compoundref="_quest_giver_8cs" startline="111" endline="160">QuestGiver.Interact</referencedby>
+        <referencedby refid="class_quest_giver_1a79bd73a209023268b2258e2624c88280" compoundref="_quest_giver_8cs" startline="182" endline="191">QuestGiver.SetComplete</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_e_interactable_1a38ce74578db1b955af4e93e44091e7b2" prot="protected" static="no" mutable="no">
+        <type>Renderer</type>
+        <definition>Renderer EInteractable._renderer</definition>
+        <argsstring></argsstring>
+        <name>_renderer</name>
+        <qualifiedname>EInteractable._renderer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EInteractable.cs" line="13" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EInteractable.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_e_interactable_1ad34e436579989ff2a491d2f8794fa870" compoundref="_e_interactable_8cs" startline="16" endline="19">Awake</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_e_interactable_1ad34e436579989ff2a491d2f8794fa870" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void EInteractable.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>EInteractable.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EInteractable.cs" line="16" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EInteractable.cs" bodystart="16" bodyend="19"/>
+        <references refid="class_e_interactable_1a38ce74578db1b955af4e93e44091e7b2" compoundref="_e_interactable_8cs" startline="13">_renderer</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_e_interactable_1a44bb9f4d40378f111d187079ea172a6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void EInteractable.MakeReady</definition>
+        <argsstring>()</argsstring>
+        <name>MakeReady</name>
+        <qualifiedname>EInteractable.MakeReady</qualifiedname>
+        <reimplementedby refid="class_chest_1a73861e79b16f6f267dac2d9cfec13e92">MakeReady</reimplementedby>
+        <reimplementedby refid="class_quest_giver_1a218b31ff6d75b2205566ad64d671ce7b">MakeReady</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EInteractable.cs" line="21" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EInteractable.cs" bodystart="21" bodyend="25"/>
+        <references refid="class_e_interactable_1af1f8cd46e7b07856580221fa78567798" compoundref="_e_interactable_8cs" startline="11">_isReady</references>
+      </memberdef>
+      <memberdef kind="function" id="class_e_interactable_1a7e988abf8905a1e950ea8250ffd9c3cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void EInteractable.MakeNonReady</definition>
+        <argsstring>()</argsstring>
+        <name>MakeNonReady</name>
+        <qualifiedname>EInteractable.MakeNonReady</qualifiedname>
+        <reimplementedby refid="class_chest_1ab3b0f385ce75fe487d2e459476cadf59">MakeNonReady</reimplementedby>
+        <reimplementedby refid="class_quest_giver_1a8b0d07c39aa6e68dc72c83ec74c877d6">MakeNonReady</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EInteractable.cs" line="27" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EInteractable.cs" bodystart="27" bodyend="34"/>
+        <references refid="class_e_interactable_1af1f8cd46e7b07856580221fa78567798" compoundref="_e_interactable_8cs" startline="11">_isReady</references>
+      </memberdef>
+      <memberdef kind="function" id="class_e_interactable_1a159b500630998b91b809d1b042535185" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void EInteractable.Interact</definition>
+        <argsstring>()</argsstring>
+        <name>Interact</name>
+        <qualifiedname>EInteractable.Interact</qualifiedname>
+        <reimplementedby refid="class_chest_1a1f382bd9cea967ac4aa29ba97ce332fd">Interact</reimplementedby>
+        <reimplementedby refid="class_gas_tank_1a34752383a58cdc1979826c2fbb1460c5">Interact</reimplementedby>
+        <reimplementedby refid="class_quest_giver_1a969ad607369c939921780414df7e4056">Interact</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EInteractable.cs" line="36" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EInteractable.cs" bodystart="36" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_e_interactable_1a3a5d761abe877f6a7feeac3a51fbe087" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void EInteractable.SetComplete</definition>
+        <argsstring>()</argsstring>
+        <name>SetComplete</name>
+        <qualifiedname>EInteractable.SetComplete</qualifiedname>
+        <reimplementedby refid="class_quest_giver_1a79bd73a209023268b2258e2624c88280">SetComplete</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EInteractable.cs" line="40" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EInteractable.cs" bodystart="40" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_e_interactable" kindref="compound">EInteractable</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Chest</label>
+        <link refid="class_chest"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>EInteractable</label>
+        <link refid="class_e_interactable"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GasTank</label>
+        <link refid="class_gas_tank"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="5">
+        <label>QuestGiver</label>
+        <link refid="class_quest_giver"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EInteractable</label>
+        <link refid="class_e_interactable"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EInteractable.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EInteractable.cs" bodystart="10" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_e_interactable_1ac47e15623305977907027a395d42ec02" prot="public" virt="non-virtual"><scope>EInteractable</scope><name>_canBeInteractedWith</name></member>
+      <member refid="class_e_interactable_1af1f8cd46e7b07856580221fa78567798" prot="public" virt="non-virtual"><scope>EInteractable</scope><name>_isReady</name></member>
+      <member refid="class_e_interactable_1a38ce74578db1b955af4e93e44091e7b2" prot="protected" virt="non-virtual"><scope>EInteractable</scope><name>_renderer</name></member>
+      <member refid="class_e_interactable_1ad34e436579989ff2a491d2f8794fa870" prot="protected" virt="virtual"><scope>EInteractable</scope><name>Awake</name></member>
+      <member refid="class_e_interactable_1a159b500630998b91b809d1b042535185" prot="public" virt="virtual"><scope>EInteractable</scope><name>Interact</name></member>
+      <member refid="class_e_interactable_1a7e988abf8905a1e950ea8250ffd9c3cc" prot="public" virt="virtual"><scope>EInteractable</scope><name>MakeNonReady</name></member>
+      <member refid="class_e_interactable_1a44bb9f4d40378f111d187079ea172a6b" prot="public" virt="virtual"><scope>EInteractable</scope><name>MakeReady</name></member>
+      <member refid="class_e_interactable_1a3a5d761abe877f6a7feeac3a51fbe087" prot="public" virt="virtual"><scope>EInteractable</scope><name>SetComplete</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

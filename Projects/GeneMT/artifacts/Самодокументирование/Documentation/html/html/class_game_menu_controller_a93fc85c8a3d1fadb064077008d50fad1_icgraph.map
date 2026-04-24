@@ -1,0 +1,7 @@
+<map id="GameMenuController.ShowCostOnMutatiOnChest" name="GameMenuController.ShowCostOnMutatiOnChest">
+<area shape="rect" id="Node000001" title="Shows UI element." alt="" coords="184,23,393,65"/>
+<area shape="rect" id="Node000002" href="$class_chest.html#a1f382bd9cea967ac4aa29ba97ce332fd" title=" " alt="" coords="18,5,123,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,31,123,27,123,22,171,29"/>
+<area shape="rect" id="Node000003" href="$class_chest.html#a73861e79b16f6f267dac2d9cfec13e92" title=" " alt="" coords="5,56,136,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,58,136,64,136,59,171,58"/>
+</map>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_menu" kind="class" language="C#" prot="public">
+    <compoundname>Menu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_menu_1a3a0b5cd59cc76adea5e7f51e91b04f96" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button Menu._resumeButton</definition>
+        <argsstring></argsstring>
+        <name>_resumeButton</name>
+        <qualifiedname>Menu._resumeButton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Menu/Menu.cs" line="12" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Menu/Menu.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_menu_1a1744bb112be94110bd100db3b230dc82" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button Menu._settingsButton</definition>
+        <argsstring></argsstring>
+        <name>_settingsButton</name>
+        <qualifiedname>Menu._settingsButton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Menu/Menu.cs" line="13" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Menu/Menu.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_menu_1ab856ad5de1ea5aae6fbbf6cb43902e14" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button Menu._exitButton</definition>
+        <argsstring></argsstring>
+        <name>_exitButton</name>
+        <qualifiedname>Menu._exitButton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Menu/Menu.cs" line="14" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Menu/Menu.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_menu_1a89c08f92cd5cc738e6e4f4e0b492d485" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu.QuitGame</definition>
+        <argsstring>()</argsstring>
+        <name>QuitGame</name>
+        <qualifiedname>Menu.QuitGame</qualifiedname>
+        <briefdescription>
+<para>Executes the QuitGame operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Menu/Menu.cs" line="20" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Menu/Menu.cs" bodystart="20" bodyend="23"/>
+        <references refid="class_transition_manager_1aac7c98df529819401bab3dc4ebfd894e" compoundref="_transition_manager_8cs" startline="13" endline="13">TransitionManager.Instance</references>
+        <references refid="class_transition_manager_1a07ace306d8e06a65104a52ea9240260c" compoundref="_transition_manager_8cs" startline="38" endline="91">TransitionManager.TransitPlayerToLevel</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_menu" kindref="compound">Menu</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Menu</label>
+        <link refid="class_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Menu</label>
+        <link refid="class_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Menu/Menu.cs" line="10" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Menu/Menu.cs" bodystart="11" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_menu_1ab856ad5de1ea5aae6fbbf6cb43902e14" prot="private" virt="non-virtual"><scope>Menu</scope><name>_exitButton</name></member>
+      <member refid="class_menu_1a3a0b5cd59cc76adea5e7f51e91b04f96" prot="private" virt="non-virtual"><scope>Menu</scope><name>_resumeButton</name></member>
+      <member refid="class_menu_1a1744bb112be94110bd100db3b230dc82" prot="private" virt="non-virtual"><scope>Menu</scope><name>_settingsButton</name></member>
+      <member refid="class_menu_1a89c08f92cd5cc738e6e4f4e0b492d485" prot="public" virt="non-virtual"><scope>Menu</scope><name>QuitGame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

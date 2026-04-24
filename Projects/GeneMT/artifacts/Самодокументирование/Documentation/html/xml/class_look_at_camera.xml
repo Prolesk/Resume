@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_look_at_camera" kind="class" language="C#" prot="public">
+    <compoundname>LookAtCamera</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_look_at_camera_1a27f3d7f5fd6fdf6d2c5e06593df87a1f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LookAtCamera.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>LookAtCamera.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/LookAtCameraUI.cs" line="8" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/LookAtCameraUI.cs" bodystart="8" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_look_at_camera" kindref="compound">LookAtCamera</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>LookAtCamera</label>
+        <link refid="class_look_at_camera"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>LookAtCamera</label>
+        <link refid="class_look_at_camera"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/LookAtCameraUI.cs" line="6" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/LookAtCameraUI.cs" bodystart="7" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_look_at_camera_1a27f3d7f5fd6fdf6d2c5e06593df87a1f" prot="private" virt="non-virtual"><scope>LookAtCamera</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

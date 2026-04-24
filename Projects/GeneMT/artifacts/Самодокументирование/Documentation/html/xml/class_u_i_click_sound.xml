@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_u_i_click_sound" kind="class" language="C#" prot="public">
+    <compoundname>UIClickSound</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_u_i_click_sound_1a0765df9b57ef6a5e213fdbac3e5baaed" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip UIClickSound.uiClickClip</definition>
+        <argsstring></argsstring>
+        <name>uiClickClip</name>
+        <qualifiedname>UIClickSound.uiClickClip</qualifiedname>
+        <briefdescription>
+<para>The uiClickClip field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/UIClickSound.cs" line="14" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/UIClickSound.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_u_i_click_sound_1abcf72fb4e1adef8bb5d3c4057bc833dd" compoundref="_u_i_click_sound_8cs" startline="18" endline="21">UiClickSound</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_u_i_click_sound_1abcf72fb4e1adef8bb5d3c4057bc833dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIClickSound.UiClickSound</definition>
+        <argsstring>()</argsstring>
+        <name>UiClickSound</name>
+        <qualifiedname>UIClickSound.UiClickSound</qualifiedname>
+        <briefdescription>
+<para>Executes the UiClickSound operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/UIClickSound.cs" line="18" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/UIClickSound.cs" bodystart="18" bodyend="21"/>
+        <references refid="class_audio_manager_1af96f8bc4f9a0ad3f1a63a028bb31f790" compoundref="_audio_manager_8cs" startline="11">AudioManager.Instance</references>
+        <references refid="class_audio_manager_1addedc9299992cf2181ad2f7c7699597f" compoundref="_audio_manager_8cs" startline="293" endline="300">AudioManager.PlayClick</references>
+        <references refid="class_u_i_click_sound_1a0765df9b57ef6a5e213fdbac3e5baaed" compoundref="_u_i_click_sound_8cs" startline="14">uiClickClip</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_u_i_click_sound" kindref="compound">UIClickSound</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UIClickSound</label>
+        <link refid="class_u_i_click_sound"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UIClickSound</label>
+        <link refid="class_u_i_click_sound"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/UIClickSound.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/UIClickSound.cs" bodystart="9" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_u_i_click_sound_1a0765df9b57ef6a5e213fdbac3e5baaed" prot="public" virt="non-virtual"><scope>UIClickSound</scope><name>uiClickClip</name></member>
+      <member refid="class_u_i_click_sound_1abcf72fb4e1adef8bb5d3c4057bc833dd" prot="public" virt="non-virtual"><scope>UIClickSound</scope><name>UiClickSound</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_tech_instruments_s_o" kind="class" language="C#" prot="public">
+    <compoundname>TechInstrumentsSO</compoundname>
+    <basecompoundref refid="class_item_data_s_o" prot="public" virt="non-virtual">ItemDataSO</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tech_instruments_s_o_1a6f0868e465474ecc142274c98cd6f9a4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TechInstrumentsSO._levelUpsAmount</definition>
+        <argsstring></argsstring>
+        <name>_levelUpsAmount</name>
+        <qualifiedname>TechInstrumentsSO._levelUpsAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/TechInstrumentsSO.cs" line="13" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/TechInstrumentsSO.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tech_instruments_s_o_1ad9268fe4ac16a11c7874c2a48eafe777" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void TechInstrumentsSO.OnPick</definition>
+        <argsstring>()</argsstring>
+        <name>OnPick</name>
+        <qualifiedname>TechInstrumentsSO.OnPick</qualifiedname>
+        <reimplements refid="class_item_data_s_o_1a43ed92677adc25345561338f3837b53c">OnPick</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/TechInstrumentsSO.cs" line="15" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/TechInstrumentsSO.cs" bodystart="15" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tech_instruments_s_o_1a4bc6f9c4efb5d5e3a530a53cef4a612d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void TechInstrumentsSO.GiveLvl</definition>
+        <argsstring>()</argsstring>
+        <name>GiveLvl</name>
+        <qualifiedname>TechInstrumentsSO.GiveLvl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/TechInstrumentsSO.cs" line="21" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/TechInstrumentsSO.cs" bodystart="21" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_tech_instruments_s_o" kindref="compound">TechInstrumentsSO</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ItemDataSO</label>
+        <link refid="class_item_data_s_o"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>TechInstrumentsSO</label>
+        <link refid="class_tech_instruments_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>ItemControllerSO</label>
+        <link refid="class_item_controller_s_o"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ItemDataSO</label>
+        <link refid="class_item_data_s_o"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>ItemController</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="5">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>TechInstrumentsSO</label>
+        <link refid="class_tech_instruments_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/TechInstrumentsSO.cs" line="11" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/TechInstrumentsSO.cs" bodystart="12" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_tech_instruments_s_o_1a6f0868e465474ecc142274c98cd6f9a4" prot="private" virt="non-virtual"><scope>TechInstrumentsSO</scope><name>_levelUpsAmount</name></member>
+      <member refid="class_item_data_s_o_1a63afd093c454396299e889192e1b0910" prot="public" virt="non-virtual"><scope>TechInstrumentsSO</scope><name>description</name></member>
+      <member refid="class_tech_instruments_s_o_1a4bc6f9c4efb5d5e3a530a53cef4a612d" prot="private" virt="non-virtual"><scope>TechInstrumentsSO</scope><name>GiveLvl</name></member>
+      <member refid="class_item_data_s_o_1a00da7d169e6c24ee0e468c8f22a8c2a4" prot="public" virt="non-virtual"><scope>TechInstrumentsSO</scope><name>HasOnDamageGiveEvent</name></member>
+      <member refid="class_item_data_s_o_1abf68c439ed6f5843535937b226cc9de2" prot="public" virt="non-virtual"><scope>TechInstrumentsSO</scope><name>HasOnEnemyDeathEvent</name></member>
+      <member refid="class_item_data_s_o_1a7b70c5edc7f8e809275d8d8c8f6f865d" prot="public" virt="non-virtual"><scope>TechInstrumentsSO</scope><name>HasOnLVLUpEvent</name></member>
+      <member refid="class_item_data_s_o_1aee0e17336125d0081f5284e1a83fda7d" prot="public" virt="non-virtual"><scope>TechInstrumentsSO</scope><name>HasOnSceneChangeEvent</name></member>
+      <member refid="class_item_data_s_o_1aa78a1aef6f977de0a4fd2b8cb901e839" prot="public" virt="non-virtual"><scope>TechInstrumentsSO</scope><name>icon</name></member>
+      <member refid="class_item_data_s_o_1a45036bbeb1a61524955ca904d0fd1297" prot="public" virt="non-virtual"><scope>TechInstrumentsSO</scope><name>isActive</name></member>
+      <member refid="class_item_data_s_o_1aa9f6e3a5e7ec3c471e3963adcfb0f7af" prot="public" virt="non-virtual"><scope>TechInstrumentsSO</scope><name>isActiveItem</name></member>
+      <member refid="class_item_data_s_o_1a2ebabf148add445b25c1368176de9c66" prot="public" virt="non-virtual"><scope>TechInstrumentsSO</scope><name>ItemController</name></member>
+      <member refid="class_item_data_s_o_1a5b20ae8dc705d55f4b82e8832d4b0c4f" prot="public" virt="non-virtual"><scope>TechInstrumentsSO</scope><name>itemTitle</name></member>
+      <member refid="class_item_data_s_o_1a5312a6a37cbb4eb16528f11583800d9c" prot="public" virt="non-virtual"><scope>TechInstrumentsSO</scope><name>itemType</name></member>
+      <member refid="class_item_data_s_o_1ab4f3e7698e40647ea7c8d4090cc9666f" prot="public" virt="virtual"><scope>TechInstrumentsSO</scope><name>OnDamageGive</name></member>
+      <member refid="class_item_data_s_o_1a5ddcb4bd447509672a6df851df2c0564" prot="public" virt="virtual"><scope>TechInstrumentsSO</scope><name>OnEnemyDeath</name></member>
+      <member refid="class_item_data_s_o_1ac9607ff62d9b2b5eaa7326293473593c" prot="public" virt="virtual"><scope>TechInstrumentsSO</scope><name>OnLVLUp</name></member>
+      <member refid="class_tech_instruments_s_o_1ad9268fe4ac16a11c7874c2a48eafe777" prot="public" virt="virtual"><scope>TechInstrumentsSO</scope><name>OnPick</name></member>
+      <member refid="class_item_data_s_o_1a7f858d552e74dc3c8d701b39e620a177" prot="public" virt="virtual"><scope>TechInstrumentsSO</scope><name>OnSceneChange</name></member>
+      <member refid="class_item_data_s_o_1a577209997c0f356ad2e9d98be3033dae" prot="public" virt="non-virtual"><scope>TechInstrumentsSO</scope><name>ReputationAmount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

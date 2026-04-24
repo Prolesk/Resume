@@ -1,0 +1,442 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_enemy_spawn_manager" kind="class" language="C#" prot="public">
+    <compoundname>EnemySpawnManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_enemy_spawn_manager_1a32b8d121e97cef9b4d9ccce249736096" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_enemy_spawn_manager" kindref="compound">EnemySpawnManager</ref></type>
+        <definition>EnemySpawnManager EnemySpawnManager.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>EnemySpawnManager.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="13" column="37" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_game_state_manager_1a99eb55de665c0ded19721f97626f49f2" compoundref="_game_state_manager_8cs" startline="85" endline="120">GameStateManager.SetPaused</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_enemy_spawn_manager_1ae3d6b09a72acbb54ed3f6c5b0ed75b2f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemySpawnManager._spawnPatrolPeriod</definition>
+        <argsstring></argsstring>
+        <name>_spawnPatrolPeriod</name>
+        <qualifiedname>EnemySpawnManager._spawnPatrolPeriod</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="14" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_spawn_manager_1a3d6fb31a704dbb0933d50de522e85c0b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemySpawnManager._spawnWavePeriod</definition>
+        <argsstring></argsstring>
+        <name>_spawnWavePeriod</name>
+        <qualifiedname>EnemySpawnManager._spawnWavePeriod</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="15" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_spawn_manager_1a0b40f090349e96dbd90f955c4b18d22c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemySpawnManager._difficulty</definition>
+        <argsstring></argsstring>
+        <name>_difficulty</name>
+        <qualifiedname>EnemySpawnManager._difficulty</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="16" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_spawn_manager_1a70587063b0d396d72a344c5962209321" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemySpawnManager._periodOfGettingPoints</definition>
+        <argsstring></argsstring>
+        <name>_periodOfGettingPoints</name>
+        <qualifiedname>EnemySpawnManager._periodOfGettingPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="17" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_spawn_manager_1a731c998aa0248ee54a50a722979663a0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EnemySpawnManager._points</definition>
+        <argsstring></argsstring>
+        <name>_points</name>
+        <qualifiedname>EnemySpawnManager._points</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="18" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_spawn_manager_1abadcbac33b33e3d3ba42dd0f2bb474af" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemySpawnManager._pointsToGain</definition>
+        <argsstring></argsstring>
+        <name>_pointsToGain</name>
+        <qualifiedname>EnemySpawnManager._pointsToGain</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="19" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_spawn_manager_1a185a71ce7386b85116e10bb75124fd92" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemySpawnManager._timeForPatrolPeriod</definition>
+        <argsstring></argsstring>
+        <name>_timeForPatrolPeriod</name>
+        <qualifiedname>EnemySpawnManager._timeForPatrolPeriod</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="21" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_spawn_manager_1a662ca5b29854fc20f48b5d989e34a0dc" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemySpawnManager._timeForWavePeriod</definition>
+        <argsstring></argsstring>
+        <name>_timeForWavePeriod</name>
+        <qualifiedname>EnemySpawnManager._timeForWavePeriod</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="22" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_spawn_manager_1a20ecb3e2b4cccd20b719a6df20a29a65" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemySpawnManager._timeForGettingPoints</definition>
+        <argsstring></argsstring>
+        <name>_timeForGettingPoints</name>
+        <qualifiedname>EnemySpawnManager._timeForGettingPoints</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="23" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_spawn_manager_1a5e027fdb414366e5ebc10be5141f07c4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EnemySpawnManager._spawnIsActive</definition>
+        <argsstring></argsstring>
+        <name>_spawnIsActive</name>
+        <qualifiedname>EnemySpawnManager._spawnIsActive</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="25" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_enemy_spawn_manager_1a1fcdfba714676374c4ec8310f2e2ab50" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemySpawnManager.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>EnemySpawnManager.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="28" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_spawn_manager_1ad42e8a21db4dc8520f524cdb14b2da72" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemySpawnManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>EnemySpawnManager.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="56" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" bodystart="56" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_spawn_manager_1ac6d085a0f58d2bef29d20b881b92974d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemySpawnManager.SpawnWave</definition>
+        <argsstring>(int pointsToSpend)</argsstring>
+        <name>SpawnWave</name>
+        <qualifiedname>EnemySpawnManager.SpawnWave</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>pointsToSpend</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="104" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" bodystart="104" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_spawn_manager_1a6d4bb502b7df96a50a751bd2b58f771a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemySpawnManager.SpawnPatrol</definition>
+        <argsstring>(int pointsToSpend)</argsstring>
+        <name>SpawnPatrol</name>
+        <qualifiedname>EnemySpawnManager.SpawnPatrol</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>pointsToSpend</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="121" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" bodystart="121" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_spawn_manager_1a5b44c2553139a52f2b7ea2080682176c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void EnemySpawnManager.SpawnSmallAmountOfEnemy</definition>
+        <argsstring>(int pointsToSpend)</argsstring>
+        <name>SpawnSmallAmountOfEnemy</name>
+        <qualifiedname>EnemySpawnManager.SpawnSmallAmountOfEnemy</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>pointsToSpend</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="143" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" bodystart="143" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_spawn_manager_1a666c5d97202b5d87614946313da1acc9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void EnemySpawnManager.SpawnMediumAmountOfEnemy</definition>
+        <argsstring>(int pointsToSpend)</argsstring>
+        <name>SpawnMediumAmountOfEnemy</name>
+        <qualifiedname>EnemySpawnManager.SpawnMediumAmountOfEnemy</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>pointsToSpend</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="158" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" bodystart="158" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_spawn_manager_1ae0cadb5b0ac628c75a3b4b6b14d99e5b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void EnemySpawnManager.SpawnBigAmountOfEnemy</definition>
+        <argsstring>(int pointsToSpend)</argsstring>
+        <name>SpawnBigAmountOfEnemy</name>
+        <qualifiedname>EnemySpawnManager.SpawnBigAmountOfEnemy</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>pointsToSpend</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="174" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" bodystart="174" bodyend="189"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_enemy_spawn_manager_1a7d415f2e7c99c3b1c11b8e9a57152303" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool EnemySpawnManager.TryToSpendPoints</definition>
+        <argsstring>(int pointsToSpend)</argsstring>
+        <name>TryToSpendPoints</name>
+        <qualifiedname>EnemySpawnManager.TryToSpendPoints</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>pointsToSpend</declname>
+        </param>
+        <briefdescription>
+<para>Executes the TryToSpendPoints operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pointsToSpend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pointsToSpend.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The result as bool.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="39" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" bodystart="39" bodyend="48"/>
+        <referencedby refid="class_enemy_spawn_manager_1a0829c1ba3e308acace22f1e5d42dd024">ChangeActiveEnemySpawn</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_spawn_manager_1ac659c695c921a1d96bf859154922ab1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemySpawnManager.GainPoints</definition>
+        <argsstring>(int pointsToGain)</argsstring>
+        <name>GainPoints</name>
+        <qualifiedname>EnemySpawnManager.GainPoints</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>pointsToGain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="50" column="17"/>
+        <referencedby refid="class_enemy_spawn_manager_1a0829c1ba3e308acace22f1e5d42dd024">ChangeActiveEnemySpawn</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_spawn_manager_1a62cb7f0750589f6513a2014a7637b3e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemySpawnManager.GainDifficulty</definition>
+        <argsstring>(float gain)</argsstring>
+        <name>GainDifficulty</name>
+        <qualifiedname>EnemySpawnManager.GainDifficulty</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="52" column="17"/>
+        <referencedby refid="class_enemy_spawn_manager_1a0829c1ba3e308acace22f1e5d42dd024">ChangeActiveEnemySpawn</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_spawn_manager_1a0829c1ba3e308acace22f1e5d42dd024" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemySpawnManager.ChangeActiveEnemySpawn</definition>
+        <argsstring>(bool set)</argsstring>
+        <name>ChangeActiveEnemySpawn</name>
+        <qualifiedname>EnemySpawnManager.ChangeActiveEnemySpawn</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>set</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="54" column="17"/>
+        <references refid="class_enemy_spawn_manager_1a62cb7f0750589f6513a2014a7637b3e4">GainDifficulty</references>
+        <references refid="class_enemy_spawn_manager_1ac659c695c921a1d96bf859154922ab1d">GainPoints</references>
+        <references refid="class_enemy_spawn_manager_1a7d415f2e7c99c3b1c11b8e9a57152303" compoundref="_enemy_spawn_manager_8cs" startline="39" endline="48">TryToSpendPoints</references>
+        <referencedby refid="class_game_state_manager_1a99eb55de665c0ded19721f97626f49f2" compoundref="_game_state_manager_8cs" startline="85" endline="120">GameStateManager.SetPaused</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_enemy_spawn_manager" kindref="compound">EnemySpawnManager</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EnemySpawnManager</label>
+        <link refid="class_enemy_spawn_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EnemySpawnManager</label>
+        <link refid="class_enemy_spawn_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>Instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" line="11" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/EnemySpawnManager.cs" bodystart="12" bodyend="192"/>
+    <listofallmembers>
+      <member refid="class_enemy_spawn_manager_1a0b40f090349e96dbd90f955c4b18d22c" prot="private" virt="non-virtual"><scope>EnemySpawnManager</scope><name>_difficulty</name></member>
+      <member refid="class_enemy_spawn_manager_1a70587063b0d396d72a344c5962209321" prot="private" virt="non-virtual"><scope>EnemySpawnManager</scope><name>_periodOfGettingPoints</name></member>
+      <member refid="class_enemy_spawn_manager_1a731c998aa0248ee54a50a722979663a0" prot="private" virt="non-virtual"><scope>EnemySpawnManager</scope><name>_points</name></member>
+      <member refid="class_enemy_spawn_manager_1abadcbac33b33e3d3ba42dd0f2bb474af" prot="private" virt="non-virtual"><scope>EnemySpawnManager</scope><name>_pointsToGain</name></member>
+      <member refid="class_enemy_spawn_manager_1a5e027fdb414366e5ebc10be5141f07c4" prot="private" virt="non-virtual"><scope>EnemySpawnManager</scope><name>_spawnIsActive</name></member>
+      <member refid="class_enemy_spawn_manager_1ae3d6b09a72acbb54ed3f6c5b0ed75b2f" prot="private" virt="non-virtual"><scope>EnemySpawnManager</scope><name>_spawnPatrolPeriod</name></member>
+      <member refid="class_enemy_spawn_manager_1a3d6fb31a704dbb0933d50de522e85c0b" prot="private" virt="non-virtual"><scope>EnemySpawnManager</scope><name>_spawnWavePeriod</name></member>
+      <member refid="class_enemy_spawn_manager_1a20ecb3e2b4cccd20b719a6df20a29a65" prot="private" virt="non-virtual"><scope>EnemySpawnManager</scope><name>_timeForGettingPoints</name></member>
+      <member refid="class_enemy_spawn_manager_1a185a71ce7386b85116e10bb75124fd92" prot="private" virt="non-virtual"><scope>EnemySpawnManager</scope><name>_timeForPatrolPeriod</name></member>
+      <member refid="class_enemy_spawn_manager_1a662ca5b29854fc20f48b5d989e34a0dc" prot="private" virt="non-virtual"><scope>EnemySpawnManager</scope><name>_timeForWavePeriod</name></member>
+      <member refid="class_enemy_spawn_manager_1a1fcdfba714676374c4ec8310f2e2ab50" prot="private" virt="non-virtual"><scope>EnemySpawnManager</scope><name>Awake</name></member>
+      <member refid="class_enemy_spawn_manager_1a0829c1ba3e308acace22f1e5d42dd024" prot="public" virt="non-virtual"><scope>EnemySpawnManager</scope><name>ChangeActiveEnemySpawn</name></member>
+      <member refid="class_enemy_spawn_manager_1a62cb7f0750589f6513a2014a7637b3e4" prot="public" virt="non-virtual"><scope>EnemySpawnManager</scope><name>GainDifficulty</name></member>
+      <member refid="class_enemy_spawn_manager_1ac659c695c921a1d96bf859154922ab1d" prot="public" virt="non-virtual"><scope>EnemySpawnManager</scope><name>GainPoints</name></member>
+      <member refid="class_enemy_spawn_manager_1a32b8d121e97cef9b4d9ccce249736096" prot="public" virt="non-virtual"><scope>EnemySpawnManager</scope><name>Instance</name></member>
+      <member refid="class_enemy_spawn_manager_1ae0cadb5b0ac628c75a3b4b6b14d99e5b" prot="private" virt="non-virtual"><scope>EnemySpawnManager</scope><name>SpawnBigAmountOfEnemy</name></member>
+      <member refid="class_enemy_spawn_manager_1a666c5d97202b5d87614946313da1acc9" prot="private" virt="non-virtual"><scope>EnemySpawnManager</scope><name>SpawnMediumAmountOfEnemy</name></member>
+      <member refid="class_enemy_spawn_manager_1a6d4bb502b7df96a50a751bd2b58f771a" prot="private" virt="non-virtual"><scope>EnemySpawnManager</scope><name>SpawnPatrol</name></member>
+      <member refid="class_enemy_spawn_manager_1a5b44c2553139a52f2b7ea2080682176c" prot="private" virt="non-virtual"><scope>EnemySpawnManager</scope><name>SpawnSmallAmountOfEnemy</name></member>
+      <member refid="class_enemy_spawn_manager_1ac6d085a0f58d2bef29d20b881b92974d" prot="private" virt="non-virtual"><scope>EnemySpawnManager</scope><name>SpawnWave</name></member>
+      <member refid="class_enemy_spawn_manager_1a7d415f2e7c99c3b1c11b8e9a57152303" prot="public" virt="non-virtual"><scope>EnemySpawnManager</scope><name>TryToSpendPoints</name></member>
+      <member refid="class_enemy_spawn_manager_1ad42e8a21db4dc8520f524cdb14b2da72" prot="private" virt="non-virtual"><scope>EnemySpawnManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

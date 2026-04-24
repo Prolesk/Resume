@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['icon_0',['icon',['../class_item_data_s_o.html#aa78a1aef6f977de0a4fd2b8cb901e839',1,'ItemDataSO.icon'],['../class_mutation_data_s_o.html#a3d41802dc5665d33c28973c7caf2f790',1,'MutationDataSO.icon'],['../class_weapon_data_s_o.html#a9bce137573a1b9f7e57f54f9e7cc8a90',1,'WeaponDataSO.icon']]],
+  ['ignoretimescale_1',['ignoreTimescale',['../class_u_i_animator.html#a6954e0555c98c441a158ea2561789a22',1,'UIAnimator']]],
+  ['instance_2',['Instance',['../class_small_enemy_melee_pool.html#ab57f59767484d4063020e327c2a79b2c',1,'SmallEnemyMeleePool.Instance'],['../class_enemy_spawn_manager.html#a32b8d121e97cef9b4d9ccce249736096',1,'EnemySpawnManager.Instance'],['../class_bullet_enemy_pool.html#ad64966c2ea7904d1d5f29453fccef964',1,'BulletEnemyPool.Instance'],['../class_audio_manager.html#af96f8bc4f9a0ad3f1a63a028bb31f790',1,'AudioManager.Instance'],['../class_level_up_controller.html#a85a9b94835082499c7805d2307bedc13',1,'LevelUpController.Instance'],['../class_quest_manager.html#a8e1cd09cf2af8f04d6854f0b54d8b0bf',1,'QuestManager.Instance']]],
+  ['instance_3',['instance',['../class_enemy_pool_list.html#a70df750ffd21fdbdc900b1702237a9f1',1,'EnemyPoolList']]],
+  ['invincibility_4',['invincibility',['../class_player_stats_s_o.html#a3169f5bb777bcb0d44a99be19e949c9f',1,'PlayerStatsSO']]],
+  ['isactive_5',['isActive',['../class_item_data_s_o.html#a45036bbeb1a61524955ca904d0fd1297',1,'ItemDataSO']]],
+  ['isactiveitem_6',['isActiveItem',['../class_item_data_s_o.html#aa9f6e3a5e7ec3c471e3963adcfb0f7af',1,'ItemDataSO']]],
+  ['isalive_7',['isAlive',['../class_player_h_p.html#a51e0f5d1c214f5b781ada0b4510d6133',1,'PlayerHP']]],
+  ['isavailable_8',['IsAvailable',['../class_weapon.html#a69231f675123b5bf16b82c1b05804eff',1,'Weapon']]],
+  ['issessionactive_9',['isSessionActive',['../class_weapon_save_manager_1_1_weapons_save_data.html#a9744fb3b5996078df3f82a9d8380b97a',1,'WeaponSaveManager::WeaponsSaveData']]],
+  ['itemactivepool_10',['itemActivePool',['../class_item_controller_s_o.html#a46ba671c4cd3ca28add42807bfa01c4b',1,'ItemControllerSO']]],
+  ['itemcontroller_11',['ItemController',['../class_item_data_s_o.html#a2ebabf148add445b25c1368176de9c66',1,'ItemDataSO']]],
+  ['iteminventory_12',['ItemInventory',['../class_item_controller_s_o.html#aa2e0e0d3cc101fa6631f3cd679811a47',1,'ItemControllerSO']]],
+  ['itemmagicpool_13',['itemMagicPool',['../class_item_controller_s_o.html#a1e524d597a4d252770802fa7dd7478c3',1,'ItemControllerSO']]],
+  ['itempassivepool_14',['itemPassivePool',['../class_item_controller_s_o.html#adcd8affe261523b4789ceb2ffaf1661b',1,'ItemControllerSO']]],
+  ['itemslist_15',['ItemsList',['../class_item_reward_info.html#a4bb8312d526bbfb599940ea32b4de3b6',1,'ItemRewardInfo.ItemsList'],['../class_lvl_up_weapon_items_info.html#ab6418ec732c0e05b905f5cf5f9394c42',1,'LvlUpWeaponItemsInfo.ItemsList']]],
+  ['itemtecnopool_16',['itemTecnoPool',['../class_item_controller_s_o.html#acbbac62bba6a805811269f12900809f2',1,'ItemControllerSO']]],
+  ['itemtitle_17',['itemTitle',['../class_item_data_s_o.html#a5b20ae8dc705d55f4b82e8832d4b0c4f',1,'ItemDataSO']]],
+  ['itemtype_18',['itemType',['../class_item_data_s_o.html#a5312a6a37cbb4eb16528f11583800d9c',1,'ItemDataSO']]],
+  ['itemuniversalpool_19',['itemUniversalPool',['../class_item_controller_s_o.html#aeda9f231e268bd39965f9249989472ff',1,'ItemControllerSO']]]
+];

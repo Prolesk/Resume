@@ -1,0 +1,7 @@
+<map id="QuestManager.OnEnemyKilled" name="QuestManager.OnEnemyKilled">
+<area shape="rect" id="Node000001" title="Event handler for OnEnemyKilled." alt="" coords="5,13,206,40"/>
+<area shape="rect" id="Node000002" href="$class_quest_manager.html#afe709fc19f3a1bbc4e85576820aea006" title="Event handler for OnQuestProgressUpdated." alt="" coords="254,5,468,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,24,240,26,235,27,206,29"/>
+<area shape="rect" id="Node000003" href="$class_quest_notification.html#aa2157b58d47f20f3b70bf71782687a5f" title="Shows UI element." alt="" coords="516,5,710,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="468,24,503,27,498,27,468,29"/>
+</map>

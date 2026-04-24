@@ -1,0 +1,5 @@
+<map id="AudioManager.ResetMusicPitch" name="AudioManager.ResetMusicPitch">
+<area shape="rect" id="Node000001" title="Resets MusicPitch." alt="" coords="5,5,214,32"/>
+<area shape="rect" id="Node000002" href="$class_audio_manager.html#afaea7cecdb292c3ba0ccf8ab8a3f18fd" title="Sets the MusicPitch." alt="" coords="262,5,455,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,16,248,19,243,19,214,21"/>
+</map>

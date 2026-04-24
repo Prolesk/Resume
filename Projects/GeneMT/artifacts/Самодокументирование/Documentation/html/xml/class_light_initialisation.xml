@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_light_initialisation" kind="class" language="C#" prot="public">
+    <compoundname>LightInitialisation</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_light_initialisation_1aa2e290b2551e8d3ecfe79741b8efa43a" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 LightInitialisation.DirectionNeeded</definition>
+        <argsstring></argsstring>
+        <name>DirectionNeeded</name>
+        <qualifiedname>LightInitialisation.DirectionNeeded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/ScenesTransitions/LightInitialisation.cs" line="8" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/ScenesTransitions/LightInitialisation.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_light_initialisation_1a3b87d07a95c59e9ec0bb243da7a5d074" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LightInitialisation.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>LightInitialisation.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/ScenesTransitions/LightInitialisation.cs" line="9" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/ScenesTransitions/LightInitialisation.cs" bodystart="9" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_light_initialisation" kindref="compound">LightInitialisation</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>LightInitialisation</label>
+        <link refid="class_light_initialisation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>LightInitialisation</label>
+        <link refid="class_light_initialisation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/ScenesTransitions/LightInitialisation.cs" line="6" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/ScenesTransitions/LightInitialisation.cs" bodystart="7" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_light_initialisation_1aa2e290b2551e8d3ecfe79741b8efa43a" prot="private" virt="non-virtual"><scope>LightInitialisation</scope><name>DirectionNeeded</name></member>
+      <member refid="class_light_initialisation_1a3b87d07a95c59e9ec0bb243da7a5d074" prot="private" virt="non-virtual"><scope>LightInitialisation</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_chest" kind="class" language="C#" prot="public">
+    <compoundname>Chest</compoundname>
+    <basecompoundref refid="class_e_interactable" prot="public" virt="non-virtual">EInteractable</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_chest_1a4851c1ffb3402837cba2ead4796ea013" prot="private" static="no" mutable="no">
+        <type><ref refid="class_mutation_data_s_o" kindref="compound">MutationDataSO</ref></type>
+        <definition>MutationDataSO Chest.mutation</definition>
+        <argsstring></argsstring>
+        <name>mutation</name>
+        <qualifiedname>Chest.mutation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/Chest.cs" line="13" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/Chest.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chest_1a373bf353b022c719cc35fe6c34d1ddeb" prot="private" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator Chest.openChestAnimator</definition>
+        <argsstring></argsstring>
+        <name>openChestAnimator</name>
+        <qualifiedname>Chest.openChestAnimator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/Chest.cs" line="15" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/Chest.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_chest_1aac2f626eba81e024854051e3cc844146" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Chest.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>Chest.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/Chest.cs" line="18" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/Chest.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_chest_1a73861e79b16f6f267dac2d9cfec13e92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Chest.MakeReady</definition>
+        <argsstring>()</argsstring>
+        <name>MakeReady</name>
+        <qualifiedname>Chest.MakeReady</qualifiedname>
+        <reimplements refid="class_e_interactable_1a44bb9f4d40378f111d187079ea172a6b">MakeReady</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/Chest.cs" line="24" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/Chest.cs" bodystart="24" bodyend="29"/>
+        <references refid="class_e_interactable_1af1f8cd46e7b07856580221fa78567798" compoundref="_e_interactable_8cs" startline="11">EInteractable._isReady</references>
+        <references refid="class_game_menu_controller_1ae94cedd2c8aec2e16a1e906415b6d2f0" compoundref="_game_menu_controller_8cs" startline="12" endline="12">GameMenuController.Instance</references>
+        <references refid="class_singleton_scriptable_object-1-g_1aa59148a0a9bc37057ef216e7c9a814a8" compoundref="_singleton_scriptable_object_8cs" startline="8" endline="34">SingletonScriptableObject&lt; T &gt;.Instance</references>
+        <references refid="class_game_menu_controller_1a93fc85c8a3d1fadb064077008d50fad1" compoundref="_game_menu_controller_8cs" startline="62" endline="67">GameMenuController.ShowCostOnMutatiOnChest</references>
+      </memberdef>
+      <memberdef kind="function" id="class_chest_1ab3b0f385ce75fe487d2e459476cadf59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Chest.MakeNonReady</definition>
+        <argsstring>()</argsstring>
+        <name>MakeNonReady</name>
+        <qualifiedname>Chest.MakeNonReady</qualifiedname>
+        <reimplements refid="class_e_interactable_1a7e988abf8905a1e950ea8250ffd9c3cc">MakeNonReady</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/Chest.cs" line="30" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/Chest.cs" bodystart="30" bodyend="38"/>
+        <references refid="class_e_interactable_1af1f8cd46e7b07856580221fa78567798" compoundref="_e_interactable_8cs" startline="11">EInteractable._isReady</references>
+        <references refid="class_game_menu_controller_1ae94cedd2c8aec2e16a1e906415b6d2f0" compoundref="_game_menu_controller_8cs" startline="12" endline="12">GameMenuController.Instance</references>
+        <references refid="class_game_menu_controller_1a791727f9588d135dca7eaf74ea242ff5" compoundref="_game_menu_controller_8cs" startline="52" endline="56">GameMenuController.RemoveFromSceneCostOnMutatiOnChest</references>
+      </memberdef>
+      <memberdef kind="function" id="class_chest_1a1f382bd9cea967ac4aa29ba97ce332fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>async override void</type>
+        <definition>async override void Chest.Interact</definition>
+        <argsstring>()</argsstring>
+        <name>Interact</name>
+        <qualifiedname>Chest.Interact</qualifiedname>
+        <reimplements refid="class_e_interactable_1a159b500630998b91b809d1b042535185">Interact</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/Chest.cs" line="40" column="32" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/Chest.cs" bodystart="40" bodyend="70"/>
+        <references refid="class_e_interactable_1ac47e15623305977907027a395d42ec02" compoundref="_e_interactable_8cs" startline="12">EInteractable._canBeInteractedWith</references>
+        <references refid="class_e_interactable_1af1f8cd46e7b07856580221fa78567798" compoundref="_e_interactable_8cs" startline="11">EInteractable._isReady</references>
+        <references refid="class_game_menu_controller_1a8a7e484870c845a3b7637f74ca9a9f37" compoundref="_game_menu_controller_8cs" startline="44" endline="47">GameMenuController.GiveMutationReward</references>
+        <references refid="class_audio_manager_1af96f8bc4f9a0ad3f1a63a028bb31f790" compoundref="_audio_manager_8cs" startline="11">AudioManager.Instance</references>
+        <references refid="class_game_menu_controller_1ae94cedd2c8aec2e16a1e906415b6d2f0" compoundref="_game_menu_controller_8cs" startline="12" endline="12">GameMenuController.Instance</references>
+        <references refid="class_singleton_scriptable_object-1-g_1aa59148a0a9bc37057ef216e7c9a814a8" compoundref="_singleton_scriptable_object_8cs" startline="8" endline="34">SingletonScriptableObject&lt; T &gt;.Instance</references>
+        <references refid="class_audio_manager_1ade94470c3a927a27900fcfc0b281f406" compoundref="_audio_manager_8cs" startline="251" endline="258">AudioManager.PlayOpenChest</references>
+        <references refid="class_game_menu_controller_1a791727f9588d135dca7eaf74ea242ff5" compoundref="_game_menu_controller_8cs" startline="52" endline="56">GameMenuController.RemoveFromSceneCostOnMutatiOnChest</references>
+        <references refid="class_game_menu_controller_1a04eb1a2db9d081d2a677d13acaad5257" compoundref="_game_menu_controller_8cs" startline="71" endline="75">GameMenuController.RemoveFromSceneWarningOnMutatiOnChest</references>
+        <references refid="class_game_menu_controller_1a93fc85c8a3d1fadb064077008d50fad1" compoundref="_game_menu_controller_8cs" startline="62" endline="67">GameMenuController.ShowCostOnMutatiOnChest</references>
+        <references refid="class_game_menu_controller_1a1787089d3e59d06d2af7bff318062d52" compoundref="_game_menu_controller_8cs" startline="80" endline="84">GameMenuController.ShowWarningOnMutatiOnChest</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_chest" kindref="compound">Chest</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Chest</label>
+        <link refid="class_chest"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EInteractable</label>
+        <link refid="class_e_interactable"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Chest</label>
+        <link refid="class_chest"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EInteractable</label>
+        <link refid="class_e_interactable"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/Chest.cs" line="11" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/Chest.cs" bodystart="12" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_e_interactable_1ac47e15623305977907027a395d42ec02" prot="public" virt="non-virtual"><scope>Chest</scope><name>_canBeInteractedWith</name></member>
+      <member refid="class_e_interactable_1af1f8cd46e7b07856580221fa78567798" prot="public" virt="non-virtual"><scope>Chest</scope><name>_isReady</name></member>
+      <member refid="class_e_interactable_1a38ce74578db1b955af4e93e44091e7b2" prot="protected" virt="non-virtual"><scope>Chest</scope><name>_renderer</name></member>
+      <member refid="class_e_interactable_1ad34e436579989ff2a491d2f8794fa870" prot="protected" virt="virtual"><scope>Chest</scope><name>Awake</name></member>
+      <member refid="class_chest_1a1f382bd9cea967ac4aa29ba97ce332fd" prot="public" virt="virtual"><scope>Chest</scope><name>Interact</name></member>
+      <member refid="class_chest_1ab3b0f385ce75fe487d2e459476cadf59" prot="public" virt="virtual"><scope>Chest</scope><name>MakeNonReady</name></member>
+      <member refid="class_chest_1a73861e79b16f6f267dac2d9cfec13e92" prot="public" virt="virtual"><scope>Chest</scope><name>MakeReady</name></member>
+      <member refid="class_chest_1a4851c1ffb3402837cba2ead4796ea013" prot="private" virt="non-virtual"><scope>Chest</scope><name>mutation</name></member>
+      <member refid="class_chest_1a373bf353b022c719cc35fe6c34d1ddeb" prot="private" virt="non-virtual"><scope>Chest</scope><name>openChestAnimator</name></member>
+      <member refid="class_e_interactable_1a3a5d761abe877f6a7feeac3a51fbe087" prot="public" virt="virtual"><scope>Chest</scope><name>SetComplete</name></member>
+      <member refid="class_chest_1aac2f626eba81e024854051e3cc844146" prot="private" virt="non-virtual"><scope>Chest</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

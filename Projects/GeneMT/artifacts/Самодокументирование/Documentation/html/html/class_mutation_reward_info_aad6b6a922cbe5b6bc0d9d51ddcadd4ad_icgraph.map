@@ -1,0 +1,7 @@
+<map id="MutationRewardInfo.TransferRandomObjects" name="MutationRewardInfo.TransferRandomObjects">
+<area shape="rect" id="Node000001" title="Executes the TransferRandomObjects operation." alt="" coords="511,5,701,48"/>
+<area shape="rect" id="Node000002" href="$class_mutation_reward_info.html#a124547a14e6cf4d3be6a5d533231a48a" title="Sets the MutationInfo." alt="" coords="229,13,463,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="493,27,464,29,463,24,498,27"/>
+<area shape="rect" id="Node000003" href="$class_mutation_reward_info.html#adbad0fca8b46fbaca9d6835c3ff6e0a6" title="Executes the ForceRefreshUI operation." alt="" coords="5,5,181,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="210,27,181,29,181,24,216,26"/>
+</map>

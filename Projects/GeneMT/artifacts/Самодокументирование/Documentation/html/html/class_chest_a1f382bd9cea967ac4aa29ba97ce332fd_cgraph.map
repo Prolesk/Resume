@@ -1,0 +1,15 @@
+<map id="Chest.Interact" name="Chest.Interact">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,164,110,191"/>
+<area shape="rect" id="Node000002" href="$class_game_menu_controller.html#a8a7e484870c845a3b7637f74ca9a9f37" title="Executes the GiveMutationReward operation." alt="" coords="165,5,390,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,162,100,111,126,82,156,58,168,53,164,57,159,62,129,86,104,114,69,165"/>
+<area shape="rect" id="Node000003" href="$class_audio_manager.html#ade94470c3a927a27900fcfc0b281f406" title="Plays animation or sound." alt="" coords="178,72,378,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="73,162,110,134,157,108,179,102,175,105,159,113,113,139,77,165"/>
+<area shape="rect" id="Node000004" href="$class_game_menu_controller.html#a791727f9588d135dca7eaf74ea242ff5" title="Removes FromSceneCostOnMutatiOnChest." alt="" coords="167,123,388,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="109,167,154,161,150,165,111,172"/>
+<area shape="rect" id="Node000005" href="$class_game_menu_controller.html#a04eb1a2db9d081d2a677d13acaad5257" title="Removes FromSceneWarningOnMutatiOnChest." alt="" coords="158,189,398,232"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="109,183,145,189,140,191,111,188"/>
+<area shape="rect" id="Node000006" href="$class_game_menu_controller.html#a93fc85c8a3d1fadb064077008d50fad1" title="Shows UI element." alt="" coords="173,256,382,299"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="76,189,114,216,159,242,175,250,170,251,156,246,111,220,76,194"/>
+<area shape="rect" id="Node000007" href="$class_game_menu_controller.html#a1787089d3e59d06d2af7bff318062d52" title="Shows UI element." alt="" coords="164,323,392,365"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="66,188,101,248,127,280,159,309,168,316,162,315,156,313,124,284,97,251,64,194"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="PlayerStatsSO.ChangeDamageMultiplier" name="PlayerStatsSO.ChangeDamageMultiplier">
+<area shape="rect" id="Node000001" title="Executes the ChangeDamageMultiplier operation." alt="" coords="274,5,480,48"/>
+<area shape="rect" id="Node000002" href="$class_player_stats_s_o.html#a59de8b450b1f320a1d2e99166445b2fa" title="Executes the ChangeReputation operation." alt="" coords="5,13,226,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,27,226,29,226,24,261,27"/>
+</map>

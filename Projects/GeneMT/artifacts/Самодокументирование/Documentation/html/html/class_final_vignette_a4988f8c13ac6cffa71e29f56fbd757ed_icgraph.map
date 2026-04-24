@@ -1,0 +1,5 @@
+<map id="FinalVignette.OnHealApplied" name="FinalVignette.OnHealApplied">
+<area shape="rect" id="Node000001" title="Event handler for OnHealApplied." alt="" coords="222,13,410,40"/>
+<area shape="rect" id="Node000002" href="$class_final_vignette.html#a15c30c2333bda84c2b4904e56e4acb20" title="Executes the TriggerHealVignette operation." alt="" coords="5,5,174,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,27,174,29,174,24,209,26"/>
+</map>

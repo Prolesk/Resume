@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_items_panel" kind="class" language="C#" prot="public">
+    <compoundname>ItemsPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_items_panel_1a18ff80103e6714cc05f4d1adaae29c1a" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_items_panel" kindref="compound">ItemsPanel</ref></type>
+        <definition>ItemsPanel ItemsPanel.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>ItemsPanel.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsUI/ItemsPanel.cs" line="9" column="30" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsUI/ItemsPanel.cs" bodystart="9" bodyend="9"/>
+        <referencedby refid="class_item_data_s_o_1a43ed92677adc25345561338f3837b53c" compoundref="_item_data_s_o_8cs" startline="62" endline="69">ItemDataSO.OnPick</referencedby>
+        <referencedby refid="class_game_state_manager_1a90f2b3f817c1e397a3b28f89f752cc79" compoundref="_game_state_manager_8cs" startline="54" endline="78">GameStateManager.TogglePause</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_items_panel_1ad9c389320713c0b37ac8e55fffb86f1e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ItemsPanel.NeedIndex</definition>
+        <argsstring></argsstring>
+        <name>NeedIndex</name>
+        <qualifiedname>ItemsPanel.NeedIndex</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsUI/ItemsPanel.cs" line="11" column="9" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsUI/ItemsPanel.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_items_panel_1a4acbdda0948148ee1325c0e240d740f8" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> &gt;</type>
+        <definition>List&lt;ItemDataSO&gt; ItemsPanel.AllPlayerItems</definition>
+        <argsstring></argsstring>
+        <name>AllPlayerItems</name>
+        <qualifiedname>ItemsPanel.AllPlayerItems</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsUI/ItemsPanel.cs" line="13" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsUI/ItemsPanel.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_items_panel_1af6dea2aee500c37b0e1a46f5747d5ca5" compoundref="_items_panel_8cs" startline="30" endline="69">SetItemsInfo</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_items_panel_1a24b9c83c7675b7cae59e520453bae055" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemsPanel.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>ItemsPanel.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsUI/ItemsPanel.cs" line="15" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsUI/ItemsPanel.cs" bodystart="15" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_items_panel_1af6dea2aee500c37b0e1a46f5747d5ca5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemsPanel.SetItemsInfo</definition>
+        <argsstring>()</argsstring>
+        <name>SetItemsInfo</name>
+        <qualifiedname>ItemsPanel.SetItemsInfo</qualifiedname>
+        <briefdescription>
+<para>Sets the ItemsInfo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsUI/ItemsPanel.cs" line="30" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsUI/ItemsPanel.cs" bodystart="30" bodyend="69"/>
+        <references refid="class_items_panel_1a4acbdda0948148ee1325c0e240d740f8" compoundref="_items_panel_8cs" startline="13">AllPlayerItems</references>
+        <references refid="class_singleton_scriptable_object-1-g_1aa59148a0a9bc37057ef216e7c9a814a8" compoundref="_singleton_scriptable_object_8cs" startline="8" endline="34">SingletonScriptableObject&lt; T &gt;.Instance</references>
+        <referencedby refid="class_item_data_s_o_1a43ed92677adc25345561338f3837b53c" compoundref="_item_data_s_o_8cs" startline="62" endline="69">ItemDataSO.OnPick</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_items_panel_1aa75878c127ce9bb77277e8c993f54697" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemsPanel.ClearItemList</definition>
+        <argsstring>()</argsstring>
+        <name>ClearItemList</name>
+        <qualifiedname>ItemsPanel.ClearItemList</qualifiedname>
+        <briefdescription>
+<para>Executes the ClearItemList operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsUI/ItemsPanel.cs" line="74" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsUI/ItemsPanel.cs" bodystart="74" bodyend="80"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_items_panel" kindref="compound">ItemsPanel</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ItemsPanel</label>
+        <link refid="class_items_panel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ItemsPanel</label>
+        <link refid="class_items_panel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsUI/ItemsPanel.cs" line="7" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsUI/ItemsPanel.cs" bodystart="8" bodyend="83"/>
+    <listofallmembers>
+      <member refid="class_items_panel_1a4acbdda0948148ee1325c0e240d740f8" prot="public" virt="non-virtual"><scope>ItemsPanel</scope><name>AllPlayerItems</name></member>
+      <member refid="class_items_panel_1a24b9c83c7675b7cae59e520453bae055" prot="private" virt="non-virtual"><scope>ItemsPanel</scope><name>Awake</name></member>
+      <member refid="class_items_panel_1aa75878c127ce9bb77277e8c993f54697" prot="public" virt="non-virtual"><scope>ItemsPanel</scope><name>ClearItemList</name></member>
+      <member refid="class_items_panel_1a18ff80103e6714cc05f4d1adaae29c1a" prot="public" virt="non-virtual"><scope>ItemsPanel</scope><name>Instance</name></member>
+      <member refid="class_items_panel_1ad9c389320713c0b37ac8e55fffb86f1e" prot="private" virt="non-virtual"><scope>ItemsPanel</scope><name>NeedIndex</name></member>
+      <member refid="class_items_panel_1af6dea2aee500c37b0e1a46f5747d5ca5" prot="public" virt="non-virtual"><scope>ItemsPanel</scope><name>SetItemsInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

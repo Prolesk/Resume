@@ -1,0 +1,7 @@
+<map id="FlexibleUIMover.SwitchAllElements" name="FlexibleUIMover.SwitchAllElements">
+<area shape="rect" id="Node000001" title="Executes the SwitchAllElements operation." alt="" coords="256,39,431,81"/>
+<area shape="rect" id="Node000002" href="$class_flexible_u_i_mover.html#a375a293c4767d252f7e0d0df11b2f91b" title="Moves the object." alt="" coords="9,5,204,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,46,204,43,204,38,243,45"/>
+<area shape="rect" id="Node000003" href="$class_flexible_u_i_mover.html#aa96501a0c22718c7148920a3407ca27e" title="Moves the object." alt="" coords="5,72,208,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="238,75,209,82,208,76,243,74"/>
+</map>

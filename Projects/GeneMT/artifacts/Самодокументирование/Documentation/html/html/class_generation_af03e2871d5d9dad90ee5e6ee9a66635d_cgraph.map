@@ -1,0 +1,5 @@
+<map id="Generation.InitialiseGenerationList" name="Generation.InitialiseGenerationList">
+<area shape="rect" id="Node000001" title="Executes the InitialiseGenerationList operation." alt="" coords="5,5,226,32"/>
+<area shape="rect" id="Node000002" href="$class_generation.html#ae54d2c3052097891a77008466f01e147" title="Executes the ClearGeneration operation." alt="" coords="274,5,456,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="226,16,261,19,255,19,226,21"/>
+</map>

@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_enemies_mover" kind="class" language="C#" prot="public">
+    <compoundname>EnemiesMover</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_enemies_mover_1aa5f9ddbe103ae09f58c0612fc5a23ebf" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform EnemiesMover._playerTransform</definition>
+        <argsstring></argsstring>
+        <name>_playerTransform</name>
+        <qualifiedname>EnemiesMover._playerTransform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" line="11" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemies_mover_1aa7169bb3e7e3aa2191f3f1edd70f5909" prot="private" static="no" mutable="no">
+        <type>NavMeshAgent</type>
+        <definition>NavMeshAgent EnemiesMover.agent</definition>
+        <argsstring></argsstring>
+        <name>agent</name>
+        <qualifiedname>EnemiesMover.agent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" line="12" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemies_mover_1a37fc901e31542a60c19f3d87a5a80899" prot="private" static="no" mutable="no">
+        <type>EnemyConfig</type>
+        <definition>EnemyConfig EnemiesMover._initializedStats</definition>
+        <argsstring></argsstring>
+        <name>_initializedStats</name>
+        <qualifiedname>EnemiesMover._initializedStats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" line="13" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemies_mover_1af0ff9aed40bc9f92cc99d0a923090436" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EnemiesMover.isReady</definition>
+        <argsstring></argsstring>
+        <name>isReady</name>
+        <qualifiedname>EnemiesMover.isReady</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" line="14" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemies_mover_1aeed68802950bd09f9b820ffe6a3fc29b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemiesMover._moveSpeedDeviation</definition>
+        <argsstring></argsstring>
+        <name>_moveSpeedDeviation</name>
+        <qualifiedname>EnemiesMover._moveSpeedDeviation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" line="15" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemies_mover_1a006be4e32cdc736f40c2fa705262007d" prot="private" static="no" mutable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody EnemiesMover.rb</definition>
+        <argsstring></argsstring>
+        <name>rb</name>
+        <qualifiedname>EnemiesMover.rb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" line="16" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_enemies_mover_1a54c4b0b40bc29eb588c0cd2671dc2e8e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemiesMover.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>EnemiesMover.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" line="18" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemies_mover_1a8447490f80a4a3d67f23e5974fded47f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemiesMover.FindPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>FindPlayer</name>
+        <qualifiedname>EnemiesMover.FindPlayer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" line="25" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" bodystart="25" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemies_mover_1a149b3c4dbb32705b124e5357302f2988" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemiesMover.InitializeAgent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeAgent</name>
+        <qualifiedname>EnemiesMover.InitializeAgent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" line="39" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" bodystart="39" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemies_mover_1a90734aae9da0b65cf0bd197da093e502" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemiesMover.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>EnemiesMover.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" line="57" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" bodystart="57" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemies_mover_1ad9d7a7803e22938d9d83414823c68e49" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemiesMover.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <qualifiedname>EnemiesMover.FixedUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" line="71" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" bodystart="71" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemies_mover_1a6e96e0a25d056734a5860850eab2e4cb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool EnemiesMover.CanSetDestination</definition>
+        <argsstring>()</argsstring>
+        <name>CanSetDestination</name>
+        <qualifiedname>EnemiesMover.CanSetDestination</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" line="78" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" bodystart="78" bodyend="84"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_enemies_mover" kindref="compound">EnemiesMover</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EnemiesMover</label>
+        <link refid="class_enemies_mover"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EnemiesMover</label>
+        <link refid="class_enemies_mover"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallEnemiesMover.cs" bodystart="10" bodyend="85"/>
+    <listofallmembers>
+      <member refid="class_enemies_mover_1a37fc901e31542a60c19f3d87a5a80899" prot="private" virt="non-virtual"><scope>EnemiesMover</scope><name>_initializedStats</name></member>
+      <member refid="class_enemies_mover_1aeed68802950bd09f9b820ffe6a3fc29b" prot="private" virt="non-virtual"><scope>EnemiesMover</scope><name>_moveSpeedDeviation</name></member>
+      <member refid="class_enemies_mover_1aa5f9ddbe103ae09f58c0612fc5a23ebf" prot="private" virt="non-virtual"><scope>EnemiesMover</scope><name>_playerTransform</name></member>
+      <member refid="class_enemies_mover_1aa7169bb3e7e3aa2191f3f1edd70f5909" prot="private" virt="non-virtual"><scope>EnemiesMover</scope><name>agent</name></member>
+      <member refid="class_enemies_mover_1a6e96e0a25d056734a5860850eab2e4cb" prot="private" virt="non-virtual"><scope>EnemiesMover</scope><name>CanSetDestination</name></member>
+      <member refid="class_enemies_mover_1a8447490f80a4a3d67f23e5974fded47f" prot="private" virt="non-virtual"><scope>EnemiesMover</scope><name>FindPlayer</name></member>
+      <member refid="class_enemies_mover_1ad9d7a7803e22938d9d83414823c68e49" prot="private" virt="non-virtual"><scope>EnemiesMover</scope><name>FixedUpdate</name></member>
+      <member refid="class_enemies_mover_1a149b3c4dbb32705b124e5357302f2988" prot="private" virt="non-virtual"><scope>EnemiesMover</scope><name>InitializeAgent</name></member>
+      <member refid="class_enemies_mover_1af0ff9aed40bc9f92cc99d0a923090436" prot="private" virt="non-virtual"><scope>EnemiesMover</scope><name>isReady</name></member>
+      <member refid="class_enemies_mover_1a90734aae9da0b65cf0bd197da093e502" prot="private" virt="non-virtual"><scope>EnemiesMover</scope><name>OnEnable</name></member>
+      <member refid="class_enemies_mover_1a006be4e32cdc736f40c2fa705262007d" prot="private" virt="non-virtual"><scope>EnemiesMover</scope><name>rb</name></member>
+      <member refid="class_enemies_mover_1a54c4b0b40bc29eb588c0cd2671dc2e8e" prot="private" virt="non-virtual"><scope>EnemiesMover</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

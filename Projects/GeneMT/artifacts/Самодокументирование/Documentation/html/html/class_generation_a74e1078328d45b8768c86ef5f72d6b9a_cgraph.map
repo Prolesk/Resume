@@ -1,0 +1,7 @@
+<map id="Generation.AddQuestsToTiles" name="Generation.AddQuestsToTiles">
+<area shape="rect" id="Node000001" title="Adds QuestsToTiles." alt="" coords="5,47,201,73"/>
+<area shape="rect" id="Node000002" href="$class_spawn_activity_on_tile.html#a204249f5aacd4bbe60125033e52c738f" title="Spawns QuestGiverOfType." alt="" coords="249,5,436,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,44,236,41,231,43,202,49"/>
+<area shape="rect" id="Node000003" href="$class_spawn_activity_on_tile.html#a64e8152a1285f12862d0e60cecfefd4e" title="Spawns TransitionQuest." alt="" coords="249,72,436,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,71,236,78,230,78,201,76"/>
+</map>

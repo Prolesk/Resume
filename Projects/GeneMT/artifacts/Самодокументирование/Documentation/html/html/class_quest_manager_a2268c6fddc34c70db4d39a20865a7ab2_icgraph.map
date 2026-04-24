@@ -1,0 +1,7 @@
+<map id="QuestManager.TurnInQuest" name="QuestManager.TurnInQuest">
+<area shape="rect" id="Node000001" title="Executes the TurnInQuest operation." alt="" coords="245,31,427,57"/>
+<area shape="rect" id="Node000002" href="$class_quest_giver.html#a969ad607369c939921780414df7e4056" title=" " alt="" coords="33,5,169,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,33,169,29,169,23,232,32"/>
+<area shape="rect" id="Node000003" href="$class_quest_data.html#a2a7fcbb76c881392b9d82be0938b5738" title=" " alt="" coords="5,56,197,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,56,197,62,197,56,232,55"/>
+</map>

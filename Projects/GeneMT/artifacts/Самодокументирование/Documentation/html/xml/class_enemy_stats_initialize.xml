@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_enemy_stats_initialize" kind="class" language="C#" prot="public">
+    <compoundname>EnemyStatsInitialize</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_enemy_stats_initialize_1a451cec52521778bda9a8e952c1d79d6e" prot="private" static="no" mutable="no">
+        <type>EnemyConfig</type>
+        <definition>EnemyConfig EnemyStatsInitialize.config</definition>
+        <argsstring></argsstring>
+        <name>config</name>
+        <qualifiedname>EnemyStatsInitialize.config</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" line="12" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_enemy_stats_initialize_1a8cfc41d51213f65b32832e0a243fc7c7" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string EnemyStatsInitialize._enemyName</definition>
+        <argsstring></argsstring>
+        <name>_enemyName</name>
+        <qualifiedname>EnemyStatsInitialize._enemyName</qualifiedname>
+        <briefdescription>
+<para>The _enemyName field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" line="17" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_stats_initialize_1a8219770151cc02130fa6398824a8c372" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EnemyStatsInitialize._maxHealth</definition>
+        <argsstring></argsstring>
+        <name>_maxHealth</name>
+        <qualifiedname>EnemyStatsInitialize._maxHealth</qualifiedname>
+        <briefdescription>
+<para>The _maxHealth field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" line="21" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_stats_initialize_1a027832df49f89ae74d7529d18635468a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EnemyStatsInitialize._damage</definition>
+        <argsstring></argsstring>
+        <name>_damage</name>
+        <qualifiedname>EnemyStatsInitialize._damage</qualifiedname>
+        <briefdescription>
+<para>The _damage field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" line="25" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_stats_initialize_1a43a011a72e3119d81edbcb79b2ee3965" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyStatsInitialize._damageCooldown</definition>
+        <argsstring></argsstring>
+        <name>_damageCooldown</name>
+        <qualifiedname>EnemyStatsInitialize._damageCooldown</qualifiedname>
+        <briefdescription>
+<para>The _damageCooldown field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" line="29" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_stats_initialize_1a549a842639f186e166bd37f39ab1c857" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyStatsInitialize._moveSpeed</definition>
+        <argsstring></argsstring>
+        <name>_moveSpeed</name>
+        <qualifiedname>EnemyStatsInitialize._moveSpeed</qualifiedname>
+        <briefdescription>
+<para>The _moveSpeed field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" line="33" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_stats_initialize_1adbdef409c944b4703e8fb2b9cbf803d4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EnemyStatsInitialize._experienceRewardMultiplier</definition>
+        <argsstring></argsstring>
+        <name>_experienceRewardMultiplier</name>
+        <qualifiedname>EnemyStatsInitialize._experienceRewardMultiplier</qualifiedname>
+        <briefdescription>
+<para>The _experienceRewardMultiplier field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" line="37" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_stats_initialize_1ae72051d449918756385712a86e815c6a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyStatsInitialize._expOnDeath</definition>
+        <argsstring></argsstring>
+        <name>_expOnDeath</name>
+        <qualifiedname>EnemyStatsInitialize._expOnDeath</qualifiedname>
+        <briefdescription>
+<para>The _expOnDeath field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" line="41" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_stats_initialize_1acbc92f952ba8dc02a6baa20127b05aca" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyStatsInitialize._expSmallDropChance</definition>
+        <argsstring></argsstring>
+        <name>_expSmallDropChance</name>
+        <qualifiedname>EnemyStatsInitialize._expSmallDropChance</qualifiedname>
+        <briefdescription>
+<para>The _expSmallDropChance field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" line="46" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_stats_initialize_1a35693ed4ee5150591933f0ec579dd677" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyStatsInitialize._expMediumDropChance</definition>
+        <argsstring></argsstring>
+        <name>_expMediumDropChance</name>
+        <qualifiedname>EnemyStatsInitialize._expMediumDropChance</qualifiedname>
+        <briefdescription>
+<para>The _expMediumDropChance field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" line="50" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_stats_initialize_1acc3bbc911c1212bf4bdce8500bf50cf7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyStatsInitialize._expHugeDropChance</definition>
+        <argsstring></argsstring>
+        <name>_expHugeDropChance</name>
+        <qualifiedname>EnemyStatsInitialize._expHugeDropChance</qualifiedname>
+        <briefdescription>
+<para>The _expHugeDropChance field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" line="54" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_stats_initialize_1aee21f3d919872a67fbb23027fbbaea88" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject EnemyStatsInitialize._expSmallPrefab</definition>
+        <argsstring></argsstring>
+        <name>_expSmallPrefab</name>
+        <qualifiedname>EnemyStatsInitialize._expSmallPrefab</qualifiedname>
+        <briefdescription>
+<para>The _expSmallPrefab field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" line="58" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_stats_initialize_1a2e65a43664ca42cfb948dd71416854e4" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject EnemyStatsInitialize._expMediumPrefab</definition>
+        <argsstring></argsstring>
+        <name>_expMediumPrefab</name>
+        <qualifiedname>EnemyStatsInitialize._expMediumPrefab</qualifiedname>
+        <briefdescription>
+<para>The _expMediumPrefab field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" line="62" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_stats_initialize_1a1df24a2351524a8665df0daed8ed2be2" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject EnemyStatsInitialize._expHugePrefab</definition>
+        <argsstring></argsstring>
+        <name>_expHugePrefab</name>
+        <qualifiedname>EnemyStatsInitialize._expHugePrefab</qualifiedname>
+        <briefdescription>
+<para>The _expHugePrefab field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" line="66" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_stats_initialize_1ab2cd72d606ed2045c48e8ea423717fe9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyStatsInitialize._size</definition>
+        <argsstring></argsstring>
+        <name>_size</name>
+        <qualifiedname>EnemyStatsInitialize._size</qualifiedname>
+        <briefdescription>
+<para>The _size field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" line="71" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_enemy_stats_initialize_1a05bbb919e646feda0eb3ce5788bb6cb6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyStatsInitialize.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>EnemyStatsInitialize.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" line="73" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" bodystart="73" bodyend="90"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_enemy_stats_initialize" kindref="compound">EnemyStatsInitialize</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EnemyStatsInitialize</label>
+        <link refid="class_enemy_stats_initialize"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EnemyStatsInitialize</label>
+        <link refid="class_enemy_stats_initialize"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" line="10" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyStatsInitialize.cs" bodystart="11" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_enemy_stats_initialize_1a027832df49f89ae74d7529d18635468a" prot="public" virt="non-virtual"><scope>EnemyStatsInitialize</scope><name>_damage</name></member>
+      <member refid="class_enemy_stats_initialize_1a43a011a72e3119d81edbcb79b2ee3965" prot="public" virt="non-virtual"><scope>EnemyStatsInitialize</scope><name>_damageCooldown</name></member>
+      <member refid="class_enemy_stats_initialize_1a8cfc41d51213f65b32832e0a243fc7c7" prot="public" virt="non-virtual"><scope>EnemyStatsInitialize</scope><name>_enemyName</name></member>
+      <member refid="class_enemy_stats_initialize_1adbdef409c944b4703e8fb2b9cbf803d4" prot="public" virt="non-virtual"><scope>EnemyStatsInitialize</scope><name>_experienceRewardMultiplier</name></member>
+      <member refid="class_enemy_stats_initialize_1acc3bbc911c1212bf4bdce8500bf50cf7" prot="public" virt="non-virtual"><scope>EnemyStatsInitialize</scope><name>_expHugeDropChance</name></member>
+      <member refid="class_enemy_stats_initialize_1a1df24a2351524a8665df0daed8ed2be2" prot="public" virt="non-virtual"><scope>EnemyStatsInitialize</scope><name>_expHugePrefab</name></member>
+      <member refid="class_enemy_stats_initialize_1a35693ed4ee5150591933f0ec579dd677" prot="public" virt="non-virtual"><scope>EnemyStatsInitialize</scope><name>_expMediumDropChance</name></member>
+      <member refid="class_enemy_stats_initialize_1a2e65a43664ca42cfb948dd71416854e4" prot="public" virt="non-virtual"><scope>EnemyStatsInitialize</scope><name>_expMediumPrefab</name></member>
+      <member refid="class_enemy_stats_initialize_1ae72051d449918756385712a86e815c6a" prot="public" virt="non-virtual"><scope>EnemyStatsInitialize</scope><name>_expOnDeath</name></member>
+      <member refid="class_enemy_stats_initialize_1acbc92f952ba8dc02a6baa20127b05aca" prot="public" virt="non-virtual"><scope>EnemyStatsInitialize</scope><name>_expSmallDropChance</name></member>
+      <member refid="class_enemy_stats_initialize_1aee21f3d919872a67fbb23027fbbaea88" prot="public" virt="non-virtual"><scope>EnemyStatsInitialize</scope><name>_expSmallPrefab</name></member>
+      <member refid="class_enemy_stats_initialize_1a8219770151cc02130fa6398824a8c372" prot="public" virt="non-virtual"><scope>EnemyStatsInitialize</scope><name>_maxHealth</name></member>
+      <member refid="class_enemy_stats_initialize_1a549a842639f186e166bd37f39ab1c857" prot="public" virt="non-virtual"><scope>EnemyStatsInitialize</scope><name>_moveSpeed</name></member>
+      <member refid="class_enemy_stats_initialize_1ab2cd72d606ed2045c48e8ea423717fe9" prot="public" virt="non-virtual"><scope>EnemyStatsInitialize</scope><name>_size</name></member>
+      <member refid="class_enemy_stats_initialize_1a05bbb919e646feda0eb3ce5788bb6cb6" prot="private" virt="non-virtual"><scope>EnemyStatsInitialize</scope><name>Awake</name></member>
+      <member refid="class_enemy_stats_initialize_1a451cec52521778bda9a8e952c1d79d6e" prot="private" virt="non-virtual"><scope>EnemyStatsInitialize</scope><name>config</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

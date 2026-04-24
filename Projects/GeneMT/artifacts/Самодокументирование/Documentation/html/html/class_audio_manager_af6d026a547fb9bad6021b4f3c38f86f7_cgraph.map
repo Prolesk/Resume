@@ -1,0 +1,5 @@
+<map id="AudioManager.ToggleMute" name="AudioManager.ToggleMute">
+<area shape="rect" id="Node000001" title="Executes the ToggleMute operation." alt="" coords="5,5,181,32"/>
+<area shape="rect" id="Node000002" href="$class_audio_manager.html#abcf3772aefa4b77a8e4d409ade7b0b3f" title="Sets the MasterVolume." alt="" coords="229,5,440,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,16,216,19,210,19,181,21"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="PlayerHP.Heal" name="PlayerHP.Heal">
+<area shape="rect" id="Node000001" title="Applies healing." alt="" coords="238,31,344,57"/>
+<area shape="rect" id="Node000002" href="$class_player_h_p.html#a2516692ec783eea4f4d42e70b18006e2" title="Executes the maxHPChanged operation." alt="" coords="10,5,185,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,35,186,33,186,28,225,35"/>
+<area shape="rect" id="Node000003" href="$class_lunch_box_item_s_o.html#a9d66837f36814650c80a13d163b06c1d" title=" " alt="" coords="5,56,190,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,53,190,60,190,55,225,53"/>
+</map>

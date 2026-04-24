@@ -1,0 +1,28 @@
+<map id="ItemRewardInfo.Skip" name="ItemRewardInfo.Skip">
+<area shape="rect" id="Node000001" title="Executes the Skip operation." alt="" coords="5,236,150,263"/>
+<area shape="rect" id="Node000002" href="$class_game_state_manager.html#a05c4e25e28a3d356613da753b34386c3" title="Executes the ResumeGame operation." alt="" coords="198,236,423,263"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,247,185,249,179,250,150,252"/>
+<area shape="rect" id="Node000003" href="$class_game_state_manager.html#a99eb55de665c0ded19721f97626f49f2" title="Sets the Paused." alt="" coords="471,211,676,237"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="423,236,458,235,453,236,424,241"/>
+<area shape="rect" id="Node000013" href="$class_audio_manager.html#acb374da8c9ebcfb9978c7347914d05bc" title="Executes the UnduckMusic operation." alt="" coords="731,261,919,288"/>
+<area shape="poly" id="edge13_Node000002_Node000013" title=" " alt="" coords="423,252,718,269,712,270,423,258"/>
+<area shape="rect" id="Node000004" href="$class_enemy_spawn_manager.html#a0829c1ba3e308acace22f1e5d42dd024" title=" " alt="" coords="724,81,926,124"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="600,208,723,146,758,132,763,130,726,150,602,213"/>
+<area shape="rect" id="Node000008" href="$class_audio_manager.html#a7bf98859611fc62a5fda8564a99cce65" title="Executes the DuckMusic operation." alt="" coords="738,160,912,187"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="643,207,738,191,743,190,644,213"/>
+<area shape="rect" id="Node000009" href="$class_audio_manager.html#ae85cb5dd19dca76dedfb184d17b99266" title="Stops animation or sound." alt="" coords="737,211,913,237"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="677,221,724,224,719,224,677,227"/>
+<area shape="poly" id="edge12_Node000003_Node000013" title=" " alt="" coords="644,235,743,258,738,258,643,241"/>
+<area shape="rect" id="Node000005" href="$class_enemy_spawn_manager.html#a62cb7f0750589f6513a2014a7637b3e4" title=" " alt="" coords="974,5,1208,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="875,78,973,41,1000,37,1005,35,974,47,876,83"/>
+<area shape="rect" id="Node000006" href="$class_enemy_spawn_manager.html#ac659c695c921a1d96bf859154922ab1d" title=" " alt="" coords="981,56,1201,83"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="926,87,968,85,962,86,927,93"/>
+<area shape="rect" id="Node000007" href="$class_enemy_spawn_manager.html#a7d415f2e7c99c3b1c11b8e9a57152303" title="Executes the TryToSpendPoints operation." alt="" coords="978,107,1204,149"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="926,110,965,116,959,116,926,115"/>
+<area shape="rect" id="Node000010" href="$class_audio_manager.html#af2213f4bae215f43e7d4a08cf5a971e7" title="Stops animation or sound." alt="" coords="1015,173,1167,200"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="913,209,997,200,1002,199,914,214"/>
+<area shape="rect" id="Node000011" href="$class_audio_manager.html#a78430e89d7009974545b7418878d0e53" title="Stops animation or sound." alt="" coords="1006,224,1176,251"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="914,226,993,232,988,232,914,231"/>
+<area shape="rect" id="Node000012" href="$class_audio_manager.html#a99beb70f9c1e0cda5dd0f0d6c26a4b31" title="Stops animation or sound." alt="" coords="1009,275,1173,301"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="882,235,926,247,974,260,1010,271,1005,270,973,265,925,252,882,241"/>
+</map>

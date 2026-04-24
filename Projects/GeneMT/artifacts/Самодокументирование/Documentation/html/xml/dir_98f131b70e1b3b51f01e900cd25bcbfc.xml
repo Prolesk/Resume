@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_98f131b70e1b3b51f01e900cd25bcbfc" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy</compoundname>
+    <innerfile refid="_enemy_melee_dmg_8cs">EnemyMeleeDmg.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_weapon_save_manager" kind="class" language="C#" prot="public">
+    <compoundname>WeaponSaveManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_weapon_save_manager_1_1_weapon_save_data" prot="public">WeaponSaveManager::WeaponSaveData</innerclass>
+    <innerclass refid="class_weapon_save_manager_1_1_weapons_save_data" prot="public">WeaponSaveManager::WeaponsSaveData</innerclass>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_weapon_save_manager_1a9aeadd43218a98f4a42133364e96df9f" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string WeaponSaveManager.WEAPONS_SAVE_KEY</definition>
+        <argsstring></argsstring>
+        <name>WEAPONS_SAVE_KEY</name>
+        <qualifiedname>WeaponSaveManager.WEAPONS_SAVE_KEY</qualifiedname>
+        <initializer>= &quot;WeaponsData&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" line="9" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_weapon_save_manager_1ae638b5e33c377ad142d232406fe27831" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_weapon_save_manager" kindref="compound">WeaponSaveManager</ref></type>
+        <definition>WeaponSaveManager WeaponSaveManager.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>WeaponSaveManager.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" line="40" column="37" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_weapon_save_manager_1a38ab4d582aace309c8cf391e69cbfb9c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_weapon_save_manager_1_1_weapons_save_data" kindref="compound">WeaponsSaveData</ref></type>
+        <definition>WeaponsSaveData WeaponSaveManager.currentSessionData</definition>
+        <argsstring></argsstring>
+        <name>currentSessionData</name>
+        <qualifiedname>WeaponSaveManager.currentSessionData</qualifiedname>
+        <initializer>= new <ref refid="class_weapon_save_manager_1_1_weapons_save_data" kindref="compound">WeaponsSaveData</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" line="42" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_weapon_save_manager_1adada0a3d526c3874bfab902d0499824d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WeaponSaveManager.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>WeaponSaveManager.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" line="44" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" bodystart="44" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_weapon_save_manager_1ac33f77c0d66e38ed8bbd4c8bfb365da9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WeaponSaveManager.SaveWeaponsState</definition>
+        <argsstring>(List&lt; Weapon &gt; weapons)</argsstring>
+        <name>SaveWeaponsState</name>
+        <qualifiedname>WeaponSaveManager.SaveWeaponsState</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_weapon" kindref="compound">Weapon</ref> &gt;</type>
+          <declname>weapons</declname>
+        </param>
+        <briefdescription>
+<para>Saves data. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" line="61" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" bodystart="61" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_save_manager_1a0f0eb3f7c8eae9459b38295d4b45c844" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WeaponSaveManager.LoadWeaponsState</definition>
+        <argsstring>()</argsstring>
+        <name>LoadWeaponsState</name>
+        <qualifiedname>WeaponSaveManager.LoadWeaponsState</qualifiedname>
+        <briefdescription>
+<para>Loads data. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" line="83" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" bodystart="83" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_save_manager_1a2f5c0b329b8082a5a24074903becf2d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WeaponSaveManager.ApplySavedStateToWeapon</definition>
+        <argsstring>(Weapon weapon)</argsstring>
+        <name>ApplySavedStateToWeapon</name>
+        <qualifiedname>WeaponSaveManager.ApplySavedStateToWeapon</qualifiedname>
+        <param>
+          <type><ref refid="class_weapon" kindref="compound">Weapon</ref></type>
+          <declname>weapon</declname>
+        </param>
+        <briefdescription>
+<para>Executes the ApplySavedStateToWeapon operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>weapon</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The weapon.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" line="96" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" bodystart="96" bodyend="106"/>
+        <references refid="class_weapon_1a6d7148708171a55fe10eb250d73c9f71" compoundref="_weapon_8cs" startline="203" endline="224">Weapon.AddLevel</references>
+        <references refid="class_weapon_1a2a0c19d2dbdb2cddf5f548a140589791" compoundref="_weapon_8cs" startline="44">Weapon.CurrentLevel</references>
+        <references refid="class_weapon_1a635065fdc99dea24985f112f1254ed5a" compoundref="_weapon_8cs" startline="36">Weapon.Data</references>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_save_manager_1a3d0e17b462cdbbcd3dbf6ff404cf467c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WeaponSaveManager.ResetSession</definition>
+        <argsstring>()</argsstring>
+        <name>ResetSession</name>
+        <qualifiedname>WeaponSaveManager.ResetSession</qualifiedname>
+        <briefdescription>
+<para>Resets Session. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" line="111" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" bodystart="111" bodyend="117"/>
+        <referencedby refid="class_weapon_save_manager_1a83e1ee33bbeedbcf8754b48259338c89" compoundref="_weapon_save_manager_8cs" startline="132" endline="135">OnGameOver</referencedby>
+        <referencedby refid="class_weapon_save_manager_1a54f39c58d3ffcde73ba15862388ef89c" compoundref="_weapon_save_manager_8cs" startline="123" endline="126">OnReturnToMainMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_save_manager_1a54f39c58d3ffcde73ba15862388ef89c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WeaponSaveManager.OnReturnToMainMenu</definition>
+        <argsstring>()</argsstring>
+        <name>OnReturnToMainMenu</name>
+        <qualifiedname>WeaponSaveManager.OnReturnToMainMenu</qualifiedname>
+        <briefdescription>
+<para>Event handler for OnReturnToMainMenu. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" line="123" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" bodystart="123" bodyend="126"/>
+        <references refid="class_weapon_save_manager_1a3d0e17b462cdbbcd3dbf6ff404cf467c" compoundref="_weapon_save_manager_8cs" startline="111" endline="117">ResetSession</references>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_save_manager_1a83e1ee33bbeedbcf8754b48259338c89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WeaponSaveManager.OnGameOver</definition>
+        <argsstring>()</argsstring>
+        <name>OnGameOver</name>
+        <qualifiedname>WeaponSaveManager.OnGameOver</qualifiedname>
+        <briefdescription>
+<para>Event handler for OnGameOver. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" line="132" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" bodystart="132" bodyend="135"/>
+        <references refid="class_weapon_save_manager_1a3d0e17b462cdbbcd3dbf6ff404cf467c" compoundref="_weapon_save_manager_8cs" startline="111" endline="117">ResetSession</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_weapon_save_manager" kindref="compound">WeaponSaveManager</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>WeaponSaveManager</label>
+        <link refid="class_weapon_save_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>WeaponSaveManager</label>
+        <link refid="class_weapon_save_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" line="7" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" bodystart="8" bodyend="136"/>
+    <listofallmembers>
+      <member refid="class_weapon_save_manager_1a2f5c0b329b8082a5a24074903becf2d3" prot="public" virt="non-virtual"><scope>WeaponSaveManager</scope><name>ApplySavedStateToWeapon</name></member>
+      <member refid="class_weapon_save_manager_1adada0a3d526c3874bfab902d0499824d" prot="private" virt="non-virtual"><scope>WeaponSaveManager</scope><name>Awake</name></member>
+      <member refid="class_weapon_save_manager_1a38ab4d582aace309c8cf391e69cbfb9c" prot="private" virt="non-virtual"><scope>WeaponSaveManager</scope><name>currentSessionData</name></member>
+      <member refid="class_weapon_save_manager_1ae638b5e33c377ad142d232406fe27831" prot="public" virt="non-virtual"><scope>WeaponSaveManager</scope><name>Instance</name></member>
+      <member refid="class_weapon_save_manager_1a0f0eb3f7c8eae9459b38295d4b45c844" prot="public" virt="non-virtual"><scope>WeaponSaveManager</scope><name>LoadWeaponsState</name></member>
+      <member refid="class_weapon_save_manager_1a83e1ee33bbeedbcf8754b48259338c89" prot="public" virt="non-virtual"><scope>WeaponSaveManager</scope><name>OnGameOver</name></member>
+      <member refid="class_weapon_save_manager_1a54f39c58d3ffcde73ba15862388ef89c" prot="public" virt="non-virtual"><scope>WeaponSaveManager</scope><name>OnReturnToMainMenu</name></member>
+      <member refid="class_weapon_save_manager_1a3d0e17b462cdbbcd3dbf6ff404cf467c" prot="public" virt="non-virtual"><scope>WeaponSaveManager</scope><name>ResetSession</name></member>
+      <member refid="class_weapon_save_manager_1ac33f77c0d66e38ed8bbd4c8bfb365da9" prot="public" virt="non-virtual"><scope>WeaponSaveManager</scope><name>SaveWeaponsState</name></member>
+      <member refid="class_weapon_save_manager_1a9aeadd43218a98f4a42133364e96df9f" prot="private" virt="non-virtual"><scope>WeaponSaveManager</scope><name>WEAPONS_SAVE_KEY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

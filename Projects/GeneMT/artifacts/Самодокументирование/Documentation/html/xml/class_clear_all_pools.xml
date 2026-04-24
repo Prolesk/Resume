@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_clear_all_pools" kind="class" language="C#" prot="public">
+    <compoundname>ClearAllPools</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_clear_all_pools_1a5d121e7f2a537cac1f56a74ec2fe9984" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClearAllPools.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>ClearAllPools.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ClearAllPools.cs" line="8" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ClearAllPools.cs" bodystart="8" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_clear_all_pools" kindref="compound">ClearAllPools</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ClearAllPools</label>
+        <link refid="class_clear_all_pools"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ClearAllPools</label>
+        <link refid="class_clear_all_pools"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ClearAllPools.cs" line="6" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ClearAllPools.cs" bodystart="7" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_clear_all_pools_1a5d121e7f2a537cac1f56a74ec2fe9984" prot="private" virt="non-virtual"><scope>ClearAllPools</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

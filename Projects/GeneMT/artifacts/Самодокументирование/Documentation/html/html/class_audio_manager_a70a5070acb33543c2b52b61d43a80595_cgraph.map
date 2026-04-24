@@ -1,0 +1,5 @@
+<map id="AudioManager.SetMasterVolumeMixer" name="AudioManager.SetMasterVolumeMixer">
+<area shape="rect" id="Node000001" title="Sets the MasterVolumeMixer." alt="" coords="5,5,217,48"/>
+<area shape="rect" id="Node000002" href="$class_audio_manager.html#abcf3772aefa4b77a8e4d409ade7b0b3f" title="Sets the MasterVolume." alt="" coords="265,13,476,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,24,252,27,246,27,217,29"/>
+</map>

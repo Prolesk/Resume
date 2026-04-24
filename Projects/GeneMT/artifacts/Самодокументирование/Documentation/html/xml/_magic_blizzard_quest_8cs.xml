@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="_magic_blizzard_quest_8cs" kind="file" language="C#">
+    <compoundname>MagicBlizzardQuest.cs</compoundname>
+    <innerclass refid="class_magic_blizzard_quest" prot="public">MagicBlizzardQuest</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">[CreateAssetMenu(fileName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Magic<sp/>Blizzard<sp/>Quest&quot;</highlight><highlight class="normal">,<sp/>menuName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Quests/Magic<sp/>Blizzard<sp/>Quest&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="9" refid="class_magic_blizzard_quest" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_magic_blizzard_quest" kindref="compound">MagicBlizzardQuest</ref><sp/>:<sp/><ref refid="class_quest_data" kindref="compound">QuestData</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>[Header(</highlight><highlight class="stringliteral">&quot;Magic<sp/>Blizzard<sp/>Quest<sp/>Settings&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="15" refid="class_magic_blizzard_quest_1a8f7f07569883d170476ef969ef92c522" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_magic_blizzard_quest_1a8f7f07569883d170476ef969ef92c522" kindref="member">BlizzardShield</ref>;</highlight></codeline>
+<codeline lineno="19" refid="class_magic_blizzard_quest_1af47b28d71c7ba67810508bae40cc2613" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_magic_blizzard_quest_1af47b28d71c7ba67810508bae40cc2613" kindref="member">damagePeriod</ref>;</highlight></codeline>
+<codeline lineno="23" refid="class_magic_blizzard_quest_1a3a503a7d80585f5c08bb5a278353a22b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_magic_blizzard_quest_1a3a503a7d80585f5c08bb5a278353a22b" kindref="member">damage</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>GameObject<sp/>ShieldRef;</highlight></codeline>
+<codeline lineno="26" refid="class_magic_blizzard_quest_1a09178839acb63c4618a9df8843945141" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_magic_blizzard_quest_1a09178839acb63c4618a9df8843945141" kindref="member">OnQuestStart</ref>()</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.OnQuestStart();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ShieldRef<sp/>=<sp/>Instantiate(<ref refid="class_magic_blizzard_quest_1a8f7f07569883d170476ef969ef92c522" kindref="member">BlizzardShield</ref>,<sp/><ref refid="class_quest_data_1abe69e5a2a7ab22473bb90e85f966ae9f" kindref="member">_questGiver</ref>.transform.position,<sp/>Quaternion.identity);<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ShieldRef.GetComponent&lt;<ref refid="class_blizzard_field_trigger" kindref="compound">BlizzardFieldTrigger</ref>&gt;().<ref refid="class_magic_blizzard_quest_1a3a503a7d80585f5c08bb5a278353a22b" kindref="member">damage</ref><sp/>=<sp/><ref refid="class_magic_blizzard_quest_1a3a503a7d80585f5c08bb5a278353a22b" kindref="member">damage</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ShieldRef.GetComponent&lt;<ref refid="class_blizzard_field_trigger" kindref="compound">BlizzardFieldTrigger</ref>&gt;().<ref refid="class_magic_blizzard_quest_1af47b28d71c7ba67810508bae40cc2613" kindref="member">damagePeriod</ref><sp/>=<sp/><ref refid="class_magic_blizzard_quest_1af47b28d71c7ba67810508bae40cc2613" kindref="member">damagePeriod</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_quest_manager" kindref="compound">QuestManager</ref>.<ref refid="class_quest_manager_1a8e1cd09cf2af8f04d6854f0b54d8b0bf" kindref="member">Instance</ref>?.<ref refid="class_quest_manager_1a1395a03cb6c72209747309163e62ef6f" kindref="member">RegisterQuest</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="class_magic_blizzard_quest_1a94cb3cc20f8504d8229df3cabec85c08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_magic_blizzard_quest_1a94cb3cc20f8504d8229df3cabec85c08" kindref="member">OnQuestFinish</ref>()</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.OnQuestFinish();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Destroy(ShieldRef);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_quest_manager" kindref="compound">QuestManager</ref>.<ref refid="class_quest_manager_1a8e1cd09cf2af8f04d6854f0b54d8b0bf" kindref="member">Instance</ref>?.<ref refid="class_quest_manager_1aea24d979636f69fa40f33d064fa54109" kindref="member">UnregisterQuest</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45" refid="class_magic_blizzard_quest_1abad4e00e788146605be3fcde28888643" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_magic_blizzard_quest_1abad4e00e788146605be3fcde28888643" kindref="member">OnQuestCancel</ref>()</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.OnQuestCancel();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Destroy(ShieldRef);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_quest_manager" kindref="compound">QuestManager</ref>.<ref refid="class_quest_manager_1a8e1cd09cf2af8f04d6854f0b54d8b0bf" kindref="member">Instance</ref>?.<ref refid="class_quest_manager_1ab1471bbeb7ffe4bf53b0c66152758f44" kindref="member">CancelQuest</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/MagicBlizzardQuest.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,17 @@
+<map id="ItemDataSO" name="ItemDataSO">
+<area shape="rect" id="Node000001" title="The ItemDataSO class." alt="" coords="171,132,265,159"/>
+<area shape="rect" id="Node000003" href="$class_lunch_box_item_s_o.html" title="The LunchBoxItemSO class." alt="" coords="353,5,477,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="235,117,267,78,288,58,312,42,355,27,350,30,314,46,292,63,271,82,239,121"/>
+<area shape="rect" id="Node000004" href="$class_magic_damage_boost_item_s_o.html" title="The MagicDamageBoostItemSO class." alt="" coords="323,56,507,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="253,122,312,92,351,82,346,84,314,97,255,126"/>
+<area shape="rect" id="Node000005" href="$class_tech_instruments_s_o.html" title="The TechInstrumentsSO class." alt="" coords="346,107,484,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="279,135,348,128,343,130,281,140"/>
+<area shape="rect" id="Node000006" href="$class_techno_damage_boost_item_s_o.html" title="The TechnoDamageBoostItemSO class." alt="" coords="320,157,511,184"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="280,151,322,158,316,159,281,156"/>
+<area shape="rect" id="Node000007" href="$class_universal_damage_boost_item_s_o.html" title="The UniversalDamageBoostItemSO class." alt="" coords="313,208,517,235"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="254,164,314,194,351,207,346,208,312,198,254,169"/>
+<area shape="rect" id="Node000008" href="$class_universal_damage_give_shield_item_s_o.html" title="The UniversalDamageGiveShieldItemSO class." alt="" coords="321,259,509,301"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="238,169,272,208,314,244,337,258,332,258,312,249,268,212,236,174"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,132,123,159"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,143,173,144,168,147,139,148"/>
+</map>

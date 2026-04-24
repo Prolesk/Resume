@@ -1,0 +1,694 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_generation" kind="class" language="C#" prot="public">
+    <compoundname>Generation</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_generation_1ac67eb002d60c76ae21d47b946d679c10" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Generation._edgeWall</definition>
+        <argsstring></argsstring>
+        <name>_edgeWall</name>
+        <qualifiedname>Generation._edgeWall</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="15" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generation_1a45c5ffae96fe9398c6b3d70580177cf8" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Generation._edgeWallCorner</definition>
+        <argsstring></argsstring>
+        <name>_edgeWallCorner</name>
+        <qualifiedname>Generation._edgeWallCorner</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="16" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generation_1a4c4fd081a8b736195084330c0678ecd8" prot="private" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; Generation._tilesVariationList</definition>
+        <argsstring></argsstring>
+        <name>_tilesVariationList</name>
+        <qualifiedname>Generation._tilesVariationList</qualifiedname>
+        <initializer>= new List&lt;GameObject&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="17" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generation_1ad031f289de433aaf58e66a0be41426b5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Generation._generationHeight</definition>
+        <argsstring></argsstring>
+        <name>_generationHeight</name>
+        <qualifiedname>Generation._generationHeight</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="18" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generation_1a0528d655f318144ab4f7ca6679962bd3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Generation._generationWidth</definition>
+        <argsstring></argsstring>
+        <name>_generationWidth</name>
+        <qualifiedname>Generation._generationWidth</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="19" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generation_1aae66ec6be5b70fdaf8001ecd2b5d2925" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_quest_data" kindref="compound">QuestData</ref> &gt;</type>
+        <definition>List&lt;QuestData&gt; Generation.transitionQuests</definition>
+        <argsstring></argsstring>
+        <name>transitionQuests</name>
+        <qualifiedname>Generation.transitionQuests</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_quest_data" kindref="compound">QuestData</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="20" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generation_1ad213f375c7d8db9da9a9e13f92124bda" prot="private" static="no" mutable="no">
+        <type>List&lt; List&lt; GameObject &gt; &gt;</type>
+        <definition>List&lt;List&lt;GameObject&gt; &gt; Generation.generation</definition>
+        <argsstring></argsstring>
+        <name>generation</name>
+        <qualifiedname>Generation.generation</qualifiedname>
+        <initializer>= new List&lt;List&lt;GameObject&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="24" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generation_1a694e8d0a6a89bdf619c3cf6a359532a4" prot="private" static="no" mutable="no">
+        <type>NavMeshSurface[]</type>
+        <definition>NavMeshSurface [] Generation.allSurfaces</definition>
+        <argsstring></argsstring>
+        <name>allSurfaces</name>
+        <qualifiedname>Generation.allSurfaces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="25" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generation_1a9479967948c86194b666eeae5ca41afc" prot="private" static="no" mutable="no">
+        <type><ref refid="class_item_controller_s_o" kindref="compound">ItemControllerSO</ref></type>
+        <definition>ItemControllerSO Generation._itemController</definition>
+        <argsstring></argsstring>
+        <name>_itemController</name>
+        <qualifiedname>Generation._itemController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="48" column="31" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_generation_1a46b608e7d5f196ce848538f410ffcb8e" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_generation" kindref="compound">Generation</ref></type>
+        <definition>Generation Generation.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>Generation.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="22" column="30" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="22" bodyend="22"/>
+        <referencedby refid="class_gather_gas_quest_1ac87412cf60cb8f6e097d246e75d1ad77" compoundref="_gather_gas_quest_8cs" startline="17" endline="23">GatherGasQuest.OnQuestStart</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_generation_1a08e41f86f8b5e403f2a408352520cfe0" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_quest_data" kindref="compound">QuestData</ref> &gt;</type>
+        <definition>List&lt;QuestData&gt; Generation._availableQuests</definition>
+        <argsstring></argsstring>
+        <name>_availableQuests</name>
+        <qualifiedname>Generation._availableQuests</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_quest_data" kindref="compound">QuestData</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="26" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_generation_1a74e1078328d45b8768c86ef5f72d6b9a" compoundref="_generation_8cs" startline="184" endline="301">AddQuestsToTiles</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_generation_1a5b62cad722a25ec3f34aa98180231061" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_quest_data" kindref="compound">QuestData</ref> &gt;</type>
+        <definition>List&lt;QuestData&gt; Generation._allQuests</definition>
+        <argsstring></argsstring>
+        <name>_allQuests</name>
+        <qualifiedname>Generation._allQuests</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_quest_data" kindref="compound">QuestData</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="27" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generation_1add9294caa25a00baad54fbb74709d521" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Generation._questsOnMapMin</definition>
+        <argsstring></argsstring>
+        <name>_questsOnMapMin</name>
+        <qualifiedname>Generation._questsOnMapMin</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+<para>The _questsOnMapMin field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="32" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_generation_1a0afdceb93ad62b910ee4d733623bec9f" compoundref="_generation_8cs" startline="395" endline="426">GenerateMap</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_generation_1a1cb46c370f4bbb04f95e253f8f89af8f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Generation._questsOnMapMax</definition>
+        <argsstring></argsstring>
+        <name>_questsOnMapMax</name>
+        <qualifiedname>Generation._questsOnMapMax</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+<para>The _questsOnMapMax field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="36" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_generation_1a0afdceb93ad62b910ee4d733623bec9f" compoundref="_generation_8cs" startline="395" endline="426">GenerateMap</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_generation_1aacac8932141e9cc496e8840787590857" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Generation._mutationsOnMapMin</definition>
+        <argsstring></argsstring>
+        <name>_mutationsOnMapMin</name>
+        <qualifiedname>Generation._mutationsOnMapMin</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+<para>The _mutationsOnMapMin field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="41" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_generation_1a0afdceb93ad62b910ee4d733623bec9f" compoundref="_generation_8cs" startline="395" endline="426">GenerateMap</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_generation_1a5a2beb680940b35f5f9d64d26d2fa9e9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Generation._mutationsOnMapMax</definition>
+        <argsstring></argsstring>
+        <name>_mutationsOnMapMax</name>
+        <qualifiedname>Generation._mutationsOnMapMax</qualifiedname>
+        <initializer>= 4</initializer>
+        <briefdescription>
+<para>The _mutationsOnMapMax field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="45" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_generation_1a0afdceb93ad62b910ee4d733623bec9f" compoundref="_generation_8cs" startline="395" endline="426">GenerateMap</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_generation_1abf862c37f8ddfdd44771e93463c0c908" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Generation.SpawnGasTanks</definition>
+        <argsstring>(int amount)</argsstring>
+        <name>SpawnGasTanks</name>
+        <qualifiedname>Generation.SpawnGasTanks</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+<para>Spawns GasTanks. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>amount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The amount.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="57" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="57" bodyend="78"/>
+        <referencedby refid="class_gather_gas_quest_1ac87412cf60cb8f6e097d246e75d1ad77" compoundref="_gather_gas_quest_8cs" startline="17" endline="23">GatherGasQuest.OnQuestStart</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_generation_1af03e2871d5d9dad90ee5e6ee9a66635d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Generation.InitialiseGenerationList</definition>
+        <argsstring>(int _width, int _height)</argsstring>
+        <name>InitialiseGenerationList</name>
+        <qualifiedname>Generation.InitialiseGenerationList</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>_width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_height</declname>
+        </param>
+        <briefdescription>
+<para>Executes the InitialiseGenerationList operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The _width.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The _height.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="98" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="98" bodyend="111"/>
+        <references refid="class_generation_1ae54d2c3052097891a77008466f01e147" compoundref="_generation_8cs" startline="453" endline="473">ClearGeneration</references>
+      </memberdef>
+      <memberdef kind="function" id="class_generation_1a87ab05fd81e1888dfa585afb81ec439a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Generation.AddMutationsChestsToTiles</definition>
+        <argsstring>(int _width, int _height, int MutationsMin, int MutationsMax)</argsstring>
+        <name>AddMutationsChestsToTiles</name>
+        <qualifiedname>Generation.AddMutationsChestsToTiles</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>_width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_height</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>MutationsMin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>MutationsMax</declname>
+        </param>
+        <briefdescription>
+<para>Adds MutationsChestsToTiles. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The _width.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The _height.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>MutationsMin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The MutationsMin.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>MutationsMax</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The MutationsMax.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="120" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="120" bodyend="175"/>
+        <references refid="class_spawn_activity_on_tile_1a79ca28fc9d58ad992d7d3555702261f0" compoundref="_spawn_activity_on_tile_8cs" startline="32">SpawnActivityOnTile._objectsOnTile</references>
+        <references refid="class_spawn_activity_on_tile_1ab938a6ab3d90daaacd2f1856a6b63d62" compoundref="_spawn_activity_on_tile_8cs" startline="64" endline="70">SpawnActivityOnTile.SpawnMutationChest</references>
+        <referencedby refid="class_generation_1a0afdceb93ad62b910ee4d733623bec9f" compoundref="_generation_8cs" startline="395" endline="426">GenerateMap</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_generation_1a74e1078328d45b8768c86ef5f72d6b9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Generation.AddQuestsToTiles</definition>
+        <argsstring>(int _width, int _height, int QuestsMin, int QuestsMax)</argsstring>
+        <name>AddQuestsToTiles</name>
+        <qualifiedname>Generation.AddQuestsToTiles</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>_width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_height</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>QuestsMin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>QuestsMax</declname>
+        </param>
+        <briefdescription>
+<para>Adds QuestsToTiles. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The _width.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The _height.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>QuestsMin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The QuestsMin.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>QuestsMax</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The QuestsMax.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="184" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="184" bodyend="301"/>
+        <references refid="class_generation_1a08e41f86f8b5e403f2a408352520cfe0" compoundref="_generation_8cs" startline="26">_availableQuests</references>
+        <references refid="class_spawn_activity_on_tile_1a79ca28fc9d58ad992d7d3555702261f0" compoundref="_spawn_activity_on_tile_8cs" startline="32">SpawnActivityOnTile._objectsOnTile</references>
+        <references refid="class_spawn_activity_on_tile_1a204249f5aacd4bbe60125033e52c738f" compoundref="_spawn_activity_on_tile_8cs" startline="52" endline="60">SpawnActivityOnTile.SpawnQuestGiverOfType</references>
+        <references refid="class_spawn_activity_on_tile_1a64e8152a1285f12862d0e60cecfefd4e" compoundref="_spawn_activity_on_tile_8cs" startline="76" endline="84">SpawnActivityOnTile.SpawnTransitionQuest</references>
+        <referencedby refid="class_generation_1a0afdceb93ad62b910ee4d733623bec9f" compoundref="_generation_8cs" startline="395" endline="426">GenerateMap</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_generation_1a0afdceb93ad62b910ee4d733623bec9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Generation.GenerateMap</definition>
+        <argsstring>(int _width, int _height)</argsstring>
+        <name>GenerateMap</name>
+        <qualifiedname>Generation.GenerateMap</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>_width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_height</declname>
+        </param>
+        <briefdescription>
+<para>Generates Map. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The _width.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The _height.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="395" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="395" bodyend="426"/>
+        <references refid="class_generation_1a5a2beb680940b35f5f9d64d26d2fa9e9" compoundref="_generation_8cs" startline="45">_mutationsOnMapMax</references>
+        <references refid="class_generation_1aacac8932141e9cc496e8840787590857" compoundref="_generation_8cs" startline="41">_mutationsOnMapMin</references>
+        <references refid="class_generation_1a1cb46c370f4bbb04f95e253f8f89af8f" compoundref="_generation_8cs" startline="36">_questsOnMapMax</references>
+        <references refid="class_generation_1add9294caa25a00baad54fbb74709d521" compoundref="_generation_8cs" startline="32">_questsOnMapMin</references>
+        <references refid="class_generation_1a87ab05fd81e1888dfa585afb81ec439a" compoundref="_generation_8cs" startline="120" endline="175">AddMutationsChestsToTiles</references>
+        <references refid="class_generation_1a74e1078328d45b8768c86ef5f72d6b9a" compoundref="_generation_8cs" startline="184" endline="301">AddQuestsToTiles</references>
+        <references refid="class_generation_1ae54d2c3052097891a77008466f01e147" compoundref="_generation_8cs" startline="453" endline="473">ClearGeneration</references>
+      </memberdef>
+      <memberdef kind="function" id="class_generation_1a2c9f9d3746e2173b39c01a9773de927d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Generation.BuildNavMesh</definition>
+        <argsstring>(NavMeshSurface parentSurface)</argsstring>
+        <name>BuildNavMesh</name>
+        <qualifiedname>Generation.BuildNavMesh</qualifiedname>
+        <param>
+          <type>NavMeshSurface</type>
+          <declname>parentSurface</declname>
+        </param>
+        <briefdescription>
+<para>Builds NavMesh. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parentSurface</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The parentSurface.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="445" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="445" bodyend="448"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generation_1ae54d2c3052097891a77008466f01e147" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Generation.ClearGeneration</definition>
+        <argsstring>()</argsstring>
+        <name>ClearGeneration</name>
+        <qualifiedname>Generation.ClearGeneration</qualifiedname>
+        <briefdescription>
+<para>Executes the ClearGeneration operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="453" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="453" bodyend="473"/>
+        <referencedby refid="class_generation_1a0afdceb93ad62b910ee4d733623bec9f" compoundref="_generation_8cs" startline="395" endline="426">GenerateMap</referencedby>
+        <referencedby refid="class_generation_1af03e2871d5d9dad90ee5e6ee9a66635d" compoundref="_generation_8cs" startline="98" endline="111">InitialiseGenerationList</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_generation_1ac17d185df70dbb3811e34f8193f5f1fb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Generation.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>Generation.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="81" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="81" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generation_1a4379a46b48345404357f061004ea4ccc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Generation.GenerateEdjeWalls</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateEdjeWalls</name>
+        <qualifiedname>Generation.GenerateEdjeWalls</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="303" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="303" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generation_1a4f5d71ac98ce07789755436e406eea62" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Generation.SetupNavMeshSurface</definition>
+        <argsstring>()</argsstring>
+        <name>SetupNavMeshSurface</name>
+        <qualifiedname>Generation.SetupNavMeshSurface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="428" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="428" bodyend="439"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generation_1aa7c7362e40c0c8a6603d0af4b19e2bb2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Generation.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>Generation.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="475" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="475" bodyend="481"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generation_1ab86950a69285bda46d110769388f79b1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Generation.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>Generation.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="483" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="483" bodyend="487"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_generation" kindref="compound">Generation</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Generation</label>
+        <link refid="class_generation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Generation</label>
+        <link refid="class_generation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" line="13" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/Generation.cs" bodystart="14" bodyend="488"/>
+    <listofallmembers>
+      <member refid="class_generation_1a5b62cad722a25ec3f34aa98180231061" prot="public" virt="non-virtual"><scope>Generation</scope><name>_allQuests</name></member>
+      <member refid="class_generation_1a08e41f86f8b5e403f2a408352520cfe0" prot="public" virt="non-virtual"><scope>Generation</scope><name>_availableQuests</name></member>
+      <member refid="class_generation_1ac67eb002d60c76ae21d47b946d679c10" prot="private" virt="non-virtual"><scope>Generation</scope><name>_edgeWall</name></member>
+      <member refid="class_generation_1a45c5ffae96fe9398c6b3d70580177cf8" prot="private" virt="non-virtual"><scope>Generation</scope><name>_edgeWallCorner</name></member>
+      <member refid="class_generation_1ad031f289de433aaf58e66a0be41426b5" prot="private" virt="non-virtual"><scope>Generation</scope><name>_generationHeight</name></member>
+      <member refid="class_generation_1a0528d655f318144ab4f7ca6679962bd3" prot="private" virt="non-virtual"><scope>Generation</scope><name>_generationWidth</name></member>
+      <member refid="class_generation_1a9479967948c86194b666eeae5ca41afc" prot="private" virt="non-virtual"><scope>Generation</scope><name>_itemController</name></member>
+      <member refid="class_generation_1a5a2beb680940b35f5f9d64d26d2fa9e9" prot="public" virt="non-virtual"><scope>Generation</scope><name>_mutationsOnMapMax</name></member>
+      <member refid="class_generation_1aacac8932141e9cc496e8840787590857" prot="public" virt="non-virtual"><scope>Generation</scope><name>_mutationsOnMapMin</name></member>
+      <member refid="class_generation_1a1cb46c370f4bbb04f95e253f8f89af8f" prot="public" virt="non-virtual"><scope>Generation</scope><name>_questsOnMapMax</name></member>
+      <member refid="class_generation_1add9294caa25a00baad54fbb74709d521" prot="public" virt="non-virtual"><scope>Generation</scope><name>_questsOnMapMin</name></member>
+      <member refid="class_generation_1a4c4fd081a8b736195084330c0678ecd8" prot="private" virt="non-virtual"><scope>Generation</scope><name>_tilesVariationList</name></member>
+      <member refid="class_generation_1a87ab05fd81e1888dfa585afb81ec439a" prot="public" virt="non-virtual"><scope>Generation</scope><name>AddMutationsChestsToTiles</name></member>
+      <member refid="class_generation_1a74e1078328d45b8768c86ef5f72d6b9a" prot="public" virt="non-virtual"><scope>Generation</scope><name>AddQuestsToTiles</name></member>
+      <member refid="class_generation_1a694e8d0a6a89bdf619c3cf6a359532a4" prot="private" virt="non-virtual"><scope>Generation</scope><name>allSurfaces</name></member>
+      <member refid="class_generation_1ac17d185df70dbb3811e34f8193f5f1fb" prot="private" virt="non-virtual"><scope>Generation</scope><name>Awake</name></member>
+      <member refid="class_generation_1a2c9f9d3746e2173b39c01a9773de927d" prot="public" virt="non-virtual"><scope>Generation</scope><name>BuildNavMesh</name></member>
+      <member refid="class_generation_1ae54d2c3052097891a77008466f01e147" prot="public" virt="non-virtual"><scope>Generation</scope><name>ClearGeneration</name></member>
+      <member refid="class_generation_1a4379a46b48345404357f061004ea4ccc" prot="private" virt="non-virtual"><scope>Generation</scope><name>GenerateEdjeWalls</name></member>
+      <member refid="class_generation_1a0afdceb93ad62b910ee4d733623bec9f" prot="public" virt="non-virtual"><scope>Generation</scope><name>GenerateMap</name></member>
+      <member refid="class_generation_1ad213f375c7d8db9da9a9e13f92124bda" prot="private" virt="non-virtual"><scope>Generation</scope><name>generation</name></member>
+      <member refid="class_generation_1af03e2871d5d9dad90ee5e6ee9a66635d" prot="public" virt="non-virtual"><scope>Generation</scope><name>InitialiseGenerationList</name></member>
+      <member refid="class_generation_1a46b608e7d5f196ce848538f410ffcb8e" prot="public" virt="non-virtual"><scope>Generation</scope><name>Instance</name></member>
+      <member refid="class_generation_1a4f5d71ac98ce07789755436e406eea62" prot="private" virt="non-virtual"><scope>Generation</scope><name>SetupNavMeshSurface</name></member>
+      <member refid="class_generation_1abf862c37f8ddfdd44771e93463c0c908" prot="public" virt="non-virtual"><scope>Generation</scope><name>SpawnGasTanks</name></member>
+      <member refid="class_generation_1ab86950a69285bda46d110769388f79b1" prot="private" virt="non-virtual"><scope>Generation</scope><name>Start</name></member>
+      <member refid="class_generation_1aae66ec6be5b70fdaf8001ecd2b5d2925" prot="private" virt="non-virtual"><scope>Generation</scope><name>transitionQuests</name></member>
+      <member refid="class_generation_1aa7c7362e40c0c8a6603d0af4b19e2bb2" prot="private" virt="non-virtual"><scope>Generation</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

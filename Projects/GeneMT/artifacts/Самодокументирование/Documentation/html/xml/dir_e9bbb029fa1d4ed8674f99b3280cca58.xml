@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_e9bbb029fa1d4ed8674f99b3280cca58" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO</compoundname>
+    <innerfile refid="_lunch_box_item_s_o_8cs">LunchBoxItemSO.cs</innerfile>
+    <innerfile refid="_magic_damage_boost_item_s_o_8cs">MagicDamageBoostItemSO.cs</innerfile>
+    <innerfile refid="_tech_instruments_s_o_8cs">TechInstrumentsSO.cs</innerfile>
+    <innerfile refid="_techno_damage_boost_item_s_o_8cs">TechnoDamageBoostItemSO.cs</innerfile>
+    <innerfile refid="_universal_damage_boost_item_s_o_8cs">UniversalDamageBoostItemSO.cs</innerfile>
+    <innerfile refid="_universal_damage_give_shield_item_s_o_8cs">UniversalDamageGiveShieldItemSO.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/"/>
+  </compounddef>
+</doxygen>

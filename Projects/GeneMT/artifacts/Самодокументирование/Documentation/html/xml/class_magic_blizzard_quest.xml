@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_magic_blizzard_quest" kind="class" language="C#" prot="public">
+    <compoundname>MagicBlizzardQuest</compoundname>
+    <basecompoundref refid="class_quest_data" prot="public" virt="non-virtual">QuestData</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_magic_blizzard_quest_1a8f7f07569883d170476ef969ef92c522" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject MagicBlizzardQuest.BlizzardShield</definition>
+        <argsstring></argsstring>
+        <name>BlizzardShield</name>
+        <qualifiedname>MagicBlizzardQuest.BlizzardShield</qualifiedname>
+        <briefdescription>
+<para>The BlizzardShield field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/MagicBlizzardQuest.cs" line="15" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/MagicBlizzardQuest.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_magic_blizzard_quest_1a09178839acb63c4618a9df8843945141" compoundref="_magic_blizzard_quest_8cs" startline="26" endline="34">OnQuestStart</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_magic_blizzard_quest_1af47b28d71c7ba67810508bae40cc2613" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MagicBlizzardQuest.damagePeriod</definition>
+        <argsstring></argsstring>
+        <name>damagePeriod</name>
+        <qualifiedname>MagicBlizzardQuest.damagePeriod</qualifiedname>
+        <briefdescription>
+<para>The damagePeriod field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/MagicBlizzardQuest.cs" line="19" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/MagicBlizzardQuest.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_magic_blizzard_quest_1a09178839acb63c4618a9df8843945141" compoundref="_magic_blizzard_quest_8cs" startline="26" endline="34">OnQuestStart</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_magic_blizzard_quest_1a3a503a7d80585f5c08bb5a278353a22b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MagicBlizzardQuest.damage</definition>
+        <argsstring></argsstring>
+        <name>damage</name>
+        <qualifiedname>MagicBlizzardQuest.damage</qualifiedname>
+        <briefdescription>
+<para>The damage field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/MagicBlizzardQuest.cs" line="23" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/MagicBlizzardQuest.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_magic_blizzard_quest_1a09178839acb63c4618a9df8843945141" compoundref="_magic_blizzard_quest_8cs" startline="26" endline="34">OnQuestStart</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_magic_blizzard_quest_1afe419f8cdde72257f42abe32d0ed6bbc" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject MagicBlizzardQuest.ShieldRef</definition>
+        <argsstring></argsstring>
+        <name>ShieldRef</name>
+        <qualifiedname>MagicBlizzardQuest.ShieldRef</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/MagicBlizzardQuest.cs" line="25" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/MagicBlizzardQuest.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_magic_blizzard_quest_1a09178839acb63c4618a9df8843945141" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void MagicBlizzardQuest.OnQuestStart</definition>
+        <argsstring>()</argsstring>
+        <name>OnQuestStart</name>
+        <qualifiedname>MagicBlizzardQuest.OnQuestStart</qualifiedname>
+        <reimplements refid="class_quest_data_1ae4cef79b6692123af80a10506f8e6e91">OnQuestStart</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/MagicBlizzardQuest.cs" line="26" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/MagicBlizzardQuest.cs" bodystart="26" bodyend="34"/>
+        <references refid="class_quest_data_1abe69e5a2a7ab22473bb90e85f966ae9f" compoundref="_quest_data_8cs" startline="52">QuestData._questGiver</references>
+        <references refid="class_magic_blizzard_quest_1a8f7f07569883d170476ef969ef92c522" compoundref="_magic_blizzard_quest_8cs" startline="15">BlizzardShield</references>
+        <references refid="class_magic_blizzard_quest_1a3a503a7d80585f5c08bb5a278353a22b" compoundref="_magic_blizzard_quest_8cs" startline="23">damage</references>
+        <references refid="class_magic_blizzard_quest_1af47b28d71c7ba67810508bae40cc2613" compoundref="_magic_blizzard_quest_8cs" startline="19">damagePeriod</references>
+        <references refid="class_quest_manager_1a8e1cd09cf2af8f04d6854f0b54d8b0bf" compoundref="_quest_manager_8cs" startline="11">QuestManager.Instance</references>
+        <references refid="class_quest_manager_1a1395a03cb6c72209747309163e62ef6f" compoundref="_quest_manager_8cs" startline="46" endline="61">QuestManager.RegisterQuest</references>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_blizzard_quest_1a94cb3cc20f8504d8229df3cabec85c08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void MagicBlizzardQuest.OnQuestFinish</definition>
+        <argsstring>()</argsstring>
+        <name>OnQuestFinish</name>
+        <qualifiedname>MagicBlizzardQuest.OnQuestFinish</qualifiedname>
+        <reimplements refid="class_quest_data_1a2a2f251872865a983288cd6b456162c6">OnQuestFinish</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/MagicBlizzardQuest.cs" line="36" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/MagicBlizzardQuest.cs" bodystart="36" bodyend="43"/>
+        <references refid="class_quest_manager_1a8e1cd09cf2af8f04d6854f0b54d8b0bf" compoundref="_quest_manager_8cs" startline="11">QuestManager.Instance</references>
+        <references refid="class_quest_manager_1aea24d979636f69fa40f33d064fa54109" compoundref="_quest_manager_8cs" startline="67" endline="83">QuestManager.UnregisterQuest</references>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_blizzard_quest_1abad4e00e788146605be3fcde28888643" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void MagicBlizzardQuest.OnQuestCancel</definition>
+        <argsstring>()</argsstring>
+        <name>OnQuestCancel</name>
+        <qualifiedname>MagicBlizzardQuest.OnQuestCancel</qualifiedname>
+        <reimplements refid="class_quest_data_1a410a2489e7fbfee4bf386e41ac7aca30">OnQuestCancel</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/MagicBlizzardQuest.cs" line="45" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/MagicBlizzardQuest.cs" bodystart="45" bodyend="51"/>
+        <references refid="class_quest_manager_1ab1471bbeb7ffe4bf53b0c66152758f44" compoundref="_quest_manager_8cs" startline="108" endline="125">QuestManager.CancelQuest</references>
+        <references refid="class_quest_manager_1a8e1cd09cf2af8f04d6854f0b54d8b0bf" compoundref="_quest_manager_8cs" startline="11">QuestManager.Instance</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_magic_blizzard_quest" kindref="compound">MagicBlizzardQuest</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MagicBlizzardQuest</label>
+        <link refid="class_magic_blizzard_quest"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QuestData</label>
+        <link refid="class_quest_data"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QuestSO</label>
+        <link refid="class_quest_s_o"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="4">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>EInteractable</label>
+        <link refid="class_e_interactable"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MagicBlizzardQuest</label>
+        <link refid="class_magic_blizzard_quest"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>QuestData</label>
+        <link refid="class_quest_data"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_questGiver</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>QuestGiver</label>
+        <link refid="class_quest_giver"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QuestSO</label>
+        <link refid="class_quest_s_o"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="4">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/MagicBlizzardQuest.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/MagicBlizzardQuest.cs" bodystart="10" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_quest_s_o_1a5efab303df6c76e08afd15df1b719d59" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>_onQuestFinished</name></member>
+      <member refid="class_quest_s_o_1ae15b001e08eabb8b66c66b7805e3be7d" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>_onQuestStarted</name></member>
+      <member refid="class_quest_s_o_1a09c3e6a7789e9f38eac7679e5c0f7bf9" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>_onQuestUpdated</name></member>
+      <member refid="class_quest_data_1abe69e5a2a7ab22473bb90e85f966ae9f" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>_questGiver</name></member>
+      <member refid="class_quest_data_1aeb48ae4e36e563376e252d8a65e50ea1" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>active</name></member>
+      <member refid="class_magic_blizzard_quest_1a8f7f07569883d170476ef969ef92c522" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>BlizzardShield</name></member>
+      <member refid="class_quest_data_1ad6f13c9ec2c0d593f7b3e178d4288008" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>canceled</name></member>
+      <member refid="class_magic_blizzard_quest_1a3a503a7d80585f5c08bb5a278353a22b" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>damage</name></member>
+      <member refid="class_magic_blizzard_quest_1af47b28d71c7ba67810508bae40cc2613" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>damagePeriod</name></member>
+      <member refid="class_quest_data_1afc3d311dbb73bc01dad93a923af1c962" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>finished</name></member>
+      <member refid="class_quest_s_o_1ad32bc3329879c9d803fc311baba33109" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>FinishQuest</name></member>
+      <member refid="class_quest_s_o_1a798a0694172e043a040a60979013c299" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>goal</name></member>
+      <member refid="class_quest_s_o_1a12e1fedcb2783f96dcf7d9b865d61650" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>GoldReward</name></member>
+      <member refid="class_quest_s_o_1a6832564c35b20c8d2c89aff861ed5ddd" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>HasFinishAnimation</name></member>
+      <member refid="class_quest_s_o_1a94931986cb20e170fe4e9c2902b112d5" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>HasStartAnimation</name></member>
+      <member refid="class_quest_data_1a9879566eac2fea9eeabb618582298839" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>highLighted</name></member>
+      <member refid="class_singleton_scriptable_object-1-g_1aa59148a0a9bc37057ef216e7c9a814a8" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>Instance</name></member>
+      <member refid="class_quest_s_o_1a132123ffe9ec7dafddef1c709a79d6d7" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>NeedReStartEvent</name></member>
+      <member refid="class_quest_data_1ad3c2cf99ed8b8edb529363c82d19e0e7" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>OnHighlighted</name></member>
+      <member refid="class_magic_blizzard_quest_1abad4e00e788146605be3fcde28888643" prot="public" virt="virtual"><scope>MagicBlizzardQuest</scope><name>OnQuestCancel</name></member>
+      <member refid="class_magic_blizzard_quest_1a94cb3cc20f8504d8229df3cabec85c08" prot="public" virt="virtual"><scope>MagicBlizzardQuest</scope><name>OnQuestFinish</name></member>
+      <member refid="class_magic_blizzard_quest_1a09178839acb63c4618a9df8843945141" prot="public" virt="virtual"><scope>MagicBlizzardQuest</scope><name>OnQuestStart</name></member>
+      <member refid="class_quest_data_1a2a7fcbb76c881392b9d82be0938b5738" prot="public" virt="virtual"><scope>MagicBlizzardQuest</scope><name>OnQuestTurnedIn</name></member>
+      <member refid="class_quest_data_1aa8418beb00ab53a6071e4e8304455828" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>OnSelect</name></member>
+      <member refid="class_quest_data_1a51c17ea98cde9738328a327e85e758c3" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>progress</name></member>
+      <member refid="class_quest_s_o_1ae80c44018b7de89a077817628b4c258f" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>QuestDescription</name></member>
+      <member refid="class_quest_s_o_1a64541bb365b90acf64e5642159eca2a2" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>QuestId</name></member>
+      <member refid="class_quest_data_1acc41ec712c0d14ff480f9d9e42023f1a" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>questInfo</name></member>
+      <member refid="class_quest_s_o_1a03d4f439534761c3ba102632607ef98e" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>QuestName</name></member>
+      <member refid="class_quest_data_1a037c159de3bdd2026cf7290c281431e6" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>questRewardInfo</name></member>
+      <member refid="class_quest_data_1a784c8eb6af7d4da2deb6d4ed8a52df9d" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>selected</name></member>
+      <member refid="class_magic_blizzard_quest_1afe419f8cdde72257f42abe32d0ed6bbc" prot="private" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>ShieldRef</name></member>
+      <member refid="class_quest_s_o_1a06e83b27607671a13415d73ecb51ab3f" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>StartQuest</name></member>
+      <member refid="class_quest_data_1a9e543505a0a34056d5fd9dadee5e1e08" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>turnedIn</name></member>
+      <member refid="class_quest_data_1acde237ec9d91d880a7fa444ef6edf226" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>UpdateProgress</name></member>
+      <member refid="class_quest_s_o_1a7dd6cda0dc453e8ec8a71899ef2075e7" prot="public" virt="non-virtual"><scope>MagicBlizzardQuest</scope><name>UpdateQuest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

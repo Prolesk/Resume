@@ -1,0 +1,9 @@
+<map id="PlayerInput.PlayerActions.SetCallbacks" name="PlayerInput.PlayerActions.SetCallbacks">
+<area shape="rect" id="Node000001" title="Replaces all existing callback instances and previously registered input action callbacks associated ..." alt="" coords="5,39,182,81"/>
+<area shape="rect" id="Node000002" href="$struct_player_input_1_1_player_actions.html#ac0468e4bc65b955247f0734e5627299f" title="Adds InputAction.started, InputAction.performed and InputAction.canceled callbacks provided via &#160;on a..." alt="" coords="230,39,406,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,57,217,60,211,60,182,63"/>
+<area shape="rect" id="Node000003" href="$interface_player_input_1_1_i_player_actions.html#a07284585b6ddd69ca7b91c40f3144b90" title="Method invoked when associated input action &quot;Click&quot; is either UnityEngine.InputSystem...." alt="" coords="454,5,634,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="406,44,441,42,436,43,407,50"/>
+<area shape="rect" id="Node000004" href="$interface_player_input_1_1_i_player_actions.html#af785da9b88a3a6a3db98fda903a39580" title="Method invoked when associated input action &quot;Move&quot; is either UnityEngine.InputSystem...." alt="" coords="454,72,634,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="406,70,441,78,436,78,406,76"/>
+</map>

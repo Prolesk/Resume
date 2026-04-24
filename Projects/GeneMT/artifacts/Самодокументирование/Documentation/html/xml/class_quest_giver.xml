@@ -1,0 +1,471 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_quest_giver" kind="class" language="C#" prot="public">
+    <compoundname>QuestGiver</compoundname>
+    <basecompoundref refid="class_e_interactable" prot="public" virt="non-virtual">EInteractable</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_quest_giver_1af01a0acebebad643b0cbcdbaf13e0c09" prot="private" static="no" mutable="no">
+        <type><ref refid="class_quest_data" kindref="compound">QuestData</ref></type>
+        <definition>QuestData QuestGiver._quest</definition>
+        <argsstring></argsstring>
+        <name>_quest</name>
+        <qualifiedname>QuestGiver._quest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="11" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_giver_1af2c3995b684d3558f25f319d839cad99" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool QuestGiver._questComplete</definition>
+        <argsstring></argsstring>
+        <name>_questComplete</name>
+        <qualifiedname>QuestGiver._questComplete</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="12" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_giver_1a648e9972cae270e1c56351c315223a11" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool QuestGiver._questTurnedIn</definition>
+        <argsstring></argsstring>
+        <name>_questTurnedIn</name>
+        <qualifiedname>QuestGiver._questTurnedIn</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="13" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_giver_1a94eb08e3e8ef2989df37ac9c3d684b9e" prot="private" static="no" mutable="no">
+        <type>Renderer</type>
+        <definition>Renderer QuestGiver._questGiverHatchRenderer</definition>
+        <argsstring></argsstring>
+        <name>_questGiverHatchRenderer</name>
+        <qualifiedname>QuestGiver._questGiverHatchRenderer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="28" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_quest_giver_1a2885873f6e5aa474e1d64ab50d885b8a" prot="public" static="no" mutable="no">
+        <type><ref refid="_item_type_8cs_1a443f647757dde85043b49343f5cbe66b" kindref="member">ItemType</ref></type>
+        <definition>ItemType QuestGiver._questType</definition>
+        <argsstring></argsstring>
+        <name>_questType</name>
+        <qualifiedname>QuestGiver._questType</qualifiedname>
+        <briefdescription>
+<para>The _questType field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="17" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_quest_giver_1a969ad607369c939921780414df7e4056" compoundref="_quest_giver_8cs" startline="111" endline="160">Interact</referencedby>
+        <referencedby refid="class_quest_giver_1a42b4995492eca909447acf5580516e6e" compoundref="_quest_giver_8cs" startline="61" endline="76">SetQuestType</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_giver_1a5c819c35caab481670428bbeed5e33db" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool QuestGiver._transitionQuest</definition>
+        <argsstring></argsstring>
+        <name>_transitionQuest</name>
+        <qualifiedname>QuestGiver._transitionQuest</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>The _transitionQuest field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="21" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_quest_giver_1a969ad607369c939921780414df7e4056" compoundref="_quest_giver_8cs" startline="111" endline="160">Interact</referencedby>
+        <referencedby refid="class_quest_giver_1afa6d7b2ba5471529a167276430400368" compoundref="_quest_giver_8cs" startline="80" endline="84">SetQuestTransition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_giver_1a0b19681c132d3be29e4e616c964e73d6" prot="public" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator QuestGiver._questAnimator</definition>
+        <argsstring></argsstring>
+        <name>_questAnimator</name>
+        <qualifiedname>QuestGiver._questAnimator</qualifiedname>
+        <briefdescription>
+<para>The _questAnimator field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="26" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_quest_giver_1a969ad607369c939921780414df7e4056" compoundref="_quest_giver_8cs" startline="111" endline="160">Interact</referencedby>
+        <referencedby refid="class_quest_giver_1a8b0d07c39aa6e68dc72c83ec74c877d6" compoundref="_quest_giver_8cs" startline="100" endline="106">MakeNonReady</referencedby>
+        <referencedby refid="class_quest_giver_1a218b31ff6d75b2205566ad64d671ce7b" compoundref="_quest_giver_8cs" startline="86" endline="98">MakeReady</referencedby>
+        <referencedby refid="class_quest_giver_1a79bd73a209023268b2258e2624c88280" compoundref="_quest_giver_8cs" startline="182" endline="191">SetComplete</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_giver_1acbf9f2b2d42bfe44282357674ec9b294" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material QuestGiver._techno</definition>
+        <argsstring></argsstring>
+        <name>_techno</name>
+        <qualifiedname>QuestGiver._techno</qualifiedname>
+        <briefdescription>
+<para>The _techno field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="33" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_quest_giver_1a42b4995492eca909447acf5580516e6e" compoundref="_quest_giver_8cs" startline="61" endline="76">SetQuestType</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_giver_1a8b9c6842edd5a3c77db0a873f5590206" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material QuestGiver._magic</definition>
+        <argsstring></argsstring>
+        <name>_magic</name>
+        <qualifiedname>QuestGiver._magic</qualifiedname>
+        <briefdescription>
+<para>The _magic field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="37" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_quest_giver_1a42b4995492eca909447acf5580516e6e" compoundref="_quest_giver_8cs" startline="61" endline="76">SetQuestType</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_giver_1a4c236a5717b3c04d28daf95b5297dfc0" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material QuestGiver._universal</definition>
+        <argsstring></argsstring>
+        <name>_universal</name>
+        <qualifiedname>QuestGiver._universal</qualifiedname>
+        <briefdescription>
+<para>The _universal field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="41" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_quest_giver_1a42b4995492eca909447acf5580516e6e" compoundref="_quest_giver_8cs" startline="61" endline="76">SetQuestType</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_giver_1a83b27e954acd17717fa173fc13f89a52" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material QuestGiver._transition</definition>
+        <argsstring></argsstring>
+        <name>_transition</name>
+        <qualifiedname>QuestGiver._transition</qualifiedname>
+        <briefdescription>
+<para>The _transition field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="45" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_quest_giver_1afa6d7b2ba5471529a167276430400368" compoundref="_quest_giver_8cs" startline="80" endline="84">SetQuestTransition</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_quest_giver_1ab0b0ca29a26c5bbfadab94c553e342d7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool QuestGiver.QuestComplete</definition>
+        <argsstring></argsstring>
+        <name>QuestComplete</name>
+        <qualifiedname>QuestGiver.QuestComplete</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="108" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="108" bodyend="108"/>
+        <referencedby refid="class_quest_giver_1a969ad607369c939921780414df7e4056" compoundref="_quest_giver_8cs" startline="111" endline="160">Interact</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_quest_giver_1af27754d656f8642f098f0e596a849666" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool QuestGiver.QuestTurnedIn</definition>
+        <argsstring></argsstring>
+        <name>QuestTurnedIn</name>
+        <qualifiedname>QuestGiver.QuestTurnedIn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="109" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="109" bodyend="109"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_quest_giver_1ad34a23305876dfa6f1508bc1d44290c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestGiver.SetQuest</definition>
+        <argsstring>(QuestData Quest)</argsstring>
+        <name>SetQuest</name>
+        <qualifiedname>QuestGiver.SetQuest</qualifiedname>
+        <param>
+          <type><ref refid="class_quest_data" kindref="compound">QuestData</ref></type>
+          <declname>Quest</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Quest. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Quest</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Quest.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="52" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="52" bodyend="55"/>
+        <references refid="_activity_on_tile_type_8cs_1a584f428d4bd093f85bfbb47fb91fe88ba07bf513a88c3df282a30cb374f8a933d" compoundref="_activity_on_tile_type_8cs" startline="3">Quest</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_giver_1a42b4995492eca909447acf5580516e6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestGiver.SetQuestType</definition>
+        <argsstring>(ItemType type)</argsstring>
+        <name>SetQuestType</name>
+        <qualifiedname>QuestGiver.SetQuestType</qualifiedname>
+        <param>
+          <type><ref refid="_item_type_8cs_1a443f647757dde85043b49343f5cbe66b" kindref="member">ItemType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Sets the QuestType. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="61" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="61" bodyend="76"/>
+        <references refid="class_quest_giver_1a8b9c6842edd5a3c77db0a873f5590206" compoundref="_quest_giver_8cs" startline="37">_magic</references>
+        <references refid="class_quest_giver_1a2885873f6e5aa474e1d64ab50d885b8a" compoundref="_quest_giver_8cs" startline="17">_questType</references>
+        <references refid="class_quest_giver_1acbf9f2b2d42bfe44282357674ec9b294" compoundref="_quest_giver_8cs" startline="33">_techno</references>
+        <references refid="class_quest_giver_1a4c236a5717b3c04d28daf95b5297dfc0" compoundref="_quest_giver_8cs" startline="41">_universal</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_giver_1afa6d7b2ba5471529a167276430400368" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestGiver.SetQuestTransition</definition>
+        <argsstring>()</argsstring>
+        <name>SetQuestTransition</name>
+        <qualifiedname>QuestGiver.SetQuestTransition</qualifiedname>
+        <briefdescription>
+<para>Sets the QuestTransition. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="80" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="80" bodyend="84"/>
+        <references refid="class_quest_giver_1a83b27e954acd17717fa173fc13f89a52" compoundref="_quest_giver_8cs" startline="45">_transition</references>
+        <references refid="class_quest_giver_1a5c819c35caab481670428bbeed5e33db" compoundref="_quest_giver_8cs" startline="21">_transitionQuest</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_giver_1a218b31ff6d75b2205566ad64d671ce7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void QuestGiver.MakeReady</definition>
+        <argsstring>()</argsstring>
+        <name>MakeReady</name>
+        <qualifiedname>QuestGiver.MakeReady</qualifiedname>
+        <reimplements refid="class_e_interactable_1a44bb9f4d40378f111d187079ea172a6b">MakeReady</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="86" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="86" bodyend="98"/>
+        <references refid="class_quest_giver_1a0b19681c132d3be29e4e616c964e73d6" compoundref="_quest_giver_8cs" startline="26">_questAnimator</references>
+        <references refid="class_game_menu_controller_1ae94cedd2c8aec2e16a1e906415b6d2f0" compoundref="_game_menu_controller_8cs" startline="12" endline="12">GameMenuController.Instance</references>
+        <references refid="class_game_menu_controller_1a5667fae1a558c7aa9564b3dfd751fe51" compoundref="_game_menu_controller_8cs" startline="99" endline="104">GameMenuController.ShowQuestInfo</references>
+        <references refid="class_game_menu_controller_1aabaaea9ec11362f3f2946ddbb1b69592" compoundref="_game_menu_controller_8cs" startline="118" endline="123">GameMenuController.ShowQuestRewardInfo</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_giver_1a8b0d07c39aa6e68dc72c83ec74c877d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void QuestGiver.MakeNonReady</definition>
+        <argsstring>()</argsstring>
+        <name>MakeNonReady</name>
+        <qualifiedname>QuestGiver.MakeNonReady</qualifiedname>
+        <reimplements refid="class_e_interactable_1a7e988abf8905a1e950ea8250ffd9c3cc">MakeNonReady</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="100" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="100" bodyend="106"/>
+        <references refid="class_quest_giver_1a0b19681c132d3be29e4e616c964e73d6" compoundref="_quest_giver_8cs" startline="26">_questAnimator</references>
+        <references refid="class_game_menu_controller_1ae94cedd2c8aec2e16a1e906415b6d2f0" compoundref="_game_menu_controller_8cs" startline="12" endline="12">GameMenuController.Instance</references>
+        <references refid="class_game_menu_controller_1a2340eb922ef4192f61262229c5bf04fd" compoundref="_game_menu_controller_8cs" startline="89" endline="93">GameMenuController.RemoveFromSceneQuestInfo</references>
+        <references refid="class_game_menu_controller_1a672e4e6cc8641af1a63b89fa67bddd9b" compoundref="_game_menu_controller_8cs" startline="108" endline="112">GameMenuController.RemoveFromSceneQuestRewardInfo</references>
+        <referencedby refid="class_quest_giver_1a969ad607369c939921780414df7e4056" compoundref="_quest_giver_8cs" startline="111" endline="160">Interact</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_giver_1a969ad607369c939921780414df7e4056" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void QuestGiver.Interact</definition>
+        <argsstring>()</argsstring>
+        <name>Interact</name>
+        <qualifiedname>QuestGiver.Interact</qualifiedname>
+        <reimplements refid="class_e_interactable_1a159b500630998b91b809d1b042535185">Interact</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="111" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="111" bodyend="160"/>
+        <references refid="class_e_interactable_1ac47e15623305977907027a395d42ec02" compoundref="_e_interactable_8cs" startline="12">EInteractable._canBeInteractedWith</references>
+        <references refid="class_quest_giver_1a0b19681c132d3be29e4e616c964e73d6" compoundref="_quest_giver_8cs" startline="26">_questAnimator</references>
+        <references refid="class_quest_giver_1a2885873f6e5aa474e1d64ab50d885b8a" compoundref="_quest_giver_8cs" startline="17">_questType</references>
+        <references refid="class_quest_giver_1a5c819c35caab481670428bbeed5e33db" compoundref="_quest_giver_8cs" startline="21">_transitionQuest</references>
+        <references refid="class_game_menu_controller_1a3d6238a969bfadcf6584d8a547cc3ea8" compoundref="_game_menu_controller_8cs" startline="36" endline="39">GameMenuController.GivePlayerItemReward</references>
+        <references refid="class_audio_manager_1af96f8bc4f9a0ad3f1a63a028bb31f790" compoundref="_audio_manager_8cs" startline="11">AudioManager.Instance</references>
+        <references refid="class_game_menu_controller_1ae94cedd2c8aec2e16a1e906415b6d2f0" compoundref="_game_menu_controller_8cs" startline="12" endline="12">GameMenuController.Instance</references>
+        <references refid="class_quest_manager_1a8e1cd09cf2af8f04d6854f0b54d8b0bf" compoundref="_quest_manager_8cs" startline="11">QuestManager.Instance</references>
+        <references refid="class_transition_manager_1aac7c98df529819401bab3dc4ebfd894e" compoundref="_transition_manager_8cs" startline="13" endline="13">TransitionManager.Instance</references>
+        <references refid="class_transition_quest_start_panel_1a54a6ca7ce6399c2342b5374d047670a4" compoundref="_transition_quest_start_panel_8cs" startline="10" endline="10">TransitionQuestStartPanel.Instance</references>
+        <references refid="class_quest_giver_1a8b0d07c39aa6e68dc72c83ec74c877d6" compoundref="_quest_giver_8cs" startline="100" endline="106">MakeNonReady</references>
+        <references refid="class_audio_manager_1a8bdf38cce616221c9243df3277e68464" compoundref="_audio_manager_8cs" startline="265" endline="272">AudioManager.PlayQuest</references>
+        <references refid="class_quest_manager_1ae8259fe1a776582faf5e34cc863c75f0" compoundref="_quest_manager_8cs" startline="20">QuestManager.QuestClip</references>
+        <references refid="class_quest_giver_1ab0b0ca29a26c5bbfadab94c553e342d7" compoundref="_quest_giver_8cs" startline="108" endline="108">QuestComplete</references>
+        <references refid="class_transition_quest_start_panel_1acd996a2a1565df4e97405dc14577310c" compoundref="_transition_quest_start_panel_8cs" startline="54" endline="79">TransitionQuestStartPanel.ShowTransitionQuestConfirmation</references>
+        <references refid="class_transition_manager_1ac9f7fcaa4e03ce6dfdcefddc6e19f3ca" compoundref="_transition_manager_8cs" startline="30" endline="33">TransitionManager.TransitPlayerToNextLevel</references>
+        <references refid="class_quest_manager_1a2268c6fddc34c70db4d39a20865a7ab2" compoundref="_quest_manager_8cs" startline="89" endline="102">QuestManager.TurnInQuest</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_giver_1a79bd73a209023268b2258e2624c88280" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void QuestGiver.SetComplete</definition>
+        <argsstring>()</argsstring>
+        <name>SetComplete</name>
+        <qualifiedname>QuestGiver.SetComplete</qualifiedname>
+        <reimplements refid="class_e_interactable_1a3a5d761abe877f6a7feeac3a51fbe087">SetComplete</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="182" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="182" bodyend="191"/>
+        <references refid="class_e_interactable_1ac47e15623305977907027a395d42ec02" compoundref="_e_interactable_8cs" startline="12">EInteractable._canBeInteractedWith</references>
+        <references refid="class_quest_giver_1a0b19681c132d3be29e4e616c964e73d6" compoundref="_quest_giver_8cs" startline="26">_questAnimator</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_quest_giver_1a5a40754e82df6ee09b2006a049b4fadf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestGiver.StartRegularQuest</definition>
+        <argsstring>()</argsstring>
+        <name>StartRegularQuest</name>
+        <qualifiedname>QuestGiver.StartRegularQuest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="163" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="163" bodyend="180"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_quest_giver" kindref="compound">QuestGiver</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>EInteractable</label>
+        <link refid="class_e_interactable"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>QuestGiver</label>
+        <link refid="class_quest_giver"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>EInteractable</label>
+        <link refid="class_e_interactable"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>QuestGiver</label>
+        <link refid="class_quest_giver"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestGiver.cs" bodystart="10" bodyend="192"/>
+    <listofallmembers>
+      <member refid="class_e_interactable_1ac47e15623305977907027a395d42ec02" prot="public" virt="non-virtual"><scope>QuestGiver</scope><name>_canBeInteractedWith</name></member>
+      <member refid="class_e_interactable_1af1f8cd46e7b07856580221fa78567798" prot="public" virt="non-virtual"><scope>QuestGiver</scope><name>_isReady</name></member>
+      <member refid="class_quest_giver_1a8b9c6842edd5a3c77db0a873f5590206" prot="public" virt="non-virtual"><scope>QuestGiver</scope><name>_magic</name></member>
+      <member refid="class_quest_giver_1af01a0acebebad643b0cbcdbaf13e0c09" prot="private" virt="non-virtual"><scope>QuestGiver</scope><name>_quest</name></member>
+      <member refid="class_quest_giver_1a0b19681c132d3be29e4e616c964e73d6" prot="public" virt="non-virtual"><scope>QuestGiver</scope><name>_questAnimator</name></member>
+      <member refid="class_quest_giver_1af2c3995b684d3558f25f319d839cad99" prot="private" virt="non-virtual"><scope>QuestGiver</scope><name>_questComplete</name></member>
+      <member refid="class_quest_giver_1a94eb08e3e8ef2989df37ac9c3d684b9e" prot="private" virt="non-virtual"><scope>QuestGiver</scope><name>_questGiverHatchRenderer</name></member>
+      <member refid="class_quest_giver_1a648e9972cae270e1c56351c315223a11" prot="private" virt="non-virtual"><scope>QuestGiver</scope><name>_questTurnedIn</name></member>
+      <member refid="class_quest_giver_1a2885873f6e5aa474e1d64ab50d885b8a" prot="public" virt="non-virtual"><scope>QuestGiver</scope><name>_questType</name></member>
+      <member refid="class_e_interactable_1a38ce74578db1b955af4e93e44091e7b2" prot="protected" virt="non-virtual"><scope>QuestGiver</scope><name>_renderer</name></member>
+      <member refid="class_quest_giver_1acbf9f2b2d42bfe44282357674ec9b294" prot="public" virt="non-virtual"><scope>QuestGiver</scope><name>_techno</name></member>
+      <member refid="class_quest_giver_1a83b27e954acd17717fa173fc13f89a52" prot="public" virt="non-virtual"><scope>QuestGiver</scope><name>_transition</name></member>
+      <member refid="class_quest_giver_1a5c819c35caab481670428bbeed5e33db" prot="public" virt="non-virtual"><scope>QuestGiver</scope><name>_transitionQuest</name></member>
+      <member refid="class_quest_giver_1a4c236a5717b3c04d28daf95b5297dfc0" prot="public" virt="non-virtual"><scope>QuestGiver</scope><name>_universal</name></member>
+      <member refid="class_e_interactable_1ad34e436579989ff2a491d2f8794fa870" prot="protected" virt="virtual"><scope>QuestGiver</scope><name>Awake</name></member>
+      <member refid="class_quest_giver_1a969ad607369c939921780414df7e4056" prot="public" virt="virtual"><scope>QuestGiver</scope><name>Interact</name></member>
+      <member refid="class_quest_giver_1a8b0d07c39aa6e68dc72c83ec74c877d6" prot="public" virt="virtual"><scope>QuestGiver</scope><name>MakeNonReady</name></member>
+      <member refid="class_quest_giver_1a218b31ff6d75b2205566ad64d671ce7b" prot="public" virt="virtual"><scope>QuestGiver</scope><name>MakeReady</name></member>
+      <member refid="class_quest_giver_1ab0b0ca29a26c5bbfadab94c553e342d7" prot="public" virt="non-virtual"><scope>QuestGiver</scope><name>QuestComplete</name></member>
+      <member refid="class_quest_giver_1af27754d656f8642f098f0e596a849666" prot="public" virt="non-virtual"><scope>QuestGiver</scope><name>QuestTurnedIn</name></member>
+      <member refid="class_quest_giver_1a79bd73a209023268b2258e2624c88280" prot="public" virt="virtual"><scope>QuestGiver</scope><name>SetComplete</name></member>
+      <member refid="class_quest_giver_1ad34a23305876dfa6f1508bc1d44290c6" prot="public" virt="non-virtual"><scope>QuestGiver</scope><name>SetQuest</name></member>
+      <member refid="class_quest_giver_1afa6d7b2ba5471529a167276430400368" prot="public" virt="non-virtual"><scope>QuestGiver</scope><name>SetQuestTransition</name></member>
+      <member refid="class_quest_giver_1a42b4995492eca909447acf5580516e6e" prot="public" virt="non-virtual"><scope>QuestGiver</scope><name>SetQuestType</name></member>
+      <member refid="class_quest_giver_1a5a40754e82df6ee09b2006a049b4fadf" prot="private" virt="non-virtual"><scope>QuestGiver</scope><name>StartRegularQuest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,7 @@
+<map id="QuestGiver.MakeNonReady" name="QuestGiver.MakeNonReady">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,191,73"/>
+<area shape="rect" id="Node000002" href="$class_game_menu_controller.html#a2340eb922ef4192f61262229c5bf04fd" title="Removes FromSceneQuestInfo." alt="" coords="239,5,436,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,44,226,42,221,43,192,50"/>
+<area shape="rect" id="Node000003" href="$class_game_menu_controller.html#a672e4e6cc8641af1a63b89fa67bddd9b" title="Removes FromSceneQuestRewardInfo." alt="" coords="239,72,436,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,70,226,77,221,78,191,76"/>
+</map>

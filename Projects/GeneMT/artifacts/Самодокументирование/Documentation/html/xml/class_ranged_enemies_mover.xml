@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_ranged_enemies_mover" kind="class" language="C#" prot="public">
+    <compoundname>RangedEnemiesMover</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ranged_enemies_mover_1aa5da0257f66946889e9a640bde2879d3" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform RangedEnemiesMover.goal</definition>
+        <argsstring></argsstring>
+        <name>goal</name>
+        <qualifiedname>RangedEnemiesMover.goal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/RangedEnemiesMover.cs" line="11" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/RangedEnemiesMover.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ranged_enemies_mover_1a7c846d938445cc3910d947737487cb60" prot="private" static="no" mutable="no">
+        <type>RaycastHit</type>
+        <definition>RaycastHit RangedEnemiesMover.hit</definition>
+        <argsstring></argsstring>
+        <name>hit</name>
+        <qualifiedname>RangedEnemiesMover.hit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/RangedEnemiesMover.cs" line="12" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/RangedEnemiesMover.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ranged_enemies_mover_1a6494c44a4146e28db5470c887abc0d97" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RangedEnemiesMover._range</definition>
+        <argsstring></argsstring>
+        <name>_range</name>
+        <qualifiedname>RangedEnemiesMover._range</qualifiedname>
+        <initializer>= 20f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/RangedEnemiesMover.cs" line="13" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/RangedEnemiesMover.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ranged_enemies_mover_1a71a5a1774af8c02a19e2421fceecdc08" prot="private" static="no" mutable="no">
+        <type>NavMeshAgent</type>
+        <definition>NavMeshAgent RangedEnemiesMover.agent</definition>
+        <argsstring></argsstring>
+        <name>agent</name>
+        <qualifiedname>RangedEnemiesMover.agent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/RangedEnemiesMover.cs" line="14" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/RangedEnemiesMover.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ranged_enemies_mover_1ade2f2376729059e513ee5c1461f73748" prot="private" static="no" mutable="no">
+        <type>EnemyConfig</type>
+        <definition>EnemyConfig RangedEnemiesMover._initializedStats</definition>
+        <argsstring></argsstring>
+        <name>_initializedStats</name>
+        <qualifiedname>RangedEnemiesMover._initializedStats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/RangedEnemiesMover.cs" line="15" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/RangedEnemiesMover.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ranged_enemies_mover_1af467399c817648af27cbc8ad325acc81" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RangedEnemiesMover.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>RangedEnemiesMover.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/RangedEnemiesMover.cs" line="17" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/RangedEnemiesMover.cs" bodystart="17" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ranged_enemies_mover_1a3d93cee3bb63b9517cd24c7ebcf031ae" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RangedEnemiesMover.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>RangedEnemiesMover.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/RangedEnemiesMover.cs" line="26" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/RangedEnemiesMover.cs" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ranged_enemies_mover_1a6777985e2aca96198c09127a1f5343e9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RangedEnemiesMover.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <qualifiedname>RangedEnemiesMover.FixedUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/RangedEnemiesMover.cs" line="32" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/RangedEnemiesMover.cs" bodystart="32" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_ranged_enemies_mover" kindref="compound">RangedEnemiesMover</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>RangedEnemiesMover</label>
+        <link refid="class_ranged_enemies_mover"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>RangedEnemiesMover</label>
+        <link refid="class_ranged_enemies_mover"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/RangedEnemiesMover.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/RangedEnemiesMover.cs" bodystart="10" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_ranged_enemies_mover_1ade2f2376729059e513ee5c1461f73748" prot="private" virt="non-virtual"><scope>RangedEnemiesMover</scope><name>_initializedStats</name></member>
+      <member refid="class_ranged_enemies_mover_1a6494c44a4146e28db5470c887abc0d97" prot="private" virt="non-virtual"><scope>RangedEnemiesMover</scope><name>_range</name></member>
+      <member refid="class_ranged_enemies_mover_1a71a5a1774af8c02a19e2421fceecdc08" prot="private" virt="non-virtual"><scope>RangedEnemiesMover</scope><name>agent</name></member>
+      <member refid="class_ranged_enemies_mover_1a6777985e2aca96198c09127a1f5343e9" prot="private" virt="non-virtual"><scope>RangedEnemiesMover</scope><name>FixedUpdate</name></member>
+      <member refid="class_ranged_enemies_mover_1aa5da0257f66946889e9a640bde2879d3" prot="private" virt="non-virtual"><scope>RangedEnemiesMover</scope><name>goal</name></member>
+      <member refid="class_ranged_enemies_mover_1a7c846d938445cc3910d947737487cb60" prot="private" virt="non-virtual"><scope>RangedEnemiesMover</scope><name>hit</name></member>
+      <member refid="class_ranged_enemies_mover_1af467399c817648af27cbc8ad325acc81" prot="private" virt="non-virtual"><scope>RangedEnemiesMover</scope><name>OnEnable</name></member>
+      <member refid="class_ranged_enemies_mover_1a3d93cee3bb63b9517cd24c7ebcf031ae" prot="private" virt="non-virtual"><scope>RangedEnemiesMover</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

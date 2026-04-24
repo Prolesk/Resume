@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_explosion_by_minotaur" kind="class" language="C#" prot="public">
+    <compoundname>ExplosionByMinotaur</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_explosion_by_minotaur_1a42b7af2752f1ca50b83d4f2b10d05101" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ExplosionByMinotaur._explosionDamage</definition>
+        <argsstring></argsstring>
+        <name>_explosionDamage</name>
+        <qualifiedname>ExplosionByMinotaur._explosionDamage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionByMinotaur.cs" line="11" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionByMinotaur.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_explosion_by_minotaur_1a93e523ab1379a8b48d0ce05b69a756ce" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ExplosionByMinotaur._lavaDamage</definition>
+        <argsstring></argsstring>
+        <name>_lavaDamage</name>
+        <qualifiedname>ExplosionByMinotaur._lavaDamage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionByMinotaur.cs" line="12" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionByMinotaur.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_explosion_by_minotaur_1ada576a3f4685ae4f3aabfc68391a504d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ExplosionByMinotaur._explosionTime</definition>
+        <argsstring></argsstring>
+        <name>_explosionTime</name>
+        <qualifiedname>ExplosionByMinotaur._explosionTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionByMinotaur.cs" line="13" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionByMinotaur.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_explosion_by_minotaur_1a4d1a85dc439df685c02a04dd34882c19" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ExplosionByMinotaur._lavaDamagePeriod</definition>
+        <argsstring></argsstring>
+        <name>_lavaDamagePeriod</name>
+        <qualifiedname>ExplosionByMinotaur._lavaDamagePeriod</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionByMinotaur.cs" line="14" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionByMinotaur.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_explosion_by_minotaur_1a7b41c95221f2592c31f271fb6347b28f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ExplosionByMinotaur.damageCooldown</definition>
+        <argsstring></argsstring>
+        <name>damageCooldown</name>
+        <qualifiedname>ExplosionByMinotaur.damageCooldown</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionByMinotaur.cs" line="15" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionByMinotaur.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_explosion_by_minotaur_1a8598b1a40d623b4e248daf83d77abbd6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ExplosionByMinotaur.OnTriggerStay</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerStay</name>
+        <qualifiedname>ExplosionByMinotaur.OnTriggerStay</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionByMinotaur.cs" line="19" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionByMinotaur.cs" bodystart="19" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_explosion_by_minotaur_1aa9cc9acc5b60a106f595c43367ebcd49" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator ExplosionByMinotaur.Damage</definition>
+        <argsstring>(PlayerHP other)</argsstring>
+        <name>Damage</name>
+        <qualifiedname>ExplosionByMinotaur.Damage</qualifiedname>
+        <param>
+          <type><ref refid="class_player_h_p" kindref="compound">PlayerHP</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionByMinotaur.cs" line="30" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionByMinotaur.cs" bodystart="30" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_explosion_by_minotaur" kindref="compound">ExplosionByMinotaur</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ExplosionByMinotaur</label>
+        <link refid="class_explosion_by_minotaur"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ExplosionByMinotaur</label>
+        <link refid="class_explosion_by_minotaur"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionByMinotaur.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionByMinotaur.cs" bodystart="9" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_explosion_by_minotaur_1a42b7af2752f1ca50b83d4f2b10d05101" prot="private" virt="non-virtual"><scope>ExplosionByMinotaur</scope><name>_explosionDamage</name></member>
+      <member refid="class_explosion_by_minotaur_1ada576a3f4685ae4f3aabfc68391a504d" prot="private" virt="non-virtual"><scope>ExplosionByMinotaur</scope><name>_explosionTime</name></member>
+      <member refid="class_explosion_by_minotaur_1a93e523ab1379a8b48d0ce05b69a756ce" prot="private" virt="non-virtual"><scope>ExplosionByMinotaur</scope><name>_lavaDamage</name></member>
+      <member refid="class_explosion_by_minotaur_1a4d1a85dc439df685c02a04dd34882c19" prot="private" virt="non-virtual"><scope>ExplosionByMinotaur</scope><name>_lavaDamagePeriod</name></member>
+      <member refid="class_explosion_by_minotaur_1aa9cc9acc5b60a106f595c43367ebcd49" prot="private" virt="non-virtual"><scope>ExplosionByMinotaur</scope><name>Damage</name></member>
+      <member refid="class_explosion_by_minotaur_1a7b41c95221f2592c31f271fb6347b28f" prot="private" virt="non-virtual"><scope>ExplosionByMinotaur</scope><name>damageCooldown</name></member>
+      <member refid="class_explosion_by_minotaur_1a8598b1a40d623b4e248daf83d77abbd6" prot="private" virt="non-virtual"><scope>ExplosionByMinotaur</scope><name>OnTriggerStay</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

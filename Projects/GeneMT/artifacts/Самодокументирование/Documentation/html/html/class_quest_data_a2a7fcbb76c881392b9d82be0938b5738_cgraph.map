@@ -1,0 +1,7 @@
+<map id="QuestData.OnQuestTurnedIn" name="QuestData.OnQuestTurnedIn">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,197,40"/>
+<area shape="rect" id="Node000002" href="$class_quest_manager.html#a2268c6fddc34c70db4d39a20865a7ab2" title="Executes the TurnInQuest operation." alt="" coords="245,13,427,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,24,232,26,227,27,197,29"/>
+<area shape="rect" id="Node000003" href="$class_quest_notification.html#ad9640c8733a9dcb21f770a691fa497ed" title="Shows UI element." alt="" coords="475,5,669,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="427,24,462,27,457,27,428,29"/>
+</map>

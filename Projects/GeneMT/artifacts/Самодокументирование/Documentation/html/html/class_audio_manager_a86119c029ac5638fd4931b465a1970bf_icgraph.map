@@ -1,0 +1,7 @@
+<map id="AudioManager.SetSFXVolume" name="AudioManager.SetSFXVolume">
+<area shape="rect" id="Node000001" title="Sets the SFXVolume." alt="" coords="255,43,452,69"/>
+<area shape="rect" id="Node000002" href="$class_audio_manager.html#a75074c2d26ed51972b08ec3c1de652c0" title="Sets the SFXVolumeMixer." alt="" coords="7,5,205,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,43,205,41,205,36,242,42"/>
+<area shape="rect" id="Node000003" href="$class_audio_manager.html#a766282078448f3ca259f865ad8f96c42" title="Executes the ToggleSFXMute operation." alt="" coords="5,72,207,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,70,208,76,207,71,242,69"/>
+</map>

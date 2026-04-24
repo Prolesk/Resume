@@ -1,0 +1,20 @@
+<map id="BloodExperimentQuest.OnQuestStart" name="BloodExperimentQuest.OnQuestStart">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,179,217,221"/>
+<area shape="rect" id="Node000002" href="$class_player_h_p.html#acce7bb9a08f70d48821152292a96c836" title="Applies damage." alt="" coords="270,107,454,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,176,305,137,301,140,181,181"/>
+<area shape="rect" id="Node000007" href="$class_quest_manager.html#a1395a03cb6c72209747309163e62ef6f" title="Executes the RegisterQuest operation." alt="" coords="265,187,459,213"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="217,197,252,200,246,200,218,203"/>
+<area shape="rect" id="Node000009" href="$class_quest_s_o.html#a7dd6cda0dc453e8ec8a71899ef2075e7" title="Updates Quest." alt="" coords="284,237,440,264"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="217,219,280,233,274,234,217,224"/>
+<area shape="rect" id="Node000003" href="$class_audio_manager.html#a17e851a2b8b630428424fa4533ba19c8" title="Plays animation or sound." alt="" coords="536,5,687,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="384,104,438,73,506,42,531,36,526,38,508,46,441,78,386,108"/>
+<area shape="rect" id="Node000004" href="$class_audio_manager.html#ac9614e62cc317d8d60399bfc00617546" title="Resets MusicPitch." alt="" coords="507,56,715,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="431,103,530,86,525,87,432,109"/>
+<area shape="rect" id="Node000005" href="$class_audio_manager.html#afaea7cecdb292c3ba0ccf8ab8a3f18fd" title="Sets the MusicPitch." alt="" coords="763,81,957,108"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="454,113,750,99,745,101,455,118"/>
+<area shape="rect" id="Node000006" href="$class_player_hit_effect.html#a23d9d5e337a9deadf3bd0f0f490ba49b" title="Executes the TakeHit operation." alt="" coords="532,157,690,184"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="431,131,530,153,524,154,431,137"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="716,77,750,83,745,83,716,83"/>
+<area shape="rect" id="Node000008" href="$class_quest_notification.html#a148ef532c29d8808c84f357f0fa93ada" title="Shows UI element." alt="" coords="514,208,708,251"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="460,209,501,216,496,216,460,214"/>
+</map>

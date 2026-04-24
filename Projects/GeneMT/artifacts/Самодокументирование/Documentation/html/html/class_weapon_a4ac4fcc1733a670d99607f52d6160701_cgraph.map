@@ -1,0 +1,9 @@
+<map id="Weapon.ReduceLevel" name="Weapon.ReduceLevel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,154,57"/>
+<area shape="rect" id="Node000002" href="$class_weapon.html#a06a4040601202b7335c1066af462861f" title=" " alt="" coords="202,31,375,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,41,189,44,183,44,154,47"/>
+<area shape="rect" id="Node000003" href="$class_weapon.html#a074f6fa47b6ee3202dc6751eabdfb000" title=" " alt="" coords="423,5,608,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="375,32,410,30,405,31,376,37"/>
+<area shape="rect" id="Node000004" href="$class_weapon.html#ad860905094346042ba8ea674dd78de6d" title=" " alt="" coords="428,56,604,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="375,51,415,58,410,58,375,56"/>
+</map>

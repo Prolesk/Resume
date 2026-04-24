@@ -1,0 +1,530 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_bullet_shooter" kind="class" language="C#" prot="public">
+    <compoundname>BulletShooter</compoundname>
+    <basecompoundref refid="class_weapon" prot="public" virt="non-virtual">Weapon</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_bullet_shooter_1ad78a0f4518bd06e286ff3382c2bb4967" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform BulletShooter.bulletSpawn</definition>
+        <argsstring></argsstring>
+        <name>bulletSpawn</name>
+        <qualifiedname>BulletShooter.bulletSpawn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="10" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_shooter_1a986d5d8bc86ebe87f71af807249bef3b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_enemy_detector" kindref="compound">EnemyDetector</ref></type>
+        <definition>EnemyDetector BulletShooter.enemyDetector</definition>
+        <argsstring></argsstring>
+        <name>enemyDetector</name>
+        <qualifiedname>BulletShooter.enemyDetector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="11" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_shooter_1a270a1322de9c01e067ab866de6c49356" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float BulletShooter.currentBulletSpeed</definition>
+        <argsstring></argsstring>
+        <name>currentBulletSpeed</name>
+        <qualifiedname>BulletShooter.currentBulletSpeed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="13" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_shooter_1a4a6dc7ff59b5a66a13111ff9ca67687f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float BulletShooter.currentBulletLifetime</definition>
+        <argsstring></argsstring>
+        <name>currentBulletLifetime</name>
+        <qualifiedname>BulletShooter.currentBulletLifetime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="14" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_shooter_1aff062b5dfe54d2f87b4d853a71c1c947" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BulletShooter.currentDamageType</definition>
+        <argsstring></argsstring>
+        <name>currentDamageType</name>
+        <qualifiedname>BulletShooter.currentDamageType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="15" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_shooter_1afdde936f565991946ee2f22675c8458a" prot="private" static="no" mutable="no">
+        <type>Coroutine</type>
+        <definition>Coroutine BulletShooter.shootingCoroutine</definition>
+        <argsstring></argsstring>
+        <name>shootingCoroutine</name>
+        <qualifiedname>BulletShooter.shootingCoroutine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="17" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_shooter_1a792ef919bf0ab3ec761ddb83f63cc0de" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool BulletShooter.isShooting</definition>
+        <argsstring></argsstring>
+        <name>isShooting</name>
+        <qualifiedname>BulletShooter.isShooting</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="18" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_bullet_shooter_1a0bb7b79648a35db976571f4b41dbfb90" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_bullet_shooter_data_s_o" kindref="compound">BulletShooterDataSO</ref></type>
+        <definition>BulletShooterDataSO BulletShooter.BulletData</definition>
+        <argsstring></argsstring>
+        <name>BulletData</name>
+        <qualifiedname>BulletShooter.BulletData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="20" column="33" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_bullet_shooter_1a28ed7694240e08b8614dd2a76225b787" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void BulletShooter.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>BulletShooter.Awake</qualifiedname>
+        <reimplements refid="class_weapon_1ada39248fef5791eef332e2be9b701fce">Awake</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="22" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="22" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_shooter_1a4eed27623650a00f3847b5baf027b850" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void BulletShooter.InitializeWeapon</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeWeapon</name>
+        <qualifiedname>BulletShooter.InitializeWeapon</qualifiedname>
+        <reimplements refid="class_weapon_1a9182d6c16efa79826dbe1a268f430594">InitializeWeapon</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="30" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="30" bodyend="40"/>
+        <references refid="class_weapon_1a08149e046d2aa78ee427066886146517" compoundref="_weapon_8cs" startline="14">Weapon.weaponData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_shooter_1a99dc374d171e1e129a37bb05671e11b7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void BulletShooter.SubscribeToPlayerStats</definition>
+        <argsstring>()</argsstring>
+        <name>SubscribeToPlayerStats</name>
+        <qualifiedname>BulletShooter.SubscribeToPlayerStats</qualifiedname>
+        <reimplements refid="class_weapon_1ab616652596d92596f8fce9f408319f3c">SubscribeToPlayerStats</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="47" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_shooter_1a6214a7ca3115fca4179c147bf65c319d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void BulletShooter.UnsubscribeFromPlayerStats</definition>
+        <argsstring>()</argsstring>
+        <name>UnsubscribeFromPlayerStats</name>
+        <qualifiedname>BulletShooter.UnsubscribeFromPlayerStats</qualifiedname>
+        <reimplements refid="class_weapon_1a328e690c7cf25db86ec7d361f57be72f">UnsubscribeFromPlayerStats</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="52" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_shooter_1adf0b3643439b226f667ea5523b5d689d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void BulletShooter.CalculateAllStats</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateAllStats</name>
+        <qualifiedname>BulletShooter.CalculateAllStats</qualifiedname>
+        <reimplements refid="class_weapon_1a06a4040601202b7335c1066af462861f">CalculateAllStats</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="57" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="57" bodyend="62"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_bullet_shooter_1a589b75a594faa41a8937ff23c02e993c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletShooter.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>BulletShooter.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="42" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_shooter_1abb3ba911a544d582e734be5bb1de4c07" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletShooter.CalculateExplosionStats</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateExplosionStats</name>
+        <qualifiedname>BulletShooter.CalculateExplosionStats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="64" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="64" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_shooter_1a635f014deda2e0b5955291bcfbac32e9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletShooter.StartShooting</definition>
+        <argsstring>()</argsstring>
+        <name>StartShooting</name>
+        <qualifiedname>BulletShooter.StartShooting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="90" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="90" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_shooter_1af7df9222be9cbdf1d6fffc32b783bbd9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletShooter.StopShooting</definition>
+        <argsstring>()</argsstring>
+        <name>StopShooting</name>
+        <qualifiedname>BulletShooter.StopShooting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="108" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="108" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_shooter_1a35b91d81ca7266c3bd9bd8b1c6f11f75" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator BulletShooter.ShootingRoutine</definition>
+        <argsstring>()</argsstring>
+        <name>ShootingRoutine</name>
+        <qualifiedname>BulletShooter.ShootingRoutine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="118" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="118" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_shooter_1a24ee653fdd61d48570e6585fcd905a1f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletShooter.ShootAtVisibleEnemies</definition>
+        <argsstring>()</argsstring>
+        <name>ShootAtVisibleEnemies</name>
+        <qualifiedname>BulletShooter.ShootAtVisibleEnemies</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="129" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="129" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_shooter_1a891fbc8fd0541b83e14978f768c94f82" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletShooter.Shoot</definition>
+        <argsstring>(Transform target)</argsstring>
+        <name>Shoot</name>
+        <qualifiedname>BulletShooter.Shoot</qualifiedname>
+        <param>
+          <type>Transform</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="144" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="144" bodyend="178"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bullet_shooter_1a425e1ca73c7752d7573a42016d66ca5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override float</type>
+        <definition>override float BulletShooter.GetProjectileSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>GetProjectileSpeed</name>
+        <qualifiedname>BulletShooter.GetProjectileSpeed</qualifiedname>
+        <reimplements refid="class_weapon_1ac586cb11ef39baffaa3d7365d48ce12f">GetProjectileSpeed</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="86" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_shooter_1a3d052fe7931cdc248d48ba4651307ef8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override float</type>
+        <definition>override float BulletShooter.GetLifetime</definition>
+        <argsstring>()</argsstring>
+        <name>GetLifetime</name>
+        <qualifiedname>BulletShooter.GetLifetime</qualifiedname>
+        <reimplements refid="class_weapon_1a69d700917c994a2da5273a50db72ba8e">GetLifetime</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="87" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_shooter_1ac19fe73ce485da795d44ab6577f784c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override int</type>
+        <definition>override int BulletShooter.GetDamageType</definition>
+        <argsstring>()</argsstring>
+        <name>GetDamageType</name>
+        <qualifiedname>BulletShooter.GetDamageType</qualifiedname>
+        <reimplements refid="class_weapon_1aca9f32807207e86ccf29a6ffb126bde7">GetDamageType</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="88" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_shooter_1a242b4a38584a18cd365cce659b5be349" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string BulletShooter.GetWeaponStats</definition>
+        <argsstring>()</argsstring>
+        <name>GetWeaponStats</name>
+        <qualifiedname>BulletShooter.GetWeaponStats</qualifiedname>
+        <reimplements refid="class_weapon_1ae72d0bc59613640dd76e71f72931f68e">GetWeaponStats</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="180" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="180" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_shooter_1a5c020c996bd88676c5eb9405e633626a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string BulletShooter.GetTextTitleInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetTextTitleInfo</name>
+        <qualifiedname>BulletShooter.GetTextTitleInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="187" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="187" bodyend="190"/>
+        <references refid="class_weapon_1a08149e046d2aa78ee427066886146517" compoundref="_weapon_8cs" startline="14">Weapon.weaponData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_shooter_1a703e35c9e8b47ae011b2436c56426ab2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string BulletShooter.GetTextDescriptionInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetTextDescriptionInfo</name>
+        <qualifiedname>BulletShooter.GetTextDescriptionInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="192" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="192" bodyend="199"/>
+        <references refid="class_weapon_1ad13d312d049e1ebd6b5fe3c1a890a66c" compoundref="_weapon_8cs" startline="239" endline="249">Weapon.GetUpgradeDescriptionForNextLevel</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_bullet_shooter" kindref="compound">BulletShooter</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BulletShooter</label>
+        <link refid="class_bullet_shooter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>Weapon</label>
+        <link refid="class_weapon"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BulletShooter</label>
+        <link refid="class_bullet_shooter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>LevelUpgrade</label>
+        <link refid="class_level_upgrade"/>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="4">
+        <label>PlayerStatsSO</label>
+        <link refid="class_player_stats_s_o"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="5">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Weapon</label>
+        <link refid="class_weapon"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>playerStats</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>weaponData</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>WeaponDataSO</label>
+        <link refid="class_weapon_data_s_o"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>ExstraLevelUpgrades</edgelabel>
+          <edgelabel>levelUpgrades</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>currentWeapon</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" line="7" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletShooter.cs" bodystart="8" bodyend="200"/>
+    <listofallmembers>
+      <member refid="class_weapon_1a6d7148708171a55fe10eb250d73c9f71" prot="public" virt="virtual"><scope>BulletShooter</scope><name>AddLevel</name></member>
+      <member refid="class_weapon_1a6311c5a63cd709c4b2ca3a0161ff7ad5" prot="public" virt="non-virtual"><scope>BulletShooter</scope><name>AvailableChanged</name></member>
+      <member refid="class_bullet_shooter_1a28ed7694240e08b8614dd2a76225b787" prot="protected" virt="virtual"><scope>BulletShooter</scope><name>Awake</name></member>
+      <member refid="class_bullet_shooter_1a0bb7b79648a35db976571f4b41dbfb90" prot="private" virt="non-virtual"><scope>BulletShooter</scope><name>BulletData</name></member>
+      <member refid="class_bullet_shooter_1ad78a0f4518bd06e286ff3382c2bb4967" prot="private" virt="non-virtual"><scope>BulletShooter</scope><name>bulletSpawn</name></member>
+      <member refid="class_bullet_shooter_1adf0b3643439b226f667ea5523b5d689d" prot="protected" virt="virtual"><scope>BulletShooter</scope><name>CalculateAllStats</name></member>
+      <member refid="class_weapon_1a074f6fa47b6ee3202dc6751eabdfb000" prot="protected" virt="virtual"><scope>BulletShooter</scope><name>CalculateCooldown</name></member>
+      <member refid="class_weapon_1ad860905094346042ba8ea674dd78de6d" prot="protected" virt="virtual"><scope>BulletShooter</scope><name>CalculateDamage</name></member>
+      <member refid="class_weapon_1aee4ad85a276c0d27301fdf29d379bacb" prot="protected" virt="virtual"><scope>BulletShooter</scope><name>CalculateDamage</name></member>
+      <member refid="class_bullet_shooter_1abb3ba911a544d582e734be5bb1de4c07" prot="private" virt="non-virtual"><scope>BulletShooter</scope><name>CalculateExplosionStats</name></member>
+      <member refid="class_weapon_1a188e2513ead27db5ffe844e168804ae4" prot="public" virt="virtual"><scope>BulletShooter</scope><name>CanLevelUp</name></member>
+      <member refid="class_bullet_shooter_1a4a6dc7ff59b5a66a13111ff9ca67687f" prot="private" virt="non-virtual"><scope>BulletShooter</scope><name>currentBulletLifetime</name></member>
+      <member refid="class_bullet_shooter_1a270a1322de9c01e067ab866de6c49356" prot="private" virt="non-virtual"><scope>BulletShooter</scope><name>currentBulletSpeed</name></member>
+      <member refid="class_weapon_1ad532fb0f0dfc1c6360f208fc34156197" prot="protected" virt="non-virtual"><scope>BulletShooter</scope><name>currentCooldown</name></member>
+      <member refid="class_weapon_1aaf922eb1468b4fc9a7621717db389c5b" prot="protected" virt="non-virtual"><scope>BulletShooter</scope><name>currentDamage</name></member>
+      <member refid="class_bullet_shooter_1aff062b5dfe54d2f87b4d853a71c1c947" prot="private" virt="non-virtual"><scope>BulletShooter</scope><name>currentDamageType</name></member>
+      <member refid="class_weapon_1a2a0c19d2dbdb2cddf5f548a140589791" prot="public" virt="non-virtual"><scope>BulletShooter</scope><name>CurrentLevel</name></member>
+      <member refid="class_weapon_1ae299df08a60611f9f0fc6fdc4c659b46" prot="public" virt="non-virtual"><scope>BulletShooter</scope><name>currentLevel</name></member>
+      <member refid="class_weapon_1a635065fdc99dea24985f112f1254ed5a" prot="public" virt="non-virtual"><scope>BulletShooter</scope><name>Data</name></member>
+      <member refid="class_weapon_1a479491c816e68b0137996348b49fe781" prot="public" virt="non-virtual"><scope>BulletShooter</scope><name>DebugWeaponStats</name></member>
+      <member refid="class_bullet_shooter_1a986d5d8bc86ebe87f71af807249bef3b" prot="private" virt="non-virtual"><scope>BulletShooter</scope><name>enemyDetector</name></member>
+      <member refid="class_weapon_1a5367855dc2202f9cbf9f23b8de25ae92" prot="public" virt="virtual"><scope>BulletShooter</scope><name>GetArea</name></member>
+      <member refid="class_weapon_1a31a4342b893bf970f73826ff0c343c44" prot="public" virt="virtual"><scope>BulletShooter</scope><name>GetCooldown</name></member>
+      <member refid="class_weapon_1a0d972514250825c4b7aaecd42235f0e7" prot="public" virt="virtual"><scope>BulletShooter</scope><name>GetDamage</name></member>
+      <member refid="class_bullet_shooter_1ac19fe73ce485da795d44ab6577f784c6" prot="public" virt="virtual"><scope>BulletShooter</scope><name>GetDamageType</name></member>
+      <member refid="class_weapon_1a50e11db3148996b29f6bbc6856120c95" prot="public" virt="virtual"><scope>BulletShooter</scope><name>GetItemDescription</name></member>
+      <member refid="class_bullet_shooter_1a3d052fe7931cdc248d48ba4651307ef8" prot="public" virt="virtual"><scope>BulletShooter</scope><name>GetLifetime</name></member>
+      <member refid="class_bullet_shooter_1a425e1ca73c7752d7573a42016d66ca5e" prot="public" virt="virtual"><scope>BulletShooter</scope><name>GetProjectileSpeed</name></member>
+      <member refid="class_bullet_shooter_1a703e35c9e8b47ae011b2436c56426ab2" prot="public" virt="non-virtual"><scope>BulletShooter</scope><name>GetTextDescriptionInfo</name></member>
+      <member refid="class_bullet_shooter_1a5c020c996bd88676c5eb9405e633626a" prot="public" virt="non-virtual"><scope>BulletShooter</scope><name>GetTextTitleInfo</name></member>
+      <member refid="class_weapon_1ad13d312d049e1ebd6b5fe3c1a890a66c" prot="public" virt="virtual"><scope>BulletShooter</scope><name>GetUpgradeDescriptionForNextLevel</name></member>
+      <member refid="class_bullet_shooter_1a242b4a38584a18cd365cce659b5be349" prot="public" virt="virtual"><scope>BulletShooter</scope><name>GetWeaponStats</name></member>
+      <member refid="class_bullet_shooter_1a4eed27623650a00f3847b5baf027b850" prot="protected" virt="virtual"><scope>BulletShooter</scope><name>InitializeWeapon</name></member>
+      <member refid="class_weapon_1a69231f675123b5bf16b82c1b05804eff" prot="public" virt="non-virtual"><scope>BulletShooter</scope><name>IsAvailable</name></member>
+      <member refid="class_weapon_1a9e59d0d3f26119eccc69d89d216ed887" prot="public" virt="non-virtual"><scope>BulletShooter</scope><name>IsMaxLevel</name></member>
+      <member refid="class_bullet_shooter_1a792ef919bf0ab3ec761ddb83f63cc0de" prot="private" virt="non-virtual"><scope>BulletShooter</scope><name>isShooting</name></member>
+      <member refid="class_weapon_1a9529168f0afe4ae01428686c03852eec" prot="public" virt="non-virtual"><scope>BulletShooter</scope><name>OnLevelUp</name></member>
+      <member refid="class_weapon_1afa5c22658e6121b9a39e3e9936c4ad2d" prot="public" virt="non-virtual"><scope>BulletShooter</scope><name>playerStats</name></member>
+      <member refid="class_weapon_1ac4df25f5b4036c98320959a73f28e947" prot="public" virt="non-virtual"><scope>BulletShooter</scope><name>PlayerStatsData</name></member>
+      <member refid="class_weapon_1a4ac4fcc1733a670d99607f52d6160701" prot="public" virt="virtual"><scope>BulletShooter</scope><name>ReduceLevel</name></member>
+      <member refid="class_weapon_1aa2c6401b0e18582811ac05d70e5c167c" prot="public" virt="non-virtual"><scope>BulletShooter</scope><name>SetAvailable</name></member>
+      <member refid="class_bullet_shooter_1a891fbc8fd0541b83e14978f768c94f82" prot="private" virt="non-virtual"><scope>BulletShooter</scope><name>Shoot</name></member>
+      <member refid="class_bullet_shooter_1a24ee653fdd61d48570e6585fcd905a1f" prot="private" virt="non-virtual"><scope>BulletShooter</scope><name>ShootAtVisibleEnemies</name></member>
+      <member refid="class_bullet_shooter_1afdde936f565991946ee2f22675c8458a" prot="private" virt="non-virtual"><scope>BulletShooter</scope><name>shootingCoroutine</name></member>
+      <member refid="class_bullet_shooter_1a35b91d81ca7266c3bd9bd8b1c6f11f75" prot="private" virt="non-virtual"><scope>BulletShooter</scope><name>ShootingRoutine</name></member>
+      <member refid="class_bullet_shooter_1a589b75a594faa41a8937ff23c02e993c" prot="private" virt="non-virtual"><scope>BulletShooter</scope><name>Start</name></member>
+      <member refid="class_bullet_shooter_1a635f014deda2e0b5955291bcfbac32e9" prot="private" virt="non-virtual"><scope>BulletShooter</scope><name>StartShooting</name></member>
+      <member refid="class_bullet_shooter_1af7df9222be9cbdf1d6fffc32b783bbd9" prot="private" virt="non-virtual"><scope>BulletShooter</scope><name>StopShooting</name></member>
+      <member refid="class_bullet_shooter_1a99dc374d171e1e129a37bb05671e11b7" prot="protected" virt="virtual"><scope>BulletShooter</scope><name>SubscribeToPlayerStats</name></member>
+      <member refid="class_weapon_1afe9d6a5606e4e8bcd65e3f5280269038" prot="public" virt="non-virtual"><scope>BulletShooter</scope><name>TestAddLevel</name></member>
+      <member refid="class_bullet_shooter_1a6214a7ca3115fca4179c147bf65c319d" prot="protected" virt="virtual"><scope>BulletShooter</scope><name>UnsubscribeFromPlayerStats</name></member>
+      <member refid="class_weapon_1a08149e046d2aa78ee427066886146517" prot="public" virt="non-virtual"><scope>BulletShooter</scope><name>weaponData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

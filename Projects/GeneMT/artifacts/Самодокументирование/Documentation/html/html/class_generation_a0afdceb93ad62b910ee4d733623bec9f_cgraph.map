@@ -1,0 +1,15 @@
+<map id="Generation.GenerateMap" name="Generation.GenerateMap">
+<area shape="rect" id="Node000001" title="Generates Map." alt="" coords="5,80,172,107"/>
+<area shape="rect" id="Node000002" href="$class_generation.html#a87ab05fd81e1888dfa585afb81ec439a" title="Adds MutationsChestsToTiles." alt="" coords="220,9,430,52"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,77,229,55,225,58,143,82"/>
+<area shape="rect" id="Node000004" href="$class_generation.html#a74e1078328d45b8768c86ef5f72d6b9a" title="Adds QuestsToTiles." alt="" coords="227,80,422,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="172,91,214,93,209,94,173,96"/>
+<area shape="rect" id="Node000007" href="$class_generation.html#ae54d2c3052097891a77008466f01e147" title="Executes the ClearGeneration operation." alt="" coords="234,131,416,157"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="154,105,247,126,242,128,154,110"/>
+<area shape="rect" id="Node000003" href="$class_spawn_activity_on_tile.html#ab938a6ab3d90daaacd2f1856a6b63d62" title="Spawns MutationChest." alt="" coords="478,5,665,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="430,26,465,28,460,29,431,32"/>
+<area shape="rect" id="Node000005" href="$class_spawn_activity_on_tile.html#a204249f5aacd4bbe60125033e52c738f" title="Spawns QuestGiverOfType." alt="" coords="478,72,665,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="423,91,465,93,460,94,423,96"/>
+<area shape="rect" id="Node000006" href="$class_spawn_activity_on_tile.html#a64e8152a1285f12862d0e60cecfefd4e" title="Spawns TransitionQuest." alt="" coords="478,139,665,181"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="386,105,431,116,486,134,481,134,429,121,385,110"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="QuestSO.FinishQuest" name="QuestSO.FinishQuest">
+<area shape="rect" id="Node000001" title="Executes the FinishQuest operation." alt="" coords="236,5,385,32"/>
+<area shape="rect" id="Node000002" href="$class_quest_data.html#acde237ec9d91d880a7fa444ef6edf226" title="Updates Progress." alt="" coords="5,5,188,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,19,188,21,188,16,223,19"/>
+</map>

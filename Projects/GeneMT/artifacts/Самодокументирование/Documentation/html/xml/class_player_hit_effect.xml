@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_player_hit_effect" kind="class" language="C#" prot="public">
+    <compoundname>PlayerHitEffect</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_player_hit_effect_1a59bc27282f86b8036017e8465c22da93" prot="public" static="no" mutable="no">
+        <type>List&lt; Renderer &gt;</type>
+        <definition>List&lt;Renderer&gt; PlayerHitEffect.playerRenderers</definition>
+        <argsstring></argsstring>
+        <name>playerRenderers</name>
+        <qualifiedname>PlayerHitEffect.playerRenderers</qualifiedname>
+        <initializer>= new List&lt;Renderer&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" line="10" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_player_hit_effect_1a0fbbc67f78b314a860babaa084a4d5eb" compoundref="_player_hit_effect_8cs" startline="110" endline="116">AutoFindRenderers</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_hit_effect_1a4082c5e17dbde7db8332800a84661050" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color PlayerHitEffect.hitColor</definition>
+        <argsstring></argsstring>
+        <name>hitColor</name>
+        <qualifiedname>PlayerHitEffect.hitColor</qualifiedname>
+        <initializer>= Color.red</initializer>
+        <briefdescription>
+<para>The hitColor field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" line="16" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_hit_effect_1a8caa57a077734fe2c033f73d38cbf3f5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerHitEffect.flashDuration</definition>
+        <argsstring></argsstring>
+        <name>flashDuration</name>
+        <qualifiedname>PlayerHitEffect.flashDuration</qualifiedname>
+        <initializer>= 0.3f</initializer>
+        <briefdescription>
+<para>The flashDuration field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" line="20" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_hit_effect_1aa05982f66e4fc51b2d959da0ec2215db" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerHitEffect.isFlashing</definition>
+        <argsstring></argsstring>
+        <name>isFlashing</name>
+        <qualifiedname>PlayerHitEffect.isFlashing</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" line="22" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_hit_effect_1a3652b6924b5b9930802d60f936b18265" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerHitEffect.flashTimer</definition>
+        <argsstring></argsstring>
+        <name>flashTimer</name>
+        <qualifiedname>PlayerHitEffect.flashTimer</qualifiedname>
+        <initializer>= 0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" line="23" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_hit_effect_1adcad9cac58e06df65e98d3642e71acc3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerHitEffect.flashState</definition>
+        <argsstring></argsstring>
+        <name>flashState</name>
+        <qualifiedname>PlayerHitEffect.flashState</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" line="24" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_player_hit_effect_1a8bf847786f84842006db1d3f801ffe21" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_player_hit_effect" kindref="compound">PlayerHitEffect</ref></type>
+        <definition>PlayerHitEffect PlayerHitEffect.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>PlayerHitEffect.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" line="26" column="35" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" bodystart="26" bodyend="26"/>
+        <referencedby refid="class_player_h_p_1a96e8c0a58a3538c568a41be4154af8c3" compoundref="_player_h_p_8cs" startline="99" endline="120">PlayerHP.Damage</referencedby>
+        <referencedby refid="class_player_h_p_1acce7bb9a08f70d48821152292a96c836" compoundref="_player_h_p_8cs" startline="72" endline="93">PlayerHP.DamageInPercent</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_hit_effect_1a0dcb255ad192141464a1a7e8502c6aa3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHitEffect.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>PlayerHitEffect.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" line="28" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" bodystart="28" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_hit_effect_1ac63b782dd42c2ede57364e6c61051976" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHitEffect.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>PlayerHitEffect.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" line="40" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" bodystart="40" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_hit_effect_1a02c3ddd43ad414ad33ab8219b0a27c25" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHitEffect.SetColorToRed</definition>
+        <argsstring>()</argsstring>
+        <name>SetColorToRed</name>
+        <qualifiedname>PlayerHitEffect.SetColorToRed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" line="80" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" bodystart="80" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_hit_effect_1a4434cc802cd6809e11273e70f50b5563" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHitEffect.SetColorToOriginal</definition>
+        <argsstring>()</argsstring>
+        <name>SetColorToOriginal</name>
+        <qualifiedname>PlayerHitEffect.SetColorToOriginal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" line="95" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" bodystart="95" bodyend="104"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_hit_effect_1a23d9d5e337a9deadf3bd0f0f490ba49b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHitEffect.TakeHit</definition>
+        <argsstring>()</argsstring>
+        <name>TakeHit</name>
+        <qualifiedname>PlayerHitEffect.TakeHit</qualifiedname>
+        <briefdescription>
+<para>Executes the TakeHit operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" line="72" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" bodystart="72" bodyend="78"/>
+        <referencedby refid="class_player_h_p_1a96e8c0a58a3538c568a41be4154af8c3" compoundref="_player_h_p_8cs" startline="99" endline="120">PlayerHP.Damage</referencedby>
+        <referencedby refid="class_player_h_p_1acce7bb9a08f70d48821152292a96c836" compoundref="_player_h_p_8cs" startline="72" endline="93">PlayerHP.DamageInPercent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_hit_effect_1a0fbbc67f78b314a860babaa084a4d5eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHitEffect.AutoFindRenderers</definition>
+        <argsstring>()</argsstring>
+        <name>AutoFindRenderers</name>
+        <qualifiedname>PlayerHitEffect.AutoFindRenderers</qualifiedname>
+        <briefdescription>
+<para>Executes the AutoFindRenderers operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" line="110" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" bodystart="110" bodyend="116"/>
+        <references refid="class_player_hit_effect_1a59bc27282f86b8036017e8465c22da93" compoundref="_player_hit_effect_8cs" startline="10">playerRenderers</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_player_hit_effect" kindref="compound">PlayerHitEffect</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PlayerHitEffect</label>
+        <link refid="class_player_hit_effect"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PlayerHitEffect</label>
+        <link refid="class_player_hit_effect"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" line="7" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerHitEffect.cs" bodystart="8" bodyend="117"/>
+    <listofallmembers>
+      <member refid="class_player_hit_effect_1a0fbbc67f78b314a860babaa084a4d5eb" prot="public" virt="non-virtual"><scope>PlayerHitEffect</scope><name>AutoFindRenderers</name></member>
+      <member refid="class_player_hit_effect_1a0dcb255ad192141464a1a7e8502c6aa3" prot="private" virt="non-virtual"><scope>PlayerHitEffect</scope><name>Awake</name></member>
+      <member refid="class_player_hit_effect_1a8caa57a077734fe2c033f73d38cbf3f5" prot="public" virt="non-virtual"><scope>PlayerHitEffect</scope><name>flashDuration</name></member>
+      <member refid="class_player_hit_effect_1adcad9cac58e06df65e98d3642e71acc3" prot="private" virt="non-virtual"><scope>PlayerHitEffect</scope><name>flashState</name></member>
+      <member refid="class_player_hit_effect_1a3652b6924b5b9930802d60f936b18265" prot="private" virt="non-virtual"><scope>PlayerHitEffect</scope><name>flashTimer</name></member>
+      <member refid="class_player_hit_effect_1a4082c5e17dbde7db8332800a84661050" prot="public" virt="non-virtual"><scope>PlayerHitEffect</scope><name>hitColor</name></member>
+      <member refid="class_player_hit_effect_1a8bf847786f84842006db1d3f801ffe21" prot="public" virt="non-virtual"><scope>PlayerHitEffect</scope><name>Instance</name></member>
+      <member refid="class_player_hit_effect_1aa05982f66e4fc51b2d959da0ec2215db" prot="private" virt="non-virtual"><scope>PlayerHitEffect</scope><name>isFlashing</name></member>
+      <member refid="class_player_hit_effect_1a59bc27282f86b8036017e8465c22da93" prot="public" virt="non-virtual"><scope>PlayerHitEffect</scope><name>playerRenderers</name></member>
+      <member refid="class_player_hit_effect_1a4434cc802cd6809e11273e70f50b5563" prot="private" virt="non-virtual"><scope>PlayerHitEffect</scope><name>SetColorToOriginal</name></member>
+      <member refid="class_player_hit_effect_1a02c3ddd43ad414ad33ab8219b0a27c25" prot="private" virt="non-virtual"><scope>PlayerHitEffect</scope><name>SetColorToRed</name></member>
+      <member refid="class_player_hit_effect_1a23d9d5e337a9deadf3bd0f0f490ba49b" prot="public" virt="non-virtual"><scope>PlayerHitEffect</scope><name>TakeHit</name></member>
+      <member refid="class_player_hit_effect_1ac63b782dd42c2ede57364e6c61051976" prot="private" virt="non-virtual"><scope>PlayerHitEffect</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

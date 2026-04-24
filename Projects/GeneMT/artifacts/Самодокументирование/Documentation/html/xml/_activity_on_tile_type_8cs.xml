@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="_activity_on_tile_type_8cs" kind="file" language="C#">
+    <compoundname>ActivityOnTileType.cs</compoundname>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="_activity_on_tile_type_8cs_1a584f428d4bd093f85bfbb47fb91fe88b" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ActivityOnTileType</name>
+        <enumvalue id="_activity_on_tile_type_8cs_1a584f428d4bd093f85bfbb47fb91fe88ba07bf513a88c3df282a30cb374f8a933d" prot="public">
+          <name>Quest</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_activity_on_tile_type_8cs_1a584f428d4bd093f85bfbb47fb91fe88ba59016373e3e4440ecf76c1d4b6bcd97d" prot="public">
+          <name>Mutation</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_activity_on_tile_type_8cs_1a584f428d4bd093f85bfbb47fb91fe88baa27c46eb533c280ed820f1d8524342ce" prot="public">
+          <name>OtherActivity</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/ActivityOnTileType.cs" line="1" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/ActivityOnTileType.cs" bodystart="2" bodyend="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="_activity_on_tile_type_8cs_1a584f428d4bd093f85bfbb47fb91fe88b" refkind="member"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_activity_on_tile_type_8cs_1a584f428d4bd093f85bfbb47fb91fe88b" kindref="member">ActivityOnTileType</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="_activity_on_tile_type_8cs_1a584f428d4bd093f85bfbb47fb91fe88ba07bf513a88c3df282a30cb374f8a933d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_activity_on_tile_type_8cs_1a584f428d4bd093f85bfbb47fb91fe88ba07bf513a88c3df282a30cb374f8a933d" kindref="member">Quest</ref>,</highlight></codeline>
+<codeline lineno="4" refid="_activity_on_tile_type_8cs_1a584f428d4bd093f85bfbb47fb91fe88ba59016373e3e4440ecf76c1d4b6bcd97d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_activity_on_tile_type_8cs_1a584f428d4bd093f85bfbb47fb91fe88ba59016373e3e4440ecf76c1d4b6bcd97d" kindref="member">Mutation</ref>,</highlight></codeline>
+<codeline lineno="5" refid="_activity_on_tile_type_8cs_1a584f428d4bd093f85bfbb47fb91fe88baa27c46eb533c280ed820f1d8524342ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_activity_on_tile_type_8cs_1a584f428d4bd093f85bfbb47fb91fe88baa27c46eb533c280ed820f1d8524342ce" kindref="member">OtherActivity</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/ActivityOnTileType.cs"/>
+  </compounddef>
+</doxygen>

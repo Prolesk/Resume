@@ -1,0 +1,5 @@
+<map id="ItemDataSO.OnDamageGive" name="ItemDataSO.OnDamageGive">
+<area shape="rect" id="Node000001" title=" " alt="" coords="228,13,419,40"/>
+<area shape="rect" id="Node000002" href="$class_item_controller_s_o.html#a956a1c4b06d1690ea013edd0fbaecbfd" title="Executes the ActivateOnDamageGiveEvent operation." alt="" coords="5,5,180,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,27,180,29,180,24,215,26"/>
+</map>

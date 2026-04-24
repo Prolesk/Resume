@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_weapon_controller" kind="class" language="C#" prot="public">
+    <compoundname>WeaponController</compoundname>
+    <basecompoundref refid="class_singleton_scriptable_object-1-g" prot="public" virt="non-virtual">SingletonScriptableObject&lt; T &gt;</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_weapon_controller_1a0be837c060c1c885f8c18f8b29b7ecdc" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_weapon_data_s_o" kindref="compound">WeaponDataSO</ref> &gt;</type>
+        <definition>List&lt;WeaponDataSO&gt; WeaponController.currentPlayerWeapons</definition>
+        <argsstring></argsstring>
+        <name>currentPlayerWeapons</name>
+        <qualifiedname>WeaponController.currentPlayerWeapons</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponController.cs" line="13" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponController.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_weapon_controller_1a4035f3c2ec8b324081cab0e5ffadaddb" compoundref="_weapon_controller_8cs" startline="18" endline="21">ClearPool</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_weapon_controller_1a4035f3c2ec8b324081cab0e5ffadaddb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WeaponController.ClearPool</definition>
+        <argsstring>()</argsstring>
+        <name>ClearPool</name>
+        <qualifiedname>WeaponController.ClearPool</qualifiedname>
+        <briefdescription>
+<para>Executes the ClearPool operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponController.cs" line="18" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponController.cs" bodystart="18" bodyend="21"/>
+        <references refid="class_weapon_controller_1a0be837c060c1c885f8c18f8b29b7ecdc" compoundref="_weapon_controller_8cs" startline="13">currentPlayerWeapons</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_weapon_controller" kindref="compound">WeaponController</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>WeaponController</label>
+        <link refid="class_weapon_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>WeaponController</label>
+        <link refid="class_weapon_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponController.cs" line="10" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponController.cs" bodystart="11" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_weapon_controller_1a4035f3c2ec8b324081cab0e5ffadaddb" prot="public" virt="non-virtual"><scope>WeaponController</scope><name>ClearPool</name></member>
+      <member refid="class_weapon_controller_1a0be837c060c1c885f8c18f8b29b7ecdc" prot="public" virt="non-virtual"><scope>WeaponController</scope><name>currentPlayerWeapons</name></member>
+      <member refid="class_singleton_scriptable_object-1-g_1aa59148a0a9bc37057ef216e7c9a814a8" prot="public" virt="non-virtual"><scope>WeaponController</scope><name>Instance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

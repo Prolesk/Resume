@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_explosion_pool" kind="class" language="C#" prot="public">
+    <compoundname>ExplosionPool</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_explosion_pool_1ab320ddde39c0990702de09ed9de0d351" prot="private" static="no" mutable="no">
+        <type><ref refid="class_magic_staff_data_s_o" kindref="compound">MagicStaffDataSO</ref></type>
+        <definition>MagicStaffDataSO ExplosionPool.defaultExplosionData</definition>
+        <argsstring></argsstring>
+        <name>defaultExplosionData</name>
+        <qualifiedname>ExplosionPool.defaultExplosionData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" line="9" column="31" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_explosion_pool_1aaf7bde0b95df453c59e0baaadb1dbfff" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ExplosionPool.initialPoolSize</definition>
+        <argsstring></argsstring>
+        <name>initialPoolSize</name>
+        <qualifiedname>ExplosionPool.initialPoolSize</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" line="10" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_explosion_pool_1a9a50dbc146d079161f9f9c27f060ec63" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ExplosionPool.expandAmount</definition>
+        <argsstring></argsstring>
+        <name>expandAmount</name>
+        <qualifiedname>ExplosionPool.expandAmount</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" line="11" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_explosion_pool_1ab8843032ea804e090a849d6884220150" prot="private" static="no" mutable="no">
+        <type>Queue&lt; GameObject &gt;</type>
+        <definition>Queue&lt;GameObject&gt; ExplosionPool.explosionPool</definition>
+        <argsstring></argsstring>
+        <name>explosionPool</name>
+        <qualifiedname>ExplosionPool.explosionPool</qualifiedname>
+        <initializer>= new Queue&lt;GameObject&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" line="13" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_explosion_pool_1a8e0a022ec7a7ae22221234f91ae10eef" prot="private" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; ExplosionPool.allExplosions</definition>
+        <argsstring></argsstring>
+        <name>allExplosions</name>
+        <qualifiedname>ExplosionPool.allExplosions</qualifiedname>
+        <initializer>= new List&lt;GameObject&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" line="14" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_explosion_pool_1a8365da1f6c750532498e97b0a201b470" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ExplosionPool.explosionPrefab</definition>
+        <argsstring></argsstring>
+        <name>explosionPrefab</name>
+        <qualifiedname>ExplosionPool.explosionPrefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" line="15" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_explosion_pool_1a5150b43f3d733f5e855dcc19e247c69e" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_explosion_pool" kindref="compound">ExplosionPool</ref></type>
+        <definition>ExplosionPool ExplosionPool.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>ExplosionPool.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" line="17" column="33" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_explosion_pool_1a1796b4f1808fce48d9f6f2270fcee3ab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ExplosionPool.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>ExplosionPool.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" line="19" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" bodystart="19" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_explosion_pool_1a658a92aa1d7606b513f4662b89597b91" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ExplosionPool.InitializePool</definition>
+        <argsstring>()</argsstring>
+        <name>InitializePool</name>
+        <qualifiedname>ExplosionPool.InitializePool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" line="32" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" bodystart="32" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_explosion_pool_1aeb6db06d5139315b8aba150ff0d3d3a3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ExplosionPool.ExpandPool</definition>
+        <argsstring>(int count)</argsstring>
+        <name>ExpandPool</name>
+        <qualifiedname>ExplosionPool.ExpandPool</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" line="47" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" bodystart="47" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_explosion_pool_1a102dad5493dcb6cbed7bfbb53c11bf3b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>GameObject ExplosionPool.CreateNewExplosion</definition>
+        <argsstring>()</argsstring>
+        <name>CreateNewExplosion</name>
+        <qualifiedname>ExplosionPool.CreateNewExplosion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" line="56" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" bodystart="56" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_explosion_pool_1aa8fe7f1e9af94083163a28e1ae3d26fa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ExplosionPool.CleanPool</definition>
+        <argsstring>()</argsstring>
+        <name>CleanPool</name>
+        <qualifiedname>ExplosionPool.CleanPool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" line="113" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" bodystart="113" bodyend="130"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_explosion_pool_1a2976b266f5819aa564f363a84e1e9d1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>GameObject ExplosionPool.GetExplosion</definition>
+        <argsstring>()</argsstring>
+        <name>GetExplosion</name>
+        <qualifiedname>ExplosionPool.GetExplosion</qualifiedname>
+        <briefdescription>
+<para>Gets the <ref refid="class_explosion" kindref="compound">Explosion</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The result as GameObject.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" line="68" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" bodystart="68" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_explosion_pool_1a2804b03aeec4662afebc7177cb5f8365" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ExplosionPool.ReturnExplosion</definition>
+        <argsstring>(GameObject explosion)</argsstring>
+        <name>ReturnExplosion</name>
+        <qualifiedname>ExplosionPool.ReturnExplosion</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>explosion</declname>
+        </param>
+        <briefdescription>
+<para>Executes the ReturnExplosion operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>explosion</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The explosion.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" line="97" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" bodystart="97" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_explosion_pool_1a057ecb48a52f8d3ff3a88951e610f6a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ExplosionPool.ReinitializePool</definition>
+        <argsstring>()</argsstring>
+        <name>ReinitializePool</name>
+        <qualifiedname>ExplosionPool.ReinitializePool</qualifiedname>
+        <briefdescription>
+<para>Executes the ReinitializePool operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" line="135" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" bodystart="135" bodyend="148"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_explosion_pool" kindref="compound">ExplosionPool</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ExplosionPool</label>
+        <link refid="class_explosion_pool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ExplosionPool</label>
+        <link refid="class_explosion_pool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" line="7" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/ExplosionPool.cs" bodystart="8" bodyend="149"/>
+    <listofallmembers>
+      <member refid="class_explosion_pool_1a8e0a022ec7a7ae22221234f91ae10eef" prot="private" virt="non-virtual"><scope>ExplosionPool</scope><name>allExplosions</name></member>
+      <member refid="class_explosion_pool_1a1796b4f1808fce48d9f6f2270fcee3ab" prot="private" virt="non-virtual"><scope>ExplosionPool</scope><name>Awake</name></member>
+      <member refid="class_explosion_pool_1aa8fe7f1e9af94083163a28e1ae3d26fa" prot="private" virt="non-virtual"><scope>ExplosionPool</scope><name>CleanPool</name></member>
+      <member refid="class_explosion_pool_1a102dad5493dcb6cbed7bfbb53c11bf3b" prot="private" virt="non-virtual"><scope>ExplosionPool</scope><name>CreateNewExplosion</name></member>
+      <member refid="class_explosion_pool_1ab320ddde39c0990702de09ed9de0d351" prot="private" virt="non-virtual"><scope>ExplosionPool</scope><name>defaultExplosionData</name></member>
+      <member refid="class_explosion_pool_1a9a50dbc146d079161f9f9c27f060ec63" prot="private" virt="non-virtual"><scope>ExplosionPool</scope><name>expandAmount</name></member>
+      <member refid="class_explosion_pool_1aeb6db06d5139315b8aba150ff0d3d3a3" prot="private" virt="non-virtual"><scope>ExplosionPool</scope><name>ExpandPool</name></member>
+      <member refid="class_explosion_pool_1ab8843032ea804e090a849d6884220150" prot="private" virt="non-virtual"><scope>ExplosionPool</scope><name>explosionPool</name></member>
+      <member refid="class_explosion_pool_1a8365da1f6c750532498e97b0a201b470" prot="private" virt="non-virtual"><scope>ExplosionPool</scope><name>explosionPrefab</name></member>
+      <member refid="class_explosion_pool_1a2976b266f5819aa564f363a84e1e9d1e" prot="public" virt="non-virtual"><scope>ExplosionPool</scope><name>GetExplosion</name></member>
+      <member refid="class_explosion_pool_1a658a92aa1d7606b513f4662b89597b91" prot="private" virt="non-virtual"><scope>ExplosionPool</scope><name>InitializePool</name></member>
+      <member refid="class_explosion_pool_1aaf7bde0b95df453c59e0baaadb1dbfff" prot="private" virt="non-virtual"><scope>ExplosionPool</scope><name>initialPoolSize</name></member>
+      <member refid="class_explosion_pool_1a5150b43f3d733f5e855dcc19e247c69e" prot="public" virt="non-virtual"><scope>ExplosionPool</scope><name>Instance</name></member>
+      <member refid="class_explosion_pool_1a057ecb48a52f8d3ff3a88951e610f6a7" prot="public" virt="non-virtual"><scope>ExplosionPool</scope><name>ReinitializePool</name></member>
+      <member refid="class_explosion_pool_1a2804b03aeec4662afebc7177cb5f8365" prot="public" virt="non-virtual"><scope>ExplosionPool</scope><name>ReturnExplosion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

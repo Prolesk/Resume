@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_f7c77d7d637a52f1729577f6c715333e" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests</compoundname>
+    <innerfile refid="_blood_experiment_01_quest_8cs">BloodExperiment Quest.cs</innerfile>
+    <innerfile refid="_enemy_killer_quest_8cs">EnemyKillerQuest.cs</innerfile>
+    <innerfile refid="_gather_gas_quest_8cs">GatherGasQuest.cs</innerfile>
+    <innerfile refid="_magic_blizzard_quest_8cs">MagicBlizzardQuest.cs</innerfile>
+    <innerfile refid="_quest_data_8cs">QuestData.cs</innerfile>
+    <innerfile refid="_quest_giver_8cs">QuestGiver.cs</innerfile>
+    <innerfile refid="_quest_manager_8cs">QuestManager.cs</innerfile>
+    <innerfile refid="_quest_notification_8cs">QuestNotification.cs</innerfile>
+    <innerfile refid="_quest_panel_8cs">QuestPanel.cs</innerfile>
+    <innerfile refid="_quest_s_o_8cs">QuestSO.cs</innerfile>
+    <innerfile refid="_test_quest_picker_8cs">TestQuestPicker.cs</innerfile>
+    <innerfile refid="_transition_quest_start_panel_8cs">TransitionQuestStartPanel.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/"/>
+  </compounddef>
+</doxygen>

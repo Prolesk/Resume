@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_d2770eeb9b200b4793128ccd0fabee04" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners</compoundname>
+    <innerfile refid="_enemy_spawner_8cs">EnemySpawner.cs</innerfile>
+    <innerfile refid="_enemy_spawn_manager_8cs">EnemySpawnManager.cs</innerfile>
+    <innerfile refid="_tile_points_trigger_8cs">TilePointsTrigger.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/"/>
+  </compounddef>
+</doxygen>

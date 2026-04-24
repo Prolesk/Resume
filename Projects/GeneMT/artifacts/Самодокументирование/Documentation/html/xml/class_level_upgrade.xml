@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_level_upgrade" kind="class" language="C#" prot="public">
+    <compoundname>LevelUpgrade</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_level_upgrade_1ab20c43bfd995c5e4518cde3d8f9454a7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LevelUpgrade.level</definition>
+        <argsstring></argsstring>
+        <name>level</name>
+        <qualifiedname>LevelUpgrade.level</qualifiedname>
+        <briefdescription>
+<para>The level field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="71" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_level_upgrade_1a6c43c222c94532f44e38a5ea9ce669be" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LevelUpgrade.areaBonus</definition>
+        <argsstring></argsstring>
+        <name>areaBonus</name>
+        <qualifiedname>LevelUpgrade.areaBonus</qualifiedname>
+        <briefdescription>
+<para>The areaBonus field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="75" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_level_upgrade_1a34fcadc9f088ea18ab41c07367f831ed" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LevelUpgrade.damageBonus</definition>
+        <argsstring></argsstring>
+        <name>damageBonus</name>
+        <qualifiedname>LevelUpgrade.damageBonus</qualifiedname>
+        <briefdescription>
+<para>The damageBonus field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="79" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_level_upgrade_1a1fc5bdc598a539c56e0a0ee70ea40012" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LevelUpgrade.cooldownReduction</definition>
+        <argsstring></argsstring>
+        <name>cooldownReduction</name>
+        <qualifiedname>LevelUpgrade.cooldownReduction</qualifiedname>
+        <briefdescription>
+<para>The cooldownReduction field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="83" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_level_upgrade_1a7275f6dc47c37562f47cb39bea6e3017" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LevelUpgrade.lifetimeBonus</definition>
+        <argsstring></argsstring>
+        <name>lifetimeBonus</name>
+        <qualifiedname>LevelUpgrade.lifetimeBonus</qualifiedname>
+        <briefdescription>
+<para>The lifetimeBonus field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="87" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_level_upgrade_1af0642bb200164edf7f9b77e3c71c35ff" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LevelUpgrade.speedBonus</definition>
+        <argsstring></argsstring>
+        <name>speedBonus</name>
+        <qualifiedname>LevelUpgrade.speedBonus</qualifiedname>
+        <briefdescription>
+<para>The speedBonus field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="91" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_level_upgrade_1ae8abc247c52ce91dca209a379966e23b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string LevelUpgrade.upgradeDescription</definition>
+        <argsstring></argsstring>
+        <name>upgradeDescription</name>
+        <qualifiedname>LevelUpgrade.upgradeDescription</qualifiedname>
+        <briefdescription>
+<para>The upgradeDescription field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="95" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_level_upgrade" kindref="compound">LevelUpgrade</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="66" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="67" bodyend="96"/>
+    <listofallmembers>
+      <member refid="class_level_upgrade_1a6c43c222c94532f44e38a5ea9ce669be" prot="public" virt="non-virtual"><scope>LevelUpgrade</scope><name>areaBonus</name></member>
+      <member refid="class_level_upgrade_1a1fc5bdc598a539c56e0a0ee70ea40012" prot="public" virt="non-virtual"><scope>LevelUpgrade</scope><name>cooldownReduction</name></member>
+      <member refid="class_level_upgrade_1a34fcadc9f088ea18ab41c07367f831ed" prot="public" virt="non-virtual"><scope>LevelUpgrade</scope><name>damageBonus</name></member>
+      <member refid="class_level_upgrade_1ab20c43bfd995c5e4518cde3d8f9454a7" prot="public" virt="non-virtual"><scope>LevelUpgrade</scope><name>level</name></member>
+      <member refid="class_level_upgrade_1a7275f6dc47c37562f47cb39bea6e3017" prot="public" virt="non-virtual"><scope>LevelUpgrade</scope><name>lifetimeBonus</name></member>
+      <member refid="class_level_upgrade_1af0642bb200164edf7f9b77e3c71c35ff" prot="public" virt="non-virtual"><scope>LevelUpgrade</scope><name>speedBonus</name></member>
+      <member refid="class_level_upgrade_1ae8abc247c52ce91dca209a379966e23b" prot="public" virt="non-virtual"><scope>LevelUpgrade</scope><name>upgradeDescription</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

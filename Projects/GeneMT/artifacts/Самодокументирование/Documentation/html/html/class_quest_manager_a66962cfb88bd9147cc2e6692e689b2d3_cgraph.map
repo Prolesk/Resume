@@ -1,0 +1,7 @@
+<map id="QuestManager.BlizzardShieldProgressForOne" name="QuestManager.BlizzardShieldProgressForOne">
+<area shape="rect" id="Node000001" title="Executes the BlizzardShieldProgressForOne operation." alt="" coords="5,5,199,48"/>
+<area shape="rect" id="Node000002" href="$class_quest_manager.html#afe709fc19f3a1bbc4e85576820aea006" title="Event handler for OnQuestProgressUpdated." alt="" coords="247,5,461,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,24,234,26,228,27,199,29"/>
+<area shape="rect" id="Node000003" href="$class_quest_notification.html#aa2157b58d47f20f3b70bf71782687a5f" title="Shows UI element." alt="" coords="509,5,703,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="461,24,496,27,491,27,461,29"/>
+</map>

@@ -1,0 +1,506 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_enemy_h_p" kind="class" language="C#" prot="public">
+    <compoundname>EnemyHP</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_enemy_h_p_1af205caf61ffc59f39d88624cf4e0313b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyHP._maxHP</definition>
+        <argsstring></argsstring>
+        <name>_maxHP</name>
+        <qualifiedname>EnemyHP._maxHP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="11" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_h_p_1a4e68839ccd4ac92de768bbc97a454a9b" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject EnemyHP._expPrefab</definition>
+        <argsstring></argsstring>
+        <name>_expPrefab</name>
+        <qualifiedname>EnemyHP._expPrefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="12" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_h_p_1a2a1ece5f70f7cfde721b92ee24f1a701" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject EnemyHP._healSpherePrefab</definition>
+        <argsstring></argsstring>
+        <name>_healSpherePrefab</name>
+        <qualifiedname>EnemyHP._healSpherePrefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="13" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_h_p_1abb167be1b79cb2fc551909274b40f21c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyHP._expDropPercent</definition>
+        <argsstring></argsstring>
+        <name>_expDropPercent</name>
+        <qualifiedname>EnemyHP._expDropPercent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="14" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_h_p_1a966c65f32efbd1b3e8ba9e0fb32a3524" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyHP._expAutodropAmount</definition>
+        <argsstring></argsstring>
+        <name>_expAutodropAmount</name>
+        <qualifiedname>EnemyHP._expAutodropAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="15" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_h_p_1a804fb365107c60bab02778c04d8754c3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_player_e_x_p" kindref="compound">PlayerEXP</ref></type>
+        <definition>PlayerEXP EnemyHP._playerEXP</definition>
+        <argsstring></argsstring>
+        <name>_playerEXP</name>
+        <qualifiedname>EnemyHP._playerEXP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="23" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_h_p_1a3221503e8b7c531efec0edb46d0d5b50" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyHP._currentHP</definition>
+        <argsstring></argsstring>
+        <name>_currentHP</name>
+        <qualifiedname>EnemyHP._currentHP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="24" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_h_p_1a687c652fef3b954c5629c95aad07f855" prot="private" static="no" mutable="no">
+        <type><ref refid="class_enemy_hit_effect" kindref="compound">EnemyHitEffect</ref></type>
+        <definition>EnemyHitEffect EnemyHP.hitEffect</definition>
+        <argsstring></argsstring>
+        <name>hitEffect</name>
+        <qualifiedname>EnemyHP.hitEffect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="25" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_h_p_1a53182c47ac4fd9d4ffd5be7b4ba27726" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject EnemyHP._deathParticlePrefab</definition>
+        <argsstring></argsstring>
+        <name>_deathParticlePrefab</name>
+        <qualifiedname>EnemyHP._deathParticlePrefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="33" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_h_p_1a277e78b17a854dac93eab706bcedfbe3" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 EnemyHP._particleOffset</definition>
+        <argsstring></argsstring>
+        <name>_particleOffset</name>
+        <qualifiedname>EnemyHP._particleOffset</qualifiedname>
+        <initializer>= new Vector3(0, 0.2f, 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="36" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_h_p_1a4a3de504a36ecdb4bef6b98d3c99bd1c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyHP._particleLifetime</definition>
+        <argsstring></argsstring>
+        <name>_particleLifetime</name>
+        <qualifiedname>EnemyHP._particleLifetime</qualifiedname>
+        <initializer>= 2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="39" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_enemy_h_p_1a47cc43634cf1d1c270c6128225ba7a24" prot="public" static="no" mutable="no">
+        <type>EnemyConfig</type>
+        <definition>EnemyConfig EnemyHP._initializedStats</definition>
+        <argsstring></argsstring>
+        <name>_initializedStats</name>
+        <qualifiedname>EnemyHP._initializedStats</qualifiedname>
+        <briefdescription>
+<para>The _initializedStats field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="20" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_h_p_1a3abd477b483cce747f14c24cebfe5836" prot="public" static="no" mutable="no">
+        <type><ref refid="class_enemy_pool" kindref="compound">EnemyPool</ref></type>
+        <definition>EnemyPool EnemyHP._pool</definition>
+        <argsstring></argsstring>
+        <name>_pool</name>
+        <qualifiedname>EnemyHP._pool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="21" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_h_p_1afa6b0d90f9c88013b47b355f506d413c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EnemyHP.EnemyType</definition>
+        <argsstring></argsstring>
+        <name>EnemyType</name>
+        <qualifiedname>EnemyHP.EnemyType</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>The EnemyType field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="30" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="class_enemy_h_p_1aeedad5ced815d0ea606cbe23db1125b4" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action</type>
+        <definition>Action EnemyHP.EnemyHPCnanged</definition>
+        <argsstring></argsstring>
+        <name>EnemyHPCnanged</name>
+        <qualifiedname>EnemyHP.EnemyHPCnanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="41" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_enemy_h_p_1a3c7005adca2b891882b96be88b12ee8e" compoundref="_enemy_h_p_8cs" startline="95" endline="105">Damage</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_enemy_h_p_1a9813ee15b4dec95aec651fd082f00086" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyHP.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>EnemyHP.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="43" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="43" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_h_p_1add0e32cc7653d8b78d10bd8337605d72" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyHP.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>EnemyHP.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="55" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="55" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_h_p_1ae3e0f8fa0fd7e8982f348fc8f52dc129" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyHP.InitializeStats</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeStats</name>
+        <qualifiedname>EnemyHP.InitializeStats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="64" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="64" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_h_p_1a0e7b571cb9ba00f1a6518180fc495ce2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyHP.Death</definition>
+        <argsstring>()</argsstring>
+        <name>Death</name>
+        <qualifiedname>EnemyHP.Death</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="116" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="116" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_h_p_1aa3f9760af6fd456bb771f468f4336496" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyHP.SpawnDeathParticle</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnDeathParticle</name>
+        <qualifiedname>EnemyHP.SpawnDeathParticle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="143" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="143" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_h_p_1a0595dce88beef2c0195537793f5b48b2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator EnemyHP.SpawnDeathParticleWithCoroutine</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnDeathParticleWithCoroutine</name>
+        <qualifiedname>EnemyHP.SpawnDeathParticleWithCoroutine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="176" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="176" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_h_p_1a473e765538d82b157503ecfa8f9d624f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyHP.ExpOnDeath</definition>
+        <argsstring>()</argsstring>
+        <name>ExpOnDeath</name>
+        <qualifiedname>EnemyHP.ExpOnDeath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="197" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="197" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_h_p_1a4240eeb1568f5a695fc2045a9bc1885a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>GameObject EnemyHP.getExpPrefab</definition>
+        <argsstring>()</argsstring>
+        <name>getExpPrefab</name>
+        <qualifiedname>EnemyHP.getExpPrefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="207" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="207" bodyend="242"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_enemy_h_p_1af9ecd20b63f91c63507fc59f84151933" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float EnemyHP.GetHP</definition>
+        <argsstring>()</argsstring>
+        <name>GetHP</name>
+        <qualifiedname>EnemyHP.GetHP</qualifiedname>
+        <briefdescription>
+<para>Gets the HP. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The result as float.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="77" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_h_p_1a8896fcba0bdb962ebe576ab04debf04c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float EnemyHP.GetMaxHP</definition>
+        <argsstring>()</argsstring>
+        <name>GetMaxHP</name>
+        <qualifiedname>EnemyHP.GetMaxHP</qualifiedname>
+        <briefdescription>
+<para>Gets the MaxHP. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The result as float.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="86" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_h_p_1a3c7005adca2b891882b96be88b12ee8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyHP.Damage</definition>
+        <argsstring>(float damageAmount)</argsstring>
+        <name>Damage</name>
+        <qualifiedname>EnemyHP.Damage</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>damageAmount</declname>
+        </param>
+        <briefdescription>
+<para>Applies damage. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>damageAmount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The damageAmount.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="95" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="95" bodyend="105"/>
+        <references refid="class_enemy_h_p_1aeedad5ced815d0ea606cbe23db1125b4" compoundref="_enemy_h_p_8cs" startline="41">EnemyHPCnanged</references>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_h_p_1a2863b4cf1c4e70cf56cfc363f20bdb07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyHP.Heal</definition>
+        <argsstring>(float healAmount)</argsstring>
+        <name>Heal</name>
+        <qualifiedname>EnemyHP.Heal</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>healAmount</declname>
+        </param>
+        <briefdescription>
+<para>Applies healing. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>healAmount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The healAmount.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="111" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="111" bodyend="114"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_enemy_h_p" kindref="compound">EnemyHP</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EnemyHP</label>
+        <link refid="class_enemy_h_p"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EnemyHP</label>
+        <link refid="class_enemy_h_p"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_pool</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>EnemyPool</label>
+        <link refid="class_enemy_pool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHP.cs" bodystart="10" bodyend="243"/>
+    <listofallmembers>
+      <member refid="class_enemy_h_p_1a3221503e8b7c531efec0edb46d0d5b50" prot="private" virt="non-virtual"><scope>EnemyHP</scope><name>_currentHP</name></member>
+      <member refid="class_enemy_h_p_1a53182c47ac4fd9d4ffd5be7b4ba27726" prot="private" virt="non-virtual"><scope>EnemyHP</scope><name>_deathParticlePrefab</name></member>
+      <member refid="class_enemy_h_p_1a966c65f32efbd1b3e8ba9e0fb32a3524" prot="private" virt="non-virtual"><scope>EnemyHP</scope><name>_expAutodropAmount</name></member>
+      <member refid="class_enemy_h_p_1abb167be1b79cb2fc551909274b40f21c" prot="private" virt="non-virtual"><scope>EnemyHP</scope><name>_expDropPercent</name></member>
+      <member refid="class_enemy_h_p_1a4e68839ccd4ac92de768bbc97a454a9b" prot="private" virt="non-virtual"><scope>EnemyHP</scope><name>_expPrefab</name></member>
+      <member refid="class_enemy_h_p_1a2a1ece5f70f7cfde721b92ee24f1a701" prot="private" virt="non-virtual"><scope>EnemyHP</scope><name>_healSpherePrefab</name></member>
+      <member refid="class_enemy_h_p_1a47cc43634cf1d1c270c6128225ba7a24" prot="public" virt="non-virtual"><scope>EnemyHP</scope><name>_initializedStats</name></member>
+      <member refid="class_enemy_h_p_1af205caf61ffc59f39d88624cf4e0313b" prot="private" virt="non-virtual"><scope>EnemyHP</scope><name>_maxHP</name></member>
+      <member refid="class_enemy_h_p_1a4a3de504a36ecdb4bef6b98d3c99bd1c" prot="private" virt="non-virtual"><scope>EnemyHP</scope><name>_particleLifetime</name></member>
+      <member refid="class_enemy_h_p_1a277e78b17a854dac93eab706bcedfbe3" prot="private" virt="non-virtual"><scope>EnemyHP</scope><name>_particleOffset</name></member>
+      <member refid="class_enemy_h_p_1a804fb365107c60bab02778c04d8754c3" prot="private" virt="non-virtual"><scope>EnemyHP</scope><name>_playerEXP</name></member>
+      <member refid="class_enemy_h_p_1a3abd477b483cce747f14c24cebfe5836" prot="public" virt="non-virtual"><scope>EnemyHP</scope><name>_pool</name></member>
+      <member refid="class_enemy_h_p_1a3c7005adca2b891882b96be88b12ee8e" prot="public" virt="non-virtual"><scope>EnemyHP</scope><name>Damage</name></member>
+      <member refid="class_enemy_h_p_1a0e7b571cb9ba00f1a6518180fc495ce2" prot="private" virt="non-virtual"><scope>EnemyHP</scope><name>Death</name></member>
+      <member refid="class_enemy_h_p_1aeedad5ced815d0ea606cbe23db1125b4" prot="public" virt="non-virtual"><scope>EnemyHP</scope><name>EnemyHPCnanged</name></member>
+      <member refid="class_enemy_h_p_1afa6b0d90f9c88013b47b355f506d413c" prot="public" virt="non-virtual"><scope>EnemyHP</scope><name>EnemyType</name></member>
+      <member refid="class_enemy_h_p_1a473e765538d82b157503ecfa8f9d624f" prot="private" virt="non-virtual"><scope>EnemyHP</scope><name>ExpOnDeath</name></member>
+      <member refid="class_enemy_h_p_1a4240eeb1568f5a695fc2045a9bc1885a" prot="private" virt="non-virtual"><scope>EnemyHP</scope><name>getExpPrefab</name></member>
+      <member refid="class_enemy_h_p_1af9ecd20b63f91c63507fc59f84151933" prot="public" virt="non-virtual"><scope>EnemyHP</scope><name>GetHP</name></member>
+      <member refid="class_enemy_h_p_1a8896fcba0bdb962ebe576ab04debf04c" prot="public" virt="non-virtual"><scope>EnemyHP</scope><name>GetMaxHP</name></member>
+      <member refid="class_enemy_h_p_1a2863b4cf1c4e70cf56cfc363f20bdb07" prot="public" virt="non-virtual"><scope>EnemyHP</scope><name>Heal</name></member>
+      <member refid="class_enemy_h_p_1a687c652fef3b954c5629c95aad07f855" prot="private" virt="non-virtual"><scope>EnemyHP</scope><name>hitEffect</name></member>
+      <member refid="class_enemy_h_p_1ae3e0f8fa0fd7e8982f348fc8f52dc129" prot="private" virt="non-virtual"><scope>EnemyHP</scope><name>InitializeStats</name></member>
+      <member refid="class_enemy_h_p_1add0e32cc7653d8b78d10bd8337605d72" prot="private" virt="non-virtual"><scope>EnemyHP</scope><name>OnEnable</name></member>
+      <member refid="class_enemy_h_p_1aa3f9760af6fd456bb771f468f4336496" prot="private" virt="non-virtual"><scope>EnemyHP</scope><name>SpawnDeathParticle</name></member>
+      <member refid="class_enemy_h_p_1a0595dce88beef2c0195537793f5b48b2" prot="private" virt="non-virtual"><scope>EnemyHP</scope><name>SpawnDeathParticleWithCoroutine</name></member>
+      <member refid="class_enemy_h_p_1a9813ee15b4dec95aec651fd082f00086" prot="private" virt="non-virtual"><scope>EnemyHP</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

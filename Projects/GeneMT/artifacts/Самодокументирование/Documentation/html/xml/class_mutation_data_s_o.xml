@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_mutation_data_s_o" kind="class" language="C#" prot="public">
+    <compoundname>MutationDataSO</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+    <derivedcompoundref refid="class_mutation_area_s_o" prot="public" virt="non-virtual">MutationAreaSO</derivedcompoundref>
+    <derivedcompoundref refid="class_mutation_cooldown_reduction_s_o" prot="public" virt="non-virtual">MutationCooldownReductionSO</derivedcompoundref>
+    <derivedcompoundref refid="class_mutation_damage_s_o" prot="public" virt="non-virtual">MutationDamageSO</derivedcompoundref>
+    <derivedcompoundref refid="class_mutation_max_h_p_s_o" prot="public" virt="non-virtual">MutationMaxHPSO</derivedcompoundref>
+    <derivedcompoundref refid="class_mutation_move_speed_s_o" prot="public" virt="non-virtual">MutationMoveSpeedSO</derivedcompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_mutation_data_s_o_1a94ec1c79e930ead2138d42c3683b180e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MutationDataSO.mutationTitle</definition>
+        <argsstring></argsstring>
+        <name>mutationTitle</name>
+        <qualifiedname>MutationDataSO.mutationTitle</qualifiedname>
+        <briefdescription>
+<para>The mutationTitle field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationDataSO.cs" line="12" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationDataSO.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mutation_data_s_o_1abd4ba3b2c50fa816535a48f90ae24dfd" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MutationDataSO.description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <qualifiedname>MutationDataSO.description</qualifiedname>
+        <briefdescription>
+<para>The description field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationDataSO.cs" line="16" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationDataSO.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mutation_data_s_o_1a3d41802dc5665d33c28973c7caf2f790" prot="public" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite MutationDataSO.icon</definition>
+        <argsstring></argsstring>
+        <name>icon</name>
+        <qualifiedname>MutationDataSO.icon</qualifiedname>
+        <briefdescription>
+<para>The icon field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationDataSO.cs" line="20" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationDataSO.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mutation_data_s_o_1a627369d0a9c80233e893f4f11e9c833d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_chest" kindref="compound">Chest</ref></type>
+        <definition>Chest MutationDataSO.chest</definition>
+        <argsstring></argsstring>
+        <name>chest</name>
+        <qualifiedname>MutationDataSO.chest</qualifiedname>
+        <briefdescription>
+<para>The chest field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationDataSO.cs" line="25" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationDataSO.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mutation_data_s_o_1acd446f366abcc75aab4ed9a40d73340e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MutationDataSO.bonus</definition>
+        <argsstring></argsstring>
+        <name>bonus</name>
+        <qualifiedname>MutationDataSO.bonus</qualifiedname>
+        <briefdescription>
+<para>The bonus field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationDataSO.cs" line="31" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationDataSO.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_mutation_area_s_o_1ae7dfa956d57c992268d98254f0770d98" compoundref="_mutation_area_s_o_8cs" startline="13" endline="16">MutationAreaSO.OnDelete</referencedby>
+        <referencedby refid="class_mutation_cooldown_reduction_s_o_1a3eb84dadaeab157642a958b7949b97e8" compoundref="_mutation_cooldown_reduction_s_o_8cs" startline="13" endline="16">MutationCooldownReductionSO.OnDelete</referencedby>
+        <referencedby refid="class_mutation_damage_s_o_1ac9f84a9af892f0786f42b8fa02eeaae3" compoundref="_mutation_damage_s_o_8cs" startline="13" endline="16">MutationDamageSO.OnDelete</referencedby>
+        <referencedby refid="class_mutation_max_h_p_s_o_1a8361ec01c1769838913fb80906758abb" compoundref="_mutation_max_h_p_s_o_8cs" startline="13" endline="16">MutationMaxHPSO.OnDelete</referencedby>
+        <referencedby refid="class_mutation_move_speed_s_o_1a8626d0b441b0ff8d05c10a43b03485b3" compoundref="_mutation_move_speed_s_o_8cs" startline="13" endline="16">MutationMoveSpeedSO.OnDelete</referencedby>
+        <referencedby refid="class_mutation_area_s_o_1a7a83b7b05090fa1015e542b29379e4d8" compoundref="_mutation_area_s_o_8cs" startline="8" endline="11">MutationAreaSO.OnPick</referencedby>
+        <referencedby refid="class_mutation_cooldown_reduction_s_o_1ac666bbfb135cb55eb627ea49f78a80a0" compoundref="_mutation_cooldown_reduction_s_o_8cs" startline="8" endline="11">MutationCooldownReductionSO.OnPick</referencedby>
+        <referencedby refid="class_mutation_damage_s_o_1aee65c37c9c85bee4e6c14ea7d30ce393" compoundref="_mutation_damage_s_o_8cs" startline="8" endline="11">MutationDamageSO.OnPick</referencedby>
+        <referencedby refid="class_mutation_max_h_p_s_o_1a7eb6982026f1256c22a8e45d9b7a3faa" compoundref="_mutation_max_h_p_s_o_8cs" startline="8" endline="11">MutationMaxHPSO.OnPick</referencedby>
+        <referencedby refid="class_mutation_move_speed_s_o_1a4d11c3250f7bb62ba3d1de7c2f6c5ae2" compoundref="_mutation_move_speed_s_o_8cs" startline="8" endline="11">MutationMoveSpeedSO.OnPick</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mutation_data_s_o_1ade37829d7f933b23f27b487edcd3c8e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MutationDataSO.OnPick</definition>
+        <argsstring>()</argsstring>
+        <name>OnPick</name>
+        <qualifiedname>MutationDataSO.OnPick</qualifiedname>
+        <reimplementedby refid="class_mutation_area_s_o_1a7a83b7b05090fa1015e542b29379e4d8">OnPick</reimplementedby>
+        <reimplementedby refid="class_mutation_cooldown_reduction_s_o_1ac666bbfb135cb55eb627ea49f78a80a0">OnPick</reimplementedby>
+        <reimplementedby refid="class_mutation_damage_s_o_1aee65c37c9c85bee4e6c14ea7d30ce393">OnPick</reimplementedby>
+        <reimplementedby refid="class_mutation_max_h_p_s_o_1a7eb6982026f1256c22a8e45d9b7a3faa">OnPick</reimplementedby>
+        <reimplementedby refid="class_mutation_move_speed_s_o_1a4d11c3250f7bb62ba3d1de7c2f6c5ae2">OnPick</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationDataSO.cs" line="35" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationDataSO.cs" bodystart="35" bodyend="38"/>
+        <referencedby refid="class_mutation_controller_s_o_1aa98533af81003681b380f2676f6a4233" compoundref="_mutation_controller_s_o_8cs" startline="90" endline="107">MutationControllerSO.AddMutation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mutation_data_s_o_1a1e6305815c09d41fc3ca4001f4c378c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MutationDataSO.OnDelete</definition>
+        <argsstring>()</argsstring>
+        <name>OnDelete</name>
+        <qualifiedname>MutationDataSO.OnDelete</qualifiedname>
+        <reimplementedby refid="class_mutation_area_s_o_1ae7dfa956d57c992268d98254f0770d98">OnDelete</reimplementedby>
+        <reimplementedby refid="class_mutation_cooldown_reduction_s_o_1a3eb84dadaeab157642a958b7949b97e8">OnDelete</reimplementedby>
+        <reimplementedby refid="class_mutation_damage_s_o_1ac9f84a9af892f0786f42b8fa02eeaae3">OnDelete</reimplementedby>
+        <reimplementedby refid="class_mutation_max_h_p_s_o_1a8361ec01c1769838913fb80906758abb">OnDelete</reimplementedby>
+        <reimplementedby refid="class_mutation_move_speed_s_o_1a8626d0b441b0ff8d05c10a43b03485b3">OnDelete</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationDataSO.cs" line="40" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationDataSO.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_mutation_data_s_o" kindref="compound">MutationDataSO</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MutationAreaSO</label>
+        <link refid="class_mutation_area_s_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MutationCooldownReductionSO</label>
+        <link refid="class_mutation_cooldown_reduction_s_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MutationDamageSO</label>
+        <link refid="class_mutation_damage_s_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MutationDataSO</label>
+        <link refid="class_mutation_data_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MutationMaxHPSO</label>
+        <link refid="class_mutation_max_h_p_s_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MutationMoveSpeedSO</label>
+        <link refid="class_mutation_move_speed_s_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Chest</label>
+        <link refid="class_chest"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>EInteractable</label>
+        <link refid="class_e_interactable"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>MutationDataSO</label>
+        <link refid="class_mutation_data_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>chest</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationDataSO.cs" line="6" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationDataSO.cs" bodystart="7" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_mutation_data_s_o_1acd446f366abcc75aab4ed9a40d73340e" prot="public" virt="non-virtual"><scope>MutationDataSO</scope><name>bonus</name></member>
+      <member refid="class_mutation_data_s_o_1a627369d0a9c80233e893f4f11e9c833d" prot="public" virt="non-virtual"><scope>MutationDataSO</scope><name>chest</name></member>
+      <member refid="class_mutation_data_s_o_1abd4ba3b2c50fa816535a48f90ae24dfd" prot="public" virt="non-virtual"><scope>MutationDataSO</scope><name>description</name></member>
+      <member refid="class_mutation_data_s_o_1a3d41802dc5665d33c28973c7caf2f790" prot="public" virt="non-virtual"><scope>MutationDataSO</scope><name>icon</name></member>
+      <member refid="class_mutation_data_s_o_1a94ec1c79e930ead2138d42c3683b180e" prot="public" virt="non-virtual"><scope>MutationDataSO</scope><name>mutationTitle</name></member>
+      <member refid="class_mutation_data_s_o_1a1e6305815c09d41fc3ca4001f4c378c0" prot="public" virt="virtual"><scope>MutationDataSO</scope><name>OnDelete</name></member>
+      <member refid="class_mutation_data_s_o_1ade37829d7f933b23f27b487edcd3c8e0" prot="public" virt="virtual"><scope>MutationDataSO</scope><name>OnPick</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

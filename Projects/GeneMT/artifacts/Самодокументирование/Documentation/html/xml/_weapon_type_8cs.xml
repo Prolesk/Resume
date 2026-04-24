@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="_weapon_type_8cs" kind="file" language="C#">
+    <compoundname>WeaponType.cs</compoundname>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="_weapon_type_8cs_1a095ae9be41c95cab0ceb95c6dae270b8" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>WeaponType</name>
+        <enumvalue id="_weapon_type_8cs_1a095ae9be41c95cab0ceb95c6dae270b8a7641e5f4e7e8517bd0477fd81e3de1b8" prot="public">
+          <name>Universal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_weapon_type_8cs_1a095ae9be41c95cab0ceb95c6dae270b8a02700e454d679f31f27c6f0768986dd1" prot="public">
+          <name>Magic</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_weapon_type_8cs_1a095ae9be41c95cab0ceb95c6dae270b8af7d1f12dbf5cdcf0dd2ecffca9230491" prot="public">
+          <name>Tecno</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponType.cs" line="1" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponType.cs" bodystart="2" bodyend="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="_weapon_type_8cs_1a095ae9be41c95cab0ceb95c6dae270b8" refkind="member"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_weapon_type_8cs_1a095ae9be41c95cab0ceb95c6dae270b8" kindref="member">WeaponType</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="3" refid="_weapon_type_8cs_1a095ae9be41c95cab0ceb95c6dae270b8a7641e5f4e7e8517bd0477fd81e3de1b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Universal,</highlight></codeline>
+<codeline lineno="4" refid="_weapon_type_8cs_1a095ae9be41c95cab0ceb95c6dae270b8a02700e454d679f31f27c6f0768986dd1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_weapon_type_8cs_1a095ae9be41c95cab0ceb95c6dae270b8a02700e454d679f31f27c6f0768986dd1" kindref="member">Magic</ref>,</highlight></codeline>
+<codeline lineno="5" refid="_weapon_type_8cs_1a095ae9be41c95cab0ceb95c6dae270b8af7d1f12dbf5cdcf0dd2ecffca9230491" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_weapon_type_8cs_1a095ae9be41c95cab0ceb95c6dae270b8af7d1f12dbf5cdcf0dd2ecffca9230491" kindref="member">Tecno</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponType.cs"/>
+  </compounddef>
+</doxygen>

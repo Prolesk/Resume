@@ -1,0 +1,1007 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_player_stats_s_o" kind="class" language="C#" prot="public">
+    <compoundname>PlayerStatsSO</compoundname>
+    <basecompoundref refid="class_singleton_scriptable_object-1-g" prot="public" virt="non-virtual">SingletonScriptableObject&lt; T &gt;</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_player_stats_s_o_1a6e64b88234cee433d2461e92ddc48748" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string PlayerStatsSO.playerName</definition>
+        <argsstring></argsstring>
+        <name>playerName</name>
+        <qualifiedname>PlayerStatsSO.playerName</qualifiedname>
+        <briefdescription>
+<para>The playerName field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="14" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_stats_s_o_1acced86dac3c8782f6089a9562702e100" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerStatsSO.DamageMultiplier</definition>
+        <argsstring></argsstring>
+        <name>DamageMultiplier</name>
+        <qualifiedname>PlayerStatsSO.DamageMultiplier</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>The DamageMultiplier field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="20" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1aafe1f504b017cd293aaef371fc175de5" compoundref="_player_stats_s_o_8cs" startline="142" endline="146">ChangeDamageMultiplier</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_stats_s_o_1a3b8cbe29c80e7a458a9029a1a5957efd" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerStatsSO.MagicDamageMultiplier</definition>
+        <argsstring></argsstring>
+        <name>MagicDamageMultiplier</name>
+        <qualifiedname>PlayerStatsSO.MagicDamageMultiplier</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>The MagicDamageMultiplier field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="24" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1a902ccf1806a27786a696a74974d01c77" compoundref="_player_stats_s_o_8cs" startline="152" endline="156">ChangeMagicDamageMultiplier</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_stats_s_o_1aa1b7031523b512cdccdceb8aa086ffdf" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerStatsSO.TechnoDamageMultiplier</definition>
+        <argsstring></argsstring>
+        <name>TechnoDamageMultiplier</name>
+        <qualifiedname>PlayerStatsSO.TechnoDamageMultiplier</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>The TechnoDamageMultiplier field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="28" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1a14579c02f3b0b03b938ee14e7dcd800c" compoundref="_player_stats_s_o_8cs" startline="162" endline="166">ChangeTechnoDamageMultiplier</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_stats_s_o_1a3aa503e5690bcc72500726e26467d064" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerStatsSO.CooldownReduction</definition>
+        <argsstring></argsstring>
+        <name>CooldownReduction</name>
+        <qualifiedname>PlayerStatsSO.CooldownReduction</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>The CooldownReduction field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="32" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1a45967e5e7be65e3d0db9d49b77ae2fb0" compoundref="_player_stats_s_o_8cs" startline="182" endline="186">ChangeCooldownReduction</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_stats_s_o_1a10877307c43349b478e13c1e014d1f68" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerStatsSO.AreaMultiplier</definition>
+        <argsstring></argsstring>
+        <name>AreaMultiplier</name>
+        <qualifiedname>PlayerStatsSO.AreaMultiplier</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>The AreaMultiplier field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="36" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1a13da5392fbe5209b6f39e03805037a6e" compoundref="_player_stats_s_o_8cs" startline="192" endline="196">ChangeAreaMultiplier</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_stats_s_o_1a6ede9097659d58e04c6f9913fd7b9295" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerStatsSO.MaxHP</definition>
+        <argsstring></argsstring>
+        <name>MaxHP</name>
+        <qualifiedname>PlayerStatsSO.MaxHP</qualifiedname>
+        <initializer>= 100</initializer>
+        <briefdescription>
+<para>The MaxHP field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="40" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1a47625ba25a3beef3ecfa4d74b357d368" compoundref="_player_stats_s_o_8cs" startline="172" endline="176">ChangeMaxHp</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_stats_s_o_1a48ceecadec371e7711c700c93b875bdb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerStatsSO.MoveSpeed</definition>
+        <argsstring></argsstring>
+        <name>MoveSpeed</name>
+        <qualifiedname>PlayerStatsSO.MoveSpeed</qualifiedname>
+        <initializer>= 10</initializer>
+        <briefdescription>
+<para>The MoveSpeed field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="45" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1adf63a74060c120115bd109a767544b06" compoundref="_player_stats_s_o_8cs" startline="272" endline="276">ChangeMoveSpeed</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_stats_s_o_1acd87aba976222fc15fd9415e721c91fb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerStatsSO.SpeedMultiplier</definition>
+        <argsstring></argsstring>
+        <name>SpeedMultiplier</name>
+        <qualifiedname>PlayerStatsSO.SpeedMultiplier</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>The SpeedMultiplier field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="49" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1aaf8c21dd25a67fba4b21f4f520fec3b0" compoundref="_player_stats_s_o_8cs" startline="202" endline="206">ChangeSpeedMultiplier</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_stats_s_o_1a37a58a940a5af8803bed3e37db32c622" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long PlayerStatsSO.Money</definition>
+        <argsstring></argsstring>
+        <name>Money</name>
+        <qualifiedname>PlayerStatsSO.Money</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>The Money field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="53" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1a833af90fc8136c78f905141e8536c272" compoundref="_player_stats_s_o_8cs" startline="212" endline="218">ChangeMoney</referencedby>
+        <referencedby refid="class_initialization_manager_1a8b8b28545af161dc53b60beccc5170d0" compoundref="_initialization_manager_8cs" startline="31" endline="55">InitializationManager.ResetPlayerStats</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_stats_s_o_1a75d54680f08fa5167893aa1ded999647" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long PlayerStatsSO.MaxMoney</definition>
+        <argsstring></argsstring>
+        <name>MaxMoney</name>
+        <qualifiedname>PlayerStatsSO.MaxMoney</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>The MaxMoney field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="57" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="57" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1a833af90fc8136c78f905141e8536c272" compoundref="_player_stats_s_o_8cs" startline="212" endline="218">ChangeMoney</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_stats_s_o_1ae918af590bc51a85a1169a3689fcaf93" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerStatsSO.Reputation</definition>
+        <argsstring></argsstring>
+        <name>Reputation</name>
+        <qualifiedname>PlayerStatsSO.Reputation</qualifiedname>
+        <initializer>= 50</initializer>
+        <briefdescription>
+<para>The Reputation field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="61" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="61" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1a59de8b450b1f320a1d2e99166445b2fa" compoundref="_player_stats_s_o_8cs" startline="224" endline="266">ChangeReputation</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_stats_s_o_1a540589bf06645fe19401c7c220d7dbb2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerStatsSO.maxEXP</definition>
+        <argsstring></argsstring>
+        <name>maxEXP</name>
+        <qualifiedname>PlayerStatsSO.maxEXP</qualifiedname>
+        <initializer>= 100</initializer>
+        <briefdescription>
+<para>The maxEXP field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="66" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="66" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1a580db9b5e520a3e7d1b2c1507104e2b0" compoundref="_player_stats_s_o_8cs" startline="115" endline="118">ExpandEXP</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_stats_s_o_1af26d38b1ce9c90bfb9b86c40c89f136b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerStatsSO.maxLevel</definition>
+        <argsstring></argsstring>
+        <name>maxLevel</name>
+        <qualifiedname>PlayerStatsSO.maxLevel</qualifiedname>
+        <initializer>= 30</initializer>
+        <briefdescription>
+<para>The maxLevel field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="70" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_stats_s_o_1a3169f5bb777bcb0d44a99be19e949c9f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerStatsSO.invincibility</definition>
+        <argsstring></argsstring>
+        <name>invincibility</name>
+        <qualifiedname>PlayerStatsSO.invincibility</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>The invincibility field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="75" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_stats_s_o_1a4e4595952a7db36893d5ae09a853c950" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerStatsSO.CurrentKills</definition>
+        <argsstring></argsstring>
+        <name>CurrentKills</name>
+        <qualifiedname>PlayerStatsSO.CurrentKills</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>The CurrentKills field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="80" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="80" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1a1a331911e12998d2da759646a7011745" compoundref="_player_stats_s_o_8cs" startline="282" endline="286">ChangeKills</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_stats_s_o_1abcddd062181963345ff86cd63beb23e6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerStatsSO._reputationTecnoEffect</definition>
+        <argsstring></argsstring>
+        <name>_reputationTecnoEffect</name>
+        <qualifiedname>PlayerStatsSO._reputationTecnoEffect</qualifiedname>
+        <briefdescription>
+<para>The _reputationTecnoEffect field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="85" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="85" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1a59de8b450b1f320a1d2e99166445b2fa" compoundref="_player_stats_s_o_8cs" startline="224" endline="266">ChangeReputation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_stats_s_o_1ad1549d7aadeaf2cf86f1c06ef66d47d9" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerStatsSO._reputationMagicEffect</definition>
+        <argsstring></argsstring>
+        <name>_reputationMagicEffect</name>
+        <qualifiedname>PlayerStatsSO._reputationMagicEffect</qualifiedname>
+        <briefdescription>
+<para>The _reputationMagicEffect field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="89" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="89" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1a59de8b450b1f320a1d2e99166445b2fa" compoundref="_player_stats_s_o_8cs" startline="224" endline="266">ChangeReputation</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="class_player_stats_s_o_1a053726778f809961526afb46a5a71dc5" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; float &gt;</type>
+        <definition>Action&lt;float&gt; PlayerStatsSO._damageMultiplierChanged</definition>
+        <argsstring></argsstring>
+        <name>_damageMultiplierChanged</name>
+        <qualifiedname>PlayerStatsSO._damageMultiplierChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="91" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="91" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1aafe1f504b017cd293aaef371fc175de5" compoundref="_player_stats_s_o_8cs" startline="142" endline="146">ChangeDamageMultiplier</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_player_stats_s_o_1aa7075194b3494b83e0ff5a2a2adc535f" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; float &gt;</type>
+        <definition>Action&lt;float&gt; PlayerStatsSO._magicDamageMultiplierChanged</definition>
+        <argsstring></argsstring>
+        <name>_magicDamageMultiplierChanged</name>
+        <qualifiedname>PlayerStatsSO._magicDamageMultiplierChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="92" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="92" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1a902ccf1806a27786a696a74974d01c77" compoundref="_player_stats_s_o_8cs" startline="152" endline="156">ChangeMagicDamageMultiplier</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_player_stats_s_o_1abe2a6daa605aade03ea172fcc06d4510" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; float &gt;</type>
+        <definition>Action&lt;float&gt; PlayerStatsSO._technoDamageMultiplierChanged</definition>
+        <argsstring></argsstring>
+        <name>_technoDamageMultiplierChanged</name>
+        <qualifiedname>PlayerStatsSO._technoDamageMultiplierChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="93" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="93" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1a14579c02f3b0b03b938ee14e7dcd800c" compoundref="_player_stats_s_o_8cs" startline="162" endline="166">ChangeTechnoDamageMultiplier</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_player_stats_s_o_1a99ab13b4ba4bdc677b6a2cce81f30c5f" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; float &gt;</type>
+        <definition>Action&lt;float&gt; PlayerStatsSO._cooldownReductionChanged</definition>
+        <argsstring></argsstring>
+        <name>_cooldownReductionChanged</name>
+        <qualifiedname>PlayerStatsSO._cooldownReductionChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="94" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="94" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1a45967e5e7be65e3d0db9d49b77ae2fb0" compoundref="_player_stats_s_o_8cs" startline="182" endline="186">ChangeCooldownReduction</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_player_stats_s_o_1a8d2a4e89ee753db5817a3b720260e387" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; float &gt;</type>
+        <definition>Action&lt;float&gt; PlayerStatsSO._areaMultiplierChanged</definition>
+        <argsstring></argsstring>
+        <name>_areaMultiplierChanged</name>
+        <qualifiedname>PlayerStatsSO._areaMultiplierChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="95" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="95" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1a13da5392fbe5209b6f39e03805037a6e" compoundref="_player_stats_s_o_8cs" startline="192" endline="196">ChangeAreaMultiplier</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_player_stats_s_o_1a6f5737e29f9c1f23e69feebff43ac5c4" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; float &gt;</type>
+        <definition>Action&lt;float&gt; PlayerStatsSO._speedMultiplierChanged</definition>
+        <argsstring></argsstring>
+        <name>_speedMultiplierChanged</name>
+        <qualifiedname>PlayerStatsSO._speedMultiplierChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="96" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="96" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1aaf8c21dd25a67fba4b21f4f520fec3b0" compoundref="_player_stats_s_o_8cs" startline="202" endline="206">ChangeSpeedMultiplier</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_player_stats_s_o_1a4fcbd363517f633bdb602180a7e17ca7" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; float &gt;</type>
+        <definition>Action&lt;float&gt; PlayerStatsSO._moneyChanged</definition>
+        <argsstring></argsstring>
+        <name>_moneyChanged</name>
+        <qualifiedname>PlayerStatsSO._moneyChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="97" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="97" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1a833af90fc8136c78f905141e8536c272" compoundref="_player_stats_s_o_8cs" startline="212" endline="218">ChangeMoney</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_player_stats_s_o_1af6326c86130273024899bb37410c640f" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; float &gt;</type>
+        <definition>Action&lt;float&gt; PlayerStatsSO._reputationChanged</definition>
+        <argsstring></argsstring>
+        <name>_reputationChanged</name>
+        <qualifiedname>PlayerStatsSO._reputationChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="98" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="98" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1a59de8b450b1f320a1d2e99166445b2fa" compoundref="_player_stats_s_o_8cs" startline="224" endline="266">ChangeReputation</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_player_stats_s_o_1a3f59ea29fca9651ead314e917db91c86" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; float &gt;</type>
+        <definition>Action&lt;float&gt; PlayerStatsSO._moveSpeedChanged</definition>
+        <argsstring></argsstring>
+        <name>_moveSpeedChanged</name>
+        <qualifiedname>PlayerStatsSO._moveSpeedChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="99" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="99" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1adf63a74060c120115bd109a767544b06" compoundref="_player_stats_s_o_8cs" startline="272" endline="276">ChangeMoveSpeed</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_player_stats_s_o_1a46f0eb3c82e76d603f37c6e3e8870b5b" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; float &gt;</type>
+        <definition>Action&lt;float&gt; PlayerStatsSO._maxHpChanged</definition>
+        <argsstring></argsstring>
+        <name>_maxHpChanged</name>
+        <qualifiedname>PlayerStatsSO._maxHpChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="100" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="100" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1a47625ba25a3beef3ecfa4d74b357d368" compoundref="_player_stats_s_o_8cs" startline="172" endline="176">ChangeMaxHp</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_player_stats_s_o_1a769d48e5f607e5f7ec05898dd7da2c41" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; float &gt;</type>
+        <definition>Action&lt;float&gt; PlayerStatsSO._killsChanged</definition>
+        <argsstring></argsstring>
+        <name>_killsChanged</name>
+        <qualifiedname>PlayerStatsSO._killsChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="101" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="101" bodyend="-1"/>
+        <referencedby refid="class_player_stats_s_o_1a1a331911e12998d2da759646a7011745" compoundref="_player_stats_s_o_8cs" startline="282" endline="286">ChangeKills</referencedby>
+        <referencedby refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">UpdateAllPlayerStats</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_stats_s_o_1a31a2083a49b1d234aabe3fbeda53e206" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerStatsSO.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>PlayerStatsSO.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="107" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="107" bodyend="110"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_stats_s_o_1a580db9b5e520a3e7d1b2c1507104e2b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerStatsSO.ExpandEXP</definition>
+        <argsstring>()</argsstring>
+        <name>ExpandEXP</name>
+        <qualifiedname>PlayerStatsSO.ExpandEXP</qualifiedname>
+        <briefdescription>
+<para>Executes the ExpandEXP operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="115" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="115" bodyend="118"/>
+        <references refid="class_player_stats_s_o_1a540589bf06645fe19401c7c220d7dbb2" compoundref="_player_stats_s_o_8cs" startline="66">maxEXP</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerStatsSO.UpdateAllPlayerStats</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateAllPlayerStats</name>
+        <qualifiedname>PlayerStatsSO.UpdateAllPlayerStats</qualifiedname>
+        <briefdescription>
+<para>Updates AllPlayerStats. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="123" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="123" bodyend="136"/>
+        <references refid="class_player_stats_s_o_1a8d2a4e89ee753db5817a3b720260e387" compoundref="_player_stats_s_o_8cs" startline="95">_areaMultiplierChanged</references>
+        <references refid="class_player_stats_s_o_1a99ab13b4ba4bdc677b6a2cce81f30c5f" compoundref="_player_stats_s_o_8cs" startline="94">_cooldownReductionChanged</references>
+        <references refid="class_player_stats_s_o_1a053726778f809961526afb46a5a71dc5" compoundref="_player_stats_s_o_8cs" startline="91">_damageMultiplierChanged</references>
+        <references refid="class_player_stats_s_o_1a769d48e5f607e5f7ec05898dd7da2c41" compoundref="_player_stats_s_o_8cs" startline="101">_killsChanged</references>
+        <references refid="class_player_stats_s_o_1aa7075194b3494b83e0ff5a2a2adc535f" compoundref="_player_stats_s_o_8cs" startline="92">_magicDamageMultiplierChanged</references>
+        <references refid="class_player_stats_s_o_1a46f0eb3c82e76d603f37c6e3e8870b5b" compoundref="_player_stats_s_o_8cs" startline="100">_maxHpChanged</references>
+        <references refid="class_player_stats_s_o_1a4fcbd363517f633bdb602180a7e17ca7" compoundref="_player_stats_s_o_8cs" startline="97">_moneyChanged</references>
+        <references refid="class_player_stats_s_o_1a3f59ea29fca9651ead314e917db91c86" compoundref="_player_stats_s_o_8cs" startline="99">_moveSpeedChanged</references>
+        <references refid="class_player_stats_s_o_1af6326c86130273024899bb37410c640f" compoundref="_player_stats_s_o_8cs" startline="98">_reputationChanged</references>
+        <references refid="class_player_stats_s_o_1a6f5737e29f9c1f23e69feebff43ac5c4" compoundref="_player_stats_s_o_8cs" startline="96">_speedMultiplierChanged</references>
+        <references refid="class_player_stats_s_o_1abe2a6daa605aade03ea172fcc06d4510" compoundref="_player_stats_s_o_8cs" startline="93">_technoDamageMultiplierChanged</references>
+        <references refid="class_player_stats_s_o_1a10877307c43349b478e13c1e014d1f68" compoundref="_player_stats_s_o_8cs" startline="36">AreaMultiplier</references>
+        <references refid="class_player_stats_s_o_1a3aa503e5690bcc72500726e26467d064" compoundref="_player_stats_s_o_8cs" startline="32">CooldownReduction</references>
+        <references refid="class_player_stats_s_o_1a4e4595952a7db36893d5ae09a853c950" compoundref="_player_stats_s_o_8cs" startline="80">CurrentKills</references>
+        <references refid="class_player_stats_s_o_1acced86dac3c8782f6089a9562702e100" compoundref="_player_stats_s_o_8cs" startline="20">DamageMultiplier</references>
+        <references refid="class_player_stats_s_o_1a3b8cbe29c80e7a458a9029a1a5957efd" compoundref="_player_stats_s_o_8cs" startline="24">MagicDamageMultiplier</references>
+        <references refid="class_player_stats_s_o_1a6ede9097659d58e04c6f9913fd7b9295" compoundref="_player_stats_s_o_8cs" startline="40">MaxHP</references>
+        <references refid="class_player_stats_s_o_1a37a58a940a5af8803bed3e37db32c622" compoundref="_player_stats_s_o_8cs" startline="53">Money</references>
+        <references refid="class_player_stats_s_o_1a48ceecadec371e7711c700c93b875bdb" compoundref="_player_stats_s_o_8cs" startline="45">MoveSpeed</references>
+        <references refid="class_player_stats_s_o_1ae918af590bc51a85a1169a3689fcaf93" compoundref="_player_stats_s_o_8cs" startline="61">Reputation</references>
+        <references refid="class_player_stats_s_o_1acd87aba976222fc15fd9415e721c91fb" compoundref="_player_stats_s_o_8cs" startline="49">SpeedMultiplier</references>
+        <references refid="class_player_stats_s_o_1aa1b7031523b512cdccdceb8aa086ffdf" compoundref="_player_stats_s_o_8cs" startline="28">TechnoDamageMultiplier</references>
+        <referencedby refid="class_initialization_manager_1a8b8b28545af161dc53b60beccc5170d0" compoundref="_initialization_manager_8cs" startline="31" endline="55">InitializationManager.ResetPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_stats_s_o_1aafe1f504b017cd293aaef371fc175de5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerStatsSO.ChangeDamageMultiplier</definition>
+        <argsstring>(float value)</argsstring>
+        <name>ChangeDamageMultiplier</name>
+        <qualifiedname>PlayerStatsSO.ChangeDamageMultiplier</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Executes the ChangeDamageMultiplier operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="142" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="142" bodyend="146"/>
+        <references refid="class_player_stats_s_o_1a053726778f809961526afb46a5a71dc5" compoundref="_player_stats_s_o_8cs" startline="91">_damageMultiplierChanged</references>
+        <references refid="class_player_stats_s_o_1acced86dac3c8782f6089a9562702e100" compoundref="_player_stats_s_o_8cs" startline="20">DamageMultiplier</references>
+        <referencedby refid="class_player_stats_s_o_1a59de8b450b1f320a1d2e99166445b2fa" compoundref="_player_stats_s_o_8cs" startline="224" endline="266">ChangeReputation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_stats_s_o_1a902ccf1806a27786a696a74974d01c77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerStatsSO.ChangeMagicDamageMultiplier</definition>
+        <argsstring>(float value)</argsstring>
+        <name>ChangeMagicDamageMultiplier</name>
+        <qualifiedname>PlayerStatsSO.ChangeMagicDamageMultiplier</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Executes the ChangeMagicDamageMultiplier operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="152" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="152" bodyend="156"/>
+        <references refid="class_player_stats_s_o_1aa7075194b3494b83e0ff5a2a2adc535f" compoundref="_player_stats_s_o_8cs" startline="92">_magicDamageMultiplierChanged</references>
+        <references refid="class_player_stats_s_o_1a3b8cbe29c80e7a458a9029a1a5957efd" compoundref="_player_stats_s_o_8cs" startline="24">MagicDamageMultiplier</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_stats_s_o_1a14579c02f3b0b03b938ee14e7dcd800c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerStatsSO.ChangeTechnoDamageMultiplier</definition>
+        <argsstring>(float value)</argsstring>
+        <name>ChangeTechnoDamageMultiplier</name>
+        <qualifiedname>PlayerStatsSO.ChangeTechnoDamageMultiplier</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Executes the ChangeTechnoDamageMultiplier operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="162" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="162" bodyend="166"/>
+        <references refid="class_player_stats_s_o_1abe2a6daa605aade03ea172fcc06d4510" compoundref="_player_stats_s_o_8cs" startline="93">_technoDamageMultiplierChanged</references>
+        <references refid="class_player_stats_s_o_1aa1b7031523b512cdccdceb8aa086ffdf" compoundref="_player_stats_s_o_8cs" startline="28">TechnoDamageMultiplier</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_stats_s_o_1a47625ba25a3beef3ecfa4d74b357d368" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerStatsSO.ChangeMaxHp</definition>
+        <argsstring>(float value)</argsstring>
+        <name>ChangeMaxHp</name>
+        <qualifiedname>PlayerStatsSO.ChangeMaxHp</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Executes the ChangeMaxHp operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="172" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="172" bodyend="176"/>
+        <references refid="class_player_stats_s_o_1a46f0eb3c82e76d603f37c6e3e8870b5b" compoundref="_player_stats_s_o_8cs" startline="100">_maxHpChanged</references>
+        <references refid="class_player_stats_s_o_1a6ede9097659d58e04c6f9913fd7b9295" compoundref="_player_stats_s_o_8cs" startline="40">MaxHP</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_stats_s_o_1a45967e5e7be65e3d0db9d49b77ae2fb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerStatsSO.ChangeCooldownReduction</definition>
+        <argsstring>(float value)</argsstring>
+        <name>ChangeCooldownReduction</name>
+        <qualifiedname>PlayerStatsSO.ChangeCooldownReduction</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Executes the ChangeCooldownReduction operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="182" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="182" bodyend="186"/>
+        <references refid="class_player_stats_s_o_1a99ab13b4ba4bdc677b6a2cce81f30c5f" compoundref="_player_stats_s_o_8cs" startline="94">_cooldownReductionChanged</references>
+        <references refid="class_player_stats_s_o_1a3aa503e5690bcc72500726e26467d064" compoundref="_player_stats_s_o_8cs" startline="32">CooldownReduction</references>
+        <referencedby refid="class_player_stats_s_o_1a59de8b450b1f320a1d2e99166445b2fa" compoundref="_player_stats_s_o_8cs" startline="224" endline="266">ChangeReputation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_stats_s_o_1a13da5392fbe5209b6f39e03805037a6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerStatsSO.ChangeAreaMultiplier</definition>
+        <argsstring>(float value)</argsstring>
+        <name>ChangeAreaMultiplier</name>
+        <qualifiedname>PlayerStatsSO.ChangeAreaMultiplier</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Executes the ChangeAreaMultiplier operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="192" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="192" bodyend="196"/>
+        <references refid="class_player_stats_s_o_1a8d2a4e89ee753db5817a3b720260e387" compoundref="_player_stats_s_o_8cs" startline="95">_areaMultiplierChanged</references>
+        <references refid="class_player_stats_s_o_1a10877307c43349b478e13c1e014d1f68" compoundref="_player_stats_s_o_8cs" startline="36">AreaMultiplier</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_stats_s_o_1aaf8c21dd25a67fba4b21f4f520fec3b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerStatsSO.ChangeSpeedMultiplier</definition>
+        <argsstring>(float value)</argsstring>
+        <name>ChangeSpeedMultiplier</name>
+        <qualifiedname>PlayerStatsSO.ChangeSpeedMultiplier</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Executes the ChangeSpeedMultiplier operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="202" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="202" bodyend="206"/>
+        <references refid="class_player_stats_s_o_1a6f5737e29f9c1f23e69feebff43ac5c4" compoundref="_player_stats_s_o_8cs" startline="96">_speedMultiplierChanged</references>
+        <references refid="class_player_stats_s_o_1acd87aba976222fc15fd9415e721c91fb" compoundref="_player_stats_s_o_8cs" startline="49">SpeedMultiplier</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_stats_s_o_1a833af90fc8136c78f905141e8536c272" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerStatsSO.ChangeMoney</definition>
+        <argsstring>(long value)</argsstring>
+        <name>ChangeMoney</name>
+        <qualifiedname>PlayerStatsSO.ChangeMoney</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Executes the ChangeMoney operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="212" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="212" bodyend="218"/>
+        <references refid="class_player_stats_s_o_1a4fcbd363517f633bdb602180a7e17ca7" compoundref="_player_stats_s_o_8cs" startline="97">_moneyChanged</references>
+        <references refid="class_player_stats_s_o_1a75d54680f08fa5167893aa1ded999647" compoundref="_player_stats_s_o_8cs" startline="57">MaxMoney</references>
+        <references refid="class_player_stats_s_o_1a37a58a940a5af8803bed3e37db32c622" compoundref="_player_stats_s_o_8cs" startline="53">Money</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_stats_s_o_1a59de8b450b1f320a1d2e99166445b2fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerStatsSO.ChangeReputation</definition>
+        <argsstring>(float value)</argsstring>
+        <name>ChangeReputation</name>
+        <qualifiedname>PlayerStatsSO.ChangeReputation</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Executes the ChangeReputation operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="224" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="224" bodyend="266"/>
+        <references refid="class_player_stats_s_o_1af6326c86130273024899bb37410c640f" compoundref="_player_stats_s_o_8cs" startline="98">_reputationChanged</references>
+        <references refid="class_player_stats_s_o_1ad1549d7aadeaf2cf86f1c06ef66d47d9" compoundref="_player_stats_s_o_8cs" startline="89">_reputationMagicEffect</references>
+        <references refid="class_player_stats_s_o_1abcddd062181963345ff86cd63beb23e6" compoundref="_player_stats_s_o_8cs" startline="85">_reputationTecnoEffect</references>
+        <references refid="class_player_stats_s_o_1a45967e5e7be65e3d0db9d49b77ae2fb0" compoundref="_player_stats_s_o_8cs" startline="182" endline="186">ChangeCooldownReduction</references>
+        <references refid="class_player_stats_s_o_1aafe1f504b017cd293aaef371fc175de5" compoundref="_player_stats_s_o_8cs" startline="142" endline="146">ChangeDamageMultiplier</references>
+        <references refid="class_universal_notification_1a12e55cea84902cef986a9f19c2184005" compoundref="_universal_notification_8cs" startline="10" endline="10">UniversalNotification.Instance</references>
+        <references refid="class_player_stats_s_o_1ae918af590bc51a85a1169a3689fcaf93" compoundref="_player_stats_s_o_8cs" startline="61">Reputation</references>
+        <references refid="class_universal_notification_1aa55526c14cf1e9d97f15b01842e03c83" compoundref="_universal_notification_8cs" startline="54" endline="62">UniversalNotification.ShowNotification</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_stats_s_o_1adf63a74060c120115bd109a767544b06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerStatsSO.ChangeMoveSpeed</definition>
+        <argsstring>(float value)</argsstring>
+        <name>ChangeMoveSpeed</name>
+        <qualifiedname>PlayerStatsSO.ChangeMoveSpeed</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Executes the ChangeMoveSpeed operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="272" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="272" bodyend="276"/>
+        <references refid="class_player_stats_s_o_1a3f59ea29fca9651ead314e917db91c86" compoundref="_player_stats_s_o_8cs" startline="99">_moveSpeedChanged</references>
+        <references refid="class_player_stats_s_o_1a48ceecadec371e7711c700c93b875bdb" compoundref="_player_stats_s_o_8cs" startline="45">MoveSpeed</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_stats_s_o_1a1a331911e12998d2da759646a7011745" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerStatsSO.ChangeKills</definition>
+        <argsstring>(long value)</argsstring>
+        <name>ChangeKills</name>
+        <qualifiedname>PlayerStatsSO.ChangeKills</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Executes the ChangeKills operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="282" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="282" bodyend="286"/>
+        <references refid="class_player_stats_s_o_1a769d48e5f607e5f7ec05898dd7da2c41" compoundref="_player_stats_s_o_8cs" startline="101">_killsChanged</references>
+        <references refid="class_player_stats_s_o_1a4e4595952a7db36893d5ae09a853c950" compoundref="_player_stats_s_o_8cs" startline="80">CurrentKills</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_player_stats_s_o" kindref="compound">PlayerStatsSO</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>PlayerStatsSO</label>
+        <link refid="class_player_stats_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>PlayerStatsSO</label>
+        <link refid="class_player_stats_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerStatsSO.cs" bodystart="9" bodyend="288"/>
+    <listofallmembers>
+      <member refid="class_player_stats_s_o_1a8d2a4e89ee753db5817a3b720260e387" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>_areaMultiplierChanged</name></member>
+      <member refid="class_player_stats_s_o_1a99ab13b4ba4bdc677b6a2cce81f30c5f" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>_cooldownReductionChanged</name></member>
+      <member refid="class_player_stats_s_o_1a053726778f809961526afb46a5a71dc5" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>_damageMultiplierChanged</name></member>
+      <member refid="class_player_stats_s_o_1a769d48e5f607e5f7ec05898dd7da2c41" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>_killsChanged</name></member>
+      <member refid="class_player_stats_s_o_1aa7075194b3494b83e0ff5a2a2adc535f" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>_magicDamageMultiplierChanged</name></member>
+      <member refid="class_player_stats_s_o_1a46f0eb3c82e76d603f37c6e3e8870b5b" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>_maxHpChanged</name></member>
+      <member refid="class_player_stats_s_o_1a4fcbd363517f633bdb602180a7e17ca7" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>_moneyChanged</name></member>
+      <member refid="class_player_stats_s_o_1a3f59ea29fca9651ead314e917db91c86" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>_moveSpeedChanged</name></member>
+      <member refid="class_player_stats_s_o_1af6326c86130273024899bb37410c640f" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>_reputationChanged</name></member>
+      <member refid="class_player_stats_s_o_1ad1549d7aadeaf2cf86f1c06ef66d47d9" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>_reputationMagicEffect</name></member>
+      <member refid="class_player_stats_s_o_1abcddd062181963345ff86cd63beb23e6" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>_reputationTecnoEffect</name></member>
+      <member refid="class_player_stats_s_o_1a6f5737e29f9c1f23e69feebff43ac5c4" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>_speedMultiplierChanged</name></member>
+      <member refid="class_player_stats_s_o_1abe2a6daa605aade03ea172fcc06d4510" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>_technoDamageMultiplierChanged</name></member>
+      <member refid="class_player_stats_s_o_1a10877307c43349b478e13c1e014d1f68" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>AreaMultiplier</name></member>
+      <member refid="class_player_stats_s_o_1a31a2083a49b1d234aabe3fbeda53e206" prot="private" virt="non-virtual"><scope>PlayerStatsSO</scope><name>Awake</name></member>
+      <member refid="class_player_stats_s_o_1a13da5392fbe5209b6f39e03805037a6e" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>ChangeAreaMultiplier</name></member>
+      <member refid="class_player_stats_s_o_1a45967e5e7be65e3d0db9d49b77ae2fb0" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>ChangeCooldownReduction</name></member>
+      <member refid="class_player_stats_s_o_1aafe1f504b017cd293aaef371fc175de5" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>ChangeDamageMultiplier</name></member>
+      <member refid="class_player_stats_s_o_1a1a331911e12998d2da759646a7011745" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>ChangeKills</name></member>
+      <member refid="class_player_stats_s_o_1a902ccf1806a27786a696a74974d01c77" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>ChangeMagicDamageMultiplier</name></member>
+      <member refid="class_player_stats_s_o_1a47625ba25a3beef3ecfa4d74b357d368" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>ChangeMaxHp</name></member>
+      <member refid="class_player_stats_s_o_1a833af90fc8136c78f905141e8536c272" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>ChangeMoney</name></member>
+      <member refid="class_player_stats_s_o_1adf63a74060c120115bd109a767544b06" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>ChangeMoveSpeed</name></member>
+      <member refid="class_player_stats_s_o_1a59de8b450b1f320a1d2e99166445b2fa" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>ChangeReputation</name></member>
+      <member refid="class_player_stats_s_o_1aaf8c21dd25a67fba4b21f4f520fec3b0" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>ChangeSpeedMultiplier</name></member>
+      <member refid="class_player_stats_s_o_1a14579c02f3b0b03b938ee14e7dcd800c" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>ChangeTechnoDamageMultiplier</name></member>
+      <member refid="class_player_stats_s_o_1a3aa503e5690bcc72500726e26467d064" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>CooldownReduction</name></member>
+      <member refid="class_player_stats_s_o_1a4e4595952a7db36893d5ae09a853c950" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>CurrentKills</name></member>
+      <member refid="class_player_stats_s_o_1acced86dac3c8782f6089a9562702e100" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>DamageMultiplier</name></member>
+      <member refid="class_player_stats_s_o_1a580db9b5e520a3e7d1b2c1507104e2b0" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>ExpandEXP</name></member>
+      <member refid="class_singleton_scriptable_object-1-g_1aa59148a0a9bc37057ef216e7c9a814a8" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>Instance</name></member>
+      <member refid="class_player_stats_s_o_1a3169f5bb777bcb0d44a99be19e949c9f" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>invincibility</name></member>
+      <member refid="class_player_stats_s_o_1a3b8cbe29c80e7a458a9029a1a5957efd" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>MagicDamageMultiplier</name></member>
+      <member refid="class_player_stats_s_o_1a540589bf06645fe19401c7c220d7dbb2" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>maxEXP</name></member>
+      <member refid="class_player_stats_s_o_1a6ede9097659d58e04c6f9913fd7b9295" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>MaxHP</name></member>
+      <member refid="class_player_stats_s_o_1af26d38b1ce9c90bfb9b86c40c89f136b" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>maxLevel</name></member>
+      <member refid="class_player_stats_s_o_1a75d54680f08fa5167893aa1ded999647" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>MaxMoney</name></member>
+      <member refid="class_player_stats_s_o_1a37a58a940a5af8803bed3e37db32c622" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>Money</name></member>
+      <member refid="class_player_stats_s_o_1a48ceecadec371e7711c700c93b875bdb" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>MoveSpeed</name></member>
+      <member refid="class_player_stats_s_o_1a6e64b88234cee433d2461e92ddc48748" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>playerName</name></member>
+      <member refid="class_player_stats_s_o_1ae918af590bc51a85a1169a3689fcaf93" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>Reputation</name></member>
+      <member refid="class_player_stats_s_o_1acd87aba976222fc15fd9415e721c91fb" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>SpeedMultiplier</name></member>
+      <member refid="class_player_stats_s_o_1aa1b7031523b512cdccdceb8aa086ffdf" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>TechnoDamageMultiplier</name></member>
+      <member refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" prot="public" virt="non-virtual"><scope>PlayerStatsSO</scope><name>UpdateAllPlayerStats</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

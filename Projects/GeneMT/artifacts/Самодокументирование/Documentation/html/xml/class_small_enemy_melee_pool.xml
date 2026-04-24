@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_small_enemy_melee_pool" kind="class" language="C#" prot="public">
+    <compoundname>SmallEnemyMeleePool</compoundname>
+    <basecompoundref refid="class_enemy_pool" prot="public" virt="non-virtual">EnemyPool</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_small_enemy_melee_pool_1ab57f59767484d4063020e327c2a79b2c" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_small_enemy_melee_pool" kindref="compound">SmallEnemyMeleePool</ref></type>
+        <definition>SmallEnemyMeleePool SmallEnemyMeleePool.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>SmallEnemyMeleePool.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/SmallEnemyMeleePool.cs" line="10" column="39" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/SmallEnemyMeleePool.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_small_enemy_melee_pool_1a7598e0e279678969bb279f9b4be2f10b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SmallEnemyMeleePool.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>SmallEnemyMeleePool.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/SmallEnemyMeleePool.cs" line="11" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/SmallEnemyMeleePool.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_small_enemy_melee_pool" kindref="compound">SmallEnemyMeleePool</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>EnemyPool</label>
+        <link refid="class_enemy_pool"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SmallEnemyMeleePool</label>
+        <link refid="class_small_enemy_melee_pool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>EnemyPool</label>
+        <link refid="class_enemy_pool"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SmallEnemyMeleePool</label>
+        <link refid="class_small_enemy_melee_pool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>Instance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/SmallEnemyMeleePool.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/SmallEnemyMeleePool.cs" bodystart="9" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_small_enemy_melee_pool_1a7598e0e279678969bb279f9b4be2f10b" prot="private" virt="non-virtual"><scope>SmallEnemyMeleePool</scope><name>Awake</name></member>
+      <member refid="class_enemy_pool_1a84dcccca8b1bffb127a0aeb7c03e3368" prot="public" virt="non-virtual"><scope>SmallEnemyMeleePool</scope><name>EnquePool</name></member>
+      <member refid="class_enemy_pool_1afc6cffe9d3f2e2b99a1b5631b7463cfc" prot="public" virt="non-virtual"><scope>SmallEnemyMeleePool</scope><name>GetEnemy</name></member>
+      <member refid="class_enemy_pool_1a0df4ff74f56a52bd2d1294da3ca1a2ef" prot="public" virt="non-virtual"><scope>SmallEnemyMeleePool</scope><name>GetEnemyBackToPool</name></member>
+      <member refid="class_small_enemy_melee_pool_1ab57f59767484d4063020e327c2a79b2c" prot="public" virt="non-virtual"><scope>SmallEnemyMeleePool</scope><name>Instance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

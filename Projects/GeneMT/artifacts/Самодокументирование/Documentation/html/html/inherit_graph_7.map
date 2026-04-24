@@ -1,0 +1,61 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,528,123,555"/>
+<area shape="rect" id="Node000001" href="$class_item_data_s_o.html" title="The ItemDataSO class." alt="" coords="225,157,319,184"/>
+<area shape="poly" id="edge103_Node000000_Node000001" title=" " alt="" coords="78,513,263,182,263,187,83,516"/>
+<area shape="rect" id="Node000008" href="$class_mutation_data_s_o.html" title="The MutationDataSO class." alt="" coords="213,452,331,479"/>
+<area shape="poly" id="edge110_Node000000_Node000008" title=" " alt="" coords="115,520,234,477,231,482,119,524"/>
+<area shape="rect" id="Node000014" href="$class_singleton_scriptable_object-1-g.html" title=" " alt="" coords="171,655,373,681"/>
+<area shape="poly" id="edge116_Node000000_Node000014" title=" " alt="" coords="100,560,250,653,246,656,100,566"/>
+<area shape="rect" id="Node000025" href="$class_weapon_data_s_o.html" title="The WeaponDataSO class." alt="" coords="214,883,330,909"/>
+<area shape="poly" id="edge127_Node000000_Node000025" title=" " alt="" coords="83,567,265,881,260,883,79,571"/>
+<area shape="rect" id="Node000002" href="$class_lunch_box_item_s_o.html" title="The LunchBoxItemSO class." alt="" coords="462,5,587,32"/>
+<area shape="poly" id="edge104_Node000001_Node000002" title=" " alt="" coords="293,144,347,92,382,65,420,42,464,27,460,31,422,46,385,69,351,96,297,147"/>
+<area shape="rect" id="Node000003" href="$class_magic_damage_boost_item_s_o.html" title="The MagicDamageBoostItemSO class." alt="" coords="432,56,617,83"/>
+<area shape="poly" id="edge105_Node000001_Node000003" title=" " alt="" coords="307,147,360,119,420,92,459,82,455,85,422,97,362,124,311,151"/>
+<area shape="rect" id="Node000004" href="$class_tech_instruments_s_o.html" title="The TechInstrumentsSO class." alt="" coords="456,107,593,133"/>
+<area shape="poly" id="edge106_Node000001_Node000004" title=" " alt="" coords="333,156,457,132,453,136,336,160"/>
+<area shape="rect" id="Node000005" href="$class_techno_damage_boost_item_s_o.html" title="The TechnoDamageBoostItemSO class." alt="" coords="429,157,620,184"/>
+<area shape="poly" id="edge107_Node000001_Node000005" title=" " alt="" coords="333,168,431,169,426,172,336,173"/>
+<area shape="rect" id="Node000006" href="$class_universal_damage_boost_item_s_o.html" title="The UniversalDamageBoostItemSO class." alt="" coords="422,208,627,235"/>
+<area shape="poly" id="edge108_Node000001_Node000006" title=" " alt="" coords="334,181,457,206,452,209,336,186"/>
+<area shape="rect" id="Node000007" href="$class_universal_damage_give_shield_item_s_o.html" title="The UniversalDamageGiveShieldItemSO class." alt="" coords="430,259,619,301"/>
+<area shape="poly" id="edge109_Node000001_Node000007" title=" " alt="" coords="310,189,363,217,422,244,454,257,449,259,420,249,361,222,311,195"/>
+<area shape="rect" id="Node000009" href="$class_mutation_area_s_o.html" title="The MutationAreaSO class." alt="" coords="466,325,583,352"/>
+<area shape="poly" id="edge111_Node000008_Node000009" title=" " alt="" coords="299,440,353,400,420,362,468,347,464,351,422,366,356,404,303,443"/>
+<area shape="rect" id="Node000010" href="$class_mutation_cooldown_reduction_s_o.html" title="The MutationCooldownReductionSO class." alt="" coords="421,376,628,403"/>
+<area shape="poly" id="edge112_Node000008_Node000010" title=" " alt="" coords="323,444,420,412,465,402,461,405,422,417,326,449"/>
+<area shape="rect" id="Node000011" href="$class_mutation_damage_s_o.html" title="The MutationDamageSO class." alt="" coords="455,427,594,453"/>
+<area shape="poly" id="edge113_Node000008_Node000011" title=" " alt="" coords="345,456,457,445,452,449,348,460"/>
+<area shape="rect" id="Node000012" href="$class_mutation_max_h_p_s_o.html" title="The MutationMaxHPSO class." alt="" coords="458,477,592,504"/>
+<area shape="poly" id="edge114_Node000008_Node000012" title=" " alt="" coords="345,470,460,483,455,485,347,475"/>
+<area shape="rect" id="Node000013" href="$class_mutation_move_speed_s_o.html" title="The MutationMoveSpeedSO class." alt="" coords="445,528,604,555"/>
+<area shape="poly" id="edge115_Node000008_Node000013" title=" " alt="" coords="324,482,422,513,466,526,461,528,420,519,326,487"/>
+<area shape="rect" id="Node000015" href="$class_item_controller_s_o.html" title="The ItemControllerSO class." alt="" coords="464,579,586,605"/>
+<area shape="poly" id="edge117_Node000014_Node000015" title=" " alt="" coords="324,647,420,615,465,605,461,607,422,620,326,651"/>
+<area shape="rect" id="Node000016" href="$class_mutation_controller_s_o.html" title="The MutationControllerSO class." alt="" coords="452,629,598,656"/>
+<area shape="poly" id="edge118_Node000014_Node000016" title=" " alt="" coords="387,654,453,649,449,651,389,659"/>
+<area shape="rect" id="Node000017" href="$class_player_stats_s_o.html" title="The PlayerStatsSO class." alt="" coords="470,680,579,707"/>
+<area shape="poly" id="edge119_Node000014_Node000017" title=" " alt="" coords="388,677,473,687,468,689,389,682"/>
+<area shape="rect" id="Node000018" href="$class_quest_s_o.html" title="The QuestSO class." alt="" coords="487,731,562,757"/>
+<area shape="poly" id="edge120_Node000014_Node000018" title=" " alt="" coords="325,684,422,716,489,735,484,736,420,721,325,690"/>
+<area shape="rect" id="Node000024" href="$class_weapon_controller.html" title="The WeaponController class." alt="" coords="462,781,587,808"/>
+<area shape="poly" id="edge126_Node000014_Node000024" title=" " alt="" coords="301,689,356,729,422,767,465,783,459,784,420,772,353,734,301,694"/>
+<area shape="rect" id="Node000019" href="$class_quest_data.html" title="The QuestData class." alt="" coords="676,731,761,757"/>
+<area shape="poly" id="edge121_Node000018_Node000019" title=" " alt="" coords="578,741,678,743,673,745,579,747"/>
+<area shape="rect" id="Node000020" href="$class_blood_experiment_quest.html" title="The BloodExperimentQuest class." alt="" coords="809,655,964,681"/>
+<area shape="poly" id="edge122_Node000019_Node000020" title=" " alt="" coords="753,720,808,691,841,681,836,683,810,696,756,724"/>
+<area shape="rect" id="Node000021" href="$class_enemy_killer_quest.html" title="The EnemyKillerQuest class." alt="" coords="823,705,950,732"/>
+<area shape="poly" id="edge123_Node000019_Node000021" title=" " alt="" coords="776,733,826,727,820,729,777,738"/>
+<area shape="rect" id="Node000022" href="$class_gather_gas_quest.html" title="The GatherGasQuest class." alt="" coords="827,756,946,783"/>
+<area shape="poly" id="edge124_Node000019_Node000022" title=" " alt="" coords="776,750,829,760,824,761,776,755"/>
+<area shape="rect" id="Node000023" href="$class_magic_blizzard_quest.html" title="The MagicBlizzardQuest class." alt="" coords="817,807,956,833"/>
+<area shape="poly" id="edge125_Node000019_Node000023" title=" " alt="" coords="755,763,810,792,841,806,835,806,808,797,754,769"/>
+<area shape="rect" id="Node000026" href="$class_bullet_shooter_data_s_o.html" title="The BulletShooterDataSO class." alt="" coords="452,832,598,859"/>
+<area shape="poly" id="edge128_Node000025_Node000026" title=" " alt="" coords="344,879,457,858,452,860,345,884"/>
+<area shape="rect" id="Node000027" href="$class_damage_field_data_s_o.html" title="The DamageFieldDataSO class." alt="" coords="452,883,597,909"/>
+<area shape="poly" id="edge129_Node000025_Node000027" title=" " alt="" coords="345,893,454,895,449,897,346,899"/>
+<area shape="rect" id="Node000028" href="$class_laser_data_s_o.html" title="The LaserDataSO class." alt="" coords="474,933,575,960"/>
+<area shape="poly" id="edge130_Node000025_Node000028" title=" " alt="" coords="345,908,477,936,471,937,345,913"/>
+<area shape="rect" id="Node000029" href="$class_magic_staff_data_s_o.html" title="The MagicStaffDataSO class." alt="" coords="460,984,590,1011"/>
+<area shape="poly" id="edge131_Node000025_Node000029" title=" " alt="" coords="310,915,362,943,422,970,462,984,457,984,420,974,360,948,309,920"/>
+</map>

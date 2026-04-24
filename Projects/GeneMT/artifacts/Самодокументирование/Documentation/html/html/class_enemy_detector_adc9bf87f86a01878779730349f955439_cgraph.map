@@ -1,0 +1,5 @@
+<map id="EnemyDetector.GetClosestEnemy" name="EnemyDetector.GetClosestEnemy">
+<area shape="rect" id="Node000001" title="Gets the ClosestEnemy." alt="" coords="5,5,188,48"/>
+<area shape="rect" id="Node000002" href="$class_enemy_detector.html#a4b9cd39f460ce30997cffe966a20a314" title=" " alt="" coords="236,5,412,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,24,223,26,218,27,188,29"/>
+</map>

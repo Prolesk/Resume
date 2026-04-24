@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_fe695852966688012213edf634fdc4a3" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState</compoundname>
+    <innerfile refid="_camera_changer_8cs">CameraChanger.cs</innerfile>
+    <innerfile refid="_countdown_controller_8cs">CountdownController.cs</innerfile>
+    <innerfile refid="_game_state_manager_8cs">GameStateManager.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/"/>
+  </compounddef>
+</doxygen>

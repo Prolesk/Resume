@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_weapon_data_s_o" kind="class" language="C#" prot="public">
+    <compoundname>WeaponDataSO</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+    <derivedcompoundref refid="class_bullet_shooter_data_s_o" prot="public" virt="non-virtual">BulletShooterDataSO</derivedcompoundref>
+    <derivedcompoundref refid="class_damage_field_data_s_o" prot="public" virt="non-virtual">DamageFieldDataSO</derivedcompoundref>
+    <derivedcompoundref refid="class_laser_data_s_o" prot="public" virt="non-virtual">LaserDataSO</derivedcompoundref>
+    <derivedcompoundref refid="class_magic_staff_data_s_o" prot="public" virt="non-virtual">MagicStaffDataSO</derivedcompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_weapon_data_s_o_1a2b9fcf339120f50cf7298076aa573eef" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WeaponDataSO.weaponName</definition>
+        <argsstring></argsstring>
+        <name>weaponName</name>
+        <qualifiedname>WeaponDataSO.weaponName</qualifiedname>
+        <briefdescription>
+<para>The weaponName field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="13" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_data_s_o_1a926c3dcfea6f86858058ae9a107d85a3" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WeaponDataSO.description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <qualifiedname>WeaponDataSO.description</qualifiedname>
+        <briefdescription>
+<para>The description field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="17" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_data_s_o_1a9bce137573a1b9f7e57f54f9e7cc8a90" prot="public" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite WeaponDataSO.icon</definition>
+        <argsstring></argsstring>
+        <name>icon</name>
+        <qualifiedname>WeaponDataSO.icon</qualifiedname>
+        <briefdescription>
+<para>The icon field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="21" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_data_s_o_1a8d9837df8bf197ca66564ca9dc8eb6fd" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WeaponDataSO.baseDamage</definition>
+        <argsstring></argsstring>
+        <name>baseDamage</name>
+        <qualifiedname>WeaponDataSO.baseDamage</qualifiedname>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+<para>The baseDamage field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="27" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_data_s_o_1ab7620e616f0b39e0536fc1cf1753ad0d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WeaponDataSO.baseCooldown</definition>
+        <argsstring></argsstring>
+        <name>baseCooldown</name>
+        <qualifiedname>WeaponDataSO.baseCooldown</qualifiedname>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+<para>The baseCooldown field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="31" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_data_s_o_1a7869698de2be0b78f2acfed444e2719b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WeaponDataSO.maxLevel</definition>
+        <argsstring></argsstring>
+        <name>maxLevel</name>
+        <qualifiedname>WeaponDataSO.maxLevel</qualifiedname>
+        <initializer>= 6</initializer>
+        <briefdescription>
+<para>The maxLevel field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="35" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_data_s_o_1adec276b0ba317b1b492abf4cf7ccaa9e" prot="public" static="no" mutable="no">
+        <type><ref refid="_weapon_type_8cs_1a095ae9be41c95cab0ceb95c6dae270b8" kindref="member">WeaponType</ref></type>
+        <definition>WeaponType WeaponDataSO.weaponType</definition>
+        <argsstring></argsstring>
+        <name>weaponType</name>
+        <qualifiedname>WeaponDataSO.weaponType</qualifiedname>
+        <initializer>= <ref refid="_weapon_type_8cs_1a095ae9be41c95cab0ceb95c6dae270b8a7641e5f4e7e8517bd0477fd81e3de1b8" kindref="member">WeaponType.Universal</ref></initializer>
+        <briefdescription>
+<para>The weaponType field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="39" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_data_s_o_1ab1b2530bf67b1a4aad178ffa3116ef53" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WeaponDataSO.reputationsAmount</definition>
+        <argsstring></argsstring>
+        <name>reputationsAmount</name>
+        <qualifiedname>WeaponDataSO.reputationsAmount</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>The reputationsAmount field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="43" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_data_s_o_1a25f81e9866b5cbbdc78d1a6312e647b8" prot="public" static="no" mutable="no">
+        <type><ref refid="class_level_upgrade" kindref="compound">LevelUpgrade</ref>[]</type>
+        <definition>LevelUpgrade [] WeaponDataSO.levelUpgrades</definition>
+        <argsstring></argsstring>
+        <name>levelUpgrades</name>
+        <qualifiedname>WeaponDataSO.levelUpgrades</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="46" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_data_s_o_1ac8e692a566c5d3a42a058fb622e9e7a4" prot="public" static="no" mutable="no">
+        <type><ref refid="class_level_upgrade" kindref="compound">LevelUpgrade</ref>[]</type>
+        <definition>LevelUpgrade [] WeaponDataSO.ExstraLevelUpgrades</definition>
+        <argsstring></argsstring>
+        <name>ExstraLevelUpgrades</name>
+        <qualifiedname>WeaponDataSO.ExstraLevelUpgrades</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="49" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_data_s_o_1abf5385414c24e8ac9f77a2bc5cf32809" prot="public" static="no" mutable="no">
+        <type><ref refid="class_weapon" kindref="compound">Weapon</ref></type>
+        <definition>Weapon WeaponDataSO.currentWeapon</definition>
+        <argsstring></argsstring>
+        <name>currentWeapon</name>
+        <qualifiedname>WeaponDataSO.currentWeapon</qualifiedname>
+        <briefdescription>
+<para>The currentWeapon field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="55" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_data_s_o_1ac81cda9ebc9463945fbf8a66508c82ae" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip WeaponDataSO.shootClip</definition>
+        <argsstring></argsstring>
+        <name>shootClip</name>
+        <qualifiedname>WeaponDataSO.shootClip</qualifiedname>
+        <briefdescription>
+<para>The shootClip field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="59" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_weapon_data_s_o" kindref="compound">WeaponDataSO</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>BulletShooterDataSO</label>
+        <link refid="class_bullet_shooter_data_s_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>DamageFieldDataSO</label>
+        <link refid="class_damage_field_data_s_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>LaserDataSO</label>
+        <link refid="class_laser_data_s_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MagicStaffDataSO</label>
+        <link refid="class_magic_staff_data_s_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>WeaponDataSO</label>
+        <link refid="class_weapon_data_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>LevelUpgrade</label>
+        <link refid="class_level_upgrade"/>
+      </node>
+      <node id="5">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="6">
+        <label>PlayerStatsSO</label>
+        <link refid="class_player_stats_s_o"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="7">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Weapon</label>
+        <link refid="class_weapon"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>playerStats</edgelabel>
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>weaponData</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>WeaponDataSO</label>
+        <link refid="class_weapon_data_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>ExstraLevelUpgrades</edgelabel>
+          <edgelabel>levelUpgrades</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>currentWeapon</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" line="7" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponDataSO.cs" bodystart="8" bodyend="60"/>
+    <listofallmembers>
+      <member refid="class_weapon_data_s_o_1ab7620e616f0b39e0536fc1cf1753ad0d" prot="public" virt="non-virtual"><scope>WeaponDataSO</scope><name>baseCooldown</name></member>
+      <member refid="class_weapon_data_s_o_1a8d9837df8bf197ca66564ca9dc8eb6fd" prot="public" virt="non-virtual"><scope>WeaponDataSO</scope><name>baseDamage</name></member>
+      <member refid="class_weapon_data_s_o_1abf5385414c24e8ac9f77a2bc5cf32809" prot="public" virt="non-virtual"><scope>WeaponDataSO</scope><name>currentWeapon</name></member>
+      <member refid="class_weapon_data_s_o_1a926c3dcfea6f86858058ae9a107d85a3" prot="public" virt="non-virtual"><scope>WeaponDataSO</scope><name>description</name></member>
+      <member refid="class_weapon_data_s_o_1ac8e692a566c5d3a42a058fb622e9e7a4" prot="public" virt="non-virtual"><scope>WeaponDataSO</scope><name>ExstraLevelUpgrades</name></member>
+      <member refid="class_weapon_data_s_o_1a9bce137573a1b9f7e57f54f9e7cc8a90" prot="public" virt="non-virtual"><scope>WeaponDataSO</scope><name>icon</name></member>
+      <member refid="class_weapon_data_s_o_1a25f81e9866b5cbbdc78d1a6312e647b8" prot="public" virt="non-virtual"><scope>WeaponDataSO</scope><name>levelUpgrades</name></member>
+      <member refid="class_weapon_data_s_o_1a7869698de2be0b78f2acfed444e2719b" prot="public" virt="non-virtual"><scope>WeaponDataSO</scope><name>maxLevel</name></member>
+      <member refid="class_weapon_data_s_o_1ab1b2530bf67b1a4aad178ffa3116ef53" prot="public" virt="non-virtual"><scope>WeaponDataSO</scope><name>reputationsAmount</name></member>
+      <member refid="class_weapon_data_s_o_1ac81cda9ebc9463945fbf8a66508c82ae" prot="public" virt="non-virtual"><scope>WeaponDataSO</scope><name>shootClip</name></member>
+      <member refid="class_weapon_data_s_o_1a2b9fcf339120f50cf7298076aa573eef" prot="public" virt="non-virtual"><scope>WeaponDataSO</scope><name>weaponName</name></member>
+      <member refid="class_weapon_data_s_o_1adec276b0ba317b1b492abf4cf7ccaa9e" prot="public" virt="non-virtual"><scope>WeaponDataSO</scope><name>weaponType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

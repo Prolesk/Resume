@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_enemy_pool" kind="class" language="C#" prot="public">
+    <compoundname>EnemyPool</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_small_enemy_melee_pool" prot="public" virt="non-virtual">SmallEnemyMeleePool</derivedcompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_enemy_pool_1a05203b0aabf26e0ba8093fa0310323d8" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject EnemyPool.enemyPrefab</definition>
+        <argsstring></argsstring>
+        <name>enemyPrefab</name>
+        <qualifiedname>EnemyPool.enemyPrefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPool.cs" line="12" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPool.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_pool_1a8105ce36a4e7d796a487134857ee9303" prot="private" static="no" mutable="no">
+        <type>Queue&lt; GameObject &gt;</type>
+        <definition>Queue&lt;GameObject&gt; EnemyPool.enemyPool</definition>
+        <argsstring></argsstring>
+        <name>enemyPool</name>
+        <qualifiedname>EnemyPool.enemyPool</qualifiedname>
+        <initializer>= new Queue&lt;GameObject&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPool.cs" line="14" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPool.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_enemy_pool_1a84dcccca8b1bffb127a0aeb7c03e3368" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyPool.EnquePool</definition>
+        <argsstring>()</argsstring>
+        <name>EnquePool</name>
+        <qualifiedname>EnemyPool.EnquePool</qualifiedname>
+        <briefdescription>
+<para>Executes the EnquePool operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPool.cs" line="20" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPool.cs" bodystart="20" bodyend="29"/>
+        <references refid="class_enemy_pool_1a0df4ff74f56a52bd2d1294da3ca1a2ef" compoundref="_enemy_pool_8cs" startline="58" endline="62">GetEnemyBackToPool</references>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_pool_1afc6cffe9d3f2e2b99a1b5631b7463cfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyPool.GetEnemy</definition>
+        <argsstring>(Vector3 position)</argsstring>
+        <name>GetEnemy</name>
+        <qualifiedname>EnemyPool.GetEnemy</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+<para>Gets the <ref refid="class_enemy" kindref="compound">Enemy</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The position.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPool.cs" line="34" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPool.cs" bodystart="34" bodyend="52"/>
+        <referencedby refid="class_enemy_spawner_1ab0f3cc4c03a6f797d0176f46a7a451fe" compoundref="_enemy_spawner_8cs" startline="114" endline="117">EnemySpawner.SpawnFastMeleeEnemy</referencedby>
+        <referencedby refid="class_enemy_spawner_1a7ffd9a4af06e362ac787784da9a8d2c8" compoundref="_enemy_spawner_8cs" startline="98" endline="101">EnemySpawner.SpawnSmallMeleeEnemy</referencedby>
+        <referencedby refid="class_enemy_spawner_1ab0c3b2324d05444d46b76729b22c685f" compoundref="_enemy_spawner_8cs" startline="106" endline="109">EnemySpawner.SpawnSmallRangedEnemy</referencedby>
+        <referencedby refid="class_enemy_spawner_1ad3fe549a7a8cb85eddc524b151a405c6" compoundref="_enemy_spawner_8cs" startline="122" endline="125">EnemySpawner.SpawnStrongMeleeEnemy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_pool_1a0df4ff74f56a52bd2d1294da3ca1a2ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyPool.GetEnemyBackToPool</definition>
+        <argsstring>(GameObject enemy)</argsstring>
+        <name>GetEnemyBackToPool</name>
+        <qualifiedname>EnemyPool.GetEnemyBackToPool</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>enemy</declname>
+        </param>
+        <briefdescription>
+<para>Gets the EnemyBackToPool. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>enemy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The enemy.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPool.cs" line="58" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPool.cs" bodystart="58" bodyend="62"/>
+        <referencedby refid="class_enemy_pool_1a84dcccca8b1bffb127a0aeb7c03e3368" compoundref="_enemy_pool_8cs" startline="20" endline="29">EnquePool</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_enemy_pool" kindref="compound">EnemyPool</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EnemyPool</label>
+        <link refid="class_enemy_pool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="3">
+        <label>SmallEnemyMeleePool</label>
+        <link refid="class_small_enemy_melee_pool"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EnemyPool</label>
+        <link refid="class_enemy_pool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPool.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPool.cs" bodystart="10" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_enemy_pool_1a8105ce36a4e7d796a487134857ee9303" prot="private" virt="non-virtual"><scope>EnemyPool</scope><name>enemyPool</name></member>
+      <member refid="class_enemy_pool_1a05203b0aabf26e0ba8093fa0310323d8" prot="private" virt="non-virtual"><scope>EnemyPool</scope><name>enemyPrefab</name></member>
+      <member refid="class_enemy_pool_1a84dcccca8b1bffb127a0aeb7c03e3368" prot="public" virt="non-virtual"><scope>EnemyPool</scope><name>EnquePool</name></member>
+      <member refid="class_enemy_pool_1afc6cffe9d3f2e2b99a1b5631b7463cfc" prot="public" virt="non-virtual"><scope>EnemyPool</scope><name>GetEnemy</name></member>
+      <member refid="class_enemy_pool_1a0df4ff74f56a52bd2d1294da3ca1a2ef" prot="public" virt="non-virtual"><scope>EnemyPool</scope><name>GetEnemyBackToPool</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

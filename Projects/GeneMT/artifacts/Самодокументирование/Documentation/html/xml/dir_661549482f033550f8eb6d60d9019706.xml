@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_661549482f033550f8eb6d60d9019706" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats</compoundname>
+    <innerfile refid="_heal_sphere_8cs">HealSphere.cs</innerfile>
+    <innerfile refid="_player_8cs">Player.cs</innerfile>
+    <innerfile refid="_player_h_p_8cs">PlayerHP.cs</innerfile>
+    <innerfile refid="_player_h_p_view_8cs">PlayerHPView.cs</innerfile>
+    <innerfile refid="_player_reputation_edit_test_8cs">PlayerReputationEditTest.cs</innerfile>
+    <innerfile refid="_player_reputation_view_8cs">PlayerReputationView.cs</innerfile>
+    <innerfile refid="_player_stats_8cs">PlayerStats.cs</innerfile>
+    <innerfile refid="_player_stats_s_o_8cs">PlayerStatsSO.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/"/>
+  </compounddef>
+</doxygen>

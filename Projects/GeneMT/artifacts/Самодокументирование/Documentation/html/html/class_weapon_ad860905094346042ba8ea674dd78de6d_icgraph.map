@@ -1,0 +1,13 @@
+<map id="Weapon.CalculateDamage" name="Weapon.CalculateDamage">
+<area shape="rect" id="Node000001" title=" " alt="" coords="693,68,870,95"/>
+<area shape="rect" id="Node000002" href="$class_weapon.html#a06a4040601202b7335c1066af462861f" title=" " alt="" coords="472,68,645,95"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="675,81,646,84,646,79,681,81"/>
+<area shape="rect" id="Node000003" href="$class_weapon.html#a6d7148708171a55fe10eb250d73c9f71" title=" " alt="" coords="287,43,413,69"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="454,69,414,66,414,61,459,69"/>
+<area shape="rect" id="Node000006" href="$class_weapon.html#a4ac4fcc1733a670d99607f52d6160701" title=" " alt="" coords="276,93,424,120"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="459,94,425,100,424,95,454,94"/>
+<area shape="rect" id="Node000004" href="$class_weapon_save_manager.html#a2f5c0b329b8082a5a24074903becf2d3" title="Executes the ApplySavedStateToWeapon operation." alt="" coords="5,5,228,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="268,47,228,43,228,38,274,46"/>
+<area shape="rect" id="Node000005" href="$class_weapon.html#afe9d6a5606e4e8bcd65e3f5280269038" title="Executes the TestAddLevel operation." alt="" coords="41,72,192,99"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="269,66,193,78,192,73,274,65"/>
+</map>

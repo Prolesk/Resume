@@ -1,0 +1,12 @@
+<map id="UniversalDamageBoostItemSO" name="UniversalDamageBoostItemSO">
+<area shape="rect" id="Node000001" title="The UniversalDamageBoostItemSO class." alt="" coords="5,332,210,359"/>
+<area shape="rect" id="Node000002" href="$class_item_data_s_o.html" title="The ItemDataSO class." alt="" coords="60,256,155,283"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,296,110,333,105,331,106,300"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="44,5,161,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,47,110,256,105,255,100,49"/>
+<area shape="rect" id="Node000005" href="$class_singleton_scriptable_object-1-g.html" title=" " alt="" coords="124,81,326,108"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="135,37,206,80,201,82,136,43"/>
+<area shape="rect" id="Node000004" href="$class_item_controller_s_o.html" title="The ItemControllerSO class." alt="" coords="144,157,266,184"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="184,193,122,258,118,254,180,197"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="219,120,211,158,206,156,216,125"/>
+</map>

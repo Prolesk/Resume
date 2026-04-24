@@ -1,0 +1,13 @@
+<map id="WeaponSaveManager.ApplySavedStateToWeapon" name="WeaponSaveManager.ApplySavedStateToWeapon">
+<area shape="rect" id="Node000001" title="Executes the ApplySavedStateToWeapon operation." alt="" coords="5,48,228,91"/>
+<area shape="rect" id="Node000002" href="$class_weapon.html#a6d7148708171a55fe10eb250d73c9f71" title=" " alt="" coords="276,56,402,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,67,263,69,258,70,228,72"/>
+<area shape="rect" id="Node000003" href="$class_weapon.html#a06a4040601202b7335c1066af462861f" title=" " alt="" coords="450,31,623,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="402,59,432,57,437,57,403,64"/>
+<area shape="rect" id="Node000006" href="$class_weapon.html#a188e2513ead27db5ffe844e168804ae4" title=" " alt="" coords="464,81,609,108"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="403,75,452,84,447,83,402,80"/>
+<area shape="rect" id="Node000004" href="$class_weapon.html#a074f6fa47b6ee3202dc6751eabdfb000" title=" " alt="" coords="671,5,857,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="623,32,658,30,653,31,624,37"/>
+<area shape="rect" id="Node000005" href="$class_weapon.html#ad860905094346042ba8ea674dd78de6d" title=" " alt="" coords="676,56,852,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="624,51,663,58,658,58,624,56"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="MutationRewardInfo.SetMutationInfo" name="MutationRewardInfo.SetMutationInfo">
+<area shape="rect" id="Node000001" title="Sets the MutationInfo." alt="" coords="5,35,240,61"/>
+<area shape="rect" id="Node000002" href="$class_mutations_panel.html#ae15190f985e61c23d7505cb356a9208d" title="Sets the MutationInfo." alt="" coords="288,5,495,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="240,33,275,31,270,32,241,38"/>
+<area shape="rect" id="Node000003" href="$class_mutation_reward_info.html#aad6b6a922cbe5b6bc0d9d51ddcadd4ad" title="Executes the TransferRandomObjects operation." alt="" coords="296,56,486,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="240,58,284,65,278,65,240,63"/>
+</map>

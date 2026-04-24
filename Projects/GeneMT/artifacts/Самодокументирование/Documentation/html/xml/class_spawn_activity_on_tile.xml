@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_spawn_activity_on_tile" kind="class" language="C#" prot="public">
+    <compoundname>SpawnActivityOnTile</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_spawn_activity_on_tile_1af7781ca304b7af285d0af4d3e1578654" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SpawnActivityOnTile._questGiver</definition>
+        <argsstring></argsstring>
+        <name>_questGiver</name>
+        <qualifiedname>SpawnActivityOnTile._questGiver</qualifiedname>
+        <briefdescription>
+<para>The _questGiver field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" line="17" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_spawn_activity_on_tile_1a204249f5aacd4bbe60125033e52c738f" compoundref="_spawn_activity_on_tile_8cs" startline="52" endline="60">SpawnQuestGiverOfType</referencedby>
+        <referencedby refid="class_spawn_activity_on_tile_1a64e8152a1285f12862d0e60cecfefd4e" compoundref="_spawn_activity_on_tile_8cs" startline="76" endline="84">SpawnTransitionQuest</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_spawn_activity_on_tile_1a0dfefbc00ec1c6507ced113b6682baf2" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SpawnActivityOnTile._mutationChest</definition>
+        <argsstring></argsstring>
+        <name>_mutationChest</name>
+        <qualifiedname>SpawnActivityOnTile._mutationChest</qualifiedname>
+        <briefdescription>
+<para>The _mutationChest field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" line="23" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_spawn_activity_on_tile_1ab938a6ab3d90daaacd2f1856a6b63d62" compoundref="_spawn_activity_on_tile_8cs" startline="64" endline="70">SpawnMutationChest</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_spawn_activity_on_tile_1afce4e7d9e0844fea157b02a6619a22f5" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SpawnActivityOnTile._gasTank</definition>
+        <argsstring></argsstring>
+        <name>_gasTank</name>
+        <qualifiedname>SpawnActivityOnTile._gasTank</qualifiedname>
+        <briefdescription>
+<para>The _gasTank field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" line="29" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_spawn_activity_on_tile_1a838136b422a02070943580f5d70e4ea9" compoundref="_spawn_activity_on_tile_8cs" startline="38" endline="44">SpawnGasTank</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_spawn_activity_on_tile_1a79ca28fc9d58ad992d7d3555702261f0" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="_activity_on_tile_type_8cs_1a584f428d4bd093f85bfbb47fb91fe88b" kindref="member">ActivityOnTileType</ref> &gt;</type>
+        <definition>List&lt;ActivityOnTileType&gt; SpawnActivityOnTile._objectsOnTile</definition>
+        <argsstring></argsstring>
+        <name>_objectsOnTile</name>
+        <qualifiedname>SpawnActivityOnTile._objectsOnTile</qualifiedname>
+        <initializer>= new List&lt;<ref refid="_activity_on_tile_type_8cs_1a584f428d4bd093f85bfbb47fb91fe88b" kindref="member">ActivityOnTileType</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" line="32" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_generation_1a87ab05fd81e1888dfa585afb81ec439a" compoundref="_generation_8cs" startline="120" endline="175">Generation.AddMutationsChestsToTiles</referencedby>
+        <referencedby refid="class_generation_1a74e1078328d45b8768c86ef5f72d6b9a" compoundref="_generation_8cs" startline="184" endline="301">Generation.AddQuestsToTiles</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_spawn_activity_on_tile_1a217289aa0a7bac2d95f78e084f45b92d" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform SpawnActivityOnTile._questGiverSpawnPoint</definition>
+        <argsstring></argsstring>
+        <name>_questGiverSpawnPoint</name>
+        <qualifiedname>SpawnActivityOnTile._questGiverSpawnPoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" line="18" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spawn_activity_on_tile_1a5d44f64c04b114d6ad54ddf2a818b485" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform SpawnActivityOnTile._mutationChestSpawnPoint</definition>
+        <argsstring></argsstring>
+        <name>_mutationChestSpawnPoint</name>
+        <qualifiedname>SpawnActivityOnTile._mutationChestSpawnPoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" line="24" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spawn_activity_on_tile_1a497828ddd3dff4f4b84bd280aad193d2" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform SpawnActivityOnTile._gasTankSpawnPoint</definition>
+        <argsstring></argsstring>
+        <name>_gasTankSpawnPoint</name>
+        <qualifiedname>SpawnActivityOnTile._gasTankSpawnPoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" line="30" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spawn_activity_on_tile_1a838136b422a02070943580f5d70e4ea9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpawnActivityOnTile.SpawnGasTank</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnGasTank</name>
+        <qualifiedname>SpawnActivityOnTile.SpawnGasTank</qualifiedname>
+        <briefdescription>
+<para>Spawns <ref refid="class_gas_tank" kindref="compound">GasTank</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" line="38" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" bodystart="38" bodyend="44"/>
+        <references refid="class_spawn_activity_on_tile_1afce4e7d9e0844fea157b02a6619a22f5" compoundref="_spawn_activity_on_tile_8cs" startline="29">_gasTank</references>
+      </memberdef>
+      <memberdef kind="function" id="class_spawn_activity_on_tile_1a204249f5aacd4bbe60125033e52c738f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpawnActivityOnTile.SpawnQuestGiverOfType</definition>
+        <argsstring>(QuestData Quest, ItemType QuestType)</argsstring>
+        <name>SpawnQuestGiverOfType</name>
+        <qualifiedname>SpawnActivityOnTile.SpawnQuestGiverOfType</qualifiedname>
+        <param>
+          <type><ref refid="class_quest_data" kindref="compound">QuestData</ref></type>
+          <declname>Quest</declname>
+        </param>
+        <param>
+          <type><ref refid="_item_type_8cs_1a443f647757dde85043b49343f5cbe66b" kindref="member">ItemType</ref></type>
+          <declname>QuestType</declname>
+        </param>
+        <briefdescription>
+<para>Spawns QuestGiverOfType. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Quest</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Quest.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>QuestType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The QuestType.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" line="52" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" bodystart="52" bodyend="60"/>
+        <references refid="class_spawn_activity_on_tile_1af7781ca304b7af285d0af4d3e1578654" compoundref="_spawn_activity_on_tile_8cs" startline="17">_questGiver</references>
+        <references refid="_activity_on_tile_type_8cs_1a584f428d4bd093f85bfbb47fb91fe88ba07bf513a88c3df282a30cb374f8a933d" compoundref="_activity_on_tile_type_8cs" startline="3">Quest</references>
+        <referencedby refid="class_generation_1a74e1078328d45b8768c86ef5f72d6b9a" compoundref="_generation_8cs" startline="184" endline="301">Generation.AddQuestsToTiles</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_spawn_activity_on_tile_1ab938a6ab3d90daaacd2f1856a6b63d62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpawnActivityOnTile.SpawnMutationChest</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnMutationChest</name>
+        <qualifiedname>SpawnActivityOnTile.SpawnMutationChest</qualifiedname>
+        <briefdescription>
+<para>Spawns MutationChest. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" line="64" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" bodystart="64" bodyend="70"/>
+        <references refid="class_spawn_activity_on_tile_1a0dfefbc00ec1c6507ced113b6682baf2" compoundref="_spawn_activity_on_tile_8cs" startline="23">_mutationChest</references>
+        <referencedby refid="class_generation_1a87ab05fd81e1888dfa585afb81ec439a" compoundref="_generation_8cs" startline="120" endline="175">Generation.AddMutationsChestsToTiles</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_spawn_activity_on_tile_1a64e8152a1285f12862d0e60cecfefd4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpawnActivityOnTile.SpawnTransitionQuest</definition>
+        <argsstring>(QuestData Quest)</argsstring>
+        <name>SpawnTransitionQuest</name>
+        <qualifiedname>SpawnActivityOnTile.SpawnTransitionQuest</qualifiedname>
+        <param>
+          <type><ref refid="class_quest_data" kindref="compound">QuestData</ref></type>
+          <declname>Quest</declname>
+        </param>
+        <briefdescription>
+<para>Spawns TransitionQuest. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Quest</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Quest.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" line="76" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" bodystart="76" bodyend="84"/>
+        <references refid="class_spawn_activity_on_tile_1af7781ca304b7af285d0af4d3e1578654" compoundref="_spawn_activity_on_tile_8cs" startline="17">_questGiver</references>
+        <references refid="_activity_on_tile_type_8cs_1a584f428d4bd093f85bfbb47fb91fe88ba07bf513a88c3df282a30cb374f8a933d" compoundref="_activity_on_tile_type_8cs" startline="3">Quest</references>
+        <referencedby refid="class_generation_1a74e1078328d45b8768c86ef5f72d6b9a" compoundref="_generation_8cs" startline="184" endline="301">Generation.AddQuestsToTiles</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_spawn_activity_on_tile" kindref="compound">SpawnActivityOnTile</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SpawnActivityOnTile</label>
+        <link refid="class_spawn_activity_on_tile"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SpawnActivityOnTile</label>
+        <link refid="class_spawn_activity_on_tile"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" line="10" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/SpawnActivityOnTile.cs" bodystart="11" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_spawn_activity_on_tile_1afce4e7d9e0844fea157b02a6619a22f5" prot="public" virt="non-virtual"><scope>SpawnActivityOnTile</scope><name>_gasTank</name></member>
+      <member refid="class_spawn_activity_on_tile_1a497828ddd3dff4f4b84bd280aad193d2" prot="private" virt="non-virtual"><scope>SpawnActivityOnTile</scope><name>_gasTankSpawnPoint</name></member>
+      <member refid="class_spawn_activity_on_tile_1a0dfefbc00ec1c6507ced113b6682baf2" prot="public" virt="non-virtual"><scope>SpawnActivityOnTile</scope><name>_mutationChest</name></member>
+      <member refid="class_spawn_activity_on_tile_1a5d44f64c04b114d6ad54ddf2a818b485" prot="private" virt="non-virtual"><scope>SpawnActivityOnTile</scope><name>_mutationChestSpawnPoint</name></member>
+      <member refid="class_spawn_activity_on_tile_1a79ca28fc9d58ad992d7d3555702261f0" prot="public" virt="non-virtual"><scope>SpawnActivityOnTile</scope><name>_objectsOnTile</name></member>
+      <member refid="class_spawn_activity_on_tile_1af7781ca304b7af285d0af4d3e1578654" prot="public" virt="non-virtual"><scope>SpawnActivityOnTile</scope><name>_questGiver</name></member>
+      <member refid="class_spawn_activity_on_tile_1a217289aa0a7bac2d95f78e084f45b92d" prot="private" virt="non-virtual"><scope>SpawnActivityOnTile</scope><name>_questGiverSpawnPoint</name></member>
+      <member refid="class_spawn_activity_on_tile_1a838136b422a02070943580f5d70e4ea9" prot="public" virt="non-virtual"><scope>SpawnActivityOnTile</scope><name>SpawnGasTank</name></member>
+      <member refid="class_spawn_activity_on_tile_1ab938a6ab3d90daaacd2f1856a6b63d62" prot="public" virt="non-virtual"><scope>SpawnActivityOnTile</scope><name>SpawnMutationChest</name></member>
+      <member refid="class_spawn_activity_on_tile_1a204249f5aacd4bbe60125033e52c738f" prot="public" virt="non-virtual"><scope>SpawnActivityOnTile</scope><name>SpawnQuestGiverOfType</name></member>
+      <member refid="class_spawn_activity_on_tile_1a64e8152a1285f12862d0e60cecfefd4e" prot="public" virt="non-virtual"><scope>SpawnActivityOnTile</scope><name>SpawnTransitionQuest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

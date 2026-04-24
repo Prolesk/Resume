@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_enemy_killer_quest" kind="class" language="C#" prot="public">
+    <compoundname>EnemyKillerQuest</compoundname>
+    <basecompoundref refid="class_quest_data" prot="public" virt="non-virtual">QuestData</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_enemy_killer_quest_1a651c681861e7bbed416d9cf79d8d7927" prot="public" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; EnemyKillerQuest.TypesOfEnemy</definition>
+        <argsstring></argsstring>
+        <name>TypesOfEnemy</name>
+        <qualifiedname>EnemyKillerQuest.TypesOfEnemy</qualifiedname>
+        <initializer>= new List&lt;int&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/EnemyKillerQuest.cs" line="12" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/EnemyKillerQuest.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_enemy_killer_quest_1af3eaea59ec532b6308cbfec97477f38e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void EnemyKillerQuest.OnQuestStart</definition>
+        <argsstring>()</argsstring>
+        <name>OnQuestStart</name>
+        <qualifiedname>EnemyKillerQuest.OnQuestStart</qualifiedname>
+        <reimplements refid="class_quest_data_1ae4cef79b6692123af80a10506f8e6e91">OnQuestStart</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/EnemyKillerQuest.cs" line="14" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/EnemyKillerQuest.cs" bodystart="14" bodyend="18"/>
+        <references refid="class_quest_manager_1a8e1cd09cf2af8f04d6854f0b54d8b0bf" compoundref="_quest_manager_8cs" startline="11">QuestManager.Instance</references>
+        <references refid="class_quest_manager_1a1395a03cb6c72209747309163e62ef6f" compoundref="_quest_manager_8cs" startline="46" endline="61">QuestManager.RegisterQuest</references>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_killer_quest_1adf9a97fd5df16e793bb0dece37d82340" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void EnemyKillerQuest.OnQuestFinish</definition>
+        <argsstring>()</argsstring>
+        <name>OnQuestFinish</name>
+        <qualifiedname>EnemyKillerQuest.OnQuestFinish</qualifiedname>
+        <reimplements refid="class_quest_data_1a2a2f251872865a983288cd6b456162c6">OnQuestFinish</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/EnemyKillerQuest.cs" line="20" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/EnemyKillerQuest.cs" bodystart="20" bodyend="25"/>
+        <references refid="class_quest_manager_1a8e1cd09cf2af8f04d6854f0b54d8b0bf" compoundref="_quest_manager_8cs" startline="11">QuestManager.Instance</references>
+        <references refid="class_quest_manager_1aea24d979636f69fa40f33d064fa54109" compoundref="_quest_manager_8cs" startline="67" endline="83">QuestManager.UnregisterQuest</references>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_killer_quest_1acca5b71f1f4a12d467c71612591f94c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void EnemyKillerQuest.OnQuestCancel</definition>
+        <argsstring>()</argsstring>
+        <name>OnQuestCancel</name>
+        <qualifiedname>EnemyKillerQuest.OnQuestCancel</qualifiedname>
+        <reimplements refid="class_quest_data_1a410a2489e7fbfee4bf386e41ac7aca30">OnQuestCancel</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/EnemyKillerQuest.cs" line="27" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/EnemyKillerQuest.cs" bodystart="27" bodyend="32"/>
+        <references refid="class_quest_manager_1ab1471bbeb7ffe4bf53b0c66152758f44" compoundref="_quest_manager_8cs" startline="108" endline="125">QuestManager.CancelQuest</references>
+        <references refid="class_quest_manager_1a8e1cd09cf2af8f04d6854f0b54d8b0bf" compoundref="_quest_manager_8cs" startline="11">QuestManager.Instance</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_enemy_killer_quest" kindref="compound">EnemyKillerQuest</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EnemyKillerQuest</label>
+        <link refid="class_enemy_killer_quest"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QuestData</label>
+        <link refid="class_quest_data"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QuestSO</label>
+        <link refid="class_quest_s_o"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="4">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>EInteractable</label>
+        <link refid="class_e_interactable"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>EnemyKillerQuest</label>
+        <link refid="class_enemy_killer_quest"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>QuestData</label>
+        <link refid="class_quest_data"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_questGiver</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>QuestGiver</label>
+        <link refid="class_quest_giver"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QuestSO</label>
+        <link refid="class_quest_s_o"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="4">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/EnemyKillerQuest.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/EnemyKillerQuest.cs" bodystart="10" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_quest_s_o_1a5efab303df6c76e08afd15df1b719d59" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>_onQuestFinished</name></member>
+      <member refid="class_quest_s_o_1ae15b001e08eabb8b66c66b7805e3be7d" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>_onQuestStarted</name></member>
+      <member refid="class_quest_s_o_1a09c3e6a7789e9f38eac7679e5c0f7bf9" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>_onQuestUpdated</name></member>
+      <member refid="class_quest_data_1abe69e5a2a7ab22473bb90e85f966ae9f" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>_questGiver</name></member>
+      <member refid="class_quest_data_1aeb48ae4e36e563376e252d8a65e50ea1" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>active</name></member>
+      <member refid="class_quest_data_1ad6f13c9ec2c0d593f7b3e178d4288008" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>canceled</name></member>
+      <member refid="class_quest_data_1afc3d311dbb73bc01dad93a923af1c962" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>finished</name></member>
+      <member refid="class_quest_s_o_1ad32bc3329879c9d803fc311baba33109" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>FinishQuest</name></member>
+      <member refid="class_quest_s_o_1a798a0694172e043a040a60979013c299" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>goal</name></member>
+      <member refid="class_quest_s_o_1a12e1fedcb2783f96dcf7d9b865d61650" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>GoldReward</name></member>
+      <member refid="class_quest_s_o_1a6832564c35b20c8d2c89aff861ed5ddd" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>HasFinishAnimation</name></member>
+      <member refid="class_quest_s_o_1a94931986cb20e170fe4e9c2902b112d5" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>HasStartAnimation</name></member>
+      <member refid="class_quest_data_1a9879566eac2fea9eeabb618582298839" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>highLighted</name></member>
+      <member refid="class_singleton_scriptable_object-1-g_1aa59148a0a9bc37057ef216e7c9a814a8" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>Instance</name></member>
+      <member refid="class_quest_s_o_1a132123ffe9ec7dafddef1c709a79d6d7" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>NeedReStartEvent</name></member>
+      <member refid="class_quest_data_1ad3c2cf99ed8b8edb529363c82d19e0e7" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>OnHighlighted</name></member>
+      <member refid="class_enemy_killer_quest_1acca5b71f1f4a12d467c71612591f94c4" prot="public" virt="virtual"><scope>EnemyKillerQuest</scope><name>OnQuestCancel</name></member>
+      <member refid="class_enemy_killer_quest_1adf9a97fd5df16e793bb0dece37d82340" prot="public" virt="virtual"><scope>EnemyKillerQuest</scope><name>OnQuestFinish</name></member>
+      <member refid="class_enemy_killer_quest_1af3eaea59ec532b6308cbfec97477f38e" prot="public" virt="virtual"><scope>EnemyKillerQuest</scope><name>OnQuestStart</name></member>
+      <member refid="class_quest_data_1a2a7fcbb76c881392b9d82be0938b5738" prot="public" virt="virtual"><scope>EnemyKillerQuest</scope><name>OnQuestTurnedIn</name></member>
+      <member refid="class_quest_data_1aa8418beb00ab53a6071e4e8304455828" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>OnSelect</name></member>
+      <member refid="class_quest_data_1a51c17ea98cde9738328a327e85e758c3" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>progress</name></member>
+      <member refid="class_quest_s_o_1ae80c44018b7de89a077817628b4c258f" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>QuestDescription</name></member>
+      <member refid="class_quest_s_o_1a64541bb365b90acf64e5642159eca2a2" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>QuestId</name></member>
+      <member refid="class_quest_data_1acc41ec712c0d14ff480f9d9e42023f1a" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>questInfo</name></member>
+      <member refid="class_quest_s_o_1a03d4f439534761c3ba102632607ef98e" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>QuestName</name></member>
+      <member refid="class_quest_data_1a037c159de3bdd2026cf7290c281431e6" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>questRewardInfo</name></member>
+      <member refid="class_quest_data_1a784c8eb6af7d4da2deb6d4ed8a52df9d" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>selected</name></member>
+      <member refid="class_quest_s_o_1a06e83b27607671a13415d73ecb51ab3f" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>StartQuest</name></member>
+      <member refid="class_quest_data_1a9e543505a0a34056d5fd9dadee5e1e08" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>turnedIn</name></member>
+      <member refid="class_enemy_killer_quest_1a651c681861e7bbed416d9cf79d8d7927" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>TypesOfEnemy</name></member>
+      <member refid="class_quest_data_1acde237ec9d91d880a7fa444ef6edf226" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>UpdateProgress</name></member>
+      <member refid="class_quest_s_o_1a7dd6cda0dc453e8ec8a71899ef2075e7" prot="public" virt="non-virtual"><scope>EnemyKillerQuest</scope><name>UpdateQuest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

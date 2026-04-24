@@ -1,0 +1,5 @@
+<map id="QuestManager.TurnInQuest" name="QuestManager.TurnInQuest">
+<area shape="rect" id="Node000001" title="Executes the TurnInQuest operation." alt="" coords="5,13,188,40"/>
+<area shape="rect" id="Node000002" href="$class_quest_notification.html#ad9640c8733a9dcb21f770a691fa497ed" title="Shows UI element." alt="" coords="236,5,430,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,24,223,26,217,27,188,29"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="WeaponSaveManager.OnGameOver" name="WeaponSaveManager.OnGameOver">
+<area shape="rect" id="Node000001" title="Event handler for OnGameOver." alt="" coords="5,5,238,32"/>
+<area shape="rect" id="Node000002" href="$class_weapon_save_manager.html#a3d0e17b462cdbbcd3dbf6ff404cf467c" title="Resets Session." alt="" coords="286,5,520,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,16,273,19,268,19,238,21"/>
+</map>

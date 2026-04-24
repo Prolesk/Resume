@@ -1,0 +1,5 @@
+<map id="EnemySpawner.SpawnFastMeleeEnemy" name="EnemySpawner.SpawnFastMeleeEnemy">
+<area shape="rect" id="Node000001" title="Spawns FastMeleeEnemy." alt="" coords="5,5,224,48"/>
+<area shape="rect" id="Node000002" href="$class_enemy_pool.html#afc6cffe9d3f2e2b99a1b5631b7463cfc" title="Gets the Enemy." alt="" coords="272,13,426,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,24,259,27,253,27,224,29"/>
+</map>

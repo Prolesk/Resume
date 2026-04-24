@@ -1,0 +1,1623 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_audio_manager" kind="class" language="C#" prot="public">
+    <compoundname>AudioManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_audio_manager_1af96f8bc4f9a0ad3f1a63a028bb31f790" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_audio_manager" kindref="compound">AudioManager</ref></type>
+        <definition>AudioManager AudioManager.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>AudioManager.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="11" column="32" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_player_h_p_1a96e8c0a58a3538c568a41be4154af8c3" compoundref="_player_h_p_8cs" startline="99" endline="120">PlayerHP.Damage</referencedby>
+        <referencedby refid="class_player_h_p_1acce7bb9a08f70d48821152292a96c836" compoundref="_player_h_p_8cs" startline="72" endline="93">PlayerHP.DamageInPercent</referencedby>
+        <referencedby refid="class_audio_manager_1ad566b4efa3a655d675ed5b9195fde4b8">GetMusicVolume</referencedby>
+        <referencedby refid="class_player_h_p_1a1820fffa570c7d43314a449241c1c550" compoundref="_player_h_p_8cs" startline="126" endline="139">PlayerHP.Heal</referencedby>
+        <referencedby refid="class_player_h_p_1a96a465e657e375b55bbfb8e0b6582205" compoundref="_player_h_p_8cs" startline="144" endline="157">PlayerHP.HealInProcent</referencedby>
+        <referencedby refid="class_chest_1a1f382bd9cea967ac4aa29ba97ce332fd" compoundref="_chest_8cs" startline="40" endline="70">Chest.Interact</referencedby>
+        <referencedby refid="class_quest_giver_1a969ad607369c939921780414df7e4056" compoundref="_quest_giver_8cs" startline="111" endline="160">QuestGiver.Interact</referencedby>
+        <referencedby refid="class_game_state_manager_1a05c4e25e28a3d356613da753b34386c3" compoundref="_game_state_manager_8cs" startline="125" endline="129">GameStateManager.ResumeGame</referencedby>
+        <referencedby refid="class_game_state_manager_1a99eb55de665c0ded19721f97626f49f2" compoundref="_game_state_manager_8cs" startline="85" endline="120">GameStateManager.SetPaused</referencedby>
+        <referencedby refid="class_game_state_manager_1a90f2b3f817c1e397a3b28f89f752cc79" compoundref="_game_state_manager_8cs" startline="54" endline="78">GameStateManager.TogglePause</referencedby>
+        <referencedby refid="class_level_up_controller_1afe83bcb13addd931e566e01c3731a7ef" compoundref="_level_up_controller_8cs" startline="77" endline="80">LevelUpController.UiClickSound</referencedby>
+        <referencedby refid="class_u_i_click_sound_1abcf72fb4e1adef8bb5d3c4057bc833dd" compoundref="_u_i_click_sound_8cs" startline="18" endline="21">UIClickSound.UiClickSound</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_audio_manager_1af20e9441762e9b8086842802fd93fd69" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource AudioManager.sfxSource</definition>
+        <argsstring></argsstring>
+        <name>sfxSource</name>
+        <qualifiedname>AudioManager.sfxSource</qualifiedname>
+        <briefdescription>
+<para>The sfxSource field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="17" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a8eeeadc5ea8c46542fabd7948eb3e4f2" compoundref="_audio_manager_8cs" startline="141" endline="148">PlaySFX</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a54db9f2d0d9838c238a56cc82b222773" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource AudioManager.musicSource</definition>
+        <argsstring></argsstring>
+        <name>musicSource</name>
+        <qualifiedname>AudioManager.musicSource</qualifiedname>
+        <briefdescription>
+<para>The musicSource field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="21" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a7bf98859611fc62a5fda8564a99cce65" compoundref="_audio_manager_8cs" startline="373" endline="379">DuckMusic</referencedby>
+        <referencedby refid="class_audio_manager_1a7bba1d859fdb069d383e4e6d32400a9f" compoundref="_audio_manager_8cs" startline="307" endline="314">PauseMusic</referencedby>
+        <referencedby refid="class_audio_manager_1aa4974ddaac6f72e10ff8b85c0421b6bf" compoundref="_audio_manager_8cs" startline="353" endline="364">PlayMusic</referencedby>
+        <referencedby refid="class_audio_manager_1a1218fdfd8ea5963b7277d6e4d317e34b" compoundref="_audio_manager_8cs" startline="319" endline="333">ResumeMusic</referencedby>
+        <referencedby refid="class_audio_manager_1afaea7cecdb292c3ba0ccf8ab8a3f18fd" compoundref="_audio_manager_8cs" startline="434" endline="441">SetMusicPitch</referencedby>
+        <referencedby refid="class_audio_manager_1aa3da61250948e1881a7c3993cf9e5af3" compoundref="_audio_manager_8cs" startline="338" endline="345">StopMusic</referencedby>
+        <referencedby refid="class_audio_manager_1acb374da8c9ebcfb9978c7347914d05bc" compoundref="_audio_manager_8cs" startline="385" endline="391">UnduckMusic</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1ae0a6395de9f150a93a27aac5e1b9e73e" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource AudioManager.walkSource</definition>
+        <argsstring></argsstring>
+        <name>walkSource</name>
+        <qualifiedname>AudioManager.walkSource</qualifiedname>
+        <briefdescription>
+<para>The walkSource field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="25" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a0918e689b547d4a6724647a8def4d665" compoundref="_audio_manager_8cs" startline="170" endline="179">PlayWalk</referencedby>
+        <referencedby refid="class_audio_manager_1a99beb70f9c1e0cda5dd0f0d6c26a4b31" compoundref="_audio_manager_8cs" startline="194" endline="198">StopWalk</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a2712cdfbad16148c8768eb0a05bbbdf6" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource AudioManager.hitSource</definition>
+        <argsstring></argsstring>
+        <name>hitSource</name>
+        <qualifiedname>AudioManager.hitSource</qualifiedname>
+        <briefdescription>
+<para>The hitSource field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="29" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a17e851a2b8b630428424fa4533ba19c8" compoundref="_audio_manager_8cs" startline="205" endline="212">PlayHit</referencedby>
+        <referencedby refid="class_audio_manager_1af2213f4bae215f43e7d4a08cf5a971e7" compoundref="_audio_manager_8cs" startline="217" endline="221">StopHit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a7fec5b4b42272a1e8399b81aaaf0a8bf" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource AudioManager.shootSource</definition>
+        <argsstring></argsstring>
+        <name>shootSource</name>
+        <qualifiedname>AudioManager.shootSource</qualifiedname>
+        <briefdescription>
+<para>The shootSource field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="33" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a60f9e5e588ff98dcf7df98fa836e546d" compoundref="_audio_manager_8cs" startline="228" endline="235">PlayShoot</referencedby>
+        <referencedby refid="class_audio_manager_1a78430e89d7009974545b7418878d0e53" compoundref="_audio_manager_8cs" startline="240" endline="244">StopShoot</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1abece80f479d0aa390188390549a99b68" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource AudioManager.openChestSource</definition>
+        <argsstring></argsstring>
+        <name>openChestSource</name>
+        <qualifiedname>AudioManager.openChestSource</qualifiedname>
+        <briefdescription>
+<para>The openChestSource field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="37" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1ade94470c3a927a27900fcfc0b281f406" compoundref="_audio_manager_8cs" startline="251" endline="258">PlayOpenChest</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a794ed09e7c7ee9a4f70e4ad72bef64b9" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource AudioManager.QuestSource</definition>
+        <argsstring></argsstring>
+        <name>QuestSource</name>
+        <qualifiedname>AudioManager.QuestSource</qualifiedname>
+        <briefdescription>
+<para>The QuestSource field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="41" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a8bdf38cce616221c9243df3277e68464" compoundref="_audio_manager_8cs" startline="265" endline="272">PlayQuest</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a28bc81052de801c0201763a794098889" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource AudioManager.levelUpSource</definition>
+        <argsstring></argsstring>
+        <name>levelUpSource</name>
+        <qualifiedname>AudioManager.levelUpSource</qualifiedname>
+        <briefdescription>
+<para>The levelUpSource field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="45" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1ab5cdad02856e65ff0d5636ab24854235" compoundref="_audio_manager_8cs" startline="279" endline="286">PlayLevelUp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a8b330220f8cdfe67edfc8f4e38e2f91c" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource AudioManager.uiClickSource</definition>
+        <argsstring></argsstring>
+        <name>uiClickSource</name>
+        <qualifiedname>AudioManager.uiClickSource</qualifiedname>
+        <briefdescription>
+<para>The uiClickSource field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="49" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1addedc9299992cf2181ad2f7c7699597f" compoundref="_audio_manager_8cs" startline="293" endline="300">PlayClick</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a1081038ce7267a4cace96e1a50ab1470" prot="public" static="no" mutable="no">
+        <type>AudioMixer</type>
+        <definition>AudioMixer AudioManager.audioMixer</definition>
+        <argsstring></argsstring>
+        <name>audioMixer</name>
+        <qualifiedname>AudioManager.audioMixer</qualifiedname>
+        <briefdescription>
+<para>The audioMixer field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="55" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a1ffa86b870d056dc5e9c039c01820fd6" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AudioManager.masterVolume</definition>
+        <argsstring></argsstring>
+        <name>masterVolume</name>
+        <qualifiedname>AudioManager.masterVolume</qualifiedname>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+<para>The masterVolume field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="62" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="62" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a290e934e34ecdf1614ba9975467ba25b">GetMasterVolume</referencedby>
+        <referencedby refid="class_audio_manager_1abcf3772aefa4b77a8e4d409ade7b0b3f" compoundref="_audio_manager_8cs" startline="478" endline="483">SetMasterVolume</referencedby>
+        <referencedby refid="class_audio_manager_1af6d026a547fb9bad6021b4f3c38f86f7" compoundref="_audio_manager_8cs" startline="587" endline="591">ToggleMute</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a1b6fc07e298f39996023921d7ae1cec5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AudioManager.sfxVolume</definition>
+        <argsstring></argsstring>
+        <name>sfxVolume</name>
+        <qualifiedname>AudioManager.sfxVolume</qualifiedname>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+<para>The sfxVolume field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="67" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="67" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a2f589a4cf5c57bc82e831b5cb18c6be2">GetSFXVolume</referencedby>
+        <referencedby refid="class_audio_manager_1a86119c029ac5638fd4931b465a1970bf" compoundref="_audio_manager_8cs" startline="489" endline="494">SetSFXVolume</referencedby>
+        <referencedby refid="class_audio_manager_1a766282078448f3ca259f865ad8f96c42" compoundref="_audio_manager_8cs" startline="605" endline="609">ToggleSFXMute</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1ac773fb615b917c71e32555ca6d5e0833" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AudioManager.musicVolume</definition>
+        <argsstring></argsstring>
+        <name>musicVolume</name>
+        <qualifiedname>AudioManager.musicVolume</qualifiedname>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+<para>The musicVolume field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="72" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="72" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1ad566b4efa3a655d675ed5b9195fde4b8">GetMusicVolume</referencedby>
+        <referencedby refid="class_audio_manager_1add05f438dc5539268686059b3515afa2" compoundref="_audio_manager_8cs" startline="500" endline="505">SetMusicVolume</referencedby>
+        <referencedby refid="class_audio_manager_1a9b29a1a7e26513d1ba1b4183bc5926ab" compoundref="_audio_manager_8cs" startline="596" endline="600">ToggleMusicMute</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_audio_manager_1a6427ae325570c56a72891d8122e98111" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string AudioManager.MASTER_VOL_KEY</definition>
+        <argsstring></argsstring>
+        <name>MASTER_VOL_KEY</name>
+        <qualifiedname>AudioManager.MASTER_VOL_KEY</qualifiedname>
+        <initializer>= &quot;Master&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="75" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1aa2fa7860c5c5d7c999f18822243c9783" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string AudioManager.SFX_VOL_KEY</definition>
+        <argsstring></argsstring>
+        <name>SFX_VOL_KEY</name>
+        <qualifiedname>AudioManager.SFX_VOL_KEY</qualifiedname>
+        <initializer>= &quot;SFXVolume&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="76" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a4af9fb60b86dc7a91e85905f5beed871" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string AudioManager.MUSIC_VOL_KEY</definition>
+        <argsstring></argsstring>
+        <name>MUSIC_VOL_KEY</name>
+        <qualifiedname>AudioManager.MUSIC_VOL_KEY</qualifiedname>
+        <initializer>= &quot;MusicVolume&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="77" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_audio_manager_1a2f1558fad88faea7ee937192534d0d0c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AudioManager.isMusicPaused</definition>
+        <argsstring></argsstring>
+        <name>isMusicPaused</name>
+        <qualifiedname>AudioManager.isMusicPaused</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="79" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a5a43eda880682000e408afcb0c6bd08c" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; AudioSource, float &gt;</type>
+        <definition>Dictionary&lt;AudioSource, float&gt; AudioManager.sourceBaseVolumes</definition>
+        <argsstring></argsstring>
+        <name>sourceBaseVolumes</name>
+        <qualifiedname>AudioManager.sourceBaseVolumes</qualifiedname>
+        <initializer>= new Dictionary&lt;AudioSource, float&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="80" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_audio_manager_1a631d7d42b921bcbd82bd1baec2ec3ea7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>AudioManager.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="82" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="82" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a85ccf1fc4342611bf57c4ca5e15b0108" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.ConfigureAudioSources</definition>
+        <argsstring>()</argsstring>
+        <name>ConfigureAudioSources</name>
+        <qualifiedname>AudioManager.ConfigureAudioSources</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="102" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="102" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1acfc8468dd0740bf5b1d10ff7e07e7ee9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator AudioManager.DuckMusicCoroutine</definition>
+        <argsstring>(float targetDuckAmount, float duration)</argsstring>
+        <name>DuckMusicCoroutine</name>
+        <qualifiedname>AudioManager.DuckMusicCoroutine</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>targetDuckAmount</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="393" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="393" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1afdd2903bb1d92518df9983a073617919" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator AudioManager.UnduckMusicCoroutine</definition>
+        <argsstring>(float duration)</argsstring>
+        <name>UnduckMusicCoroutine</name>
+        <qualifiedname>AudioManager.UnduckMusicCoroutine</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="411" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="411" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1ae5000f9e694fafaa9dc8c4b5af2adef4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator AudioManager.ChangePitchCoroutine</definition>
+        <argsstring>(float targetPitch, float duration)</argsstring>
+        <name>ChangePitchCoroutine</name>
+        <qualifiedname>AudioManager.ChangePitchCoroutine</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>targetPitch</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="452" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="452" bodyend="470"/>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a23f83d52703157a372a11fa00992a963" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.UpdateAllVolumes</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateAllVolumes</name>
+        <qualifiedname>AudioManager.UpdateAllVolumes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="507" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="507" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1ab4752975cfed31a663adafab063232c3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.UpdateMixerVolumes</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateMixerVolumes</name>
+        <qualifiedname>AudioManager.UpdateMixerVolumes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="513" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="513" bodyend="526"/>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1abdf1ff472e1d3ea3ac11ba39047c6156" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.SaveVolumeSettings</definition>
+        <argsstring>()</argsstring>
+        <name>SaveVolumeSettings</name>
+        <qualifiedname>AudioManager.SaveVolumeSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="559" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="559" bodyend="565"/>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1af48c897866a2c9753b14c914d7b125cd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.LoadVolumeSettings</definition>
+        <argsstring>()</argsstring>
+        <name>LoadVolumeSettings</name>
+        <qualifiedname>AudioManager.LoadVolumeSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="567" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="567" bodyend="580"/>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a0cf84c64f2f28215053ebece1818f94e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <qualifiedname>AudioManager.OnDestroy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="616" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="616" bodyend="622"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_audio_manager_1a8eeeadc5ea8c46542fabd7948eb3e4f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.PlaySFX</definition>
+        <argsstring>(AudioClip clip, float volumeScale=1f)</argsstring>
+        <name>PlaySFX</name>
+        <qualifiedname>AudioManager.PlaySFX</qualifiedname>
+        <param>
+          <type>AudioClip</type>
+          <declname>clip</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volumeScale</declname>
+          <defval>1f</defval>
+        </param>
+        <briefdescription>
+<para>Plays animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The clip.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>volumeScale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The volumeScale.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="141" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="141" bodyend="148"/>
+        <references refid="class_audio_manager_1af20e9441762e9b8086842802fd93fd69" compoundref="_audio_manager_8cs" startline="17">sfxSource</references>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a76ab1fddea2ac96e7861efd8c2a048f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.PlaySFXAtPosition</definition>
+        <argsstring>(AudioClip clip, Vector3 position, float volumeScale=1f)</argsstring>
+        <name>PlaySFXAtPosition</name>
+        <qualifiedname>AudioManager.PlaySFXAtPosition</qualifiedname>
+        <param>
+          <type>AudioClip</type>
+          <declname>clip</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volumeScale</declname>
+          <defval>1f</defval>
+        </param>
+        <briefdescription>
+<para>Plays animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The clip.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The position.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>volumeScale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The volumeScale.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="156" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="156" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a0918e689b547d4a6724647a8def4d665" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.PlayWalk</definition>
+        <argsstring>(AudioClip clip, float volumeScale=0.7f)</argsstring>
+        <name>PlayWalk</name>
+        <qualifiedname>AudioManager.PlayWalk</qualifiedname>
+        <param>
+          <type>AudioClip</type>
+          <declname>clip</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volumeScale</declname>
+          <defval>0.7f</defval>
+        </param>
+        <briefdescription>
+<para>Plays animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The clip.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>volumeScale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The volumeScale.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="170" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="170" bodyend="179"/>
+        <references refid="class_audio_manager_1ae0a6395de9f150a93a27aac5e1b9e73e" compoundref="_audio_manager_8cs" startline="25">walkSource</references>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1ae85cb5dd19dca76dedfb184d17b99266" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.StopAllSFX</definition>
+        <argsstring>()</argsstring>
+        <name>StopAllSFX</name>
+        <qualifiedname>AudioManager.StopAllSFX</qualifiedname>
+        <briefdescription>
+<para>Stops animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="184" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="184" bodyend="189"/>
+        <references refid="class_audio_manager_1af2213f4bae215f43e7d4a08cf5a971e7" compoundref="_audio_manager_8cs" startline="217" endline="221">StopHit</references>
+        <references refid="class_audio_manager_1a78430e89d7009974545b7418878d0e53" compoundref="_audio_manager_8cs" startline="240" endline="244">StopShoot</references>
+        <references refid="class_audio_manager_1a99beb70f9c1e0cda5dd0f0d6c26a4b31" compoundref="_audio_manager_8cs" startline="194" endline="198">StopWalk</references>
+        <referencedby refid="class_game_state_manager_1a99eb55de665c0ded19721f97626f49f2" compoundref="_game_state_manager_8cs" startline="85" endline="120">GameStateManager.SetPaused</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a99beb70f9c1e0cda5dd0f0d6c26a4b31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.StopWalk</definition>
+        <argsstring>()</argsstring>
+        <name>StopWalk</name>
+        <qualifiedname>AudioManager.StopWalk</qualifiedname>
+        <briefdescription>
+<para>Stops animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="194" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="194" bodyend="198"/>
+        <references refid="class_audio_manager_1ae0a6395de9f150a93a27aac5e1b9e73e" compoundref="_audio_manager_8cs" startline="25">walkSource</references>
+        <referencedby refid="class_audio_manager_1ae85cb5dd19dca76dedfb184d17b99266" compoundref="_audio_manager_8cs" startline="184" endline="189">StopAllSFX</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a17e851a2b8b630428424fa4533ba19c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.PlayHit</definition>
+        <argsstring>(AudioClip clip, float volumeScale=1f)</argsstring>
+        <name>PlayHit</name>
+        <qualifiedname>AudioManager.PlayHit</qualifiedname>
+        <param>
+          <type>AudioClip</type>
+          <declname>clip</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volumeScale</declname>
+          <defval>1f</defval>
+        </param>
+        <briefdescription>
+<para>Plays animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The clip.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>volumeScale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The volumeScale.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="205" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="205" bodyend="212"/>
+        <references refid="class_audio_manager_1a2712cdfbad16148c8768eb0a05bbbdf6" compoundref="_audio_manager_8cs" startline="29">hitSource</references>
+        <referencedby refid="class_player_h_p_1a96e8c0a58a3538c568a41be4154af8c3" compoundref="_player_h_p_8cs" startline="99" endline="120">PlayerHP.Damage</referencedby>
+        <referencedby refid="class_player_h_p_1acce7bb9a08f70d48821152292a96c836" compoundref="_player_h_p_8cs" startline="72" endline="93">PlayerHP.DamageInPercent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1af2213f4bae215f43e7d4a08cf5a971e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.StopHit</definition>
+        <argsstring>()</argsstring>
+        <name>StopHit</name>
+        <qualifiedname>AudioManager.StopHit</qualifiedname>
+        <briefdescription>
+<para>Stops animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="217" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="217" bodyend="221"/>
+        <references refid="class_audio_manager_1a2712cdfbad16148c8768eb0a05bbbdf6" compoundref="_audio_manager_8cs" startline="29">hitSource</references>
+        <referencedby refid="class_audio_manager_1ae85cb5dd19dca76dedfb184d17b99266" compoundref="_audio_manager_8cs" startline="184" endline="189">StopAllSFX</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a60f9e5e588ff98dcf7df98fa836e546d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.PlayShoot</definition>
+        <argsstring>(AudioClip clip, float volumeScale=1f)</argsstring>
+        <name>PlayShoot</name>
+        <qualifiedname>AudioManager.PlayShoot</qualifiedname>
+        <param>
+          <type>AudioClip</type>
+          <declname>clip</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volumeScale</declname>
+          <defval>1f</defval>
+        </param>
+        <briefdescription>
+<para>Plays animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The clip.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>volumeScale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The volumeScale.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="228" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="228" bodyend="235"/>
+        <references refid="class_audio_manager_1a7fec5b4b42272a1e8399b81aaaf0a8bf" compoundref="_audio_manager_8cs" startline="33">shootSource</references>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a78430e89d7009974545b7418878d0e53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.StopShoot</definition>
+        <argsstring>()</argsstring>
+        <name>StopShoot</name>
+        <qualifiedname>AudioManager.StopShoot</qualifiedname>
+        <briefdescription>
+<para>Stops animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="240" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="240" bodyend="244"/>
+        <references refid="class_audio_manager_1a7fec5b4b42272a1e8399b81aaaf0a8bf" compoundref="_audio_manager_8cs" startline="33">shootSource</references>
+        <referencedby refid="class_audio_manager_1ae85cb5dd19dca76dedfb184d17b99266" compoundref="_audio_manager_8cs" startline="184" endline="189">StopAllSFX</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1ade94470c3a927a27900fcfc0b281f406" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.PlayOpenChest</definition>
+        <argsstring>(AudioClip clip, float volumeScale=1f)</argsstring>
+        <name>PlayOpenChest</name>
+        <qualifiedname>AudioManager.PlayOpenChest</qualifiedname>
+        <param>
+          <type>AudioClip</type>
+          <declname>clip</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volumeScale</declname>
+          <defval>1f</defval>
+        </param>
+        <briefdescription>
+<para>Plays animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The clip.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>volumeScale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The volumeScale.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="251" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="251" bodyend="258"/>
+        <references refid="class_audio_manager_1abece80f479d0aa390188390549a99b68" compoundref="_audio_manager_8cs" startline="37">openChestSource</references>
+        <referencedby refid="class_chest_1a1f382bd9cea967ac4aa29ba97ce332fd" compoundref="_chest_8cs" startline="40" endline="70">Chest.Interact</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a8bdf38cce616221c9243df3277e68464" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.PlayQuest</definition>
+        <argsstring>(AudioClip clip, float volumeScale=1f)</argsstring>
+        <name>PlayQuest</name>
+        <qualifiedname>AudioManager.PlayQuest</qualifiedname>
+        <param>
+          <type>AudioClip</type>
+          <declname>clip</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volumeScale</declname>
+          <defval>1f</defval>
+        </param>
+        <briefdescription>
+<para>Plays animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The clip.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>volumeScale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The volumeScale.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="265" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="265" bodyend="272"/>
+        <references refid="class_audio_manager_1a794ed09e7c7ee9a4f70e4ad72bef64b9" compoundref="_audio_manager_8cs" startline="41">QuestSource</references>
+        <referencedby refid="class_quest_giver_1a969ad607369c939921780414df7e4056" compoundref="_quest_giver_8cs" startline="111" endline="160">QuestGiver.Interact</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1ab5cdad02856e65ff0d5636ab24854235" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.PlayLevelUp</definition>
+        <argsstring>(AudioClip clip, float volumeScale=1f)</argsstring>
+        <name>PlayLevelUp</name>
+        <qualifiedname>AudioManager.PlayLevelUp</qualifiedname>
+        <param>
+          <type>AudioClip</type>
+          <declname>clip</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volumeScale</declname>
+          <defval>1f</defval>
+        </param>
+        <briefdescription>
+<para>Plays animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The clip.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>volumeScale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The volumeScale.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="279" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="279" bodyend="286"/>
+        <references refid="class_audio_manager_1a28bc81052de801c0201763a794098889" compoundref="_audio_manager_8cs" startline="45">levelUpSource</references>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1addedc9299992cf2181ad2f7c7699597f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.PlayClick</definition>
+        <argsstring>(AudioClip clip, float volumeScale=1f)</argsstring>
+        <name>PlayClick</name>
+        <qualifiedname>AudioManager.PlayClick</qualifiedname>
+        <param>
+          <type>AudioClip</type>
+          <declname>clip</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volumeScale</declname>
+          <defval>1f</defval>
+        </param>
+        <briefdescription>
+<para>Plays animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The clip.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>volumeScale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The volumeScale.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="293" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="293" bodyend="300"/>
+        <references refid="class_audio_manager_1a8b330220f8cdfe67edfc8f4e38e2f91c" compoundref="_audio_manager_8cs" startline="49">uiClickSource</references>
+        <referencedby refid="class_level_up_controller_1afe83bcb13addd931e566e01c3731a7ef" compoundref="_level_up_controller_8cs" startline="77" endline="80">LevelUpController.UiClickSound</referencedby>
+        <referencedby refid="class_u_i_click_sound_1abcf72fb4e1adef8bb5d3c4057bc833dd" compoundref="_u_i_click_sound_8cs" startline="18" endline="21">UIClickSound.UiClickSound</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a7bba1d859fdb069d383e4e6d32400a9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.PauseMusic</definition>
+        <argsstring>()</argsstring>
+        <name>PauseMusic</name>
+        <qualifiedname>AudioManager.PauseMusic</qualifiedname>
+        <briefdescription>
+<para>Executes the PauseMusic operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="307" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="307" bodyend="314"/>
+        <references refid="class_audio_manager_1a54db9f2d0d9838c238a56cc82b222773" compoundref="_audio_manager_8cs" startline="21">musicSource</references>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a1218fdfd8ea5963b7277d6e4d317e34b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.ResumeMusic</definition>
+        <argsstring>()</argsstring>
+        <name>ResumeMusic</name>
+        <qualifiedname>AudioManager.ResumeMusic</qualifiedname>
+        <briefdescription>
+<para>Executes the ResumeMusic operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="319" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="319" bodyend="333"/>
+        <references refid="class_audio_manager_1a54db9f2d0d9838c238a56cc82b222773" compoundref="_audio_manager_8cs" startline="21">musicSource</references>
+        <referencedby refid="class_game_state_manager_1a90f2b3f817c1e397a3b28f89f752cc79" compoundref="_game_state_manager_8cs" startline="54" endline="78">GameStateManager.TogglePause</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1aa3da61250948e1881a7c3993cf9e5af3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.StopMusic</definition>
+        <argsstring>()</argsstring>
+        <name>StopMusic</name>
+        <qualifiedname>AudioManager.StopMusic</qualifiedname>
+        <briefdescription>
+<para>Stops animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="338" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="338" bodyend="345"/>
+        <references refid="class_audio_manager_1a54db9f2d0d9838c238a56cc82b222773" compoundref="_audio_manager_8cs" startline="21">musicSource</references>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1aa4974ddaac6f72e10ff8b85c0421b6bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.PlayMusic</definition>
+        <argsstring>(AudioClip clip, bool loop=true, float volumeScale=1f)</argsstring>
+        <name>PlayMusic</name>
+        <qualifiedname>AudioManager.PlayMusic</qualifiedname>
+        <param>
+          <type>AudioClip</type>
+          <declname>clip</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>loop</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volumeScale</declname>
+          <defval>1f</defval>
+        </param>
+        <briefdescription>
+<para>Plays animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The clip.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>loop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The loop.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>volumeScale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The volumeScale.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="353" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="353" bodyend="364"/>
+        <references refid="class_audio_manager_1a54db9f2d0d9838c238a56cc82b222773" compoundref="_audio_manager_8cs" startline="21">musicSource</references>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a7bf98859611fc62a5fda8564a99cce65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.DuckMusic</definition>
+        <argsstring>(float duckAmount=0.5f, float fadeDuration=0.5f)</argsstring>
+        <name>DuckMusic</name>
+        <qualifiedname>AudioManager.DuckMusic</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>duckAmount</declname>
+          <defval>0.5f</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fadeDuration</declname>
+          <defval>0.5f</defval>
+        </param>
+        <briefdescription>
+<para>Executes the DuckMusic operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>duckAmount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The duckAmount.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fadeDuration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The fadeDuration.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="373" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="373" bodyend="379"/>
+        <references refid="class_audio_manager_1a54db9f2d0d9838c238a56cc82b222773" compoundref="_audio_manager_8cs" startline="21">musicSource</references>
+        <referencedby refid="class_game_state_manager_1a99eb55de665c0ded19721f97626f49f2" compoundref="_game_state_manager_8cs" startline="85" endline="120">GameStateManager.SetPaused</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1acb374da8c9ebcfb9978c7347914d05bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.UnduckMusic</definition>
+        <argsstring>(float fadeDuration=0.5f)</argsstring>
+        <name>UnduckMusic</name>
+        <qualifiedname>AudioManager.UnduckMusic</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>fadeDuration</declname>
+          <defval>0.5f</defval>
+        </param>
+        <briefdescription>
+<para>Executes the UnduckMusic operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fadeDuration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The fadeDuration.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="385" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="385" bodyend="391"/>
+        <references refid="class_audio_manager_1a54db9f2d0d9838c238a56cc82b222773" compoundref="_audio_manager_8cs" startline="21">musicSource</references>
+        <referencedby refid="class_game_state_manager_1a05c4e25e28a3d356613da753b34386c3" compoundref="_game_state_manager_8cs" startline="125" endline="129">GameStateManager.ResumeGame</referencedby>
+        <referencedby refid="class_game_state_manager_1a99eb55de665c0ded19721f97626f49f2" compoundref="_game_state_manager_8cs" startline="85" endline="120">GameStateManager.SetPaused</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1afaea7cecdb292c3ba0ccf8ab8a3f18fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.SetMusicPitch</definition>
+        <argsstring>(float pitch, float transitionDuration=1f)</argsstring>
+        <name>SetMusicPitch</name>
+        <qualifiedname>AudioManager.SetMusicPitch</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pitch</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>transitionDuration</declname>
+          <defval>1f</defval>
+        </param>
+        <briefdescription>
+<para>Sets the MusicPitch. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pitch</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pitch.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>transitionDuration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The transitionDuration.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="434" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="434" bodyend="441"/>
+        <references refid="class_audio_manager_1a54db9f2d0d9838c238a56cc82b222773" compoundref="_audio_manager_8cs" startline="21">musicSource</references>
+        <referencedby refid="class_player_h_p_1a96e8c0a58a3538c568a41be4154af8c3" compoundref="_player_h_p_8cs" startline="99" endline="120">PlayerHP.Damage</referencedby>
+        <referencedby refid="class_player_h_p_1acce7bb9a08f70d48821152292a96c836" compoundref="_player_h_p_8cs" startline="72" endline="93">PlayerHP.DamageInPercent</referencedby>
+        <referencedby refid="class_player_h_p_1a1820fffa570c7d43314a449241c1c550" compoundref="_player_h_p_8cs" startline="126" endline="139">PlayerHP.Heal</referencedby>
+        <referencedby refid="class_player_h_p_1a96a465e657e375b55bbfb8e0b6582205" compoundref="_player_h_p_8cs" startline="144" endline="157">PlayerHP.HealInProcent</referencedby>
+        <referencedby refid="class_audio_manager_1ac9614e62cc317d8d60399bfc00617546" compoundref="_audio_manager_8cs" startline="447" endline="450">ResetMusicPitch</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1ac9614e62cc317d8d60399bfc00617546" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.ResetMusicPitch</definition>
+        <argsstring>(float transitionDuration=1f)</argsstring>
+        <name>ResetMusicPitch</name>
+        <qualifiedname>AudioManager.ResetMusicPitch</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>transitionDuration</declname>
+          <defval>1f</defval>
+        </param>
+        <briefdescription>
+<para>Resets MusicPitch. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>transitionDuration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The transitionDuration.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="447" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="447" bodyend="450"/>
+        <references refid="class_audio_manager_1afaea7cecdb292c3ba0ccf8ab8a3f18fd" compoundref="_audio_manager_8cs" startline="434" endline="441">SetMusicPitch</references>
+        <referencedby refid="class_player_h_p_1a96e8c0a58a3538c568a41be4154af8c3" compoundref="_player_h_p_8cs" startline="99" endline="120">PlayerHP.Damage</referencedby>
+        <referencedby refid="class_player_h_p_1acce7bb9a08f70d48821152292a96c836" compoundref="_player_h_p_8cs" startline="72" endline="93">PlayerHP.DamageInPercent</referencedby>
+        <referencedby refid="class_player_h_p_1a1820fffa570c7d43314a449241c1c550" compoundref="_player_h_p_8cs" startline="126" endline="139">PlayerHP.Heal</referencedby>
+        <referencedby refid="class_player_h_p_1a96a465e657e375b55bbfb8e0b6582205" compoundref="_player_h_p_8cs" startline="144" endline="157">PlayerHP.HealInProcent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1abcf3772aefa4b77a8e4d409ade7b0b3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.SetMasterVolume</definition>
+        <argsstring>(float volume)</argsstring>
+        <name>SetMasterVolume</name>
+        <qualifiedname>AudioManager.SetMasterVolume</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+<para>Sets the MasterVolume. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>volume</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The volume.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="478" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="478" bodyend="483"/>
+        <references refid="class_audio_manager_1a1ffa86b870d056dc5e9c039c01820fd6" compoundref="_audio_manager_8cs" startline="62">masterVolume</references>
+        <referencedby refid="class_audio_manager_1a70a5070acb33543c2b52b61d43a80595" compoundref="_audio_manager_8cs" startline="534" endline="537">SetMasterVolumeMixer</referencedby>
+        <referencedby refid="class_audio_manager_1af6d026a547fb9bad6021b4f3c38f86f7" compoundref="_audio_manager_8cs" startline="587" endline="591">ToggleMute</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a86119c029ac5638fd4931b465a1970bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.SetSFXVolume</definition>
+        <argsstring>(float volume)</argsstring>
+        <name>SetSFXVolume</name>
+        <qualifiedname>AudioManager.SetSFXVolume</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+<para>Sets the SFXVolume. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>volume</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The volume.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="489" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="489" bodyend="494"/>
+        <references refid="class_audio_manager_1a1b6fc07e298f39996023921d7ae1cec5" compoundref="_audio_manager_8cs" startline="67">sfxVolume</references>
+        <referencedby refid="class_audio_manager_1a75074c2d26ed51972b08ec3c1de652c0" compoundref="_audio_manager_8cs" startline="543" endline="546">SetSFXVolumeMixer</referencedby>
+        <referencedby refid="class_audio_manager_1a766282078448f3ca259f865ad8f96c42" compoundref="_audio_manager_8cs" startline="605" endline="609">ToggleSFXMute</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1add05f438dc5539268686059b3515afa2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.SetMusicVolume</definition>
+        <argsstring>(float volume)</argsstring>
+        <name>SetMusicVolume</name>
+        <qualifiedname>AudioManager.SetMusicVolume</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+<para>Sets the MusicVolume. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>volume</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The volume.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="500" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="500" bodyend="505"/>
+        <references refid="class_audio_manager_1ac773fb615b917c71e32555ca6d5e0833" compoundref="_audio_manager_8cs" startline="72">musicVolume</references>
+        <referencedby refid="class_audio_manager_1af8e2e421837ae1801b8874fa0fa29e73" compoundref="_audio_manager_8cs" startline="552" endline="555">SetMusicVolumeMixer</referencedby>
+        <referencedby refid="class_audio_manager_1a9b29a1a7e26513d1ba1b4183bc5926ab" compoundref="_audio_manager_8cs" startline="596" endline="600">ToggleMusicMute</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a70a5070acb33543c2b52b61d43a80595" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.SetMasterVolumeMixer</definition>
+        <argsstring>(float volume)</argsstring>
+        <name>SetMasterVolumeMixer</name>
+        <qualifiedname>AudioManager.SetMasterVolumeMixer</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+<para>Sets the MasterVolumeMixer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>volume</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The volume.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="534" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="534" bodyend="537"/>
+        <references refid="class_audio_manager_1abcf3772aefa4b77a8e4d409ade7b0b3f" compoundref="_audio_manager_8cs" startline="478" endline="483">SetMasterVolume</references>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a75074c2d26ed51972b08ec3c1de652c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.SetSFXVolumeMixer</definition>
+        <argsstring>(float volume)</argsstring>
+        <name>SetSFXVolumeMixer</name>
+        <qualifiedname>AudioManager.SetSFXVolumeMixer</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+<para>Sets the SFXVolumeMixer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>volume</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The volume.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="543" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="543" bodyend="546"/>
+        <references refid="class_audio_manager_1a86119c029ac5638fd4931b465a1970bf" compoundref="_audio_manager_8cs" startline="489" endline="494">SetSFXVolume</references>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1af8e2e421837ae1801b8874fa0fa29e73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.SetMusicVolumeMixer</definition>
+        <argsstring>(float volume)</argsstring>
+        <name>SetMusicVolumeMixer</name>
+        <qualifiedname>AudioManager.SetMusicVolumeMixer</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+<para>Sets the MusicVolumeMixer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>volume</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The volume.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="552" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="552" bodyend="555"/>
+        <references refid="class_audio_manager_1add05f438dc5539268686059b3515afa2" compoundref="_audio_manager_8cs" startline="500" endline="505">SetMusicVolume</references>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1af6d026a547fb9bad6021b4f3c38f86f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.ToggleMute</definition>
+        <argsstring>()</argsstring>
+        <name>ToggleMute</name>
+        <qualifiedname>AudioManager.ToggleMute</qualifiedname>
+        <briefdescription>
+<para>Executes the ToggleMute operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="587" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="587" bodyend="591"/>
+        <references refid="class_audio_manager_1a1ffa86b870d056dc5e9c039c01820fd6" compoundref="_audio_manager_8cs" startline="62">masterVolume</references>
+        <references refid="class_audio_manager_1abcf3772aefa4b77a8e4d409ade7b0b3f" compoundref="_audio_manager_8cs" startline="478" endline="483">SetMasterVolume</references>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a9b29a1a7e26513d1ba1b4183bc5926ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.ToggleMusicMute</definition>
+        <argsstring>()</argsstring>
+        <name>ToggleMusicMute</name>
+        <qualifiedname>AudioManager.ToggleMusicMute</qualifiedname>
+        <briefdescription>
+<para>Executes the ToggleMusicMute operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="596" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="596" bodyend="600"/>
+        <references refid="class_audio_manager_1ac773fb615b917c71e32555ca6d5e0833" compoundref="_audio_manager_8cs" startline="72">musicVolume</references>
+        <references refid="class_audio_manager_1add05f438dc5539268686059b3515afa2" compoundref="_audio_manager_8cs" startline="500" endline="505">SetMusicVolume</references>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a766282078448f3ca259f865ad8f96c42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.ToggleSFXMute</definition>
+        <argsstring>()</argsstring>
+        <name>ToggleSFXMute</name>
+        <qualifiedname>AudioManager.ToggleSFXMute</qualifiedname>
+        <briefdescription>
+<para>Executes the ToggleSFXMute operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="605" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="605" bodyend="609"/>
+        <references refid="class_audio_manager_1a86119c029ac5638fd4931b465a1970bf" compoundref="_audio_manager_8cs" startline="489" endline="494">SetSFXVolume</references>
+        <references refid="class_audio_manager_1a1b6fc07e298f39996023921d7ae1cec5" compoundref="_audio_manager_8cs" startline="67">sfxVolume</references>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a290e934e34ecdf1614ba9975467ba25b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float AudioManager.GetMasterVolume</definition>
+        <argsstring>()</argsstring>
+        <name>GetMasterVolume</name>
+        <qualifiedname>AudioManager.GetMasterVolume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="612" column="18"/>
+        <references refid="class_audio_manager_1a1ffa86b870d056dc5e9c039c01820fd6" compoundref="_audio_manager_8cs" startline="62">masterVolume</references>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a2f589a4cf5c57bc82e831b5cb18c6be2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float AudioManager.GetSFXVolume</definition>
+        <argsstring>()</argsstring>
+        <name>GetSFXVolume</name>
+        <qualifiedname>AudioManager.GetSFXVolume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="613" column="18"/>
+        <references refid="class_audio_manager_1a1b6fc07e298f39996023921d7ae1cec5" compoundref="_audio_manager_8cs" startline="67">sfxVolume</references>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1ad566b4efa3a655d675ed5b9195fde4b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float AudioManager.GetMusicVolume</definition>
+        <argsstring>()</argsstring>
+        <name>GetMusicVolume</name>
+        <qualifiedname>AudioManager.GetMusicVolume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="614" column="18"/>
+        <references refid="class_audio_manager_1af96f8bc4f9a0ad3f1a63a028bb31f790" compoundref="_audio_manager_8cs" startline="11">Instance</references>
+        <references refid="class_audio_manager_1ac773fb615b917c71e32555ca6d5e0833" compoundref="_audio_manager_8cs" startline="72">musicVolume</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_audio_manager" kindref="compound">AudioManager</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AudioManager</label>
+        <link refid="class_audio_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AudioManager</label>
+        <link refid="class_audio_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>Instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/AudioManager.cs" bodystart="10" bodyend="623"/>
+    <listofallmembers>
+      <member refid="class_audio_manager_1a1081038ce7267a4cace96e1a50ab1470" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>audioMixer</name></member>
+      <member refid="class_audio_manager_1a631d7d42b921bcbd82bd1baec2ec3ea7" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>Awake</name></member>
+      <member refid="class_audio_manager_1ae5000f9e694fafaa9dc8c4b5af2adef4" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>ChangePitchCoroutine</name></member>
+      <member refid="class_audio_manager_1a85ccf1fc4342611bf57c4ca5e15b0108" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>ConfigureAudioSources</name></member>
+      <member refid="class_audio_manager_1a7bf98859611fc62a5fda8564a99cce65" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>DuckMusic</name></member>
+      <member refid="class_audio_manager_1acfc8468dd0740bf5b1d10ff7e07e7ee9" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>DuckMusicCoroutine</name></member>
+      <member refid="class_audio_manager_1a290e934e34ecdf1614ba9975467ba25b" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>GetMasterVolume</name></member>
+      <member refid="class_audio_manager_1ad566b4efa3a655d675ed5b9195fde4b8" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>GetMusicVolume</name></member>
+      <member refid="class_audio_manager_1a2f589a4cf5c57bc82e831b5cb18c6be2" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>GetSFXVolume</name></member>
+      <member refid="class_audio_manager_1a2712cdfbad16148c8768eb0a05bbbdf6" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>hitSource</name></member>
+      <member refid="class_audio_manager_1af96f8bc4f9a0ad3f1a63a028bb31f790" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>Instance</name></member>
+      <member refid="class_audio_manager_1a2f1558fad88faea7ee937192534d0d0c" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>isMusicPaused</name></member>
+      <member refid="class_audio_manager_1a28bc81052de801c0201763a794098889" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>levelUpSource</name></member>
+      <member refid="class_audio_manager_1af48c897866a2c9753b14c914d7b125cd" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>LoadVolumeSettings</name></member>
+      <member refid="class_audio_manager_1a6427ae325570c56a72891d8122e98111" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>MASTER_VOL_KEY</name></member>
+      <member refid="class_audio_manager_1a1ffa86b870d056dc5e9c039c01820fd6" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>masterVolume</name></member>
+      <member refid="class_audio_manager_1a4af9fb60b86dc7a91e85905f5beed871" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>MUSIC_VOL_KEY</name></member>
+      <member refid="class_audio_manager_1a54db9f2d0d9838c238a56cc82b222773" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>musicSource</name></member>
+      <member refid="class_audio_manager_1ac773fb615b917c71e32555ca6d5e0833" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>musicVolume</name></member>
+      <member refid="class_audio_manager_1a0cf84c64f2f28215053ebece1818f94e" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>OnDestroy</name></member>
+      <member refid="class_audio_manager_1abece80f479d0aa390188390549a99b68" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>openChestSource</name></member>
+      <member refid="class_audio_manager_1a7bba1d859fdb069d383e4e6d32400a9f" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>PauseMusic</name></member>
+      <member refid="class_audio_manager_1addedc9299992cf2181ad2f7c7699597f" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>PlayClick</name></member>
+      <member refid="class_audio_manager_1a17e851a2b8b630428424fa4533ba19c8" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>PlayHit</name></member>
+      <member refid="class_audio_manager_1ab5cdad02856e65ff0d5636ab24854235" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>PlayLevelUp</name></member>
+      <member refid="class_audio_manager_1aa4974ddaac6f72e10ff8b85c0421b6bf" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>PlayMusic</name></member>
+      <member refid="class_audio_manager_1ade94470c3a927a27900fcfc0b281f406" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>PlayOpenChest</name></member>
+      <member refid="class_audio_manager_1a8bdf38cce616221c9243df3277e68464" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>PlayQuest</name></member>
+      <member refid="class_audio_manager_1a8eeeadc5ea8c46542fabd7948eb3e4f2" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>PlaySFX</name></member>
+      <member refid="class_audio_manager_1a76ab1fddea2ac96e7861efd8c2a048f6" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>PlaySFXAtPosition</name></member>
+      <member refid="class_audio_manager_1a60f9e5e588ff98dcf7df98fa836e546d" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>PlayShoot</name></member>
+      <member refid="class_audio_manager_1a0918e689b547d4a6724647a8def4d665" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>PlayWalk</name></member>
+      <member refid="class_audio_manager_1a794ed09e7c7ee9a4f70e4ad72bef64b9" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>QuestSource</name></member>
+      <member refid="class_audio_manager_1ac9614e62cc317d8d60399bfc00617546" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>ResetMusicPitch</name></member>
+      <member refid="class_audio_manager_1a1218fdfd8ea5963b7277d6e4d317e34b" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>ResumeMusic</name></member>
+      <member refid="class_audio_manager_1abdf1ff472e1d3ea3ac11ba39047c6156" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>SaveVolumeSettings</name></member>
+      <member refid="class_audio_manager_1abcf3772aefa4b77a8e4d409ade7b0b3f" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>SetMasterVolume</name></member>
+      <member refid="class_audio_manager_1a70a5070acb33543c2b52b61d43a80595" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>SetMasterVolumeMixer</name></member>
+      <member refid="class_audio_manager_1afaea7cecdb292c3ba0ccf8ab8a3f18fd" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>SetMusicPitch</name></member>
+      <member refid="class_audio_manager_1add05f438dc5539268686059b3515afa2" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>SetMusicVolume</name></member>
+      <member refid="class_audio_manager_1af8e2e421837ae1801b8874fa0fa29e73" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>SetMusicVolumeMixer</name></member>
+      <member refid="class_audio_manager_1a86119c029ac5638fd4931b465a1970bf" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>SetSFXVolume</name></member>
+      <member refid="class_audio_manager_1a75074c2d26ed51972b08ec3c1de652c0" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>SetSFXVolumeMixer</name></member>
+      <member refid="class_audio_manager_1aa2fa7860c5c5d7c999f18822243c9783" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>SFX_VOL_KEY</name></member>
+      <member refid="class_audio_manager_1af20e9441762e9b8086842802fd93fd69" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>sfxSource</name></member>
+      <member refid="class_audio_manager_1a1b6fc07e298f39996023921d7ae1cec5" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>sfxVolume</name></member>
+      <member refid="class_audio_manager_1a7fec5b4b42272a1e8399b81aaaf0a8bf" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>shootSource</name></member>
+      <member refid="class_audio_manager_1a5a43eda880682000e408afcb0c6bd08c" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>sourceBaseVolumes</name></member>
+      <member refid="class_audio_manager_1ae85cb5dd19dca76dedfb184d17b99266" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>StopAllSFX</name></member>
+      <member refid="class_audio_manager_1af2213f4bae215f43e7d4a08cf5a971e7" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>StopHit</name></member>
+      <member refid="class_audio_manager_1aa3da61250948e1881a7c3993cf9e5af3" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>StopMusic</name></member>
+      <member refid="class_audio_manager_1a78430e89d7009974545b7418878d0e53" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>StopShoot</name></member>
+      <member refid="class_audio_manager_1a99beb70f9c1e0cda5dd0f0d6c26a4b31" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>StopWalk</name></member>
+      <member refid="class_audio_manager_1a9b29a1a7e26513d1ba1b4183bc5926ab" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>ToggleMusicMute</name></member>
+      <member refid="class_audio_manager_1af6d026a547fb9bad6021b4f3c38f86f7" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>ToggleMute</name></member>
+      <member refid="class_audio_manager_1a766282078448f3ca259f865ad8f96c42" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>ToggleSFXMute</name></member>
+      <member refid="class_audio_manager_1a8b330220f8cdfe67edfc8f4e38e2f91c" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>uiClickSource</name></member>
+      <member refid="class_audio_manager_1acb374da8c9ebcfb9978c7347914d05bc" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>UnduckMusic</name></member>
+      <member refid="class_audio_manager_1afdd2903bb1d92518df9983a073617919" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>UnduckMusicCoroutine</name></member>
+      <member refid="class_audio_manager_1a23f83d52703157a372a11fa00992a963" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>UpdateAllVolumes</name></member>
+      <member refid="class_audio_manager_1ab4752975cfed31a663adafab063232c3" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>UpdateMixerVolumes</name></member>
+      <member refid="class_audio_manager_1ae0a6395de9f150a93a27aac5e1b9e73e" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>walkSource</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

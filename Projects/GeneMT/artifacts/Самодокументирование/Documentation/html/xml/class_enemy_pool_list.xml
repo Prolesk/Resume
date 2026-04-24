@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_enemy_pool_list" kind="class" language="C#" prot="public">
+    <compoundname>EnemyPoolList</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_enemy_pool_list_1a70df750ffd21fdbdc900b1702237a9f1" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_enemy_pool_list" kindref="compound">EnemyPoolList</ref></type>
+        <definition>EnemyPoolList EnemyPoolList.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <qualifiedname>EnemyPoolList.instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPoolList.cs" line="11" column="33" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPoolList.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_enemy_spawner_1ab0f3cc4c03a6f797d0176f46a7a451fe" compoundref="_enemy_spawner_8cs" startline="114" endline="117">EnemySpawner.SpawnFastMeleeEnemy</referencedby>
+        <referencedby refid="class_enemy_spawner_1a7ffd9a4af06e362ac787784da9a8d2c8" compoundref="_enemy_spawner_8cs" startline="98" endline="101">EnemySpawner.SpawnSmallMeleeEnemy</referencedby>
+        <referencedby refid="class_enemy_spawner_1ab0c3b2324d05444d46b76729b22c685f" compoundref="_enemy_spawner_8cs" startline="106" endline="109">EnemySpawner.SpawnSmallRangedEnemy</referencedby>
+        <referencedby refid="class_enemy_spawner_1ad3fe549a7a8cb85eddc524b151a405c6" compoundref="_enemy_spawner_8cs" startline="122" endline="125">EnemySpawner.SpawnStrongMeleeEnemy</referencedby>
+        <referencedby refid="class_transition_manager_1a07ace306d8e06a65104a52ea9240260c" compoundref="_transition_manager_8cs" startline="38" endline="91">TransitionManager.TransitPlayerToLevel</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_enemy_pool_list_1a1e10e8df5d39e3f2d4cc770d98c0b5c1" prot="public" static="no" mutable="no">
+        <type><ref refid="class_enemy_pool" kindref="compound">EnemyPool</ref></type>
+        <definition>EnemyPool EnemyPoolList._smallMeleeEnemy</definition>
+        <argsstring></argsstring>
+        <name>_smallMeleeEnemy</name>
+        <qualifiedname>EnemyPoolList._smallMeleeEnemy</qualifiedname>
+        <briefdescription>
+<para>The _smallMeleeEnemy field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPoolList.cs" line="15" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPoolList.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_enemy_pool_list_1ae8b1de7e21047ee017c8a7ec482628b0" compoundref="_enemy_pool_list_8cs" startline="32" endline="38">EnquePools</referencedby>
+        <referencedby refid="class_enemy_spawner_1a7ffd9a4af06e362ac787784da9a8d2c8" compoundref="_enemy_spawner_8cs" startline="98" endline="101">EnemySpawner.SpawnSmallMeleeEnemy</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_pool_list_1a64641f2242a7c9cefe7d2b9a30474a72" prot="public" static="no" mutable="no">
+        <type><ref refid="class_enemy_pool" kindref="compound">EnemyPool</ref></type>
+        <definition>EnemyPool EnemyPoolList._smallRangedEnemy</definition>
+        <argsstring></argsstring>
+        <name>_smallRangedEnemy</name>
+        <qualifiedname>EnemyPoolList._smallRangedEnemy</qualifiedname>
+        <briefdescription>
+<para>The _smallRangedEnemy field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPoolList.cs" line="19" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPoolList.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_enemy_pool_list_1ae8b1de7e21047ee017c8a7ec482628b0" compoundref="_enemy_pool_list_8cs" startline="32" endline="38">EnquePools</referencedby>
+        <referencedby refid="class_enemy_spawner_1ab0c3b2324d05444d46b76729b22c685f" compoundref="_enemy_spawner_8cs" startline="106" endline="109">EnemySpawner.SpawnSmallRangedEnemy</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_pool_list_1a6f129ccd266ff111238835b084e75650" prot="public" static="no" mutable="no">
+        <type><ref refid="class_enemy_pool" kindref="compound">EnemyPool</ref></type>
+        <definition>EnemyPool EnemyPoolList._fastMeleeEnemy</definition>
+        <argsstring></argsstring>
+        <name>_fastMeleeEnemy</name>
+        <qualifiedname>EnemyPoolList._fastMeleeEnemy</qualifiedname>
+        <briefdescription>
+<para>The _fastMeleeEnemy field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPoolList.cs" line="23" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPoolList.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_enemy_pool_list_1ae8b1de7e21047ee017c8a7ec482628b0" compoundref="_enemy_pool_list_8cs" startline="32" endline="38">EnquePools</referencedby>
+        <referencedby refid="class_enemy_spawner_1ab0f3cc4c03a6f797d0176f46a7a451fe" compoundref="_enemy_spawner_8cs" startline="114" endline="117">EnemySpawner.SpawnFastMeleeEnemy</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_pool_list_1a9ef9c2ada25e9a4b1effbcdd73109df0" prot="public" static="no" mutable="no">
+        <type><ref refid="class_enemy_pool" kindref="compound">EnemyPool</ref></type>
+        <definition>EnemyPool EnemyPoolList._strongMeleeEnemy</definition>
+        <argsstring></argsstring>
+        <name>_strongMeleeEnemy</name>
+        <qualifiedname>EnemyPoolList._strongMeleeEnemy</qualifiedname>
+        <briefdescription>
+<para>The _strongMeleeEnemy field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPoolList.cs" line="27" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPoolList.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_enemy_pool_list_1ae8b1de7e21047ee017c8a7ec482628b0" compoundref="_enemy_pool_list_8cs" startline="32" endline="38">EnquePools</referencedby>
+        <referencedby refid="class_enemy_spawner_1ad3fe549a7a8cb85eddc524b151a405c6" compoundref="_enemy_spawner_8cs" startline="122" endline="125">EnemySpawner.SpawnStrongMeleeEnemy</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_enemy_pool_list_1ae8b1de7e21047ee017c8a7ec482628b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyPoolList.EnquePools</definition>
+        <argsstring>()</argsstring>
+        <name>EnquePools</name>
+        <qualifiedname>EnemyPoolList.EnquePools</qualifiedname>
+        <briefdescription>
+<para>Executes the EnquePools operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPoolList.cs" line="32" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPoolList.cs" bodystart="32" bodyend="38"/>
+        <references refid="class_enemy_pool_list_1a6f129ccd266ff111238835b084e75650" compoundref="_enemy_pool_list_8cs" startline="23">_fastMeleeEnemy</references>
+        <references refid="class_enemy_pool_list_1a1e10e8df5d39e3f2d4cc770d98c0b5c1" compoundref="_enemy_pool_list_8cs" startline="15">_smallMeleeEnemy</references>
+        <references refid="class_enemy_pool_list_1a64641f2242a7c9cefe7d2b9a30474a72" compoundref="_enemy_pool_list_8cs" startline="19">_smallRangedEnemy</references>
+        <references refid="class_enemy_pool_list_1a9ef9c2ada25e9a4b1effbcdd73109df0" compoundref="_enemy_pool_list_8cs" startline="27">_strongMeleeEnemy</references>
+        <referencedby refid="class_transition_manager_1a07ace306d8e06a65104a52ea9240260c" compoundref="_transition_manager_8cs" startline="38" endline="91">TransitionManager.TransitPlayerToLevel</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_enemy_pool_list_1ab28340b34cbae9ea84c883963da2c61c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyPoolList.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>EnemyPoolList.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPoolList.cs" line="40" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPoolList.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_enemy_pool_list" kindref="compound">EnemyPoolList</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EnemyPoolList</label>
+        <link refid="class_enemy_pool_list"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>EnemyPool</label>
+        <link refid="class_enemy_pool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>EnemyPoolList</label>
+        <link refid="class_enemy_pool_list"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>instance</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_fastMeleeEnemy</edgelabel>
+          <edgelabel>_smallMeleeEnemy</edgelabel>
+          <edgelabel>_smallRangedEnemy</edgelabel>
+          <edgelabel>_strongMeleeEnemy</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPoolList.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/EnemyPoolList.cs" bodystart="10" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_enemy_pool_list_1a6f129ccd266ff111238835b084e75650" prot="public" virt="non-virtual"><scope>EnemyPoolList</scope><name>_fastMeleeEnemy</name></member>
+      <member refid="class_enemy_pool_list_1a1e10e8df5d39e3f2d4cc770d98c0b5c1" prot="public" virt="non-virtual"><scope>EnemyPoolList</scope><name>_smallMeleeEnemy</name></member>
+      <member refid="class_enemy_pool_list_1a64641f2242a7c9cefe7d2b9a30474a72" prot="public" virt="non-virtual"><scope>EnemyPoolList</scope><name>_smallRangedEnemy</name></member>
+      <member refid="class_enemy_pool_list_1a9ef9c2ada25e9a4b1effbcdd73109df0" prot="public" virt="non-virtual"><scope>EnemyPoolList</scope><name>_strongMeleeEnemy</name></member>
+      <member refid="class_enemy_pool_list_1ab28340b34cbae9ea84c883963da2c61c" prot="private" virt="non-virtual"><scope>EnemyPoolList</scope><name>Awake</name></member>
+      <member refid="class_enemy_pool_list_1ae8b1de7e21047ee017c8a7ec482628b0" prot="public" virt="non-virtual"><scope>EnemyPoolList</scope><name>EnquePools</name></member>
+      <member refid="class_enemy_pool_list_1a70df750ffd21fdbdc900b1702237a9f1" prot="public" virt="non-virtual"><scope>EnemyPoolList</scope><name>instance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

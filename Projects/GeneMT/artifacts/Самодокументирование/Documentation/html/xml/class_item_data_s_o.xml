@@ -1,0 +1,395 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_item_data_s_o" kind="class" language="C#" prot="public">
+    <compoundname>ItemDataSO</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+    <derivedcompoundref refid="class_lunch_box_item_s_o" prot="public" virt="non-virtual">LunchBoxItemSO</derivedcompoundref>
+    <derivedcompoundref refid="class_magic_damage_boost_item_s_o" prot="public" virt="non-virtual">MagicDamageBoostItemSO</derivedcompoundref>
+    <derivedcompoundref refid="class_tech_instruments_s_o" prot="public" virt="non-virtual">TechInstrumentsSO</derivedcompoundref>
+    <derivedcompoundref refid="class_techno_damage_boost_item_s_o" prot="public" virt="non-virtual">TechnoDamageBoostItemSO</derivedcompoundref>
+    <derivedcompoundref refid="class_universal_damage_boost_item_s_o" prot="public" virt="non-virtual">UniversalDamageBoostItemSO</derivedcompoundref>
+    <derivedcompoundref refid="class_universal_damage_give_shield_item_s_o" prot="public" virt="non-virtual">UniversalDamageGiveShieldItemSO</derivedcompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_item_data_s_o_1a5b20ae8dc705d55f4b82e8832d4b0c4f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ItemDataSO.itemTitle</definition>
+        <argsstring></argsstring>
+        <name>itemTitle</name>
+        <qualifiedname>ItemDataSO.itemTitle</qualifiedname>
+        <briefdescription>
+<para>The itemTitle field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" line="13" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_data_s_o_1a63afd093c454396299e889192e1b0910" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ItemDataSO.description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <qualifiedname>ItemDataSO.description</qualifiedname>
+        <briefdescription>
+<para>The description field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" line="17" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_data_s_o_1aa78a1aef6f977de0a4fd2b8cb901e839" prot="public" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite ItemDataSO.icon</definition>
+        <argsstring></argsstring>
+        <name>icon</name>
+        <qualifiedname>ItemDataSO.icon</qualifiedname>
+        <briefdescription>
+<para>The icon field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" line="21" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_data_s_o_1aa9f6e3a5e7ec3c471e3963adcfb0f7af" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ItemDataSO.isActiveItem</definition>
+        <argsstring></argsstring>
+        <name>isActiveItem</name>
+        <qualifiedname>ItemDataSO.isActiveItem</qualifiedname>
+        <briefdescription>
+<para>The isActiveItem field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" line="27" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_item_controller_s_o_1a70e5596813fa412a2ed3a80ddb05ed3e" compoundref="_item_controller_s_o_8cs" startline="137" endline="178">ItemControllerSO.DistributeItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_data_s_o_1a45036bbeb1a61524955ca904d0fd1297" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ItemDataSO.isActive</definition>
+        <argsstring></argsstring>
+        <name>isActive</name>
+        <qualifiedname>ItemDataSO.isActive</qualifiedname>
+        <briefdescription>
+<para>The isActive field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" line="31" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_item_data_s_o_1a43ed92677adc25345561338f3837b53c" compoundref="_item_data_s_o_8cs" startline="62" endline="69">OnPick</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_data_s_o_1a5312a6a37cbb4eb16528f11583800d9c" prot="public" static="no" mutable="no">
+        <type><ref refid="_item_type_8cs_1a443f647757dde85043b49343f5cbe66b" kindref="member">ItemType</ref></type>
+        <definition>ItemType ItemDataSO.itemType</definition>
+        <argsstring></argsstring>
+        <name>itemType</name>
+        <qualifiedname>ItemDataSO.itemType</qualifiedname>
+        <briefdescription>
+<para>The itemType field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" line="35" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_item_controller_s_o_1a70e5596813fa412a2ed3a80ddb05ed3e" compoundref="_item_controller_s_o_8cs" startline="137" endline="178">ItemControllerSO.DistributeItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_data_s_o_1abf68c439ed6f5843535937b226cc9de2" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ItemDataSO.HasOnEnemyDeathEvent</definition>
+        <argsstring></argsstring>
+        <name>HasOnEnemyDeathEvent</name>
+        <qualifiedname>ItemDataSO.HasOnEnemyDeathEvent</qualifiedname>
+        <briefdescription>
+<para>The HasOnEnemyDeathEvent field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" line="39" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_item_controller_s_o_1a70e5596813fa412a2ed3a80ddb05ed3e" compoundref="_item_controller_s_o_8cs" startline="137" endline="178">ItemControllerSO.DistributeItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_data_s_o_1aee0e17336125d0081f5284e1a83fda7d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ItemDataSO.HasOnSceneChangeEvent</definition>
+        <argsstring></argsstring>
+        <name>HasOnSceneChangeEvent</name>
+        <qualifiedname>ItemDataSO.HasOnSceneChangeEvent</qualifiedname>
+        <briefdescription>
+<para>The HasOnSceneChangeEvent field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" line="43" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_item_controller_s_o_1a70e5596813fa412a2ed3a80ddb05ed3e" compoundref="_item_controller_s_o_8cs" startline="137" endline="178">ItemControllerSO.DistributeItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_data_s_o_1a00da7d169e6c24ee0e468c8f22a8c2a4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ItemDataSO.HasOnDamageGiveEvent</definition>
+        <argsstring></argsstring>
+        <name>HasOnDamageGiveEvent</name>
+        <qualifiedname>ItemDataSO.HasOnDamageGiveEvent</qualifiedname>
+        <briefdescription>
+<para>The HasOnDamageGiveEvent field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" line="47" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_item_controller_s_o_1a70e5596813fa412a2ed3a80ddb05ed3e" compoundref="_item_controller_s_o_8cs" startline="137" endline="178">ItemControllerSO.DistributeItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_data_s_o_1a7b70c5edc7f8e809275d8d8c8f6f865d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ItemDataSO.HasOnLVLUpEvent</definition>
+        <argsstring></argsstring>
+        <name>HasOnLVLUpEvent</name>
+        <qualifiedname>ItemDataSO.HasOnLVLUpEvent</qualifiedname>
+        <briefdescription>
+<para>The HasOnLVLUpEvent field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" line="51" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" bodystart="51" bodyend="-1"/>
+        <referencedby refid="class_item_controller_s_o_1a70e5596813fa412a2ed3a80ddb05ed3e" compoundref="_item_controller_s_o_8cs" startline="137" endline="178">ItemControllerSO.DistributeItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_data_s_o_1a577209997c0f356ad2e9d98be3033dae" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ItemDataSO.ReputationAmount</definition>
+        <argsstring></argsstring>
+        <name>ReputationAmount</name>
+        <qualifiedname>ItemDataSO.ReputationAmount</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>The ReputationAmount field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" line="56" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_item_data_s_o_1a43ed92677adc25345561338f3837b53c" compoundref="_item_data_s_o_8cs" startline="62" endline="69">OnPick</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_data_s_o_1a2ebabf148add445b25c1368176de9c66" prot="public" static="no" mutable="no">
+        <type><ref refid="class_item_controller_s_o" kindref="compound">ItemControllerSO</ref></type>
+        <definition>ItemControllerSO ItemDataSO.ItemController</definition>
+        <argsstring></argsstring>
+        <name>ItemController</name>
+        <qualifiedname>ItemDataSO.ItemController</qualifiedname>
+        <briefdescription>
+<para>The ItemController field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" line="61" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_item_data_s_o_1a43ed92677adc25345561338f3837b53c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ItemDataSO.OnPick</definition>
+        <argsstring>()</argsstring>
+        <name>OnPick</name>
+        <qualifiedname>ItemDataSO.OnPick</qualifiedname>
+        <reimplementedby refid="class_lunch_box_item_s_o_1a7a8dd5f224c4fc204b454f04531bda86">OnPick</reimplementedby>
+        <reimplementedby refid="class_magic_damage_boost_item_s_o_1aea360bad41fcda8296e177daf3284b65">OnPick</reimplementedby>
+        <reimplementedby refid="class_tech_instruments_s_o_1ad9268fe4ac16a11c7874c2a48eafe777">OnPick</reimplementedby>
+        <reimplementedby refid="class_techno_damage_boost_item_s_o_1a61ff1f1b2f506d712136e237ec5bc9ff">OnPick</reimplementedby>
+        <reimplementedby refid="class_universal_damage_boost_item_s_o_1a7382ef043e7f712f6d62e2db7949750f">OnPick</reimplementedby>
+        <reimplementedby refid="class_universal_damage_give_shield_item_s_o_1ac621ac89dec826f7d238f0dbf0268659">OnPick</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" line="62" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" bodystart="62" bodyend="69"/>
+        <references refid="class_items_panel_1a18ff80103e6714cc05f4d1adaae29c1a" compoundref="_items_panel_8cs" startline="9" endline="9">ItemsPanel.Instance</references>
+        <references refid="class_singleton_scriptable_object-1-g_1aa59148a0a9bc37057ef216e7c9a814a8" compoundref="_singleton_scriptable_object_8cs" startline="8" endline="34">SingletonScriptableObject&lt; T &gt;.Instance</references>
+        <references refid="class_item_data_s_o_1a45036bbeb1a61524955ca904d0fd1297" compoundref="_item_data_s_o_8cs" startline="31">isActive</references>
+        <references refid="class_item_data_s_o_1a577209997c0f356ad2e9d98be3033dae" compoundref="_item_data_s_o_8cs" startline="56">ReputationAmount</references>
+        <references refid="class_items_panel_1af6dea2aee500c37b0e1a46f5747d5ca5" compoundref="_items_panel_8cs" startline="30" endline="69">ItemsPanel.SetItemsInfo</references>
+      </memberdef>
+      <memberdef kind="function" id="class_item_data_s_o_1a5ddcb4bd447509672a6df851df2c0564" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ItemDataSO.OnEnemyDeath</definition>
+        <argsstring>(GameObject enemy)</argsstring>
+        <name>OnEnemyDeath</name>
+        <qualifiedname>ItemDataSO.OnEnemyDeath</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>enemy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" line="74" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" bodystart="74" bodyend="77"/>
+        <referencedby refid="class_item_controller_s_o_1a08314984a06330cc674c40ac7293a81a" compoundref="_item_controller_s_o_8cs" startline="184" endline="193">ItemControllerSO.ActivateOnEnemyDeathEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_item_data_s_o_1a7f858d552e74dc3c8d701b39e620a177" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ItemDataSO.OnSceneChange</definition>
+        <argsstring>()</argsstring>
+        <name>OnSceneChange</name>
+        <qualifiedname>ItemDataSO.OnSceneChange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" line="79" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" bodystart="79" bodyend="82"/>
+        <referencedby refid="class_item_controller_s_o_1a7bb62a49d5302720ba7dadbb0ae0d753" compoundref="_item_controller_s_o_8cs" startline="209" endline="218">ItemControllerSO.ActivateOnSceneChangeEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_item_data_s_o_1ab4f3e7698e40647ea7c8d4090cc9666f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ItemDataSO.OnDamageGive</definition>
+        <argsstring>()</argsstring>
+        <name>OnDamageGive</name>
+        <qualifiedname>ItemDataSO.OnDamageGive</qualifiedname>
+        <reimplementedby refid="class_universal_damage_give_shield_item_s_o_1a4eb2695bcfa3a6351cbb122379c09495">OnDamageGive</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" line="84" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" bodystart="84" bodyend="87"/>
+        <referencedby refid="class_item_controller_s_o_1a956a1c4b06d1690ea013edd0fbaecbfd" compoundref="_item_controller_s_o_8cs" startline="223" endline="232">ItemControllerSO.ActivateOnDamageGiveEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_item_data_s_o_1ac9607ff62d9b2b5eaa7326293473593c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ItemDataSO.OnLVLUp</definition>
+        <argsstring>()</argsstring>
+        <name>OnLVLUp</name>
+        <qualifiedname>ItemDataSO.OnLVLUp</qualifiedname>
+        <reimplementedby refid="class_lunch_box_item_s_o_1a9d66837f36814650c80a13d163b06c1d">OnLVLUp</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" line="89" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" bodystart="89" bodyend="92"/>
+        <referencedby refid="class_item_controller_s_o_1a9336a815d728ee23e27abd1cf8888df8" compoundref="_item_controller_s_o_8cs" startline="198" endline="204">ItemControllerSO.ActivateOnLVLUpEvent</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ItemDataSO</label>
+        <link refid="class_item_data_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>LunchBoxItemSO</label>
+        <link refid="class_lunch_box_item_s_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MagicDamageBoostItemSO</label>
+        <link refid="class_magic_damage_boost_item_s_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="5">
+        <label>TechInstrumentsSO</label>
+        <link refid="class_tech_instruments_s_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>TechnoDamageBoostItemSO</label>
+        <link refid="class_techno_damage_boost_item_s_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>UniversalDamageBoostItemSO</label>
+        <link refid="class_universal_damage_boost_item_s_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>UniversalDamageGiveShieldItemSO</label>
+        <link refid="class_universal_damage_give_shield_item_s_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>ItemControllerSO</label>
+        <link refid="class_item_controller_s_o"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ItemDataSO</label>
+        <link refid="class_item_data_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>ItemController</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="4">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" line="7" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemDataSO.cs" bodystart="8" bodyend="94"/>
+    <listofallmembers>
+      <member refid="class_item_data_s_o_1a63afd093c454396299e889192e1b0910" prot="public" virt="non-virtual"><scope>ItemDataSO</scope><name>description</name></member>
+      <member refid="class_item_data_s_o_1a00da7d169e6c24ee0e468c8f22a8c2a4" prot="public" virt="non-virtual"><scope>ItemDataSO</scope><name>HasOnDamageGiveEvent</name></member>
+      <member refid="class_item_data_s_o_1abf68c439ed6f5843535937b226cc9de2" prot="public" virt="non-virtual"><scope>ItemDataSO</scope><name>HasOnEnemyDeathEvent</name></member>
+      <member refid="class_item_data_s_o_1a7b70c5edc7f8e809275d8d8c8f6f865d" prot="public" virt="non-virtual"><scope>ItemDataSO</scope><name>HasOnLVLUpEvent</name></member>
+      <member refid="class_item_data_s_o_1aee0e17336125d0081f5284e1a83fda7d" prot="public" virt="non-virtual"><scope>ItemDataSO</scope><name>HasOnSceneChangeEvent</name></member>
+      <member refid="class_item_data_s_o_1aa78a1aef6f977de0a4fd2b8cb901e839" prot="public" virt="non-virtual"><scope>ItemDataSO</scope><name>icon</name></member>
+      <member refid="class_item_data_s_o_1a45036bbeb1a61524955ca904d0fd1297" prot="public" virt="non-virtual"><scope>ItemDataSO</scope><name>isActive</name></member>
+      <member refid="class_item_data_s_o_1aa9f6e3a5e7ec3c471e3963adcfb0f7af" prot="public" virt="non-virtual"><scope>ItemDataSO</scope><name>isActiveItem</name></member>
+      <member refid="class_item_data_s_o_1a2ebabf148add445b25c1368176de9c66" prot="public" virt="non-virtual"><scope>ItemDataSO</scope><name>ItemController</name></member>
+      <member refid="class_item_data_s_o_1a5b20ae8dc705d55f4b82e8832d4b0c4f" prot="public" virt="non-virtual"><scope>ItemDataSO</scope><name>itemTitle</name></member>
+      <member refid="class_item_data_s_o_1a5312a6a37cbb4eb16528f11583800d9c" prot="public" virt="non-virtual"><scope>ItemDataSO</scope><name>itemType</name></member>
+      <member refid="class_item_data_s_o_1ab4f3e7698e40647ea7c8d4090cc9666f" prot="public" virt="virtual"><scope>ItemDataSO</scope><name>OnDamageGive</name></member>
+      <member refid="class_item_data_s_o_1a5ddcb4bd447509672a6df851df2c0564" prot="public" virt="virtual"><scope>ItemDataSO</scope><name>OnEnemyDeath</name></member>
+      <member refid="class_item_data_s_o_1ac9607ff62d9b2b5eaa7326293473593c" prot="public" virt="virtual"><scope>ItemDataSO</scope><name>OnLVLUp</name></member>
+      <member refid="class_item_data_s_o_1a43ed92677adc25345561338f3837b53c" prot="public" virt="virtual"><scope>ItemDataSO</scope><name>OnPick</name></member>
+      <member refid="class_item_data_s_o_1a7f858d552e74dc3c8d701b39e620a177" prot="public" virt="virtual"><scope>ItemDataSO</scope><name>OnSceneChange</name></member>
+      <member refid="class_item_data_s_o_1a577209997c0f356ad2e9d98be3033dae" prot="public" virt="non-virtual"><scope>ItemDataSO</scope><name>ReputationAmount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

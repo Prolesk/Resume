@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="_laser_data_s_o_8cs" kind="file" language="C#">
+    <compoundname>LaserDataSO.cs</compoundname>
+    <innerclass refid="class_laser_data_s_o" prot="public">LaserDataSO</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">[CreateAssetMenu(fileName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;New<sp/>Laser<sp/>Data&quot;</highlight><highlight class="normal">,<sp/>menuName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Weapons/Laser<sp/>Data&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="7" refid="class_laser_data_s_o" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_laser_data_s_o" kindref="compound">LaserDataSO</ref><sp/>:<sp/><ref refid="class_weapon_data_s_o" kindref="compound">WeaponDataSO</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>[Header(</highlight><highlight class="stringliteral">&quot;Laser<sp/>Specific&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="13" refid="class_laser_data_s_o_1ad9ab75ab75c4ac27b3241dd97240be39" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_laser_data_s_o_1ad9ab75ab75c4ac27b3241dd97240be39" kindref="member">laserLength</ref><sp/>=<sp/>5f;</highlight></codeline>
+<codeline lineno="17" refid="class_laser_data_s_o_1a845df03f0d8b031a0080b9c8e5a7a869" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_laser_data_s_o_1a845df03f0d8b031a0080b9c8e5a7a869" kindref="member">laserLifetime</ref><sp/>=<sp/>2f;</highlight></codeline>
+<codeline lineno="21" refid="class_laser_data_s_o_1a848b30d3367504b438e08af7ac22283b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_laser_data_s_o_1a848b30d3367504b438e08af7ac22283b" kindref="member">laserArea</ref><sp/>=<sp/>1f;</highlight></codeline>
+<codeline lineno="25" refid="class_laser_data_s_o_1a0f7781a97c8fc924e3f07fb7060569e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Material<sp/><ref refid="class_laser_data_s_o_1a0f7781a97c8fc924e3f07fb7060569e7" kindref="member">laserMaterial</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/LaserDataSO.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,19 @@
+<map id="MagicStaffDataSO" name="MagicStaffDataSO">
+<area shape="rect" id="Node000001" title="The MagicStaffDataSO class." alt="" coords="5,300,136,327"/>
+<area shape="rect" id="Node000002" href="$class_weapon_data_s_o.html" title="The WeaponDataSO class." alt="" coords="102,201,218,228"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,238,91,254,79,277,74,301,69,298,74,275,87,250,111,234"/>
+<area shape="rect" id="Node000005" href="$class_weapon.html" title=" " alt="" coords="250,300,318,327"/>
+<area shape="poly" id="edge9_Node000005_Node000002" title=" " alt="" coords="125,236,115,253,111,264,114,274,135,287,171,297,252,309,247,310,170,302,133,292,110,278,105,265,110,251,121,239"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="117,5,234,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="176,46,163,201,158,200,171,49"/>
+<area shape="rect" id="Node000008" href="$class_singleton_scriptable_object-1-g.html" title=" " alt="" coords="325,81,528,108"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="233,34,386,79,381,82,233,39"/>
+<area shape="rect" id="Node000004" href="$class_level_upgrade.html" title="The LevelUpgrade class." alt="" coords="197,81,298,108"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="231,119,171,203,167,199,227,122"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="244,292,220,278,172,231,174,226,224,274,249,292"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="263,201,374,228"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="327,241,329,260,325,277,316,291,304,302,302,297,312,287,320,275,324,260,324,246"/>
+<area shape="rect" id="Node000007" href="$class_player_stats_s_o.html" title="The PlayerStatsSO class." alt="" coords="398,201,506,228"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="419,236,307,302,305,297,414,237"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="434,121,452,202,447,200,431,126"/>
+</map>

@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_enemy_detector" kind="class" language="C#" prot="public">
+    <compoundname>EnemyDetector</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_enemy_detector_1a82cad184fca90b076f3bcca5329e1ab7" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject EnemyDetector._menuCamera</definition>
+        <argsstring></argsstring>
+        <name>_menuCamera</name>
+        <qualifiedname>EnemyDetector._menuCamera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" line="9" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_detector_1ad00e6b467a819d3931627f9621decdb3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyDetector._updateInterval</definition>
+        <argsstring></argsstring>
+        <name>_updateInterval</name>
+        <qualifiedname>EnemyDetector._updateInterval</qualifiedname>
+        <initializer>= 0.2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" line="10" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_detector_1a600cb473f814833426a0fc1baee629a5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_enemy" kindref="compound">Enemy</ref>[]</type>
+        <definition>Enemy [] EnemyDetector._visibleEnemies</definition>
+        <argsstring></argsstring>
+        <name>_visibleEnemies</name>
+        <qualifiedname>EnemyDetector._visibleEnemies</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" line="12" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_detector_1ab27b90c63113b90d70590f84d43fb216" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyDetector._updateTimer</definition>
+        <argsstring></argsstring>
+        <name>_updateTimer</name>
+        <qualifiedname>EnemyDetector._updateTimer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" line="13" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_detector_1aa0f52cfcc43056523ff9a02e85294a72" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EnemyDetector.isPaused</definition>
+        <argsstring></argsstring>
+        <name>isPaused</name>
+        <qualifiedname>EnemyDetector.isPaused</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" line="14" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_enemy_detector_1af30c5380b0e46c1f4c7128debd9fc372" prot="public" static="no" mutable="no">
+        <type>Camera</type>
+        <definition>Camera EnemyDetector.mainCamera</definition>
+        <argsstring></argsstring>
+        <name>mainCamera</name>
+        <qualifiedname>EnemyDetector.mainCamera</qualifiedname>
+        <briefdescription>
+<para>The mainCamera field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" line="19" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_enemy_detector_1a1f6cf5bd5a30e8ee3d53771dbc946db7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyDetector.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>EnemyDetector.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" line="21" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_detector_1a14edcb8e604dfb30c112cf6975333d8c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyDetector.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <qualifiedname>EnemyDetector.OnDestroy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" line="26" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" bodystart="26" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_detector_1aef4ba36b94e37d9abd841ac6d82b7d48" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyDetector.OnPauseChanged</definition>
+        <argsstring>(bool isPaused, GameStateManager.PauseType pauseType)</argsstring>
+        <name>OnPauseChanged</name>
+        <qualifiedname>EnemyDetector.OnPauseChanged</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isPaused</declname>
+        </param>
+        <param>
+          <type><ref refid="class_game_state_manager_1a87e1de70e766821616aa1e1aa9051178" kindref="member">GameStateManager.PauseType</ref></type>
+          <declname>pauseType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" line="34" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" bodystart="34" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_detector_1a23ef7da6c32f1553234eb1b1195e18e1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyDetector.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>EnemyDetector.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" line="44" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" bodystart="44" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_detector_1a576ad76cea3845064dbcd4f28ee650b3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyDetector.FindVisibleEnemies</definition>
+        <argsstring>()</argsstring>
+        <name>FindVisibleEnemies</name>
+        <qualifiedname>EnemyDetector.FindVisibleEnemies</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" line="57" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" bodystart="57" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_detector_1a6cb2445c42093043d9cb6d0e2f237304" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool EnemyDetector.IsInCameraView</definition>
+        <argsstring>(Vector3 worldPosition)</argsstring>
+        <name>IsInCameraView</name>
+        <qualifiedname>EnemyDetector.IsInCameraView</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>worldPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" line="73" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" bodystart="73" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_detector_1a8e1f0c27a600877e66ae656980276003" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyDetector.LookAtMenuCamera</definition>
+        <argsstring>()</argsstring>
+        <name>LookAtMenuCamera</name>
+        <qualifiedname>EnemyDetector.LookAtMenuCamera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" line="119" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" bodystart="119" bodyend="132"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_enemy_detector_1a4b9cd39f460ce30997cffe966a20a314" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_enemy" kindref="compound">Enemy</ref>[]</type>
+        <definition>Enemy[] EnemyDetector.GetVisibleEnemies</definition>
+        <argsstring>()</argsstring>
+        <name>GetVisibleEnemies</name>
+        <qualifiedname>EnemyDetector.GetVisibleEnemies</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" line="87" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" bodystart="87" bodyend="90"/>
+        <referencedby refid="class_enemy_detector_1adc9bf87f86a01878779730349f955439" compoundref="_enemy_detector_8cs" startline="96" endline="117">GetClosestEnemy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_detector_1adc9bf87f86a01878779730349f955439" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_enemy" kindref="compound">Enemy</ref></type>
+        <definition>Enemy EnemyDetector.GetClosestEnemy</definition>
+        <argsstring>()</argsstring>
+        <name>GetClosestEnemy</name>
+        <qualifiedname>EnemyDetector.GetClosestEnemy</qualifiedname>
+        <briefdescription>
+<para>Gets the ClosestEnemy. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The result as <ref refid="class_enemy" kindref="compound">Enemy</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" line="96" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" bodystart="96" bodyend="117"/>
+        <references refid="class_enemy_detector_1a4b9cd39f460ce30997cffe966a20a314" compoundref="_enemy_detector_8cs" startline="87" endline="90">GetVisibleEnemies</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_enemy_detector" kindref="compound">EnemyDetector</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EnemyDetector</label>
+        <link refid="class_enemy_detector"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EnemyDetector</label>
+        <link refid="class_enemy_detector"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" line="7" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyDetector.cs" bodystart="8" bodyend="133"/>
+    <listofallmembers>
+      <member refid="class_enemy_detector_1a82cad184fca90b076f3bcca5329e1ab7" prot="private" virt="non-virtual"><scope>EnemyDetector</scope><name>_menuCamera</name></member>
+      <member refid="class_enemy_detector_1ad00e6b467a819d3931627f9621decdb3" prot="private" virt="non-virtual"><scope>EnemyDetector</scope><name>_updateInterval</name></member>
+      <member refid="class_enemy_detector_1ab27b90c63113b90d70590f84d43fb216" prot="private" virt="non-virtual"><scope>EnemyDetector</scope><name>_updateTimer</name></member>
+      <member refid="class_enemy_detector_1a600cb473f814833426a0fc1baee629a5" prot="private" virt="non-virtual"><scope>EnemyDetector</scope><name>_visibleEnemies</name></member>
+      <member refid="class_enemy_detector_1a576ad76cea3845064dbcd4f28ee650b3" prot="private" virt="non-virtual"><scope>EnemyDetector</scope><name>FindVisibleEnemies</name></member>
+      <member refid="class_enemy_detector_1adc9bf87f86a01878779730349f955439" prot="public" virt="non-virtual"><scope>EnemyDetector</scope><name>GetClosestEnemy</name></member>
+      <member refid="class_enemy_detector_1a4b9cd39f460ce30997cffe966a20a314" prot="public" virt="non-virtual"><scope>EnemyDetector</scope><name>GetVisibleEnemies</name></member>
+      <member refid="class_enemy_detector_1a6cb2445c42093043d9cb6d0e2f237304" prot="private" virt="non-virtual"><scope>EnemyDetector</scope><name>IsInCameraView</name></member>
+      <member refid="class_enemy_detector_1aa0f52cfcc43056523ff9a02e85294a72" prot="private" virt="non-virtual"><scope>EnemyDetector</scope><name>isPaused</name></member>
+      <member refid="class_enemy_detector_1a8e1f0c27a600877e66ae656980276003" prot="private" virt="non-virtual"><scope>EnemyDetector</scope><name>LookAtMenuCamera</name></member>
+      <member refid="class_enemy_detector_1af30c5380b0e46c1f4c7128debd9fc372" prot="public" virt="non-virtual"><scope>EnemyDetector</scope><name>mainCamera</name></member>
+      <member refid="class_enemy_detector_1a14edcb8e604dfb30c112cf6975333d8c" prot="private" virt="non-virtual"><scope>EnemyDetector</scope><name>OnDestroy</name></member>
+      <member refid="class_enemy_detector_1aef4ba36b94e37d9abd841ac6d82b7d48" prot="private" virt="non-virtual"><scope>EnemyDetector</scope><name>OnPauseChanged</name></member>
+      <member refid="class_enemy_detector_1a1f6cf5bd5a30e8ee3d53771dbc946db7" prot="private" virt="non-virtual"><scope>EnemyDetector</scope><name>Start</name></member>
+      <member refid="class_enemy_detector_1a23ef7da6c32f1553234eb1b1195e18e1" prot="private" virt="non-virtual"><scope>EnemyDetector</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

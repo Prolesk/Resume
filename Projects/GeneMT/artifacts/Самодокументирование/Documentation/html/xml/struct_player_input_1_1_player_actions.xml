@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="struct_player_input_1_1_player_actions" kind="struct" language="C#" prot="public">
+    <compoundname>PlayerInput::PlayerActions</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_player_input_1_1_player_actions_1a65fd06521a6fd1575e7b768e6d928c6a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_player_input" kindref="compound">PlayerInput</ref></type>
+        <definition>PlayerInput PlayerInput.PlayerActions.m_Wrapper</definition>
+        <argsstring></argsstring>
+        <name>m_Wrapper</name>
+        <qualifiedname>PlayerInput.PlayerActions.m_Wrapper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="288" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="288" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="struct_player_input_1_1_player_actions_1a11b014d6e9813254e38bd4e8b3090652" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputAction</type>
+        <definition>InputAction PlayerInput.PlayerActions.Move</definition>
+        <argsstring></argsstring>
+        <name>Move</name>
+        <qualifiedname>PlayerInput.PlayerActions.Move</qualifiedname>
+        <briefdescription>
+<para>Provides access to the underlying input action &quot;Player/Move&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="297" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_player_input_1_1_player_actions_1aa98f0a8e6f874cc5940d272ab1bc6d12" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputAction</type>
+        <definition>InputAction PlayerInput.PlayerActions.Click</definition>
+        <argsstring></argsstring>
+        <name>Click</name>
+        <qualifiedname>PlayerInput.PlayerActions.Click</qualifiedname>
+        <briefdescription>
+<para>Provides access to the underlying input action &quot;Player/Click&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="301" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_player_input_1_1_player_actions_1a34188d0dd6f27dd5b2159e336eee5050" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool PlayerInput.PlayerActions.enabled</definition>
+        <argsstring></argsstring>
+        <name>enabled</name>
+        <qualifiedname>PlayerInput.PlayerActions.enabled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="311" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="311" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_player_input_1_1_player_actions_1a67cf617b5da15ba06bb8edaab41198a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PlayerInput.PlayerActions.PlayerActions</definition>
+        <argsstring>(@PlayerInput wrapper)</argsstring>
+        <name>PlayerActions</name>
+        <qualifiedname>PlayerInput.PlayerActions.PlayerActions</qualifiedname>
+        <param>
+          <type>@<ref refid="class_player_input" kindref="compound">PlayerInput</ref></type>
+          <declname>wrapper</declname>
+        </param>
+        <briefdescription>
+<para>Construct a new instance of the input action map wrapper class. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="293" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="293" bodyend="293"/>
+        <references refid="class_player_input_1a38dde73fa051405778d6cc5aa0a25097" compoundref="_player_input_8cs" startline="85" endline="201">PlayerInput.PlayerInput</references>
+        <referencedby refid="struct_player_input_1_1_player_actions_1a1f66f7de06fbb966817f77c3ea9ca6d6" compoundref="_player_input_8cs" startline="315" endline="315">PlayerInput.PlayerActions.operator InputActionMap</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_player_input_1_1_player_actions_1abfe529a523f1341ede09e11a51a6065e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>InputActionMap</type>
+        <definition>InputActionMap PlayerInput.PlayerActions.Get</definition>
+        <argsstring>()</argsstring>
+        <name>Get</name>
+        <qualifiedname>PlayerInput.PlayerActions.Get</qualifiedname>
+        <briefdescription>
+<para>Provides access to the underlying input action map instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="305" column="31" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="305" bodyend="305"/>
+        <referencedby refid="struct_player_input_1_1_player_actions_1a650a3241f61f0e38a1faa0fd88b8d525" compoundref="_player_input_8cs" startline="309" endline="309">PlayerInput.PlayerActions.Disable</referencedby>
+        <referencedby refid="struct_player_input_1_1_player_actions_1a0982fe6e4310bd43a36caaa900e89f39" compoundref="_player_input_8cs" startline="307" endline="307">PlayerInput.PlayerActions.Enable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_player_input_1_1_player_actions_1a0982fe6e4310bd43a36caaa900e89f39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerInput.PlayerActions.Enable</definition>
+        <argsstring>()</argsstring>
+        <name>Enable</name>
+        <qualifiedname>PlayerInput.PlayerActions.Enable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="307" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="307" bodyend="307"/>
+        <references refid="struct_player_input_1_1_player_actions_1abfe529a523f1341ede09e11a51a6065e" compoundref="_player_input_8cs" startline="305" endline="305">PlayerInput.PlayerActions.Get</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_player_input_1_1_player_actions_1a650a3241f61f0e38a1faa0fd88b8d525" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerInput.PlayerActions.Disable</definition>
+        <argsstring>()</argsstring>
+        <name>Disable</name>
+        <qualifiedname>PlayerInput.PlayerActions.Disable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="309" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="309" bodyend="309"/>
+        <references refid="struct_player_input_1_1_player_actions_1abfe529a523f1341ede09e11a51a6065e" compoundref="_player_input_8cs" startline="305" endline="305">PlayerInput.PlayerActions.Get</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_player_input_1_1_player_actions_1ac0468e4bc65b955247f0734e5627299f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerInput.PlayerActions.AddCallbacks</definition>
+        <argsstring>(IPlayerActions instance)</argsstring>
+        <name>AddCallbacks</name>
+        <qualifiedname>PlayerInput.PlayerActions.AddCallbacks</qualifiedname>
+        <param>
+          <type><ref refid="interface_player_input_1_1_i_player_actions" kindref="compound">IPlayerActions</ref></type>
+          <declname>instance</declname>
+        </param>
+        <briefdescription>
+<para>Adds InputAction.started, InputAction.performed and InputAction.canceled callbacks provided via  on all input actions contained in this map. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>instance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Callback instance.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>If <emphasis>instance</emphasis>  is <computeroutput>null</computeroutput> or <emphasis>instance</emphasis>  have already been added this method does nothing. </para>
+<para><simplesect kind="see"><para><ref refid="struct_player_input_1_1_player_actions" kindref="compound">PlayerActions</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="324" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="324" bodyend="334"/>
+        <references refid="interface_player_input_1_1_i_player_actions_1a07284585b6ddd69ca7b91c40f3144b90">PlayerInput.IPlayerActions.OnClick</references>
+        <references refid="interface_player_input_1_1_i_player_actions_1af785da9b88a3a6a3db98fda903a39580">PlayerInput.IPlayerActions.OnMove</references>
+        <referencedby refid="struct_player_input_1_1_player_actions_1a5a0e2291f69e756f2e8fdb71af63f6d8" compoundref="_player_input_8cs" startline="372" endline="378">PlayerInput.PlayerActions.SetCallbacks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_player_input_1_1_player_actions_1a6c5c2e2f39111a29ed42834fa5bd5064" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerInput.PlayerActions.RemoveCallbacks</definition>
+        <argsstring>(IPlayerActions instance)</argsstring>
+        <name>RemoveCallbacks</name>
+        <qualifiedname>PlayerInput.PlayerActions.RemoveCallbacks</qualifiedname>
+        <param>
+          <type><ref refid="interface_player_input_1_1_i_player_actions" kindref="compound">IPlayerActions</ref></type>
+          <declname>instance</declname>
+        </param>
+        <briefdescription>
+<para>Unregisters  and unregisters all input action callbacks via PlayerActions.UnregisterCallbacks(IPlayerActions). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>PlayerActions.UnregisterCallbacks(IPlayerActions)</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="357" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="357" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_player_input_1_1_player_actions_1a5a0e2291f69e756f2e8fdb71af63f6d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerInput.PlayerActions.SetCallbacks</definition>
+        <argsstring>(IPlayerActions instance)</argsstring>
+        <name>SetCallbacks</name>
+        <qualifiedname>PlayerInput.PlayerActions.SetCallbacks</qualifiedname>
+        <param>
+          <type><ref refid="interface_player_input_1_1_i_player_actions" kindref="compound">IPlayerActions</ref></type>
+          <declname>instance</declname>
+        </param>
+        <briefdescription>
+<para>Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via . </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If <emphasis>instance</emphasis>  is <computeroutput>null</computeroutput>, calling this method will only unregister all existing callbacks but not register any new callbacks. </para>
+<para><simplesect kind="see"><para><ref refid="struct_player_input_1_1_player_actions_1ac0468e4bc65b955247f0734e5627299f" kindref="member">PlayerActions.AddCallbacks(IPlayerActions)</ref>, <ref refid="struct_player_input_1_1_player_actions_1a6c5c2e2f39111a29ed42834fa5bd5064" kindref="member">PlayerActions.RemoveCallbacks(IPlayerActions)</ref>, PlayerActions.UnregisterCallbacks(IPlayerActions)</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="372" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="372" bodyend="378"/>
+        <references refid="struct_player_input_1_1_player_actions_1ac0468e4bc65b955247f0734e5627299f" compoundref="_player_input_8cs" startline="324" endline="334">PlayerInput.PlayerActions.AddCallbacks</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_player_input_1_1_player_actions_1a1f66f7de06fbb966817f77c3ea9ca6d6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit PlayerInput.PlayerActions.operator InputActionMap</definition>
+        <argsstring>(PlayerActions set)</argsstring>
+        <name>operator InputActionMap</name>
+        <qualifiedname>PlayerInput.PlayerActions.operator InputActionMap</qualifiedname>
+        <param>
+          <type><ref refid="struct_player_input_1_1_player_actions_1a67cf617b5da15ba06bb8edaab41198a1" kindref="member">PlayerActions</ref></type>
+          <declname>set</declname>
+        </param>
+        <briefdescription>
+<para>Implicitly converts an  to an  instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="315" column="32" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="315" bodyend="315"/>
+        <references refid="struct_player_input_1_1_player_actions_1a67cf617b5da15ba06bb8edaab41198a1" compoundref="_player_input_8cs" startline="293" endline="293">PlayerInput.PlayerActions.PlayerActions</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="struct_player_input_1_1_player_actions_1a1e6c54673f60af02685b223034e82f88" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerInput.PlayerActions.UnregisterCallbacks</definition>
+        <argsstring>(IPlayerActions instance)</argsstring>
+        <name>UnregisterCallbacks</name>
+        <qualifiedname>PlayerInput.PlayerActions.UnregisterCallbacks</qualifiedname>
+        <param>
+          <type><ref refid="interface_player_input_1_1_i_player_actions" kindref="compound">IPlayerActions</ref></type>
+          <declname>instance</declname>
+        </param>
+        <briefdescription>
+<para>Removes InputAction.started, InputAction.performed and InputAction.canceled callbacks provided via  on all input actions contained in this map. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Calling this method when <emphasis>instance</emphasis>  have not previously been registered has no side-effects. </para>
+<para><simplesect kind="see"><para><ref refid="struct_player_input_1_1_player_actions" kindref="compound">PlayerActions</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="343" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="343" bodyend="351"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Provides access to input actions defined in input action map &quot;Player&quot;. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="286" column="11" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="287" bodyend="379"/>
+    <listofallmembers>
+      <member refid="struct_player_input_1_1_player_actions_1ac0468e4bc65b955247f0734e5627299f" prot="public" virt="non-virtual"><scope>PlayerInput::PlayerActions</scope><name>AddCallbacks</name></member>
+      <member refid="struct_player_input_1_1_player_actions_1aa98f0a8e6f874cc5940d272ab1bc6d12" prot="public" virt="non-virtual"><scope>PlayerInput::PlayerActions</scope><name>Click</name></member>
+      <member refid="struct_player_input_1_1_player_actions_1a650a3241f61f0e38a1faa0fd88b8d525" prot="public" virt="non-virtual"><scope>PlayerInput::PlayerActions</scope><name>Disable</name></member>
+      <member refid="struct_player_input_1_1_player_actions_1a0982fe6e4310bd43a36caaa900e89f39" prot="public" virt="non-virtual"><scope>PlayerInput::PlayerActions</scope><name>Enable</name></member>
+      <member refid="struct_player_input_1_1_player_actions_1a34188d0dd6f27dd5b2159e336eee5050" prot="public" virt="non-virtual"><scope>PlayerInput::PlayerActions</scope><name>enabled</name></member>
+      <member refid="struct_player_input_1_1_player_actions_1abfe529a523f1341ede09e11a51a6065e" prot="public" virt="non-virtual"><scope>PlayerInput::PlayerActions</scope><name>Get</name></member>
+      <member refid="struct_player_input_1_1_player_actions_1a65fd06521a6fd1575e7b768e6d928c6a" prot="private" virt="non-virtual"><scope>PlayerInput::PlayerActions</scope><name>m_Wrapper</name></member>
+      <member refid="struct_player_input_1_1_player_actions_1a11b014d6e9813254e38bd4e8b3090652" prot="public" virt="non-virtual"><scope>PlayerInput::PlayerActions</scope><name>Move</name></member>
+      <member refid="struct_player_input_1_1_player_actions_1a1f66f7de06fbb966817f77c3ea9ca6d6" prot="public" virt="non-virtual"><scope>PlayerInput::PlayerActions</scope><name>operator InputActionMap</name></member>
+      <member refid="struct_player_input_1_1_player_actions_1a67cf617b5da15ba06bb8edaab41198a1" prot="public" virt="non-virtual"><scope>PlayerInput::PlayerActions</scope><name>PlayerActions</name></member>
+      <member refid="struct_player_input_1_1_player_actions_1a6c5c2e2f39111a29ed42834fa5bd5064" prot="public" virt="non-virtual"><scope>PlayerInput::PlayerActions</scope><name>RemoveCallbacks</name></member>
+      <member refid="struct_player_input_1_1_player_actions_1a5a0e2291f69e756f2e8fdb71af63f6d8" prot="public" virt="non-virtual"><scope>PlayerInput::PlayerActions</scope><name>SetCallbacks</name></member>
+      <member refid="struct_player_input_1_1_player_actions_1a1e6c54673f60af02685b223034e82f88" prot="private" virt="non-virtual"><scope>PlayerInput::PlayerActions</scope><name>UnregisterCallbacks</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

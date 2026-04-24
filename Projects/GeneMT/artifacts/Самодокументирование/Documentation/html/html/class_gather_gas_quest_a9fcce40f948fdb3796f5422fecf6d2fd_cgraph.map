@@ -1,0 +1,7 @@
+<map id="GatherGasQuest.OnQuestFinish" name="GatherGasQuest.OnQuestFinish">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,216,40"/>
+<area shape="rect" id="Node000002" href="$class_quest_manager.html#aea24d979636f69fa40f33d064fa54109" title="Executes the UnregisterQuest operation." alt="" coords="264,13,469,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,24,251,27,246,27,216,29"/>
+<area shape="rect" id="Node000003" href="$class_quest_notification.html#a87c226bbe820f908e0e893debcfcc368" title="Shows UI element." alt="" coords="517,5,711,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="469,24,504,27,498,27,470,29"/>
+</map>

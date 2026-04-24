@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_line_drawer" kind="class" language="C#" prot="public">
+    <compoundname>LineDrawer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_line_drawer_1afbd27f7b4e9a5d62ae9cb226d97c944b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LineDrawer.rayLength</definition>
+        <argsstring></argsstring>
+        <name>rayLength</name>
+        <qualifiedname>LineDrawer.rayLength</qualifiedname>
+        <initializer>= 3f</initializer>
+        <briefdescription>
+<para>The rayLength field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/LineDrawer.cs" line="11" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/LineDrawer.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_line_drawer_1a783de2f0d7ba5981eb790de52ef8785d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineDrawer.OnDrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmos</name>
+        <qualifiedname>LineDrawer.OnDrawGizmos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/LineDrawer.cs" line="13" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/LineDrawer.cs" bodystart="13" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_line_drawer" kindref="compound">LineDrawer</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>LineDrawer</label>
+        <link refid="class_line_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>LineDrawer</label>
+        <link refid="class_line_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/LineDrawer.cs" line="6" column="15" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/LineDrawer.cs" bodystart="7" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_line_drawer_1a783de2f0d7ba5981eb790de52ef8785d" prot="private" virt="non-virtual"><scope>LineDrawer</scope><name>OnDrawGizmos</name></member>
+      <member refid="class_line_drawer_1afbd27f7b4e9a5d62ae9cb226d97c944b" prot="public" virt="non-virtual"><scope>LineDrawer</scope><name>rayLength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

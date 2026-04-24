@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_enemy_melee_dmg" kind="class" language="C#" prot="public">
+    <compoundname>EnemyMeleeDmg</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_enemy_melee_dmg_1ade337432d9cc8f03961531ba1e257b1f" prot="private" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator EnemyMeleeDmg.animator</definition>
+        <argsstring></argsstring>
+        <name>animator</name>
+        <qualifiedname>EnemyMeleeDmg.animator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" line="11" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_melee_dmg_1ad7aeab5b936745e47a16194035fbf034" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyMeleeDmg._damage</definition>
+        <argsstring></argsstring>
+        <name>_damage</name>
+        <qualifiedname>EnemyMeleeDmg._damage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" line="12" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_melee_dmg_1a5c1fe357a984f01e16eeab60c493cd95" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyMeleeDmg._damageCooldown</definition>
+        <argsstring></argsstring>
+        <name>_damageCooldown</name>
+        <qualifiedname>EnemyMeleeDmg._damageCooldown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" line="13" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_melee_dmg_1af4bc7637983286a4dc1dc752d030596b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyMeleeDmg._cooldownTimer</definition>
+        <argsstring></argsstring>
+        <name>_cooldownTimer</name>
+        <qualifiedname>EnemyMeleeDmg._cooldownTimer</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" line="15" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_melee_dmg_1aaf5fb4bf4bb40990fa751d120ef13b0b" prot="private" static="no" mutable="no">
+        <type>NavMeshAgent</type>
+        <definition>NavMeshAgent EnemyMeleeDmg._agent</definition>
+        <argsstring></argsstring>
+        <name>_agent</name>
+        <qualifiedname>EnemyMeleeDmg._agent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" line="16" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_melee_dmg_1af5fe08944928814362a9753a61b8dad4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EnemyMeleeDmg._canDamage</definition>
+        <argsstring></argsstring>
+        <name>_canDamage</name>
+        <qualifiedname>EnemyMeleeDmg._canDamage</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" line="17" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_melee_dmg_1a0b8e3ff4f05b5339d7cf1adc74bdabee" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EnemyMeleeDmg.isPaused</definition>
+        <argsstring></argsstring>
+        <name>isPaused</name>
+        <qualifiedname>EnemyMeleeDmg.isPaused</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" line="18" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_melee_dmg_1af27e9d3843f9476dc5c30859e78e80a9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EnemyMeleeDmg._isAttacking</definition>
+        <argsstring></argsstring>
+        <name>_isAttacking</name>
+        <qualifiedname>EnemyMeleeDmg._isAttacking</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" line="19" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_melee_dmg_1a20769547209e1d0595a3d9b40cc444a9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EnemyMeleeDmg._isInCollisionWithPlayer</definition>
+        <argsstring></argsstring>
+        <name>_isInCollisionWithPlayer</name>
+        <qualifiedname>EnemyMeleeDmg._isInCollisionWithPlayer</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" line="20" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_melee_dmg_1a663d75f282e59980b5180fde60f7a3b6" prot="private" static="no" mutable="no">
+        <type>EnemyConfig</type>
+        <definition>EnemyConfig EnemyMeleeDmg._initializedStats</definition>
+        <argsstring></argsstring>
+        <name>_initializedStats</name>
+        <qualifiedname>EnemyMeleeDmg._initializedStats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" line="23" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_enemy_melee_dmg_1a68442acc7d535351efa116246acfd426" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyMeleeDmg.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>EnemyMeleeDmg.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" line="24" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" bodystart="24" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_melee_dmg_1aa22c130b3883e3259dd27e631184430a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyMeleeDmg.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <qualifiedname>EnemyMeleeDmg.OnDestroy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" line="43" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" bodystart="43" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_melee_dmg_1a8f7735996542eba58ce5146b6901f9e0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyMeleeDmg.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>EnemyMeleeDmg.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" line="49" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" bodystart="49" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_melee_dmg_1a0862e2aa964d78f34c67f9b2905211af" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyMeleeDmg.OnCollisionEnter</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnCollisionEnter</name>
+        <qualifiedname>EnemyMeleeDmg.OnCollisionEnter</qualifiedname>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" line="58" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" bodystart="58" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_melee_dmg_1a09722e3965fb71b55cc9243e4217c1e4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyMeleeDmg.OnCollisionStay</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnCollisionStay</name>
+        <qualifiedname>EnemyMeleeDmg.OnCollisionStay</qualifiedname>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" line="64" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" bodystart="64" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_melee_dmg_1a028df6e5fc7084d5d15987d935a3fed2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyMeleeDmg.OnCollisionExit</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnCollisionExit</name>
+        <qualifiedname>EnemyMeleeDmg.OnCollisionExit</qualifiedname>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" line="71" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" bodystart="71" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_melee_dmg_1ac80c84bf26644ee4510bee1947079d7e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyMeleeDmg.MeleeAttack</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>MeleeAttack</name>
+        <qualifiedname>EnemyMeleeDmg.MeleeAttack</qualifiedname>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" line="77" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" bodystart="77" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_melee_dmg_1a97a0ec04f4a0033e126b3e0b3ab13929" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator EnemyMeleeDmg.DamageCooldown</definition>
+        <argsstring>()</argsstring>
+        <name>DamageCooldown</name>
+        <qualifiedname>EnemyMeleeDmg.DamageCooldown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" line="90" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" bodystart="90" bodyend="104"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_enemy_melee_dmg" kindref="compound">EnemyMeleeDmg</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EnemyMeleeDmg</label>
+        <link refid="class_enemy_melee_dmg"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EnemyMeleeDmg</label>
+        <link refid="class_enemy_melee_dmg"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy/EnemyMeleeDmg.cs" bodystart="10" bodyend="111"/>
+    <listofallmembers>
+      <member refid="class_enemy_melee_dmg_1aaf5fb4bf4bb40990fa751d120ef13b0b" prot="private" virt="non-virtual"><scope>EnemyMeleeDmg</scope><name>_agent</name></member>
+      <member refid="class_enemy_melee_dmg_1af5fe08944928814362a9753a61b8dad4" prot="private" virt="non-virtual"><scope>EnemyMeleeDmg</scope><name>_canDamage</name></member>
+      <member refid="class_enemy_melee_dmg_1af4bc7637983286a4dc1dc752d030596b" prot="private" virt="non-virtual"><scope>EnemyMeleeDmg</scope><name>_cooldownTimer</name></member>
+      <member refid="class_enemy_melee_dmg_1ad7aeab5b936745e47a16194035fbf034" prot="private" virt="non-virtual"><scope>EnemyMeleeDmg</scope><name>_damage</name></member>
+      <member refid="class_enemy_melee_dmg_1a5c1fe357a984f01e16eeab60c493cd95" prot="private" virt="non-virtual"><scope>EnemyMeleeDmg</scope><name>_damageCooldown</name></member>
+      <member refid="class_enemy_melee_dmg_1a663d75f282e59980b5180fde60f7a3b6" prot="private" virt="non-virtual"><scope>EnemyMeleeDmg</scope><name>_initializedStats</name></member>
+      <member refid="class_enemy_melee_dmg_1af27e9d3843f9476dc5c30859e78e80a9" prot="private" virt="non-virtual"><scope>EnemyMeleeDmg</scope><name>_isAttacking</name></member>
+      <member refid="class_enemy_melee_dmg_1a20769547209e1d0595a3d9b40cc444a9" prot="private" virt="non-virtual"><scope>EnemyMeleeDmg</scope><name>_isInCollisionWithPlayer</name></member>
+      <member refid="class_enemy_melee_dmg_1ade337432d9cc8f03961531ba1e257b1f" prot="private" virt="non-virtual"><scope>EnemyMeleeDmg</scope><name>animator</name></member>
+      <member refid="class_enemy_melee_dmg_1a97a0ec04f4a0033e126b3e0b3ab13929" prot="private" virt="non-virtual"><scope>EnemyMeleeDmg</scope><name>DamageCooldown</name></member>
+      <member refid="class_enemy_melee_dmg_1a0b8e3ff4f05b5339d7cf1adc74bdabee" prot="private" virt="non-virtual"><scope>EnemyMeleeDmg</scope><name>isPaused</name></member>
+      <member refid="class_enemy_melee_dmg_1ac80c84bf26644ee4510bee1947079d7e" prot="private" virt="non-virtual"><scope>EnemyMeleeDmg</scope><name>MeleeAttack</name></member>
+      <member refid="class_enemy_melee_dmg_1a0862e2aa964d78f34c67f9b2905211af" prot="private" virt="non-virtual"><scope>EnemyMeleeDmg</scope><name>OnCollisionEnter</name></member>
+      <member refid="class_enemy_melee_dmg_1a028df6e5fc7084d5d15987d935a3fed2" prot="private" virt="non-virtual"><scope>EnemyMeleeDmg</scope><name>OnCollisionExit</name></member>
+      <member refid="class_enemy_melee_dmg_1a09722e3965fb71b55cc9243e4217c1e4" prot="private" virt="non-virtual"><scope>EnemyMeleeDmg</scope><name>OnCollisionStay</name></member>
+      <member refid="class_enemy_melee_dmg_1aa22c130b3883e3259dd27e631184430a" prot="private" virt="non-virtual"><scope>EnemyMeleeDmg</scope><name>OnDestroy</name></member>
+      <member refid="class_enemy_melee_dmg_1a68442acc7d535351efa116246acfd426" prot="private" virt="non-virtual"><scope>EnemyMeleeDmg</scope><name>OnEnable</name></member>
+      <member refid="class_enemy_melee_dmg_1a8f7735996542eba58ce5146b6901f9e0" prot="private" virt="non-virtual"><scope>EnemyMeleeDmg</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

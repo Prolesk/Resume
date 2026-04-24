@@ -1,0 +1,7 @@
+<map id="SpawnActivityOnTile.SpawnMutationChest" name="SpawnActivityOnTile.SpawnMutationChest">
+<area shape="rect" id="Node000001" title="Spawns MutationChest." alt="" coords="478,5,665,48"/>
+<area shape="rect" id="Node000002" href="$class_generation.html#a87ab05fd81e1888dfa585afb81ec439a" title="Adds MutationsChestsToTiles." alt="" coords="220,5,430,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="460,27,431,29,431,24,465,27"/>
+<area shape="rect" id="Node000003" href="$class_generation.html#a0afdceb93ad62b910ee4d733623bec9f" title="Generates Map." alt="" coords="5,13,172,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="201,27,172,29,172,24,207,26"/>
+</map>

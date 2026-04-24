@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_quest_s_o" kind="class" language="C#" prot="public">
+    <compoundname>QuestSO</compoundname>
+    <basecompoundref refid="class_singleton_scriptable_object-1-g" prot="public" virt="non-virtual">SingletonScriptableObject&lt; T &gt;</basecompoundref>
+    <derivedcompoundref refid="class_quest_data" prot="public" virt="non-virtual">QuestData</derivedcompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_quest_s_o_1a798a0694172e043a040a60979013c299" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int QuestSO.goal</definition>
+        <argsstring></argsstring>
+        <name>goal</name>
+        <qualifiedname>QuestSO.goal</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>The goal field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" line="15" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_blood_experiment_quest_1ab034a2d629ca4e2cb0880ff89bb446fc" compoundref="_blood_experiment_01_quest_8cs" startline="12" endline="19">BloodExperimentQuest.OnQuestStart</referencedby>
+        <referencedby refid="class_gather_gas_quest_1ac87412cf60cb8f6e097d246e75d1ad77" compoundref="_gather_gas_quest_8cs" startline="17" endline="23">GatherGasQuest.OnQuestStart</referencedby>
+        <referencedby refid="class_quest_data_1acde237ec9d91d880a7fa444ef6edf226" compoundref="_quest_data_8cs" startline="74" endline="82">QuestData.UpdateProgress</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_s_o_1a03d4f439534761c3ba102632607ef98e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string QuestSO.QuestName</definition>
+        <argsstring></argsstring>
+        <name>QuestName</name>
+        <qualifiedname>QuestSO.QuestName</qualifiedname>
+        <briefdescription>
+<para>The QuestName field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" line="19" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_quest_manager_1ab1471bbeb7ffe4bf53b0c66152758f44" compoundref="_quest_manager_8cs" startline="108" endline="125">QuestManager.CancelQuest</referencedby>
+        <referencedby refid="class_quest_manager_1afe709fc19f3a1bbc4e85576820aea006" compoundref="_quest_manager_8cs" startline="131" endline="144">QuestManager.OnQuestProgressUpdated</referencedby>
+        <referencedby refid="class_quest_manager_1a1395a03cb6c72209747309163e62ef6f" compoundref="_quest_manager_8cs" startline="46" endline="61">QuestManager.RegisterQuest</referencedby>
+        <referencedby refid="class_transition_quest_start_panel_1acd996a2a1565df4e97405dc14577310c" compoundref="_transition_quest_start_panel_8cs" startline="54" endline="79">TransitionQuestStartPanel.ShowTransitionQuestConfirmation</referencedby>
+        <referencedby refid="class_quest_manager_1a2268c6fddc34c70db4d39a20865a7ab2" compoundref="_quest_manager_8cs" startline="89" endline="102">QuestManager.TurnInQuest</referencedby>
+        <referencedby refid="class_quest_manager_1aea24d979636f69fa40f33d064fa54109" compoundref="_quest_manager_8cs" startline="67" endline="83">QuestManager.UnregisterQuest</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_s_o_1ae80c44018b7de89a077817628b4c258f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string QuestSO.QuestDescription</definition>
+        <argsstring></argsstring>
+        <name>QuestDescription</name>
+        <qualifiedname>QuestSO.QuestDescription</qualifiedname>
+        <briefdescription>
+<para>The QuestDescription field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" line="23" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_transition_quest_start_panel_1acd996a2a1565df4e97405dc14577310c" compoundref="_transition_quest_start_panel_8cs" startline="54" endline="79">TransitionQuestStartPanel.ShowTransitionQuestConfirmation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_s_o_1a12e1fedcb2783f96dcf7d9b865d61650" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int QuestSO.GoldReward</definition>
+        <argsstring></argsstring>
+        <name>GoldReward</name>
+        <qualifiedname>QuestSO.GoldReward</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>The GoldReward field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" line="27" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_s_o_1a64541bb365b90acf64e5642159eca2a2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int QuestSO.QuestId</definition>
+        <argsstring></argsstring>
+        <name>QuestId</name>
+        <qualifiedname>QuestSO.QuestId</qualifiedname>
+        <briefdescription>
+<para>The QuestId field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" line="31" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_s_o_1a132123ffe9ec7dafddef1c709a79d6d7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool QuestSO.NeedReStartEvent</definition>
+        <argsstring></argsstring>
+        <name>NeedReStartEvent</name>
+        <qualifiedname>QuestSO.NeedReStartEvent</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>The NeedReStartEvent field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" line="36" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_s_o_1a94931986cb20e170fe4e9c2902b112d5" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool QuestSO.HasStartAnimation</definition>
+        <argsstring></argsstring>
+        <name>HasStartAnimation</name>
+        <qualifiedname>QuestSO.HasStartAnimation</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>The HasStartAnimation field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" line="40" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_quest_s_o_1a06e83b27607671a13415d73ecb51ab3f" compoundref="_quest_s_o_8cs" startline="59" endline="63">StartQuest</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_s_o_1a6832564c35b20c8d2c89aff861ed5ddd" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool QuestSO.HasFinishAnimation</definition>
+        <argsstring></argsstring>
+        <name>HasFinishAnimation</name>
+        <qualifiedname>QuestSO.HasFinishAnimation</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>The HasFinishAnimation field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" line="44" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_quest_s_o_1ad32bc3329879c9d803fc311baba33109" compoundref="_quest_s_o_8cs" startline="77" endline="81">FinishQuest</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_s_o_1ae15b001e08eabb8b66c66b7805e3be7d" prot="public" static="no" mutable="no">
+        <type>Action</type>
+        <definition>Action QuestSO._onQuestStarted</definition>
+        <argsstring></argsstring>
+        <name>_onQuestStarted</name>
+        <qualifiedname>QuestSO._onQuestStarted</qualifiedname>
+        <briefdescription>
+<para>The _onQuestStarted field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" line="49" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_quest_s_o_1a06e83b27607671a13415d73ecb51ab3f" compoundref="_quest_s_o_8cs" startline="59" endline="63">StartQuest</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_s_o_1a09c3e6a7789e9f38eac7679e5c0f7bf9" prot="public" static="no" mutable="no">
+        <type>Action&lt; int &gt;</type>
+        <definition>Action&lt;int&gt; QuestSO._onQuestUpdated</definition>
+        <argsstring></argsstring>
+        <name>_onQuestUpdated</name>
+        <qualifiedname>QuestSO._onQuestUpdated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" line="50" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" bodystart="50" bodyend="-1"/>
+        <referencedby refid="class_quest_s_o_1a7dd6cda0dc453e8ec8a71899ef2075e7" compoundref="_quest_s_o_8cs" startline="69" endline="72">UpdateQuest</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_s_o_1a5efab303df6c76e08afd15df1b719d59" prot="public" static="no" mutable="no">
+        <type>Action</type>
+        <definition>Action QuestSO._onQuestFinished</definition>
+        <argsstring></argsstring>
+        <name>_onQuestFinished</name>
+        <qualifiedname>QuestSO._onQuestFinished</qualifiedname>
+        <briefdescription>
+<para>The _onQuestFinished field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" line="54" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_quest_s_o_1ad32bc3329879c9d803fc311baba33109" compoundref="_quest_s_o_8cs" startline="77" endline="81">FinishQuest</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_quest_s_o_1a06e83b27607671a13415d73ecb51ab3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestSO.StartQuest</definition>
+        <argsstring>()</argsstring>
+        <name>StartQuest</name>
+        <qualifiedname>QuestSO.StartQuest</qualifiedname>
+        <briefdescription>
+<para>Executes the StartQuest operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" line="59" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" bodystart="59" bodyend="63"/>
+        <references refid="class_quest_s_o_1ae15b001e08eabb8b66c66b7805e3be7d" compoundref="_quest_s_o_8cs" startline="49">_onQuestStarted</references>
+        <references refid="class_quest_s_o_1a94931986cb20e170fe4e9c2902b112d5" compoundref="_quest_s_o_8cs" startline="40">HasStartAnimation</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_s_o_1a7dd6cda0dc453e8ec8a71899ef2075e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestSO.UpdateQuest</definition>
+        <argsstring>(int goalCount)</argsstring>
+        <name>UpdateQuest</name>
+        <qualifiedname>QuestSO.UpdateQuest</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>goalCount</declname>
+        </param>
+        <briefdescription>
+<para>Updates Quest. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>goalCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The goalCount.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" line="69" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" bodystart="69" bodyend="72"/>
+        <references refid="class_quest_s_o_1a09c3e6a7789e9f38eac7679e5c0f7bf9" compoundref="_quest_s_o_8cs" startline="50">_onQuestUpdated</references>
+        <referencedby refid="class_blood_experiment_quest_1ab034a2d629ca4e2cb0880ff89bb446fc" compoundref="_blood_experiment_01_quest_8cs" startline="12" endline="19">BloodExperimentQuest.OnQuestStart</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_s_o_1ad32bc3329879c9d803fc311baba33109" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestSO.FinishQuest</definition>
+        <argsstring>()</argsstring>
+        <name>FinishQuest</name>
+        <qualifiedname>QuestSO.FinishQuest</qualifiedname>
+        <briefdescription>
+<para>Executes the FinishQuest operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" line="77" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" bodystart="77" bodyend="81"/>
+        <references refid="class_quest_s_o_1a5efab303df6c76e08afd15df1b719d59" compoundref="_quest_s_o_8cs" startline="54">_onQuestFinished</references>
+        <references refid="class_quest_s_o_1a6832564c35b20c8d2c89aff861ed5ddd" compoundref="_quest_s_o_8cs" startline="44">HasFinishAnimation</references>
+        <referencedby refid="class_quest_data_1acde237ec9d91d880a7fa444ef6edf226" compoundref="_quest_data_8cs" startline="74" endline="82">QuestData.UpdateProgress</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_quest_s_o" kindref="compound">QuestSO</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>BloodExperimentQuest</label>
+        <link refid="class_blood_experiment_quest"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>EnemyKillerQuest</label>
+        <link refid="class_enemy_killer_quest"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>GatherGasQuest</label>
+        <link refid="class_gather_gas_quest"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MagicBlizzardQuest</label>
+        <link refid="class_magic_blizzard_quest"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>QuestData</label>
+        <link refid="class_quest_data"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>QuestSO</label>
+        <link refid="class_quest_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>QuestSO</label>
+        <link refid="class_quest_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestSO.cs" bodystart="10" bodyend="82"/>
+    <listofallmembers>
+      <member refid="class_quest_s_o_1a5efab303df6c76e08afd15df1b719d59" prot="public" virt="non-virtual"><scope>QuestSO</scope><name>_onQuestFinished</name></member>
+      <member refid="class_quest_s_o_1ae15b001e08eabb8b66c66b7805e3be7d" prot="public" virt="non-virtual"><scope>QuestSO</scope><name>_onQuestStarted</name></member>
+      <member refid="class_quest_s_o_1a09c3e6a7789e9f38eac7679e5c0f7bf9" prot="public" virt="non-virtual"><scope>QuestSO</scope><name>_onQuestUpdated</name></member>
+      <member refid="class_quest_s_o_1ad32bc3329879c9d803fc311baba33109" prot="public" virt="non-virtual"><scope>QuestSO</scope><name>FinishQuest</name></member>
+      <member refid="class_quest_s_o_1a798a0694172e043a040a60979013c299" prot="public" virt="non-virtual"><scope>QuestSO</scope><name>goal</name></member>
+      <member refid="class_quest_s_o_1a12e1fedcb2783f96dcf7d9b865d61650" prot="public" virt="non-virtual"><scope>QuestSO</scope><name>GoldReward</name></member>
+      <member refid="class_quest_s_o_1a6832564c35b20c8d2c89aff861ed5ddd" prot="public" virt="non-virtual"><scope>QuestSO</scope><name>HasFinishAnimation</name></member>
+      <member refid="class_quest_s_o_1a94931986cb20e170fe4e9c2902b112d5" prot="public" virt="non-virtual"><scope>QuestSO</scope><name>HasStartAnimation</name></member>
+      <member refid="class_singleton_scriptable_object-1-g_1aa59148a0a9bc37057ef216e7c9a814a8" prot="public" virt="non-virtual"><scope>QuestSO</scope><name>Instance</name></member>
+      <member refid="class_quest_s_o_1a132123ffe9ec7dafddef1c709a79d6d7" prot="public" virt="non-virtual"><scope>QuestSO</scope><name>NeedReStartEvent</name></member>
+      <member refid="class_quest_s_o_1ae80c44018b7de89a077817628b4c258f" prot="public" virt="non-virtual"><scope>QuestSO</scope><name>QuestDescription</name></member>
+      <member refid="class_quest_s_o_1a64541bb365b90acf64e5642159eca2a2" prot="public" virt="non-virtual"><scope>QuestSO</scope><name>QuestId</name></member>
+      <member refid="class_quest_s_o_1a03d4f439534761c3ba102632607ef98e" prot="public" virt="non-virtual"><scope>QuestSO</scope><name>QuestName</name></member>
+      <member refid="class_quest_s_o_1a06e83b27607671a13415d73ecb51ab3f" prot="public" virt="non-virtual"><scope>QuestSO</scope><name>StartQuest</name></member>
+      <member refid="class_quest_s_o_1a7dd6cda0dc453e8ec8a71899ef2075e7" prot="public" virt="non-virtual"><scope>QuestSO</scope><name>UpdateQuest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

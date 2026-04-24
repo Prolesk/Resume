@@ -1,0 +1,11 @@
+<map id="Weapon.GetUpgradeDescriptionForNextLevel" name="Weapon.GetUpgradeDescriptionForNextLevel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="291,85,499,128"/>
+<area shape="rect" id="Node000002" href="$class_bullet_shooter.html#a703e35c9e8b47ae011b2436c56426ab2" title=" " alt="" coords="5,5,243,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="331,79,242,47,200,35,199,30,243,41,336,78"/>
+<area shape="rect" id="Node000003" href="$class_damage_field_trigger.html#ae4e9bc63377580fad99488f2f0bec1f1" title=" " alt="" coords="30,56,218,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="273,94,219,90,218,85,278,93"/>
+<area shape="rect" id="Node000004" href="$class_laser.html#a3aa1e5349df6e09fc7ec496ca51e916d" title=" " alt="" coords="28,123,220,149"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="272,120,221,128,220,123,278,119"/>
+<area shape="rect" id="Node000005" href="$class_magic_staff.html#a9fcc42d8b0d63c293c320b3c3154eb2a" title=" " alt="" coords="13,173,235,200"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="327,133,243,164,198,175,197,170,242,159,322,134"/>
+</map>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_b7496194a4578d98d0695316e294b4c8" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts/Game</compoundname>
+    <innerdir refid="dir_21af57ec05dc7d28528cad8b110880d9">C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common</innerdir>
+    <innerdir refid="dir_e7f546ef8995287379d42c155a3bf153">C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameMenu</innerdir>
+    <innerdir refid="dir_fe695852966688012213edf634fdc4a3">C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState</innerdir>
+    <innerdir refid="dir_33677a636501ed14ba228eeda396c398">C:/Users/cooki/ProjectLL/Assets/Scripts/Game/LVL</innerdir>
+    <innerdir refid="dir_7084757a9bd47142fb65c9c2ee785d2a">C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration</innerdir>
+    <innerdir refid="dir_0985fac2f89404899a826bb3c244f26b">C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Menu</innerdir>
+    <innerdir refid="dir_f7c77d7d637a52f1729577f6c715333e">C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests</innerdir>
+    <innerfile refid="_audio_manager_8cs">AudioManager.cs</innerfile>
+    <innerfile refid="_final_vignette_8cs">FinalVignette.cs</innerfile>
+    <innerfile refid="_line_drawer_8cs">LineDrawer.cs</innerfile>
+    <innerfile refid="_look_at_camera_u_i_8cs">LookAtCameraUI.cs</innerfile>
+    <innerfile refid="_music_changer_8cs">MusicChanger.cs</innerfile>
+    <innerfile refid="_settings_8cs">Settings.cs</innerfile>
+    <innerfile refid="_transition_manager_8cs">TransitionManager.cs</innerfile>
+    <innerfile refid="_universal_notification_8cs">UniversalNotification.cs</innerfile>
+    <innerfile refid="_volume_slider_stars_8cs">VolumeSliderStars.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/"/>
+  </compounddef>
+</doxygen>

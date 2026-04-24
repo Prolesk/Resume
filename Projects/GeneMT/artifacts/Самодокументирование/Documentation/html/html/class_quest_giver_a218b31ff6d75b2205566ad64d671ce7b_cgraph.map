@@ -1,0 +1,7 @@
+<map id="QuestGiver.MakeReady" name="QuestGiver.MakeReady">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,167,61"/>
+<area shape="rect" id="Node000002" href="$class_game_menu_controller.html#a5667fae1a558c7aa9564b3dfd751fe51" title="Shows UI element." alt="" coords="215,5,453,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,36,203,34,198,35,168,41"/>
+<area shape="rect" id="Node000003" href="$class_game_menu_controller.html#aabaaea9ec11362f3f2946ddbb1b69592" title="Shows UI element." alt="" coords="226,56,442,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="167,55,213,62,207,63,167,60"/>
+</map>

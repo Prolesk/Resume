@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_4b8640857bf8216535587707011924da" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy</compoundname>
+    <innerdir refid="dir_25e1a23e40f4ca73be593b38cc53d228">C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common</innerdir>
+    <innerdir refid="dir_d8ce1e1dda411b946c3e6d90240e452b">C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/"/>
+  </compounddef>
+</doxygen>

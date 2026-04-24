@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="_blood_experiment_01_quest_8cs" kind="file" language="C#">
+    <compoundname>BloodExperiment Quest.cs</compoundname>
+    <innerclass refid="class_blood_experiment_quest" prot="public">BloodExperimentQuest</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Cysharp.Threading.Tasks;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">[CreateAssetMenu(fileName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Blood<sp/>Experiment<sp/>Quest&quot;</highlight><highlight class="normal">,<sp/>menuName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Quests/Blood<sp/>Experiment<sp/>Quest&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="10" refid="class_blood_experiment_quest" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_blood_experiment_quest" kindref="compound">BloodExperimentQuest</ref><sp/>:<sp/><ref refid="class_quest_data" kindref="compound">QuestData</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12" refid="class_blood_experiment_quest_1ab034a2d629ca4e2cb0880ff89bb446fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/>async<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_blood_experiment_quest_1ab034a2d629ca4e2cb0880ff89bb446fc" kindref="member">OnQuestStart</ref>()</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.OnQuestStart();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player_h_p" kindref="compound">PlayerHP</ref>.<ref refid="class_player_h_p_1a0a65c4ea1236809e55716d3e6352a8ed" kindref="member">Instance</ref>.<ref refid="class_player_h_p_1acce7bb9a08f70d48821152292a96c836" kindref="member">DamageInPercent</ref>(<ref refid="class_quest_s_o_1a798a0694172e043a040a60979013c299" kindref="member">goal</ref>);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_quest_manager" kindref="compound">QuestManager</ref>.<ref refid="class_quest_manager_1a8e1cd09cf2af8f04d6854f0b54d8b0bf" kindref="member">Instance</ref>?.<ref refid="class_quest_manager_1a1395a03cb6c72209747309163e62ef6f" kindref="member">RegisterQuest</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>await<sp/>UniTask.WaitForSeconds(3);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_quest_s_o_1a7dd6cda0dc453e8ec8a71899ef2075e7" kindref="member">UpdateQuest</ref>(<ref refid="class_quest_s_o_1a798a0694172e043a040a60979013c299" kindref="member">goal</ref>);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_blood_experiment_quest_1af4a8cf7ad20d8dc5589b52e4af65b569" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_blood_experiment_quest_1af4a8cf7ad20d8dc5589b52e4af65b569" kindref="member">OnQuestFinish</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.OnQuestFinish();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_quest_manager" kindref="compound">QuestManager</ref>.<ref refid="class_quest_manager_1a8e1cd09cf2af8f04d6854f0b54d8b0bf" kindref="member">Instance</ref>?.<ref refid="class_quest_manager_1aea24d979636f69fa40f33d064fa54109" kindref="member">UnregisterQuest</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28" refid="class_blood_experiment_quest_1a1d0ac431d1285f7fbfd77e3d013bbfaf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_blood_experiment_quest_1a1d0ac431d1285f7fbfd77e3d013bbfaf" kindref="member">OnQuestCancel</ref>()</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.OnQuestCancel();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_quest_manager" kindref="compound">QuestManager</ref>.<ref refid="class_quest_manager_1a8e1cd09cf2af8f04d6854f0b54d8b0bf" kindref="member">Instance</ref>?.<ref refid="class_quest_manager_1ab1471bbeb7ffe4bf53b0c66152758f44" kindref="member">CancelQuest</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/BloodExperiment Quest.cs"/>
+  </compounddef>
+</doxygen>

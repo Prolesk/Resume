@@ -1,0 +1,14 @@
+<map id="MutationDeleteTest" name="MutationDeleteTest">
+<area shape="rect" id="Node000001" title="The MutationDeleteTest class." alt="" coords="5,355,140,381"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="12,5,123,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,44,54,94,54,270,60,317,71,355,65,354,55,318,49,271,49,93,58,49"/>
+<area shape="rect" id="Node000006" href="$class_e_interactable.html" title="The EInteractable class." alt="" coords="89,81,187,108"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="89,40,128,80,123,82,90,46"/>
+<area shape="rect" id="Node000003" href="$class_mutation_data_s_o.html" title="The MutationDataSO class." alt="" coords="88,256,206,283"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="131,295,84,356,80,353,126,295"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="190,157,307,184"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="228,194,190,234,164,258,160,254,187,230,224,197"/>
+<area shape="rect" id="Node000005" href="$class_chest.html" title="The Chest class." alt="" coords="110,157,166,184"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="142,197,149,256,143,255,139,202"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="139,121,140,158,135,156,137,126"/>
+</map>

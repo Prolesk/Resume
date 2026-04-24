@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_event_trigger" kind="class" language="C#" prot="public">
+    <compoundname>EventTrigger</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_event_trigger_1a6aaa545ef82202fb9c8aca8f03d23718" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_e_interactable" kindref="compound">EInteractable</ref> &gt;</type>
+        <definition>List&lt;EInteractable&gt; EventTrigger._events</definition>
+        <argsstring></argsstring>
+        <name>_events</name>
+        <qualifiedname>EventTrigger._events</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_e_interactable" kindref="compound">EInteractable</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EventTrigger.cs" line="11" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EventTrigger.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_event_trigger_1a9e570908957d4ccf7074547522faf559" prot="private" static="no" mutable="no">
+        <type><ref refid="class_e_interactable" kindref="compound">EInteractable</ref></type>
+        <definition>EInteractable EventTrigger._activeEvent</definition>
+        <argsstring></argsstring>
+        <name>_activeEvent</name>
+        <qualifiedname>EventTrigger._activeEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EventTrigger.cs" line="12" column="27" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EventTrigger.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_event_trigger_1a4ac7d2d0a86d2e032118e08975404dcc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventTrigger.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <qualifiedname>EventTrigger.OnTriggerEnter</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EventTrigger.cs" line="13" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EventTrigger.cs" bodystart="13" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_event_trigger_1af13ea3cedfd3f2f0d6e8d9f9234777e6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventTrigger.OnTriggerExit</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerExit</name>
+        <qualifiedname>EventTrigger.OnTriggerExit</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EventTrigger.cs" line="21" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EventTrigger.cs" bodystart="21" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_event_trigger_1a043aa0edef1e47a7bce6adf86693c568" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventTrigger.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>EventTrigger.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EventTrigger.cs" line="29" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EventTrigger.cs" bodystart="29" bodyend="80"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_event_trigger" kindref="compound">EventTrigger</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EventTrigger</label>
+        <link refid="class_event_trigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EventTrigger</label>
+        <link refid="class_event_trigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EventTrigger.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/EventTrigger.cs" bodystart="10" bodyend="81"/>
+    <listofallmembers>
+      <member refid="class_event_trigger_1a9e570908957d4ccf7074547522faf559" prot="private" virt="non-virtual"><scope>EventTrigger</scope><name>_activeEvent</name></member>
+      <member refid="class_event_trigger_1a6aaa545ef82202fb9c8aca8f03d23718" prot="private" virt="non-virtual"><scope>EventTrigger</scope><name>_events</name></member>
+      <member refid="class_event_trigger_1a4ac7d2d0a86d2e032118e08975404dcc" prot="private" virt="non-virtual"><scope>EventTrigger</scope><name>OnTriggerEnter</name></member>
+      <member refid="class_event_trigger_1af13ea3cedfd3f2f0d6e8d9f9234777e6" prot="private" virt="non-virtual"><scope>EventTrigger</scope><name>OnTriggerExit</name></member>
+      <member refid="class_event_trigger_1a043aa0edef1e47a7bce6adf86693c568" prot="private" virt="non-virtual"><scope>EventTrigger</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

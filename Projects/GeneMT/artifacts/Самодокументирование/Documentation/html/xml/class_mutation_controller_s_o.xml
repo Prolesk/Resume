@@ -1,0 +1,389 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_mutation_controller_s_o" kind="class" language="C#" prot="public">
+    <compoundname>MutationControllerSO</compoundname>
+    <basecompoundref refid="class_singleton_scriptable_object-1-g" prot="public" virt="non-virtual">SingletonScriptableObject&lt; T &gt;</basecompoundref>
+    <innerclass refid="class_mutation_controller_s_o_1_1_mutation_entry" prot="public">MutationControllerSO::MutationEntry</innerclass>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_mutation_controller_s_o_1aaf715ec6795d54ac496dc9a7c9c87762" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long MutationControllerSO._startChestCost</definition>
+        <argsstring></argsstring>
+        <name>_startChestCost</name>
+        <qualifiedname>MutationControllerSO._startChestCost</qualifiedname>
+        <briefdescription>
+<para>The _startChestCost field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" line="42" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_mutation_controller_s_o_1a2262c0af81efc71c9ee370d9ff63fdc2" compoundref="_mutation_controller_s_o_8cs" startline="81" endline="84">ExpandCost</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mutation_controller_s_o_1a94a4f3a8dbe7a9dbeff601b452991e68" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_mutation_data_s_o" kindref="compound">MutationDataSO</ref> &gt;</type>
+        <definition>List&lt;MutationDataSO&gt; MutationControllerSO.AllMutationsPool</definition>
+        <argsstring></argsstring>
+        <name>AllMutationsPool</name>
+        <qualifiedname>MutationControllerSO.AllMutationsPool</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_mutation_data_s_o" kindref="compound">MutationDataSO</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" line="45" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mutation_controller_s_o_1a5a70624133eec345fb6c030c8c883dea" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_mutation_controller_s_o_1_1_mutation_entry" kindref="compound">MutationEntry</ref> &gt;</type>
+        <definition>List&lt;MutationEntry&gt; MutationControllerSO.PlayerMutations</definition>
+        <argsstring></argsstring>
+        <name>PlayerMutations</name>
+        <qualifiedname>MutationControllerSO.PlayerMutations</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_mutation_controller_s_o_1_1_mutation_entry" kindref="compound">MutationEntry</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" line="66" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" bodystart="66" bodyend="-1"/>
+        <referencedby refid="class_mutation_controller_s_o_1aa98533af81003681b380f2676f6a4233" compoundref="_mutation_controller_s_o_8cs" startline="90" endline="107">AddMutation</referencedby>
+        <referencedby refid="class_mutation_controller_s_o_1a47e8b558ede9d2968b93639d2564cc36" compoundref="_mutation_controller_s_o_8cs" startline="173" endline="177">CalculateMutationCount</referencedby>
+        <referencedby refid="class_mutation_controller_s_o_1a0f6b804638c2d9606b738ee9995bd13f" compoundref="_mutation_controller_s_o_8cs" startline="137" endline="144">ClearAllMutations</referencedby>
+        <referencedby refid="class_mutation_controller_s_o_1a6c91e3d55447872f8b3c1dc3ef0ea83a" compoundref="_mutation_controller_s_o_8cs" startline="151" endline="154">ContainsMutation</referencedby>
+        <referencedby refid="class_mutation_controller_s_o_1a50edca4f1897bac9eaafbf1345c43680" compoundref="_mutation_controller_s_o_8cs" startline="113" endline="132">DeleteMutation</referencedby>
+        <referencedby refid="class_mutation_controller_s_o_1ae3a09149e4288b264d2ffc3c704f0940" compoundref="_mutation_controller_s_o_8cs" startline="180" endline="183">GetUniquePlayerMutations</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mutation_controller_s_o_1acada8bbd783c389d630895c1f3ebf6c7" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip MutationControllerSO.SuccessfulOpenChest</definition>
+        <argsstring></argsstring>
+        <name>SuccessfulOpenChest</name>
+        <qualifiedname>MutationControllerSO.SuccessfulOpenChest</qualifiedname>
+        <briefdescription>
+<para>The SuccessfulOpenChest field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" line="72" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mutation_controller_s_o_1ad5a34f0c5dcb4c02e2ab2721f2622fb0" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip MutationControllerSO.ErrorOpenChest</definition>
+        <argsstring></argsstring>
+        <name>ErrorOpenChest</name>
+        <qualifiedname>MutationControllerSO.ErrorOpenChest</qualifiedname>
+        <briefdescription>
+<para>The ErrorOpenChest field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" line="76" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_mutation_controller_s_o_1a5ff4764620c83c229452f6f9f4ecb5c8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_mutation_data_s_o" kindref="compound">MutationDataSO</ref> &gt;</type>
+        <definition>List&lt;MutationDataSO&gt; MutationControllerSO.PlayerMutationsPool</definition>
+        <argsstring></argsstring>
+        <name>PlayerMutationsPool</name>
+        <qualifiedname>MutationControllerSO.PlayerMutationsPool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" line="48" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" bodystart="49" bodyend="63"/>
+        <referencedby refid="class_mutation_controller_s_o_1ae2472a3440400450fb4b9d49521c8bfb" compoundref="_mutation_controller_s_o_8cs" startline="186" endline="189">GetFlatMutationList</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mutation_controller_s_o_1a2262c0af81efc71c9ee370d9ff63fdc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MutationControllerSO.ExpandCost</definition>
+        <argsstring>()</argsstring>
+        <name>ExpandCost</name>
+        <qualifiedname>MutationControllerSO.ExpandCost</qualifiedname>
+        <briefdescription>
+<para>Executes the ExpandCost operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" line="81" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" bodystart="81" bodyend="84"/>
+        <references refid="class_mutation_controller_s_o_1aaf715ec6795d54ac496dc9a7c9c87762" compoundref="_mutation_controller_s_o_8cs" startline="42">_startChestCost</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mutation_controller_s_o_1aa98533af81003681b380f2676f6a4233" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MutationControllerSO.AddMutation</definition>
+        <argsstring>(MutationDataSO mutation)</argsstring>
+        <name>AddMutation</name>
+        <qualifiedname>MutationControllerSO.AddMutation</qualifiedname>
+        <param>
+          <type><ref refid="class_mutation_data_s_o" kindref="compound">MutationDataSO</ref></type>
+          <declname>mutation</declname>
+        </param>
+        <briefdescription>
+<para>Adds Mutation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mutation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The mutation.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" line="90" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" bodystart="90" bodyend="107"/>
+        <references refid="class_mutation_data_s_o_1ade37829d7f933b23f27b487edcd3c8e0" compoundref="_mutation_data_s_o_8cs" startline="35" endline="38">MutationDataSO.OnPick</references>
+        <references refid="class_mutation_controller_s_o_1a5a70624133eec345fb6c030c8c883dea" compoundref="_mutation_controller_s_o_8cs" startline="66">PlayerMutations</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mutation_controller_s_o_1a50edca4f1897bac9eaafbf1345c43680" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MutationControllerSO.DeleteMutation</definition>
+        <argsstring>(MutationDataSO mutation)</argsstring>
+        <name>DeleteMutation</name>
+        <qualifiedname>MutationControllerSO.DeleteMutation</qualifiedname>
+        <param>
+          <type><ref refid="class_mutation_data_s_o" kindref="compound">MutationDataSO</ref></type>
+          <declname>mutation</declname>
+        </param>
+        <briefdescription>
+<para>Executes the DeleteMutation operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mutation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The mutation.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" line="113" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" bodystart="113" bodyend="132"/>
+        <references refid="class_mutation_controller_s_o_1a5a70624133eec345fb6c030c8c883dea" compoundref="_mutation_controller_s_o_8cs" startline="66">PlayerMutations</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mutation_controller_s_o_1a0f6b804638c2d9606b738ee9995bd13f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MutationControllerSO.ClearAllMutations</definition>
+        <argsstring>()</argsstring>
+        <name>ClearAllMutations</name>
+        <qualifiedname>MutationControllerSO.ClearAllMutations</qualifiedname>
+        <briefdescription>
+<para>Executes the ClearAllMutations operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" line="137" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" bodystart="137" bodyend="144"/>
+        <references refid="class_mutation_controller_s_o_1a5a70624133eec345fb6c030c8c883dea" compoundref="_mutation_controller_s_o_8cs" startline="66">PlayerMutations</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mutation_controller_s_o_1a6c91e3d55447872f8b3c1dc3ef0ea83a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MutationControllerSO.ContainsMutation</definition>
+        <argsstring>(MutationDataSO mutation)</argsstring>
+        <name>ContainsMutation</name>
+        <qualifiedname>MutationControllerSO.ContainsMutation</qualifiedname>
+        <param>
+          <type><ref refid="class_mutation_data_s_o" kindref="compound">MutationDataSO</ref></type>
+          <declname>mutation</declname>
+        </param>
+        <briefdescription>
+<para>Executes the ContainsMutation operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mutation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The mutation.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The result as bool.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" line="151" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" bodystart="151" bodyend="154"/>
+        <references refid="class_mutation_controller_s_o_1a5a70624133eec345fb6c030c8c883dea" compoundref="_mutation_controller_s_o_8cs" startline="66">PlayerMutations</references>
+        <referencedby refid="class_mutation_controller_s_o_1ac30e18fcd94b3a664ad31d93cefaee85" compoundref="_mutation_controller_s_o_8cs" startline="162" endline="165">IsAlreadyContains</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mutation_controller_s_o_1ac30e18fcd94b3a664ad31d93cefaee85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MutationControllerSO.IsAlreadyContains</definition>
+        <argsstring>(MutationDataSO mutation)</argsstring>
+        <name>IsAlreadyContains</name>
+        <qualifiedname>MutationControllerSO.IsAlreadyContains</qualifiedname>
+        <param>
+          <type><ref refid="class_mutation_data_s_o" kindref="compound">MutationDataSO</ref></type>
+          <declname>mutation</declname>
+        </param>
+        <briefdescription>
+<para>Executes the IsAlreadyContains operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mutation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The mutation.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The result as bool.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" line="162" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" bodystart="162" bodyend="165"/>
+        <references refid="class_mutation_controller_s_o_1a6c91e3d55447872f8b3c1dc3ef0ea83a" compoundref="_mutation_controller_s_o_8cs" startline="151" endline="154">ContainsMutation</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mutation_controller_s_o_1a47e8b558ede9d2968b93639d2564cc36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MutationControllerSO.CalculateMutationCount</definition>
+        <argsstring>(MutationDataSO mutation)</argsstring>
+        <name>CalculateMutationCount</name>
+        <qualifiedname>MutationControllerSO.CalculateMutationCount</qualifiedname>
+        <param>
+          <type><ref refid="class_mutation_data_s_o" kindref="compound">MutationDataSO</ref></type>
+          <declname>mutation</declname>
+        </param>
+        <briefdescription>
+<para>Calculates MutationCount. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mutation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The mutation.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The result as int.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" line="173" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" bodystart="173" bodyend="177"/>
+        <references refid="class_mutation_controller_s_o_1a5a70624133eec345fb6c030c8c883dea" compoundref="_mutation_controller_s_o_8cs" startline="66">PlayerMutations</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mutation_controller_s_o_1ae3a09149e4288b264d2ffc3c704f0940" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_mutation_controller_s_o_1_1_mutation_entry" kindref="compound">MutationEntry</ref> &gt;</type>
+        <definition>List&lt; MutationEntry &gt; MutationControllerSO.GetUniquePlayerMutations</definition>
+        <argsstring>()</argsstring>
+        <name>GetUniquePlayerMutations</name>
+        <qualifiedname>MutationControllerSO.GetUniquePlayerMutations</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" line="180" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" bodystart="180" bodyend="183"/>
+        <references refid="class_mutation_controller_s_o_1a5a70624133eec345fb6c030c8c883dea" compoundref="_mutation_controller_s_o_8cs" startline="66">PlayerMutations</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mutation_controller_s_o_1ae2472a3440400450fb4b9d49521c8bfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_mutation_data_s_o" kindref="compound">MutationDataSO</ref> &gt;</type>
+        <definition>List&lt; MutationDataSO &gt; MutationControllerSO.GetFlatMutationList</definition>
+        <argsstring>()</argsstring>
+        <name>GetFlatMutationList</name>
+        <qualifiedname>MutationControllerSO.GetFlatMutationList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" line="186" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" bodystart="186" bodyend="189"/>
+        <references refid="class_mutation_controller_s_o_1a5ff4764620c83c229452f6f9f4ecb5c8" compoundref="_mutation_controller_s_o_8cs" startline="49" endline="63">PlayerMutationsPool</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_mutation_controller_s_o" kindref="compound">MutationControllerSO</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MutationControllerSO</label>
+        <link refid="class_mutation_controller_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MutationControllerSO</label>
+        <link refid="class_mutation_controller_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" line="11" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" bodystart="12" bodyend="190"/>
+    <listofallmembers>
+      <member refid="class_mutation_controller_s_o_1aaf715ec6795d54ac496dc9a7c9c87762" prot="public" virt="non-virtual"><scope>MutationControllerSO</scope><name>_startChestCost</name></member>
+      <member refid="class_mutation_controller_s_o_1aa98533af81003681b380f2676f6a4233" prot="public" virt="non-virtual"><scope>MutationControllerSO</scope><name>AddMutation</name></member>
+      <member refid="class_mutation_controller_s_o_1a94a4f3a8dbe7a9dbeff601b452991e68" prot="public" virt="non-virtual"><scope>MutationControllerSO</scope><name>AllMutationsPool</name></member>
+      <member refid="class_mutation_controller_s_o_1a47e8b558ede9d2968b93639d2564cc36" prot="public" virt="non-virtual"><scope>MutationControllerSO</scope><name>CalculateMutationCount</name></member>
+      <member refid="class_mutation_controller_s_o_1a0f6b804638c2d9606b738ee9995bd13f" prot="public" virt="non-virtual"><scope>MutationControllerSO</scope><name>ClearAllMutations</name></member>
+      <member refid="class_mutation_controller_s_o_1a6c91e3d55447872f8b3c1dc3ef0ea83a" prot="public" virt="non-virtual"><scope>MutationControllerSO</scope><name>ContainsMutation</name></member>
+      <member refid="class_mutation_controller_s_o_1a50edca4f1897bac9eaafbf1345c43680" prot="public" virt="non-virtual"><scope>MutationControllerSO</scope><name>DeleteMutation</name></member>
+      <member refid="class_mutation_controller_s_o_1ad5a34f0c5dcb4c02e2ab2721f2622fb0" prot="public" virt="non-virtual"><scope>MutationControllerSO</scope><name>ErrorOpenChest</name></member>
+      <member refid="class_mutation_controller_s_o_1a2262c0af81efc71c9ee370d9ff63fdc2" prot="public" virt="non-virtual"><scope>MutationControllerSO</scope><name>ExpandCost</name></member>
+      <member refid="class_mutation_controller_s_o_1ae2472a3440400450fb4b9d49521c8bfb" prot="public" virt="non-virtual"><scope>MutationControllerSO</scope><name>GetFlatMutationList</name></member>
+      <member refid="class_mutation_controller_s_o_1ae3a09149e4288b264d2ffc3c704f0940" prot="public" virt="non-virtual"><scope>MutationControllerSO</scope><name>GetUniquePlayerMutations</name></member>
+      <member refid="class_singleton_scriptable_object-1-g_1aa59148a0a9bc37057ef216e7c9a814a8" prot="public" virt="non-virtual"><scope>MutationControllerSO</scope><name>Instance</name></member>
+      <member refid="class_mutation_controller_s_o_1ac30e18fcd94b3a664ad31d93cefaee85" prot="public" virt="non-virtual"><scope>MutationControllerSO</scope><name>IsAlreadyContains</name></member>
+      <member refid="class_mutation_controller_s_o_1a5a70624133eec345fb6c030c8c883dea" prot="public" virt="non-virtual"><scope>MutationControllerSO</scope><name>PlayerMutations</name></member>
+      <member refid="class_mutation_controller_s_o_1a5ff4764620c83c229452f6f9f4ecb5c8" prot="public" virt="non-virtual"><scope>MutationControllerSO</scope><name>PlayerMutationsPool</name></member>
+      <member refid="class_mutation_controller_s_o_1acada8bbd783c389d630895c1f3ebf6c7" prot="public" virt="non-virtual"><scope>MutationControllerSO</scope><name>SuccessfulOpenChest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

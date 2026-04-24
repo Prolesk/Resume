@@ -1,0 +1,11 @@
+<map id="EnemyPoolList.EnquePools" name="EnemyPoolList.EnquePools">
+<area shape="rect" id="Node000001" title="Executes the EnquePools operation." alt="" coords="629,35,813,61"/>
+<area shape="rect" id="Node000002" href="$class_transition_manager.html#a07ace306d8e06a65104a52ea9240260c" title="Executes the TransitPlayerToLevel operation." alt="" coords="409,27,581,69"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="611,48,582,51,582,45,616,48"/>
+<area shape="rect" id="Node000003" href="$class_menu.html#a89c08f92cd5cc738e6e4f4e0b492d485" title="Executes the QuitGame operation." alt="" coords="217,5,333,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="391,35,333,29,333,24,396,34"/>
+<area shape="rect" id="Node000004" href="$class_transition_manager.html#ac9f7fcaa4e03ce6dfdcefddc6e19f3ca" title="Executes the TransitPlayerToNextLevel operation." alt="" coords="189,56,361,99"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="396,61,362,69,361,63,391,62"/>
+<area shape="rect" id="Node000005" href="$class_quest_giver.html#a969ad607369c939921780414df7e4056" title=" " alt="" coords="5,64,141,91"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="170,78,141,80,141,75,176,77"/>
+</map>

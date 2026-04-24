@@ -1,0 +1,634 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_item_controller_s_o" kind="class" language="C#" prot="public">
+    <compoundname>ItemControllerSO</compoundname>
+    <basecompoundref refid="class_singleton_scriptable_object-1-g" prot="public" virt="non-virtual">SingletonScriptableObject&lt; T &gt;</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_item_controller_s_o_1a7e94b2941fff52c9f053e8adfe29f6f5" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> &gt;</type>
+        <definition>List&lt;ItemDataSO&gt; ItemControllerSO.AllItemsStartPool</definition>
+        <argsstring></argsstring>
+        <name>AllItemsStartPool</name>
+        <qualifiedname>ItemControllerSO.AllItemsStartPool</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="18" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_controller_s_o_1a1ef157ec81df7b805e3f838c4bfac75c" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> &gt;</type>
+        <definition>List&lt;ItemDataSO&gt; ItemControllerSO.itemUniversalStartPool</definition>
+        <argsstring></argsstring>
+        <name>itemUniversalStartPool</name>
+        <qualifiedname>ItemControllerSO.itemUniversalStartPool</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="19" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_controller_s_o_1aeb334e4ccde3db18885330c151580d51" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> &gt;</type>
+        <definition>List&lt;ItemDataSO&gt; ItemControllerSO.itemMagicStartPool</definition>
+        <argsstring></argsstring>
+        <name>itemMagicStartPool</name>
+        <qualifiedname>ItemControllerSO.itemMagicStartPool</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="20" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_controller_s_o_1ae5e7fe4894e9475f8c7d36b1ef27c519" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> &gt;</type>
+        <definition>List&lt;ItemDataSO&gt; ItemControllerSO.itemTecnoStartPool</definition>
+        <argsstring></argsstring>
+        <name>itemTecnoStartPool</name>
+        <qualifiedname>ItemControllerSO.itemTecnoStartPool</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="21" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_controller_s_o_1afff68c452c5d2bd1588080de5a829786" prot="private" static="no" mutable="no">
+        <type>List&lt; List&lt; <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> &gt; &gt;</type>
+        <definition>List&lt;List&lt;ItemDataSO&gt; &gt; ItemControllerSO._allPools</definition>
+        <argsstring></argsstring>
+        <name>_allPools</name>
+        <qualifiedname>ItemControllerSO._allPools</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="46" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_item_controller_s_o_1a2de01c2be714906407425797026a58bd" prot="public" static="no" mutable="no">
+        <type><ref refid="_item_type_8cs_1a443f647757dde85043b49343f5cbe66b" kindref="member">ItemType</ref></type>
+        <definition>ItemType ItemControllerSO.questType</definition>
+        <argsstring></argsstring>
+        <name>questType</name>
+        <qualifiedname>ItemControllerSO.questType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="23" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_controller_s_o_1aa2e0e0d3cc101fa6631f3cd679811a47" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> &gt;</type>
+        <definition>List&lt;ItemDataSO&gt; ItemControllerSO.ItemInventory</definition>
+        <argsstring></argsstring>
+        <name>ItemInventory</name>
+        <qualifiedname>ItemControllerSO.ItemInventory</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="29" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_item_controller_s_o_1a70e5596813fa412a2ed3a80ddb05ed3e" compoundref="_item_controller_s_o_8cs" startline="137" endline="178">DistributeItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_controller_s_o_1ac1ae729c0a7e707d410e8ea48aecc70e" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> &gt;</type>
+        <definition>List&lt;ItemDataSO&gt; ItemControllerSO.AllItemsPool</definition>
+        <argsstring></argsstring>
+        <name>AllItemsPool</name>
+        <qualifiedname>ItemControllerSO.AllItemsPool</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="32" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_item_controller_s_o_1a7e79fd5d07cf4d21faf6d3bb2244a636" compoundref="_item_controller_s_o_8cs" startline="119" endline="131">ClearAllPools</referencedby>
+        <referencedby refid="class_item_controller_s_o_1a70e5596813fa412a2ed3a80ddb05ed3e" compoundref="_item_controller_s_o_8cs" startline="137" endline="178">DistributeItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_controller_s_o_1aeda9f231e268bd39965f9249989472ff" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> &gt;</type>
+        <definition>List&lt;ItemDataSO&gt; ItemControllerSO.itemUniversalPool</definition>
+        <argsstring></argsstring>
+        <name>itemUniversalPool</name>
+        <qualifiedname>ItemControllerSO.itemUniversalPool</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="34" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_item_controller_s_o_1a7e79fd5d07cf4d21faf6d3bb2244a636" compoundref="_item_controller_s_o_8cs" startline="119" endline="131">ClearAllPools</referencedby>
+        <referencedby refid="class_item_controller_s_o_1a70e5596813fa412a2ed3a80ddb05ed3e" compoundref="_item_controller_s_o_8cs" startline="137" endline="178">DistributeItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_controller_s_o_1a1e524d597a4d252770802fa7dd7478c3" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> &gt;</type>
+        <definition>List&lt;ItemDataSO&gt; ItemControllerSO.itemMagicPool</definition>
+        <argsstring></argsstring>
+        <name>itemMagicPool</name>
+        <qualifiedname>ItemControllerSO.itemMagicPool</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="35" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_item_controller_s_o_1a7e79fd5d07cf4d21faf6d3bb2244a636" compoundref="_item_controller_s_o_8cs" startline="119" endline="131">ClearAllPools</referencedby>
+        <referencedby refid="class_item_controller_s_o_1a70e5596813fa412a2ed3a80ddb05ed3e" compoundref="_item_controller_s_o_8cs" startline="137" endline="178">DistributeItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_controller_s_o_1acbbac62bba6a805811269f12900809f2" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> &gt;</type>
+        <definition>List&lt;ItemDataSO&gt; ItemControllerSO.itemTecnoPool</definition>
+        <argsstring></argsstring>
+        <name>itemTecnoPool</name>
+        <qualifiedname>ItemControllerSO.itemTecnoPool</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="36" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_item_controller_s_o_1a7e79fd5d07cf4d21faf6d3bb2244a636" compoundref="_item_controller_s_o_8cs" startline="119" endline="131">ClearAllPools</referencedby>
+        <referencedby refid="class_item_controller_s_o_1a70e5596813fa412a2ed3a80ddb05ed3e" compoundref="_item_controller_s_o_8cs" startline="137" endline="178">DistributeItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_controller_s_o_1a46ba671c4cd3ca28add42807bfa01c4b" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> &gt;</type>
+        <definition>List&lt;ItemDataSO&gt; ItemControllerSO.itemActivePool</definition>
+        <argsstring></argsstring>
+        <name>itemActivePool</name>
+        <qualifiedname>ItemControllerSO.itemActivePool</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="38" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_item_controller_s_o_1a70e5596813fa412a2ed3a80ddb05ed3e" compoundref="_item_controller_s_o_8cs" startline="137" endline="178">DistributeItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_controller_s_o_1adcd8affe261523b4789ceb2ffaf1661b" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> &gt;</type>
+        <definition>List&lt;ItemDataSO&gt; ItemControllerSO.itemPassivePool</definition>
+        <argsstring></argsstring>
+        <name>itemPassivePool</name>
+        <qualifiedname>ItemControllerSO.itemPassivePool</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="39" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_item_controller_s_o_1a70e5596813fa412a2ed3a80ddb05ed3e" compoundref="_item_controller_s_o_8cs" startline="137" endline="178">DistributeItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_controller_s_o_1a39da8f0f6d4235bd13136e5af42145fc" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> &gt;</type>
+        <definition>List&lt;ItemDataSO&gt; ItemControllerSO.OnEnemyDeathPool</definition>
+        <argsstring></argsstring>
+        <name>OnEnemyDeathPool</name>
+        <qualifiedname>ItemControllerSO.OnEnemyDeathPool</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="41" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_item_controller_s_o_1a08314984a06330cc674c40ac7293a81a" compoundref="_item_controller_s_o_8cs" startline="184" endline="193">ActivateOnEnemyDeathEvent</referencedby>
+        <referencedby refid="class_item_controller_s_o_1a70e5596813fa412a2ed3a80ddb05ed3e" compoundref="_item_controller_s_o_8cs" startline="137" endline="178">DistributeItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_controller_s_o_1a902e4796b8146c76dea509766c2acf9f" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> &gt;</type>
+        <definition>List&lt;ItemDataSO&gt; ItemControllerSO.OnLVLUpEventPool</definition>
+        <argsstring></argsstring>
+        <name>OnLVLUpEventPool</name>
+        <qualifiedname>ItemControllerSO.OnLVLUpEventPool</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="42" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_item_controller_s_o_1a9336a815d728ee23e27abd1cf8888df8" compoundref="_item_controller_s_o_8cs" startline="198" endline="204">ActivateOnLVLUpEvent</referencedby>
+        <referencedby refid="class_item_controller_s_o_1a70e5596813fa412a2ed3a80ddb05ed3e" compoundref="_item_controller_s_o_8cs" startline="137" endline="178">DistributeItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_controller_s_o_1a43435343bedf8de5a122d932a12d0f9f" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> &gt;</type>
+        <definition>List&lt;ItemDataSO&gt; ItemControllerSO.OnSceneChangePool</definition>
+        <argsstring></argsstring>
+        <name>OnSceneChangePool</name>
+        <qualifiedname>ItemControllerSO.OnSceneChangePool</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="43" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_item_controller_s_o_1a7bb62a49d5302720ba7dadbb0ae0d753" compoundref="_item_controller_s_o_8cs" startline="209" endline="218">ActivateOnSceneChangeEvent</referencedby>
+        <referencedby refid="class_item_controller_s_o_1a70e5596813fa412a2ed3a80ddb05ed3e" compoundref="_item_controller_s_o_8cs" startline="137" endline="178">DistributeItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_controller_s_o_1ab287f3fa7629a35ec9a2298f38a8f09d" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> &gt;</type>
+        <definition>List&lt;ItemDataSO&gt; ItemControllerSO.OnDamageGivePool</definition>
+        <argsstring></argsstring>
+        <name>OnDamageGivePool</name>
+        <qualifiedname>ItemControllerSO.OnDamageGivePool</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="44" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_item_controller_s_o_1a956a1c4b06d1690ea013edd0fbaecbfd" compoundref="_item_controller_s_o_8cs" startline="223" endline="232">ActivateOnDamageGiveEvent</referencedby>
+        <referencedby refid="class_item_controller_s_o_1a70e5596813fa412a2ed3a80ddb05ed3e" compoundref="_item_controller_s_o_8cs" startline="137" endline="178">DistributeItem</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_item_controller_s_o_1a8d120b87f1ceea4155638c30749f0288" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; List&lt; <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> &gt; &gt;</type>
+        <definition>List&lt;List&lt;ItemDataSO&gt; &gt; ItemControllerSO.AllPools</definition>
+        <argsstring></argsstring>
+        <name>AllPools</name>
+        <qualifiedname>ItemControllerSO.AllPools</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="47" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="48" bodyend="70"/>
+        <referencedby refid="class_item_controller_s_o_1a7e79fd5d07cf4d21faf6d3bb2244a636" compoundref="_item_controller_s_o_8cs" startline="119" endline="131">ClearAllPools</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_item_controller_s_o_1a7e803ae7d82fda2ac8db3789334afd09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ItemControllerSO.CheckPool</definition>
+        <argsstring>(ItemType itemType)</argsstring>
+        <name>CheckPool</name>
+        <qualifiedname>ItemControllerSO.CheckPool</qualifiedname>
+        <param>
+          <type><ref refid="_item_type_8cs_1a443f647757dde85043b49343f5cbe66b" kindref="member">ItemType</ref></type>
+          <declname>itemType</declname>
+        </param>
+        <briefdescription>
+<para>Executes the CheckPool operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>itemType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The itemType.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The result as bool.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="77" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="77" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_item_controller_s_o_1a76b55f7b4ded3a157ac229cc0b85f62c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemControllerSO.InsertItemInPool</definition>
+        <argsstring>(ItemDataSO item, List&lt; ItemDataSO &gt; Pool)</argsstring>
+        <name>InsertItemInPool</name>
+        <qualifiedname>ItemControllerSO.InsertItemInPool</qualifiedname>
+        <param>
+          <type><ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref></type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> &gt;</type>
+          <declname>Pool</declname>
+        </param>
+        <briefdescription>
+<para>Executes the InsertItemInPool operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>item</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The item.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="102" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_item_controller_s_o_1a634af7c1f31502dfbe92efc3ff8db78a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemControllerSO.DeleteItemFromPool</definition>
+        <argsstring>(ItemDataSO item, List&lt; ItemDataSO &gt; Pool)</argsstring>
+        <name>DeleteItemFromPool</name>
+        <qualifiedname>ItemControllerSO.DeleteItemFromPool</qualifiedname>
+        <param>
+          <type><ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref></type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref> &gt;</type>
+          <declname>Pool</declname>
+        </param>
+        <briefdescription>
+<para>Executes the DeleteItemFromPool operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>item</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The item.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="111" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="111" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_item_controller_s_o_1a7e79fd5d07cf4d21faf6d3bb2244a636" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemControllerSO.ClearAllPools</definition>
+        <argsstring>()</argsstring>
+        <name>ClearAllPools</name>
+        <qualifiedname>ItemControllerSO.ClearAllPools</qualifiedname>
+        <briefdescription>
+<para>Executes the <ref refid="class_clear_all_pools" kindref="compound">ClearAllPools</ref> operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="119" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="119" bodyend="131"/>
+        <references refid="class_item_controller_s_o_1ac1ae729c0a7e707d410e8ea48aecc70e" compoundref="_item_controller_s_o_8cs" startline="32">AllItemsPool</references>
+        <references refid="class_item_controller_s_o_1a8d120b87f1ceea4155638c30749f0288" compoundref="_item_controller_s_o_8cs" startline="48" endline="70">AllPools</references>
+        <references refid="class_item_controller_s_o_1a1e524d597a4d252770802fa7dd7478c3" compoundref="_item_controller_s_o_8cs" startline="35">itemMagicPool</references>
+        <references refid="class_item_controller_s_o_1acbbac62bba6a805811269f12900809f2" compoundref="_item_controller_s_o_8cs" startline="36">itemTecnoPool</references>
+        <references refid="class_item_controller_s_o_1aeda9f231e268bd39965f9249989472ff" compoundref="_item_controller_s_o_8cs" startline="34">itemUniversalPool</references>
+      </memberdef>
+      <memberdef kind="function" id="class_item_controller_s_o_1a70e5596813fa412a2ed3a80ddb05ed3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemControllerSO.DistributeItem</definition>
+        <argsstring>(ItemDataSO item)</argsstring>
+        <name>DistributeItem</name>
+        <qualifiedname>ItemControllerSO.DistributeItem</qualifiedname>
+        <param>
+          <type><ref refid="class_item_data_s_o" kindref="compound">ItemDataSO</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+<para>Executes the DistributeItem operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>item</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The item.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="137" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="137" bodyend="178"/>
+        <references refid="class_item_controller_s_o_1ac1ae729c0a7e707d410e8ea48aecc70e" compoundref="_item_controller_s_o_8cs" startline="32">AllItemsPool</references>
+        <references refid="class_item_data_s_o_1a00da7d169e6c24ee0e468c8f22a8c2a4" compoundref="_item_data_s_o_8cs" startline="47">ItemDataSO.HasOnDamageGiveEvent</references>
+        <references refid="class_item_data_s_o_1abf68c439ed6f5843535937b226cc9de2" compoundref="_item_data_s_o_8cs" startline="39">ItemDataSO.HasOnEnemyDeathEvent</references>
+        <references refid="class_item_data_s_o_1a7b70c5edc7f8e809275d8d8c8f6f865d" compoundref="_item_data_s_o_8cs" startline="51">ItemDataSO.HasOnLVLUpEvent</references>
+        <references refid="class_item_data_s_o_1aee0e17336125d0081f5284e1a83fda7d" compoundref="_item_data_s_o_8cs" startline="43">ItemDataSO.HasOnSceneChangeEvent</references>
+        <references refid="class_item_data_s_o_1aa9f6e3a5e7ec3c471e3963adcfb0f7af" compoundref="_item_data_s_o_8cs" startline="27">ItemDataSO.isActiveItem</references>
+        <references refid="class_item_controller_s_o_1a46ba671c4cd3ca28add42807bfa01c4b" compoundref="_item_controller_s_o_8cs" startline="38">itemActivePool</references>
+        <references refid="class_item_controller_s_o_1aa2e0e0d3cc101fa6631f3cd679811a47" compoundref="_item_controller_s_o_8cs" startline="29">ItemInventory</references>
+        <references refid="class_item_controller_s_o_1a1e524d597a4d252770802fa7dd7478c3" compoundref="_item_controller_s_o_8cs" startline="35">itemMagicPool</references>
+        <references refid="class_item_controller_s_o_1adcd8affe261523b4789ceb2ffaf1661b" compoundref="_item_controller_s_o_8cs" startline="39">itemPassivePool</references>
+        <references refid="class_item_controller_s_o_1acbbac62bba6a805811269f12900809f2" compoundref="_item_controller_s_o_8cs" startline="36">itemTecnoPool</references>
+        <references refid="class_item_data_s_o_1a5312a6a37cbb4eb16528f11583800d9c" compoundref="_item_data_s_o_8cs" startline="35">ItemDataSO.itemType</references>
+        <references refid="class_item_controller_s_o_1aeda9f231e268bd39965f9249989472ff" compoundref="_item_controller_s_o_8cs" startline="34">itemUniversalPool</references>
+        <references refid="class_item_controller_s_o_1ab287f3fa7629a35ec9a2298f38a8f09d" compoundref="_item_controller_s_o_8cs" startline="44">OnDamageGivePool</references>
+        <references refid="class_item_controller_s_o_1a39da8f0f6d4235bd13136e5af42145fc" compoundref="_item_controller_s_o_8cs" startline="41">OnEnemyDeathPool</references>
+        <references refid="class_item_controller_s_o_1a902e4796b8146c76dea509766c2acf9f" compoundref="_item_controller_s_o_8cs" startline="42">OnLVLUpEventPool</references>
+        <references refid="class_item_controller_s_o_1a43435343bedf8de5a122d932a12d0f9f" compoundref="_item_controller_s_o_8cs" startline="43">OnSceneChangePool</references>
+      </memberdef>
+      <memberdef kind="function" id="class_item_controller_s_o_1a08314984a06330cc674c40ac7293a81a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemControllerSO.ActivateOnEnemyDeathEvent</definition>
+        <argsstring>(GameObject enemy)</argsstring>
+        <name>ActivateOnEnemyDeathEvent</name>
+        <qualifiedname>ItemControllerSO.ActivateOnEnemyDeathEvent</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>enemy</declname>
+        </param>
+        <briefdescription>
+<para>Executes the ActivateOnEnemyDeathEvent operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>enemy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The enemy.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="184" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="184" bodyend="193"/>
+        <references refid="class_item_data_s_o_1a5ddcb4bd447509672a6df851df2c0564" compoundref="_item_data_s_o_8cs" startline="74" endline="77">ItemDataSO.OnEnemyDeath</references>
+        <references refid="class_item_controller_s_o_1a39da8f0f6d4235bd13136e5af42145fc" compoundref="_item_controller_s_o_8cs" startline="41">OnEnemyDeathPool</references>
+      </memberdef>
+      <memberdef kind="function" id="class_item_controller_s_o_1a9336a815d728ee23e27abd1cf8888df8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemControllerSO.ActivateOnLVLUpEvent</definition>
+        <argsstring>()</argsstring>
+        <name>ActivateOnLVLUpEvent</name>
+        <qualifiedname>ItemControllerSO.ActivateOnLVLUpEvent</qualifiedname>
+        <briefdescription>
+<para>Executes the ActivateOnLVLUpEvent operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="198" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="198" bodyend="204"/>
+        <references refid="class_item_data_s_o_1ac9607ff62d9b2b5eaa7326293473593c" compoundref="_item_data_s_o_8cs" startline="89" endline="92">ItemDataSO.OnLVLUp</references>
+        <references refid="class_item_controller_s_o_1a902e4796b8146c76dea509766c2acf9f" compoundref="_item_controller_s_o_8cs" startline="42">OnLVLUpEventPool</references>
+      </memberdef>
+      <memberdef kind="function" id="class_item_controller_s_o_1a7bb62a49d5302720ba7dadbb0ae0d753" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemControllerSO.ActivateOnSceneChangeEvent</definition>
+        <argsstring>()</argsstring>
+        <name>ActivateOnSceneChangeEvent</name>
+        <qualifiedname>ItemControllerSO.ActivateOnSceneChangeEvent</qualifiedname>
+        <briefdescription>
+<para>Executes the ActivateOnSceneChangeEvent operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="209" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="209" bodyend="218"/>
+        <references refid="class_item_data_s_o_1a7f858d552e74dc3c8d701b39e620a177" compoundref="_item_data_s_o_8cs" startline="79" endline="82">ItemDataSO.OnSceneChange</references>
+        <references refid="class_item_controller_s_o_1a43435343bedf8de5a122d932a12d0f9f" compoundref="_item_controller_s_o_8cs" startline="43">OnSceneChangePool</references>
+      </memberdef>
+      <memberdef kind="function" id="class_item_controller_s_o_1a956a1c4b06d1690ea013edd0fbaecbfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemControllerSO.ActivateOnDamageGiveEvent</definition>
+        <argsstring>()</argsstring>
+        <name>ActivateOnDamageGiveEvent</name>
+        <qualifiedname>ItemControllerSO.ActivateOnDamageGiveEvent</qualifiedname>
+        <briefdescription>
+<para>Executes the ActivateOnDamageGiveEvent operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="223" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="223" bodyend="232"/>
+        <references refid="class_item_data_s_o_1ab4f3e7698e40647ea7c8d4090cc9666f" compoundref="_item_data_s_o_8cs" startline="84" endline="87">ItemDataSO.OnDamageGive</references>
+        <references refid="class_item_controller_s_o_1ab287f3fa7629a35ec9a2298f38a8f09d" compoundref="_item_controller_s_o_8cs" startline="44">OnDamageGivePool</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_item_controller_s_o_1a79cdef4bc01aa24e7f93f70a754e17a5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemControllerSO.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>ItemControllerSO.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="93" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="93" bodyend="96"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_item_controller_s_o" kindref="compound">ItemControllerSO</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ItemControllerSO</label>
+        <link refid="class_item_controller_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ItemControllerSO</label>
+        <link refid="class_item_controller_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" line="11" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemControllerSO.cs" bodystart="12" bodyend="233"/>
+    <listofallmembers>
+      <member refid="class_item_controller_s_o_1afff68c452c5d2bd1588080de5a829786" prot="private" virt="non-virtual"><scope>ItemControllerSO</scope><name>_allPools</name></member>
+      <member refid="class_item_controller_s_o_1a956a1c4b06d1690ea013edd0fbaecbfd" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>ActivateOnDamageGiveEvent</name></member>
+      <member refid="class_item_controller_s_o_1a08314984a06330cc674c40ac7293a81a" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>ActivateOnEnemyDeathEvent</name></member>
+      <member refid="class_item_controller_s_o_1a9336a815d728ee23e27abd1cf8888df8" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>ActivateOnLVLUpEvent</name></member>
+      <member refid="class_item_controller_s_o_1a7bb62a49d5302720ba7dadbb0ae0d753" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>ActivateOnSceneChangeEvent</name></member>
+      <member refid="class_item_controller_s_o_1ac1ae729c0a7e707d410e8ea48aecc70e" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>AllItemsPool</name></member>
+      <member refid="class_item_controller_s_o_1a7e94b2941fff52c9f053e8adfe29f6f5" prot="private" virt="non-virtual"><scope>ItemControllerSO</scope><name>AllItemsStartPool</name></member>
+      <member refid="class_item_controller_s_o_1a8d120b87f1ceea4155638c30749f0288" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>AllPools</name></member>
+      <member refid="class_item_controller_s_o_1a79cdef4bc01aa24e7f93f70a754e17a5" prot="private" virt="non-virtual"><scope>ItemControllerSO</scope><name>Awake</name></member>
+      <member refid="class_item_controller_s_o_1a7e803ae7d82fda2ac8db3789334afd09" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>CheckPool</name></member>
+      <member refid="class_item_controller_s_o_1a7e79fd5d07cf4d21faf6d3bb2244a636" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>ClearAllPools</name></member>
+      <member refid="class_item_controller_s_o_1a634af7c1f31502dfbe92efc3ff8db78a" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>DeleteItemFromPool</name></member>
+      <member refid="class_item_controller_s_o_1a70e5596813fa412a2ed3a80ddb05ed3e" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>DistributeItem</name></member>
+      <member refid="class_item_controller_s_o_1a76b55f7b4ded3a157ac229cc0b85f62c" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>InsertItemInPool</name></member>
+      <member refid="class_singleton_scriptable_object-1-g_1aa59148a0a9bc37057ef216e7c9a814a8" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>Instance</name></member>
+      <member refid="class_item_controller_s_o_1a46ba671c4cd3ca28add42807bfa01c4b" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>itemActivePool</name></member>
+      <member refid="class_item_controller_s_o_1aa2e0e0d3cc101fa6631f3cd679811a47" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>ItemInventory</name></member>
+      <member refid="class_item_controller_s_o_1a1e524d597a4d252770802fa7dd7478c3" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>itemMagicPool</name></member>
+      <member refid="class_item_controller_s_o_1aeb334e4ccde3db18885330c151580d51" prot="private" virt="non-virtual"><scope>ItemControllerSO</scope><name>itemMagicStartPool</name></member>
+      <member refid="class_item_controller_s_o_1adcd8affe261523b4789ceb2ffaf1661b" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>itemPassivePool</name></member>
+      <member refid="class_item_controller_s_o_1acbbac62bba6a805811269f12900809f2" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>itemTecnoPool</name></member>
+      <member refid="class_item_controller_s_o_1ae5e7fe4894e9475f8c7d36b1ef27c519" prot="private" virt="non-virtual"><scope>ItemControllerSO</scope><name>itemTecnoStartPool</name></member>
+      <member refid="class_item_controller_s_o_1aeda9f231e268bd39965f9249989472ff" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>itemUniversalPool</name></member>
+      <member refid="class_item_controller_s_o_1a1ef157ec81df7b805e3f838c4bfac75c" prot="private" virt="non-virtual"><scope>ItemControllerSO</scope><name>itemUniversalStartPool</name></member>
+      <member refid="class_item_controller_s_o_1ab287f3fa7629a35ec9a2298f38a8f09d" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>OnDamageGivePool</name></member>
+      <member refid="class_item_controller_s_o_1a39da8f0f6d4235bd13136e5af42145fc" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>OnEnemyDeathPool</name></member>
+      <member refid="class_item_controller_s_o_1a902e4796b8146c76dea509766c2acf9f" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>OnLVLUpEventPool</name></member>
+      <member refid="class_item_controller_s_o_1a43435343bedf8de5a122d932a12d0f9f" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>OnSceneChangePool</name></member>
+      <member refid="class_item_controller_s_o_1a2de01c2be714906407425797026a58bd" prot="public" virt="non-virtual"><scope>ItemControllerSO</scope><name>questType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

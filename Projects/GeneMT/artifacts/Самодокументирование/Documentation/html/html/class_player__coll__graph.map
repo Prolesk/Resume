@@ -1,0 +1,8 @@
+<map id="Player" name="Player">
+<area shape="rect" id="Node000001" title="The Player class." alt="" coords="37,180,96,207"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,117,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,47,69,180,63,180,59,48"/>
+<area shape="rect" id="Node000003" href="$class_player_movement.html" title="The PlayerMovement class." alt="" coords="83,81,202,108"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="87,40,131,80,126,82,86,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="126,120,78,182,74,178,120,120"/>
+</map>

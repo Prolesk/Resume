@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_initialization_manager" kind="class" language="C#" prot="public">
+    <compoundname>InitializationManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_initialization_manager_1adf1088e9ec0fd0464cb0735abf584b8a" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip InitializationManager.musicClip</definition>
+        <argsstring></argsstring>
+        <name>musicClip</name>
+        <qualifiedname>InitializationManager.musicClip</qualifiedname>
+        <briefdescription>
+<para>The musicClip field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/InitializationManager.cs" line="14" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/InitializationManager.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_initialization_manager_1af0d9ea1d996ba44ca3a62254a59cd18b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InitializationManager.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>InitializationManager.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/InitializationManager.cs" line="16" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/InitializationManager.cs" bodystart="16" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_initialization_manager_1a8b8b28545af161dc53b60beccc5170d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InitializationManager.ResetPlayerStats</definition>
+        <argsstring>()</argsstring>
+        <name>ResetPlayerStats</name>
+        <qualifiedname>InitializationManager.ResetPlayerStats</qualifiedname>
+        <briefdescription>
+<para>Resets <ref refid="class_player_stats" kindref="compound">PlayerStats</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/InitializationManager.cs" line="31" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/InitializationManager.cs" bodystart="31" bodyend="55"/>
+        <references refid="class_singleton_scriptable_object-1-g_1aa59148a0a9bc37057ef216e7c9a814a8" compoundref="_singleton_scriptable_object_8cs" startline="8" endline="34">SingletonScriptableObject&lt; T &gt;.Instance</references>
+        <references refid="class_player_stats_s_o_1a37a58a940a5af8803bed3e37db32c622" compoundref="_player_stats_s_o_8cs" startline="53">PlayerStatsSO.Money</references>
+        <references refid="class_player_stats_s_o_1a196ef0a2a1d1bdb6787594ae39e60fce" compoundref="_player_stats_s_o_8cs" startline="123" endline="136">PlayerStatsSO.UpdateAllPlayerStats</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_initialization_manager" kindref="compound">InitializationManager</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>InitializationManager</label>
+        <link refid="class_initialization_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>InitializationManager</label>
+        <link refid="class_initialization_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/InitializationManager.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/InitializationManager.cs" bodystart="9" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_initialization_manager_1adf1088e9ec0fd0464cb0735abf584b8a" prot="public" virt="non-virtual"><scope>InitializationManager</scope><name>musicClip</name></member>
+      <member refid="class_initialization_manager_1a8b8b28545af161dc53b60beccc5170d0" prot="public" virt="non-virtual"><scope>InitializationManager</scope><name>ResetPlayerStats</name></member>
+      <member refid="class_initialization_manager_1af0d9ea1d996ba44ca3a62254a59cd18b" prot="private" virt="non-virtual"><scope>InitializationManager</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

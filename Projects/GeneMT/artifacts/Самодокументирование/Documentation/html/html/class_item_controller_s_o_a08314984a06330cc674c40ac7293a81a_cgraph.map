@@ -1,0 +1,5 @@
+<map id="ItemControllerSO.ActivateOnEnemyDeathEvent" name="ItemControllerSO.ActivateOnEnemyDeathEvent">
+<area shape="rect" id="Node000001" title="Executes the ActivateOnEnemyDeathEvent operation." alt="" coords="5,5,180,48"/>
+<area shape="rect" id="Node000002" href="$class_item_data_s_o.html#a5ddcb4bd447509672a6df851df2c0564" title=" " alt="" coords="228,13,419,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,24,215,26,209,27,180,29"/>
+</map>

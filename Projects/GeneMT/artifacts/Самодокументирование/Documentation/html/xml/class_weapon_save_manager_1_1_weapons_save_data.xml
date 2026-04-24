@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_weapon_save_manager_1_1_weapons_save_data" kind="class" language="C#" prot="public">
+    <compoundname>WeaponSaveManager::WeaponsSaveData</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_weapon_save_manager_1_1_weapons_save_data_1a4c2747b1117a894882cde3de24ec7ead" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_weapon_save_manager_1_1_weapon_save_data" kindref="compound">WeaponSaveData</ref> &gt;</type>
+        <definition>List&lt;WeaponSaveData&gt; WeaponSaveManager.WeaponsSaveData.weapons</definition>
+        <argsstring></argsstring>
+        <name>weapons</name>
+        <qualifiedname>WeaponSaveManager.WeaponsSaveData.weapons</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_weapon_save_manager_1_1_weapon_save_data" kindref="compound">WeaponSaveData</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" line="33" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_save_manager_1_1_weapons_save_data_1a9744fb3b5996078df3f82a9d8380b97a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WeaponSaveManager.WeaponsSaveData.isSessionActive</definition>
+        <argsstring></argsstring>
+        <name>isSessionActive</name>
+        <qualifiedname>WeaponSaveManager.WeaponsSaveData.isSessionActive</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>The isSessionActive field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" line="37" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_weapon_save_manager_1_1_weapons_save_data" kindref="compound">WeaponsSaveData</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" line="31" column="11" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" bodystart="32" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_weapon_save_manager_1_1_weapons_save_data_1a9744fb3b5996078df3f82a9d8380b97a" prot="public" virt="non-virtual"><scope>WeaponSaveManager::WeaponsSaveData</scope><name>isSessionActive</name></member>
+      <member refid="class_weapon_save_manager_1_1_weapons_save_data_1a4c2747b1117a894882cde3de24ec7ead" prot="public" virt="non-virtual"><scope>WeaponSaveManager::WeaponsSaveData</scope><name>weapons</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

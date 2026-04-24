@@ -1,0 +1,5 @@
+<map id="WeaponSaveManager.OnReturnToMainMenu" name="WeaponSaveManager.OnReturnToMainMenu">
+<area shape="rect" id="Node000001" title="Event handler for OnReturnToMainMenu." alt="" coords="5,5,214,48"/>
+<area shape="rect" id="Node000002" href="$class_weapon_save_manager.html#a3d0e17b462cdbbcd3dbf6ff404cf467c" title="Resets Session." alt="" coords="262,13,496,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,24,249,27,243,27,214,29"/>
+</map>

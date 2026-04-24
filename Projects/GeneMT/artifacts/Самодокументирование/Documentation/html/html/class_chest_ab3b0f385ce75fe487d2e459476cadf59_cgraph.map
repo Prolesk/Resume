@@ -1,0 +1,5 @@
+<map id="Chest.MakeNonReady" name="Chest.MakeNonReady">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,160,40"/>
+<area shape="rect" id="Node000002" href="$class_game_menu_controller.html#a791727f9588d135dca7eaf74ea242ff5" title="Removes FromSceneCostOnMutatiOnChest." alt="" coords="208,5,429,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,24,194,26,189,27,160,29"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="QuestManager.GasTankGathered" name="QuestManager.GasTankGathered">
+<area shape="rect" id="Node000001" title="Executes the GasTankGathered operation." alt="" coords="5,13,221,40"/>
+<area shape="rect" id="Node000002" href="$class_quest_manager.html#afe709fc19f3a1bbc4e85576820aea006" title="Event handler for OnQuestProgressUpdated." alt="" coords="269,5,483,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="221,24,256,27,251,27,221,29"/>
+<area shape="rect" id="Node000003" href="$class_quest_notification.html#aa2157b58d47f20f3b70bf71782687a5f" title="Shows UI element." alt="" coords="531,5,725,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="483,24,518,27,513,27,483,29"/>
+</map>

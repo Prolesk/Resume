@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_mutation_controller_s_o_1_1_mutation_entry" kind="class" language="C#" prot="public">
+    <compoundname>MutationControllerSO::MutationEntry</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_mutation_controller_s_o_1_1_mutation_entry_1a0274cd64feecf854d4051a9fdc040800" prot="public" static="no" mutable="no">
+        <type><ref refid="class_mutation_data_s_o" kindref="compound">MutationDataSO</ref></type>
+        <definition>MutationDataSO MutationControllerSO.MutationEntry.mutation</definition>
+        <argsstring></argsstring>
+        <name>mutation</name>
+        <qualifiedname>MutationControllerSO.MutationEntry.mutation</qualifiedname>
+        <briefdescription>
+<para>The mutation field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" line="22" column="31" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_mutation_controller_s_o_1_1_mutation_entry_1ac6061f88e8edf484f7853e0d3f122918" compoundref="_mutation_controller_s_o_8cs" startline="32" endline="36">MutationControllerSO.MutationEntry.MutationEntry</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mutation_controller_s_o_1_1_mutation_entry_1af1ec632b414edfabf55a017b37e0aa31" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MutationControllerSO.MutationEntry.count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <qualifiedname>MutationControllerSO.MutationEntry.count</qualifiedname>
+        <briefdescription>
+<para>The count field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" line="26" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mutation_controller_s_o_1_1_mutation_entry_1ac6061f88e8edf484f7853e0d3f122918" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MutationControllerSO.MutationEntry.MutationEntry</definition>
+        <argsstring>(MutationDataSO mutation)</argsstring>
+        <name>MutationEntry</name>
+        <qualifiedname>MutationControllerSO.MutationEntry.MutationEntry</qualifiedname>
+        <param>
+          <type><ref refid="class_mutation_data_s_o" kindref="compound">MutationDataSO</ref></type>
+          <declname>mutation</declname>
+        </param>
+        <briefdescription>
+<para>Executes the <ref refid="class_mutation_controller_s_o_1_1_mutation_entry" kindref="compound">MutationEntry</ref> operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mutation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The mutation.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" line="32" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" bodystart="32" bodyend="36"/>
+        <references refid="class_mutation_controller_s_o_1_1_mutation_entry_1a0274cd64feecf854d4051a9fdc040800" compoundref="_mutation_controller_s_o_8cs" startline="22">MutationControllerSO.MutationEntry.mutation</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_mutation_controller_s_o_1_1_mutation_entry" kindref="compound">MutationEntry</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>Chest</label>
+        <link refid="class_chest"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>EInteractable</label>
+        <link refid="class_e_interactable"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>MutationControllerSO.MutationEntry</label>
+        <link refid="class_mutation_controller_s_o_1_1_mutation_entry"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>mutation</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MutationDataSO</label>
+        <link refid="class_mutation_data_s_o"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>chest</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" line="17" column="11" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/MutationControllerSO.cs" bodystart="18" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_mutation_controller_s_o_1_1_mutation_entry_1af1ec632b414edfabf55a017b37e0aa31" prot="public" virt="non-virtual"><scope>MutationControllerSO::MutationEntry</scope><name>count</name></member>
+      <member refid="class_mutation_controller_s_o_1_1_mutation_entry_1a0274cd64feecf854d4051a9fdc040800" prot="public" virt="non-virtual"><scope>MutationControllerSO::MutationEntry</scope><name>mutation</name></member>
+      <member refid="class_mutation_controller_s_o_1_1_mutation_entry_1ac6061f88e8edf484f7853e0d3f122918" prot="public" virt="non-virtual"><scope>MutationControllerSO::MutationEntry</scope><name>MutationEntry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

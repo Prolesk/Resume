@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Руководство пользователя GENE MT</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #e6e6e6;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            background: rgba(25, 25, 35, 0.95);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border: 1px solid #2d3748;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #4cc9f0;
+        }
+        
+        h1 {
+            color: #4cc9f0;
+            font-size: 2.8em;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .subtitle {
+            color: #72efdd;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        
+        .version {
+            color: #b8b8b8;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        
+        h2 {
+            color: #72efdd;
+            margin: 30px 0 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #4361ee;
+        }
+        
+        h3 {
+            color: #4cc9f0;
+            margin: 25px 0 10px;
+        }
+        
+        h4 {
+            color: #3a86ff;
+            margin: 20px 0 10px;
+        }
+        
+        .toc {
+            background: rgba(42, 49, 68, 0.8);
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+            border-left: 4px solid #4cc9f0;
+        }
+        
+        .toc h2 {
+            margin-top: 0;
+            color: #72efdd;
+        }
+        
+        .toc ul {
+            list-style-type: none;
+            columns: 2;
+        }
+        
+        .toc li {
+            margin-bottom: 8px;
+        }
+        
+        .toc a {
+            color: #b8b8b8;
+            text-decoration: none;
+            transition: color 0.3s;
+            display: block;
+            padding: 5px 0;
+        }
+        
+        .toc a:hover {
+            color: #4cc9f0;
+            padding-left: 5px;
+        }
+        
+        .content-section {
+            margin: 40px 0;
+            padding: 20px;
+            background: rgba(32, 35, 46, 0.7);
+            border-radius: 10px;
+            border-left: 3px solid #4361ee;
+        }
+        
+        .note {
+            background: rgba(67, 97, 238, 0.1);
+            border-left: 4px solid #4361ee;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .warning {
+            background: rgba(239, 71, 111, 0.1);
+            border-left: 4px solid #ef476f;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .tip {
+            background: rgba(114, 239, 221, 0.1);
+            border-left: 4px solid #72efdd;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: rgba(42, 49, 68, 0.8);
+        }
+        
+        th {
+            background: #4361ee;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #2d3748;
+        }
+        
+        tr:hover {
+            background: rgba(67, 97, 238, 0.2);
+        }
+        
+        .controls-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .control-card {
+            background: rgba(42, 49, 68, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #3a86ff;
+        }
+        
+        .key {
+            display: inline-block;
+            background: #2d3748;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-family: monospace;
+            margin: 2px;
+            border: 1px solid #4a5568;
+        }
+        
+        .quick-start {
+            background: linear-gradient(135deg, rgba(67, 97, 238, 0.2) 0%, rgba(58, 134, 255, 0.2) 100%);
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+        
+        .step {
+            margin: 20px 0;
+            padding-left: 20px;
+            border-left: 3px solid #4cc9f0;
+        }
+        
+        .step-number {
+            display: inline-block;
+            background: #4cc9f0;
+            color: #1a1a2e;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .faq {
+            margin: 30px 0;
+        }
+        
+        .faq-item {
+            margin: 15px 0;
+            padding: 15px;
+            background: rgba(42, 49, 68, 0.6);
+            border-radius: 8px;
+            border-left: 3px solid #ef476f;
+        }
+        
+        .contact-info {
+            background: rgba(67, 97, 238, 0.1);
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+        
+        .contact-item {
+            margin: 10px 0;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 5px;
+        }
+        
+        a {
+            color: #4cc9f0;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        a:hover {
+            color: #72efdd;
+            text-decoration: underline;
+        }
+        
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #4361ee;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s;
+        }
+        
+        .back-to-top:hover {
+            background: #3a86ff;
+            transform: translateY(-3px);
+        }
+        
+        .highlight {
+            background: rgba(239, 71, 111, 0.2);
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 768px) {
+            .toc ul {
+                columns: 1;
+            }
+            
+            .controls-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GENE MT</h1>
+            <div class="subtitle">Руководство пользователя</div>
+        </header>
+
+        <div class="toc">
+            <h2>СОДЕРЖАНИЕ</h2>
+            <ul>
+                <li><a href="#introduction">1. ВВЕДЕНИЕ</a>
+                    <ul style="margin-left: 20px;">
+                        <li><a href="#game-about">1.1. Об игре</a></li>
+                        <li><a href="#system-requirements">1.2. Системные требования</a></li>
+                        <li><a href="#installation">1.3. Установка игры</a></li>
+                    </ul>
+                </li>
+                <li><a href="#getting-started">2. НАЧАЛО РАБОТЫ</a>
+                    <ul style="margin-left: 20px;">
+                        <li><a href="#launch">2.1. Запуск игры</a></li>
+                        <li><a href="#main-menu">2.2. Главное меню</a></li>
+                        <li><a href="#controls">2.3. Настройки управления</a></li>
+                    </ul>
+                </li>
+                <li><a href="#gameplay">3. ОСНОВНОЙ ГЕЙМПЛЕЙ</a>
+                    <ul style="margin-left: 20px;">
+                        <li><a href="#character-control">3.1. Управление персонажем</a></li>
+                        <li><a href="#combat">3.2. Боевая система</a></li>
+                        <li><a href="#leveling">3.3. Система уровней и опыта</a></li>
+                        <li><a href="#items">3.4. Предметы</a></li>
+                        <li><a href="#reputation">3.5. Репутация</a></li>
+                    </ul>
+                </li>
+                <li><a href="#mutations">4. СИСТЕМА МУТАЦИЙ</a>
+                    <ul style="margin-left: 20px;">
+                        <li><a href="#mutations-desc">4.1. Описание мутаций</a></li>
+                        <li><a href="#mutations-get">4.2. Получение мутаций</a></li>
+                    </ul>
+                </li>
+                <li><a href="#quests">5. КВЕСТЫ И ЗАДАНИЯ</a>
+                    <ul style="margin-left: 20px;">
+                        <li><a href="#quests-types">5.1. Типы квестов</a></li>
+                        <li><a href="#quests-complete">5.2. Выполнение квестов</a></li>
+                    </ul>
+                </li>
+                <li><a href="#interface">6. ИНТЕРФЕЙС ПОЛЬЗОВАТЕЛЯ</a>
+                    <ul style="margin-left: 20px;">
+                        <li><a href="#hud">6.1. Основные элементы HUD</a></li>
+                        <li><a href="#pause-menu">6.2. Меню паузы</a></li>
+                    </ul>
+                </li>
+                <li><a href="#troubleshooting">7. АВАРИЙНЫЕ СИТУАЦИИ</a>
+                    <ul style="margin-left: 20px;">
+                        <li><a href="#common-problems">7.1. Частые проблемы</a></li>
+                        <li><a href="#solutions">7.2. Решение проблем</a></li>
+                    </ul>
+                </li>
+                <li><a href="#quick-start">8. КАК НАЧАТЬ ИГРАТЬ</a></li>
+                <li><a href="#recommendations">9. РЕКОМЕНДАЦИИ</a></li>
+                <li><a href="#appendix">10. ПРИЛОЖЕНИЯ</a>
+                    <ul style="margin-left: 20px;">
+                        <li><a href="#hotkeys">10.1. Горячие клавиши</a></li>
+                        <li><a href="#support">10.2. Контакты поддержки</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content-section" id="introduction">
+            <h2>1. ВВЕДЕНИЕ</h2>
+            
+            <h3 id="game-about">1.1. Об игре</h3>
+            <p>GENE MT – игра, выполненная в жанре survival like, bullet heaven, где игроку предстоит убивать монстров, подбирать с них опыт и монеты, тем самым прокачивая свои оружия и иные улучшения, а так же выполнять задания для получения уникальных предметов, и всё это для того, чтобы выжить и пройти все локации, после чего победить босса.</p>
+            
+            <div class="note">
+                <h4>Основные особенности:</h4>
+                <ul>
+                    <li>Автоматический бой с различными типами врагов</li>
+                    <li>Процедурная генерация уровней</li>
+                    <li>Разнообразное оружие, предметов и мутаций</li>
+                    <li>Система квестов и наград</li>
+                    <li>3 типа вещей, образующих синергию: оружие, предметы и мутации</li>
+                </ul>
+            </div>
+
+            <h3 id="system-requirements">1.2. Системные требования</h3>
+            
+            <div class="controls-grid">
+                <div class="control-card">
+                    <h4>Минимальные требования:</h4>
+                    <ul>
+                        <li>ОС: Windows 10 (64-bit)</li>
+                        <li>Процессор: Intel Core i5-4460 или AMD FX-6300</li>
+                        <li>Оперативная память: 8 GB RAM</li>
+                        <li>Видеокарта: NVIDIA GeForce GTX 760 или AMD Radeon R7 260x</li>
+                        <li>DirectX: Версия 11</li>
+                        <li>Место на диске: 100 MB</li>
+                    </ul>
+                </div>
+                
+                <div class="control-card">
+                    <h4>Рекомендуемые требования:</h4>
+                    <ul>
+                        <li>ОС: Windows 11 (64-bit)</li>
+                        <li>Процессор: Intel Core i7-4770 или AMD Ryzen 5 1600</li>
+                        <li>Оперативная память: 16 GB RAM</li>
+                        <li>Видеокарта: NVIDIA GeForce GTX 1060 или AMD Radeon RX 580</li>
+                        <li>DirectX: Версия 12</li>
+                        <li>Место на диске: 100 MB</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 id="installation">1.3. Установка игры</h3>
+            <div class="step">
+                <div class="step-number">1</div>
+                <span>Распакуйте архив с игрой в удобную для вас папку</span>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <span>Найдите файл запуска игры (обычно это <span class="highlight">GENE MT.exe</span>)</span>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <span>Для удобства создайте ярлык на рабочем столе</span>
+            </div>
+        </div>
+
+        <div class="content-section" id="getting-started">
+            <h2>2. НАЧАЛО РАБОТЫ</h2>
+            
+            <h3 id="launch">2.1. Запуск игры</h3>
+            <div class="step">
+                <div class="step-number">1</div>
+                <span>Дважды кликните по ярлыку игры на рабочем столе</span>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <span>Дождитесь загрузки начального экрана (10-30 секунд)</span>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <span>Нажмите кнопку <span class="highlight">"НАЧАТЬ"</span> для начала игры</span>
+            </div>
+
+            <h3 id="main-menu">2.2. Главное меню</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Элемент</th>
+                        <th>Описание</th>
+                        <th>Действие</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>НОВАЯ ИГРА</strong></td>
+                        <td>Начать новую игровую сессию</td>
+                        <td>Начать с самого начала</td>
+                    </tr>
+                    <tr>
+                        <td><strong>НАСТРОЙКИ</strong></td>
+                        <td>Настройки графики, звука и управления</td>
+                        <td>Настроить игру под себя</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ВЫХОД</strong></td>
+                        <td>Закрыть игру</td>
+                        <td>Вернуться на рабочий стол</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 id="controls">2.3. Настройки управления</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Действие</th>
+                        <th>Управление (ПК)</th>
+                        <th>Описание</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Движение</strong></td>
+                        <td><span class="key">W</span> <span class="key">A</span> <span class="key">S</span> <span class="key">D</span></td>
+                        <td>Перемещение персонажа по игровому миру</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Взаимодействие</strong></td>
+                        <td><span class="key">E</span></td>
+                        <td>Открытие сундуков, разговор с NPC</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Показать/Скрыть интерфейс</strong></td>
+                        <td><span class="key">Tab</span></td>
+                        <td>Скрывает элементы HUD для скриншотов</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Пауза/Меню</strong></td>
+                        <td><span class="key">ESC</span></td>
+                        <td>Открытие меню паузы</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="content-section" id="gameplay">
+            <h2>3. ОСНОВНОЙ ГЕЙМПЛЕЙ</h2>
+            
+            <h3 id="character-control">3.1. Управление персонажем</h3>
+            <div class="controls-grid">
+                <div class="control-card">
+                    <h4>Основные действия:</h4>
+                    <p><span class="key">WASD</span> – движение в четырех направлениях</p>
+                    <p><span class="key">E</span> – взаимодействие с предметами</p>
+                    <p><span class="key">Tab</span> – показать/скрыть интерфейс</p>
+                </div>
+                
+                <div class="control-card">
+                    <h4>Важно знать:</h4>
+                    <p>• Атака происходит автоматически</p>
+                    <p>• Ваша задача - правильно позиционироваться</p>
+                    <p>• Управление простое и интуитивное</p>
+                </div>
+            </div>
+
+            <h3 id="combat">3.2. Боевая система</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Тип врага</th>
+                        <th>Особенности</th>
+                        <th>Слабые стороны</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Melee</strong></td>
+                        <td>Ближний бой, медленный</td>
+                        <td>Долгие атаки, низкая скорость</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fast melee</strong></td>
+                        <td>Ближний бой, быстрый</td>
+                        <td>Мало здоровья, слабая защита</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Range</strong></td>
+                        <td>Дистанционные атаки</td>
+                        <td>Ближний бой, низкое здоровье</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tank</strong></td>
+                        <td>Высокое здоровье, медленный</td>
+                        <td>Низкая скорость, долгие атаки</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Boss</strong></td>
+                        <td>Уникальные способности, фазы</td>
+                        <td>Изучение паттернов атак</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="tip">
+                <h4>Советы по бою:</h4>
+                <p>• Используйте окружение для укрытия от атак</p>
+                <p>• Контролируйте расстояние до врагов</p>
+                <p>• Изучайте паттерны атак врагов</p>
+                <p>• Всегда держите дистанцию с быстрыми врагами</p>
+            </div>
+
+            <h3 id="leveling">3.3. Система уровней и опыта</h3>
+            <div class="step">
+                <div class="step-number">1</div>
+                <span><strong>Получайте опыт:</strong> убивайте врагов и собирайте светящиеся сферы</span>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <span><strong>Собирайте монеты:</strong> с врагов и сфер для открытия сундуков</span>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <span><strong>Повышайте уровень:</strong> заполняйте шкалу опыта</span>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <span><strong>Выбирайте улучшение:</strong> новое оружие или улучшение существующего</span>
+            </div>
+
+            <h3 id="items">3.4. Предметы</h3>
+            <div class="note">
+                <p><strong>Как получить предметы:</strong></p>
+                <p>Выполняйте квесты и получайте в награду предмет на выбор из нескольких вариантов.</p>
+                <p>Каждый предмет дает уникальные бонусы и может создавать синергию с другими элементами игры.</p>
+            </div>
+
+            <h3 id="reputation">3.5. Репутация</h3>
+            <div class="note">
+                <p>Собирайте определённые предметы и оружия чтобы получить репутацию одной из фракций.</p>
+                <p>Чем больше репутации - тем сильнее бонусы, которые вы получаете.</p>
+                <p>Репутация влияет на доступный контент и возможности персонажа.</p>
+            </div>
+        </div>
+
+        <div class="content-section" id="mutations">
+            <h2>4. СИСТЕМА МУТАЦИЙ</h2>
+            
+            <h3 id="mutations-desc">4.1. Описание мутаций</h3>
+            <div class="tip">
+                <p><strong>Мутации</strong> - это постоянные пассивные эффекты, повышающие характеристики игрока.</p>
+                <p>Особенность: мутации могут соединяться друг с другом и давать больший бонус, чем по отдельности.</p>
+            </div>
+
+            <h3 id="mutations-get">4.2. Получение мутаций</h3>
+            <div class="step">
+                <div class="step-number">1</div>
+                <span>Найдите <strong>Мутационный сундук</strong> в игровом мире</span>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <span>Подойдите к сундуку и нажмите <span class="key">E</span></span>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <span>Получите постоянное улучшение - мутацию</span>
+            </div>
+            
+            <div class="warning">
+                <p><strong>Важно:</strong> Мутации требуют монет для открытия сундуков. Зарабатывайте монеты, убивая врагов!</p>
+            </div>
+        </div>
+
+        <div class="content-section" id="quests">
+            <h2>5. КВЕСТЫ И ЗАДАНИЯ</h2>
+            
+            <h3 id="quests-types">5.1. Типы квестов</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Тип квеста</th>
+                        <th>Цель</th>
+                        <th>Награда</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Уничтожение</strong></td>
+                        <td>Убить N врагов типа X</td>
+                        <td>Предметы на выбор</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Сбор крови</strong></td>
+                        <td>Пожертвовать здоровье</td>
+                        <td>Уникальные предметы</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Выживание</strong></td>
+                        <td>Продержаться время</td>
+                        <td>Выход на следующую локацию</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Сборщик</strong></td>
+                        <td>Собрать N предметов</td>
+                        <td>Выход на следующую локацию</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Босс</strong></td>
+                        <td>Победить босса</td>
+                        <td>Выигрыш в игре</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 id="quests-complete">5.2. Выполнение квестов</h3>
+            <div class="step">
+                <div class="step-number">1</div>
+                <span>Найдите NPC с квестом (люк разного цвета)</span>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <span>Примите задание нажав <span class="key">E</span></span>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <span>Выполните цель квеста</span>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <span>Вернитесь к NPC для получения награды</span>
+            </div>
+
+            <div class="note">
+                <h4>Отслеживание прогресса:</h4>
+                <p>• Звуковые оповещения при обновлении прогресса</p>
+                <p>• Уведомление в верхнем левом углу экрана</p>
+                <p>• На панели заданий слева в меню паузы (<span class="key">ESC</span>)</p>
+            </div>
+        </div>
+
+        <div class="content-section" id="interface">
+            <h2>6. ИНТЕРФЕЙС ПОЛЬЗОВАТЕЛЯ</h2>
+            
+            <h3 id="hud">6.1. Основные элементы HUD</h3>
+            <div class="controls-grid">
+                <div class="control-card">
+                    <h4>Основной интерфейс:</h4>
+                    <p>• <strong>Шкала здоровья</strong> – красная полоса по центру снизу</p>
+                    <p>• <strong>Шкала опыта</strong> – зелёная полоса сверху</p>
+                    <p>• <strong>Текущие квесты</strong> – слева в меню паузы</p>
+                </div>
+                
+                <div class="control-card">
+                    <h4>Элементы боя:</h4>
+                    <p>• <strong>Активные оружия</strong> – слева по центру</p>
+                    <p>• <strong>Активные предметы</strong> – слева снизу</p>
+                    <p>• <strong>Активные мутации</strong> – справа по центру</p>
+                </div>
+            </div>
+
+            <h3 id="pause-menu">6.2. Меню паузы</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Опция</th>
+                        <th>Действие</th>
+                        <th>Описание</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>ПРОДОЛЖИТЬ</strong></td>
+                        <td>Вернуться в игру</td>
+                        <td>Закрывает меню паузы</td>
+                    </tr>
+                    <tr>
+                        <td><strong>НАСТРОЙКИ</strong></td>
+                        <td>Изменение параметров игры</td>
+                        <td>Графика, звук, управление</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ВЫЙТИ В МЕНЮ</strong></td>
+                        <td>Возврат в главное меню</td>
+                        <td>С сохранением прогресса</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="content-section" id="troubleshooting">
+            <h2>7. АВАРИЙНЫЕ СИТУАЦИИ</h2>
+            
+            <h3 id="common-problems">7.1. Частые проблемы</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Проблема</th>
+                        <th>Возможная причина</th>
+                        <th>Срочность</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Игра не запускается</strong></td>
+                        <td>Отсутствие драйверов, антивирус</td>
+                        <td>Высокая</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Низкий FPS</strong></td>
+                        <td>Высокие настройки графики, драйвера</td>
+                        <td>Средняя</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Не работает управление</strong></td>
+                        <td>Конфликт устройств ввода</td>
+                        <td>Высокая</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Вылеты во время игры</strong></td>
+                        <td>Проблемы с оперативной памятью</td>
+                        <td>Высокая</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 id="solutions">7.2. Решение проблем</h3>
+            
+            <div class="faq">
+                <div class="faq-item">
+                    <h4>1. Игра не запускается:</h4>
+                    <p>• Проверьте системные требования</p>
+                    <p>• Установите последние драйвера видеокарты</p>
+                    <p>• Добавьте игру в исключения антивируса</p>
+                    <p>• Запустите от имени администратора</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>2. Проблемы с производительностью:</h4>
+                    <p>• Уменьшите качество текстур в настройках</p>
+                    <p>• Уменьшите разрешение экрана</p>
+                    <p>• Закройте фоновые приложения</p>
+                    <p>• Обновите драйвера видеокарты</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>3. Не работает управление:</h4>
+                    <p>• Проверьте подключение клавиатуры</p>
+                    <p>• Перезагрузите игру</p>
+                    <p>• Проверьте настройки управления в игре</p>
+                    <p>• Попробуйте другую клавиатуру</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section" id="quick-start">
+            <h2>8. КАК НАЧАТЬ ИГРАТЬ</h2>
+            
+            <div class="quick-start">
+                <h3>САМЫЙ БЫСТРЫЙ СТАРТ:</h3>
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <span>Нажми на ярлык игры на рабочем столе</span>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <span>Нажми <span class="highlight">"Новая игра"</span> в главном меню</span>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <span>Управляй персонажем <span class="key">WASD</span></span>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <span>Собирай светящиеся шарики (это опыт)</span>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <span>Выживай и развивайся!</span>
+                </div>
+            </div>
+
+            <h3>ПОЛНАЯ ИНСТРУКЦИЯ "ДЛЯ ЧАЙНИКОВ"</h3>
+            
+            <h4>Шаг 1: Запуск игры</h4>
+            <div class="step">
+                <div class="step-number">1</div>
+                <span>Найди на рабочем столе значок игры</span>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <span>ДВАЖДЫ кликни по этому значку</span>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <span>Подожди, пока игра загрузится (10-30 секунд)</span>
+            </div>
+
+            <div class="warning">
+                <p><strong>Если игра не запускается:</strong></p>
+                <p>• Подожди немного - иногда нужно время</p>
+                <p>• Попробуй запустить еще раз</p>
+                <p>• Проверь, все ли файлы игры на месте</p>
+            </div>
+
+            <h4>Шаг 2: Главное меню</h4>
+            <div class="note">
+                <p><strong>Видишь такие кнопки? Нажимай по порядку:</strong></p>
+                <table>
+                    <tr>
+                        <td><strong>НАЧАТЬ</strong></td>
+                        <td>→ Начинает игру с самого начала → <strong>ИГРА</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>НАСТРОЙКИ</strong></td>
+                        <td>→ Меняет громкость, графику → <strong>НАСТРОЙКИ</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>ВЫХОД</strong></td>
+                        <td>→ Закрывает игру → <strong>РАБОЧИЙ СТОЛ</strong></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="tip">
+                <p><strong>"А какую кнопку нажать?"</strong></p>
+                <p>• Если играешь впервые → НАЖМИ <span class="highlight">"НОВАЯ ИГРА"</span></p>
+                <p>• Если слишком громко/тихо → НАЖМИ <span class="highlight">"НАСТРОЙКИ"</span>, потом <span class="highlight">"ЗВУК"</span></p>
+            </div>
+
+            <h4>Шаг 3: Управление - как ходить</h4>
+            <div class="controls-grid">
+                <div class="control-card">
+                    <p>Хочешь идти вперед → жми <span class="key">W</span></p>
+                </div>
+                <div class="control-card">
+                    <p>Хочешь повернуть налево → жми <span class="key">A</span></p>
+                </div>
+                <div class="control-card">
+                    <p>Хочешь повернуть направо → жми <span class="key">D</span></p>
+                </div>
+                <div class="control-card">
+                    <p>Хочешь отступить → жми <span class="key">S</span></p>
+                </div>
+            </div>
+
+            <div class="note">
+                <p><strong>Как драться:</strong> В этой игре атака происходит автоматически! Тебе нужно только правильно позиционироваться.</p>
+            </div>
+
+            <div class="tip">
+                <h4>Простая тактика боя:</h4>
+                <p>1. Подойди к врагу (используй <span class="key">WASD</span>)</p>
+                <p>2. Уворачивайся от снарядов и убегай от врагов</p>
+                <p>3. Держи дистанцию и побеждай</p>
+                <p>4. Повторяй!</p>
+            </div>
+
+            <h4>Шаг 4: Первая игра</h4>
+            <div class="step">
+                <div class="step-number">1</div>
+                <span>Твоя первая цель: <strong>победить босса и выжить</strong></span>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <span>Снизу шкала твоего здоровья – она не должна дойти до нуля!</span>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <span>Ищи на земле светящиеся шарики - подходи к ним, они автоматически собираются</span>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <span>Избегай существ или бей их</span>
+            </div>
+            <div class="step">
+                <div class="step-number">5</div>
+                <span>Ищи люки с людьми и помогай им в том, что они просят</span>
+            </div>
+
+            <h4>Шаг 5: Что делать если умер</h4>
+            <div class="warning">
+                <p><strong>Не паникуй! Все нормально:</strong></p>
+                <p>Если ты умер, появится экран "ВЫ УМЕРЛИ". У тебя есть варианты:</p>
+            </div>
+            
+            <table>
+                <tr>
+                    <td><strong>ГЛАВНОЕ МЕНЮ → НАЧАТЬ</strong></td>
+                    <td>Хочешь отомстить врагам</td>
+                </tr>
+                <tr>
+                    <td><strong>ГЛАВНОЕ МЕНЮ</strong></td>
+                    <td>Хочешь передохнуть</td>
+                </tr>
+                <tr>
+                    <td><strong>ГЛАВНОЕ МЕНЮ → ВЫХОД</strong></td>
+                    <td>Хочешь выключить игру</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="content-section" id="recommendations">
+            <h2>9. РЕКОМЕНДАЦИИ</h2>
+            
+            <div class="tip">
+                <h4>Советы по прохождению:</h4>
+                <p>• <strong>Выполняйте все задания</strong> - это дает максимальное количество предметов</p>
+                <p>• <strong>Не задерживайтесь слишком долго</strong> на локациях, но и не уходите слишком рано</p>
+                <p>• <strong>Экспериментируйте с разными стилями игры</strong> - находите для себя что-то новое</p>
+                <p>• <strong>Изучайте синергии</strong> между оружием, предметами и мутациями</p>
+                <p>• <strong>Следите за репутацией</strong> - она дает мощные бонусы</p>
+            </div>
+
+            <div class="note">
+                <h4>Стратегия для новичков:</h4>
+                <p>1. Сначала сосредоточьтесь на <strong>выживании</strong></p>
+                <p>2. Собирайте <strong>все</strong> светящиеся предметы</p>
+                <p>3. Выполняйте <strong>простые квесты</strong> сначала</p>
+                <p>4. Постепенно изучайте <strong>механики мутаций</strong></p>
+                <p>5. Не бойтесь <strong>экспериментировать</strong> с разными сборками</p>
+            </div>
+        </div>
+
+        <div class="content-section" id="appendix">
+            <h2>10. ПРИЛОЖЕНИЯ</h2>
+            
+            <h3 id="hotkeys">10.1. Горячие клавиши</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Клавиша</th>
+                        <th>Действие в игре</th>
+                        <th>Примечание</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="key">W</span> <span class="key">A</span> <span class="key">S</span> <span class="key">D</span></td>
+                        <td>Движение персонажа</td>
+                        <td>Основное управление</td>
+                    </tr>
+                    <tr>
+                        <td><span class="key">ESC</span></td>
+                        <td>Пауза/Меню</td>
+                        <td>Открывает меню паузы</td>
+                    </tr>
+                    <tr>
+                        <td><span class="key">Tab</span></td>
+                        <td>Показать/скрыть интерфейс</td>
+                        <td>Для скриншотов</td>
+                    </tr>
+                    <tr>
+                        <td><span class="key">E</span></td>
+                        <td>Взаимодействие с объектами</td>
+                        <td>Открытие сундуков, NPC</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 id="support">10.2. Контакты поддержки</h3>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h4>Email:</h4>
+                    <p><a href="mailto:cookie050329@gmail.com">cookie050329@gmail.com</a></p>
+                </div>
+                
+                <div class="contact-item">
+                    <h4>Telegram:</h4>
+                    <p><a href="https://t.me/stanislavski9" target="_blank">@stanislavski9</a></p>
+                    <p><a href="https://t.me/poorlesk" target="_blank">@poorlesk</a></p>
+                </div>
+                
+                <div class="contact-item">
+                    <h4>Часы работы поддержки:</h4>
+                    <p><strong>Понедельник-Пятница:</strong> 10:00-19:00 (МСК)</p>
+                    <p><strong>Суббота-Воскресенье:</strong> 12:00-18:00 (МСК)</p>
+                </div>
+                
+                <div class="contact-item">
+                    <h4>При обращении указывайте:</h4>
+                    <p>1. Версию игры</p>
+                    <p>2. Операционную систему</p>
+                    <p>3. Подробное описание проблемы</p>
+                    <p>4. Скриншоты или видео ошибки</p>
+                </div>
+            </div>
+        </div>
+
+        <footer style="text-align: center; margin-top: 50px; padding-top: 20px; border-top: 1px solid #2d3748; color: #b8b8b8;">
+            <p>© 2025 GENE MT. Все права защищены.</p>
+            <p>Руководство пользователя. Версия 1.0</p>
+            <p style="margin-top: 20px; font-size: 0.9em;">Приятной игры!</p>
+        </footer>
+    </div>
+
+    <script>
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 20,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        const sections = document.querySelectorAll('.content-section');
+        const navLinks = document.querySelectorAll('.toc a');
+
+        window.addEventListener('scroll', function() {
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 150)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                    link.style.color = '#4cc9f0';
+                    link.style.fontWeight = 'bold';
+                } else {
+                    link.style.color = '';
+                    link.style.fontWeight = '';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

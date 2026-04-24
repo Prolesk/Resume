@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_tile_points_trigger" kind="class" language="C#" prot="public">
+    <compoundname>TilePointsTrigger</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tile_points_trigger_1a612211610bf6607d7b98875cf1551874" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TilePointsTrigger.Visited</definition>
+        <argsstring></argsstring>
+        <name>Visited</name>
+        <qualifiedname>TilePointsTrigger.Visited</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/TilePointsTrigger.cs" line="10" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/TilePointsTrigger.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tile_points_trigger_1a080cf802dc157b4569a9b8f671d645c0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TilePointsTrigger.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <qualifiedname>TilePointsTrigger.OnTriggerEnter</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/TilePointsTrigger.cs" line="11" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/TilePointsTrigger.cs" bodystart="11" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_tile_points_trigger" kindref="compound">TilePointsTrigger</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TilePointsTrigger</label>
+        <link refid="class_tile_points_trigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TilePointsTrigger</label>
+        <link refid="class_tile_points_trigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/TilePointsTrigger.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/Spawners/TilePointsTrigger.cs" bodystart="9" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_tile_points_trigger_1a080cf802dc157b4569a9b8f671d645c0" prot="private" virt="non-virtual"><scope>TilePointsTrigger</scope><name>OnTriggerEnter</name></member>
+      <member refid="class_tile_points_trigger_1a612211610bf6607d7b98875cf1551874" prot="private" virt="non-virtual"><scope>TilePointsTrigger</scope><name>Visited</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

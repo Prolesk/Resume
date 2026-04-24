@@ -1,0 +1,7 @@
+<map id="WeaponSaveManager.ResetSession" name="WeaponSaveManager.ResetSession">
+<area shape="rect" id="Node000001" title="Resets Session." alt="" coords="286,35,520,61"/>
+<area shape="rect" id="Node000002" href="$class_weapon_save_manager.html#a83e1ee33bbeedbcf8754b48259338c89" title="Event handler for OnGameOver." alt="" coords="5,5,238,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="268,34,238,33,238,28,273,34"/>
+<area shape="rect" id="Node000003" href="$class_weapon_save_manager.html#a54f39c58d3ffcde73ba15862388ef89c" title="Event handler for OnReturnToMainMenu." alt="" coords="17,56,226,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="268,62,226,69,226,64,273,61"/>
+</map>

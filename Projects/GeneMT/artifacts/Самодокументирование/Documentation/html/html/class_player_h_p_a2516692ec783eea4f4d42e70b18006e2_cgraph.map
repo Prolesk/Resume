@@ -1,0 +1,10 @@
+<map id="PlayerHP.maxHPChanged" name="PlayerHP.maxHPChanged">
+<area shape="rect" id="Node000001" title="Executes the maxHPChanged operation." alt="" coords="5,31,181,57"/>
+<area shape="rect" id="Node000002" href="$class_player_h_p.html#a1820fffa570c7d43314a449241c1c550" title="Applies healing." alt="" coords="229,31,335,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,41,215,44,210,44,181,47"/>
+<area shape="rect" id="Node000003" href="$class_audio_manager.html#ac9614e62cc317d8d60399bfc00617546" title="Resets MusicPitch." alt="" coords="383,5,591,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="335,35,365,34,370,33,336,40"/>
+<area shape="rect" id="Node000004" href="$class_audio_manager.html#afaea7cecdb292c3ba0ccf8ab8a3f18fd" title="Sets the MusicPitch." alt="" coords="639,31,833,57"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="335,41,626,44,621,44,335,47"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="592,27,626,33,621,33,592,32"/>
+</map>

@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_bullet_enemy_pool" kind="class" language="C#" prot="public">
+    <compoundname>BulletEnemyPool</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_bullet_enemy_pool_1ad64966c2ea7904d1d5f29453fccef964" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_bullet_enemy_pool" kindref="compound">BulletEnemyPool</ref></type>
+        <definition>BulletEnemyPool BulletEnemyPool.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>BulletEnemyPool.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" line="9" column="35" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_bullet_enemy_pool_1a9a3e6cb7b9e83ee59f7689fc4d2dc7ff" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject BulletEnemyPool._bulletEnemyPrefab</definition>
+        <argsstring></argsstring>
+        <name>_bulletEnemyPrefab</name>
+        <qualifiedname>BulletEnemyPool._bulletEnemyPrefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" line="11" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_enemy_pool_1affe8e1ae3f5ab8caf4fe8e8f1d0e4650" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BulletEnemyPool._initialPoolSize</definition>
+        <argsstring></argsstring>
+        <name>_initialPoolSize</name>
+        <qualifiedname>BulletEnemyPool._initialPoolSize</qualifiedname>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" line="12" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_enemy_pool_1a58b4bcf371a6e26ec2a9ad3767bee13a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BulletEnemyPool._expandAmount</definition>
+        <argsstring></argsstring>
+        <name>_expandAmount</name>
+        <qualifiedname>BulletEnemyPool._expandAmount</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" line="13" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_enemy_pool_1a71b9295ccb08841e978b8091c80e6515" prot="private" static="no" mutable="no">
+        <type>Queue&lt; GameObject &gt;</type>
+        <definition>Queue&lt;GameObject&gt; BulletEnemyPool._bulletPool</definition>
+        <argsstring></argsstring>
+        <name>_bulletPool</name>
+        <qualifiedname>BulletEnemyPool._bulletPool</qualifiedname>
+        <initializer>= new Queue&lt;GameObject&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" line="15" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_enemy_pool_1ab7acae284ba5054ea22a790e856595fd" prot="private" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; BulletEnemyPool._allBullets</definition>
+        <argsstring></argsstring>
+        <name>_allBullets</name>
+        <qualifiedname>BulletEnemyPool._allBullets</qualifiedname>
+        <initializer>= new List&lt;GameObject&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" line="16" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_bullet_enemy_pool_1abb4859608e8e11c8a3aa3ff5e6206bbc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletEnemyPool.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>BulletEnemyPool.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" line="18" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" bodystart="18" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_enemy_pool_1ae45ac3eca42a1084b52e5a2101f8cb6d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletEnemyPool.InitializePool</definition>
+        <argsstring>()</argsstring>
+        <name>InitializePool</name>
+        <qualifiedname>BulletEnemyPool.InitializePool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" line="31" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_enemy_pool_1ad1c1b3b854bf61b50bff02a50fbfbf8a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletEnemyPool.ExpandPool</definition>
+        <argsstring>(int count)</argsstring>
+        <name>ExpandPool</name>
+        <qualifiedname>BulletEnemyPool.ExpandPool</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" line="36" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" bodystart="36" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_enemy_pool_1aa89e6d5ba40fc7b808af5dd77989c6dd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>GameObject BulletEnemyPool.CreateNewBullet</definition>
+        <argsstring>()</argsstring>
+        <name>CreateNewBullet</name>
+        <qualifiedname>BulletEnemyPool.CreateNewBullet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" line="44" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" bodystart="44" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_enemy_pool_1a4cc2cced3b05397f1da1a556dd81a2a8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletEnemyPool.CleanPool</definition>
+        <argsstring>()</argsstring>
+        <name>CleanPool</name>
+        <qualifiedname>BulletEnemyPool.CleanPool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" line="98" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" bodystart="98" bodyend="115"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bullet_enemy_pool_1afe010d0bbddaf70ad1249d0e9bd150eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>GameObject BulletEnemyPool.GetBulletEnemy</definition>
+        <argsstring>()</argsstring>
+        <name>GetBulletEnemy</name>
+        <qualifiedname>BulletEnemyPool.GetBulletEnemy</qualifiedname>
+        <briefdescription>
+<para>Gets the <ref refid="class_bullet_enemy" kindref="compound">BulletEnemy</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The result as GameObject.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" line="57" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" bodystart="57" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_enemy_pool_1a6599ca3980059bd6d4a700fefa759196" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletEnemyPool.ReturnBulletEnemy</definition>
+        <argsstring>(GameObject bulletEnemy)</argsstring>
+        <name>ReturnBulletEnemy</name>
+        <qualifiedname>BulletEnemyPool.ReturnBulletEnemy</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>bulletEnemy</declname>
+        </param>
+        <briefdescription>
+<para>Executes the ReturnBulletEnemy operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bulletEnemy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The bulletEnemy.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" line="83" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" bodystart="83" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_enemy_pool_1ad0fae8cebed27864d11333c5df1ae9a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int BulletEnemyPool.GetActiveCount</definition>
+        <argsstring>()</argsstring>
+        <name>GetActiveCount</name>
+        <qualifiedname>BulletEnemyPool.GetActiveCount</qualifiedname>
+        <briefdescription>
+<para>Gets the ActiveCount. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The result as int.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" line="121" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" bodystart="121" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_enemy_pool_1a149272f173949db3ad663967ffeebe5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletEnemyPool.ReinitializePool</definition>
+        <argsstring>()</argsstring>
+        <name>ReinitializePool</name>
+        <qualifiedname>BulletEnemyPool.ReinitializePool</qualifiedname>
+        <briefdescription>
+<para>Executes the ReinitializePool operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" line="137" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" bodystart="137" bodyend="150"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_bullet_enemy_pool" kindref="compound">BulletEnemyPool</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BulletEnemyPool</label>
+        <link refid="class_bullet_enemy_pool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BulletEnemyPool</label>
+        <link refid="class_bullet_enemy_pool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>Instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" line="7" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemyPool.cs" bodystart="8" bodyend="151"/>
+    <listofallmembers>
+      <member refid="class_bullet_enemy_pool_1ab7acae284ba5054ea22a790e856595fd" prot="private" virt="non-virtual"><scope>BulletEnemyPool</scope><name>_allBullets</name></member>
+      <member refid="class_bullet_enemy_pool_1a9a3e6cb7b9e83ee59f7689fc4d2dc7ff" prot="private" virt="non-virtual"><scope>BulletEnemyPool</scope><name>_bulletEnemyPrefab</name></member>
+      <member refid="class_bullet_enemy_pool_1a71b9295ccb08841e978b8091c80e6515" prot="private" virt="non-virtual"><scope>BulletEnemyPool</scope><name>_bulletPool</name></member>
+      <member refid="class_bullet_enemy_pool_1a58b4bcf371a6e26ec2a9ad3767bee13a" prot="private" virt="non-virtual"><scope>BulletEnemyPool</scope><name>_expandAmount</name></member>
+      <member refid="class_bullet_enemy_pool_1affe8e1ae3f5ab8caf4fe8e8f1d0e4650" prot="private" virt="non-virtual"><scope>BulletEnemyPool</scope><name>_initialPoolSize</name></member>
+      <member refid="class_bullet_enemy_pool_1abb4859608e8e11c8a3aa3ff5e6206bbc" prot="private" virt="non-virtual"><scope>BulletEnemyPool</scope><name>Awake</name></member>
+      <member refid="class_bullet_enemy_pool_1a4cc2cced3b05397f1da1a556dd81a2a8" prot="private" virt="non-virtual"><scope>BulletEnemyPool</scope><name>CleanPool</name></member>
+      <member refid="class_bullet_enemy_pool_1aa89e6d5ba40fc7b808af5dd77989c6dd" prot="private" virt="non-virtual"><scope>BulletEnemyPool</scope><name>CreateNewBullet</name></member>
+      <member refid="class_bullet_enemy_pool_1ad1c1b3b854bf61b50bff02a50fbfbf8a" prot="private" virt="non-virtual"><scope>BulletEnemyPool</scope><name>ExpandPool</name></member>
+      <member refid="class_bullet_enemy_pool_1ad0fae8cebed27864d11333c5df1ae9a3" prot="public" virt="non-virtual"><scope>BulletEnemyPool</scope><name>GetActiveCount</name></member>
+      <member refid="class_bullet_enemy_pool_1afe010d0bbddaf70ad1249d0e9bd150eb" prot="public" virt="non-virtual"><scope>BulletEnemyPool</scope><name>GetBulletEnemy</name></member>
+      <member refid="class_bullet_enemy_pool_1ae45ac3eca42a1084b52e5a2101f8cb6d" prot="private" virt="non-virtual"><scope>BulletEnemyPool</scope><name>InitializePool</name></member>
+      <member refid="class_bullet_enemy_pool_1ad64966c2ea7904d1d5f29453fccef964" prot="public" virt="non-virtual"><scope>BulletEnemyPool</scope><name>Instance</name></member>
+      <member refid="class_bullet_enemy_pool_1a149272f173949db3ad663967ffeebe5d" prot="public" virt="non-virtual"><scope>BulletEnemyPool</scope><name>ReinitializePool</name></member>
+      <member refid="class_bullet_enemy_pool_1a6599ca3980059bd6d4a700fefa759196" prot="public" virt="non-virtual"><scope>BulletEnemyPool</scope><name>ReturnBulletEnemy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

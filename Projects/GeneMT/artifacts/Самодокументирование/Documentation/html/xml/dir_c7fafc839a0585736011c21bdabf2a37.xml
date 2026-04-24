@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_c7fafc839a0585736011c21bdabf2a37" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts/Player</compoundname>
+    <innerdir refid="dir_7b87bee0bd2ce090720122d81d0da568">C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items</innerdir>
+    <innerdir refid="dir_91feaa198925cd6131ad701738c19140">C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations</innerdir>
+    <innerdir refid="dir_78837ad46273f0ad9f36a5483c470446">C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls</innerdir>
+    <innerdir refid="dir_8210a99ab3516dfbeb312b0f70a9c59f">C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP</innerdir>
+    <innerdir refid="dir_661549482f033550f8eb6d60d9019706">C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats</innerdir>
+    <innerdir refid="dir_efaa293b7e75664db6b49d0cc768a097">C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/"/>
+  </compounddef>
+</doxygen>

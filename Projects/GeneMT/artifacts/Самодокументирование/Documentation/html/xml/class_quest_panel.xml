@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_quest_panel" kind="class" language="C#" prot="public">
+    <compoundname>QuestPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_quest_panel_1a37bc222ec71bcd33a7ddce8d030eddc4" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_quest_panel" kindref="compound">QuestPanel</ref></type>
+        <definition>QuestPanel QuestPanel.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>QuestPanel.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" line="10" column="30" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" bodystart="10" bodyend="10"/>
+        <referencedby refid="class_game_state_manager_1a90f2b3f817c1e397a3b28f89f752cc79" compoundref="_game_state_manager_8cs" startline="54" endline="78">GameStateManager.TogglePause</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_quest_panel_1a1f2f541ae4bd60b28b0a58ac6e15d6a8" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_quest_data" kindref="compound">QuestData</ref> &gt;</type>
+        <definition>List&lt;QuestData&gt; QuestPanel.AllActiveQuests</definition>
+        <argsstring></argsstring>
+        <name>AllActiveQuests</name>
+        <qualifiedname>QuestPanel.AllActiveQuests</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" line="12" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_panel_1a58e1d0aa4bc93ef525ed1e1f961887f3" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_quest_data" kindref="compound">QuestData</ref> &gt;</type>
+        <definition>List&lt;QuestData&gt; QuestPanel.CompletedQuests</definition>
+        <argsstring></argsstring>
+        <name>CompletedQuests</name>
+        <qualifiedname>QuestPanel.CompletedQuests</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" line="13" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_quest_panel_1ab42ee2ab0b54165cf5c8fb7d452c38f3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int QuestPanel.CurrentIndex</definition>
+        <argsstring></argsstring>
+        <name>CurrentIndex</name>
+        <qualifiedname>QuestPanel.CurrentIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" line="15" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_quest_panel_1a413d45c8cf8904420db68f244dce1658" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestPanel.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>QuestPanel.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" line="17" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" bodystart="17" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_panel_1a332c7097dd29bcc6612576189eeae7ee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestPanel.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>QuestPanel.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" line="30" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" bodystart="30" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_panel_1aacbe879c7b874085323b1d4747197e38" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestPanel.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>QuestPanel.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" line="41" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" bodystart="41" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_panel_1acfc37387dcb5af730ee894b4bf678b90" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestPanel.UpdateQuestsDisplay</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateQuestsDisplay</name>
+        <qualifiedname>QuestPanel.UpdateQuestsDisplay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" line="74" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" bodystart="74" bodyend="192"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_quest_panel_1a44b9e890d99fc96c9a458dd52209cf2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestPanel.SetQuestsInfo</definition>
+        <argsstring>()</argsstring>
+        <name>SetQuestsInfo</name>
+        <qualifiedname>QuestPanel.SetQuestsInfo</qualifiedname>
+        <briefdescription>
+<para>Sets the QuestsInfo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" line="56" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" bodystart="56" bodyend="59"/>
+        <referencedby refid="class_game_state_manager_1a90f2b3f817c1e397a3b28f89f752cc79" compoundref="_game_state_manager_8cs" startline="54" endline="78">GameStateManager.TogglePause</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_panel_1a1850a1353656529a182bf985fc75991d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestPanel.SetQuestsInfo</definition>
+        <argsstring>(QuestData quest)</argsstring>
+        <name>SetQuestsInfo</name>
+        <qualifiedname>QuestPanel.SetQuestsInfo</qualifiedname>
+        <param>
+          <type><ref refid="class_quest_data" kindref="compound">QuestData</ref></type>
+          <declname>quest</declname>
+        </param>
+        <briefdescription>
+<para>Sets the QuestsInfo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>quest</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The quest.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" line="66" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" bodystart="66" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_panel_1ace708f6ec612b67144a60480fafaee87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuestPanel.ClearQuestList</definition>
+        <argsstring>()</argsstring>
+        <name>ClearQuestList</name>
+        <qualifiedname>QuestPanel.ClearQuestList</qualifiedname>
+        <briefdescription>
+<para>Executes the ClearQuestList operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" line="197" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" bodystart="197" bodyend="203"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_quest_panel" kindref="compound">QuestPanel</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>QuestPanel</label>
+        <link refid="class_quest_panel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>QuestPanel</label>
+        <link refid="class_quest_panel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/QuestPanel.cs" bodystart="9" bodyend="204"/>
+    <listofallmembers>
+      <member refid="class_quest_panel_1a1f2f541ae4bd60b28b0a58ac6e15d6a8" prot="public" virt="non-virtual"><scope>QuestPanel</scope><name>AllActiveQuests</name></member>
+      <member refid="class_quest_panel_1a413d45c8cf8904420db68f244dce1658" prot="private" virt="non-virtual"><scope>QuestPanel</scope><name>Awake</name></member>
+      <member refid="class_quest_panel_1ace708f6ec612b67144a60480fafaee87" prot="public" virt="non-virtual"><scope>QuestPanel</scope><name>ClearQuestList</name></member>
+      <member refid="class_quest_panel_1a58e1d0aa4bc93ef525ed1e1f961887f3" prot="public" virt="non-virtual"><scope>QuestPanel</scope><name>CompletedQuests</name></member>
+      <member refid="class_quest_panel_1ab42ee2ab0b54165cf5c8fb7d452c38f3" prot="private" virt="non-virtual"><scope>QuestPanel</scope><name>CurrentIndex</name></member>
+      <member refid="class_quest_panel_1a37bc222ec71bcd33a7ddce8d030eddc4" prot="public" virt="non-virtual"><scope>QuestPanel</scope><name>Instance</name></member>
+      <member refid="class_quest_panel_1aacbe879c7b874085323b1d4747197e38" prot="private" virt="non-virtual"><scope>QuestPanel</scope><name>OnDisable</name></member>
+      <member refid="class_quest_panel_1a332c7097dd29bcc6612576189eeae7ee" prot="private" virt="non-virtual"><scope>QuestPanel</scope><name>OnEnable</name></member>
+      <member refid="class_quest_panel_1a44b9e890d99fc96c9a458dd52209cf2c" prot="public" virt="non-virtual"><scope>QuestPanel</scope><name>SetQuestsInfo</name></member>
+      <member refid="class_quest_panel_1a1850a1353656529a182bf985fc75991d" prot="public" virt="non-virtual"><scope>QuestPanel</scope><name>SetQuestsInfo</name></member>
+      <member refid="class_quest_panel_1acfc37387dcb5af730ee894b4bf678b90" prot="private" virt="non-virtual"><scope>QuestPanel</scope><name>UpdateQuestsDisplay</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

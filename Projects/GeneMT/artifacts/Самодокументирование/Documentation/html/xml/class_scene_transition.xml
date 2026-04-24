@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_scene_transition" kind="class" language="C#" prot="public">
+    <compoundname>SceneTransition</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_scene_transition_1a8950c8e577986452b084690439d00e3e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneTransition.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <qualifiedname>SceneTransition.OnTriggerEnter</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/ScenesTransitions/SceneTransition.cs" line="12" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/ScenesTransitions/SceneTransition.cs" bodystart="12" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_scene_transition" kindref="compound">SceneTransition</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SceneTransition</label>
+        <link refid="class_scene_transition"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SceneTransition</label>
+        <link refid="class_scene_transition"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/ScenesTransitions/SceneTransition.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/ScenesTransitions/SceneTransition.cs" bodystart="10" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_scene_transition_1a8950c8e577986452b084690439d00e3e" prot="private" virt="non-virtual"><scope>SceneTransition</scope><name>OnTriggerEnter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<map id="MutationControllerSO.MutationEntry" name="MutationControllerSO.MutationEntry">
+<area shape="rect" id="Node000001" title="The MutationEntry class." alt="" coords="5,355,206,397"/>
+<area shape="rect" id="Node000002" href="$class_mutation_data_s_o.html" title="The MutationDataSO class." alt="" coords="46,256,165,283"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,296,108,355,103,353,103,300"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="8,157,126,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="78,196,103,255,98,256,77,201"/>
+<area shape="rect" id="Node000004" href="$class_chest.html" title="The Chest class." alt="" coords="149,157,206,184"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="161,194,117,257,113,254,158,199"/>
+<area shape="rect" id="Node000005" href="$class_e_interactable.html" title="The EInteractable class." alt="" coords="128,81,227,108"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="178,121,180,158,175,156,177,126"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="122,5,233,32"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="178,45,180,82,175,80,177,50"/>
+</map>

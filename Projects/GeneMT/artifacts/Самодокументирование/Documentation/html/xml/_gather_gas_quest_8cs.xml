@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="_gather_gas_quest_8cs" kind="file" language="C#">
+    <compoundname>GatherGasQuest.cs</compoundname>
+    <innerclass refid="class_gather_gas_quest" prot="public">GatherGasQuest</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">[CreateAssetMenu(fileName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;New<sp/>Gather<sp/>Gas<sp/>Quest&quot;</highlight><highlight class="normal">,<sp/>menuName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Quests/New<sp/>Gather<sp/>Gas<sp/>Quest&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="9" refid="class_gather_gas_quest" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_gather_gas_quest" kindref="compound">GatherGasQuest</ref><sp/>:<sp/><ref refid="class_quest_data" kindref="compound">QuestData</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>[Header(</highlight><highlight class="stringliteral">&quot;Gather<sp/>Gas<sp/>Quest<sp/>Settings&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="15" refid="class_gather_gas_quest_1a1bf31358921a6f68b6dfa273a322e5e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_gather_gas_quest_1a1bf31358921a6f68b6dfa273a322e5e9" kindref="member">_gas</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_gather_gas_quest_1ac87412cf60cb8f6e097d246e75d1ad77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_gather_gas_quest_1ac87412cf60cb8f6e097d246e75d1ad77" kindref="member">OnQuestStart</ref>()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.OnQuestStart();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_generation" kindref="compound">Generation</ref>.<ref refid="class_generation_1a46b608e7d5f196ce848538f410ffcb8e" kindref="member">Instance</ref>.<ref refid="class_generation_1abf862c37f8ddfdd44771e93463c0c908" kindref="member">SpawnGasTanks</ref>(<ref refid="class_quest_s_o_1a798a0694172e043a040a60979013c299" kindref="member">goal</ref>);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_quest_manager" kindref="compound">QuestManager</ref>.<ref refid="class_quest_manager_1a8e1cd09cf2af8f04d6854f0b54d8b0bf" kindref="member">Instance</ref>?.<ref refid="class_quest_manager_1a1395a03cb6c72209747309163e62ef6f" kindref="member">RegisterQuest</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="class_gather_gas_quest_1a9fcce40f948fdb3796f5422fecf6d2fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_gather_gas_quest_1a9fcce40f948fdb3796f5422fecf6d2fd" kindref="member">OnQuestFinish</ref>()</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.OnQuestFinish();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_quest_manager" kindref="compound">QuestManager</ref>.<ref refid="class_quest_manager_1a8e1cd09cf2af8f04d6854f0b54d8b0bf" kindref="member">Instance</ref>?.<ref refid="class_quest_manager_1aea24d979636f69fa40f33d064fa54109" kindref="member">UnregisterQuest</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32" refid="class_gather_gas_quest_1a98cc1cb541833379af9a7769494db1ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_gather_gas_quest_1a98cc1cb541833379af9a7769494db1ec" kindref="member">OnQuestCancel</ref>()</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.OnQuestCancel();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_quest_manager" kindref="compound">QuestManager</ref>.<ref refid="class_quest_manager_1a8e1cd09cf2af8f04d6854f0b54d8b0bf" kindref="member">Instance</ref>?.<ref refid="class_quest_manager_1ab1471bbeb7ffe4bf53b0c66152758f44" kindref="member">CancelQuest</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/GatherGasQuest.cs"/>
+  </compounddef>
+</doxygen>

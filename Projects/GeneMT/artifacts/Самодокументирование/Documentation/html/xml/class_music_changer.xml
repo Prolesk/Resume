@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_music_changer" kind="class" language="C#" prot="public">
+    <compoundname>MusicChanger</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_music_changer_1a76c20511f44d303710b7990ad586439d" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip MusicChanger.newMusic</definition>
+        <argsstring></argsstring>
+        <name>newMusic</name>
+        <qualifiedname>MusicChanger.newMusic</qualifiedname>
+        <briefdescription>
+<para>The newMusic field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MusicChanger.cs" line="13" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MusicChanger.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_music_changer_1a16e7b9829d9c3bfb55baf30533145ef8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MusicChanger.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>MusicChanger.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MusicChanger.cs" line="15" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MusicChanger.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_music_changer" kindref="compound">MusicChanger</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>MusicChanger</label>
+        <link refid="class_music_changer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>MusicChanger</label>
+        <link refid="class_music_changer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MusicChanger.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MusicChanger.cs" bodystart="9" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_music_changer_1a16e7b9829d9c3bfb55baf30533145ef8" prot="private" virt="non-virtual"><scope>MusicChanger</scope><name>Awake</name></member>
+      <member refid="class_music_changer_1a76c20511f44d303710b7990ad586439d" prot="public" virt="non-virtual"><scope>MusicChanger</scope><name>newMusic</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

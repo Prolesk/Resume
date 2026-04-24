@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_enemy_range_attack" kind="class" language="C#" prot="public">
+    <compoundname>EnemyRangeAttack</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_enemy_range_attack_1af84c89dd16afcd653aa82c56aaaadc82" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform EnemyRangeAttack._bulletSpawn</definition>
+        <argsstring></argsstring>
+        <name>_bulletSpawn</name>
+        <qualifiedname>EnemyRangeAttack._bulletSpawn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="10" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_range_attack_1adfd863932ff1193a1ffa68b91c0dd0db" prot="private" static="no" mutable="no">
+        <type>EnemyConfig</type>
+        <definition>EnemyConfig EnemyRangeAttack._initializedStats</definition>
+        <argsstring></argsstring>
+        <name>_initializedStats</name>
+        <qualifiedname>EnemyRangeAttack._initializedStats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="11" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_range_attack_1ae4f73cb8c6953fe78168db12f31a8a67" prot="private" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator EnemyRangeAttack.animator</definition>
+        <argsstring></argsstring>
+        <name>animator</name>
+        <qualifiedname>EnemyRangeAttack.animator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="12" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_range_attack_1aa2264276ffc4d24b78a23f4fd4f42c4f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyRangeAttack._attackCooldown</definition>
+        <argsstring></argsstring>
+        <name>_attackCooldown</name>
+        <qualifiedname>EnemyRangeAttack._attackCooldown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="19" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_range_attack_1ad174a3d9d18a1644c79c5127e398569a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyRangeAttack._projectileSpeed</definition>
+        <argsstring></argsstring>
+        <name>_projectileSpeed</name>
+        <qualifiedname>EnemyRangeAttack._projectileSpeed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="20" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_range_attack_1a5eccb7026ea0759dfa24ba43c6620612" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyRangeAttack._projectileLifetime</definition>
+        <argsstring></argsstring>
+        <name>_projectileLifetime</name>
+        <qualifiedname>EnemyRangeAttack._projectileLifetime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="21" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_range_attack_1af62ae3b304a02c1e1ff1af3020feb1ed" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyRangeAttack._damage</definition>
+        <argsstring></argsstring>
+        <name>_damage</name>
+        <qualifiedname>EnemyRangeAttack._damage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="22" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_range_attack_1a83f018bd80a67a30c33f39442e92bb2f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyRangeAttack._prepareTime</definition>
+        <argsstring></argsstring>
+        <name>_prepareTime</name>
+        <qualifiedname>EnemyRangeAttack._prepareTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="27" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_range_attack_1a4d0962c40eb5be4c148b0771f79ea032" prot="private" static="no" mutable="no">
+        <type>NavMeshAgent</type>
+        <definition>NavMeshAgent EnemyRangeAttack.agent</definition>
+        <argsstring></argsstring>
+        <name>agent</name>
+        <qualifiedname>EnemyRangeAttack.agent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="29" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_range_attack_1acadaea4796cf5eee6f0bdef5a468832c" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform EnemyRangeAttack._playerTransform</definition>
+        <argsstring></argsstring>
+        <name>_playerTransform</name>
+        <qualifiedname>EnemyRangeAttack._playerTransform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="30" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_range_attack_1a5811d7ad2807edbbabfcdf53a55892ae" prot="private" static="no" mutable="no">
+        <type>Coroutine</type>
+        <definition>Coroutine EnemyRangeAttack._shootingCoroutine</definition>
+        <argsstring></argsstring>
+        <name>_shootingCoroutine</name>
+        <qualifiedname>EnemyRangeAttack._shootingCoroutine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="31" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_range_attack_1a6b553fd8834e75b93ac80553e6b4a6ab" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EnemyRangeAttack._isShooting</definition>
+        <argsstring></argsstring>
+        <name>_isShooting</name>
+        <qualifiedname>EnemyRangeAttack._isShooting</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="32" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_range_attack_1a4221a6c111e391525affeeace604b079" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EnemyRangeAttack._isPreparing</definition>
+        <argsstring></argsstring>
+        <name>_isPreparing</name>
+        <qualifiedname>EnemyRangeAttack._isPreparing</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="33" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_range_attack_1af4372b5a421b229ad8bde44e867596ee" prot="private" static="no" mutable="no">
+        <type>RaycastHit</type>
+        <definition>RaycastHit EnemyRangeAttack.hit</definition>
+        <argsstring></argsstring>
+        <name>hit</name>
+        <qualifiedname>EnemyRangeAttack.hit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="34" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_range_attack_1ac057706d5e4b21e1e7f07a9435d9a511" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EnemyRangeAttack.isPaused</definition>
+        <argsstring></argsstring>
+        <name>isPaused</name>
+        <qualifiedname>EnemyRangeAttack.isPaused</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="36" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_enemy_range_attack_1ad193b23c8934e6e1f188614c2751d752" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EnemyRangeAttack.shouldShoot</definition>
+        <argsstring></argsstring>
+        <name>shouldShoot</name>
+        <qualifiedname>EnemyRangeAttack.shouldShoot</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>The shouldShoot field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="17" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_range_attack_1a07a2d44fe2e4f3e9137494bbed55dc92" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyRangeAttack._range</definition>
+        <argsstring></argsstring>
+        <name>_range</name>
+        <qualifiedname>EnemyRangeAttack._range</qualifiedname>
+        <briefdescription>
+<para>The _range field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="26" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_enemy_range_attack_1a0f991dbacec068cbe7c1f3865e04260f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyRangeAttack.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>EnemyRangeAttack.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="38" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="38" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_range_attack_1a96028a02977d8617319278cf0de328d6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyRangeAttack.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>EnemyRangeAttack.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="44" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="44" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_range_attack_1a6aac77fb6864490479238085e4b3dc10" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyRangeAttack.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>EnemyRangeAttack.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="86" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="86" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_range_attack_1ab2015a6203688b415b7457234f3b8f98" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyRangeAttack.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <qualifiedname>EnemyRangeAttack.OnDestroy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="97" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_range_attack_1a2085260312116de5acd26bd210ba674d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyRangeAttack.StartShooting</definition>
+        <argsstring>()</argsstring>
+        <name>StartShooting</name>
+        <qualifiedname>EnemyRangeAttack.StartShooting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="102" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="102" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_range_attack_1a1d9a84f3c291cd59c61b28a08eb697fe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyRangeAttack.StopShooting</definition>
+        <argsstring>()</argsstring>
+        <name>StopShooting</name>
+        <qualifiedname>EnemyRangeAttack.StopShooting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="112" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="112" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_range_attack_1a9e9d7efa0ff43cc4d0d513dad1f238fb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator EnemyRangeAttack.ShootingRoutine</definition>
+        <argsstring>()</argsstring>
+        <name>ShootingRoutine</name>
+        <qualifiedname>EnemyRangeAttack.ShootingRoutine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="122" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="122" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_range_attack_1af8939e3403730c3417427b84411a0174" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyRangeAttack.ShootAtPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>ShootAtPlayer</name>
+        <qualifiedname>EnemyRangeAttack.ShootAtPlayer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="138" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="138" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_range_attack_1aee938eeee246069b84684a9b19f62334" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyRangeAttack.OnDrawGizmosSelected</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmosSelected</name>
+        <qualifiedname>EnemyRangeAttack.OnDrawGizmosSelected</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="164" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="164" bodyend="174"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_enemy_range_attack" kindref="compound">EnemyRangeAttack</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EnemyRangeAttack</label>
+        <link refid="class_enemy_range_attack"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EnemyRangeAttack</label>
+        <link refid="class_enemy_range_attack"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyRangeAttack.cs" bodystart="9" bodyend="175"/>
+    <listofallmembers>
+      <member refid="class_enemy_range_attack_1aa2264276ffc4d24b78a23f4fd4f42c4f" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>_attackCooldown</name></member>
+      <member refid="class_enemy_range_attack_1af84c89dd16afcd653aa82c56aaaadc82" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>_bulletSpawn</name></member>
+      <member refid="class_enemy_range_attack_1af62ae3b304a02c1e1ff1af3020feb1ed" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>_damage</name></member>
+      <member refid="class_enemy_range_attack_1adfd863932ff1193a1ffa68b91c0dd0db" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>_initializedStats</name></member>
+      <member refid="class_enemy_range_attack_1a4221a6c111e391525affeeace604b079" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>_isPreparing</name></member>
+      <member refid="class_enemy_range_attack_1a6b553fd8834e75b93ac80553e6b4a6ab" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>_isShooting</name></member>
+      <member refid="class_enemy_range_attack_1acadaea4796cf5eee6f0bdef5a468832c" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>_playerTransform</name></member>
+      <member refid="class_enemy_range_attack_1a83f018bd80a67a30c33f39442e92bb2f" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>_prepareTime</name></member>
+      <member refid="class_enemy_range_attack_1a5eccb7026ea0759dfa24ba43c6620612" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>_projectileLifetime</name></member>
+      <member refid="class_enemy_range_attack_1ad174a3d9d18a1644c79c5127e398569a" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>_projectileSpeed</name></member>
+      <member refid="class_enemy_range_attack_1a07a2d44fe2e4f3e9137494bbed55dc92" prot="public" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>_range</name></member>
+      <member refid="class_enemy_range_attack_1a5811d7ad2807edbbabfcdf53a55892ae" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>_shootingCoroutine</name></member>
+      <member refid="class_enemy_range_attack_1a4d0962c40eb5be4c148b0771f79ea032" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>agent</name></member>
+      <member refid="class_enemy_range_attack_1ae4f73cb8c6953fe78168db12f31a8a67" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>animator</name></member>
+      <member refid="class_enemy_range_attack_1af4372b5a421b229ad8bde44e867596ee" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>hit</name></member>
+      <member refid="class_enemy_range_attack_1ac057706d5e4b21e1e7f07a9435d9a511" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>isPaused</name></member>
+      <member refid="class_enemy_range_attack_1ab2015a6203688b415b7457234f3b8f98" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>OnDestroy</name></member>
+      <member refid="class_enemy_range_attack_1aee938eeee246069b84684a9b19f62334" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>OnDrawGizmosSelected</name></member>
+      <member refid="class_enemy_range_attack_1a6aac77fb6864490479238085e4b3dc10" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>OnEnable</name></member>
+      <member refid="class_enemy_range_attack_1af8939e3403730c3417427b84411a0174" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>ShootAtPlayer</name></member>
+      <member refid="class_enemy_range_attack_1a9e9d7efa0ff43cc4d0d513dad1f238fb" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>ShootingRoutine</name></member>
+      <member refid="class_enemy_range_attack_1ad193b23c8934e6e1f188614c2751d752" prot="public" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>shouldShoot</name></member>
+      <member refid="class_enemy_range_attack_1a0f991dbacec068cbe7c1f3865e04260f" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>Start</name></member>
+      <member refid="class_enemy_range_attack_1a2085260312116de5acd26bd210ba674d" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>StartShooting</name></member>
+      <member refid="class_enemy_range_attack_1a1d9a84f3c291cd59c61b28a08eb697fe" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>StopShooting</name></member>
+      <member refid="class_enemy_range_attack_1a96028a02977d8617319278cf0de328d6" prot="private" virt="non-virtual"><scope>EnemyRangeAttack</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

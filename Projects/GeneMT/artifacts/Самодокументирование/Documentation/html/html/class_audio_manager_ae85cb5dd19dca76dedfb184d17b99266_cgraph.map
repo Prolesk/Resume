@@ -1,0 +1,9 @@
+<map id="AudioManager.StopAllSFX" name="AudioManager.StopAllSFX">
+<area shape="rect" id="Node000001" title="Stops animation or sound." alt="" coords="5,56,182,83"/>
+<area shape="rect" id="Node000002" href="$class_audio_manager.html#af2213f4bae215f43e7d4a08cf5a971e7" title="Stops animation or sound." alt="" coords="238,5,390,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,53,241,35,236,37,156,58"/>
+<area shape="rect" id="Node000003" href="$class_audio_manager.html#a78430e89d7009974545b7418878d0e53" title="Stops animation or sound." alt="" coords="230,56,399,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,67,216,69,211,70,183,72"/>
+<area shape="rect" id="Node000004" href="$class_audio_manager.html#a99beb70f9c1e0cda5dd0f0d6c26a4b31" title="Stops animation or sound." alt="" coords="232,107,396,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="155,81,241,102,236,103,155,86"/>
+</map>

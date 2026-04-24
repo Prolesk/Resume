@@ -1,0 +1,7 @@
+<map id="PlayerInput.PlayerActions.Get" name="PlayerInput.PlayerActions.Get">
+<area shape="rect" id="Node000001" title="Provides access to the underlying input action map instance." alt="" coords="230,47,427,73"/>
+<area shape="rect" id="Node000002" href="$struct_player_input_1_1_player_actions.html#a650a3241f61f0e38a1faa0fd88b8d525" title=" " alt="" coords="5,5,182,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,44,182,42,182,37,217,43"/>
+<area shape="rect" id="Node000003" href="$struct_player_input_1_1_player_actions.html#a0982fe6e4310bd43a36caaa900e89f39" title=" " alt="" coords="5,72,182,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,77,182,83,182,78,217,76"/>
+</map>

@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_transition_quest_start_panel" kind="class" language="C#" prot="public">
+    <compoundname>TransitionQuestStartPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_transition_quest_start_panel_1a54a6ca7ce6399c2342b5374d047670a4" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_transition_quest_start_panel" kindref="compound">TransitionQuestStartPanel</ref></type>
+        <definition>TransitionQuestStartPanel TransitionQuestStartPanel.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>TransitionQuestStartPanel.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" line="10" column="45" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" bodystart="10" bodyend="10"/>
+        <referencedby refid="class_quest_giver_1a969ad607369c939921780414df7e4056" compoundref="_quest_giver_8cs" startline="111" endline="160">QuestGiver.Interact</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_transition_quest_start_panel_1af54552812717d7d753d06d34877e05d1" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject TransitionQuestStartPanel.panel</definition>
+        <argsstring></argsstring>
+        <name>panel</name>
+        <qualifiedname>TransitionQuestStartPanel.panel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" line="13" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_transition_quest_start_panel_1ae2c786640c51c583dc43f9b79f4d7dd4" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI TransitionQuestStartPanel.questTitleText</definition>
+        <argsstring></argsstring>
+        <name>questTitleText</name>
+        <qualifiedname>TransitionQuestStartPanel.questTitleText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" line="14" column="30" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_transition_quest_start_panel_1acb452dbc68065c4ce21741e576ee1b96" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI TransitionQuestStartPanel.questDescriptionText</definition>
+        <argsstring></argsstring>
+        <name>questDescriptionText</name>
+        <qualifiedname>TransitionQuestStartPanel.questDescriptionText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" line="15" column="30" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_transition_quest_start_panel_1a6add81c37bf60c3f2053b3f04e6b1461" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI TransitionQuestStartPanel.warningText</definition>
+        <argsstring></argsstring>
+        <name>warningText</name>
+        <qualifiedname>TransitionQuestStartPanel.warningText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" line="16" column="30" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_transition_quest_start_panel_1af0440f1b1868bc8dd3451af8aae349ca" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button TransitionQuestStartPanel.acceptButton</definition>
+        <argsstring></argsstring>
+        <name>acceptButton</name>
+        <qualifiedname>TransitionQuestStartPanel.acceptButton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" line="17" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_transition_quest_start_panel_1ac3cad187772d8e5fe0187f6fca265046" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button TransitionQuestStartPanel.declineButton</definition>
+        <argsstring></argsstring>
+        <name>declineButton</name>
+        <qualifiedname>TransitionQuestStartPanel.declineButton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" line="18" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_transition_quest_start_panel_1aadc77668fd1483c1ac0aadefa023a561" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string TransitionQuestStartPanel.warningMessage</definition>
+        <argsstring></argsstring>
+        <name>warningMessage</name>
+        <qualifiedname>TransitionQuestStartPanel.warningMessage</qualifiedname>
+        <initializer>= &quot;Р­С‚РѕС‚ РєРІРµСЃС‚ РїРµСЂРµРЅРµСЃРµС‚ РІР°СЃ РЅР° СЃР»РµРґСѓСЋС‰РёР№ СѓСЂРѕРІРµРЅСЊ!\nРџСЂРѕРґРѕР»Р¶РёС‚СЊ?&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" line="21" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_transition_quest_start_panel_1a51ffca275de6f6742c6894e5215b6d1c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_quest_data" kindref="compound">QuestData</ref></type>
+        <definition>QuestData TransitionQuestStartPanel.currentQuest</definition>
+        <argsstring></argsstring>
+        <name>currentQuest</name>
+        <qualifiedname>TransitionQuestStartPanel.currentQuest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" line="23" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_transition_quest_start_panel_1a8ed27272e91c2104c0d707bec1769bb6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_quest_giver" kindref="compound">QuestGiver</ref></type>
+        <definition>QuestGiver TransitionQuestStartPanel.currentQuestGiver</definition>
+        <argsstring></argsstring>
+        <name>currentQuestGiver</name>
+        <qualifiedname>TransitionQuestStartPanel.currentQuestGiver</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" line="24" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_transition_quest_start_panel_1a153442a73d225acbf8d0ca326825d117" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransitionQuestStartPanel.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>TransitionQuestStartPanel.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" line="26" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" bodystart="26" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_transition_quest_start_panel_1ae1e272f784c540ef4d875a26b55a52d1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransitionQuestStartPanel.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>TransitionQuestStartPanel.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" line="43" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" bodystart="43" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_transition_quest_start_panel_1ad5adccbe6a403b7e2ae77db190e968a8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransitionQuestStartPanel.AcceptQuest</definition>
+        <argsstring>()</argsstring>
+        <name>AcceptQuest</name>
+        <qualifiedname>TransitionQuestStartPanel.AcceptQuest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" line="81" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" bodystart="81" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_transition_quest_start_panel_1ab4f3b2abeaa8ff802df3ce8f42366287" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransitionQuestStartPanel.DeclineQuest</definition>
+        <argsstring>()</argsstring>
+        <name>DeclineQuest</name>
+        <qualifiedname>TransitionQuestStartPanel.DeclineQuest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" line="116" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" bodystart="116" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_transition_quest_start_panel_1abfe9e943e46140417cd8e30121776189" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransitionQuestStartPanel.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>TransitionQuestStartPanel.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" line="147" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" bodystart="147" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_transition_quest_start_panel_1aa6b0b3a7bfda36fb6f08ec2a15bb74bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransitionQuestStartPanel.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <qualifiedname>TransitionQuestStartPanel.OnDestroy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" line="156" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" bodystart="156" bodyend="162"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_transition_quest_start_panel_1acd996a2a1565df4e97405dc14577310c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransitionQuestStartPanel.ShowTransitionQuestConfirmation</definition>
+        <argsstring>(QuestData quest, QuestGiver questGiver)</argsstring>
+        <name>ShowTransitionQuestConfirmation</name>
+        <qualifiedname>TransitionQuestStartPanel.ShowTransitionQuestConfirmation</qualifiedname>
+        <param>
+          <type><ref refid="class_quest_data" kindref="compound">QuestData</ref></type>
+          <declname>quest</declname>
+        </param>
+        <param>
+          <type><ref refid="class_quest_giver" kindref="compound">QuestGiver</ref></type>
+          <declname>questGiver</declname>
+        </param>
+        <briefdescription>
+<para>Shows UI element. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>quest</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The quest.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>questGiver</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The questGiver.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" line="54" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" bodystart="54" bodyend="79"/>
+        <references refid="class_game_state_manager_1ad6c81ee9ec40a6522bcf47bdc7172b07" compoundref="_game_state_manager_8cs" startline="9" endline="9">GameStateManager.Instance</references>
+        <references refid="class_game_state_manager_1a721710229b8ed5218ad08892379e5d63">GameStateManager.PauseForLevelUp</references>
+        <references refid="class_quest_s_o_1ae80c44018b7de89a077817628b4c258f" compoundref="_quest_s_o_8cs" startline="23">QuestSO.QuestDescription</references>
+        <references refid="class_quest_s_o_1a03d4f439534761c3ba102632607ef98e" compoundref="_quest_s_o_8cs" startline="19">QuestSO.QuestName</references>
+        <referencedby refid="class_quest_giver_1a969ad607369c939921780414df7e4056" compoundref="_quest_giver_8cs" startline="111" endline="160">QuestGiver.Interact</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_transition_quest_start_panel_1a1cdb9ac8359275a138bb1946c57b5f71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransitionQuestStartPanel.HidePanel</definition>
+        <argsstring>()</argsstring>
+        <name>HidePanel</name>
+        <qualifiedname>TransitionQuestStartPanel.HidePanel</qualifiedname>
+        <briefdescription>
+<para>Hides UI element. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" line="126" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" bodystart="126" bodyend="145"/>
+        <references refid="class_game_state_manager_1a979a52ff86e862f27c196cf846411a85" compoundref="_game_state_manager_8cs" startline="13" endline="13">GameStateManager.CurrentPauseType</references>
+        <references refid="class_game_state_manager_1ad6c81ee9ec40a6522bcf47bdc7172b07" compoundref="_game_state_manager_8cs" startline="9" endline="9">GameStateManager.Instance</references>
+        <references refid="class_game_state_manager_1afd4ba1ca38a29fc5c327abce10051b27" compoundref="_game_state_manager_8cs" startline="11" endline="11">GameStateManager.IsPaused</references>
+        <references refid="class_game_state_manager_1a05c4e25e28a3d356613da753b34386c3" compoundref="_game_state_manager_8cs" startline="125" endline="129">GameStateManager.ResumeGame</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_transition_quest_start_panel" kindref="compound">TransitionQuestStartPanel</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TransitionQuestStartPanel</label>
+        <link refid="class_transition_quest_start_panel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TransitionQuestStartPanel</label>
+        <link refid="class_transition_quest_start_panel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Quests/TransitionQuestStartPanel.cs" bodystart="9" bodyend="163"/>
+    <listofallmembers>
+      <member refid="class_transition_quest_start_panel_1af0440f1b1868bc8dd3451af8aae349ca" prot="private" virt="non-virtual"><scope>TransitionQuestStartPanel</scope><name>acceptButton</name></member>
+      <member refid="class_transition_quest_start_panel_1ad5adccbe6a403b7e2ae77db190e968a8" prot="private" virt="non-virtual"><scope>TransitionQuestStartPanel</scope><name>AcceptQuest</name></member>
+      <member refid="class_transition_quest_start_panel_1a153442a73d225acbf8d0ca326825d117" prot="private" virt="non-virtual"><scope>TransitionQuestStartPanel</scope><name>Awake</name></member>
+      <member refid="class_transition_quest_start_panel_1a51ffca275de6f6742c6894e5215b6d1c" prot="private" virt="non-virtual"><scope>TransitionQuestStartPanel</scope><name>currentQuest</name></member>
+      <member refid="class_transition_quest_start_panel_1a8ed27272e91c2104c0d707bec1769bb6" prot="private" virt="non-virtual"><scope>TransitionQuestStartPanel</scope><name>currentQuestGiver</name></member>
+      <member refid="class_transition_quest_start_panel_1ac3cad187772d8e5fe0187f6fca265046" prot="private" virt="non-virtual"><scope>TransitionQuestStartPanel</scope><name>declineButton</name></member>
+      <member refid="class_transition_quest_start_panel_1ab4f3b2abeaa8ff802df3ce8f42366287" prot="private" virt="non-virtual"><scope>TransitionQuestStartPanel</scope><name>DeclineQuest</name></member>
+      <member refid="class_transition_quest_start_panel_1a1cdb9ac8359275a138bb1946c57b5f71" prot="public" virt="non-virtual"><scope>TransitionQuestStartPanel</scope><name>HidePanel</name></member>
+      <member refid="class_transition_quest_start_panel_1a54a6ca7ce6399c2342b5374d047670a4" prot="public" virt="non-virtual"><scope>TransitionQuestStartPanel</scope><name>Instance</name></member>
+      <member refid="class_transition_quest_start_panel_1aa6b0b3a7bfda36fb6f08ec2a15bb74bc" prot="private" virt="non-virtual"><scope>TransitionQuestStartPanel</scope><name>OnDestroy</name></member>
+      <member refid="class_transition_quest_start_panel_1af54552812717d7d753d06d34877e05d1" prot="private" virt="non-virtual"><scope>TransitionQuestStartPanel</scope><name>panel</name></member>
+      <member refid="class_transition_quest_start_panel_1acb452dbc68065c4ce21741e576ee1b96" prot="private" virt="non-virtual"><scope>TransitionQuestStartPanel</scope><name>questDescriptionText</name></member>
+      <member refid="class_transition_quest_start_panel_1ae2c786640c51c583dc43f9b79f4d7dd4" prot="private" virt="non-virtual"><scope>TransitionQuestStartPanel</scope><name>questTitleText</name></member>
+      <member refid="class_transition_quest_start_panel_1acd996a2a1565df4e97405dc14577310c" prot="public" virt="non-virtual"><scope>TransitionQuestStartPanel</scope><name>ShowTransitionQuestConfirmation</name></member>
+      <member refid="class_transition_quest_start_panel_1ae1e272f784c540ef4d875a26b55a52d1" prot="private" virt="non-virtual"><scope>TransitionQuestStartPanel</scope><name>Start</name></member>
+      <member refid="class_transition_quest_start_panel_1abfe9e943e46140417cd8e30121776189" prot="private" virt="non-virtual"><scope>TransitionQuestStartPanel</scope><name>Update</name></member>
+      <member refid="class_transition_quest_start_panel_1aadc77668fd1483c1ac0aadefa023a561" prot="private" virt="non-virtual"><scope>TransitionQuestStartPanel</scope><name>warningMessage</name></member>
+      <member refid="class_transition_quest_start_panel_1a6add81c37bf60c3f2053b3f04e6b1461" prot="private" virt="non-virtual"><scope>TransitionQuestStartPanel</scope><name>warningText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

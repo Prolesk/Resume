@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_7084757a9bd47142fb65c9c2ee785d2a" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration</compoundname>
+    <innerfile refid="_activity_on_tile_type_8cs">ActivityOnTileType.cs</innerfile>
+    <innerfile refid="_generation_8cs">Generation.cs</innerfile>
+    <innerfile refid="_spawn_activity_on_tile_8cs">SpawnActivityOnTile.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/MapGeneration/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,636 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_universal_notification" kind="class" language="C#" prot="public">
+    <compoundname>UniversalNotification</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_universal_notification_1a12e55cea84902cef986a9f19c2184005" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_universal_notification" kindref="compound">UniversalNotification</ref></type>
+        <definition>UniversalNotification UniversalNotification.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>UniversalNotification.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="10" column="41" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="10" bodyend="10"/>
+        <referencedby refid="class_player_stats_s_o_1a59de8b450b1f320a1d2e99166445b2fa" compoundref="_player_stats_s_o_8cs" startline="224" endline="266">PlayerStatsSO.ChangeReputation</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_universal_notification_1ada3a1b0ed9510f885660929d8661deb2" prot="private" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform UniversalNotification.notificationPanel</definition>
+        <argsstring></argsstring>
+        <name>notificationPanel</name>
+        <qualifiedname>UniversalNotification.notificationPanel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="13" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_universal_notification_1a4632bc999568833cbea63ea5074814fb" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI UniversalNotification.titleText</definition>
+        <argsstring></argsstring>
+        <name>titleText</name>
+        <qualifiedname>UniversalNotification.titleText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="14" column="30" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_universal_notification_1a1ecde3132befee226e5fbe5d08901e7e" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI UniversalNotification.descriptionText</definition>
+        <argsstring></argsstring>
+        <name>descriptionText</name>
+        <qualifiedname>UniversalNotification.descriptionText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="15" column="30" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_universal_notification_1a323ff9534a2afd57bf1363e9611041d0" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UniversalNotification.slideDuration</definition>
+        <argsstring></argsstring>
+        <name>slideDuration</name>
+        <qualifiedname>UniversalNotification.slideDuration</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="18" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_universal_notification_1a5a8255770e4af85125405ee42ae3eacc" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UniversalNotification.hideDelay</definition>
+        <argsstring></argsstring>
+        <name>hideDelay</name>
+        <qualifiedname>UniversalNotification.hideDelay</qualifiedname>
+        <initializer>= 2.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="19" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_universal_notification_1ab9fb550db319013dd29c5d9b45289b6b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniversalNotification.autoHide</definition>
+        <argsstring></argsstring>
+        <name>autoHide</name>
+        <qualifiedname>UniversalNotification.autoHide</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="20" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_universal_notification_1a782c2bd76a1f05999c0268921a62760a" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 UniversalNotification.hiddenPosition</definition>
+        <argsstring></argsstring>
+        <name>hiddenPosition</name>
+        <qualifiedname>UniversalNotification.hiddenPosition</qualifiedname>
+        <initializer>= new Vector2(-1150, -150)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="23" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_universal_notification_1a44053f0b0726a6ef2cfa787dd483dc11" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 UniversalNotification.shownPosition</definition>
+        <argsstring></argsstring>
+        <name>shownPosition</name>
+        <qualifiedname>UniversalNotification.shownPosition</qualifiedname>
+        <initializer>= new Vector2(-784, -150)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="24" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_universal_notification_1ae0549ae8db7982c7d97db46d860ce7ab" prot="private" static="no" mutable="no">
+        <type>Sequence</type>
+        <definition>Sequence UniversalNotification.currentAnimation</definition>
+        <argsstring></argsstring>
+        <name>currentAnimation</name>
+        <qualifiedname>UniversalNotification.currentAnimation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="26" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_universal_notification_1a47c2178250881c9557cd769bee0d7676" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniversalNotification.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>UniversalNotification.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="28" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="28" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_universal_notification_1a7121fd2b63312773f563d44e3c5d6ff4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniversalNotification.ShowNotificationInternal</definition>
+        <argsstring>(string title, string description, float delay, bool shouldAutoHide)</argsstring>
+        <name>ShowNotificationInternal</name>
+        <qualifiedname>UniversalNotification.ShowNotificationInternal</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>delay</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>shouldAutoHide</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="98" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="98" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_universal_notification_1adca1f02ab44e3e0764a38016d44c78eb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniversalNotification.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <qualifiedname>UniversalNotification.OnDestroy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="217" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="217" bodyend="223"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_universal_notification_1aa55526c14cf1e9d97f15b01842e03c83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniversalNotification.ShowNotification</definition>
+        <argsstring>(NotificationData data)</argsstring>
+        <name>ShowNotification</name>
+        <qualifiedname>UniversalNotification.ShowNotification</qualifiedname>
+        <param>
+          <type><ref refid="class_notification_data" kindref="compound">NotificationData</ref></type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Shows UI element. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="54" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="54" bodyend="62"/>
+        <references refid="class_notification_data_1a35ac36620e3d9c080ac4ee78f8960438" compoundref="_universal_notification_8cs" startline="248">NotificationData.autoHide</references>
+        <references refid="class_notification_data_1a86bbadfdd86bcc851d8f1381e4bc9134" compoundref="_universal_notification_8cs" startline="240">NotificationData.description</references>
+        <references refid="class_notification_data_1afad0f28b45b4a899684275de22df2f7d" compoundref="_universal_notification_8cs" startline="244">NotificationData.showDuration</references>
+        <references refid="class_notification_data_1a6214ef707466d0209bf738438c3e1118" compoundref="_universal_notification_8cs" startline="236">NotificationData.title</references>
+        <referencedby refid="class_player_stats_s_o_1a59de8b450b1f320a1d2e99166445b2fa" compoundref="_player_stats_s_o_8cs" startline="224" endline="266">PlayerStatsSO.ChangeReputation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_universal_notification_1a510f5d1e5ebd58c141fbe9c1a0a41283" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniversalNotification.ShowNotification</definition>
+        <argsstring>(string title, string description)</argsstring>
+        <name>ShowNotification</name>
+        <qualifiedname>UniversalNotification.ShowNotification</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+<para>Shows UI element. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>description</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The description.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="70" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_universal_notification_1a243d80a65b8b0f82eb6a03d870fbd855" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniversalNotification.ShowNotification</definition>
+        <argsstring>(string title, string description, float customHideDelay)</argsstring>
+        <name>ShowNotification</name>
+        <qualifiedname>UniversalNotification.ShowNotification</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>customHideDelay</declname>
+        </param>
+        <briefdescription>
+<para>Shows UI element. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>description</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The description.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>customHideDelay</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The customHideDelay.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="81" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_universal_notification_1a15a25dc31fbba194846d2fcea347c842" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniversalNotification.ShowNotification</definition>
+        <argsstring>(string title, string description, float customHideDelay, bool customAutoHide)</argsstring>
+        <name>ShowNotification</name>
+        <qualifiedname>UniversalNotification.ShowNotification</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>customHideDelay</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>customAutoHide</declname>
+        </param>
+        <briefdescription>
+<para>Shows UI element. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>description</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The description.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>customHideDelay</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The customHideDelay.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>customAutoHide</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The customAutoHide.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="93" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_universal_notification_1a98809930126a252901b1a04af4a24116" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniversalNotification.HideNotification</definition>
+        <argsstring>()</argsstring>
+        <name>HideNotification</name>
+        <qualifiedname>UniversalNotification.HideNotification</qualifiedname>
+        <briefdescription>
+<para>Hides UI element. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="137" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="137" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_universal_notification_1a5819da80ce100c52764be1502f26759d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniversalNotification.UpdateNotificationContent</definition>
+        <argsstring>(string title, string description)</argsstring>
+        <name>UpdateNotificationContent</name>
+        <qualifiedname>UniversalNotification.UpdateNotificationContent</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+<para>Updates NotificationContent. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>description</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The description.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="155" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="155" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_universal_notification_1a39b50abb969166ebc4394109a15874c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniversalNotification.SetNotificationPosition</definition>
+        <argsstring>(Vector2 hiddenPos, Vector2 shownPos)</argsstring>
+        <name>SetNotificationPosition</name>
+        <qualifiedname>UniversalNotification.SetNotificationPosition</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>hiddenPos</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>shownPos</declname>
+        </param>
+        <briefdescription>
+<para>Sets the NotificationPosition. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hiddenPos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The hiddenPos.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shownPos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shownPos.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="167" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="167" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_universal_notification_1ad42f303bca7c00064e2c133b40dd5412" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UniversalNotification.IsNotificationActive</definition>
+        <argsstring>()</argsstring>
+        <name>IsNotificationActive</name>
+        <qualifiedname>UniversalNotification.IsNotificationActive</qualifiedname>
+        <briefdescription>
+<para>Executes the IsNotificationActive operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The result as bool.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="178" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="178" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_universal_notification_1a4641e52db2eb7dff9343a3ab709ca1f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniversalNotification.ShowImmediate</definition>
+        <argsstring>(string title, string description)</argsstring>
+        <name>ShowImmediate</name>
+        <qualifiedname>UniversalNotification.ShowImmediate</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+<para>Shows UI element. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>description</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The description.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="189" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="189" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="class_universal_notification_1a52493c3836bb10ed6dcf422417883308" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniversalNotification.HideImmediate</definition>
+        <argsstring>()</argsstring>
+        <name>HideImmediate</name>
+        <qualifiedname>UniversalNotification.HideImmediate</qualifiedname>
+        <briefdescription>
+<para>Hides UI element. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="206" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="206" bodyend="215"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_universal_notification" kindref="compound">UniversalNotification</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UniversalNotification</label>
+        <link refid="class_universal_notification"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UniversalNotification</label>
+        <link refid="class_universal_notification"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/UniversalNotification.cs" bodystart="9" bodyend="224"/>
+    <listofallmembers>
+      <member refid="class_universal_notification_1ab9fb550db319013dd29c5d9b45289b6b" prot="private" virt="non-virtual"><scope>UniversalNotification</scope><name>autoHide</name></member>
+      <member refid="class_universal_notification_1a47c2178250881c9557cd769bee0d7676" prot="private" virt="non-virtual"><scope>UniversalNotification</scope><name>Awake</name></member>
+      <member refid="class_universal_notification_1ae0549ae8db7982c7d97db46d860ce7ab" prot="private" virt="non-virtual"><scope>UniversalNotification</scope><name>currentAnimation</name></member>
+      <member refid="class_universal_notification_1a1ecde3132befee226e5fbe5d08901e7e" prot="private" virt="non-virtual"><scope>UniversalNotification</scope><name>descriptionText</name></member>
+      <member refid="class_universal_notification_1a782c2bd76a1f05999c0268921a62760a" prot="private" virt="non-virtual"><scope>UniversalNotification</scope><name>hiddenPosition</name></member>
+      <member refid="class_universal_notification_1a5a8255770e4af85125405ee42ae3eacc" prot="private" virt="non-virtual"><scope>UniversalNotification</scope><name>hideDelay</name></member>
+      <member refid="class_universal_notification_1a52493c3836bb10ed6dcf422417883308" prot="public" virt="non-virtual"><scope>UniversalNotification</scope><name>HideImmediate</name></member>
+      <member refid="class_universal_notification_1a98809930126a252901b1a04af4a24116" prot="public" virt="non-virtual"><scope>UniversalNotification</scope><name>HideNotification</name></member>
+      <member refid="class_universal_notification_1a12e55cea84902cef986a9f19c2184005" prot="public" virt="non-virtual"><scope>UniversalNotification</scope><name>Instance</name></member>
+      <member refid="class_universal_notification_1ad42f303bca7c00064e2c133b40dd5412" prot="public" virt="non-virtual"><scope>UniversalNotification</scope><name>IsNotificationActive</name></member>
+      <member refid="class_universal_notification_1ada3a1b0ed9510f885660929d8661deb2" prot="private" virt="non-virtual"><scope>UniversalNotification</scope><name>notificationPanel</name></member>
+      <member refid="class_universal_notification_1adca1f02ab44e3e0764a38016d44c78eb" prot="private" virt="non-virtual"><scope>UniversalNotification</scope><name>OnDestroy</name></member>
+      <member refid="class_universal_notification_1a39b50abb969166ebc4394109a15874c6" prot="public" virt="non-virtual"><scope>UniversalNotification</scope><name>SetNotificationPosition</name></member>
+      <member refid="class_universal_notification_1a4641e52db2eb7dff9343a3ab709ca1f4" prot="public" virt="non-virtual"><scope>UniversalNotification</scope><name>ShowImmediate</name></member>
+      <member refid="class_universal_notification_1aa55526c14cf1e9d97f15b01842e03c83" prot="public" virt="non-virtual"><scope>UniversalNotification</scope><name>ShowNotification</name></member>
+      <member refid="class_universal_notification_1a510f5d1e5ebd58c141fbe9c1a0a41283" prot="public" virt="non-virtual"><scope>UniversalNotification</scope><name>ShowNotification</name></member>
+      <member refid="class_universal_notification_1a243d80a65b8b0f82eb6a03d870fbd855" prot="public" virt="non-virtual"><scope>UniversalNotification</scope><name>ShowNotification</name></member>
+      <member refid="class_universal_notification_1a15a25dc31fbba194846d2fcea347c842" prot="public" virt="non-virtual"><scope>UniversalNotification</scope><name>ShowNotification</name></member>
+      <member refid="class_universal_notification_1a7121fd2b63312773f563d44e3c5d6ff4" prot="private" virt="non-virtual"><scope>UniversalNotification</scope><name>ShowNotificationInternal</name></member>
+      <member refid="class_universal_notification_1a44053f0b0726a6ef2cfa787dd483dc11" prot="private" virt="non-virtual"><scope>UniversalNotification</scope><name>shownPosition</name></member>
+      <member refid="class_universal_notification_1a323ff9534a2afd57bf1363e9611041d0" prot="private" virt="non-virtual"><scope>UniversalNotification</scope><name>slideDuration</name></member>
+      <member refid="class_universal_notification_1a4632bc999568833cbea63ea5074814fb" prot="private" virt="non-virtual"><scope>UniversalNotification</scope><name>titleText</name></member>
+      <member refid="class_universal_notification_1a5819da80ce100c52764be1502f26759d" prot="public" virt="non-virtual"><scope>UniversalNotification</scope><name>UpdateNotificationContent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

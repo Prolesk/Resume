@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_f13b41af88cf68434578284aaf699e39" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts</compoundname>
+    <innerdir refid="dir_c06fe235995f4884f330e3fe41dca828">C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight</innerdir>
+    <innerdir refid="dir_4b8640857bf8216535587707011924da">C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy</innerdir>
+    <innerdir refid="dir_b7496194a4578d98d0695316e294b4c8">C:/Users/cooki/ProjectLL/Assets/Scripts/Game</innerdir>
+    <innerdir refid="dir_c7fafc839a0585736011c21bdabf2a37">C:/Users/cooki/ProjectLL/Assets/Scripts/Player</innerdir>
+    <innerdir refid="dir_271156768ee43bcb91d68318758adcfe">C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity</innerdir>
+    <innerdir refid="dir_79f898279a4e10d1668209c8d7f3c0a9">C:/Users/cooki/ProjectLL/Assets/Scripts/ScenesTransitions</innerdir>
+    <innerfile refid="_exp_gather_trigger_8cs">ExpGatherTrigger.cs</innerfile>
+    <innerfile refid="_item_reward_menu_8cs">ItemRewardMenu.cs</innerfile>
+    <innerfile refid="_transition_to_next_level_trigger_8cs">TransitionToNextLevelTrigger.cs</innerfile>
+    <innerfile refid="_u_i_click_sound_8cs">UIClickSound.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_bullet_enemy" kind="class" language="C#" prot="public">
+    <compoundname>BulletEnemy</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_bullet_enemy_1a0cb4b4fae99ff5c1cfba81b977fcbfb3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float BulletEnemy._speed</definition>
+        <argsstring></argsstring>
+        <name>_speed</name>
+        <qualifiedname>BulletEnemy._speed</qualifiedname>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" line="8" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_enemy_1af2bc8184053989db7dbc1ff42c16e554" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float BulletEnemy._lifetime</definition>
+        <argsstring></argsstring>
+        <name>_lifetime</name>
+        <qualifiedname>BulletEnemy._lifetime</qualifiedname>
+        <initializer>= 3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" line="9" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_enemy_1ac5dc55e44cce35d3a1c560ac75d41a68" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float BulletEnemy._damage</definition>
+        <argsstring></argsstring>
+        <name>_damage</name>
+        <qualifiedname>BulletEnemy._damage</qualifiedname>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" line="10" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_enemy_1a872abe344aef7fa3f11c8db58dceeff9" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 BulletEnemy._direction</definition>
+        <argsstring></argsstring>
+        <name>_direction</name>
+        <qualifiedname>BulletEnemy._direction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" line="12" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_enemy_1a5cfb6e3c73079c1a502a43cd7cd6275a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float BulletEnemy._currentLifetime</definition>
+        <argsstring></argsstring>
+        <name>_currentLifetime</name>
+        <qualifiedname>BulletEnemy._currentLifetime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" line="13" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_enemy_1acc49951ceae81a9e014aece1a3fb51b2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_player_h_p" kindref="compound">PlayerHP</ref></type>
+        <definition>PlayerHP BulletEnemy._playerHP</definition>
+        <argsstring></argsstring>
+        <name>_playerHP</name>
+        <qualifiedname>BulletEnemy._playerHP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" line="14" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_enemy_1a6f8666e1029075b43702e7aa956ffbb2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool BulletEnemy.isPaused</definition>
+        <argsstring></argsstring>
+        <name>isPaused</name>
+        <qualifiedname>BulletEnemy.isPaused</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" line="16" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_bullet_enemy_1a52647b641ef07e5b92c9a8ad62bb2384" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletEnemy.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>BulletEnemy.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" line="18" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" bodystart="18" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_enemy_1a1bb58c7ae87ca266ad95a6d3ea892b60" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletEnemy.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>BulletEnemy.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" line="27" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" bodystart="27" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_enemy_1afbe07f2174843206d291cc7b83753604" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletEnemy.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>BulletEnemy.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" line="41" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" bodystart="41" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_enemy_1ad27ee73374ff72afa4f6415cbdd86b61" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletEnemy.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>BulletEnemy.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" line="48" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_enemy_1ab92ed5b049e3ff03db76fc6e9317f546" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletEnemy.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <qualifiedname>BulletEnemy.OnTriggerEnter</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" line="53" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_enemy_1a07b7ad95e6536f0d88c14f066b222fd4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletEnemy.HandleCollision</definition>
+        <argsstring>(Collider collider)</argsstring>
+        <name>HandleCollision</name>
+        <qualifiedname>BulletEnemy.HandleCollision</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>collider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" line="58" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" bodystart="58" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_enemy_1a34ee02e89103ae68d1e90865f20988a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletEnemy.ReturnToPool</definition>
+        <argsstring>()</argsstring>
+        <name>ReturnToPool</name>
+        <qualifiedname>BulletEnemy.ReturnToPool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" line="90" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" bodystart="90" bodyend="102"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bullet_enemy_1a01bec47f35f9f552c8a32b48f309de61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletEnemy.Initialize</definition>
+        <argsstring>(Vector3 direction, float speed, float lifetime, float damage)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>BulletEnemy.Initialize</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>direction</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lifetime</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>damage</declname>
+        </param>
+        <briefdescription>
+<para>Initializes . </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>direction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The direction.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>speed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The speed.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lifetime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The lifetime.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>damage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The damage.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" line="78" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" bodystart="78" bodyend="88"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_bullet_enemy" kindref="compound">BulletEnemy</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BulletEnemy</label>
+        <link refid="class_bullet_enemy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BulletEnemy</label>
+        <link refid="class_bullet_enemy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" line="6" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile/BulletEnemy.cs" bodystart="7" bodyend="103"/>
+    <listofallmembers>
+      <member refid="class_bullet_enemy_1a5cfb6e3c73079c1a502a43cd7cd6275a" prot="private" virt="non-virtual"><scope>BulletEnemy</scope><name>_currentLifetime</name></member>
+      <member refid="class_bullet_enemy_1ac5dc55e44cce35d3a1c560ac75d41a68" prot="private" virt="non-virtual"><scope>BulletEnemy</scope><name>_damage</name></member>
+      <member refid="class_bullet_enemy_1a872abe344aef7fa3f11c8db58dceeff9" prot="private" virt="non-virtual"><scope>BulletEnemy</scope><name>_direction</name></member>
+      <member refid="class_bullet_enemy_1af2bc8184053989db7dbc1ff42c16e554" prot="private" virt="non-virtual"><scope>BulletEnemy</scope><name>_lifetime</name></member>
+      <member refid="class_bullet_enemy_1acc49951ceae81a9e014aece1a3fb51b2" prot="private" virt="non-virtual"><scope>BulletEnemy</scope><name>_playerHP</name></member>
+      <member refid="class_bullet_enemy_1a0cb4b4fae99ff5c1cfba81b977fcbfb3" prot="private" virt="non-virtual"><scope>BulletEnemy</scope><name>_speed</name></member>
+      <member refid="class_bullet_enemy_1a52647b641ef07e5b92c9a8ad62bb2384" prot="private" virt="non-virtual"><scope>BulletEnemy</scope><name>Awake</name></member>
+      <member refid="class_bullet_enemy_1a07b7ad95e6536f0d88c14f066b222fd4" prot="private" virt="non-virtual"><scope>BulletEnemy</scope><name>HandleCollision</name></member>
+      <member refid="class_bullet_enemy_1a01bec47f35f9f552c8a32b48f309de61" prot="public" virt="non-virtual"><scope>BulletEnemy</scope><name>Initialize</name></member>
+      <member refid="class_bullet_enemy_1a6f8666e1029075b43702e7aa956ffbb2" prot="private" virt="non-virtual"><scope>BulletEnemy</scope><name>isPaused</name></member>
+      <member refid="class_bullet_enemy_1ad27ee73374ff72afa4f6415cbdd86b61" prot="private" virt="non-virtual"><scope>BulletEnemy</scope><name>OnDisable</name></member>
+      <member refid="class_bullet_enemy_1afbe07f2174843206d291cc7b83753604" prot="private" virt="non-virtual"><scope>BulletEnemy</scope><name>OnEnable</name></member>
+      <member refid="class_bullet_enemy_1ab92ed5b049e3ff03db76fc6e9317f546" prot="private" virt="non-virtual"><scope>BulletEnemy</scope><name>OnTriggerEnter</name></member>
+      <member refid="class_bullet_enemy_1a34ee02e89103ae68d1e90865f20988a2" prot="private" virt="non-virtual"><scope>BulletEnemy</scope><name>ReturnToPool</name></member>
+      <member refid="class_bullet_enemy_1a1bb58c7ae87ca266ad95a6d3ea892b60" prot="private" virt="non-virtual"><scope>BulletEnemy</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

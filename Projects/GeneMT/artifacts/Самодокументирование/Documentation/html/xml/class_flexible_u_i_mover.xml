@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_flexible_u_i_mover" kind="class" language="C#" prot="public">
+    <compoundname>FlexibleUIMover</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_flexible_u_i_mover_1aa523578964647eacb67c355c2ab5ae2a" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_u_i_element_data" kindref="compound">UIElementData</ref> &gt;</type>
+        <definition>List&lt;UIElementData&gt; FlexibleUIMover.uiElements</definition>
+        <argsstring></argsstring>
+        <name>uiElements</name>
+        <qualifiedname>FlexibleUIMover.uiElements</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_u_i_element_data" kindref="compound">UIElementData</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="43" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_flexible_u_i_mover_1a5bf53a3f8ec7939b595eebef2f673b38" compoundref="_flexible_u_i_mover_8cs" startline="80" endline="130">SwitchAllElements</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexible_u_i_mover_1ae122dd74129584dfc9f41c43bf0ab97c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FlexibleUIMover.defaultDuration</definition>
+        <argsstring></argsstring>
+        <name>defaultDuration</name>
+        <qualifiedname>FlexibleUIMover.defaultDuration</qualifiedname>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+<para>The defaultDuration field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="49" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_flexible_u_i_mover_1a5bf53a3f8ec7939b595eebef2f673b38" compoundref="_flexible_u_i_mover_8cs" startline="80" endline="130">SwitchAllElements</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexible_u_i_mover_1af742aad2c7b2f7132c802fe11a0a407a" prot="public" static="no" mutable="no">
+        <type>Ease</type>
+        <definition>Ease FlexibleUIMover.defaultEaseType</definition>
+        <argsstring></argsstring>
+        <name>defaultEaseType</name>
+        <qualifiedname>FlexibleUIMover.defaultEaseType</qualifiedname>
+        <initializer>= Ease.OutQuad</initializer>
+        <briefdescription>
+<para>The defaultEaseType field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="53" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexible_u_i_mover_1a975a41f86be59032abcb44d68f9fcad0" prot="public" static="no" mutable="no">
+        <type>KeyCode</type>
+        <definition>KeyCode FlexibleUIMover.switchKey</definition>
+        <argsstring></argsstring>
+        <name>switchKey</name>
+        <qualifiedname>FlexibleUIMover.switchKey</qualifiedname>
+        <initializer>= KeyCode.Tab</initializer>
+        <briefdescription>
+<para>The switchKey field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="59" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexible_u_i_mover_1af369a813980369cd40abc43753d10773" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FlexibleUIMover.enableTabSwitching</definition>
+        <argsstring></argsstring>
+        <name>enableTabSwitching</name>
+        <qualifiedname>FlexibleUIMover.enableTabSwitching</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>The enableTabSwitching field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="63" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_flexible_u_i_mover_1a2dde125fd1578a5dadeb6300c58f8a78" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FlexibleUIMover.isAtTargetPosition</definition>
+        <argsstring></argsstring>
+        <name>isAtTargetPosition</name>
+        <qualifiedname>FlexibleUIMover.isAtTargetPosition</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="65" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexible_u_i_mover_1a57e0849d5a6a464abdcbc9aa0574eaac" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FlexibleUIMover.isAnimating</definition>
+        <argsstring></argsstring>
+        <name>isAnimating</name>
+        <qualifiedname>FlexibleUIMover.isAnimating</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="66" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexible_u_i_mover_1adb3316c6b1e53d4b62e5f33737ff709f" prot="private" static="no" mutable="no">
+        <type>List&lt; Tween &gt;</type>
+        <definition>List&lt;Tween&gt; FlexibleUIMover.activeTweens</definition>
+        <argsstring></argsstring>
+        <name>activeTweens</name>
+        <qualifiedname>FlexibleUIMover.activeTweens</qualifiedname>
+        <initializer>= new List&lt;Tween&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="67" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_flexible_u_i_mover_1a9829233d3f81c091d0cb599353312b71" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexibleUIMover.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>FlexibleUIMover.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="69" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="69" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_flexible_u_i_mover_1a5bf53a3f8ec7939b595eebef2f673b38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexibleUIMover.SwitchAllElements</definition>
+        <argsstring>()</argsstring>
+        <name>SwitchAllElements</name>
+        <qualifiedname>FlexibleUIMover.SwitchAllElements</qualifiedname>
+        <briefdescription>
+<para>Executes the SwitchAllElements operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="80" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="80" bodyend="130"/>
+        <references refid="class_flexible_u_i_mover_1ae122dd74129584dfc9f41c43bf0ab97c" compoundref="_flexible_u_i_mover_8cs" startline="49">defaultDuration</references>
+        <references refid="class_flexible_u_i_mover_1aa523578964647eacb67c355c2ab5ae2a" compoundref="_flexible_u_i_mover_8cs" startline="43">uiElements</references>
+        <referencedby refid="class_flexible_u_i_mover_1a375a293c4767d252f7e0d0df11b2f91b" compoundref="_flexible_u_i_mover_8cs" startline="145" endline="149">MoveToStartPositions</referencedby>
+        <referencedby refid="class_flexible_u_i_mover_1aa96501a0c22718c7148920a3407ca27e" compoundref="_flexible_u_i_mover_8cs" startline="136" endline="140">MoveToTargetPositions</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_flexible_u_i_mover_1aa96501a0c22718c7148920a3407ca27e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexibleUIMover.MoveToTargetPositions</definition>
+        <argsstring>()</argsstring>
+        <name>MoveToTargetPositions</name>
+        <qualifiedname>FlexibleUIMover.MoveToTargetPositions</qualifiedname>
+        <briefdescription>
+<para>Moves the object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="136" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="136" bodyend="140"/>
+        <references refid="class_flexible_u_i_mover_1a5bf53a3f8ec7939b595eebef2f673b38" compoundref="_flexible_u_i_mover_8cs" startline="80" endline="130">SwitchAllElements</references>
+      </memberdef>
+      <memberdef kind="function" id="class_flexible_u_i_mover_1a375a293c4767d252f7e0d0df11b2f91b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexibleUIMover.MoveToStartPositions</definition>
+        <argsstring>()</argsstring>
+        <name>MoveToStartPositions</name>
+        <qualifiedname>FlexibleUIMover.MoveToStartPositions</qualifiedname>
+        <briefdescription>
+<para>Moves the object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="145" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="145" bodyend="149"/>
+        <references refid="class_flexible_u_i_mover_1a5bf53a3f8ec7939b595eebef2f673b38" compoundref="_flexible_u_i_mover_8cs" startline="80" endline="130">SwitchAllElements</references>
+      </memberdef>
+      <memberdef kind="function" id="class_flexible_u_i_mover_1a50c58a0f3ad20250931887c2cb8e9977" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexibleUIMover.StopAllAnimations</definition>
+        <argsstring>()</argsstring>
+        <name>StopAllAnimations</name>
+        <qualifiedname>FlexibleUIMover.StopAllAnimations</qualifiedname>
+        <briefdescription>
+<para>Stops animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="154" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="154" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexible_u_i_mover_1ae52dcda4b2e5f732f4b2ed1be01f8b72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FlexibleUIMover.IsAtTargetPosition</definition>
+        <argsstring>()</argsstring>
+        <name>IsAtTargetPosition</name>
+        <qualifiedname>FlexibleUIMover.IsAtTargetPosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="167" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexible_u_i_mover_1a59c0e2243a3756803d6f9e5e961f3334" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FlexibleUIMover.IsAnimating</definition>
+        <argsstring>()</argsstring>
+        <name>IsAnimating</name>
+        <qualifiedname>FlexibleUIMover.IsAnimating</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="168" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_flexible_u_i_mover" kindref="compound">FlexibleUIMover</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FlexibleUIMover</label>
+        <link refid="class_flexible_u_i_mover"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FlexibleUIMover</label>
+        <link refid="class_flexible_u_i_mover"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="40" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="41" bodyend="169"/>
+    <listofallmembers>
+      <member refid="class_flexible_u_i_mover_1adb3316c6b1e53d4b62e5f33737ff709f" prot="private" virt="non-virtual"><scope>FlexibleUIMover</scope><name>activeTweens</name></member>
+      <member refid="class_flexible_u_i_mover_1ae122dd74129584dfc9f41c43bf0ab97c" prot="public" virt="non-virtual"><scope>FlexibleUIMover</scope><name>defaultDuration</name></member>
+      <member refid="class_flexible_u_i_mover_1af742aad2c7b2f7132c802fe11a0a407a" prot="public" virt="non-virtual"><scope>FlexibleUIMover</scope><name>defaultEaseType</name></member>
+      <member refid="class_flexible_u_i_mover_1af369a813980369cd40abc43753d10773" prot="public" virt="non-virtual"><scope>FlexibleUIMover</scope><name>enableTabSwitching</name></member>
+      <member refid="class_flexible_u_i_mover_1a59c0e2243a3756803d6f9e5e961f3334" prot="public" virt="non-virtual"><scope>FlexibleUIMover</scope><name>IsAnimating</name></member>
+      <member refid="class_flexible_u_i_mover_1a57e0849d5a6a464abdcbc9aa0574eaac" prot="private" virt="non-virtual"><scope>FlexibleUIMover</scope><name>isAnimating</name></member>
+      <member refid="class_flexible_u_i_mover_1ae52dcda4b2e5f732f4b2ed1be01f8b72" prot="public" virt="non-virtual"><scope>FlexibleUIMover</scope><name>IsAtTargetPosition</name></member>
+      <member refid="class_flexible_u_i_mover_1a2dde125fd1578a5dadeb6300c58f8a78" prot="private" virt="non-virtual"><scope>FlexibleUIMover</scope><name>isAtTargetPosition</name></member>
+      <member refid="class_flexible_u_i_mover_1a375a293c4767d252f7e0d0df11b2f91b" prot="public" virt="non-virtual"><scope>FlexibleUIMover</scope><name>MoveToStartPositions</name></member>
+      <member refid="class_flexible_u_i_mover_1aa96501a0c22718c7148920a3407ca27e" prot="public" virt="non-virtual"><scope>FlexibleUIMover</scope><name>MoveToTargetPositions</name></member>
+      <member refid="class_flexible_u_i_mover_1a50c58a0f3ad20250931887c2cb8e9977" prot="public" virt="non-virtual"><scope>FlexibleUIMover</scope><name>StopAllAnimations</name></member>
+      <member refid="class_flexible_u_i_mover_1a5bf53a3f8ec7939b595eebef2f673b38" prot="public" virt="non-virtual"><scope>FlexibleUIMover</scope><name>SwitchAllElements</name></member>
+      <member refid="class_flexible_u_i_mover_1a975a41f86be59032abcb44d68f9fcad0" prot="public" virt="non-virtual"><scope>FlexibleUIMover</scope><name>switchKey</name></member>
+      <member refid="class_flexible_u_i_mover_1aa523578964647eacb67c355c2ab5ae2a" prot="public" virt="non-virtual"><scope>FlexibleUIMover</scope><name>uiElements</name></member>
+      <member refid="class_flexible_u_i_mover_1a9829233d3f81c091d0cb599353312b71" prot="private" virt="non-virtual"><scope>FlexibleUIMover</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

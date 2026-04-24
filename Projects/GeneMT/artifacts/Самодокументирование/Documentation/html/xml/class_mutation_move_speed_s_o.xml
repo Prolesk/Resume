@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_mutation_move_speed_s_o" kind="class" language="C#" prot="public">
+    <compoundname>MutationMoveSpeedSO</compoundname>
+    <basecompoundref refid="class_mutation_data_s_o" prot="public" virt="non-virtual">MutationDataSO</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mutation_move_speed_s_o_1a4d11c3250f7bb62ba3d1de7c2f6c5ae2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void MutationMoveSpeedSO.OnPick</definition>
+        <argsstring>()</argsstring>
+        <name>OnPick</name>
+        <qualifiedname>MutationMoveSpeedSO.OnPick</qualifiedname>
+        <reimplements refid="class_mutation_data_s_o_1ade37829d7f933b23f27b487edcd3c8e0">OnPick</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsSO/MutationMoveSpeedSO.cs" line="8" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsSO/MutationMoveSpeedSO.cs" bodystart="8" bodyend="11"/>
+        <references refid="class_mutation_data_s_o_1acd446f366abcc75aab4ed9a40d73340e" compoundref="_mutation_data_s_o_8cs" startline="31">MutationDataSO.bonus</references>
+        <references refid="class_singleton_scriptable_object-1-g_1aa59148a0a9bc37057ef216e7c9a814a8" compoundref="_singleton_scriptable_object_8cs" startline="8" endline="34">SingletonScriptableObject&lt; T &gt;.Instance</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mutation_move_speed_s_o_1a8626d0b441b0ff8d05c10a43b03485b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void MutationMoveSpeedSO.OnDelete</definition>
+        <argsstring>()</argsstring>
+        <name>OnDelete</name>
+        <qualifiedname>MutationMoveSpeedSO.OnDelete</qualifiedname>
+        <reimplements refid="class_mutation_data_s_o_1a1e6305815c09d41fc3ca4001f4c378c0">OnDelete</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsSO/MutationMoveSpeedSO.cs" line="13" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsSO/MutationMoveSpeedSO.cs" bodystart="13" bodyend="16"/>
+        <references refid="class_mutation_data_s_o_1acd446f366abcc75aab4ed9a40d73340e" compoundref="_mutation_data_s_o_8cs" startline="31">MutationDataSO.bonus</references>
+        <references refid="class_singleton_scriptable_object-1-g_1aa59148a0a9bc37057ef216e7c9a814a8" compoundref="_singleton_scriptable_object_8cs" startline="8" endline="34">SingletonScriptableObject&lt; T &gt;.Instance</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_mutation_move_speed_s_o" kindref="compound">MutationMoveSpeedSO</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MutationDataSO</label>
+        <link refid="class_mutation_data_s_o"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MutationMoveSpeedSO</label>
+        <link refid="class_mutation_move_speed_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>Chest</label>
+        <link refid="class_chest"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>EInteractable</label>
+        <link refid="class_e_interactable"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>MutationDataSO</label>
+        <link refid="class_mutation_data_s_o"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>chest</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MutationMoveSpeedSO</label>
+        <link refid="class_mutation_move_speed_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsSO/MutationMoveSpeedSO.cs" line="6" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsSO/MutationMoveSpeedSO.cs" bodystart="7" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_mutation_data_s_o_1acd446f366abcc75aab4ed9a40d73340e" prot="public" virt="non-virtual"><scope>MutationMoveSpeedSO</scope><name>bonus</name></member>
+      <member refid="class_mutation_data_s_o_1a627369d0a9c80233e893f4f11e9c833d" prot="public" virt="non-virtual"><scope>MutationMoveSpeedSO</scope><name>chest</name></member>
+      <member refid="class_mutation_data_s_o_1abd4ba3b2c50fa816535a48f90ae24dfd" prot="public" virt="non-virtual"><scope>MutationMoveSpeedSO</scope><name>description</name></member>
+      <member refid="class_mutation_data_s_o_1a3d41802dc5665d33c28973c7caf2f790" prot="public" virt="non-virtual"><scope>MutationMoveSpeedSO</scope><name>icon</name></member>
+      <member refid="class_mutation_data_s_o_1a94ec1c79e930ead2138d42c3683b180e" prot="public" virt="non-virtual"><scope>MutationMoveSpeedSO</scope><name>mutationTitle</name></member>
+      <member refid="class_mutation_move_speed_s_o_1a8626d0b441b0ff8d05c10a43b03485b3" prot="public" virt="virtual"><scope>MutationMoveSpeedSO</scope><name>OnDelete</name></member>
+      <member refid="class_mutation_move_speed_s_o_1a4d11c3250f7bb62ba3d1de7c2f6c5ae2" prot="public" virt="virtual"><scope>MutationMoveSpeedSO</scope><name>OnPick</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

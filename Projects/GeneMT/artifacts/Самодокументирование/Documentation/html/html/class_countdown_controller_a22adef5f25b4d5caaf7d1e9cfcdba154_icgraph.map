@@ -1,0 +1,5 @@
+<map id="CountdownController.StartCountdown" name="CountdownController.StartCountdown">
+<area shape="rect" id="Node000001" title="Executes the StartCountdown operation." alt="" coords="270,5,445,48"/>
+<area shape="rect" id="Node000002" href="$class_game_state_manager.html#a90f2b3f817c1e397a3b28f89f752cc79" title="Executes the TogglePause operation." alt="" coords="5,13,222,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="251,27,222,29,222,24,257,27"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="PlayerStatsSO.ChangeReputation" name="PlayerStatsSO.ChangeReputation">
+<area shape="rect" id="Node000001" title="Executes the ChangeReputation operation." alt="" coords="5,80,226,107"/>
+<area shape="rect" id="Node000002" href="$class_player_stats_s_o.html#a45967e5e7be65e3d0db9d49b77ae2fb0" title="Executes the ChangeCooldownReduction operation." alt="" coords="274,5,489,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,77,281,51,276,54,173,82"/>
+<area shape="rect" id="Node000003" href="$class_player_stats_s_o.html#aafe1f504b017cd293aaef371fc175de5" title="Executes the ChangeDamageMultiplier operation." alt="" coords="278,72,484,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,91,265,93,260,94,227,96"/>
+<area shape="rect" id="Node000004" href="$class_universal_notification.html#aa55526c14cf1e9d97f15b01842e03c83" title="Shows UI element." alt="" coords="292,139,471,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="172,105,281,133,276,135,172,110"/>
+</map>

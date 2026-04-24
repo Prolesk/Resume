@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_boss_fight_initialization" kind="class" language="C#" prot="public">
+    <compoundname>BossFightInitialization</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_boss_fight_initialization_1a8291b5cd2b1330a9f71ed43a4a8e048e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BossFightInitialization.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>BossFightInitialization.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossFightInitialization.cs" line="11" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossFightInitialization.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_boss_fight_initialization" kindref="compound">BossFightInitialization</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BossFightInitialization</label>
+        <link refid="class_boss_fight_initialization"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BossFightInitialization</label>
+        <link refid="class_boss_fight_initialization"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossFightInitialization.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/BossFightInitialization.cs" bodystart="9" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_boss_fight_initialization_1a8291b5cd2b1330a9f71ed43a4a8e048e" prot="private" virt="non-virtual"><scope>BossFightInitialization</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

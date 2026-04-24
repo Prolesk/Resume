@@ -1,0 +1,17 @@
+<map id="BloodExperimentQuest" name="BloodExperimentQuest">
+<area shape="rect" id="Node000001" title="The BloodExperimentQuest class." alt="" coords="133,332,288,359"/>
+<area shape="rect" id="Node000002" href="$class_quest_data.html" title="The QuestData class." alt="" coords="168,256,253,283"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,296,213,333,208,330,209,300"/>
+<area shape="rect" id="Node000003" href="$class_quest_s_o.html" title="The QuestSO class." alt="" coords="121,157,196,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="173,195,207,256,201,256,171,200"/>
+<area shape="rect" id="Node000004" href="$class_singleton_scriptable_object-1-g.html" title=" " alt="" coords="5,81,208,108"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="124,118,152,157,147,157,123,123"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="48,5,165,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="107,44,109,81,104,81,106,50"/>
+<area shape="rect" id="Node000006" href="$class_quest_giver.html" title="The QuestGiver class." alt="" coords="228,157,316,184"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="258,195,220,258,216,254,254,199"/>
+<area shape="rect" id="Node000007" href="$class_e_interactable.html" title="The EInteractable class." alt="" coords="232,81,330,108"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="279,121,276,158,271,156,276,125"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="226,5,337,32"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="282,45,284,82,279,80,280,50"/>
+</map>

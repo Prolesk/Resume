@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_player" kind="class" language="C#" prot="public">
+    <compoundname>Player</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_player_1aa53f8a8551ef2689a10ceab26899f662" prot="public" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator Player.animator</definition>
+        <argsstring></argsstring>
+        <name>animator</name>
+        <qualifiedname>Player.animator</qualifiedname>
+        <briefdescription>
+<para>The animator field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" line="11" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1a6ee521bcd68786a0ea88c1539b9ad0fb" prot="public" static="no" mutable="no">
+        <type><ref refid="class_player_movement" kindref="compound">PlayerMovement</ref></type>
+        <definition>PlayerMovement Player.playerMovement</definition>
+        <argsstring></argsstring>
+        <name>playerMovement</name>
+        <qualifiedname>Player.playerMovement</qualifiedname>
+        <briefdescription>
+<para>The playerMovement field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" line="15" column="27" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1ab9fbd7d991b8fb8f7f990e321a418228" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Player.DamageGiveShield</definition>
+        <argsstring></argsstring>
+        <name>DamageGiveShield</name>
+        <qualifiedname>Player.DamageGiveShield</qualifiedname>
+        <briefdescription>
+<para>The DamageGiveShield field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" line="19" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_1a2430959c01ba93a24961846c84d2243e" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Player._deathPanel</definition>
+        <argsstring></argsstring>
+        <name>_deathPanel</name>
+        <qualifiedname>Player._deathPanel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" line="21" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1afcb0ba8131f035fa2ff7280bcf458f12" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Player._winPanel</definition>
+        <argsstring></argsstring>
+        <name>_winPanel</name>
+        <qualifiedname>Player._winPanel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" line="22" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_player_1aff08b341c76fb1c361d87556dc552975" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_player" kindref="compound">Player</ref></type>
+        <definition>Player Player.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>Player.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" line="24" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_1aaddfa9f3b558df64f5d1d09e2b906901" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>Player.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" line="26" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" bodystart="26" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1a1a09a3ded16ac1646f6bdd4f25fe0ddd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>Player.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" line="38" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" bodystart="38" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1aace80372e18e32fe177e295fe5d93ba8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>Player.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" line="44" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_1a247f716c901112b1f3650112f5c47711" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.TriggerLoose</definition>
+        <argsstring>()</argsstring>
+        <name>TriggerLoose</name>
+        <qualifiedname>Player.TriggerLoose</qualifiedname>
+        <briefdescription>
+<para>Executes the TriggerLoose operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" line="52" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" bodystart="52" bodyend="56"/>
+        <references refid="class_game_state_manager_1ad6c81ee9ec40a6522bcf47bdc7172b07" compoundref="_game_state_manager_8cs" startline="9" endline="9">GameStateManager.Instance</references>
+        <references refid="class_game_state_manager_1a721710229b8ed5218ad08892379e5d63">GameStateManager.PauseForLevelUp</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1a3d8af79716a818a93b0d0f5a1a0718ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.TriggerWin</definition>
+        <argsstring>()</argsstring>
+        <name>TriggerWin</name>
+        <qualifiedname>Player.TriggerWin</qualifiedname>
+        <briefdescription>
+<para>Executes the TriggerWin operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" line="61" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" bodystart="61" bodyend="65"/>
+        <references refid="class_game_state_manager_1ad6c81ee9ec40a6522bcf47bdc7172b07" compoundref="_game_state_manager_8cs" startline="9" endline="9">GameStateManager.Instance</references>
+        <references refid="class_game_state_manager_1a721710229b8ed5218ad08892379e5d63">GameStateManager.PauseForLevelUp</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_player" kindref="compound">Player</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Player</label>
+        <link refid="class_player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Player</label>
+        <link refid="class_player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>playerMovement</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PlayerMovement</label>
+        <link refid="class_player_movement"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" line="6" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/Player.cs" bodystart="7" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_player_1a2430959c01ba93a24961846c84d2243e" prot="private" virt="non-virtual"><scope>Player</scope><name>_deathPanel</name></member>
+      <member refid="class_player_1afcb0ba8131f035fa2ff7280bcf458f12" prot="private" virt="non-virtual"><scope>Player</scope><name>_winPanel</name></member>
+      <member refid="class_player_1aa53f8a8551ef2689a10ceab26899f662" prot="public" virt="non-virtual"><scope>Player</scope><name>animator</name></member>
+      <member refid="class_player_1aaddfa9f3b558df64f5d1d09e2b906901" prot="private" virt="non-virtual"><scope>Player</scope><name>Awake</name></member>
+      <member refid="class_player_1ab9fbd7d991b8fb8f7f990e321a418228" prot="public" virt="non-virtual"><scope>Player</scope><name>DamageGiveShield</name></member>
+      <member refid="class_player_1aff08b341c76fb1c361d87556dc552975" prot="public" virt="non-virtual"><scope>Player</scope><name>Instance</name></member>
+      <member refid="class_player_1a6ee521bcd68786a0ea88c1539b9ad0fb" prot="public" virt="non-virtual"><scope>Player</scope><name>playerMovement</name></member>
+      <member refid="class_player_1a1a09a3ded16ac1646f6bdd4f25fe0ddd" prot="private" virt="non-virtual"><scope>Player</scope><name>Start</name></member>
+      <member refid="class_player_1a247f716c901112b1f3650112f5c47711" prot="public" virt="non-virtual"><scope>Player</scope><name>TriggerLoose</name></member>
+      <member refid="class_player_1a3d8af79716a818a93b0d0f5a1a0718ad" prot="public" virt="non-virtual"><scope>Player</scope><name>TriggerWin</name></member>
+      <member refid="class_player_1aace80372e18e32fe177e295fe5d93ba8" prot="private" virt="non-virtual"><scope>Player</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,5 @@
+<map id="GameMenuController.GivePlayerItemReward" name="GameMenuController.GivePlayerItemReward">
+<area shape="rect" id="Node000001" title="Executes the GivePlayerItemReward operation." alt="" coords="189,5,401,48"/>
+<area shape="rect" id="Node000002" href="$class_quest_giver.html#a969ad607369c939921780414df7e4056" title=" " alt="" coords="5,13,141,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,27,141,29,141,24,176,26"/>
+</map>

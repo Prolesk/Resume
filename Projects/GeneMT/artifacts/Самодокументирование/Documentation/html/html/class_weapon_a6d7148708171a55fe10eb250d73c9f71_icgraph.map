@@ -1,0 +1,7 @@
+<map id="Weapon.AddLevel" name="Weapon.AddLevel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="276,43,402,69"/>
+<area shape="rect" id="Node000002" href="$class_weapon_save_manager.html#a2f5c0b329b8082a5a24074903becf2d3" title="Executes the ApplySavedStateToWeapon operation." alt="" coords="5,5,228,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="258,46,228,44,228,39,263,45"/>
+<area shape="rect" id="Node000003" href="$class_weapon.html#afe9d6a5606e4e8bcd65e3f5280269038" title="Executes the TestAddLevel operation." alt="" coords="41,72,192,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="263,66,193,78,192,73,258,67"/>
+</map>

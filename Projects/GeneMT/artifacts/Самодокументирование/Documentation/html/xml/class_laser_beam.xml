@@ -1,0 +1,562 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_laser_beam" kind="class" language="C#" prot="public">
+    <compoundname>LaserBeam</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_laser_beam_1a3b407e317e0cf231a360e624981157b9" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LaserBeam.baseWidthMultiplier</definition>
+        <argsstring></argsstring>
+        <name>baseWidthMultiplier</name>
+        <qualifiedname>LaserBeam.baseWidthMultiplier</qualifiedname>
+        <initializer>= 0.005f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="12" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_beam_1a36c690dda6224e6b5a91592bec4e73e9" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LaserBeam.currentLength</definition>
+        <argsstring></argsstring>
+        <name>currentLength</name>
+        <qualifiedname>LaserBeam.currentLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="14" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_beam_1a06d2ecfead54b8d4032f02d1ad92329c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LaserBeam.currentLifetime</definition>
+        <argsstring></argsstring>
+        <name>currentLifetime</name>
+        <qualifiedname>LaserBeam.currentLifetime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="15" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_beam_1a813f487cf3cc26f5c4658f9d564a3c54" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LaserBeam.currentDamage</definition>
+        <argsstring></argsstring>
+        <name>currentDamage</name>
+        <qualifiedname>LaserBeam.currentDamage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="16" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_beam_1ad785683eb82d841d83872bd5797a1fef" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LaserBeam.currentArea</definition>
+        <argsstring></argsstring>
+        <name>currentArea</name>
+        <qualifiedname>LaserBeam.currentArea</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="17" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_beam_1a4d9d55919975e1b622ac005bb055a2ef" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material LaserBeam.laserMaterial</definition>
+        <argsstring></argsstring>
+        <name>laserMaterial</name>
+        <qualifiedname>LaserBeam.laserMaterial</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="18" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_beam_1a1dd13419e1957275a306370e959dac88" prot="private" static="no" mutable="no">
+        <type><ref refid="class_laser" kindref="compound">Laser</ref></type>
+        <definition>Laser LaserBeam.laserSource</definition>
+        <argsstring></argsstring>
+        <name>laserSource</name>
+        <qualifiedname>LaserBeam.laserSource</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="19" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_beam_1a2b5ba3ffcae4414d987f43b0d4454a1f" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 LaserBeam.startPosition</definition>
+        <argsstring></argsstring>
+        <name>startPosition</name>
+        <qualifiedname>LaserBeam.startPosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="20" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_beam_1acc682a9032ce716b68a966129487fb4b" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 LaserBeam.targetDirection</definition>
+        <argsstring></argsstring>
+        <name>targetDirection</name>
+        <qualifiedname>LaserBeam.targetDirection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="21" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_beam_1a45979cf775ed1a76a0296b6a49e34c74" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_enemy_h_p" kindref="compound">EnemyHP</ref> &gt;</type>
+        <definition>List&lt;EnemyHP&gt; LaserBeam.damagedEnemies</definition>
+        <argsstring></argsstring>
+        <name>damagedEnemies</name>
+        <qualifiedname>LaserBeam.damagedEnemies</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_enemy_h_p" kindref="compound">EnemyHP</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="23" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_beam_1ad09464797bade9651ea8bbefc90a6284" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool LaserBeam.isActive</definition>
+        <argsstring></argsstring>
+        <name>isActive</name>
+        <qualifiedname>LaserBeam.isActive</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="24" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_beam_1a8ce0d699dbe5283ce9ffeb31bfabf9aa" prot="private" static="no" mutable="no">
+        <type>Coroutine</type>
+        <definition>Coroutine LaserBeam.lifecycleCoroutine</definition>
+        <argsstring></argsstring>
+        <name>lifecycleCoroutine</name>
+        <qualifiedname>LaserBeam.lifecycleCoroutine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="25" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_beam_1a2572c69eefd008f51dd78f94dce073c9" prot="private" static="no" mutable="no">
+        <type>MeshRenderer</type>
+        <definition>MeshRenderer LaserBeam.meshRenderer</definition>
+        <argsstring></argsstring>
+        <name>meshRenderer</name>
+        <qualifiedname>LaserBeam.meshRenderer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="28" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_beam_1a8e57d8d2f0ddd8ffd4b3efba0f581b98" prot="private" static="no" mutable="no">
+        <type>MeshFilter</type>
+        <definition>MeshFilter LaserBeam.meshFilter</definition>
+        <argsstring></argsstring>
+        <name>meshFilter</name>
+        <qualifiedname>LaserBeam.meshFilter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="29" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_beam_1a920345894c3375e0ba2c6ab38de52563" prot="private" static="no" mutable="no">
+        <type>BoxCollider</type>
+        <definition>BoxCollider LaserBeam.boxCollider</definition>
+        <argsstring></argsstring>
+        <name>boxCollider</name>
+        <qualifiedname>LaserBeam.boxCollider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="30" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_laser_beam_1a4ff6ab9d0d35b0029708d94646a6c241" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool LaserBeam.IsActive</definition>
+        <argsstring></argsstring>
+        <name>IsActive</name>
+        <qualifiedname>LaserBeam.IsActive</qualifiedname>
+        <briefdescription>
+<para>The IsActive field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="35" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_laser_beam_1abfb1e27633b801fe442704e516c215b7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LaserBeam.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>LaserBeam.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="37" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="37" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_beam_1a4042f8a4bc67db327b621cf1495ee385" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LaserBeam.SetupLaser</definition>
+        <argsstring>(Vector3 targetPosition)</argsstring>
+        <name>SetupLaser</name>
+        <qualifiedname>LaserBeam.SetupLaser</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>targetPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="90" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="90" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_beam_1a8888ff08d5af12a6c1dfeeec842b4429" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LaserBeam.CreateLaserMesh</definition>
+        <argsstring>()</argsstring>
+        <name>CreateLaserMesh</name>
+        <qualifiedname>LaserBeam.CreateLaserMesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="132" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="132" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_beam_1a9d1b54588b5f52c3bb4f59eb4220bdcf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Material</type>
+        <definition>Material LaserBeam.CreateDefaultMaterial</definition>
+        <argsstring>()</argsstring>
+        <name>CreateDefaultMaterial</name>
+        <qualifiedname>LaserBeam.CreateDefaultMaterial</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="176" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="176" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_beam_1a4c4240362719fc7ff2c946e8457b2cc8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator LaserBeam.LaserLifecycle</definition>
+        <argsstring>()</argsstring>
+        <name>LaserLifecycle</name>
+        <qualifiedname>LaserBeam.LaserLifecycle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="187" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="187" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_beam_1a554ce8441fa9efa428926c7b61b420ad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LaserBeam.DamageEnemiesInLaser</definition>
+        <argsstring>()</argsstring>
+        <name>DamageEnemiesInLaser</name>
+        <qualifiedname>LaserBeam.DamageEnemiesInLaser</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="201" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="201" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_beam_1a683d67b57206950728a6e63657aa88ed" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LaserBeam.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <qualifiedname>LaserBeam.OnTriggerEnter</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="237" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="237" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_beam_1abfaca3028087323bae4489fa4015d2ac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LaserBeam.FinishLaser</definition>
+        <argsstring>()</argsstring>
+        <name>FinishLaser</name>
+        <qualifiedname>LaserBeam.FinishLaser</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="250" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="250" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_beam_1aa795fdff4edc63d953f516301d2a3608" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LaserBeam.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>LaserBeam.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="256" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="256" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_beam_1a19564571dd48a14579067a2cda6a82b0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LaserBeam.OnDrawGizmosSelected</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmosSelected</name>
+        <qualifiedname>LaserBeam.OnDrawGizmosSelected</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="272" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="272" bodyend="293"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_laser_beam_1ae22aee42ea06be34d6696f49d2681f48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LaserBeam.Initialize</definition>
+        <argsstring>(float length, float lifetime, float damage, Material material, float area, Laser source, Vector3 startPos, Vector3 targetPos)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>LaserBeam.Initialize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lifetime</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>damage</declname>
+        </param>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>area</declname>
+        </param>
+        <param>
+          <type><ref refid="class_laser" kindref="compound">Laser</ref></type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>startPos</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>targetPos</declname>
+        </param>
+        <briefdescription>
+<para>Initializes . </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The length.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lifetime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The lifetime.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>damage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The damage.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>material</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The material.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>area</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The area.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The source.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startPos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The startPos.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>targetPos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The targetPos.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="67" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="67" bodyend="88"/>
+        <referencedby refid="class_laser_pool_1ace1cd53211ae87232c4bdc889d96215d" compoundref="_laser_pool_8cs" startline="73" endline="102">LaserPool.GetLaser</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_laser_beam" kindref="compound">LaserBeam</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>LaserBeam</label>
+        <link refid="class_laser_beam"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>LaserBeam</label>
+        <link refid="class_laser_beam"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/LaserBeam.cs" bodystart="10" bodyend="294"/>
+    <listofallmembers>
+      <member refid="class_laser_beam_1abfb1e27633b801fe442704e516c215b7" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>Awake</name></member>
+      <member refid="class_laser_beam_1a3b407e317e0cf231a360e624981157b9" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>baseWidthMultiplier</name></member>
+      <member refid="class_laser_beam_1a920345894c3375e0ba2c6ab38de52563" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>boxCollider</name></member>
+      <member refid="class_laser_beam_1a9d1b54588b5f52c3bb4f59eb4220bdcf" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>CreateDefaultMaterial</name></member>
+      <member refid="class_laser_beam_1a8888ff08d5af12a6c1dfeeec842b4429" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>CreateLaserMesh</name></member>
+      <member refid="class_laser_beam_1ad785683eb82d841d83872bd5797a1fef" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>currentArea</name></member>
+      <member refid="class_laser_beam_1a813f487cf3cc26f5c4658f9d564a3c54" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>currentDamage</name></member>
+      <member refid="class_laser_beam_1a36c690dda6224e6b5a91592bec4e73e9" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>currentLength</name></member>
+      <member refid="class_laser_beam_1a06d2ecfead54b8d4032f02d1ad92329c" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>currentLifetime</name></member>
+      <member refid="class_laser_beam_1a45979cf775ed1a76a0296b6a49e34c74" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>damagedEnemies</name></member>
+      <member refid="class_laser_beam_1a554ce8441fa9efa428926c7b61b420ad" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>DamageEnemiesInLaser</name></member>
+      <member refid="class_laser_beam_1abfaca3028087323bae4489fa4015d2ac" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>FinishLaser</name></member>
+      <member refid="class_laser_beam_1ae22aee42ea06be34d6696f49d2681f48" prot="public" virt="non-virtual"><scope>LaserBeam</scope><name>Initialize</name></member>
+      <member refid="class_laser_beam_1a4ff6ab9d0d35b0029708d94646a6c241" prot="public" virt="non-virtual"><scope>LaserBeam</scope><name>IsActive</name></member>
+      <member refid="class_laser_beam_1ad09464797bade9651ea8bbefc90a6284" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>isActive</name></member>
+      <member refid="class_laser_beam_1a4c4240362719fc7ff2c946e8457b2cc8" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>LaserLifecycle</name></member>
+      <member refid="class_laser_beam_1a4d9d55919975e1b622ac005bb055a2ef" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>laserMaterial</name></member>
+      <member refid="class_laser_beam_1a1dd13419e1957275a306370e959dac88" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>laserSource</name></member>
+      <member refid="class_laser_beam_1a8ce0d699dbe5283ce9ffeb31bfabf9aa" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>lifecycleCoroutine</name></member>
+      <member refid="class_laser_beam_1a8e57d8d2f0ddd8ffd4b3efba0f581b98" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>meshFilter</name></member>
+      <member refid="class_laser_beam_1a2572c69eefd008f51dd78f94dce073c9" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>meshRenderer</name></member>
+      <member refid="class_laser_beam_1aa795fdff4edc63d953f516301d2a3608" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>OnDisable</name></member>
+      <member refid="class_laser_beam_1a19564571dd48a14579067a2cda6a82b0" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>OnDrawGizmosSelected</name></member>
+      <member refid="class_laser_beam_1a683d67b57206950728a6e63657aa88ed" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>OnTriggerEnter</name></member>
+      <member refid="class_laser_beam_1a4042f8a4bc67db327b621cf1495ee385" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>SetupLaser</name></member>
+      <member refid="class_laser_beam_1a2b5ba3ffcae4414d987f43b0d4454a1f" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>startPosition</name></member>
+      <member refid="class_laser_beam_1acc682a9032ce716b68a966129487fb4b" prot="private" virt="non-virtual"><scope>LaserBeam</scope><name>targetDirection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

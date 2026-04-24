@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_volume_slider_stars" kind="class" language="C#" prot="public">
+    <compoundname>VolumeSliderStars</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_volume_slider_stars_1a8a51e381448650a4b88b44397d59c30b" prot="public" static="no" mutable="no">
+        <type>Slider</type>
+        <definition>Slider VolumeSliderStars.MasterSlider</definition>
+        <argsstring></argsstring>
+        <name>MasterSlider</name>
+        <qualifiedname>VolumeSliderStars.MasterSlider</qualifiedname>
+        <briefdescription>
+<para>The MasterSlider field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/VolumeSliderStars.cs" line="14" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/VolumeSliderStars.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_volume_slider_stars_1a091a29dfa66c044f86ae43e19a836f65" prot="public" static="no" mutable="no">
+        <type>Slider</type>
+        <definition>Slider VolumeSliderStars.VFXSlider</definition>
+        <argsstring></argsstring>
+        <name>VFXSlider</name>
+        <qualifiedname>VolumeSliderStars.VFXSlider</qualifiedname>
+        <briefdescription>
+<para>The VFXSlider field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/VolumeSliderStars.cs" line="18" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/VolumeSliderStars.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_volume_slider_stars_1aaa2eb9744c9e1dc789275e2c55d4baab" prot="public" static="no" mutable="no">
+        <type>Slider</type>
+        <definition>Slider VolumeSliderStars.MusicSlider</definition>
+        <argsstring></argsstring>
+        <name>MusicSlider</name>
+        <qualifiedname>VolumeSliderStars.MusicSlider</qualifiedname>
+        <briefdescription>
+<para>The MusicSlider field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/VolumeSliderStars.cs" line="22" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/VolumeSliderStars.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_volume_slider_stars_1af49f81bb4de2f2c639b6d48ec4baa2fb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VolumeSliderStars.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>VolumeSliderStars.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/VolumeSliderStars.cs" line="24" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/VolumeSliderStars.cs" bodystart="24" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_volume_slider_stars" kindref="compound">VolumeSliderStars</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>VolumeSliderStars</label>
+        <link refid="class_volume_slider_stars"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>VolumeSliderStars</label>
+        <link refid="class_volume_slider_stars"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/VolumeSliderStars.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/VolumeSliderStars.cs" bodystart="10" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_volume_slider_stars_1a8a51e381448650a4b88b44397d59c30b" prot="public" virt="non-virtual"><scope>VolumeSliderStars</scope><name>MasterSlider</name></member>
+      <member refid="class_volume_slider_stars_1aaa2eb9744c9e1dc789275e2c55d4baab" prot="public" virt="non-virtual"><scope>VolumeSliderStars</scope><name>MusicSlider</name></member>
+      <member refid="class_volume_slider_stars_1af49f81bb4de2f2c639b6d48ec4baa2fb" prot="private" virt="non-virtual"><scope>VolumeSliderStars</scope><name>OnEnable</name></member>
+      <member refid="class_volume_slider_stars_1a091a29dfa66c044f86ae43e19a836f65" prot="public" virt="non-virtual"><scope>VolumeSliderStars</scope><name>VFXSlider</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

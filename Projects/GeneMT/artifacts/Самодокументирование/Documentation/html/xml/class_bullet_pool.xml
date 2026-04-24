@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_bullet_pool" kind="class" language="C#" prot="public">
+    <compoundname>BulletPool</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_bullet_pool_1a78157f47dd853a4abad9f30dc25c4b6e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_bullet_shooter_data_s_o" kindref="compound">BulletShooterDataSO</ref></type>
+        <definition>BulletShooterDataSO BulletPool.defaultBulletData</definition>
+        <argsstring></argsstring>
+        <name>defaultBulletData</name>
+        <qualifiedname>BulletPool.defaultBulletData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletPool.cs" line="9" column="34" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletPool.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_pool_1af0f6d32c147e385d8e394df22e9e21b0" prot="private" static="no" mutable="no">
+        <type>Queue&lt; GameObject &gt;</type>
+        <definition>Queue&lt;GameObject&gt; BulletPool.bulletPool</definition>
+        <argsstring></argsstring>
+        <name>bulletPool</name>
+        <qualifiedname>BulletPool.bulletPool</qualifiedname>
+        <initializer>= new Queue&lt;GameObject&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletPool.cs" line="11" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletPool.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_pool_1a819b67950433143a85636a2774a28eb6" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject BulletPool.bulletPrefab</definition>
+        <argsstring></argsstring>
+        <name>bulletPrefab</name>
+        <qualifiedname>BulletPool.bulletPrefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletPool.cs" line="12" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletPool.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_bullet_pool_1a1b838105f15c8e0a942879524c41b639" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_bullet_pool" kindref="compound">BulletPool</ref></type>
+        <definition>BulletPool BulletPool.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>BulletPool.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletPool.cs" line="14" column="30" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletPool.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_bullet_pool_1a85a879cdc4f19c839a89293d4df44971" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletPool.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>BulletPool.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletPool.cs" line="16" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletPool.cs" bodystart="16" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_pool_1a5fc67ef0cf393f32dfb5819d1100504b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>GameObject BulletPool.CreateNewBullet</definition>
+        <argsstring>()</argsstring>
+        <name>CreateNewBullet</name>
+        <qualifiedname>BulletPool.CreateNewBullet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletPool.cs" line="30" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletPool.cs" bodystart="30" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bullet_pool_1aed2c5fd263b88eadc0951473e1f5db7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>GameObject BulletPool.GetBullet</definition>
+        <argsstring>()</argsstring>
+        <name>GetBullet</name>
+        <qualifiedname>BulletPool.GetBullet</qualifiedname>
+        <briefdescription>
+<para>Gets the <ref refid="class_bullet" kindref="compound">Bullet</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The result as GameObject.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletPool.cs" line="42" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletPool.cs" bodystart="42" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_pool_1a2e10cb877036ee6a639b1a687465d572" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletPool.ReturnBullet</definition>
+        <argsstring>(GameObject bullet)</argsstring>
+        <name>ReturnBullet</name>
+        <qualifiedname>BulletPool.ReturnBullet</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>bullet</declname>
+        </param>
+        <briefdescription>
+<para>Executes the ReturnBullet operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bullet</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The bullet.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletPool.cs" line="71" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletPool.cs" bodystart="71" bodyend="77"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_bullet_pool" kindref="compound">BulletPool</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BulletPool</label>
+        <link refid="class_bullet_pool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BulletPool</label>
+        <link refid="class_bullet_pool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletPool.cs" line="7" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Bullet/BulletPool.cs" bodystart="8" bodyend="82"/>
+    <listofallmembers>
+      <member refid="class_bullet_pool_1a85a879cdc4f19c839a89293d4df44971" prot="private" virt="non-virtual"><scope>BulletPool</scope><name>Awake</name></member>
+      <member refid="class_bullet_pool_1af0f6d32c147e385d8e394df22e9e21b0" prot="private" virt="non-virtual"><scope>BulletPool</scope><name>bulletPool</name></member>
+      <member refid="class_bullet_pool_1a819b67950433143a85636a2774a28eb6" prot="private" virt="non-virtual"><scope>BulletPool</scope><name>bulletPrefab</name></member>
+      <member refid="class_bullet_pool_1a5fc67ef0cf393f32dfb5819d1100504b" prot="private" virt="non-virtual"><scope>BulletPool</scope><name>CreateNewBullet</name></member>
+      <member refid="class_bullet_pool_1a78157f47dd853a4abad9f30dc25c4b6e" prot="private" virt="non-virtual"><scope>BulletPool</scope><name>defaultBulletData</name></member>
+      <member refid="class_bullet_pool_1aed2c5fd263b88eadc0951473e1f5db7c" prot="public" virt="non-virtual"><scope>BulletPool</scope><name>GetBullet</name></member>
+      <member refid="class_bullet_pool_1a1b838105f15c8e0a942879524c41b639" prot="public" virt="non-virtual"><scope>BulletPool</scope><name>Instance</name></member>
+      <member refid="class_bullet_pool_1a2e10cb877036ee6a639b1a687465d572" prot="public" virt="non-virtual"><scope>BulletPool</scope><name>ReturnBullet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

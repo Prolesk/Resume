@@ -1,0 +1,5 @@
+<map id="QuestManager.UnregisterQuest" name="QuestManager.UnregisterQuest">
+<area shape="rect" id="Node000001" title="Executes the UnregisterQuest operation." alt="" coords="5,13,211,40"/>
+<area shape="rect" id="Node000002" href="$class_quest_notification.html#a87c226bbe820f908e0e893debcfcc368" title="Shows UI element." alt="" coords="259,5,453,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,24,245,27,240,27,211,29"/>
+</map>

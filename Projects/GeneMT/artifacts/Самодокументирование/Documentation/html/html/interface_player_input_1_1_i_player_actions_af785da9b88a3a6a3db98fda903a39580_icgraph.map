@@ -1,0 +1,7 @@
+<map id="PlayerInput.IPlayerActions.OnMove" name="PlayerInput.IPlayerActions.OnMove">
+<area shape="rect" id="Node000001" title="Method invoked when associated input action &quot;Move&quot; is either UnityEngine.InputSystem...." alt="" coords="454,5,634,48"/>
+<area shape="rect" id="Node000002" href="$struct_player_input_1_1_player_actions.html#ac0468e4bc65b955247f0734e5627299f" title="Adds InputAction.started, InputAction.performed and InputAction.canceled callbacks provided via &#160;on a..." alt="" coords="230,5,406,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="436,27,407,29,406,24,441,27"/>
+<area shape="rect" id="Node000003" href="$struct_player_input_1_1_player_actions.html#a5a0e2291f69e756f2e8fdb71af63f6d8" title="Replaces all existing callback instances and previously registered input action callbacks associated ..." alt="" coords="5,5,182,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="212,27,182,29,182,24,217,26"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="EnemySpawner.GetRandomEdgePoint" name="EnemySpawner.GetRandomEdgePoint">
+<area shape="rect" id="Node000001" title="Gets the RandomEdgePoint." alt="" coords="289,165,506,208"/>
+<area shape="rect" id="Node000002" href="$class_enemy_spawner.html#ab0a2d3704221216f8fcdf8c6dd33d947" title="Spawns FastMeleeEnemy." alt="" coords="14,29,232,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="354,156,302,121,240,86,212,75,211,70,242,82,305,116,359,156"/>
+<area shape="rect" id="Node000003" href="$class_enemy_spawner.html#a19e0848ab4da59d97b937d6bd044b921" title="Spawns SmallMeleeEnemy." alt="" coords="10,120,236,163"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="271,167,236,163,236,157,276,165"/>
+<area shape="rect" id="Node000004" href="$class_enemy_spawner.html#ab683307e671e3074e150c003dd79c229" title="Spawns SmallRangedEnemy." alt="" coords="5,211,241,253"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="271,208,242,215,240,210,276,206"/>
+<area shape="rect" id="Node000005" href="$class_enemy_spawner.html#a69817675da979c099d1dae232400658b" title="Spawns StrongMeleeEnemy." alt="" coords="25,301,221,344"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="342,214,242,268,170,303,168,298,239,263,337,216"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="167,15,151,10,123,8,97,10,81,15,75,21,77,29,71,29,69,19,78,10,96,5,123,3,152,5,171,13"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="167,106,151,101,123,99,97,101,81,105,75,111,77,119,71,119,69,110,78,101,96,95,123,93,152,96,172,104"/>
+<area shape="poly" id="edge6_Node000004_Node000004" title=" " alt="" coords="166,196,151,192,123,189,97,191,81,196,75,202,77,210,71,210,69,201,78,192,96,186,123,184,152,186,172,195"/>
+<area shape="poly" id="edge8_Node000005_Node000005" title=" " alt="" coords="166,286,151,282,123,280,97,282,81,287,75,293,77,302,71,300,69,291,78,282,96,277,123,275,152,277,172,286"/>
+</map>

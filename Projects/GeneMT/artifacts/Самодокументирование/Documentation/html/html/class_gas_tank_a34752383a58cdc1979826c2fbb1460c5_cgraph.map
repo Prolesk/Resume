@@ -1,0 +1,9 @@
+<map id="GasTank.Interact" name="GasTank.Interact">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,127,40"/>
+<area shape="rect" id="Node000002" href="$class_quest_manager.html#a3f909c7f165f9f4d2aececdecc5d0a04" title="Executes the GasTankGathered operation." alt="" coords="175,13,390,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,24,162,26,156,27,127,29"/>
+<area shape="rect" id="Node000003" href="$class_quest_manager.html#afe709fc19f3a1bbc4e85576820aea006" title="Event handler for OnQuestProgressUpdated." alt="" coords="438,5,652,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="391,24,425,27,420,27,391,29"/>
+<area shape="rect" id="Node000004" href="$class_quest_notification.html#aa2157b58d47f20f3b70bf71782687a5f" title="Shows UI element." alt="" coords="700,5,895,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="653,24,688,27,682,27,653,29"/>
+</map>

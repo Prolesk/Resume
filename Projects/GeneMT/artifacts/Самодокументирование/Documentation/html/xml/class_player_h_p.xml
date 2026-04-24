@@ -1,0 +1,457 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_player_h_p" kind="class" language="C#" prot="public">
+    <compoundname>PlayerHP</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_h_p_1ac4e6f7f52243a24ff2483afdbf8b5d5a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_player_stats_s_o" kindref="compound">PlayerStatsSO</ref></type>
+        <definition>PlayerStatsSO PlayerHP._statsSO</definition>
+        <argsstring></argsstring>
+        <name>_statsSO</name>
+        <qualifiedname>PlayerHP._statsSO</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" line="13" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_h_p_1a8496ac28a523479edd020c75e11f13cc" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerHP.healCount</definition>
+        <argsstring></argsstring>
+        <name>healCount</name>
+        <qualifiedname>PlayerHP.healCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" line="48" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_player_h_p_1a0a65c4ea1236809e55716d3e6352a8ed" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_player_h_p" kindref="compound">PlayerHP</ref></type>
+        <definition>PlayerHP PlayerHP.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>PlayerHP.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" line="15" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" bodystart="15" bodyend="15"/>
+        <referencedby refid="class_lunch_box_item_s_o_1a9d66837f36814650c80a13d163b06c1d" compoundref="_lunch_box_item_s_o_8cs" startline="18" endline="22">LunchBoxItemSO.OnLVLUp</referencedby>
+        <referencedby refid="class_blood_experiment_quest_1ab034a2d629ca4e2cb0880ff89bb446fc" compoundref="_blood_experiment_01_quest_8cs" startline="12" endline="19">BloodExperimentQuest.OnQuestStart</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_player_h_p_1af5914637d0ab354507078028dd2a7ec7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerHP._currentHP</definition>
+        <argsstring></argsstring>
+        <name>_currentHP</name>
+        <qualifiedname>PlayerHP._currentHP</qualifiedname>
+        <briefdescription>
+<para>The _currentHP field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" line="37" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_player_h_p_1a96e8c0a58a3538c568a41be4154af8c3" compoundref="_player_h_p_8cs" startline="99" endline="120">Damage</referencedby>
+        <referencedby refid="class_player_h_p_1acce7bb9a08f70d48821152292a96c836" compoundref="_player_h_p_8cs" startline="72" endline="93">DamageInPercent</referencedby>
+        <referencedby refid="class_player_h_p_1a1820fffa570c7d43314a449241c1c550" compoundref="_player_h_p_8cs" startline="126" endline="139">Heal</referencedby>
+        <referencedby refid="class_player_h_p_1a96a465e657e375b55bbfb8e0b6582205" compoundref="_player_h_p_8cs" startline="144" endline="157">HealInProcent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_h_p_1a2c8e41558ea701b1f14d817440e13718" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerHP.MaxHP</definition>
+        <argsstring></argsstring>
+        <name>MaxHP</name>
+        <qualifiedname>PlayerHP.MaxHP</qualifiedname>
+        <briefdescription>
+<para>The MaxHP field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" line="42" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_player_h_p_1a96e8c0a58a3538c568a41be4154af8c3" compoundref="_player_h_p_8cs" startline="99" endline="120">Damage</referencedby>
+        <referencedby refid="class_player_h_p_1acce7bb9a08f70d48821152292a96c836" compoundref="_player_h_p_8cs" startline="72" endline="93">DamageInPercent</referencedby>
+        <referencedby refid="class_player_h_p_1a1820fffa570c7d43314a449241c1c550" compoundref="_player_h_p_8cs" startline="126" endline="139">Heal</referencedby>
+        <referencedby refid="class_player_h_p_1a96a465e657e375b55bbfb8e0b6582205" compoundref="_player_h_p_8cs" startline="144" endline="157">HealInProcent</referencedby>
+        <referencedby refid="class_player_h_p_1a2516692ec783eea4f4d42e70b18006e2" compoundref="_player_h_p_8cs" startline="163" endline="169">maxHPChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_h_p_1a51e0f5d1c214f5b781ada0b4510d6133" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerHP.isAlive</definition>
+        <argsstring></argsstring>
+        <name>isAlive</name>
+        <qualifiedname>PlayerHP.isAlive</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>The isAlive field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" line="46" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_h_p_1a1ba9f69e3a1e054b70485cdba4e1bf9f" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip PlayerHP.hitClip</definition>
+        <argsstring></argsstring>
+        <name>hitClip</name>
+        <qualifiedname>PlayerHP.hitClip</qualifiedname>
+        <briefdescription>
+<para>The hitClip field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" line="53" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_player_h_p_1a96e8c0a58a3538c568a41be4154af8c3" compoundref="_player_h_p_8cs" startline="99" endline="120">Damage</referencedby>
+        <referencedby refid="class_player_h_p_1acce7bb9a08f70d48821152292a96c836" compoundref="_player_h_p_8cs" startline="72" endline="93">DamageInPercent</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="class_player_h_p_1a2ede69acff8406f924c4661198c80323" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; float &gt;</type>
+        <definition>Action&lt;float&gt; PlayerHP.Changed</definition>
+        <argsstring></argsstring>
+        <name>Changed</name>
+        <qualifiedname>PlayerHP.Changed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" line="55" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" bodystart="55" bodyend="-1"/>
+        <referencedby refid="class_player_h_p_1a96e8c0a58a3538c568a41be4154af8c3" compoundref="_player_h_p_8cs" startline="99" endline="120">Damage</referencedby>
+        <referencedby refid="class_player_h_p_1acce7bb9a08f70d48821152292a96c836" compoundref="_player_h_p_8cs" startline="72" endline="93">DamageInPercent</referencedby>
+        <referencedby refid="class_player_h_p_1a1820fffa570c7d43314a449241c1c550" compoundref="_player_h_p_8cs" startline="126" endline="139">Heal</referencedby>
+        <referencedby refid="class_player_h_p_1a96a465e657e375b55bbfb8e0b6582205" compoundref="_player_h_p_8cs" startline="144" endline="157">HealInProcent</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_player_h_p_1a070ba9bfb99d7843fda6d599c0b42740" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; float &gt;</type>
+        <definition>Action&lt;float&gt; PlayerHP.MaxHpChanged</definition>
+        <argsstring></argsstring>
+        <name>MaxHpChanged</name>
+        <qualifiedname>PlayerHP.MaxHpChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" line="56" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_player_h_p_1a2516692ec783eea4f4d42e70b18006e2" compoundref="_player_h_p_8cs" startline="163" endline="169">maxHPChanged</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_h_p_1ac8126a494f7fc0c8207d212dd1cecd4f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHP.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>PlayerHP.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" line="17" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" bodystart="17" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_h_p_1a53bd518e239b3bed020906eb985b383c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHP.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>PlayerHP.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" line="58" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_h_p_1a0d96f9551ae9d3c0a29a843d20c6ba95" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHP.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>PlayerHP.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" line="63" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_h_p_1a0c217212f5696ca1a6b874dfb193555d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHP.Death</definition>
+        <argsstring>()</argsstring>
+        <name>Death</name>
+        <qualifiedname>PlayerHP.Death</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" line="172" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" bodystart="172" bodyend="176"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_h_p_1acce7bb9a08f70d48821152292a96c836" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHP.DamageInPercent</definition>
+        <argsstring>(float damageAmmount)</argsstring>
+        <name>DamageInPercent</name>
+        <qualifiedname>PlayerHP.DamageInPercent</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>damageAmmount</declname>
+        </param>
+        <briefdescription>
+<para>Applies damage. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>damageAmmount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The damageAmmount.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" line="72" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" bodystart="72" bodyend="93"/>
+        <references refid="class_player_h_p_1af5914637d0ab354507078028dd2a7ec7" compoundref="_player_h_p_8cs" startline="37">_currentHP</references>
+        <references refid="class_player_h_p_1a2ede69acff8406f924c4661198c80323" compoundref="_player_h_p_8cs" startline="55">Changed</references>
+        <references refid="class_player_h_p_1a1ba9f69e3a1e054b70485cdba4e1bf9f" compoundref="_player_h_p_8cs" startline="53">hitClip</references>
+        <references refid="class_audio_manager_1af96f8bc4f9a0ad3f1a63a028bb31f790" compoundref="_audio_manager_8cs" startline="11">AudioManager.Instance</references>
+        <references refid="class_player_hit_effect_1a8bf847786f84842006db1d3f801ffe21" compoundref="_player_hit_effect_8cs" startline="26" endline="26">PlayerHitEffect.Instance</references>
+        <references refid="class_singleton_scriptable_object-1-g_1aa59148a0a9bc37057ef216e7c9a814a8" compoundref="_singleton_scriptable_object_8cs" startline="8" endline="34">SingletonScriptableObject&lt; T &gt;.Instance</references>
+        <references refid="class_player_h_p_1a2c8e41558ea701b1f14d817440e13718" compoundref="_player_h_p_8cs" startline="42">MaxHP</references>
+        <references refid="class_audio_manager_1a17e851a2b8b630428424fa4533ba19c8" compoundref="_audio_manager_8cs" startline="205" endline="212">AudioManager.PlayHit</references>
+        <references refid="class_audio_manager_1ac9614e62cc317d8d60399bfc00617546" compoundref="_audio_manager_8cs" startline="447" endline="450">AudioManager.ResetMusicPitch</references>
+        <references refid="class_audio_manager_1afaea7cecdb292c3ba0ccf8ab8a3f18fd" compoundref="_audio_manager_8cs" startline="434" endline="441">AudioManager.SetMusicPitch</references>
+        <references refid="class_player_hit_effect_1a23d9d5e337a9deadf3bd0f0f490ba49b" compoundref="_player_hit_effect_8cs" startline="72" endline="78">PlayerHitEffect.TakeHit</references>
+        <referencedby refid="class_blood_experiment_quest_1ab034a2d629ca4e2cb0880ff89bb446fc" compoundref="_blood_experiment_01_quest_8cs" startline="12" endline="19">BloodExperimentQuest.OnQuestStart</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_h_p_1a96e8c0a58a3538c568a41be4154af8c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHP.Damage</definition>
+        <argsstring>(float damageAmmount)</argsstring>
+        <name>Damage</name>
+        <qualifiedname>PlayerHP.Damage</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>damageAmmount</declname>
+        </param>
+        <briefdescription>
+<para>Applies damage. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>damageAmmount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The damageAmmount.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" line="99" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" bodystart="99" bodyend="120"/>
+        <references refid="class_player_h_p_1af5914637d0ab354507078028dd2a7ec7" compoundref="_player_h_p_8cs" startline="37">_currentHP</references>
+        <references refid="class_player_h_p_1a2ede69acff8406f924c4661198c80323" compoundref="_player_h_p_8cs" startline="55">Changed</references>
+        <references refid="class_player_h_p_1a1ba9f69e3a1e054b70485cdba4e1bf9f" compoundref="_player_h_p_8cs" startline="53">hitClip</references>
+        <references refid="class_audio_manager_1af96f8bc4f9a0ad3f1a63a028bb31f790" compoundref="_audio_manager_8cs" startline="11">AudioManager.Instance</references>
+        <references refid="class_player_hit_effect_1a8bf847786f84842006db1d3f801ffe21" compoundref="_player_hit_effect_8cs" startline="26" endline="26">PlayerHitEffect.Instance</references>
+        <references refid="class_singleton_scriptable_object-1-g_1aa59148a0a9bc37057ef216e7c9a814a8" compoundref="_singleton_scriptable_object_8cs" startline="8" endline="34">SingletonScriptableObject&lt; T &gt;.Instance</references>
+        <references refid="class_player_h_p_1a2c8e41558ea701b1f14d817440e13718" compoundref="_player_h_p_8cs" startline="42">MaxHP</references>
+        <references refid="class_audio_manager_1a17e851a2b8b630428424fa4533ba19c8" compoundref="_audio_manager_8cs" startline="205" endline="212">AudioManager.PlayHit</references>
+        <references refid="class_audio_manager_1ac9614e62cc317d8d60399bfc00617546" compoundref="_audio_manager_8cs" startline="447" endline="450">AudioManager.ResetMusicPitch</references>
+        <references refid="class_audio_manager_1afaea7cecdb292c3ba0ccf8ab8a3f18fd" compoundref="_audio_manager_8cs" startline="434" endline="441">AudioManager.SetMusicPitch</references>
+        <references refid="class_player_hit_effect_1a23d9d5e337a9deadf3bd0f0f490ba49b" compoundref="_player_hit_effect_8cs" startline="72" endline="78">PlayerHitEffect.TakeHit</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_h_p_1a1820fffa570c7d43314a449241c1c550" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHP.Heal</definition>
+        <argsstring>(float healAmmount)</argsstring>
+        <name>Heal</name>
+        <qualifiedname>PlayerHP.Heal</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>healAmmount</declname>
+        </param>
+        <briefdescription>
+<para>Applies healing. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>healAmmount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The healAmmount.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" line="126" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" bodystart="126" bodyend="139"/>
+        <references refid="class_player_h_p_1af5914637d0ab354507078028dd2a7ec7" compoundref="_player_h_p_8cs" startline="37">_currentHP</references>
+        <references refid="class_player_h_p_1a2ede69acff8406f924c4661198c80323" compoundref="_player_h_p_8cs" startline="55">Changed</references>
+        <references refid="class_audio_manager_1af96f8bc4f9a0ad3f1a63a028bb31f790" compoundref="_audio_manager_8cs" startline="11">AudioManager.Instance</references>
+        <references refid="class_player_h_p_1a2c8e41558ea701b1f14d817440e13718" compoundref="_player_h_p_8cs" startline="42">MaxHP</references>
+        <references refid="class_audio_manager_1ac9614e62cc317d8d60399bfc00617546" compoundref="_audio_manager_8cs" startline="447" endline="450">AudioManager.ResetMusicPitch</references>
+        <references refid="class_audio_manager_1afaea7cecdb292c3ba0ccf8ab8a3f18fd" compoundref="_audio_manager_8cs" startline="434" endline="441">AudioManager.SetMusicPitch</references>
+        <referencedby refid="class_player_h_p_1a2516692ec783eea4f4d42e70b18006e2" compoundref="_player_h_p_8cs" startline="163" endline="169">maxHPChanged</referencedby>
+        <referencedby refid="class_lunch_box_item_s_o_1a9d66837f36814650c80a13d163b06c1d" compoundref="_lunch_box_item_s_o_8cs" startline="18" endline="22">LunchBoxItemSO.OnLVLUp</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_h_p_1a96a465e657e375b55bbfb8e0b6582205" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHP.HealInProcent</definition>
+        <argsstring>(float healAmmount)</argsstring>
+        <name>HealInProcent</name>
+        <qualifiedname>PlayerHP.HealInProcent</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>healAmmount</declname>
+        </param>
+        <briefdescription>
+<para>Applies healing. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>healAmmount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The healAmmount.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" line="144" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" bodystart="144" bodyend="157"/>
+        <references refid="class_player_h_p_1af5914637d0ab354507078028dd2a7ec7" compoundref="_player_h_p_8cs" startline="37">_currentHP</references>
+        <references refid="class_player_h_p_1a2ede69acff8406f924c4661198c80323" compoundref="_player_h_p_8cs" startline="55">Changed</references>
+        <references refid="class_audio_manager_1af96f8bc4f9a0ad3f1a63a028bb31f790" compoundref="_audio_manager_8cs" startline="11">AudioManager.Instance</references>
+        <references refid="class_player_h_p_1a2c8e41558ea701b1f14d817440e13718" compoundref="_player_h_p_8cs" startline="42">MaxHP</references>
+        <references refid="class_audio_manager_1ac9614e62cc317d8d60399bfc00617546" compoundref="_audio_manager_8cs" startline="447" endline="450">AudioManager.ResetMusicPitch</references>
+        <references refid="class_audio_manager_1afaea7cecdb292c3ba0ccf8ab8a3f18fd" compoundref="_audio_manager_8cs" startline="434" endline="441">AudioManager.SetMusicPitch</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_h_p_1a2516692ec783eea4f4d42e70b18006e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHP.maxHPChanged</definition>
+        <argsstring>(float maxHP)</argsstring>
+        <name>maxHPChanged</name>
+        <qualifiedname>PlayerHP.maxHPChanged</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>maxHP</declname>
+        </param>
+        <briefdescription>
+<para>Executes the maxHPChanged operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxHP</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maxHP.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" line="163" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" bodystart="163" bodyend="169"/>
+        <references refid="class_player_h_p_1a1820fffa570c7d43314a449241c1c550" compoundref="_player_h_p_8cs" startline="126" endline="139">Heal</references>
+        <references refid="class_player_h_p_1a2c8e41558ea701b1f14d817440e13718" compoundref="_player_h_p_8cs" startline="42">MaxHP</references>
+        <references refid="class_player_h_p_1a070ba9bfb99d7843fda6d599c0b42740" compoundref="_player_h_p_8cs" startline="56">MaxHpChanged</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_player_h_p" kindref="compound">PlayerHP</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PlayerHP</label>
+        <link refid="class_player_h_p"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PlayerHP</label>
+        <link refid="class_player_h_p"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" line="11" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerHP.cs" bodystart="12" bodyend="177"/>
+    <listofallmembers>
+      <member refid="class_player_h_p_1af5914637d0ab354507078028dd2a7ec7" prot="public" virt="non-virtual"><scope>PlayerHP</scope><name>_currentHP</name></member>
+      <member refid="class_player_h_p_1ac4e6f7f52243a24ff2483afdbf8b5d5a" prot="private" virt="non-virtual"><scope>PlayerHP</scope><name>_statsSO</name></member>
+      <member refid="class_player_h_p_1ac8126a494f7fc0c8207d212dd1cecd4f" prot="private" virt="non-virtual"><scope>PlayerHP</scope><name>Awake</name></member>
+      <member refid="class_player_h_p_1a2ede69acff8406f924c4661198c80323" prot="public" virt="non-virtual"><scope>PlayerHP</scope><name>Changed</name></member>
+      <member refid="class_player_h_p_1a96e8c0a58a3538c568a41be4154af8c3" prot="public" virt="non-virtual"><scope>PlayerHP</scope><name>Damage</name></member>
+      <member refid="class_player_h_p_1acce7bb9a08f70d48821152292a96c836" prot="public" virt="non-virtual"><scope>PlayerHP</scope><name>DamageInPercent</name></member>
+      <member refid="class_player_h_p_1a0c217212f5696ca1a6b874dfb193555d" prot="private" virt="non-virtual"><scope>PlayerHP</scope><name>Death</name></member>
+      <member refid="class_player_h_p_1a1820fffa570c7d43314a449241c1c550" prot="public" virt="non-virtual"><scope>PlayerHP</scope><name>Heal</name></member>
+      <member refid="class_player_h_p_1a8496ac28a523479edd020c75e11f13cc" prot="private" virt="non-virtual"><scope>PlayerHP</scope><name>healCount</name></member>
+      <member refid="class_player_h_p_1a96a465e657e375b55bbfb8e0b6582205" prot="public" virt="non-virtual"><scope>PlayerHP</scope><name>HealInProcent</name></member>
+      <member refid="class_player_h_p_1a1ba9f69e3a1e054b70485cdba4e1bf9f" prot="public" virt="non-virtual"><scope>PlayerHP</scope><name>hitClip</name></member>
+      <member refid="class_player_h_p_1a0a65c4ea1236809e55716d3e6352a8ed" prot="public" virt="non-virtual"><scope>PlayerHP</scope><name>Instance</name></member>
+      <member refid="class_player_h_p_1a51e0f5d1c214f5b781ada0b4510d6133" prot="public" virt="non-virtual"><scope>PlayerHP</scope><name>isAlive</name></member>
+      <member refid="class_player_h_p_1a2c8e41558ea701b1f14d817440e13718" prot="public" virt="non-virtual"><scope>PlayerHP</scope><name>MaxHP</name></member>
+      <member refid="class_player_h_p_1a070ba9bfb99d7843fda6d599c0b42740" prot="public" virt="non-virtual"><scope>PlayerHP</scope><name>MaxHpChanged</name></member>
+      <member refid="class_player_h_p_1a2516692ec783eea4f4d42e70b18006e2" prot="public" virt="non-virtual"><scope>PlayerHP</scope><name>maxHPChanged</name></member>
+      <member refid="class_player_h_p_1a0d96f9551ae9d3c0a29a843d20c6ba95" prot="private" virt="non-virtual"><scope>PlayerHP</scope><name>OnDisable</name></member>
+      <member refid="class_player_h_p_1a53bd518e239b3bed020906eb985b383c" prot="private" virt="non-virtual"><scope>PlayerHP</scope><name>OnEnable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

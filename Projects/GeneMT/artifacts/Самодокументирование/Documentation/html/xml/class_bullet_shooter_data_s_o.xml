@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_bullet_shooter_data_s_o" kind="class" language="C#" prot="public">
+    <compoundname>BulletShooterDataSO</compoundname>
+    <basecompoundref refid="class_weapon_data_s_o" prot="public" virt="non-virtual">WeaponDataSO</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_bullet_shooter_data_s_o_1ae9110594b7d09a2c74003c6cc7ebac7e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float BulletShooterDataSO.bulletSpeed</definition>
+        <argsstring></argsstring>
+        <name>bulletSpeed</name>
+        <qualifiedname>BulletShooterDataSO.bulletSpeed</qualifiedname>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+<para>The bulletSpeed field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/BulletShooterDataSO.cs" line="13" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/BulletShooterDataSO.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_shooter_data_s_o_1ada9c548fcf3bab12ee40abcbb564ab08" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float BulletShooterDataSO.bulletLifetime</definition>
+        <argsstring></argsstring>
+        <name>bulletLifetime</name>
+        <qualifiedname>BulletShooterDataSO.bulletLifetime</qualifiedname>
+        <initializer>= 3f</initializer>
+        <briefdescription>
+<para>The bulletLifetime field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/BulletShooterDataSO.cs" line="17" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/BulletShooterDataSO.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_shooter_data_s_o_1a67b3656a98b82096d64340527f5111b6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BulletShooterDataSO.damageType</definition>
+        <argsstring></argsstring>
+        <name>damageType</name>
+        <qualifiedname>BulletShooterDataSO.damageType</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>The damageType field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/BulletShooterDataSO.cs" line="21" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/BulletShooterDataSO.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_shooter_data_s_o_1a0843f9e1c1fd76ed612ad53d4a38843b" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject BulletShooterDataSO.bulletPrefab</definition>
+        <argsstring></argsstring>
+        <name>bulletPrefab</name>
+        <qualifiedname>BulletShooterDataSO.bulletPrefab</qualifiedname>
+        <briefdescription>
+<para>The bulletPrefab field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/BulletShooterDataSO.cs" line="25" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/BulletShooterDataSO.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_bullet_shooter_data_s_o" kindref="compound">BulletShooterDataSO</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BulletShooterDataSO</label>
+        <link refid="class_bullet_shooter_data_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2">
+        <label>WeaponDataSO</label>
+        <link refid="class_weapon_data_s_o"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BulletShooterDataSO</label>
+        <link refid="class_bullet_shooter_data_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>LevelUpgrade</label>
+        <link refid="class_level_upgrade"/>
+      </node>
+      <node id="6">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="7">
+        <label>PlayerStatsSO</label>
+        <link refid="class_player_stats_s_o"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="8">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Weapon</label>
+        <link refid="class_weapon"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>playerStats</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>weaponData</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>WeaponDataSO</label>
+        <link refid="class_weapon_data_s_o"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>ExstraLevelUpgrades</edgelabel>
+          <edgelabel>levelUpgrades</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>currentWeapon</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/BulletShooterDataSO.cs" line="7" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/BulletShooterDataSO.cs" bodystart="8" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_weapon_data_s_o_1ab7620e616f0b39e0536fc1cf1753ad0d" prot="public" virt="non-virtual"><scope>BulletShooterDataSO</scope><name>baseCooldown</name></member>
+      <member refid="class_weapon_data_s_o_1a8d9837df8bf197ca66564ca9dc8eb6fd" prot="public" virt="non-virtual"><scope>BulletShooterDataSO</scope><name>baseDamage</name></member>
+      <member refid="class_bullet_shooter_data_s_o_1ada9c548fcf3bab12ee40abcbb564ab08" prot="public" virt="non-virtual"><scope>BulletShooterDataSO</scope><name>bulletLifetime</name></member>
+      <member refid="class_bullet_shooter_data_s_o_1a0843f9e1c1fd76ed612ad53d4a38843b" prot="public" virt="non-virtual"><scope>BulletShooterDataSO</scope><name>bulletPrefab</name></member>
+      <member refid="class_bullet_shooter_data_s_o_1ae9110594b7d09a2c74003c6cc7ebac7e" prot="public" virt="non-virtual"><scope>BulletShooterDataSO</scope><name>bulletSpeed</name></member>
+      <member refid="class_weapon_data_s_o_1abf5385414c24e8ac9f77a2bc5cf32809" prot="public" virt="non-virtual"><scope>BulletShooterDataSO</scope><name>currentWeapon</name></member>
+      <member refid="class_bullet_shooter_data_s_o_1a67b3656a98b82096d64340527f5111b6" prot="public" virt="non-virtual"><scope>BulletShooterDataSO</scope><name>damageType</name></member>
+      <member refid="class_weapon_data_s_o_1a926c3dcfea6f86858058ae9a107d85a3" prot="public" virt="non-virtual"><scope>BulletShooterDataSO</scope><name>description</name></member>
+      <member refid="class_weapon_data_s_o_1ac8e692a566c5d3a42a058fb622e9e7a4" prot="public" virt="non-virtual"><scope>BulletShooterDataSO</scope><name>ExstraLevelUpgrades</name></member>
+      <member refid="class_weapon_data_s_o_1a9bce137573a1b9f7e57f54f9e7cc8a90" prot="public" virt="non-virtual"><scope>BulletShooterDataSO</scope><name>icon</name></member>
+      <member refid="class_weapon_data_s_o_1a25f81e9866b5cbbdc78d1a6312e647b8" prot="public" virt="non-virtual"><scope>BulletShooterDataSO</scope><name>levelUpgrades</name></member>
+      <member refid="class_weapon_data_s_o_1a7869698de2be0b78f2acfed444e2719b" prot="public" virt="non-virtual"><scope>BulletShooterDataSO</scope><name>maxLevel</name></member>
+      <member refid="class_weapon_data_s_o_1ab1b2530bf67b1a4aad178ffa3116ef53" prot="public" virt="non-virtual"><scope>BulletShooterDataSO</scope><name>reputationsAmount</name></member>
+      <member refid="class_weapon_data_s_o_1ac81cda9ebc9463945fbf8a66508c82ae" prot="public" virt="non-virtual"><scope>BulletShooterDataSO</scope><name>shootClip</name></member>
+      <member refid="class_weapon_data_s_o_1a2b9fcf339120f50cf7298076aa573eef" prot="public" virt="non-virtual"><scope>BulletShooterDataSO</scope><name>weaponName</name></member>
+      <member refid="class_weapon_data_s_o_1adec276b0ba317b1b492abf4cf7ccaa9e" prot="public" virt="non-virtual"><scope>BulletShooterDataSO</scope><name>weaponType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

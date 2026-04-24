@@ -1,0 +1,5 @@
+<map id="FlexibleUIMover.MoveToTargetPositions" name="FlexibleUIMover.MoveToTargetPositions">
+<area shape="rect" id="Node000001" title="Moves the object." alt="" coords="5,5,208,48"/>
+<area shape="rect" id="Node000002" href="$class_flexible_u_i_mover.html#a5bf53a3f8ec7939b595eebef2f673b38" title="Executes the SwitchAllElements operation." alt="" coords="256,5,431,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,24,243,27,237,27,208,29"/>
+</map>

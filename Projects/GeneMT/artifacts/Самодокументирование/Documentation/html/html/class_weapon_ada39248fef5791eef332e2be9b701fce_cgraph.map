@@ -1,0 +1,5 @@
+<map id="Weapon.Awake" name="Weapon.Awake">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,118,32"/>
+<area shape="rect" id="Node000002" href="$class_weapon.html#a9182d6c16efa79826dbe1a268f430594" title=" " alt="" coords="166,5,333,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,16,153,18,147,19,118,21"/>
+</map>

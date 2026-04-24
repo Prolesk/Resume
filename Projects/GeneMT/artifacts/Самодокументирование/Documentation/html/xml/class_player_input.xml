@@ -1,0 +1,452 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_player_input" kind="class" language="C#" prot="public">
+    <compoundname>PlayerInput</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IInputActionCollection2</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <innerclass refid="struct_player_input_1_1_player_actions" prot="public">PlayerInput::PlayerActions</innerclass>
+    <innerclass refid="interface_player_input_1_1_i_player_actions" prot="public">PlayerInput::IPlayerActions</innerclass>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_player_input_1a61df2216f42b3671f9ddb7852b06ee3a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputActionAsset</type>
+        <definition>InputActionAsset PlayerInput.asset</definition>
+        <argsstring></argsstring>
+        <name>asset</name>
+        <qualifiedname>PlayerInput.asset</qualifiedname>
+        <briefdescription>
+<para>Provides access to the underlying asset instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="80" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="80" bodyend="80"/>
+        <referencedby refid="class_player_input_1a0d588d48ccbe392b69401b4ae4f4bebf" compoundref="_player_input_8cs" startline="234" endline="237">Contains</referencedby>
+        <referencedby refid="class_player_input_1a01d0c1c799ae614a0ed406f88d0eae5c" compoundref="_player_input_8cs" startline="258" endline="261">Disable</referencedby>
+        <referencedby refid="class_player_input_1a4c545a7cc61eae7ccd7b07000b413841" compoundref="_player_input_8cs" startline="211" endline="214">Dispose</referencedby>
+        <referencedby refid="class_player_input_1a63f00af6311db959534f1d0095df01a0" compoundref="_player_input_8cs" startline="252" endline="255">Enable</referencedby>
+        <referencedby refid="class_player_input_1a4fc164e57be3599f5c5bb93d2fff74f8" compoundref="_player_input_8cs" startline="267" endline="270">FindAction</referencedby>
+        <referencedby refid="class_player_input_1a96e441ebd1434f66de91d281377050bb" compoundref="_player_input_8cs" startline="273" endline="276">FindBinding</referencedby>
+        <referencedby refid="class_player_input_1acdc36e3c41e21aa40fa83210af0fcbe6" compoundref="_player_input_8cs" startline="240" endline="243">GetEnumerator</referencedby>
+        <referencedby refid="class_player_input_1a38dde73fa051405778d6cc5aa0a25097" compoundref="_player_input_8cs" startline="85" endline="201">PlayerInput</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_player_input_1a1a729dccae8a70b742edfbc94138467b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>InputBinding?</type>
+        <definition>InputBinding? PlayerInput.bindingMask</definition>
+        <argsstring></argsstring>
+        <name>bindingMask</name>
+        <qualifiedname>PlayerInput.bindingMask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="217" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="218" bodyend="221"/>
+        <referencedby refid="class_player_input_1a96e441ebd1434f66de91d281377050bb" compoundref="_player_input_8cs" startline="273" endline="276">FindBinding</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_player_input_1abefe1889fbed4be795fc9ccbc73998f1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ReadOnlyArray&lt; InputDevice &gt;?</type>
+        <definition>ReadOnlyArray&lt;InputDevice&gt;? PlayerInput.devices</definition>
+        <argsstring></argsstring>
+        <name>devices</name>
+        <qualifiedname>PlayerInput.devices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="224" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="225" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_input_1a69019e0fc67c39026a5f078ab43cd4f1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ReadOnlyArray&lt; InputControlScheme &gt;</type>
+        <definition>ReadOnlyArray&lt;InputControlScheme&gt; PlayerInput.controlSchemes</definition>
+        <argsstring></argsstring>
+        <name>controlSchemes</name>
+        <qualifiedname>PlayerInput.controlSchemes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="231" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_input_1a06b227bd8739d554f7f918c40435f2dd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; InputBinding &gt;</type>
+        <definition>IEnumerable&lt;InputBinding&gt; PlayerInput.bindings</definition>
+        <argsstring></argsstring>
+        <name>bindings</name>
+        <qualifiedname>PlayerInput.bindings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="264" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_input_1a9dbff812aee8e2525b1bab7f4bc50064" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_player_input_1_1_player_actions" kindref="compound">PlayerActions</ref></type>
+        <definition>PlayerActions PlayerInput.Player</definition>
+        <argsstring></argsstring>
+        <name>Player</name>
+        <qualifiedname>PlayerInput.Player</qualifiedname>
+        <briefdescription>
+<para>Provides a new <ref refid="struct_player_input_1_1_player_actions" kindref="compound">PlayerActions</ref> instance referencing this action map. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="383" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="383" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_input_1a4cbe73b473d97426dc3fd011adc5d45b" prot="private" static="no" mutable="no">
+        <type>readonly InputActionMap</type>
+        <definition>readonly InputActionMap PlayerInput.m_Player</definition>
+        <argsstring></argsstring>
+        <name>m_Player</name>
+        <qualifiedname>PlayerInput.m_Player</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="279" column="37" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_1a8493a4520d7dbd327cc376fc74a8111f" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="interface_player_input_1_1_i_player_actions" kindref="compound">IPlayerActions</ref> &gt;</type>
+        <definition>List&lt;IPlayerActions&gt; PlayerInput.m_PlayerActionsCallbackInterfaces</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerActionsCallbackInterfaces</name>
+        <qualifiedname>PlayerInput.m_PlayerActionsCallbackInterfaces</qualifiedname>
+        <initializer>= new List&lt;<ref refid="interface_player_input_1_1_i_player_actions" kindref="compound">IPlayerActions</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="280" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_1a28fb9c9ebaaba9a0ccf3e68eda46424d" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInput.m_Player_Move</definition>
+        <argsstring></argsstring>
+        <name>m_Player_Move</name>
+        <qualifiedname>PlayerInput.m_Player_Move</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="281" column="34" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_1aa4ccbfa94d8afde40bfee3cd2afa2483" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInput.m_Player_Click</definition>
+        <argsstring></argsstring>
+        <name>m_Player_Click</name>
+        <qualifiedname>PlayerInput.m_Player_Click</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="282" column="34" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="282" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_input_1a38dde73fa051405778d6cc5aa0a25097" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PlayerInput.PlayerInput</definition>
+        <argsstring>()</argsstring>
+        <name>PlayerInput</name>
+        <qualifiedname>PlayerInput.PlayerInput</qualifiedname>
+        <briefdescription>
+<para>Constructs a new instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="85" column="12" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="85" bodyend="201"/>
+        <references refid="class_player_input_1a61df2216f42b3671f9ddb7852b06ee3a" compoundref="_player_input_8cs" startline="80" endline="80">asset</references>
+        <referencedby refid="struct_player_input_1_1_player_actions_1a67cf617b5da15ba06bb8edaab41198a1" compoundref="_player_input_8cs" startline="293" endline="293">PlayerInput.PlayerActions.PlayerActions</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_input_1a4c545a7cc61eae7ccd7b07000b413841" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerInput.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>PlayerInput.Dispose</qualifiedname>
+        <briefdescription>
+<para>Destroys this asset and all associated InputAction instances. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="211" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="211" bodyend="214"/>
+        <references refid="class_player_input_1a61df2216f42b3671f9ddb7852b06ee3a" compoundref="_player_input_8cs" startline="80" endline="80">asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_input_1a0d588d48ccbe392b69401b4ae4f4bebf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PlayerInput.Contains</definition>
+        <argsstring>(InputAction action)</argsstring>
+        <name>Contains</name>
+        <qualifiedname>PlayerInput.Contains</qualifiedname>
+        <param>
+          <type>InputAction</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="234" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="234" bodyend="237"/>
+        <references refid="class_player_input_1a61df2216f42b3671f9ddb7852b06ee3a" compoundref="_player_input_8cs" startline="80" endline="80">asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_input_1acdc36e3c41e21aa40fa83210af0fcbe6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; InputAction &gt;</type>
+        <definition>IEnumerator&lt; InputAction &gt; PlayerInput.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>PlayerInput.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="240" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="240" bodyend="243"/>
+        <references refid="class_player_input_1a61df2216f42b3671f9ddb7852b06ee3a" compoundref="_player_input_8cs" startline="80" endline="80">asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_input_1a63f00af6311db959534f1d0095df01a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerInput.Enable</definition>
+        <argsstring>()</argsstring>
+        <name>Enable</name>
+        <qualifiedname>PlayerInput.Enable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="252" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="252" bodyend="255"/>
+        <references refid="class_player_input_1a61df2216f42b3671f9ddb7852b06ee3a" compoundref="_player_input_8cs" startline="80" endline="80">asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_input_1a01d0c1c799ae614a0ed406f88d0eae5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerInput.Disable</definition>
+        <argsstring>()</argsstring>
+        <name>Disable</name>
+        <qualifiedname>PlayerInput.Disable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="258" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="258" bodyend="261"/>
+        <references refid="class_player_input_1a61df2216f42b3671f9ddb7852b06ee3a" compoundref="_player_input_8cs" startline="80" endline="80">asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_input_1a4fc164e57be3599f5c5bb93d2fff74f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>InputAction</type>
+        <definition>InputAction PlayerInput.FindAction</definition>
+        <argsstring>(string actionNameOrId, bool throwIfNotFound=false)</argsstring>
+        <name>FindAction</name>
+        <qualifiedname>PlayerInput.FindAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>actionNameOrId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>throwIfNotFound</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="267" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="267" bodyend="270"/>
+        <references refid="class_player_input_1a61df2216f42b3671f9ddb7852b06ee3a" compoundref="_player_input_8cs" startline="80" endline="80">asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_input_1a96e441ebd1434f66de91d281377050bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int PlayerInput.FindBinding</definition>
+        <argsstring>(InputBinding bindingMask, out InputAction action)</argsstring>
+        <name>FindBinding</name>
+        <qualifiedname>PlayerInput.FindBinding</qualifiedname>
+        <param>
+          <type>InputBinding</type>
+          <declname>bindingMask</declname>
+        </param>
+        <param>
+          <type>out InputAction</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="273" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="273" bodyend="276"/>
+        <references refid="class_player_input_1a61df2216f42b3671f9ddb7852b06ee3a" compoundref="_player_input_8cs" startline="80" endline="80">asset</references>
+        <references refid="class_player_input_1a1a729dccae8a70b742edfbc94138467b" compoundref="_player_input_8cs" startline="218" endline="221">bindingMask</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_input_1a38dde73fa051405778d6cc5aa0a25097" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PlayerInput.PlayerInput</definition>
+        <argsstring>()</argsstring>
+        <name>PlayerInput</name>
+        <qualifiedname>PlayerInput.PlayerInput</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="203" column="5" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="203" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_input_1a62c2f87248e9de4cfc1f35d45a20719e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator IEnumerable.</type>
+        <definition>IEnumerator IEnumerable. PlayerInput.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>PlayerInput.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="246" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="246" bodyend="249"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Provides programmatic access to InputActionAsset, InputActionMap, InputAction and InputControlScheme instances defined in asset &quot;Assets/Scripts/PlayerInput.inputactions&quot;. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This class is source generated and any manual edits will be discarded if the associated asset is reimported or modified. </para>
+<para><programlisting filename=".cs"><codeline><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine.InputSystem;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="comment">//<sp/>Example<sp/>of<sp/>using<sp/>an<sp/>InputActionMap<sp/>named<sp/>&quot;Player&quot;<sp/>from<sp/>a<sp/>UnityEngine.MonoBehaviour<sp/>implementing<sp/>callback<sp/>interface.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Example<sp/>:<sp/>MonoBehaviour,<sp/>MyActions.<ref refid="interface_player_input_1_1_i_player_actions" kindref="compound">IPlayerActions</ref></highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>MyActions_Actions<sp/>m_Actions;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Source<sp/>code<sp/>representation<sp/>of<sp/>asset.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>MyActions_Actions.PlayerActions<sp/>m_Player;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Source<sp/>code<sp/>representation<sp/>of<sp/>action<sp/>map.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Awake()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_Actions<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>MyActions_Actions();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>asset<sp/>object.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_Player<sp/>=<sp/>m_Actions.Player;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Extract<sp/>action<sp/>map<sp/>object.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_Player.AddCallbacks(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Register<sp/>callback<sp/>interface<sp/>IPlayerActions.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnDestroy()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_Actions.Dispose();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Destroy<sp/>asset<sp/>object.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnEnable()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_Player.Enable();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Enable<sp/>all<sp/>actions<sp/>within<sp/>map.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnDisable()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_Player.Disable();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Disable<sp/>all<sp/>actions<sp/>within<sp/>map.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#region<sp/>Interface<sp/>implementation<sp/>of<sp/>MyActions.IPlayerActions</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Invoked<sp/>when<sp/>&quot;Move&quot;<sp/>action<sp/>is<sp/>either<sp/>started,<sp/>performed<sp/>or<sp/>canceled.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnMove(InputAction.CallbackContext<sp/>context)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.Log($</highlight><highlight class="stringliteral">&quot;OnMove:<sp/>{context.ReadValue&lt;Vector2&gt;()}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Invoked<sp/>when<sp/>&quot;Attack&quot;<sp/>action<sp/>is<sp/>either<sp/>started,<sp/>performed<sp/>or<sp/>canceled.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnAttack(InputAction.CallbackContext<sp/>context)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.Log($</highlight><highlight class="stringliteral">&quot;OnAttack:<sp/>{context.ReadValue&lt;float&gt;()}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+      <node id="2">
+        <label>IInputActionCollection2</label>
+      </node>
+      <node id="1">
+        <label>PlayerInput</label>
+        <link refid="class_player_input"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+      <node id="2">
+        <label>IInputActionCollection2</label>
+      </node>
+      <node id="1">
+        <label>PlayerInput</label>
+        <link refid="class_player_input"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="75" column="15" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="76" bodyend="406"/>
+    <listofallmembers>
+      <member refid="class_player_input_1a61df2216f42b3671f9ddb7852b06ee3a" prot="public" virt="non-virtual"><scope>PlayerInput</scope><name>asset</name></member>
+      <member refid="class_player_input_1a1a729dccae8a70b742edfbc94138467b" prot="public" virt="non-virtual"><scope>PlayerInput</scope><name>bindingMask</name></member>
+      <member refid="class_player_input_1a06b227bd8739d554f7f918c40435f2dd" prot="public" virt="non-virtual"><scope>PlayerInput</scope><name>bindings</name></member>
+      <member refid="class_player_input_1a0d588d48ccbe392b69401b4ae4f4bebf" prot="public" virt="non-virtual"><scope>PlayerInput</scope><name>Contains</name></member>
+      <member refid="class_player_input_1a69019e0fc67c39026a5f078ab43cd4f1" prot="public" virt="non-virtual"><scope>PlayerInput</scope><name>controlSchemes</name></member>
+      <member refid="class_player_input_1abefe1889fbed4be795fc9ccbc73998f1" prot="public" virt="non-virtual"><scope>PlayerInput</scope><name>devices</name></member>
+      <member refid="class_player_input_1a01d0c1c799ae614a0ed406f88d0eae5c" prot="public" virt="non-virtual"><scope>PlayerInput</scope><name>Disable</name></member>
+      <member refid="class_player_input_1a4c545a7cc61eae7ccd7b07000b413841" prot="public" virt="non-virtual"><scope>PlayerInput</scope><name>Dispose</name></member>
+      <member refid="class_player_input_1a63f00af6311db959534f1d0095df01a0" prot="public" virt="non-virtual"><scope>PlayerInput</scope><name>Enable</name></member>
+      <member refid="class_player_input_1a4fc164e57be3599f5c5bb93d2fff74f8" prot="public" virt="non-virtual"><scope>PlayerInput</scope><name>FindAction</name></member>
+      <member refid="class_player_input_1a96e441ebd1434f66de91d281377050bb" prot="public" virt="non-virtual"><scope>PlayerInput</scope><name>FindBinding</name></member>
+      <member refid="class_player_input_1acdc36e3c41e21aa40fa83210af0fcbe6" prot="public" virt="non-virtual"><scope>PlayerInput</scope><name>GetEnumerator</name></member>
+      <member refid="class_player_input_1a62c2f87248e9de4cfc1f35d45a20719e" prot="private" virt="non-virtual"><scope>PlayerInput</scope><name>GetEnumerator</name></member>
+      <member refid="class_player_input_1a4cbe73b473d97426dc3fd011adc5d45b" prot="private" virt="non-virtual"><scope>PlayerInput</scope><name>m_Player</name></member>
+      <member refid="class_player_input_1aa4ccbfa94d8afde40bfee3cd2afa2483" prot="private" virt="non-virtual"><scope>PlayerInput</scope><name>m_Player_Click</name></member>
+      <member refid="class_player_input_1a28fb9c9ebaaba9a0ccf3e68eda46424d" prot="private" virt="non-virtual"><scope>PlayerInput</scope><name>m_Player_Move</name></member>
+      <member refid="class_player_input_1a8493a4520d7dbd327cc376fc74a8111f" prot="private" virt="non-virtual"><scope>PlayerInput</scope><name>m_PlayerActionsCallbackInterfaces</name></member>
+      <member refid="class_player_input_1a9dbff812aee8e2525b1bab7f4bc50064" prot="public" virt="non-virtual"><scope>PlayerInput</scope><name>Player</name></member>
+      <member refid="class_player_input_1a38dde73fa051405778d6cc5aa0a25097" prot="public" virt="non-virtual"><scope>PlayerInput</scope><name>PlayerInput</name></member>
+      <member refid="class_player_input_1a38dde73fa051405778d6cc5aa0a25097" prot="private" virt="non-virtual"><scope>PlayerInput</scope><name>PlayerInput</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

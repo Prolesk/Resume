@@ -1,0 +1,19 @@
+<map id="BulletShooterDataSO" name="BulletShooterDataSO">
+<area shape="rect" id="Node000001" title="The BulletShooterDataSO class." alt="" coords="5,300,152,327"/>
+<area shape="rect" id="Node000002" href="$class_weapon_data_s_o.html" title="The WeaponDataSO class." alt="" coords="110,201,226,228"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,234,99,254,87,277,82,301,77,298,82,275,95,250,115,237"/>
+<area shape="rect" id="Node000005" href="$class_weapon.html" title=" " alt="" coords="258,300,326,327"/>
+<area shape="poly" id="edge9_Node000005_Node000002" title=" " alt="" coords="133,236,123,253,119,264,122,274,143,287,179,297,260,309,255,310,178,302,141,292,118,278,113,265,118,251,129,239"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="125,5,242,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="184,46,171,201,166,200,179,49"/>
+<area shape="rect" id="Node000008" href="$class_singleton_scriptable_object-1-g.html" title=" " alt="" coords="333,81,536,108"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="241,34,394,79,389,82,241,39"/>
+<area shape="rect" id="Node000004" href="$class_level_upgrade.html" title="The LevelUpgrade class." alt="" coords="205,81,306,108"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="239,119,179,203,175,199,235,122"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="252,292,228,278,180,231,182,226,232,274,257,292"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="271,201,382,228"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="335,241,337,260,333,277,324,291,312,302,310,297,320,287,328,275,332,260,332,246"/>
+<area shape="rect" id="Node000007" href="$class_player_stats_s_o.html" title="The PlayerStatsSO class." alt="" coords="406,201,514,228"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="427,236,315,302,313,297,422,237"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="442,121,460,202,455,200,439,126"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Generation.AddQuestsToTiles" name="Generation.AddQuestsToTiles">
+<area shape="rect" id="Node000001" title="Adds QuestsToTiles." alt="" coords="220,5,415,32"/>
+<area shape="rect" id="Node000002" href="$class_generation.html#a0afdceb93ad62b910ee4d733623bec9f" title="Generates Map." alt="" coords="5,5,172,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,19,172,21,172,16,207,19"/>
+</map>

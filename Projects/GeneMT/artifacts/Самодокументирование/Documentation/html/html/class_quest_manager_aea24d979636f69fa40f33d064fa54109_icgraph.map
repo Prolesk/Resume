@@ -1,0 +1,11 @@
+<map id="QuestManager.UnregisterQuest" name="QuestManager.UnregisterQuest">
+<area shape="rect" id="Node000001" title="Executes the UnregisterQuest operation." alt="" coords="265,109,470,136"/>
+<area shape="rect" id="Node000002" href="$class_blood_experiment_quest.html#af4a8cf7ad20d8dc5589b52e4af65b569" title=" " alt="" coords="5,5,217,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="319,104,216,62,184,51,184,46,218,58,324,102"/>
+<area shape="rect" id="Node000003" href="$class_enemy_killer_quest.html#adf9a97fd5df16e793bb0dece37d82340" title=" " alt="" coords="20,72,202,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="247,110,203,106,202,101,252,108"/>
+<area shape="rect" id="Node000004" href="$class_gather_gas_quest.html#a9fcce40f948fdb3796f5422fecf6d2fd" title=" " alt="" coords="6,139,216,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="246,137,217,143,216,137,252,135"/>
+<area shape="rect" id="Node000005" href="$class_magic_blizzard_quest.html#a94cb3cc20f8504d8229df3cabec85c08" title=" " alt="" coords="14,189,208,232"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="318,141,218,180,183,191,181,186,216,175,312,143"/>
+</map>

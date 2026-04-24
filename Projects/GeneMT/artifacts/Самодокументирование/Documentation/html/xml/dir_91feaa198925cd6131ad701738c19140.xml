@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_91feaa198925cd6131ad701738c19140" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations</compoundname>
+    <innerdir refid="dir_65c899ec4a1cc0335f97f08e01c7c7ed">C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsSO</innerdir>
+    <innerdir refid="dir_e79fec2f161044e6ff0447aad0ebc86b">C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsUI</innerdir>
+    <innerfile refid="_chest_8cs">Chest.cs</innerfile>
+    <innerfile refid="_mutation_controller_s_o_8cs">MutationControllerSO.cs</innerfile>
+    <innerfile refid="_mutation_data_s_o_8cs">MutationDataSO.cs</innerfile>
+    <innerfile refid="_mutation_delete_test_8cs">MutationDeleteTest.cs</innerfile>
+    <innerfile refid="_mutation_picker_test_8cs">MutationPickerTest.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/"/>
+  </compounddef>
+</doxygen>

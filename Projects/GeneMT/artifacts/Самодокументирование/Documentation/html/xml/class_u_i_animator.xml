@@ -1,0 +1,862 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_u_i_animator" kind="class" language="C#" prot="public">
+    <compoundname>UIAnimator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_u_i_animator_1afb49115bdb4bf05d22e4f7d081a18c18" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>AnimationType</name>
+        <qualifiedname>UIAnimator.AnimationType</qualifiedname>
+        <enumvalue id="class_u_i_animator_1afb49115bdb4bf05d22e4f7d081a18c18aecfcac7232fa7dd4006207b74ff5ba6d" prot="public">
+          <name>ScaleUp</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_u_i_animator_1afb49115bdb4bf05d22e4f7d081a18c18a7eceaa1479b5b4cdea7c6d1cce219f77" prot="public">
+          <name>SlideFromLeft</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_u_i_animator_1afb49115bdb4bf05d22e4f7d081a18c18af744d5bd565fba1a73e8d920271ff752" prot="public">
+          <name>SlideFromRight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_u_i_animator_1afb49115bdb4bf05d22e4f7d081a18c18a1798106aa3a86db45ce376cbe5de5875" prot="public">
+          <name>SlideFromBottom</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_u_i_animator_1afb49115bdb4bf05d22e4f7d081a18c18ad0c0f4c9fa33f30a64ebc4b5513f0723" prot="public">
+          <name>SlideFromTop</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_u_i_animator_1afb49115bdb4bf05d22e4f7d081a18c18a294f48edd972b58ced15c2284db56f82" prot="public">
+          <name>FadeIn</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_u_i_animator_1afb49115bdb4bf05d22e4f7d081a18c18aeb9a56428f85bbdfd3846322baaffe6e" prot="public">
+          <name>Bounce</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_u_i_animator_1afb49115bdb4bf05d22e4f7d081a18c18a9ffbd422925a6839ee820ddbc59278c5" prot="public">
+          <name>Flip</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_u_i_animator_1afb49115bdb4bf05d22e4f7d081a18c18aec8374db32bacb4cd9760199ec42819e" prot="public">
+          <name>Pulse</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_u_i_animator_1afb49115bdb4bf05d22e4f7d081a18c18a968818e489bac02c58d8b0e5a348a229" prot="public">
+          <name>Shake</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="9" column="11" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="10" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_u_i_animator_1ae6c4b617a9c015ec75694d1be1abe91a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_u_i_animator_1afb49115bdb4bf05d22e4f7d081a18c18" kindref="member">AnimationType</ref></type>
+        <definition>AnimationType UIAnimator.animationType</definition>
+        <argsstring></argsstring>
+        <name>animationType</name>
+        <qualifiedname>UIAnimator.animationType</qualifiedname>
+        <initializer>= <ref refid="class_u_i_animator_1afb49115bdb4bf05d22e4f7d081a18c18aecfcac7232fa7dd4006207b74ff5ba6d" kindref="member">AnimationType.ScaleUp</ref></initializer>
+        <briefdescription>
+<para>The animationType field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="27" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_u_i_animator_1ab9144ad48ec06514ab064ec4b88c36af" compoundref="_u_i_animator_8cs" startline="119" endline="178">AnimateIn</referencedby>
+        <referencedby refid="class_u_i_animator_1a9fc9d58019303f696010bbb0107b7b2c" compoundref="_u_i_animator_8cs" startline="183" endline="223">AnimateOut</referencedby>
+        <referencedby refid="class_u_i_animator_1ab9a7d6bf1f44a2e079c74cc822336feb" compoundref="_u_i_animator_8cs" startline="337" endline="341">PlayAnimation</referencedby>
+        <referencedby refid="class_u_i_animator_1a08577148394a24ed409a85a15e43daae" compoundref="_u_i_animator_8cs" startline="405" endline="411">PlayAttentionBounce</referencedby>
+        <referencedby refid="class_u_i_animator_1a7c4c415bce9e9ca5ace9cf69953d13e3" compoundref="_u_i_animator_8cs" startline="383" endline="389">PlayQuickScaleUp</referencedby>
+        <referencedby refid="class_u_i_animator_1a63a086e57986a15c4ef23fad603d038b" compoundref="_u_i_animator_8cs" startline="394" endline="400">PlaySmoothFade</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_animator_1a42873965a632de7a7d1a2883cce0e064" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UIAnimator.duration</definition>
+        <argsstring></argsstring>
+        <name>duration</name>
+        <qualifiedname>UIAnimator.duration</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+<para>The duration field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="31" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_u_i_animator_1a8dfa4d7ef15149a849ebfd4d372489fd" compoundref="_u_i_animator_8cs" startline="324" endline="330">AnimateInCustom</referencedby>
+        <referencedby refid="class_u_i_animator_1a9fc9d58019303f696010bbb0107b7b2c" compoundref="_u_i_animator_8cs" startline="183" endline="223">AnimateOut</referencedby>
+        <referencedby refid="class_u_i_animator_1a08577148394a24ed409a85a15e43daae" compoundref="_u_i_animator_8cs" startline="405" endline="411">PlayAttentionBounce</referencedby>
+        <referencedby refid="class_u_i_animator_1a7c4c415bce9e9ca5ace9cf69953d13e3" compoundref="_u_i_animator_8cs" startline="383" endline="389">PlayQuickScaleUp</referencedby>
+        <referencedby refid="class_u_i_animator_1a63a086e57986a15c4ef23fad603d038b" compoundref="_u_i_animator_8cs" startline="394" endline="400">PlaySmoothFade</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_animator_1a71a85975b7f5ad39dfe25879ed8d016d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UIAnimator.delay</definition>
+        <argsstring></argsstring>
+        <name>delay</name>
+        <qualifiedname>UIAnimator.delay</qualifiedname>
+        <initializer>= 0f</initializer>
+        <briefdescription>
+<para>The delay field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="35" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_u_i_animator_1a8dfa4d7ef15149a849ebfd4d372489fd" compoundref="_u_i_animator_8cs" startline="324" endline="330">AnimateInCustom</referencedby>
+        <referencedby refid="class_u_i_animator_1a9fc9d58019303f696010bbb0107b7b2c" compoundref="_u_i_animator_8cs" startline="183" endline="223">AnimateOut</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_animator_1a4705ac5ee46c36faf4789828b9073121" prot="public" static="no" mutable="no">
+        <type>Ease</type>
+        <definition>Ease UIAnimator.easeType</definition>
+        <argsstring></argsstring>
+        <name>easeType</name>
+        <qualifiedname>UIAnimator.easeType</qualifiedname>
+        <initializer>= Ease.OutBack</initializer>
+        <briefdescription>
+<para>The easeType field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="39" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_u_i_animator_1a8dfa4d7ef15149a849ebfd4d372489fd" compoundref="_u_i_animator_8cs" startline="324" endline="330">AnimateInCustom</referencedby>
+        <referencedby refid="class_u_i_animator_1a9fc9d58019303f696010bbb0107b7b2c" compoundref="_u_i_animator_8cs" startline="183" endline="223">AnimateOut</referencedby>
+        <referencedby refid="class_u_i_animator_1a63a086e57986a15c4ef23fad603d038b" compoundref="_u_i_animator_8cs" startline="394" endline="400">PlaySmoothFade</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_animator_1a950ae1f971a8c38cdc78a4666881f56b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UIAnimator.strength</definition>
+        <argsstring></argsstring>
+        <name>strength</name>
+        <qualifiedname>UIAnimator.strength</qualifiedname>
+        <initializer>= 1.2f</initializer>
+        <briefdescription>
+<para>The strength field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="45" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_u_i_animator_1a08577148394a24ed409a85a15e43daae" compoundref="_u_i_animator_8cs" startline="405" endline="411">PlayAttentionBounce</referencedby>
+        <referencedby refid="class_u_i_animator_1a7c4c415bce9e9ca5ace9cf69953d13e3" compoundref="_u_i_animator_8cs" startline="383" endline="389">PlayQuickScaleUp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_animator_1a6c2596cb4c483272b7e16e6a5240b8a3" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UIAnimator.slideOffset</definition>
+        <argsstring></argsstring>
+        <name>slideOffset</name>
+        <qualifiedname>UIAnimator.slideOffset</qualifiedname>
+        <initializer>= new Vector3(100, 0, 0)</initializer>
+        <briefdescription>
+<para>The slideOffset field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="49" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_animator_1a65e626eed1974605d33954c80b72b1af" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UIAnimator.animateOnEnable</definition>
+        <argsstring></argsstring>
+        <name>animateOnEnable</name>
+        <qualifiedname>UIAnimator.animateOnEnable</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>The animateOnEnable field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="55" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_animator_1a1153039c1769e09ca5eec81a4b38ecde" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UIAnimator.animateOnStart</definition>
+        <argsstring></argsstring>
+        <name>animateOnStart</name>
+        <qualifiedname>UIAnimator.animateOnStart</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>The animateOnStart field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="59" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_animator_1a530549b3b9a599aac23574d9e831036c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UIAnimator.resetOnDisable</definition>
+        <argsstring></argsstring>
+        <name>resetOnDisable</name>
+        <qualifiedname>UIAnimator.resetOnDisable</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>The resetOnDisable field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="63" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_animator_1a6954e0555c98c441a158ea2561789a22" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UIAnimator.ignoreTimescale</definition>
+        <argsstring></argsstring>
+        <name>ignoreTimescale</name>
+        <qualifiedname>UIAnimator.ignoreTimescale</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>The ignoreTimescale field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="69" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="69" bodyend="-1"/>
+        <referencedby refid="class_u_i_animator_1a9fc9d58019303f696010bbb0107b7b2c" compoundref="_u_i_animator_8cs" startline="183" endline="223">AnimateOut</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_u_i_animator_1ad2c33883210389347b9b6ddad9faf974" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UIAnimator.originalPosition</definition>
+        <argsstring></argsstring>
+        <name>originalPosition</name>
+        <qualifiedname>UIAnimator.originalPosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="71" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_animator_1aafb51e7e4c843723cf46769bd9b76b2c" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UIAnimator.originalScale</definition>
+        <argsstring></argsstring>
+        <name>originalScale</name>
+        <qualifiedname>UIAnimator.originalScale</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="72" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_animator_1a7c5b0eba2c5517c5a99ec8d72f7f44cc" prot="private" static="no" mutable="no">
+        <type>CanvasGroup</type>
+        <definition>CanvasGroup UIAnimator.canvasGroup</definition>
+        <argsstring></argsstring>
+        <name>canvasGroup</name>
+        <qualifiedname>UIAnimator.canvasGroup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="73" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_animator_1a9b6114bf4d227e6c9345a41b00224a5f" prot="private" static="no" mutable="no">
+        <type>Tween</type>
+        <definition>Tween UIAnimator.currentTween</definition>
+        <argsstring></argsstring>
+        <name>currentTween</name>
+        <qualifiedname>UIAnimator.currentTween</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="74" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_u_i_animator_1af95e3237174ffcf5cac6dc1128734f98" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>UIAnimator.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="76" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="76" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1a77bb4576e95738933150f5d67bddc5d3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>UIAnimator.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="84" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="84" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1aab3f37c3edb4e2884bf430a6407cf6a8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>UIAnimator.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="92" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="92" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1a059424970d84218f13adc328510746c5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.ResetToOriginal</definition>
+        <argsstring>()</argsstring>
+        <name>ResetToOriginal</name>
+        <qualifiedname>UIAnimator.ResetToOriginal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="105" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="105" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1ad8df71f80420cc0306d2c97d67555279" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.AnimateScaleUp</definition>
+        <argsstring>()</argsstring>
+        <name>AnimateScaleUp</name>
+        <qualifiedname>UIAnimator.AnimateScaleUp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="225" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="225" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1a174734f6407a2c1743f6115b79fd9a9d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.AnimateSlide</definition>
+        <argsstring>(Vector3 direction)</argsstring>
+        <name>AnimateSlide</name>
+        <qualifiedname>UIAnimator.AnimateSlide</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>direction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="240" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="240" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1a1205f8cd480729691f89fa46a645a13f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.AnimateFadeIn</definition>
+        <argsstring>()</argsstring>
+        <name>AnimateFadeIn</name>
+        <qualifiedname>UIAnimator.AnimateFadeIn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="256" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="256" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1a048595663b89cf6336cce10fd82fbb02" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.AnimateBounce</definition>
+        <argsstring>()</argsstring>
+        <name>AnimateBounce</name>
+        <qualifiedname>UIAnimator.AnimateBounce</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="268" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="268" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1ad39cbd84590e9fa57b0a0b42a7cc009d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.AnimateFlip</definition>
+        <argsstring>()</argsstring>
+        <name>AnimateFlip</name>
+        <qualifiedname>UIAnimator.AnimateFlip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="282" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="282" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1a88cb1b50755d048bd03996b82f4d5982" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.AnimatePulse</definition>
+        <argsstring>()</argsstring>
+        <name>AnimatePulse</name>
+        <qualifiedname>UIAnimator.AnimatePulse</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="292" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="292" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1a11a333a3dcee6fe54b02a62f3494ec86" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.AnimateShake</definition>
+        <argsstring>()</argsstring>
+        <name>AnimateShake</name>
+        <qualifiedname>UIAnimator.AnimateShake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="310" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="310" bodyend="315"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_u_i_animator_1ab9144ad48ec06514ab064ec4b88c36af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.AnimateIn</definition>
+        <argsstring>()</argsstring>
+        <name>AnimateIn</name>
+        <qualifiedname>UIAnimator.AnimateIn</qualifiedname>
+        <briefdescription>
+<para>Executes the AnimateIn operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="119" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="119" bodyend="178"/>
+        <references refid="class_u_i_animator_1ae6c4b617a9c015ec75694d1be1abe91a" compoundref="_u_i_animator_8cs" startline="27">animationType</references>
+        <referencedby refid="class_u_i_animator_1a8dfa4d7ef15149a849ebfd4d372489fd" compoundref="_u_i_animator_8cs" startline="324" endline="330">AnimateInCustom</referencedby>
+        <referencedby refid="class_u_i_animator_1ab9a7d6bf1f44a2e079c74cc822336feb" compoundref="_u_i_animator_8cs" startline="337" endline="341">PlayAnimation</referencedby>
+        <referencedby refid="class_u_i_animator_1a08577148394a24ed409a85a15e43daae" compoundref="_u_i_animator_8cs" startline="405" endline="411">PlayAttentionBounce</referencedby>
+        <referencedby refid="class_u_i_animator_1a7c4c415bce9e9ca5ace9cf69953d13e3" compoundref="_u_i_animator_8cs" startline="383" endline="389">PlayQuickScaleUp</referencedby>
+        <referencedby refid="class_u_i_animator_1a63a086e57986a15c4ef23fad603d038b" compoundref="_u_i_animator_8cs" startline="394" endline="400">PlaySmoothFade</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1a9fc9d58019303f696010bbb0107b7b2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.AnimateOut</definition>
+        <argsstring>()</argsstring>
+        <name>AnimateOut</name>
+        <qualifiedname>UIAnimator.AnimateOut</qualifiedname>
+        <briefdescription>
+<para>Executes the AnimateOut operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="183" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="183" bodyend="223"/>
+        <references refid="class_u_i_animator_1ae6c4b617a9c015ec75694d1be1abe91a" compoundref="_u_i_animator_8cs" startline="27">animationType</references>
+        <references refid="class_u_i_animator_1a71a85975b7f5ad39dfe25879ed8d016d" compoundref="_u_i_animator_8cs" startline="35">delay</references>
+        <references refid="class_u_i_animator_1a42873965a632de7a7d1a2883cce0e064" compoundref="_u_i_animator_8cs" startline="31">duration</references>
+        <references refid="class_u_i_animator_1a4705ac5ee46c36faf4789828b9073121" compoundref="_u_i_animator_8cs" startline="39">easeType</references>
+        <references refid="class_u_i_animator_1a6954e0555c98c441a158ea2561789a22" compoundref="_u_i_animator_8cs" startline="69">ignoreTimescale</references>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1a8dfa4d7ef15149a849ebfd4d372489fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.AnimateInCustom</definition>
+        <argsstring>(float customDuration, float customDelay, Ease customEase)</argsstring>
+        <name>AnimateInCustom</name>
+        <qualifiedname>UIAnimator.AnimateInCustom</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>customDuration</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>customDelay</declname>
+        </param>
+        <param>
+          <type>Ease</type>
+          <declname>customEase</declname>
+        </param>
+        <briefdescription>
+<para>Executes the AnimateInCustom operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>customDuration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The customDuration.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>customDelay</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The customDelay.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>customEase</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The customEase.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="324" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="324" bodyend="330"/>
+        <references refid="class_u_i_animator_1ab9144ad48ec06514ab064ec4b88c36af" compoundref="_u_i_animator_8cs" startline="119" endline="178">AnimateIn</references>
+        <references refid="class_u_i_animator_1a71a85975b7f5ad39dfe25879ed8d016d" compoundref="_u_i_animator_8cs" startline="35">delay</references>
+        <references refid="class_u_i_animator_1a42873965a632de7a7d1a2883cce0e064" compoundref="_u_i_animator_8cs" startline="31">duration</references>
+        <references refid="class_u_i_animator_1a4705ac5ee46c36faf4789828b9073121" compoundref="_u_i_animator_8cs" startline="39">easeType</references>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1ab9a7d6bf1f44a2e079c74cc822336feb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.PlayAnimation</definition>
+        <argsstring>(AnimationType type)</argsstring>
+        <name>PlayAnimation</name>
+        <qualifiedname>UIAnimator.PlayAnimation</qualifiedname>
+        <param>
+          <type><ref refid="class_u_i_animator_1afb49115bdb4bf05d22e4f7d081a18c18" kindref="member">AnimationType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Plays animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="337" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="337" bodyend="341"/>
+        <references refid="class_u_i_animator_1ab9144ad48ec06514ab064ec4b88c36af" compoundref="_u_i_animator_8cs" startline="119" endline="178">AnimateIn</references>
+        <references refid="class_u_i_animator_1ae6c4b617a9c015ec75694d1be1abe91a" compoundref="_u_i_animator_8cs" startline="27">animationType</references>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1a2a1f238c4ac4a1f1121dd80dbd66365d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.StopAnimation</definition>
+        <argsstring>()</argsstring>
+        <name>StopAnimation</name>
+        <qualifiedname>UIAnimator.StopAnimation</qualifiedname>
+        <briefdescription>
+<para>Stops animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="347" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="347" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1a8f4594e3adb136e805896551b197b894" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.PauseAnimation</definition>
+        <argsstring>(bool pause)</argsstring>
+        <name>PauseAnimation</name>
+        <qualifiedname>UIAnimator.PauseAnimation</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>pause</declname>
+        </param>
+        <briefdescription>
+<para>Executes the PauseAnimation operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pause</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pause.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="361" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="361" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1a2760b4f7be2906939e5175df9e954d2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.PlayScaleUp</definition>
+        <argsstring>()</argsstring>
+        <name>PlayScaleUp</name>
+        <qualifiedname>UIAnimator.PlayScaleUp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="373" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1a1bb589037f70102c7c29c2580195c160" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.PlaySlideFromLeft</definition>
+        <argsstring>()</argsstring>
+        <name>PlaySlideFromLeft</name>
+        <qualifiedname>UIAnimator.PlaySlideFromLeft</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="374" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1a9b8320a19fc706d04838a6e57985faaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.PlaySlideFromBottom</definition>
+        <argsstring>()</argsstring>
+        <name>PlaySlideFromBottom</name>
+        <qualifiedname>UIAnimator.PlaySlideFromBottom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="375" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1a0d2842d836c8f155cbd4d9fc151b9dee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.PlayFadeIn</definition>
+        <argsstring>()</argsstring>
+        <name>PlayFadeIn</name>
+        <qualifiedname>UIAnimator.PlayFadeIn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="376" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1a180a49f2b1a1fbda644a6e6721c3d4b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.PlayBounce</definition>
+        <argsstring>()</argsstring>
+        <name>PlayBounce</name>
+        <qualifiedname>UIAnimator.PlayBounce</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="377" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1a7c4c415bce9e9ca5ace9cf69953d13e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.PlayQuickScaleUp</definition>
+        <argsstring>()</argsstring>
+        <name>PlayQuickScaleUp</name>
+        <qualifiedname>UIAnimator.PlayQuickScaleUp</qualifiedname>
+        <briefdescription>
+<para>Plays animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="383" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="383" bodyend="389"/>
+        <references refid="class_u_i_animator_1ab9144ad48ec06514ab064ec4b88c36af" compoundref="_u_i_animator_8cs" startline="119" endline="178">AnimateIn</references>
+        <references refid="class_u_i_animator_1ae6c4b617a9c015ec75694d1be1abe91a" compoundref="_u_i_animator_8cs" startline="27">animationType</references>
+        <references refid="class_u_i_animator_1a42873965a632de7a7d1a2883cce0e064" compoundref="_u_i_animator_8cs" startline="31">duration</references>
+        <references refid="class_u_i_animator_1a950ae1f971a8c38cdc78a4666881f56b" compoundref="_u_i_animator_8cs" startline="45">strength</references>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1a63a086e57986a15c4ef23fad603d038b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.PlaySmoothFade</definition>
+        <argsstring>()</argsstring>
+        <name>PlaySmoothFade</name>
+        <qualifiedname>UIAnimator.PlaySmoothFade</qualifiedname>
+        <briefdescription>
+<para>Plays animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="394" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="394" bodyend="400"/>
+        <references refid="class_u_i_animator_1ab9144ad48ec06514ab064ec4b88c36af" compoundref="_u_i_animator_8cs" startline="119" endline="178">AnimateIn</references>
+        <references refid="class_u_i_animator_1ae6c4b617a9c015ec75694d1be1abe91a" compoundref="_u_i_animator_8cs" startline="27">animationType</references>
+        <references refid="class_u_i_animator_1a42873965a632de7a7d1a2883cce0e064" compoundref="_u_i_animator_8cs" startline="31">duration</references>
+        <references refid="class_u_i_animator_1a4705ac5ee46c36faf4789828b9073121" compoundref="_u_i_animator_8cs" startline="39">easeType</references>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_animator_1a08577148394a24ed409a85a15e43daae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIAnimator.PlayAttentionBounce</definition>
+        <argsstring>()</argsstring>
+        <name>PlayAttentionBounce</name>
+        <qualifiedname>UIAnimator.PlayAttentionBounce</qualifiedname>
+        <briefdescription>
+<para>Plays animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="405" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="405" bodyend="411"/>
+        <references refid="class_u_i_animator_1ab9144ad48ec06514ab064ec4b88c36af" compoundref="_u_i_animator_8cs" startline="119" endline="178">AnimateIn</references>
+        <references refid="class_u_i_animator_1ae6c4b617a9c015ec75694d1be1abe91a" compoundref="_u_i_animator_8cs" startline="27">animationType</references>
+        <references refid="class_u_i_animator_1a42873965a632de7a7d1a2883cce0e064" compoundref="_u_i_animator_8cs" startline="31">duration</references>
+        <references refid="class_u_i_animator_1a950ae1f971a8c38cdc78a4666881f56b" compoundref="_u_i_animator_8cs" startline="45">strength</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_u_i_animator" kindref="compound">UIAnimator</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UIAnimator</label>
+        <link refid="class_u_i_animator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UIAnimator</label>
+        <link refid="class_u_i_animator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" line="7" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/UIAnimator.cs" bodystart="8" bodyend="412"/>
+    <listofallmembers>
+      <member refid="class_u_i_animator_1a048595663b89cf6336cce10fd82fbb02" prot="private" virt="non-virtual"><scope>UIAnimator</scope><name>AnimateBounce</name></member>
+      <member refid="class_u_i_animator_1a1205f8cd480729691f89fa46a645a13f" prot="private" virt="non-virtual"><scope>UIAnimator</scope><name>AnimateFadeIn</name></member>
+      <member refid="class_u_i_animator_1ad39cbd84590e9fa57b0a0b42a7cc009d" prot="private" virt="non-virtual"><scope>UIAnimator</scope><name>AnimateFlip</name></member>
+      <member refid="class_u_i_animator_1ab9144ad48ec06514ab064ec4b88c36af" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>AnimateIn</name></member>
+      <member refid="class_u_i_animator_1a8dfa4d7ef15149a849ebfd4d372489fd" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>AnimateInCustom</name></member>
+      <member refid="class_u_i_animator_1a65e626eed1974605d33954c80b72b1af" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>animateOnEnable</name></member>
+      <member refid="class_u_i_animator_1a1153039c1769e09ca5eec81a4b38ecde" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>animateOnStart</name></member>
+      <member refid="class_u_i_animator_1a9fc9d58019303f696010bbb0107b7b2c" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>AnimateOut</name></member>
+      <member refid="class_u_i_animator_1a88cb1b50755d048bd03996b82f4d5982" prot="private" virt="non-virtual"><scope>UIAnimator</scope><name>AnimatePulse</name></member>
+      <member refid="class_u_i_animator_1ad8df71f80420cc0306d2c97d67555279" prot="private" virt="non-virtual"><scope>UIAnimator</scope><name>AnimateScaleUp</name></member>
+      <member refid="class_u_i_animator_1a11a333a3dcee6fe54b02a62f3494ec86" prot="private" virt="non-virtual"><scope>UIAnimator</scope><name>AnimateShake</name></member>
+      <member refid="class_u_i_animator_1a174734f6407a2c1743f6115b79fd9a9d" prot="private" virt="non-virtual"><scope>UIAnimator</scope><name>AnimateSlide</name></member>
+      <member refid="class_u_i_animator_1afb49115bdb4bf05d22e4f7d081a18c18" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>AnimationType</name></member>
+      <member refid="class_u_i_animator_1ae6c4b617a9c015ec75694d1be1abe91a" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>animationType</name></member>
+      <member refid="class_u_i_animator_1a7c5b0eba2c5517c5a99ec8d72f7f44cc" prot="private" virt="non-virtual"><scope>UIAnimator</scope><name>canvasGroup</name></member>
+      <member refid="class_u_i_animator_1a9b6114bf4d227e6c9345a41b00224a5f" prot="private" virt="non-virtual"><scope>UIAnimator</scope><name>currentTween</name></member>
+      <member refid="class_u_i_animator_1a71a85975b7f5ad39dfe25879ed8d016d" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>delay</name></member>
+      <member refid="class_u_i_animator_1a42873965a632de7a7d1a2883cce0e064" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>duration</name></member>
+      <member refid="class_u_i_animator_1a4705ac5ee46c36faf4789828b9073121" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>easeType</name></member>
+      <member refid="class_u_i_animator_1a6954e0555c98c441a158ea2561789a22" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>ignoreTimescale</name></member>
+      <member refid="class_u_i_animator_1aab3f37c3edb4e2884bf430a6407cf6a8" prot="private" virt="non-virtual"><scope>UIAnimator</scope><name>OnDisable</name></member>
+      <member refid="class_u_i_animator_1a77bb4576e95738933150f5d67bddc5d3" prot="private" virt="non-virtual"><scope>UIAnimator</scope><name>OnEnable</name></member>
+      <member refid="class_u_i_animator_1ad2c33883210389347b9b6ddad9faf974" prot="private" virt="non-virtual"><scope>UIAnimator</scope><name>originalPosition</name></member>
+      <member refid="class_u_i_animator_1aafb51e7e4c843723cf46769bd9b76b2c" prot="private" virt="non-virtual"><scope>UIAnimator</scope><name>originalScale</name></member>
+      <member refid="class_u_i_animator_1a8f4594e3adb136e805896551b197b894" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>PauseAnimation</name></member>
+      <member refid="class_u_i_animator_1ab9a7d6bf1f44a2e079c74cc822336feb" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>PlayAnimation</name></member>
+      <member refid="class_u_i_animator_1a08577148394a24ed409a85a15e43daae" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>PlayAttentionBounce</name></member>
+      <member refid="class_u_i_animator_1a180a49f2b1a1fbda644a6e6721c3d4b5" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>PlayBounce</name></member>
+      <member refid="class_u_i_animator_1a0d2842d836c8f155cbd4d9fc151b9dee" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>PlayFadeIn</name></member>
+      <member refid="class_u_i_animator_1a7c4c415bce9e9ca5ace9cf69953d13e3" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>PlayQuickScaleUp</name></member>
+      <member refid="class_u_i_animator_1a2760b4f7be2906939e5175df9e954d2e" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>PlayScaleUp</name></member>
+      <member refid="class_u_i_animator_1a9b8320a19fc706d04838a6e57985faaf" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>PlaySlideFromBottom</name></member>
+      <member refid="class_u_i_animator_1a1bb589037f70102c7c29c2580195c160" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>PlaySlideFromLeft</name></member>
+      <member refid="class_u_i_animator_1a63a086e57986a15c4ef23fad603d038b" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>PlaySmoothFade</name></member>
+      <member refid="class_u_i_animator_1a530549b3b9a599aac23574d9e831036c" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>resetOnDisable</name></member>
+      <member refid="class_u_i_animator_1a059424970d84218f13adc328510746c5" prot="private" virt="non-virtual"><scope>UIAnimator</scope><name>ResetToOriginal</name></member>
+      <member refid="class_u_i_animator_1a6c2596cb4c483272b7e16e6a5240b8a3" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>slideOffset</name></member>
+      <member refid="class_u_i_animator_1af95e3237174ffcf5cac6dc1128734f98" prot="private" virt="non-virtual"><scope>UIAnimator</scope><name>Start</name></member>
+      <member refid="class_u_i_animator_1a2a1f238c4ac4a1f1121dd80dbd66365d" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>StopAnimation</name></member>
+      <member refid="class_u_i_animator_1a950ae1f971a8c38cdc78a4666881f56b" prot="public" virt="non-virtual"><scope>UIAnimator</scope><name>strength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

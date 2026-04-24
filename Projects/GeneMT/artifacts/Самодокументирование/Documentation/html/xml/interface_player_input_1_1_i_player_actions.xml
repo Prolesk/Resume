@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="interface_player_input_1_1_i_player_actions" kind="interface" language="C#" prot="public">
+    <compoundname>PlayerInput::IPlayerActions</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_player_input_1_1_i_player_actions_1af785da9b88a3a6a3db98fda903a39580" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerInput.IPlayerActions.OnMove</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnMove</name>
+        <qualifiedname>PlayerInput.IPlayerActions.OnMove</qualifiedname>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+<para>Method invoked when associated input action &quot;Move&quot; is either UnityEngine.InputSystem.InputAction.started, UnityEngine.InputSystem.InputAction.performed or UnityEngine.InputSystem.InputAction.canceled. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>UnityEngine.InputSystem.InputAction.started, UnityEngine.InputSystem.InputAction.performed, UnityEngine.InputSystem.InputAction.canceled</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="397" column="14"/>
+        <referencedby refid="struct_player_input_1_1_player_actions_1ac0468e4bc65b955247f0734e5627299f" compoundref="_player_input_8cs" startline="324" endline="334">PlayerInput.PlayerActions.AddCallbacks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_player_input_1_1_i_player_actions_1a07284585b6ddd69ca7b91c40f3144b90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerInput.IPlayerActions.OnClick</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnClick</name>
+        <qualifiedname>PlayerInput.IPlayerActions.OnClick</qualifiedname>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+<para>Method invoked when associated input action &quot;Click&quot; is either UnityEngine.InputSystem.InputAction.started, UnityEngine.InputSystem.InputAction.performed or UnityEngine.InputSystem.InputAction.canceled. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>UnityEngine.InputSystem.InputAction.started, UnityEngine.InputSystem.InputAction.performed, UnityEngine.InputSystem.InputAction.canceled</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="404" column="14"/>
+        <referencedby refid="struct_player_input_1_1_player_actions_1ac0468e4bc65b955247f0734e5627299f" compoundref="_player_input_8cs" startline="324" endline="334">PlayerInput.PlayerActions.AddCallbacks</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Interface to implement callback methods for all input action callbacks associated with input actions defined by &quot;Player&quot; which allows adding and removing callbacks. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="struct_player_input_1_1_player_actions_1ac0468e4bc65b955247f0734e5627299f" kindref="member">PlayerActions.AddCallbacks(IPlayerActions)</ref>, <ref refid="struct_player_input_1_1_player_actions_1a6c5c2e2f39111a29ed42834fa5bd5064" kindref="member">PlayerActions.RemoveCallbacks(IPlayerActions)</ref></para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" line="389" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/PlayerInput.cs" bodystart="390" bodyend="405"/>
+    <listofallmembers>
+      <member refid="interface_player_input_1_1_i_player_actions_1a07284585b6ddd69ca7b91c40f3144b90" prot="public" virt="non-virtual"><scope>PlayerInput::IPlayerActions</scope><name>OnClick</name></member>
+      <member refid="interface_player_input_1_1_i_player_actions_1af785da9b88a3a6a3db98fda903a39580" prot="public" virt="non-virtual"><scope>PlayerInput::IPlayerActions</scope><name>OnMove</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

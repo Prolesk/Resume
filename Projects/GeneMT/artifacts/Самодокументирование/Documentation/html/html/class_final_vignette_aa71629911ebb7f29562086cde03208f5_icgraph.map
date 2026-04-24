@@ -1,0 +1,5 @@
+<map id="FinalVignette.OnDamageTaken" name="FinalVignette.OnDamageTaken">
+<area shape="rect" id="Node000001" title="Event handler for OnDamageTaken." alt="" coords="244,13,446,40"/>
+<area shape="rect" id="Node000002" href="$class_final_vignette.html#a5eebd30485a137e54353907625a95046" title="Executes the TriggerDamageVignette operation." alt="" coords="5,5,196,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,27,196,29,196,24,231,26"/>
+</map>

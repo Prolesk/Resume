@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_enemy_health_bar" kind="class" language="C#" prot="public">
+    <compoundname>EnemyHealthBar</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_enemy_health_bar_1a02f5b5972b15a52a6f22b7c85d41bea8" prot="private" static="no" mutable="no">
+        <type>Slider</type>
+        <definition>Slider EnemyHealthBar._healhtBar</definition>
+        <argsstring></argsstring>
+        <name>_healhtBar</name>
+        <qualifiedname>EnemyHealthBar._healhtBar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHealthBar.cs" line="11" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHealthBar.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_health_bar_1aa76966eae2d4a8da3bc16d174010c960" prot="private" static="no" mutable="no">
+        <type><ref refid="class_enemy_h_p" kindref="compound">EnemyHP</ref></type>
+        <definition>EnemyHP EnemyHealthBar._enemyHP</definition>
+        <argsstring></argsstring>
+        <name>_enemyHP</name>
+        <qualifiedname>EnemyHealthBar._enemyHP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHealthBar.cs" line="12" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHealthBar.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_enemy_health_bar_1aa84a697be8b80139b40b81f7d3346ce2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyHealthBar.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>EnemyHealthBar.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHealthBar.cs" line="14" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHealthBar.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_health_bar_1a32b51c4b4a944bb7e4cb538adf94fca2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyHealthBar.GetDamage</definition>
+        <argsstring>(float damageAmmount)</argsstring>
+        <name>GetDamage</name>
+        <qualifiedname>EnemyHealthBar.GetDamage</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>damageAmmount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHealthBar.cs" line="23" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHealthBar.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_enemy_health_bar" kindref="compound">EnemyHealthBar</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EnemyHealthBar</label>
+        <link refid="class_enemy_health_bar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EnemyHealthBar</label>
+        <link refid="class_enemy_health_bar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHealthBar.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyHealthBar.cs" bodystart="10" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_enemy_health_bar_1aa76966eae2d4a8da3bc16d174010c960" prot="private" virt="non-virtual"><scope>EnemyHealthBar</scope><name>_enemyHP</name></member>
+      <member refid="class_enemy_health_bar_1a02f5b5972b15a52a6f22b7c85d41bea8" prot="private" virt="non-virtual"><scope>EnemyHealthBar</scope><name>_healhtBar</name></member>
+      <member refid="class_enemy_health_bar_1a32b51c4b4a944bb7e4cb538adf94fca2" prot="private" virt="non-virtual"><scope>EnemyHealthBar</scope><name>GetDamage</name></member>
+      <member refid="class_enemy_health_bar_1aa84a697be8b80139b40b81f7d3346ce2" prot="private" virt="non-virtual"><scope>EnemyHealthBar</scope><name>OnEnable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

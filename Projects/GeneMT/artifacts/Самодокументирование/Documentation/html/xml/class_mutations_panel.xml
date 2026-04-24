@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_mutations_panel" kind="class" language="C#" prot="public">
+    <compoundname>MutationsPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_mutations_panel_1a5e5a33e3c344f695a00a1659bf81a8aa" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_mutations_panel" kindref="compound">MutationsPanel</ref></type>
+        <definition>MutationsPanel MutationsPanel.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>MutationsPanel.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsUI/MutationsPanel.cs" line="13" column="34" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsUI/MutationsPanel.cs" bodystart="13" bodyend="13"/>
+        <referencedby refid="class_mutation_reward_info_1a124547a14e6cf4d3be6a5d533231a48a" compoundref="_mutation_reward_info_8cs" startline="46" endline="82">MutationRewardInfo.SetMutationInfo</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_mutations_panel_1a9da6c69d111ff48787402591cf86323f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_mutation_controller_s_o" kindref="compound">MutationControllerSO</ref></type>
+        <definition>MutationControllerSO MutationsPanel.controller</definition>
+        <argsstring></argsstring>
+        <name>controller</name>
+        <qualifiedname>MutationsPanel.controller</qualifiedname>
+        <briefdescription>
+<para>The controller field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsUI/MutationsPanel.cs" line="18" column="33" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsUI/MutationsPanel.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_mutations_panel_1ae15190f985e61c23d7505cb356a9208d" compoundref="_mutations_panel_8cs" startline="36" endline="85">SetMutationInfo</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_mutations_panel_1ab0da8ce24a290fc6a0c791f4572624ba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MutationsPanel.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>MutationsPanel.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsUI/MutationsPanel.cs" line="20" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsUI/MutationsPanel.cs" bodystart="20" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mutations_panel_1ae15190f985e61c23d7505cb356a9208d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MutationsPanel.SetMutationInfo</definition>
+        <argsstring>()</argsstring>
+        <name>SetMutationInfo</name>
+        <qualifiedname>MutationsPanel.SetMutationInfo</qualifiedname>
+        <briefdescription>
+<para>Sets the MutationInfo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsUI/MutationsPanel.cs" line="36" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsUI/MutationsPanel.cs" bodystart="36" bodyend="85"/>
+        <references refid="class_mutations_panel_1a9da6c69d111ff48787402591cf86323f" compoundref="_mutations_panel_8cs" startline="18">controller</references>
+        <referencedby refid="class_mutation_reward_info_1a124547a14e6cf4d3be6a5d533231a48a" compoundref="_mutation_reward_info_8cs" startline="46" endline="82">MutationRewardInfo.SetMutationInfo</referencedby>
+        <referencedby refid="class_mutations_panel_1a39fffad6c36257a4217222ce2057a591" compoundref="_mutations_panel_8cs" startline="105" endline="108">UpdateMutationsDisplay</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mutations_panel_1aa00491ca43469287e78f908ba91f42e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MutationsPanel.ClearMutationList</definition>
+        <argsstring>()</argsstring>
+        <name>ClearMutationList</name>
+        <qualifiedname>MutationsPanel.ClearMutationList</qualifiedname>
+        <briefdescription>
+<para>Executes the ClearMutationList operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsUI/MutationsPanel.cs" line="90" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsUI/MutationsPanel.cs" bodystart="90" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mutations_panel_1a39fffad6c36257a4217222ce2057a591" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MutationsPanel.UpdateMutationsDisplay</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateMutationsDisplay</name>
+        <qualifiedname>MutationsPanel.UpdateMutationsDisplay</qualifiedname>
+        <briefdescription>
+<para>Updates MutationsDisplay. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsUI/MutationsPanel.cs" line="105" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsUI/MutationsPanel.cs" bodystart="105" bodyend="108"/>
+        <references refid="class_mutations_panel_1ae15190f985e61c23d7505cb356a9208d" compoundref="_mutations_panel_8cs" startline="36" endline="85">SetMutationInfo</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_mutations_panel" kindref="compound">MutationsPanel</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>MutationsPanel</label>
+        <link refid="class_mutations_panel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="3">
+        <label>MutationControllerSO</label>
+        <link refid="class_mutation_controller_s_o"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MutationsPanel</label>
+        <link refid="class_mutations_panel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>controller</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="4">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsUI/MutationsPanel.cs" line="11" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsUI/MutationsPanel.cs" bodystart="12" bodyend="109"/>
+    <listofallmembers>
+      <member refid="class_mutations_panel_1ab0da8ce24a290fc6a0c791f4572624ba" prot="private" virt="non-virtual"><scope>MutationsPanel</scope><name>Awake</name></member>
+      <member refid="class_mutations_panel_1aa00491ca43469287e78f908ba91f42e1" prot="public" virt="non-virtual"><scope>MutationsPanel</scope><name>ClearMutationList</name></member>
+      <member refid="class_mutations_panel_1a9da6c69d111ff48787402591cf86323f" prot="public" virt="non-virtual"><scope>MutationsPanel</scope><name>controller</name></member>
+      <member refid="class_mutations_panel_1a5e5a33e3c344f695a00a1659bf81a8aa" prot="public" virt="non-virtual"><scope>MutationsPanel</scope><name>Instance</name></member>
+      <member refid="class_mutations_panel_1ae15190f985e61c23d7505cb356a9208d" prot="public" virt="non-virtual"><scope>MutationsPanel</scope><name>SetMutationInfo</name></member>
+      <member refid="class_mutations_panel_1a39fffad6c36257a4217222ce2057a591" prot="public" virt="non-virtual"><scope>MutationsPanel</scope><name>UpdateMutationsDisplay</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

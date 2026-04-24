@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_blizzard_field_trigger" kind="class" language="C#" prot="public">
+    <compoundname>BlizzardFieldTrigger</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_blizzard_field_trigger_1af4b583300c31a73f27959eeaed9823d3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool BlizzardFieldTrigger._isPlayerSafe</definition>
+        <argsstring></argsstring>
+        <name>_isPlayerSafe</name>
+        <qualifiedname>BlizzardFieldTrigger._isPlayerSafe</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity/BlizzardFieldTrigger.cs" line="11" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity/BlizzardFieldTrigger.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_blizzard_field_trigger_1affb6ce56e14c126caf314c1cd2d2b7da" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float BlizzardFieldTrigger.damagePeriod</definition>
+        <argsstring></argsstring>
+        <name>damagePeriod</name>
+        <qualifiedname>BlizzardFieldTrigger.damagePeriod</qualifiedname>
+        <briefdescription>
+<para>The damagePeriod field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity/BlizzardFieldTrigger.cs" line="15" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity/BlizzardFieldTrigger.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_blizzard_field_trigger_1ab56afd0ebfe77d693c77bbedb18b60d5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BlizzardFieldTrigger.damage</definition>
+        <argsstring></argsstring>
+        <name>damage</name>
+        <qualifiedname>BlizzardFieldTrigger.damage</qualifiedname>
+        <briefdescription>
+<para>The damage field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity/BlizzardFieldTrigger.cs" line="19" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity/BlizzardFieldTrigger.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_blizzard_field_trigger_1a1799edc1e96171a9764e7a2545135834" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BlizzardFieldTrigger.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <qualifiedname>BlizzardFieldTrigger.OnTriggerEnter</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity/BlizzardFieldTrigger.cs" line="22" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity/BlizzardFieldTrigger.cs" bodystart="22" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_blizzard_field_trigger_1a480860add74ae1a9bddd2dd1c43a0b79" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BlizzardFieldTrigger.OnTriggerExit</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerExit</name>
+        <qualifiedname>BlizzardFieldTrigger.OnTriggerExit</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity/BlizzardFieldTrigger.cs" line="30" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity/BlizzardFieldTrigger.cs" bodystart="30" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_blizzard_field_trigger_1a93b33ed1375a97527011e01d6b6bcc46" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void BlizzardFieldTrigger.StartDoingProgress</definition>
+        <argsstring>()</argsstring>
+        <name>StartDoingProgress</name>
+        <qualifiedname>BlizzardFieldTrigger.StartDoingProgress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity/BlizzardFieldTrigger.cs" line="39" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity/BlizzardFieldTrigger.cs" bodystart="39" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_blizzard_field_trigger_1abaecc23c023f515058d4cdbc2d6dffda" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void BlizzardFieldTrigger.StartDamagePlayerForLeaving</definition>
+        <argsstring>()</argsstring>
+        <name>StartDamagePlayerForLeaving</name>
+        <qualifiedname>BlizzardFieldTrigger.StartDamagePlayerForLeaving</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity/BlizzardFieldTrigger.cs" line="48" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity/BlizzardFieldTrigger.cs" bodystart="48" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_blizzard_field_trigger" kindref="compound">BlizzardFieldTrigger</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BlizzardFieldTrigger</label>
+        <link refid="class_blizzard_field_trigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BlizzardFieldTrigger</label>
+        <link refid="class_blizzard_field_trigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity/BlizzardFieldTrigger.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity/BlizzardFieldTrigger.cs" bodystart="10" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_blizzard_field_trigger_1af4b583300c31a73f27959eeaed9823d3" prot="private" virt="non-virtual"><scope>BlizzardFieldTrigger</scope><name>_isPlayerSafe</name></member>
+      <member refid="class_blizzard_field_trigger_1ab56afd0ebfe77d693c77bbedb18b60d5" prot="public" virt="non-virtual"><scope>BlizzardFieldTrigger</scope><name>damage</name></member>
+      <member refid="class_blizzard_field_trigger_1affb6ce56e14c126caf314c1cd2d2b7da" prot="public" virt="non-virtual"><scope>BlizzardFieldTrigger</scope><name>damagePeriod</name></member>
+      <member refid="class_blizzard_field_trigger_1a1799edc1e96171a9764e7a2545135834" prot="private" virt="non-virtual"><scope>BlizzardFieldTrigger</scope><name>OnTriggerEnter</name></member>
+      <member refid="class_blizzard_field_trigger_1a480860add74ae1a9bddd2dd1c43a0b79" prot="private" virt="non-virtual"><scope>BlizzardFieldTrigger</scope><name>OnTriggerExit</name></member>
+      <member refid="class_blizzard_field_trigger_1abaecc23c023f515058d4cdbc2d6dffda" prot="private" virt="non-virtual"><scope>BlizzardFieldTrigger</scope><name>StartDamagePlayerForLeaving</name></member>
+      <member refid="class_blizzard_field_trigger_1a93b33ed1375a97527011e01d6b6bcc46" prot="private" virt="non-virtual"><scope>BlizzardFieldTrigger</scope><name>StartDoingProgress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

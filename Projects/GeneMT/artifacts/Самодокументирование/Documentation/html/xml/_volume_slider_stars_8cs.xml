@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="_volume_slider_stars_8cs" kind="file" language="C#">
+    <compoundname>VolumeSliderStars.cs</compoundname>
+    <innerclass refid="class_volume_slider_stars" prot="public">VolumeSliderStars</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine.UI;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_volume_slider_stars" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_volume_slider_stars" kindref="compound">VolumeSliderStars</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14" refid="class_volume_slider_stars_1a8a51e381448650a4b88b44397d59c30b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Slider<sp/><ref refid="class_volume_slider_stars_1a8a51e381448650a4b88b44397d59c30b" kindref="member">MasterSlider</ref>;</highlight></codeline>
+<codeline lineno="18" refid="class_volume_slider_stars_1a091a29dfa66c044f86ae43e19a836f65" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Slider<sp/><ref refid="class_volume_slider_stars_1a091a29dfa66c044f86ae43e19a836f65" kindref="member">VFXSlider</ref>;</highlight></codeline>
+<codeline lineno="22" refid="class_volume_slider_stars_1aaa2eb9744c9e1dc789275e2c55d4baab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Slider<sp/><ref refid="class_volume_slider_stars_1aaa2eb9744c9e1dc789275e2c55d4baab" kindref="member">MusicSlider</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnEnable()</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MasterSlider.value<sp/>=<sp/><ref refid="class_audio_manager" kindref="compound">AudioManager</ref>.<ref refid="class_audio_manager_1af96f8bc4f9a0ad3f1a63a028bb31f790" kindref="member">Instance</ref>.<ref refid="class_audio_manager_1a290e934e34ecdf1614ba9975467ba25b" kindref="member">GetMasterVolume</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VFXSlider.value<sp/>=<sp/><ref refid="class_audio_manager" kindref="compound">AudioManager</ref>.<ref refid="class_audio_manager_1af96f8bc4f9a0ad3f1a63a028bb31f790" kindref="member">Instance</ref>.<ref refid="class_audio_manager_1a2f589a4cf5c57bc82e831b5cb18c6be2" kindref="member">GetSFXVolume</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MusicSlider.value<sp/>=<sp/><ref refid="class_audio_manager" kindref="compound">AudioManager</ref>.<ref refid="class_audio_manager_1af96f8bc4f9a0ad3f1a63a028bb31f790" kindref="member">Instance</ref>.<ref refid="class_audio_manager_1ad566b4efa3a655d675ed5b9195fde4b8" kindref="member">GetMusicVolume</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/VolumeSliderStars.cs"/>
+  </compounddef>
+</doxygen>

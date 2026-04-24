@@ -1,0 +1,5 @@
+<map id="Generation.SpawnGasTanks" name="Generation.SpawnGasTanks">
+<area shape="rect" id="Node000001" title="Spawns GasTanks." alt="" coords="257,5,444,32"/>
+<area shape="rect" id="Node000002" href="$class_gather_gas_quest.html#ac87412cf60cb8f6e097d246e75d1ad77" title=" " alt="" coords="5,5,209,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,19,209,21,209,16,244,19"/>
+</map>

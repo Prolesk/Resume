@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="_damage_field_data_s_o_8cs" kind="file" language="C#">
+    <compoundname>DamageFieldDataSO.cs</compoundname>
+    <innerclass refid="class_damage_field_data_s_o" prot="public">DamageFieldDataSO</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">[CreateAssetMenu(fileName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;New<sp/>Damage<sp/>Field<sp/>Data&quot;</highlight><highlight class="normal">,<sp/>menuName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Weapons/Damage<sp/>Field<sp/>Data&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="7" refid="class_damage_field_data_s_o" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_damage_field_data_s_o" kindref="compound">DamageFieldDataSO</ref><sp/>:<sp/><ref refid="class_weapon_data_s_o" kindref="compound">WeaponDataSO</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>[Header(</highlight><highlight class="stringliteral">&quot;Damage<sp/>Field<sp/>Specific&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="13" refid="class_damage_field_data_s_o_1a15466c1b9a186bb1186cfcd662a14b48" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_damage_field_data_s_o_1a15466c1b9a186bb1186cfcd662a14b48" kindref="member">baseArea</ref><sp/>=<sp/>8f;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/DamageFieldDataSO.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_d8ce1e1dda411b946c3e6d90240e452b" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies</compoundname>
+    <innerdir refid="dir_c8607656724212caac5c7d375c12bdaa">C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/EnemyProjectile</innerdir>
+    <innerdir refid="dir_98f131b70e1b3b51f01e900cd25bcbfc">C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/SmallMeleeEnemy</innerdir>
+    <innerfile refid="_small_enemies_mover_8cs">SmallEnemiesMover.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/SmallEnemies/"/>
+  </compounddef>
+</doxygen>

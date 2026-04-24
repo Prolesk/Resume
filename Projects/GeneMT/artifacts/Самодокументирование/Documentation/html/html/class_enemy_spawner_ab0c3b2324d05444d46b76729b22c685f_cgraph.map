@@ -1,0 +1,5 @@
+<map id="EnemySpawner.SpawnSmallRangedEnemy" name="EnemySpawner.SpawnSmallRangedEnemy">
+<area shape="rect" id="Node000001" title="Spawns SmallRangedEnemy." alt="" coords="5,5,241,48"/>
+<area shape="rect" id="Node000002" href="$class_enemy_pool.html#afc6cffe9d3f2e2b99a1b5631b7463cfc" title="Gets the Enemy." alt="" coords="289,13,443,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="241,24,276,27,271,27,241,29"/>
+</map>

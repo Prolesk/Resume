@@ -1,0 +1,470 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_race_stats" kind="class" language="C#" prot="public">
+    <compoundname>RaceStats</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_race_stats_1a120a46eafaaf03cab825e1507c7e67cb" prot="public" static="no" mutable="no">
+        <type>TMP_Text</type>
+        <definition>TMP_Text RaceStats.timerText</definition>
+        <argsstring></argsstring>
+        <name>timerText</name>
+        <qualifiedname>RaceStats.timerText</qualifiedname>
+        <briefdescription>
+<para>The timerText field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="13" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_race_stats_1a0ee7db0e87d8ec2cada72e6d620e6728" compoundref="_race_stats_8cs" startline="140" endline="143">GetFormattedTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_race_stats_1ab2c3c9b01e9b49be545256f8948c09c4" prot="public" static="no" mutable="no">
+        <type>TMP_Text</type>
+        <definition>TMP_Text RaceStats.coinsText</definition>
+        <argsstring></argsstring>
+        <name>coinsText</name>
+        <qualifiedname>RaceStats.coinsText</qualifiedname>
+        <briefdescription>
+<para>The coinsText field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="20" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_race_stats_1a6d393787247cf91d5433b659073047ee" prot="public" static="no" mutable="no">
+        <type>TMP_Text</type>
+        <definition>TMP_Text RaceStats.killsText</definition>
+        <argsstring></argsstring>
+        <name>killsText</name>
+        <qualifiedname>RaceStats.killsText</qualifiedname>
+        <briefdescription>
+<para>The killsText field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="24" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_race_stats_1a507a4652b61562672b1fc6abbf82b16c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RaceStats.autoStart</definition>
+        <argsstring></argsstring>
+        <name>autoStart</name>
+        <qualifiedname>RaceStats.autoStart</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="14" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_race_stats_1a9ca1eef1148fe815b3b05394f9e82e0a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RaceStats.currentTime</definition>
+        <argsstring></argsstring>
+        <name>currentTime</name>
+        <qualifiedname>RaceStats.currentTime</qualifiedname>
+        <initializer>= 0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="26" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_race_stats_1a861c2e4c68dc9aebe9a8d1d69a92fa89" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RaceStats.isRunning</definition>
+        <argsstring></argsstring>
+        <name>isRunning</name>
+        <qualifiedname>RaceStats.isRunning</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="27" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_race_stats_1ae0e35bc803b4a79af1e3a8432ad7cb74" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RaceStats.isFinished</definition>
+        <argsstring></argsstring>
+        <name>isFinished</name>
+        <qualifiedname>RaceStats.isFinished</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="28" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_race_stats_1ae6304e89b0f9de191272e1ccff46150a" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_race_stats" kindref="compound">RaceStats</ref></type>
+        <definition>RaceStats RaceStats.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>RaceStats.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="30" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_race_stats_1a40cc10451a20e27833da806e61f217cd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RaceStats.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>RaceStats.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="32" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="32" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_race_stats_1a0c3595fa39b5c6b73c22f81485d83076" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RaceStats.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>RaceStats.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="42" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="42" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_race_stats_1a46af1d3865be44b6ba1acd1e50ee0eec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RaceStats.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>RaceStats.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="52" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="52" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_race_stats_1a904a47f93097aba753aac310aa3b9887" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RaceStats.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>RaceStats.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="61" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="61" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_race_stats_1ab2643fc2154a852112a64dc88e352faa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RaceStats.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>RaceStats.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="67" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="67" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_race_stats_1a49b45f7f034bc5abad65f4397207e371" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RaceStats.UpdateTimerDisplay</definition>
+        <argsstring>(float timeInSeconds)</argsstring>
+        <name>UpdateTimerDisplay</name>
+        <qualifiedname>RaceStats.UpdateTimerDisplay</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>timeInSeconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="73" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="73" bodyend="79"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_race_stats_1a034b01b27236f2eeb9b97d44a9d1074d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RaceStats.StartTimer</definition>
+        <argsstring>()</argsstring>
+        <name>StartTimer</name>
+        <qualifiedname>RaceStats.StartTimer</qualifiedname>
+        <briefdescription>
+<para>Executes the StartTimer operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="84" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="84" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_race_stats_1a3f51689b41852f74135b8989b0667a68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RaceStats.StopTimer</definition>
+        <argsstring>()</argsstring>
+        <name>StopTimer</name>
+        <qualifiedname>RaceStats.StopTimer</qualifiedname>
+        <briefdescription>
+<para>Stops animation or sound. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="95" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="95" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_race_stats_1aae312b3f07d8118114922cfe739a1567" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RaceStats.FinishRace</definition>
+        <argsstring>()</argsstring>
+        <name>FinishRace</name>
+        <qualifiedname>RaceStats.FinishRace</qualifiedname>
+        <briefdescription>
+<para>Executes the FinishRace operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="106" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="106" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_race_stats_1ae1593d3722c99aaaddfb775c07b2eafb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RaceStats.ResetTimer</definition>
+        <argsstring>()</argsstring>
+        <name>ResetTimer</name>
+        <qualifiedname>RaceStats.ResetTimer</qualifiedname>
+        <briefdescription>
+<para>Resets Timer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="119" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="119" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_race_stats_1ab4f53677c87a3fd16b8c6c1455ae03cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float RaceStats.GetCurrentTime</definition>
+        <argsstring>()</argsstring>
+        <name>GetCurrentTime</name>
+        <qualifiedname>RaceStats.GetCurrentTime</qualifiedname>
+        <briefdescription>
+<para>Gets the CurrentTime. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The result as float.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="131" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="131" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_race_stats_1a0ee7db0e87d8ec2cada72e6d620e6728" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string RaceStats.GetFormattedTime</definition>
+        <argsstring>()</argsstring>
+        <name>GetFormattedTime</name>
+        <qualifiedname>RaceStats.GetFormattedTime</qualifiedname>
+        <briefdescription>
+<para>Gets the FormattedTime. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The result as string.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="140" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="140" bodyend="143"/>
+        <references refid="class_race_stats_1a120a46eafaaf03cab825e1507c7e67cb" compoundref="_race_stats_8cs" startline="13">timerText</references>
+      </memberdef>
+      <memberdef kind="function" id="class_race_stats_1aa5687c12f0b638cc1888d5bac3a4939d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool RaceStats.IsTimerRunning</definition>
+        <argsstring>()</argsstring>
+        <name>IsTimerRunning</name>
+        <qualifiedname>RaceStats.IsTimerRunning</qualifiedname>
+        <briefdescription>
+<para>Executes the IsTimerRunning operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The result as bool.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="149" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="149" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_race_stats_1a65fffb5713784cc92a5a42d720cc8051" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool RaceStats.IsRaceFinished</definition>
+        <argsstring>()</argsstring>
+        <name>IsRaceFinished</name>
+        <qualifiedname>RaceStats.IsRaceFinished</qualifiedname>
+        <briefdescription>
+<para>Executes the IsRaceFinished operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The result as bool.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="158" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="158" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_race_stats_1a621b308a4d7e97a6df03c55b6b516d9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RaceStats.UpdateCoinsDisplay</definition>
+        <argsstring>(float coins)</argsstring>
+        <name>UpdateCoinsDisplay</name>
+        <qualifiedname>RaceStats.UpdateCoinsDisplay</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>coins</declname>
+        </param>
+        <briefdescription>
+<para>Updates CoinsDisplay. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coins</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The coins.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="167" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="167" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_race_stats_1a9ee4720f588993a602a9a583ab34349c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RaceStats.UpdateKillsDisplay</definition>
+        <argsstring>(float kills)</argsstring>
+        <name>UpdateKillsDisplay</name>
+        <qualifiedname>RaceStats.UpdateKillsDisplay</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>kills</declname>
+        </param>
+        <briefdescription>
+<para>Updates KillsDisplay. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>kills</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The kills.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="176" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="176" bodyend="179"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_race_stats" kindref="compound">RaceStats</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>RaceStats</label>
+        <link refid="class_race_stats"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>RaceStats</label>
+        <link refid="class_race_stats"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" line="7" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/RaceStats.cs" bodystart="8" bodyend="180"/>
+    <listofallmembers>
+      <member refid="class_race_stats_1a507a4652b61562672b1fc6abbf82b16c" prot="private" virt="non-virtual"><scope>RaceStats</scope><name>autoStart</name></member>
+      <member refid="class_race_stats_1a40cc10451a20e27833da806e61f217cd" prot="private" virt="non-virtual"><scope>RaceStats</scope><name>Awake</name></member>
+      <member refid="class_race_stats_1ab2c3c9b01e9b49be545256f8948c09c4" prot="public" virt="non-virtual"><scope>RaceStats</scope><name>coinsText</name></member>
+      <member refid="class_race_stats_1a9ca1eef1148fe815b3b05394f9e82e0a" prot="private" virt="non-virtual"><scope>RaceStats</scope><name>currentTime</name></member>
+      <member refid="class_race_stats_1aae312b3f07d8118114922cfe739a1567" prot="public" virt="non-virtual"><scope>RaceStats</scope><name>FinishRace</name></member>
+      <member refid="class_race_stats_1ab4f53677c87a3fd16b8c6c1455ae03cb" prot="public" virt="non-virtual"><scope>RaceStats</scope><name>GetCurrentTime</name></member>
+      <member refid="class_race_stats_1a0ee7db0e87d8ec2cada72e6d620e6728" prot="public" virt="non-virtual"><scope>RaceStats</scope><name>GetFormattedTime</name></member>
+      <member refid="class_race_stats_1ae6304e89b0f9de191272e1ccff46150a" prot="public" virt="non-virtual"><scope>RaceStats</scope><name>Instance</name></member>
+      <member refid="class_race_stats_1ae0e35bc803b4a79af1e3a8432ad7cb74" prot="private" virt="non-virtual"><scope>RaceStats</scope><name>isFinished</name></member>
+      <member refid="class_race_stats_1a65fffb5713784cc92a5a42d720cc8051" prot="public" virt="non-virtual"><scope>RaceStats</scope><name>IsRaceFinished</name></member>
+      <member refid="class_race_stats_1a861c2e4c68dc9aebe9a8d1d69a92fa89" prot="private" virt="non-virtual"><scope>RaceStats</scope><name>isRunning</name></member>
+      <member refid="class_race_stats_1aa5687c12f0b638cc1888d5bac3a4939d" prot="public" virt="non-virtual"><scope>RaceStats</scope><name>IsTimerRunning</name></member>
+      <member refid="class_race_stats_1a6d393787247cf91d5433b659073047ee" prot="public" virt="non-virtual"><scope>RaceStats</scope><name>killsText</name></member>
+      <member refid="class_race_stats_1ab2643fc2154a852112a64dc88e352faa" prot="private" virt="non-virtual"><scope>RaceStats</scope><name>OnDisable</name></member>
+      <member refid="class_race_stats_1a904a47f93097aba753aac310aa3b9887" prot="private" virt="non-virtual"><scope>RaceStats</scope><name>OnEnable</name></member>
+      <member refid="class_race_stats_1ae1593d3722c99aaaddfb775c07b2eafb" prot="public" virt="non-virtual"><scope>RaceStats</scope><name>ResetTimer</name></member>
+      <member refid="class_race_stats_1a0c3595fa39b5c6b73c22f81485d83076" prot="private" virt="non-virtual"><scope>RaceStats</scope><name>Start</name></member>
+      <member refid="class_race_stats_1a034b01b27236f2eeb9b97d44a9d1074d" prot="public" virt="non-virtual"><scope>RaceStats</scope><name>StartTimer</name></member>
+      <member refid="class_race_stats_1a3f51689b41852f74135b8989b0667a68" prot="public" virt="non-virtual"><scope>RaceStats</scope><name>StopTimer</name></member>
+      <member refid="class_race_stats_1a120a46eafaaf03cab825e1507c7e67cb" prot="public" virt="non-virtual"><scope>RaceStats</scope><name>timerText</name></member>
+      <member refid="class_race_stats_1a46af1d3865be44b6ba1acd1e50ee0eec" prot="private" virt="non-virtual"><scope>RaceStats</scope><name>Update</name></member>
+      <member refid="class_race_stats_1a621b308a4d7e97a6df03c55b6b516d9c" prot="public" virt="non-virtual"><scope>RaceStats</scope><name>UpdateCoinsDisplay</name></member>
+      <member refid="class_race_stats_1a9ee4720f588993a602a9a583ab34349c" prot="public" virt="non-virtual"><scope>RaceStats</scope><name>UpdateKillsDisplay</name></member>
+      <member refid="class_race_stats_1a49b45f7f034bc5abad65f4397207e371" prot="private" virt="non-virtual"><scope>RaceStats</scope><name>UpdateTimerDisplay</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

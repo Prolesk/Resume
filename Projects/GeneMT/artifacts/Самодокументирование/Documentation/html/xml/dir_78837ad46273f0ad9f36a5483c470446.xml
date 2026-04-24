@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_78837ad46273f0ad9f36a5483c470446" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls</compoundname>
+    <innerfile refid="_player_hit_effect_8cs">PlayerHitEffect.cs</innerfile>
+    <innerfile refid="_player_input_8cs">PlayerInput.cs</innerfile>
+    <innerfile refid="_player_movement_8cs">PlayerMovement.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerControls/"/>
+  </compounddef>
+</doxygen>

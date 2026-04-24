@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_u_i_element_data" kind="class" language="C#" prot="public">
+    <compoundname>UIElementData</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_u_i_element_data_1a11b0be01c15e5c48b929cabec925db65" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UIElementData.element</definition>
+        <argsstring></argsstring>
+        <name>element</name>
+        <qualifiedname>UIElementData.element</qualifiedname>
+        <briefdescription>
+<para>The element field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="14" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_element_data_1a462b3b7f8aa272f143054893bd44f4ae" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UIElementData.startPosition</definition>
+        <argsstring></argsstring>
+        <name>startPosition</name>
+        <qualifiedname>UIElementData.startPosition</qualifiedname>
+        <briefdescription>
+<para>The startPosition field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="18" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_element_data_1ac649c1696967c5d662186e8483e64501" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UIElementData.targetPosition</definition>
+        <argsstring></argsstring>
+        <name>targetPosition</name>
+        <qualifiedname>UIElementData.targetPosition</qualifiedname>
+        <briefdescription>
+<para>The targetPosition field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="22" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_element_data_1a8cb19b474802b45c3b8292d9d441565e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UIElementData.duration</definition>
+        <argsstring></argsstring>
+        <name>duration</name>
+        <qualifiedname>UIElementData.duration</qualifiedname>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+<para>The duration field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="26" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_element_data_1a3fb2a1f51fb49e49e07077bdc1bf7d7f" prot="public" static="no" mutable="no">
+        <type>Ease</type>
+        <definition>Ease UIElementData.easeType</definition>
+        <argsstring></argsstring>
+        <name>easeType</name>
+        <qualifiedname>UIElementData.easeType</qualifiedname>
+        <initializer>= Ease.OutQuad</initializer>
+        <briefdescription>
+<para>The easeType field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="30" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_element_data_1aac5de76d52a9656ab7158f0ba3dd5df1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UIElementData.useLocalPosition</definition>
+        <argsstring></argsstring>
+        <name>useLocalPosition</name>
+        <qualifiedname>UIElementData.useLocalPosition</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>The useLocalPosition field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="34" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_u_i_element_data" kindref="compound">UIElementData</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/Common/FlexibleUIMover.cs" bodystart="10" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_u_i_element_data_1a8cb19b474802b45c3b8292d9d441565e" prot="public" virt="non-virtual"><scope>UIElementData</scope><name>duration</name></member>
+      <member refid="class_u_i_element_data_1a3fb2a1f51fb49e49e07077bdc1bf7d7f" prot="public" virt="non-virtual"><scope>UIElementData</scope><name>easeType</name></member>
+      <member refid="class_u_i_element_data_1a11b0be01c15e5c48b929cabec925db65" prot="public" virt="non-virtual"><scope>UIElementData</scope><name>element</name></member>
+      <member refid="class_u_i_element_data_1a462b3b7f8aa272f143054893bd44f4ae" prot="public" virt="non-virtual"><scope>UIElementData</scope><name>startPosition</name></member>
+      <member refid="class_u_i_element_data_1ac649c1696967c5d662186e8483e64501" prot="public" virt="non-virtual"><scope>UIElementData</scope><name>targetPosition</name></member>
+      <member refid="class_u_i_element_data_1aac5de76d52a9656ab7158f0ba3dd5df1" prot="public" virt="non-virtual"><scope>UIElementData</scope><name>useLocalPosition</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

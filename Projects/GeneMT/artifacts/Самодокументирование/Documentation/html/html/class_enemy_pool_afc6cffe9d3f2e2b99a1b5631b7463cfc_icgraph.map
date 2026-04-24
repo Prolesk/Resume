@@ -1,0 +1,11 @@
+<map id="EnemyPool.GetEnemy" name="EnemyPool.GetEnemy">
+<area shape="rect" id="Node000001" title="Gets the Enemy." alt="" coords="289,113,443,140"/>
+<area shape="rect" id="Node000002" href="$class_enemy_spawner.html#ab0f3cc4c03a6f797d0176f46a7a451fe" title="Spawns FastMeleeEnemy." alt="" coords="14,5,232,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="327,105,286,84,240,62,209,51,209,46,242,58,289,80,332,105"/>
+<area shape="rect" id="Node000003" href="$class_enemy_spawner.html#a7ffd9a4af06e362ac787784da9a8d2c8" title="Spawns SmallMeleeEnemy." alt="" coords="10,72,236,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="271,115,237,112,236,106,276,113"/>
+<area shape="rect" id="Node000004" href="$class_enemy_spawner.html#ab0c3b2324d05444d46b76729b22c685f" title="Spawns SmallRangedEnemy." alt="" coords="5,139,241,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="271,140,242,146,240,141,276,139"/>
+<area shape="rect" id="Node000005" href="$class_enemy_spawner.html#ad3fe549a7a8cb85eddc524b151a405c6" title="Spawns StrongMeleeEnemy." alt="" coords="25,205,221,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="332,147,289,174,242,196,210,207,208,202,240,191,286,169,327,149"/>
+</map>

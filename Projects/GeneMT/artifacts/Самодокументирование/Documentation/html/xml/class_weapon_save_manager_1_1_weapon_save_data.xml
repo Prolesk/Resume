@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_weapon_save_manager_1_1_weapon_save_data" kind="class" language="C#" prot="public">
+    <compoundname>WeaponSaveManager::WeaponSaveData</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_weapon_save_manager_1_1_weapon_save_data_1a8692ee27f973c95554fb1f96b27227be" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WeaponSaveManager.WeaponSaveData.weaponId</definition>
+        <argsstring></argsstring>
+        <name>weaponId</name>
+        <qualifiedname>WeaponSaveManager.WeaponSaveData.weaponId</qualifiedname>
+        <briefdescription>
+<para>The weaponId field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" line="20" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_save_manager_1_1_weapon_save_data_1a6b7ef5937ae269efbae95f6edbb643a7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WeaponSaveManager.WeaponSaveData.level</definition>
+        <argsstring></argsstring>
+        <name>level</name>
+        <qualifiedname>WeaponSaveManager.WeaponSaveData.level</qualifiedname>
+        <briefdescription>
+<para>The level field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" line="24" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_weapon_save_manager_1_1_weapon_save_data" kindref="compound">WeaponSaveData</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" line="15" column="11" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/WeaponSaveManager.cs" bodystart="16" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_weapon_save_manager_1_1_weapon_save_data_1a6b7ef5937ae269efbae95f6edbb643a7" prot="public" virt="non-virtual"><scope>WeaponSaveManager::WeaponSaveData</scope><name>level</name></member>
+      <member refid="class_weapon_save_manager_1_1_weapon_save_data_1a8692ee27f973c95554fb1f96b27227be" prot="public" virt="non-virtual"><scope>WeaponSaveManager::WeaponSaveData</scope><name>weaponId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

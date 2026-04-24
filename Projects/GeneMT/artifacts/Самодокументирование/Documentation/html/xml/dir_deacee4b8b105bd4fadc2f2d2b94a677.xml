@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_deacee4b8b105bd4fadc2f2d2b94a677" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools</compoundname>
+    <innerfile refid="_enemy_pool_8cs">EnemyPool.cs</innerfile>
+    <innerfile refid="_enemy_pool_list_8cs">EnemyPoolList.cs</innerfile>
+    <innerfile refid="_small_enemy_melee_pool_8cs">SmallEnemyMeleePool.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Enemy/Common/EnemyPools/"/>
+  </compounddef>
+</doxygen>

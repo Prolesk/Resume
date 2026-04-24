@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_e79fec2f161044e6ff0447aad0ebc86b" kind="dir">
+    <compoundname>C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsUI</compoundname>
+    <innerfile refid="_mutation_reward_info_8cs">MutationRewardInfo.cs</innerfile>
+    <innerfile refid="_mutations_panel_8cs">MutationsPanel.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/mutations/mutationsUI/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,942 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_weapon" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Weapon</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_bullet_shooter" prot="public" virt="non-virtual">BulletShooter</derivedcompoundref>
+    <derivedcompoundref refid="class_damage_field_trigger" prot="public" virt="non-virtual">DamageFieldTrigger</derivedcompoundref>
+    <derivedcompoundref refid="class_laser" prot="public" virt="non-virtual">Laser</derivedcompoundref>
+    <derivedcompoundref refid="class_magic_staff" prot="public" virt="non-virtual">MagicStaff</derivedcompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_weapon_1afa5c22658e6121b9a39e3e9936c4ad2d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_player_stats_s_o" kindref="compound">PlayerStatsSO</ref></type>
+        <definition>PlayerStatsSO Weapon.playerStats</definition>
+        <argsstring></argsstring>
+        <name>playerStats</name>
+        <qualifiedname>Weapon.playerStats</qualifiedname>
+        <briefdescription>
+<para>The playerStats field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="10" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_weapon_1a074f6fa47b6ee3202dc6751eabdfb000" compoundref="_weapon_8cs" startline="175" endline="196">CalculateCooldown</referencedby>
+        <referencedby refid="class_weapon_1ad860905094346042ba8ea674dd78de6d" compoundref="_weapon_8cs" startline="128" endline="149">CalculateDamage</referencedby>
+        <referencedby refid="class_weapon_1aee4ad85a276c0d27301fdf29d379bacb" compoundref="_weapon_8cs" startline="151" endline="173">CalculateDamage</referencedby>
+        <referencedby refid="class_damage_field_trigger_1a7466f62601fe0dbf9b72e38cfbafa8db" compoundref="_damage_field_trigger_8cs" startline="33" endline="41">DamageFieldTrigger.SubscribeToPlayerStats</referencedby>
+        <referencedby refid="class_laser_1a48874baaaf83a6072dc6903c649a0126" compoundref="_laser_8cs" startline="49" endline="59">Laser.SubscribeToPlayerStats</referencedby>
+        <referencedby refid="class_magic_staff_1a44e78817c7935a3f4d4bfacdf2281ba2" compoundref="_magic_staff_8cs" startline="50" endline="60">MagicStaff.SubscribeToPlayerStats</referencedby>
+        <referencedby refid="class_weapon_1ab616652596d92596f8fce9f408319f3c" compoundref="_weapon_8cs" startline="71" endline="82">SubscribeToPlayerStats</referencedby>
+        <referencedby refid="class_damage_field_trigger_1a0dc18c2a7337c4949ae7651d4165f64d" compoundref="_damage_field_trigger_8cs" startline="43" endline="51">DamageFieldTrigger.UnsubscribeFromPlayerStats</referencedby>
+        <referencedby refid="class_laser_1a74bd6014268750877dd4999cd2d299d4" compoundref="_laser_8cs" startline="61" endline="71">Laser.UnsubscribeFromPlayerStats</referencedby>
+        <referencedby refid="class_magic_staff_1a92cff298e167b2d1f5d2b41797219e6e" compoundref="_magic_staff_8cs" startline="62" endline="72">MagicStaff.UnsubscribeFromPlayerStats</referencedby>
+        <referencedby refid="class_weapon_1a328e690c7cf25db86ec7d361f57be72f" compoundref="_weapon_8cs" startline="84" endline="95">UnsubscribeFromPlayerStats</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_1a08149e046d2aa78ee427066886146517" prot="public" static="no" mutable="no">
+        <type><ref refid="class_weapon_data_s_o" kindref="compound">WeaponDataSO</ref></type>
+        <definition>WeaponDataSO Weapon.weaponData</definition>
+        <argsstring></argsstring>
+        <name>weaponData</name>
+        <qualifiedname>Weapon.weaponData</qualifiedname>
+        <briefdescription>
+<para>The weaponData field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="14" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_weapon_1a6d7148708171a55fe10eb250d73c9f71" compoundref="_weapon_8cs" startline="203" endline="224">AddLevel</referencedby>
+        <referencedby refid="class_weapon_1a074f6fa47b6ee3202dc6751eabdfb000" compoundref="_weapon_8cs" startline="175" endline="196">CalculateCooldown</referencedby>
+        <referencedby refid="class_weapon_1ad860905094346042ba8ea674dd78de6d" compoundref="_weapon_8cs" startline="128" endline="149">CalculateDamage</referencedby>
+        <referencedby refid="class_weapon_1aee4ad85a276c0d27301fdf29d379bacb" compoundref="_weapon_8cs" startline="151" endline="173">CalculateDamage</referencedby>
+        <referencedby refid="class_weapon_1a188e2513ead27db5ffe844e168804ae4" compoundref="_weapon_8cs" startline="198" endline="201">CanLevelUp</referencedby>
+        <referencedby refid="class_weapon_1a479491c816e68b0137996348b49fe781" compoundref="_weapon_8cs" startline="292" endline="311">DebugWeaponStats</referencedby>
+        <referencedby refid="class_weapon_1a50e11db3148996b29f6bbc6856120c95" compoundref="_weapon_8cs" startline="251" endline="254">GetItemDescription</referencedby>
+        <referencedby refid="class_bullet_shooter_1a5c020c996bd88676c5eb9405e633626a" compoundref="_bullet_shooter_8cs" startline="187" endline="190">BulletShooter.GetTextTitleInfo</referencedby>
+        <referencedby refid="class_damage_field_trigger_1a74cd2f8bc9dc1d23c6586f8542c0e028" compoundref="_damage_field_trigger_8cs" startline="116" endline="119">DamageFieldTrigger.GetTextTitleInfo</referencedby>
+        <referencedby refid="class_laser_1a32f293ade967ff5fe6498abb669bdf96" compoundref="_laser_8cs" startline="231" endline="234">Laser.GetTextTitleInfo</referencedby>
+        <referencedby refid="class_magic_staff_1af9317c1fe43a31503a54febb9c30231c" compoundref="_magic_staff_8cs" startline="226" endline="229">MagicStaff.GetTextTitleInfo</referencedby>
+        <referencedby refid="class_weapon_1ad13d312d049e1ebd6b5fe3c1a890a66c" compoundref="_weapon_8cs" startline="239" endline="249">GetUpgradeDescriptionForNextLevel</referencedby>
+        <referencedby refid="class_bullet_shooter_1a4eed27623650a00f3847b5baf027b850" compoundref="_bullet_shooter_8cs" startline="30" endline="40">BulletShooter.InitializeWeapon</referencedby>
+        <referencedby refid="class_damage_field_trigger_1ac30a53c87a1fc7746a5ff80abd87ce0c" compoundref="_damage_field_trigger_8cs" startline="23" endline="31">DamageFieldTrigger.InitializeWeapon</referencedby>
+        <referencedby refid="class_laser_1a6654e03613bf66b4700c877c4904866a" compoundref="_laser_8cs" startline="32" endline="42">Laser.InitializeWeapon</referencedby>
+        <referencedby refid="class_magic_staff_1a2c2a1ce86df1a50d3916f373b0398999" compoundref="_magic_staff_8cs" startline="33" endline="43">MagicStaff.InitializeWeapon</referencedby>
+        <referencedby refid="class_weapon_1a9182d6c16efa79826dbe1a268f430594" compoundref="_weapon_8cs" startline="62" endline="69">InitializeWeapon</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_1ae299df08a60611f9f0fc6fdc4c659b46" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Weapon.currentLevel</definition>
+        <argsstring></argsstring>
+        <name>currentLevel</name>
+        <qualifiedname>Weapon.currentLevel</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>The currentLevel field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="21" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_weapon_1a6d7148708171a55fe10eb250d73c9f71" compoundref="_weapon_8cs" startline="203" endline="224">AddLevel</referencedby>
+        <referencedby refid="class_weapon_1a074f6fa47b6ee3202dc6751eabdfb000" compoundref="_weapon_8cs" startline="175" endline="196">CalculateCooldown</referencedby>
+        <referencedby refid="class_weapon_1ad860905094346042ba8ea674dd78de6d" compoundref="_weapon_8cs" startline="128" endline="149">CalculateDamage</referencedby>
+        <referencedby refid="class_weapon_1aee4ad85a276c0d27301fdf29d379bacb" compoundref="_weapon_8cs" startline="151" endline="173">CalculateDamage</referencedby>
+        <referencedby refid="class_weapon_1a188e2513ead27db5ffe844e168804ae4" compoundref="_weapon_8cs" startline="198" endline="201">CanLevelUp</referencedby>
+        <referencedby refid="class_weapon_1ad13d312d049e1ebd6b5fe3c1a890a66c" compoundref="_weapon_8cs" startline="239" endline="249">GetUpgradeDescriptionForNextLevel</referencedby>
+        <referencedby refid="class_weapon_1a4ac4fcc1733a670d99607f52d6160701" compoundref="_weapon_8cs" startline="226" endline="234">ReduceLevel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_1a69231f675123b5bf16b82c1b05804eff" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Weapon.IsAvailable</definition>
+        <argsstring></argsstring>
+        <name>IsAvailable</name>
+        <qualifiedname>Weapon.IsAvailable</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>The IsAvailable field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="27" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_weapon_1aa2c6401b0e18582811ac05d70e5c167c" compoundref="_weapon_8cs" startline="273" endline="277">SetAvailable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_1a6311c5a63cd709c4b2ca3a0161ff7ad5" prot="public" static="no" mutable="no">
+        <type>Action</type>
+        <definition>Action Weapon.AvailableChanged</definition>
+        <argsstring></argsstring>
+        <name>AvailableChanged</name>
+        <qualifiedname>Weapon.AvailableChanged</qualifiedname>
+        <briefdescription>
+<para>The AvailableChanged field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="31" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_weapon_1aa2c6401b0e18582811ac05d70e5c167c" compoundref="_weapon_8cs" startline="273" endline="277">SetAvailable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_1a9529168f0afe4ae01428686c03852eec" prot="public" static="no" mutable="no">
+        <type>System.Action&lt; <ref refid="class_weapon" kindref="compound">Weapon</ref> &gt;</type>
+        <definition>System.Action&lt;Weapon&gt; Weapon.OnLevelUp</definition>
+        <argsstring></argsstring>
+        <name>OnLevelUp</name>
+        <qualifiedname>Weapon.OnLevelUp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="50" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="50" bodyend="-1"/>
+        <referencedby refid="class_weapon_1a6d7148708171a55fe10eb250d73c9f71" compoundref="_weapon_8cs" startline="203" endline="224">AddLevel</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_weapon_1aaf922eb1468b4fc9a7621717db389c5b" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Weapon.currentDamage</definition>
+        <argsstring></argsstring>
+        <name>currentDamage</name>
+        <qualifiedname>Weapon.currentDamage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="16" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_laser_1a7c9b3d0e6e57512742c16b62fcb8d59e" compoundref="_laser_8cs" startline="78" endline="83">Laser.CalculateDamage</referencedby>
+        <referencedby refid="class_magic_staff_1ad39dcf5ba699229245373d985e233eb0" compoundref="_magic_staff_8cs" startline="84" endline="89">MagicStaff.CalculateDamage</referencedby>
+        <referencedby refid="class_weapon_1ad860905094346042ba8ea674dd78de6d" compoundref="_weapon_8cs" startline="128" endline="149">CalculateDamage</referencedby>
+        <referencedby refid="class_weapon_1aee4ad85a276c0d27301fdf29d379bacb" compoundref="_weapon_8cs" startline="151" endline="173">CalculateDamage</referencedby>
+        <referencedby refid="class_weapon_1a0d972514250825c4b7aaecd42235f0e7">GetDamage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_1ad532fb0f0dfc1c6360f208fc34156197" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Weapon.currentCooldown</definition>
+        <argsstring></argsstring>
+        <name>currentCooldown</name>
+        <qualifiedname>Weapon.currentCooldown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="17" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_weapon_1a074f6fa47b6ee3202dc6751eabdfb000" compoundref="_weapon_8cs" startline="175" endline="196">CalculateCooldown</referencedby>
+        <referencedby refid="class_weapon_1a31a4342b893bf970f73826ff0c343c44">GetCooldown</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_weapon_1a635065fdc99dea24985f112f1254ed5a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_weapon_data_s_o" kindref="compound">WeaponDataSO</ref></type>
+        <definition>WeaponDataSO Weapon.Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <qualifiedname>Weapon.Data</qualifiedname>
+        <briefdescription>
+<para>The Data field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="36" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_weapon_save_manager_1a2f5c0b329b8082a5a24074903becf2d3" compoundref="_weapon_save_manager_8cs" startline="96" endline="106">WeaponSaveManager.ApplySavedStateToWeapon</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_weapon_1ac4df25f5b4036c98320959a73f28e947" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_player_stats_s_o" kindref="compound">PlayerStatsSO</ref></type>
+        <definition>PlayerStatsSO Weapon.PlayerStatsData</definition>
+        <argsstring></argsstring>
+        <name>PlayerStatsData</name>
+        <qualifiedname>Weapon.PlayerStatsData</qualifiedname>
+        <briefdescription>
+<para>The PlayerStatsData field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="40" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_weapon_1a2a0c19d2dbdb2cddf5f548a140589791" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Weapon.CurrentLevel</definition>
+        <argsstring></argsstring>
+        <name>CurrentLevel</name>
+        <qualifiedname>Weapon.CurrentLevel</qualifiedname>
+        <briefdescription>
+<para>The CurrentLevel field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="44" column="16" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_weapon_save_manager_1a2f5c0b329b8082a5a24074903becf2d3" compoundref="_weapon_save_manager_8cs" startline="96" endline="106">WeaponSaveManager.ApplySavedStateToWeapon</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_weapon_1a9e59d0d3f26119eccc69d89d216ed887" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Weapon.IsMaxLevel</definition>
+        <argsstring></argsstring>
+        <name>IsMaxLevel</name>
+        <qualifiedname>Weapon.IsMaxLevel</qualifiedname>
+        <briefdescription>
+<para>The IsMaxLevel field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="48" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_weapon_1a7c7b901870c742eb854eff9312ce6a33" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Weapon.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>Weapon.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="52" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1a903391d55ea46c1da6abbc9c4cfac403" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Weapon.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>Weapon.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="97" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="97" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1ad8fbc446ac5f30e4b9cab06a4c3379ae" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Weapon.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>Weapon.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="103" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="103" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1a5099fa3cadc4914d6553d52e3e1a2734" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Weapon.OnCooldownReductionChanged</definition>
+        <argsstring>(float cooldownReduction)</argsstring>
+        <name>OnCooldownReductionChanged</name>
+        <qualifiedname>Weapon.OnCooldownReductionChanged</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>cooldownReduction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="108" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="108" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1a94ec0230429753558af2d158a2b52a81" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Weapon.OnDamageMultiplierChanged</definition>
+        <argsstring>(float damageMultiplier)</argsstring>
+        <name>OnDamageMultiplierChanged</name>
+        <qualifiedname>Weapon.OnDamageMultiplierChanged</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>damageMultiplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="113" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="113" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1a5681ccb8c4b3f6565605d4a84af93254" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Weapon.UpdatePlayerStats</definition>
+        <argsstring>()</argsstring>
+        <name>UpdatePlayerStats</name>
+        <qualifiedname>Weapon.UpdatePlayerStats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="313" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="313" bodyend="325"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_weapon_1ada39248fef5791eef332e2be9b701fce" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Weapon.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>Weapon.Awake</qualifiedname>
+        <reimplementedby refid="class_bullet_shooter_1a28ed7694240e08b8614dd2a76225b787">Awake</reimplementedby>
+        <reimplementedby refid="class_damage_field_trigger_1a1c60d43355aa871c98787318dbf54fea">Awake</reimplementedby>
+        <reimplementedby refid="class_laser_1a8e674a47d93f2ca0adc41dea74bed2df">Awake</reimplementedby>
+        <reimplementedby refid="class_magic_staff_1add2046708cf2c898846ba6976110ce70">Awake</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="57" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="57" bodyend="60"/>
+        <references refid="class_weapon_1a9182d6c16efa79826dbe1a268f430594" compoundref="_weapon_8cs" startline="62" endline="69">InitializeWeapon</references>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1a9182d6c16efa79826dbe1a268f430594" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Weapon.InitializeWeapon</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeWeapon</name>
+        <qualifiedname>Weapon.InitializeWeapon</qualifiedname>
+        <reimplementedby refid="class_bullet_shooter_1a4eed27623650a00f3847b5baf027b850">InitializeWeapon</reimplementedby>
+        <reimplementedby refid="class_damage_field_trigger_1ac30a53c87a1fc7746a5ff80abd87ce0c">InitializeWeapon</reimplementedby>
+        <reimplementedby refid="class_laser_1a6654e03613bf66b4700c877c4904866a">InitializeWeapon</reimplementedby>
+        <reimplementedby refid="class_magic_staff_1a2c2a1ce86df1a50d3916f373b0398999">InitializeWeapon</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="62" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="62" bodyend="69"/>
+        <references refid="class_weapon_1a08149e046d2aa78ee427066886146517" compoundref="_weapon_8cs" startline="14">weaponData</references>
+        <referencedby refid="class_weapon_1ada39248fef5791eef332e2be9b701fce" compoundref="_weapon_8cs" startline="57" endline="60">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1ab616652596d92596f8fce9f408319f3c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Weapon.SubscribeToPlayerStats</definition>
+        <argsstring>()</argsstring>
+        <name>SubscribeToPlayerStats</name>
+        <qualifiedname>Weapon.SubscribeToPlayerStats</qualifiedname>
+        <reimplementedby refid="class_bullet_shooter_1a99dc374d171e1e129a37bb05671e11b7">SubscribeToPlayerStats</reimplementedby>
+        <reimplementedby refid="class_damage_field_trigger_1a7466f62601fe0dbf9b72e38cfbafa8db">SubscribeToPlayerStats</reimplementedby>
+        <reimplementedby refid="class_laser_1a48874baaaf83a6072dc6903c649a0126">SubscribeToPlayerStats</reimplementedby>
+        <reimplementedby refid="class_magic_staff_1a44e78817c7935a3f4d4bfacdf2281ba2">SubscribeToPlayerStats</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="71" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="71" bodyend="82"/>
+        <references refid="class_weapon_1afa5c22658e6121b9a39e3e9936c4ad2d" compoundref="_weapon_8cs" startline="10">playerStats</references>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1a328e690c7cf25db86ec7d361f57be72f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Weapon.UnsubscribeFromPlayerStats</definition>
+        <argsstring>()</argsstring>
+        <name>UnsubscribeFromPlayerStats</name>
+        <qualifiedname>Weapon.UnsubscribeFromPlayerStats</qualifiedname>
+        <reimplementedby refid="class_bullet_shooter_1a6214a7ca3115fca4179c147bf65c319d">UnsubscribeFromPlayerStats</reimplementedby>
+        <reimplementedby refid="class_damage_field_trigger_1a0dc18c2a7337c4949ae7651d4165f64d">UnsubscribeFromPlayerStats</reimplementedby>
+        <reimplementedby refid="class_laser_1a74bd6014268750877dd4999cd2d299d4">UnsubscribeFromPlayerStats</reimplementedby>
+        <reimplementedby refid="class_magic_staff_1a92cff298e167b2d1f5d2b41797219e6e">UnsubscribeFromPlayerStats</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="84" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="84" bodyend="95"/>
+        <references refid="class_weapon_1afa5c22658e6121b9a39e3e9936c4ad2d" compoundref="_weapon_8cs" startline="10">playerStats</references>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1a06a4040601202b7335c1066af462861f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Weapon.CalculateAllStats</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateAllStats</name>
+        <qualifiedname>Weapon.CalculateAllStats</qualifiedname>
+        <reimplementedby refid="class_bullet_shooter_1adf0b3643439b226f667ea5523b5d689d">CalculateAllStats</reimplementedby>
+        <reimplementedby refid="class_damage_field_trigger_1ad29c5a29b60babd74ef5483fbcbbd977">CalculateAllStats</reimplementedby>
+        <reimplementedby refid="class_laser_1aaa0327bf34dfb82e64a4d78c02f06f3f">CalculateAllStats</reimplementedby>
+        <reimplementedby refid="class_magic_staff_1a52dcbd81ed6258d3c49670f55beccb13">CalculateAllStats</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="121" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="121" bodyend="125"/>
+        <references refid="class_weapon_1a074f6fa47b6ee3202dc6751eabdfb000" compoundref="_weapon_8cs" startline="175" endline="196">CalculateCooldown</references>
+        <references refid="class_weapon_1ad860905094346042ba8ea674dd78de6d" compoundref="_weapon_8cs" startline="128" endline="149">CalculateDamage</references>
+        <referencedby refid="class_weapon_1a6d7148708171a55fe10eb250d73c9f71" compoundref="_weapon_8cs" startline="203" endline="224">AddLevel</referencedby>
+        <referencedby refid="class_weapon_1a4ac4fcc1733a670d99607f52d6160701" compoundref="_weapon_8cs" startline="226" endline="234">ReduceLevel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1ad860905094346042ba8ea674dd78de6d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Weapon.CalculateDamage</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateDamage</name>
+        <qualifiedname>Weapon.CalculateDamage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="128" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="128" bodyend="149"/>
+        <references refid="class_weapon_1aaf922eb1468b4fc9a7621717db389c5b" compoundref="_weapon_8cs" startline="16">currentDamage</references>
+        <references refid="class_weapon_1ae299df08a60611f9f0fc6fdc4c659b46" compoundref="_weapon_8cs" startline="21">currentLevel</references>
+        <references refid="class_weapon_1afa5c22658e6121b9a39e3e9936c4ad2d" compoundref="_weapon_8cs" startline="10">playerStats</references>
+        <references refid="class_weapon_1a08149e046d2aa78ee427066886146517" compoundref="_weapon_8cs" startline="14">weaponData</references>
+        <referencedby refid="class_weapon_1a06a4040601202b7335c1066af462861f" compoundref="_weapon_8cs" startline="121" endline="125">CalculateAllStats</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1aee4ad85a276c0d27301fdf29d379bacb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Weapon.CalculateDamage</definition>
+        <argsstring>(float DamageMultiplier)</argsstring>
+        <name>CalculateDamage</name>
+        <qualifiedname>Weapon.CalculateDamage</qualifiedname>
+        <reimplementedby refid="class_laser_1a7c9b3d0e6e57512742c16b62fcb8d59e">CalculateDamage</reimplementedby>
+        <reimplementedby refid="class_magic_staff_1ad39dcf5ba699229245373d985e233eb0">CalculateDamage</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>DamageMultiplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="151" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="151" bodyend="173"/>
+        <references refid="class_weapon_1aaf922eb1468b4fc9a7621717db389c5b" compoundref="_weapon_8cs" startline="16">currentDamage</references>
+        <references refid="class_weapon_1ae299df08a60611f9f0fc6fdc4c659b46" compoundref="_weapon_8cs" startline="21">currentLevel</references>
+        <references refid="class_weapon_1afa5c22658e6121b9a39e3e9936c4ad2d" compoundref="_weapon_8cs" startline="10">playerStats</references>
+        <references refid="class_weapon_1a08149e046d2aa78ee427066886146517" compoundref="_weapon_8cs" startline="14">weaponData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1a074f6fa47b6ee3202dc6751eabdfb000" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Weapon.CalculateCooldown</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateCooldown</name>
+        <qualifiedname>Weapon.CalculateCooldown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="175" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="175" bodyend="196"/>
+        <references refid="class_weapon_1ad532fb0f0dfc1c6360f208fc34156197" compoundref="_weapon_8cs" startline="17">currentCooldown</references>
+        <references refid="class_weapon_1ae299df08a60611f9f0fc6fdc4c659b46" compoundref="_weapon_8cs" startline="21">currentLevel</references>
+        <references refid="class_weapon_1afa5c22658e6121b9a39e3e9936c4ad2d" compoundref="_weapon_8cs" startline="10">playerStats</references>
+        <references refid="class_weapon_1a08149e046d2aa78ee427066886146517" compoundref="_weapon_8cs" startline="14">weaponData</references>
+        <referencedby refid="class_weapon_1a06a4040601202b7335c1066af462861f" compoundref="_weapon_8cs" startline="121" endline="125">CalculateAllStats</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_weapon_1a188e2513ead27db5ffe844e168804ae4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool Weapon.CanLevelUp</definition>
+        <argsstring>()</argsstring>
+        <name>CanLevelUp</name>
+        <qualifiedname>Weapon.CanLevelUp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="198" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="198" bodyend="201"/>
+        <references refid="class_weapon_1ae299df08a60611f9f0fc6fdc4c659b46" compoundref="_weapon_8cs" startline="21">currentLevel</references>
+        <references refid="class_weapon_1a08149e046d2aa78ee427066886146517" compoundref="_weapon_8cs" startline="14">weaponData</references>
+        <referencedby refid="class_weapon_1a6d7148708171a55fe10eb250d73c9f71" compoundref="_weapon_8cs" startline="203" endline="224">AddLevel</referencedby>
+        <referencedby refid="class_weapon_1ad13d312d049e1ebd6b5fe3c1a890a66c" compoundref="_weapon_8cs" startline="239" endline="249">GetUpgradeDescriptionForNextLevel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1a6d7148708171a55fe10eb250d73c9f71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Weapon.AddLevel</definition>
+        <argsstring>(int levels=1)</argsstring>
+        <name>AddLevel</name>
+        <qualifiedname>Weapon.AddLevel</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>levels</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="203" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="203" bodyend="224"/>
+        <references refid="class_weapon_1a06a4040601202b7335c1066af462861f" compoundref="_weapon_8cs" startline="121" endline="125">CalculateAllStats</references>
+        <references refid="class_weapon_1a188e2513ead27db5ffe844e168804ae4" compoundref="_weapon_8cs" startline="198" endline="201">CanLevelUp</references>
+        <references refid="class_weapon_1ae299df08a60611f9f0fc6fdc4c659b46" compoundref="_weapon_8cs" startline="21">currentLevel</references>
+        <references refid="class_singleton_scriptable_object-1-g_1aa59148a0a9bc37057ef216e7c9a814a8" compoundref="_singleton_scriptable_object_8cs" startline="8" endline="34">SingletonScriptableObject&lt; T &gt;.Instance</references>
+        <references refid="class_weapon_1a9529168f0afe4ae01428686c03852eec" compoundref="_weapon_8cs" startline="50">OnLevelUp</references>
+        <references refid="class_weapon_1a08149e046d2aa78ee427066886146517" compoundref="_weapon_8cs" startline="14">weaponData</references>
+        <referencedby refid="class_weapon_save_manager_1a2f5c0b329b8082a5a24074903becf2d3" compoundref="_weapon_save_manager_8cs" startline="96" endline="106">WeaponSaveManager.ApplySavedStateToWeapon</referencedby>
+        <referencedby refid="class_weapon_1afe9d6a5606e4e8bcd65e3f5280269038" compoundref="_weapon_8cs" startline="283" endline="286">TestAddLevel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1a4ac4fcc1733a670d99607f52d6160701" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Weapon.ReduceLevel</definition>
+        <argsstring>(int levels=1)</argsstring>
+        <name>ReduceLevel</name>
+        <qualifiedname>Weapon.ReduceLevel</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>levels</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="226" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="226" bodyend="234"/>
+        <references refid="class_weapon_1a06a4040601202b7335c1066af462861f" compoundref="_weapon_8cs" startline="121" endline="125">CalculateAllStats</references>
+        <references refid="class_weapon_1ae299df08a60611f9f0fc6fdc4c659b46" compoundref="_weapon_8cs" startline="21">currentLevel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1a0b44f2f6198589463888b31420480e89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Weapon.GetTextTitleInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetTextTitleInfo</name>
+        <qualifiedname>Weapon.GetTextTitleInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="236" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1a275f3d6d8ec2836df6ebb51ae1eea32c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Weapon.GetTextDescriptionInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetTextDescriptionInfo</name>
+        <qualifiedname>Weapon.GetTextDescriptionInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="237" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1ad13d312d049e1ebd6b5fe3c1a890a66c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>virtual string Weapon.GetUpgradeDescriptionForNextLevel</definition>
+        <argsstring>()</argsstring>
+        <name>GetUpgradeDescriptionForNextLevel</name>
+        <qualifiedname>Weapon.GetUpgradeDescriptionForNextLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="239" column="27" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="239" bodyend="249"/>
+        <references refid="class_weapon_1a188e2513ead27db5ffe844e168804ae4" compoundref="_weapon_8cs" startline="198" endline="201">CanLevelUp</references>
+        <references refid="class_weapon_1ae299df08a60611f9f0fc6fdc4c659b46" compoundref="_weapon_8cs" startline="21">currentLevel</references>
+        <references refid="class_weapon_1a08149e046d2aa78ee427066886146517" compoundref="_weapon_8cs" startline="14">weaponData</references>
+        <referencedby refid="class_bullet_shooter_1a703e35c9e8b47ae011b2436c56426ab2" compoundref="_bullet_shooter_8cs" startline="192" endline="199">BulletShooter.GetTextDescriptionInfo</referencedby>
+        <referencedby refid="class_damage_field_trigger_1ae4e9bc63377580fad99488f2f0bec1f1" compoundref="_damage_field_trigger_8cs" startline="121" endline="128">DamageFieldTrigger.GetTextDescriptionInfo</referencedby>
+        <referencedby refid="class_laser_1a3aa1e5349df6e09fc7ec496ca51e916d" compoundref="_laser_8cs" startline="236" endline="243">Laser.GetTextDescriptionInfo</referencedby>
+        <referencedby refid="class_magic_staff_1a9fcc42d8b0d63c293c320b3c3154eb2a" compoundref="_magic_staff_8cs" startline="231" endline="238">MagicStaff.GetTextDescriptionInfo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1a50e11db3148996b29f6bbc6856120c95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>virtual string Weapon.GetItemDescription</definition>
+        <argsstring>()</argsstring>
+        <name>GetItemDescription</name>
+        <qualifiedname>Weapon.GetItemDescription</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="251" column="27" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="251" bodyend="254"/>
+        <references refid="class_weapon_1a08149e046d2aa78ee427066886146517" compoundref="_weapon_8cs" startline="14">weaponData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1a31a4342b893bf970f73826ff0c343c44" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>virtual float Weapon.GetCooldown</definition>
+        <argsstring>()</argsstring>
+        <name>GetCooldown</name>
+        <qualifiedname>Weapon.GetCooldown</qualifiedname>
+        <reimplementedby refid="class_magic_staff_1af75b8545a50c6408b9df88881ed6b2ef">GetCooldown</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="256" column="26"/>
+        <references refid="class_weapon_1ad532fb0f0dfc1c6360f208fc34156197" compoundref="_weapon_8cs" startline="17">currentCooldown</references>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1a0d972514250825c4b7aaecd42235f0e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>virtual float Weapon.GetDamage</definition>
+        <argsstring>()</argsstring>
+        <name>GetDamage</name>
+        <qualifiedname>Weapon.GetDamage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="257" column="26"/>
+        <references refid="class_weapon_1aaf922eb1468b4fc9a7621717db389c5b" compoundref="_weapon_8cs" startline="16">currentDamage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1a5367855dc2202f9cbf9f23b8de25ae92" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>virtual float Weapon.GetArea</definition>
+        <argsstring>()</argsstring>
+        <name>GetArea</name>
+        <qualifiedname>Weapon.GetArea</qualifiedname>
+        <reimplementedby refid="class_damage_field_trigger_1a8977c6674db64922471d0b4794058919">GetArea</reimplementedby>
+        <reimplementedby refid="class_laser_1a0999fd1d40ffd63a35b0bf29d5bf2178">GetArea</reimplementedby>
+        <reimplementedby refid="class_magic_staff_1a939c7526dd954942bc3cb77729387e25">GetArea</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="258" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1ac586cb11ef39baffaa3d7365d48ce12f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>virtual float Weapon.GetProjectileSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>GetProjectileSpeed</name>
+        <qualifiedname>Weapon.GetProjectileSpeed</qualifiedname>
+        <reimplementedby refid="class_bullet_shooter_1a425e1ca73c7752d7573a42016d66ca5e">GetProjectileSpeed</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="259" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1a69d700917c994a2da5273a50db72ba8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>virtual float Weapon.GetLifetime</definition>
+        <argsstring>()</argsstring>
+        <name>GetLifetime</name>
+        <qualifiedname>Weapon.GetLifetime</qualifiedname>
+        <reimplementedby refid="class_bullet_shooter_1a3d052fe7931cdc248d48ba4651307ef8">GetLifetime</reimplementedby>
+        <reimplementedby refid="class_laser_1afbf224b7c0e8caaf2f9e9f9ec1e4543c">GetLifetime</reimplementedby>
+        <reimplementedby refid="class_magic_staff_1ad8fe03a2d9c624ee5734a46a9d6f5efa">GetLifetime</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="260" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1aca9f32807207e86ccf29a6ffb126bde7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>virtual int Weapon.GetDamageType</definition>
+        <argsstring>()</argsstring>
+        <name>GetDamageType</name>
+        <qualifiedname>Weapon.GetDamageType</qualifiedname>
+        <reimplementedby refid="class_bullet_shooter_1ac19fe73ce485da795d44ab6577f784c6">GetDamageType</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="261" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1ae72d0bc59613640dd76e71f72931f68e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>virtual string Weapon.GetWeaponStats</definition>
+        <argsstring>()</argsstring>
+        <name>GetWeaponStats</name>
+        <qualifiedname>Weapon.GetWeaponStats</qualifiedname>
+        <reimplementedby refid="class_bullet_shooter_1a242b4a38584a18cd365cce659b5be349">GetWeaponStats</reimplementedby>
+        <reimplementedby refid="class_damage_field_trigger_1a851882bddf00fe6fd2efc7133a6c9440">GetWeaponStats</reimplementedby>
+        <reimplementedby refid="class_laser_1aa63b6a72414ffbc0c54423f7f1914baa">GetWeaponStats</reimplementedby>
+        <reimplementedby refid="class_magic_staff_1ab66817b06f1566bb1ac67b96cd784ea4">GetWeaponStats</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="263" column="27" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="263" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1aa2c6401b0e18582811ac05d70e5c167c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Weapon.SetAvailable</definition>
+        <argsstring>(bool available)</argsstring>
+        <name>SetAvailable</name>
+        <qualifiedname>Weapon.SetAvailable</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>available</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Available. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>available</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The available.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="273" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="273" bodyend="277"/>
+        <references refid="class_weapon_1a6311c5a63cd709c4b2ca3a0161ff7ad5" compoundref="_weapon_8cs" startline="31">AvailableChanged</references>
+        <references refid="class_weapon_1a69231f675123b5bf16b82c1b05804eff" compoundref="_weapon_8cs" startline="27">IsAvailable</references>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1afe9d6a5606e4e8bcd65e3f5280269038" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Weapon.TestAddLevel</definition>
+        <argsstring>()</argsstring>
+        <name>TestAddLevel</name>
+        <qualifiedname>Weapon.TestAddLevel</qualifiedname>
+        <briefdescription>
+<para>Executes the TestAddLevel operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="283" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="283" bodyend="286"/>
+        <references refid="class_weapon_1a6d7148708171a55fe10eb250d73c9f71" compoundref="_weapon_8cs" startline="203" endline="224">AddLevel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1a479491c816e68b0137996348b49fe781" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Weapon.DebugWeaponStats</definition>
+        <argsstring>()</argsstring>
+        <name>DebugWeaponStats</name>
+        <qualifiedname>Weapon.DebugWeaponStats</qualifiedname>
+        <briefdescription>
+<para>Executes the DebugWeaponStats operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="292" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="292" bodyend="311"/>
+        <references refid="class_weapon_1a08149e046d2aa78ee427066886146517" compoundref="_weapon_8cs" startline="14">weaponData</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>BulletShooter</label>
+        <link refid="class_bullet_shooter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>DamageFieldTrigger</label>
+        <link refid="class_damage_field_trigger"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Laser</label>
+        <link refid="class_laser"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MagicStaff</label>
+        <link refid="class_magic_staff"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Weapon</label>
+        <link refid="class_weapon"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>LevelUpgrade</label>
+        <link refid="class_level_upgrade"/>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="3">
+        <label>PlayerStatsSO</label>
+        <link refid="class_player_stats_s_o"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="4">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Weapon</label>
+        <link refid="class_weapon"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>playerStats</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>weaponData</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>WeaponDataSO</label>
+        <link refid="class_weapon_data_s_o"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>ExstraLevelUpgrades</edgelabel>
+          <edgelabel>levelUpgrades</edgelabel>
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>currentWeapon</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" line="5" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Weapon.cs" bodystart="6" bodyend="327"/>
+    <listofallmembers>
+      <member refid="class_weapon_1a6d7148708171a55fe10eb250d73c9f71" prot="public" virt="virtual"><scope>Weapon</scope><name>AddLevel</name></member>
+      <member refid="class_weapon_1a6311c5a63cd709c4b2ca3a0161ff7ad5" prot="public" virt="non-virtual"><scope>Weapon</scope><name>AvailableChanged</name></member>
+      <member refid="class_weapon_1ada39248fef5791eef332e2be9b701fce" prot="protected" virt="virtual"><scope>Weapon</scope><name>Awake</name></member>
+      <member refid="class_weapon_1a06a4040601202b7335c1066af462861f" prot="protected" virt="virtual"><scope>Weapon</scope><name>CalculateAllStats</name></member>
+      <member refid="class_weapon_1a074f6fa47b6ee3202dc6751eabdfb000" prot="protected" virt="virtual"><scope>Weapon</scope><name>CalculateCooldown</name></member>
+      <member refid="class_weapon_1ad860905094346042ba8ea674dd78de6d" prot="protected" virt="virtual"><scope>Weapon</scope><name>CalculateDamage</name></member>
+      <member refid="class_weapon_1aee4ad85a276c0d27301fdf29d379bacb" prot="protected" virt="virtual"><scope>Weapon</scope><name>CalculateDamage</name></member>
+      <member refid="class_weapon_1a188e2513ead27db5ffe844e168804ae4" prot="public" virt="virtual"><scope>Weapon</scope><name>CanLevelUp</name></member>
+      <member refid="class_weapon_1ad532fb0f0dfc1c6360f208fc34156197" prot="protected" virt="non-virtual"><scope>Weapon</scope><name>currentCooldown</name></member>
+      <member refid="class_weapon_1aaf922eb1468b4fc9a7621717db389c5b" prot="protected" virt="non-virtual"><scope>Weapon</scope><name>currentDamage</name></member>
+      <member refid="class_weapon_1a2a0c19d2dbdb2cddf5f548a140589791" prot="public" virt="non-virtual"><scope>Weapon</scope><name>CurrentLevel</name></member>
+      <member refid="class_weapon_1ae299df08a60611f9f0fc6fdc4c659b46" prot="public" virt="non-virtual"><scope>Weapon</scope><name>currentLevel</name></member>
+      <member refid="class_weapon_1a635065fdc99dea24985f112f1254ed5a" prot="public" virt="non-virtual"><scope>Weapon</scope><name>Data</name></member>
+      <member refid="class_weapon_1a479491c816e68b0137996348b49fe781" prot="public" virt="non-virtual"><scope>Weapon</scope><name>DebugWeaponStats</name></member>
+      <member refid="class_weapon_1a5367855dc2202f9cbf9f23b8de25ae92" prot="public" virt="virtual"><scope>Weapon</scope><name>GetArea</name></member>
+      <member refid="class_weapon_1a31a4342b893bf970f73826ff0c343c44" prot="public" virt="virtual"><scope>Weapon</scope><name>GetCooldown</name></member>
+      <member refid="class_weapon_1a0d972514250825c4b7aaecd42235f0e7" prot="public" virt="virtual"><scope>Weapon</scope><name>GetDamage</name></member>
+      <member refid="class_weapon_1aca9f32807207e86ccf29a6ffb126bde7" prot="public" virt="virtual"><scope>Weapon</scope><name>GetDamageType</name></member>
+      <member refid="class_weapon_1a50e11db3148996b29f6bbc6856120c95" prot="public" virt="virtual"><scope>Weapon</scope><name>GetItemDescription</name></member>
+      <member refid="class_weapon_1a69d700917c994a2da5273a50db72ba8e" prot="public" virt="virtual"><scope>Weapon</scope><name>GetLifetime</name></member>
+      <member refid="class_weapon_1ac586cb11ef39baffaa3d7365d48ce12f" prot="public" virt="virtual"><scope>Weapon</scope><name>GetProjectileSpeed</name></member>
+      <member refid="class_weapon_1a275f3d6d8ec2836df6ebb51ae1eea32c" prot="public" virt="non-virtual"><scope>Weapon</scope><name>GetTextDescriptionInfo</name></member>
+      <member refid="class_weapon_1a0b44f2f6198589463888b31420480e89" prot="public" virt="non-virtual"><scope>Weapon</scope><name>GetTextTitleInfo</name></member>
+      <member refid="class_weapon_1ad13d312d049e1ebd6b5fe3c1a890a66c" prot="public" virt="virtual"><scope>Weapon</scope><name>GetUpgradeDescriptionForNextLevel</name></member>
+      <member refid="class_weapon_1ae72d0bc59613640dd76e71f72931f68e" prot="public" virt="virtual"><scope>Weapon</scope><name>GetWeaponStats</name></member>
+      <member refid="class_weapon_1a9182d6c16efa79826dbe1a268f430594" prot="protected" virt="virtual"><scope>Weapon</scope><name>InitializeWeapon</name></member>
+      <member refid="class_weapon_1a69231f675123b5bf16b82c1b05804eff" prot="public" virt="non-virtual"><scope>Weapon</scope><name>IsAvailable</name></member>
+      <member refid="class_weapon_1a9e59d0d3f26119eccc69d89d216ed887" prot="public" virt="non-virtual"><scope>Weapon</scope><name>IsMaxLevel</name></member>
+      <member refid="class_weapon_1a5099fa3cadc4914d6553d52e3e1a2734" prot="private" virt="non-virtual"><scope>Weapon</scope><name>OnCooldownReductionChanged</name></member>
+      <member refid="class_weapon_1a94ec0230429753558af2d158a2b52a81" prot="private" virt="non-virtual"><scope>Weapon</scope><name>OnDamageMultiplierChanged</name></member>
+      <member refid="class_weapon_1ad8fbc446ac5f30e4b9cab06a4c3379ae" prot="private" virt="non-virtual"><scope>Weapon</scope><name>OnDisable</name></member>
+      <member refid="class_weapon_1a903391d55ea46c1da6abbc9c4cfac403" prot="private" virt="non-virtual"><scope>Weapon</scope><name>OnEnable</name></member>
+      <member refid="class_weapon_1a9529168f0afe4ae01428686c03852eec" prot="public" virt="non-virtual"><scope>Weapon</scope><name>OnLevelUp</name></member>
+      <member refid="class_weapon_1afa5c22658e6121b9a39e3e9936c4ad2d" prot="public" virt="non-virtual"><scope>Weapon</scope><name>playerStats</name></member>
+      <member refid="class_weapon_1ac4df25f5b4036c98320959a73f28e947" prot="public" virt="non-virtual"><scope>Weapon</scope><name>PlayerStatsData</name></member>
+      <member refid="class_weapon_1a4ac4fcc1733a670d99607f52d6160701" prot="public" virt="virtual"><scope>Weapon</scope><name>ReduceLevel</name></member>
+      <member refid="class_weapon_1aa2c6401b0e18582811ac05d70e5c167c" prot="public" virt="non-virtual"><scope>Weapon</scope><name>SetAvailable</name></member>
+      <member refid="class_weapon_1ab616652596d92596f8fce9f408319f3c" prot="protected" virt="virtual"><scope>Weapon</scope><name>SubscribeToPlayerStats</name></member>
+      <member refid="class_weapon_1afe9d6a5606e4e8bcd65e3f5280269038" prot="public" virt="non-virtual"><scope>Weapon</scope><name>TestAddLevel</name></member>
+      <member refid="class_weapon_1a328e690c7cf25db86ec7d361f57be72f" prot="protected" virt="virtual"><scope>Weapon</scope><name>UnsubscribeFromPlayerStats</name></member>
+      <member refid="class_weapon_1a7c7b901870c742eb854eff9312ce6a33" prot="private" virt="non-virtual"><scope>Weapon</scope><name>Update</name></member>
+      <member refid="class_weapon_1a5681ccb8c4b3f6565605d4a84af93254" prot="private" virt="non-virtual"><scope>Weapon</scope><name>UpdatePlayerStats</name></member>
+      <member refid="class_weapon_1a08149e046d2aa78ee427066886146517" prot="public" virt="non-virtual"><scope>Weapon</scope><name>weaponData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

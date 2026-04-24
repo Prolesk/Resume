@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_explosion_with_announsment_manager" kind="class" language="C#" prot="public">
+    <compoundname>ExplosionWithAnnounsmentManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_explosion_with_announsment_manager_1aed9dd43366750b9b11271baaf6b2d422" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ExplosionWithAnnounsmentManager.Announcement</definition>
+        <argsstring></argsstring>
+        <name>Announcement</name>
+        <qualifiedname>ExplosionWithAnnounsmentManager.Announcement</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" line="11" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_explosion_with_announsment_manager_1a021ae61132d446d95d8c5391ba59d2bf" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 ExplosionWithAnnounsmentManager.AnnouncementScale</definition>
+        <argsstring></argsstring>
+        <name>AnnouncementScale</name>
+        <qualifiedname>ExplosionWithAnnounsmentManager.AnnouncementScale</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" line="12" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_explosion_with_announsment_manager_1a9a7c931f8542c0877d36f26b9e442a56" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ExplosionWithAnnounsmentManager.Explosion</definition>
+        <argsstring></argsstring>
+        <name>Explosion</name>
+        <qualifiedname>ExplosionWithAnnounsmentManager.Explosion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" line="14" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_explosion_with_announsment_manager_1a1b490b1e747c353f534a99269d6f64a8" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ExplosionWithAnnounsmentManager.scale</definition>
+        <argsstring></argsstring>
+        <name>scale</name>
+        <qualifiedname>ExplosionWithAnnounsmentManager.scale</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" line="21" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_explosion_with_announsment_manager_1af810c1f19a55e3c4cb1d9fbdcf6000fa" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ExplosionWithAnnounsmentManager._timeToReact</definition>
+        <argsstring></argsstring>
+        <name>_timeToReact</name>
+        <qualifiedname>ExplosionWithAnnounsmentManager._timeToReact</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" line="16" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_explosion_with_announsment_manager_1a2fd0062c3462c9a1c04435e8d41a9f33" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ExplosionWithAnnounsmentManager._lavaExistanceTime</definition>
+        <argsstring></argsstring>
+        <name>_lavaExistanceTime</name>
+        <qualifiedname>ExplosionWithAnnounsmentManager._lavaExistanceTime</qualifiedname>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" line="17" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_explosion_with_announsment_manager_1a244518aa2e7ea3eaf6a6295639bc2603" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ExplosionWithAnnounsmentManager.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>ExplosionWithAnnounsmentManager.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" line="23" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_explosion_with_announsment_manager_1a435d94a681d6c24a3f57d2d3792ddf11" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ExplosionWithAnnounsmentManager.StartTimer</definition>
+        <argsstring>()</argsstring>
+        <name>StartTimer</name>
+        <qualifiedname>ExplosionWithAnnounsmentManager.StartTimer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" line="28" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" bodystart="28" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_explosion_with_announsment_manager_1ace3586e7c88f84fff9c0219e5b367a37" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void ExplosionWithAnnounsmentManager.Explode</definition>
+        <argsstring>()</argsstring>
+        <name>Explode</name>
+        <qualifiedname>ExplosionWithAnnounsmentManager.Explode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" line="36" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" bodystart="36" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_explosion_with_announsment_manager_1a1f438973c1ce29e51c2477188bca39db" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator ExplosionWithAnnounsmentManager.StartAnnouncement</definition>
+        <argsstring>()</argsstring>
+        <name>StartAnnouncement</name>
+        <qualifiedname>ExplosionWithAnnounsmentManager.StartAnnouncement</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" line="44" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" bodystart="44" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_explosion_with_announsment_manager" kindref="compound">ExplosionWithAnnounsmentManager</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ExplosionWithAnnounsmentManager</label>
+        <link refid="class_explosion_with_announsment_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ExplosionWithAnnounsmentManager</label>
+        <link refid="class_explosion_with_announsment_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/Explosion/ExplosionWithAnnounsmentManager.cs" bodystart="10" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_explosion_with_announsment_manager_1a2fd0062c3462c9a1c04435e8d41a9f33" prot="public" virt="non-virtual"><scope>ExplosionWithAnnounsmentManager</scope><name>_lavaExistanceTime</name></member>
+      <member refid="class_explosion_with_announsment_manager_1af810c1f19a55e3c4cb1d9fbdcf6000fa" prot="public" virt="non-virtual"><scope>ExplosionWithAnnounsmentManager</scope><name>_timeToReact</name></member>
+      <member refid="class_explosion_with_announsment_manager_1aed9dd43366750b9b11271baaf6b2d422" prot="private" virt="non-virtual"><scope>ExplosionWithAnnounsmentManager</scope><name>Announcement</name></member>
+      <member refid="class_explosion_with_announsment_manager_1a021ae61132d446d95d8c5391ba59d2bf" prot="private" virt="non-virtual"><scope>ExplosionWithAnnounsmentManager</scope><name>AnnouncementScale</name></member>
+      <member refid="class_explosion_with_announsment_manager_1ace3586e7c88f84fff9c0219e5b367a37" prot="private" virt="non-virtual"><scope>ExplosionWithAnnounsmentManager</scope><name>Explode</name></member>
+      <member refid="class_explosion_with_announsment_manager_1a9a7c931f8542c0877d36f26b9e442a56" prot="private" virt="non-virtual"><scope>ExplosionWithAnnounsmentManager</scope><name>Explosion</name></member>
+      <member refid="class_explosion_with_announsment_manager_1a244518aa2e7ea3eaf6a6295639bc2603" prot="private" virt="non-virtual"><scope>ExplosionWithAnnounsmentManager</scope><name>OnEnable</name></member>
+      <member refid="class_explosion_with_announsment_manager_1a1b490b1e747c353f534a99269d6f64a8" prot="private" virt="non-virtual"><scope>ExplosionWithAnnounsmentManager</scope><name>scale</name></member>
+      <member refid="class_explosion_with_announsment_manager_1a1f438973c1ce29e51c2477188bca39db" prot="private" virt="non-virtual"><scope>ExplosionWithAnnounsmentManager</scope><name>StartAnnouncement</name></member>
+      <member refid="class_explosion_with_announsment_manager_1a435d94a681d6c24a3f57d2d3792ddf11" prot="private" virt="non-virtual"><scope>ExplosionWithAnnounsmentManager</scope><name>StartTimer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

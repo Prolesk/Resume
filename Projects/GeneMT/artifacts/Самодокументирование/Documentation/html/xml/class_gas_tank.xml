@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_gas_tank" kind="class" language="C#" prot="public">
+    <compoundname>GasTank</compoundname>
+    <basecompoundref refid="class_e_interactable" prot="public" virt="non-virtual">EInteractable</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gas_tank_1a34752383a58cdc1979826c2fbb1460c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void GasTank.Interact</definition>
+        <argsstring>()</argsstring>
+        <name>Interact</name>
+        <qualifiedname>GasTank.Interact</qualifiedname>
+        <reimplements refid="class_e_interactable_1a159b500630998b91b809d1b042535185">Interact</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity/GasTank.cs" line="10" column="27" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity/GasTank.cs" bodystart="10" bodyend="14"/>
+        <references refid="class_quest_manager_1a3f909c7f165f9f4d2aececdecc5d0a04" compoundref="_quest_manager_8cs" startline="174" endline="187">QuestManager.GasTankGathered</references>
+        <references refid="class_quest_manager_1a8e1cd09cf2af8f04d6854f0b54d8b0bf" compoundref="_quest_manager_8cs" startline="11">QuestManager.Instance</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_gas_tank" kindref="compound">GasTank</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>EInteractable</label>
+        <link refid="class_e_interactable"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>GasTank</label>
+        <link refid="class_gas_tank"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>EInteractable</label>
+        <link refid="class_e_interactable"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>GasTank</label>
+        <link refid="class_gas_tank"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity/GasTank.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/QuestActivity/GasTank.cs" bodystart="9" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_e_interactable_1ac47e15623305977907027a395d42ec02" prot="public" virt="non-virtual"><scope>GasTank</scope><name>_canBeInteractedWith</name></member>
+      <member refid="class_e_interactable_1af1f8cd46e7b07856580221fa78567798" prot="public" virt="non-virtual"><scope>GasTank</scope><name>_isReady</name></member>
+      <member refid="class_e_interactable_1a38ce74578db1b955af4e93e44091e7b2" prot="protected" virt="non-virtual"><scope>GasTank</scope><name>_renderer</name></member>
+      <member refid="class_e_interactable_1ad34e436579989ff2a491d2f8794fa870" prot="protected" virt="virtual"><scope>GasTank</scope><name>Awake</name></member>
+      <member refid="class_gas_tank_1a34752383a58cdc1979826c2fbb1460c5" prot="public" virt="virtual"><scope>GasTank</scope><name>Interact</name></member>
+      <member refid="class_e_interactable_1a7e988abf8905a1e950ea8250ffd9c3cc" prot="public" virt="virtual"><scope>GasTank</scope><name>MakeNonReady</name></member>
+      <member refid="class_e_interactable_1a44bb9f4d40378f111d187079ea172a6b" prot="public" virt="virtual"><scope>GasTank</scope><name>MakeReady</name></member>
+      <member refid="class_e_interactable_1a3a5d761abe877f6a7feeac3a51fbe087" prot="public" virt="virtual"><scope>GasTank</scope><name>SetComplete</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

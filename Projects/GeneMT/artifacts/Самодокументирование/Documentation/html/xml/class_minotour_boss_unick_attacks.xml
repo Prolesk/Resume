@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_minotour_boss_unick_attacks" kind="class" language="C#" prot="public">
+    <compoundname>MinotourBossUnickAttacks</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_minotour_boss_unick_attacks_1a7c3b90f82e855e422182e81439394394" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject MinotourBossUnickAttacks._explosionPrefab</definition>
+        <argsstring></argsstring>
+        <name>_explosionPrefab</name>
+        <qualifiedname>MinotourBossUnickAttacks._explosionPrefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="13" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minotour_boss_unick_attacks_1ac2e770bfb5432f735646a7ab788fbb43" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MinotourBossUnickAttacks.cooldownTimer</definition>
+        <argsstring></argsstring>
+        <name>cooldownTimer</name>
+        <qualifiedname>MinotourBossUnickAttacks.cooldownTimer</qualifiedname>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="40" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minotour_boss_unick_attacks_1ab7c8433383eeadb0a64ae45097287b61" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MinotourBossUnickAttacks.cooldown</definition>
+        <argsstring></argsstring>
+        <name>cooldown</name>
+        <qualifiedname>MinotourBossUnickAttacks.cooldown</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="41" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minotour_boss_unick_attacks_1a12d6b54ffc32a132c42517c2bd3fea43" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MinotourBossUnickAttacks.isAttacking</definition>
+        <argsstring></argsstring>
+        <name>isAttacking</name>
+        <qualifiedname>MinotourBossUnickAttacks.isAttacking</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="42" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minotour_boss_unick_attacks_1adf294b3fe93d390f115861b4e76cf5ec" prot="private" static="no" mutable="no">
+        <type>NavMeshAgent</type>
+        <definition>NavMeshAgent MinotourBossUnickAttacks.NavMesh</definition>
+        <argsstring></argsstring>
+        <name>NavMesh</name>
+        <qualifiedname>MinotourBossUnickAttacks.NavMesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="43" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minotour_boss_unick_attacks_1a7deb0e46c83c77a288959e01f9079b81" prot="private" static="no" mutable="no">
+        <type><ref refid="class_enemies_mover" kindref="compound">EnemiesMover</ref></type>
+        <definition>EnemiesMover MinotourBossUnickAttacks.Mover</definition>
+        <argsstring></argsstring>
+        <name>Mover</name>
+        <qualifiedname>MinotourBossUnickAttacks.Mover</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="44" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minotour_boss_unick_attacks_1a941f9f73d989e9444358a729521ec2e3" prot="private" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator MinotourBossUnickAttacks.animator</definition>
+        <argsstring></argsstring>
+        <name>animator</name>
+        <qualifiedname>MinotourBossUnickAttacks.animator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="46" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_minotour_boss_unick_attacks_1a89ac8edf499c4f210a42c63a08c40e64" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource MinotourBossUnickAttacks._audioSource</definition>
+        <argsstring></argsstring>
+        <name>_audioSource</name>
+        <qualifiedname>MinotourBossUnickAttacks._audioSource</qualifiedname>
+        <briefdescription>
+<para>The _audioSource field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="18" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minotour_boss_unick_attacks_1a09299a37e7d380041a25523b32d44e53" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource MinotourBossUnickAttacks._audioSource2</definition>
+        <argsstring></argsstring>
+        <name>_audioSource2</name>
+        <qualifiedname>MinotourBossUnickAttacks._audioSource2</qualifiedname>
+        <briefdescription>
+<para>The _audioSource2 field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="22" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minotour_boss_unick_attacks_1ac720cc4b3507e926a646725ffb5c407a" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip MinotourBossUnickAttacks._spawnAttackSound</definition>
+        <argsstring></argsstring>
+        <name>_spawnAttackSound</name>
+        <qualifiedname>MinotourBossUnickAttacks._spawnAttackSound</qualifiedname>
+        <briefdescription>
+<para>The _spawnAttackSound field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="26" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minotour_boss_unick_attacks_1a87641f751091c9fc526de3cc78c25724" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip MinotourBossUnickAttacks._slamAttackSound</definition>
+        <argsstring></argsstring>
+        <name>_slamAttackSound</name>
+        <qualifiedname>MinotourBossUnickAttacks._slamAttackSound</qualifiedname>
+        <briefdescription>
+<para>The _slamAttackSound field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="30" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minotour_boss_unick_attacks_1ae8fb010993a142ee554af84254422aa4" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip MinotourBossUnickAttacks._rushAttackSound</definition>
+        <argsstring></argsstring>
+        <name>_rushAttackSound</name>
+        <qualifiedname>MinotourBossUnickAttacks._rushAttackSound</qualifiedname>
+        <briefdescription>
+<para>The _rushAttackSound field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="34" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minotour_boss_unick_attacks_1a1f20e77ed14e6a3f44c0224b10c0ded7" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip MinotourBossUnickAttacks._prepareRushAttackSound</definition>
+        <argsstring></argsstring>
+        <name>_prepareRushAttackSound</name>
+        <qualifiedname>MinotourBossUnickAttacks._prepareRushAttackSound</qualifiedname>
+        <briefdescription>
+<para>The _prepareRushAttackSound field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="38" column="22" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_minotour_boss_unick_attacks_1abdaac070729696bddb2968409900eb7a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MinotourBossUnickAttacks.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>MinotourBossUnickAttacks.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="47" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="47" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minotour_boss_unick_attacks_1ab0e727eca47936e3a7a6ff082c4982e6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MinotourBossUnickAttacks.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>MinotourBossUnickAttacks.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="54" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="54" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minotour_boss_unick_attacks_1a56fc9409b48825c6f89836a080393733" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MinotourBossUnickAttacks.Attack</definition>
+        <argsstring>()</argsstring>
+        <name>Attack</name>
+        <qualifiedname>MinotourBossUnickAttacks.Attack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="64" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="64" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minotour_boss_unick_attacks_1aca9a0942245ee9b7142b94c15b77ee09" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void MinotourBossUnickAttacks.SpawnAttack</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnAttack</name>
+        <qualifiedname>MinotourBossUnickAttacks.SpawnAttack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="86" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="86" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minotour_boss_unick_attacks_1a123d342bdf88d8d9ade5418feb8ed2b9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void MinotourBossUnickAttacks.SlamAttack</definition>
+        <argsstring>()</argsstring>
+        <name>SlamAttack</name>
+        <qualifiedname>MinotourBossUnickAttacks.SlamAttack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="110" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="110" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minotour_boss_unick_attacks_1a4241086505dc0c43faef4895b4552370" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 MinotourBossUnickAttacks.GetPositionAroundPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>GetPositionAroundPlayer</name>
+        <qualifiedname>MinotourBossUnickAttacks.GetPositionAroundPlayer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="133" column="21" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="133" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minotour_boss_unick_attacks_1a152b8bccba4030ebe72170b4e2d5258d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void MinotourBossUnickAttacks.RushAttack</definition>
+        <argsstring>()</argsstring>
+        <name>RushAttack</name>
+        <qualifiedname>MinotourBossUnickAttacks.RushAttack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="139" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="139" bodyend="201"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_minotour_boss_unick_attacks" kindref="compound">MinotourBossUnickAttacks</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MinotourBossUnickAttacks</label>
+        <link refid="class_minotour_boss_unick_attacks"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MinotourBossUnickAttacks</label>
+        <link refid="class_minotour_boss_unick_attacks"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" line="11" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/BossFight/MinotourBossUniqueAttacks.cs" bodystart="12" bodyend="203"/>
+    <listofallmembers>
+      <member refid="class_minotour_boss_unick_attacks_1a89ac8edf499c4f210a42c63a08c40e64" prot="public" virt="non-virtual"><scope>MinotourBossUnickAttacks</scope><name>_audioSource</name></member>
+      <member refid="class_minotour_boss_unick_attacks_1a09299a37e7d380041a25523b32d44e53" prot="public" virt="non-virtual"><scope>MinotourBossUnickAttacks</scope><name>_audioSource2</name></member>
+      <member refid="class_minotour_boss_unick_attacks_1a7c3b90f82e855e422182e81439394394" prot="private" virt="non-virtual"><scope>MinotourBossUnickAttacks</scope><name>_explosionPrefab</name></member>
+      <member refid="class_minotour_boss_unick_attacks_1a1f20e77ed14e6a3f44c0224b10c0ded7" prot="public" virt="non-virtual"><scope>MinotourBossUnickAttacks</scope><name>_prepareRushAttackSound</name></member>
+      <member refid="class_minotour_boss_unick_attacks_1ae8fb010993a142ee554af84254422aa4" prot="public" virt="non-virtual"><scope>MinotourBossUnickAttacks</scope><name>_rushAttackSound</name></member>
+      <member refid="class_minotour_boss_unick_attacks_1a87641f751091c9fc526de3cc78c25724" prot="public" virt="non-virtual"><scope>MinotourBossUnickAttacks</scope><name>_slamAttackSound</name></member>
+      <member refid="class_minotour_boss_unick_attacks_1ac720cc4b3507e926a646725ffb5c407a" prot="public" virt="non-virtual"><scope>MinotourBossUnickAttacks</scope><name>_spawnAttackSound</name></member>
+      <member refid="class_minotour_boss_unick_attacks_1a941f9f73d989e9444358a729521ec2e3" prot="private" virt="non-virtual"><scope>MinotourBossUnickAttacks</scope><name>animator</name></member>
+      <member refid="class_minotour_boss_unick_attacks_1a56fc9409b48825c6f89836a080393733" prot="private" virt="non-virtual"><scope>MinotourBossUnickAttacks</scope><name>Attack</name></member>
+      <member refid="class_minotour_boss_unick_attacks_1ab7c8433383eeadb0a64ae45097287b61" prot="private" virt="non-virtual"><scope>MinotourBossUnickAttacks</scope><name>cooldown</name></member>
+      <member refid="class_minotour_boss_unick_attacks_1ac2e770bfb5432f735646a7ab788fbb43" prot="private" virt="non-virtual"><scope>MinotourBossUnickAttacks</scope><name>cooldownTimer</name></member>
+      <member refid="class_minotour_boss_unick_attacks_1a4241086505dc0c43faef4895b4552370" prot="private" virt="non-virtual"><scope>MinotourBossUnickAttacks</scope><name>GetPositionAroundPlayer</name></member>
+      <member refid="class_minotour_boss_unick_attacks_1a12d6b54ffc32a132c42517c2bd3fea43" prot="private" virt="non-virtual"><scope>MinotourBossUnickAttacks</scope><name>isAttacking</name></member>
+      <member refid="class_minotour_boss_unick_attacks_1a7deb0e46c83c77a288959e01f9079b81" prot="private" virt="non-virtual"><scope>MinotourBossUnickAttacks</scope><name>Mover</name></member>
+      <member refid="class_minotour_boss_unick_attacks_1adf294b3fe93d390f115861b4e76cf5ec" prot="private" virt="non-virtual"><scope>MinotourBossUnickAttacks</scope><name>NavMesh</name></member>
+      <member refid="class_minotour_boss_unick_attacks_1a152b8bccba4030ebe72170b4e2d5258d" prot="private" virt="non-virtual"><scope>MinotourBossUnickAttacks</scope><name>RushAttack</name></member>
+      <member refid="class_minotour_boss_unick_attacks_1a123d342bdf88d8d9ade5418feb8ed2b9" prot="private" virt="non-virtual"><scope>MinotourBossUnickAttacks</scope><name>SlamAttack</name></member>
+      <member refid="class_minotour_boss_unick_attacks_1aca9a0942245ee9b7142b94c15b77ee09" prot="private" virt="non-virtual"><scope>MinotourBossUnickAttacks</scope><name>SpawnAttack</name></member>
+      <member refid="class_minotour_boss_unick_attacks_1abdaac070729696bddb2968409900eb7a" prot="private" virt="non-virtual"><scope>MinotourBossUnickAttacks</scope><name>Start</name></member>
+      <member refid="class_minotour_boss_unick_attacks_1ab0e727eca47936e3a7a6ff082c4982e6" prot="private" virt="non-virtual"><scope>MinotourBossUnickAttacks</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

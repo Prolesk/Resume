@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="_bullet_shooter_data_s_o_8cs" kind="file" language="C#">
+    <compoundname>BulletShooterDataSO.cs</compoundname>
+    <innerclass refid="class_bullet_shooter_data_s_o" prot="public">BulletShooterDataSO</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">[CreateAssetMenu(fileName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;New<sp/>Bullet<sp/>Shooter<sp/>Data&quot;</highlight><highlight class="normal">,<sp/>menuName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Weapons/Bullet<sp/>Shooter<sp/>Data&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="7" refid="class_bullet_shooter_data_s_o" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_bullet_shooter_data_s_o" kindref="compound">BulletShooterDataSO</ref><sp/>:<sp/><ref refid="class_weapon_data_s_o" kindref="compound">WeaponDataSO</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>[Header(</highlight><highlight class="stringliteral">&quot;Bullet<sp/>Shooter<sp/>Specific&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="13" refid="class_bullet_shooter_data_s_o_1ae9110594b7d09a2c74003c6cc7ebac7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_bullet_shooter_data_s_o_1ae9110594b7d09a2c74003c6cc7ebac7e" kindref="member">bulletSpeed</ref><sp/>=<sp/>10f;</highlight></codeline>
+<codeline lineno="17" refid="class_bullet_shooter_data_s_o_1ada9c548fcf3bab12ee40abcbb564ab08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_bullet_shooter_data_s_o_1ada9c548fcf3bab12ee40abcbb564ab08" kindref="member">bulletLifetime</ref><sp/>=<sp/>3f;</highlight></codeline>
+<codeline lineno="21" refid="class_bullet_shooter_data_s_o_1a67b3656a98b82096d64340527f5111b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_bullet_shooter_data_s_o_1a67b3656a98b82096d64340527f5111b6" kindref="member">damageType</ref><sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//<sp/>0=freeze,<sp/>1=fire,<sp/>2=electro</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="class_bullet_shooter_data_s_o_1a0843f9e1c1fd76ed612ad53d4a38843b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_bullet_shooter_data_s_o_1a0843f9e1c1fd76ed612ad53d4a38843b" kindref="member">bulletPrefab</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/BulletShooterDataSO.cs"/>
+  </compounddef>
+</doxygen>

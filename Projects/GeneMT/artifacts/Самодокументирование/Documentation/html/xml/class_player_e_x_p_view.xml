@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_player_e_x_p_view" kind="class" language="C#" prot="public">
+    <compoundname>PlayerEXPView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_e_x_p_view_1a1c9d7b27d1fdf44ed80bf9f9878acf04" prot="private" static="no" mutable="no">
+        <type><ref refid="class_player_e_x_p" kindref="compound">PlayerEXP</ref></type>
+        <definition>PlayerEXP PlayerEXPView._playerEXP</definition>
+        <argsstring></argsstring>
+        <name>_playerEXP</name>
+        <qualifiedname>PlayerEXPView._playerEXP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXPView.cs" line="11" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXPView.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_e_x_p_view_1a3d7f71d6d91eba7e2bb03c46dbbc4239" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI PlayerEXPView._expText</definition>
+        <argsstring></argsstring>
+        <name>_expText</name>
+        <qualifiedname>PlayerEXPView._expText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXPView.cs" line="12" column="30" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXPView.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_e_x_p_view_1a6ce0c5c79f65e3cd0e29afb130ac6ce8" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI PlayerEXPView._lvlText</definition>
+        <argsstring></argsstring>
+        <name>_lvlText</name>
+        <qualifiedname>PlayerEXPView._lvlText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXPView.cs" line="13" column="30" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXPView.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_e_x_p_view_1a0785fff5c4e674e9fadc6d6faf6fae8b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerEXPView.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>PlayerEXPView.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXPView.cs" line="15" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXPView.cs" bodystart="15" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_e_x_p_view_1a66f304657607c3202e4b5c296387cd0c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerEXPView.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>PlayerEXPView.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXPView.cs" line="21" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXPView.cs" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_e_x_p_view_1ae61929f891659404706da3976d72c84f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerEXPView.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>PlayerEXPView.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXPView.cs" line="26" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXPView.cs" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_e_x_p_view_1a18d1d8bb98ef63da3b6dd7488f298bda" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerEXPView.EXPupdate</definition>
+        <argsstring>(float currentEXP)</argsstring>
+        <name>EXPupdate</name>
+        <qualifiedname>PlayerEXPView.EXPupdate</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>currentEXP</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXPView.cs" line="32" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXPView.cs" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_e_x_p_view_1a71bba78e5a7c3d1a12f50e683b2be17d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerEXPView.LVLupdate</definition>
+        <argsstring>(float currentLVL)</argsstring>
+        <name>LVLupdate</name>
+        <qualifiedname>PlayerEXPView.LVLupdate</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>currentLVL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXPView.cs" line="38" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXPView.cs" bodystart="38" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_player_e_x_p_view" kindref="compound">PlayerEXPView</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PlayerEXPView</label>
+        <link refid="class_player_e_x_p_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PlayerEXPView</label>
+        <link refid="class_player_e_x_p_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXPView.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerEXP/PlayerEXPView.cs" bodystart="10" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_player_e_x_p_view_1a3d7f71d6d91eba7e2bb03c46dbbc4239" prot="private" virt="non-virtual"><scope>PlayerEXPView</scope><name>_expText</name></member>
+      <member refid="class_player_e_x_p_view_1a6ce0c5c79f65e3cd0e29afb130ac6ce8" prot="private" virt="non-virtual"><scope>PlayerEXPView</scope><name>_lvlText</name></member>
+      <member refid="class_player_e_x_p_view_1a1c9d7b27d1fdf44ed80bf9f9878acf04" prot="private" virt="non-virtual"><scope>PlayerEXPView</scope><name>_playerEXP</name></member>
+      <member refid="class_player_e_x_p_view_1a18d1d8bb98ef63da3b6dd7488f298bda" prot="private" virt="non-virtual"><scope>PlayerEXPView</scope><name>EXPupdate</name></member>
+      <member refid="class_player_e_x_p_view_1a71bba78e5a7c3d1a12f50e683b2be17d" prot="private" virt="non-virtual"><scope>PlayerEXPView</scope><name>LVLupdate</name></member>
+      <member refid="class_player_e_x_p_view_1ae61929f891659404706da3976d72c84f" prot="private" virt="non-virtual"><scope>PlayerEXPView</scope><name>OnDisable</name></member>
+      <member refid="class_player_e_x_p_view_1a66f304657607c3202e4b5c296387cd0c" prot="private" virt="non-virtual"><scope>PlayerEXPView</scope><name>OnEnable</name></member>
+      <member refid="class_player_e_x_p_view_1a0785fff5c4e674e9fadc6d6faf6fae8b" prot="private" virt="non-virtual"><scope>PlayerEXPView</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

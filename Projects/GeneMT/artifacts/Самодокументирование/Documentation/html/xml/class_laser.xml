@@ -1,0 +1,636 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_laser" kind="class" language="C#" prot="public">
+    <compoundname>Laser</compoundname>
+    <basecompoundref refid="class_weapon" prot="public" virt="non-virtual">Weapon</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_laser_1a290ff9cbd41cbcde9cb037e4c180a504" prot="private" static="no" mutable="no">
+        <type><ref refid="class_enemy_detector" kindref="compound">EnemyDetector</ref></type>
+        <definition>EnemyDetector Laser.enemyDetector</definition>
+        <argsstring></argsstring>
+        <name>enemyDetector</name>
+        <qualifiedname>Laser.enemyDetector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="11" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_1ad256f668bfdc71997cf52cbbd07e5a26" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Laser.maxLaserLength</definition>
+        <argsstring></argsstring>
+        <name>maxLaserLength</name>
+        <qualifiedname>Laser.maxLaserLength</qualifiedname>
+        <initializer>= 15f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="12" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_1a2c57de4d47eea79a9437eef48ee350bf" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Laser.maxLaserArea</definition>
+        <argsstring></argsstring>
+        <name>maxLaserArea</name>
+        <qualifiedname>Laser.maxLaserArea</qualifiedname>
+        <initializer>= 3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="13" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_1a2a7284de5c528d0d9a4aa0fef7ee5087" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Laser.currentLaserLength</definition>
+        <argsstring></argsstring>
+        <name>currentLaserLength</name>
+        <qualifiedname>Laser.currentLaserLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="15" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_1a6274724512c2f9d80f1410bb18116cf2" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Laser.currentLaserLifetime</definition>
+        <argsstring></argsstring>
+        <name>currentLaserLifetime</name>
+        <qualifiedname>Laser.currentLaserLifetime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="16" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_1a90a0463e40542c7a992738a5d4c27979" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Laser.currentLaserArea</definition>
+        <argsstring></argsstring>
+        <name>currentLaserArea</name>
+        <qualifiedname>Laser.currentLaserArea</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="17" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_1a257f0a7272440cef2ca000cde621adb7" prot="private" static="no" mutable="no">
+        <type>Coroutine</type>
+        <definition>Coroutine Laser.laserCoroutine</definition>
+        <argsstring></argsstring>
+        <name>laserCoroutine</name>
+        <qualifiedname>Laser.laserCoroutine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="18" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_1a271639362a7789a2323885bfc79f75e3" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_laser_beam" kindref="compound">LaserBeam</ref> &gt;</type>
+        <definition>List&lt;LaserBeam&gt; Laser.activeLasers</definition>
+        <argsstring></argsstring>
+        <name>activeLasers</name>
+        <qualifiedname>Laser.activeLasers</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_laser_beam" kindref="compound">LaserBeam</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="19" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_laser_1aab51a3c7217120bf3d82c3d4dd59fd46" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Laser.isActive</definition>
+        <argsstring></argsstring>
+        <name>isActive</name>
+        <qualifiedname>Laser.isActive</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="20" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_laser_1aab37687d7687de393f40407b9eaca8c8" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_laser_data_s_o" kindref="compound">LaserDataSO</ref></type>
+        <definition>LaserDataSO Laser.LaserData</definition>
+        <argsstring></argsstring>
+        <name>LaserData</name>
+        <qualifiedname>Laser.LaserData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="22" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_laser_1a8e674a47d93f2ca0adc41dea74bed2df" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Laser.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>Laser.Awake</qualifiedname>
+        <reimplements refid="class_weapon_1ada39248fef5791eef332e2be9b701fce">Awake</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="24" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="24" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_1a6654e03613bf66b4700c877c4904866a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Laser.InitializeWeapon</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeWeapon</name>
+        <qualifiedname>Laser.InitializeWeapon</qualifiedname>
+        <reimplements refid="class_weapon_1a9182d6c16efa79826dbe1a268f430594">InitializeWeapon</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="32" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="32" bodyend="42"/>
+        <references refid="class_weapon_1a08149e046d2aa78ee427066886146517" compoundref="_weapon_8cs" startline="14">Weapon.weaponData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_1a48874baaaf83a6072dc6903c649a0126" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Laser.SubscribeToPlayerStats</definition>
+        <argsstring>()</argsstring>
+        <name>SubscribeToPlayerStats</name>
+        <qualifiedname>Laser.SubscribeToPlayerStats</qualifiedname>
+        <reimplements refid="class_weapon_1ab616652596d92596f8fce9f408319f3c">SubscribeToPlayerStats</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="49" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="49" bodyend="59"/>
+        <references refid="class_weapon_1afa5c22658e6121b9a39e3e9936c4ad2d" compoundref="_weapon_8cs" startline="10">Weapon.playerStats</references>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_1a74bd6014268750877dd4999cd2d299d4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Laser.UnsubscribeFromPlayerStats</definition>
+        <argsstring>()</argsstring>
+        <name>UnsubscribeFromPlayerStats</name>
+        <qualifiedname>Laser.UnsubscribeFromPlayerStats</qualifiedname>
+        <reimplements refid="class_weapon_1a328e690c7cf25db86ec7d361f57be72f">UnsubscribeFromPlayerStats</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="61" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="61" bodyend="71"/>
+        <references refid="class_weapon_1afa5c22658e6121b9a39e3e9936c4ad2d" compoundref="_weapon_8cs" startline="10">Weapon.playerStats</references>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_1a7c9b3d0e6e57512742c16b62fcb8d59e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Laser.CalculateDamage</definition>
+        <argsstring>(float DamageMultiplier)</argsstring>
+        <name>CalculateDamage</name>
+        <qualifiedname>Laser.CalculateDamage</qualifiedname>
+        <reimplements refid="class_weapon_1aee4ad85a276c0d27301fdf29d379bacb">CalculateDamage</reimplements>
+        <param>
+          <type>float</type>
+          <declname>DamageMultiplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="78" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="78" bodyend="83"/>
+        <references refid="class_weapon_1aaf922eb1468b4fc9a7621717db389c5b" compoundref="_weapon_8cs" startline="16">Weapon.currentDamage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_1aaa0327bf34dfb82e64a4d78c02f06f3f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Laser.CalculateAllStats</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateAllStats</name>
+        <qualifiedname>Laser.CalculateAllStats</qualifiedname>
+        <reimplements refid="class_weapon_1a06a4040601202b7335c1066af462861f">CalculateAllStats</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="90" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="90" bodyend="94"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_laser_1a04d63c821886af7ae7c7be16c33b7c43" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Laser.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>Laser.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="44" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_1ae39847a9b4dbd255338d8801815f7777" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Laser.OnDamageMultiplierChanged</definition>
+        <argsstring>(float DamageMultiplier)</argsstring>
+        <name>OnDamageMultiplierChanged</name>
+        <qualifiedname>Laser.OnDamageMultiplierChanged</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>DamageMultiplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="73" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_1a35a6254bfb525d3e353881c47f8b7dd5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Laser.OnAreaMultiplierChanged</definition>
+        <argsstring>(float areaMultiplier)</argsstring>
+        <name>OnAreaMultiplierChanged</name>
+        <qualifiedname>Laser.OnAreaMultiplierChanged</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>areaMultiplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="85" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="85" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_1aa972a38ed03915e08e18dcf81a6d3ab8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Laser.CalculateLaserStats</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateLaserStats</name>
+        <qualifiedname>Laser.CalculateLaserStats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="96" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="96" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_1a886e556ed3c71507f07a8b4c9f9daa84" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Laser.StartLaser</definition>
+        <argsstring>()</argsstring>
+        <name>StartLaser</name>
+        <qualifiedname>Laser.StartLaser</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="127" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="127" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_1aebcb8f640ced2c40a139180aa23b86e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Laser.StopLaser</definition>
+        <argsstring>()</argsstring>
+        <name>StopLaser</name>
+        <qualifiedname>Laser.StopLaser</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="140" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="140" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_1adda70e7f93bef9e49bfd3b00816f7b4d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator Laser.LaserRoutine</definition>
+        <argsstring>()</argsstring>
+        <name>LaserRoutine</name>
+        <qualifiedname>Laser.LaserRoutine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="163" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="163" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_1a3ea98276898928bca9a1f44b4675e288" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Laser.CreateLaserBeam</definition>
+        <argsstring>()</argsstring>
+        <name>CreateLaserBeam</name>
+        <qualifiedname>Laser.CreateLaserBeam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="174" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="174" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_1ac46b167036adfff743c9e46a0afc4cc1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Laser.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>Laser.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="245" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="245" bodyend="248"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_laser_1a224f3532761149816549ba1edff2ad84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Laser.OnLaserFinished</definition>
+        <argsstring>(LaserBeam laserBeam)</argsstring>
+        <name>OnLaserFinished</name>
+        <qualifiedname>Laser.OnLaserFinished</qualifiedname>
+        <param>
+          <type><ref refid="class_laser_beam" kindref="compound">LaserBeam</ref></type>
+          <declname>laserBeam</declname>
+        </param>
+        <briefdescription>
+<para>Event handler for OnLaserFinished. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>laserBeam</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The laserBeam.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="207" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="207" bodyend="215"/>
+        <references refid="class_laser_pool_1ab48fd796f75db8d62be6a938f1d8bb5e" compoundref="_laser_pool_8cs" startline="16" endline="16">LaserPool.Instance</references>
+        <references refid="class_laser_pool_1adcc6d6c567957654a96ce8635f9d803c" compoundref="_laser_pool_8cs" startline="108" endline="122">LaserPool.ReturnLaser</references>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_1a0999fd1d40ffd63a35b0bf29d5bf2178" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override float</type>
+        <definition>override float Laser.GetArea</definition>
+        <argsstring>()</argsstring>
+        <name>GetArea</name>
+        <qualifiedname>Laser.GetArea</qualifiedname>
+        <reimplements refid="class_weapon_1a5367855dc2202f9cbf9f23b8de25ae92">GetArea</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="217" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_1afbf224b7c0e8caaf2f9e9f9ec1e4543c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override float</type>
+        <definition>override float Laser.GetLifetime</definition>
+        <argsstring>()</argsstring>
+        <name>GetLifetime</name>
+        <qualifiedname>Laser.GetLifetime</qualifiedname>
+        <reimplements refid="class_weapon_1a69d700917c994a2da5273a50db72ba8e">GetLifetime</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="218" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_1aa63b6a72414ffbc0c54423f7f1914baa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Laser.GetWeaponStats</definition>
+        <argsstring>()</argsstring>
+        <name>GetWeaponStats</name>
+        <qualifiedname>Laser.GetWeaponStats</qualifiedname>
+        <reimplements refid="class_weapon_1ae72d0bc59613640dd76e71f72931f68e">GetWeaponStats</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="220" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="220" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_1a32f293ade967ff5fe6498abb669bdf96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Laser.GetTextTitleInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetTextTitleInfo</name>
+        <qualifiedname>Laser.GetTextTitleInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="231" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="231" bodyend="234"/>
+        <references refid="class_weapon_1a08149e046d2aa78ee427066886146517" compoundref="_weapon_8cs" startline="14">Weapon.weaponData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_laser_1a3aa1e5349df6e09fc7ec496ca51e916d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Laser.GetTextDescriptionInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetTextDescriptionInfo</name>
+        <qualifiedname>Laser.GetTextDescriptionInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="236" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="236" bodyend="243"/>
+        <references refid="class_weapon_1ad13d312d049e1ebd6b5fe3c1a890a66c" compoundref="_weapon_8cs" startline="239" endline="249">Weapon.GetUpgradeDescriptionForNextLevel</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_laser" kindref="compound">Laser</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Laser</label>
+        <link refid="class_laser"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>Weapon</label>
+        <link refid="class_weapon"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Laser</label>
+        <link refid="class_laser"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>LevelUpgrade</label>
+        <link refid="class_level_upgrade"/>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="4">
+        <label>PlayerStatsSO</label>
+        <link refid="class_player_stats_s_o"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="5">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Weapon</label>
+        <link refid="class_weapon"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>playerStats</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>weaponData</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>WeaponDataSO</label>
+        <link refid="class_weapon_data_s_o"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>ExstraLevelUpgrades</edgelabel>
+          <edgelabel>levelUpgrades</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>currentWeapon</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/Laser/Laser.cs" bodystart="9" bodyend="249"/>
+    <listofallmembers>
+      <member refid="class_laser_1a271639362a7789a2323885bfc79f75e3" prot="private" virt="non-virtual"><scope>Laser</scope><name>activeLasers</name></member>
+      <member refid="class_weapon_1a6d7148708171a55fe10eb250d73c9f71" prot="public" virt="virtual"><scope>Laser</scope><name>AddLevel</name></member>
+      <member refid="class_weapon_1a6311c5a63cd709c4b2ca3a0161ff7ad5" prot="public" virt="non-virtual"><scope>Laser</scope><name>AvailableChanged</name></member>
+      <member refid="class_laser_1a8e674a47d93f2ca0adc41dea74bed2df" prot="protected" virt="virtual"><scope>Laser</scope><name>Awake</name></member>
+      <member refid="class_laser_1aaa0327bf34dfb82e64a4d78c02f06f3f" prot="protected" virt="virtual"><scope>Laser</scope><name>CalculateAllStats</name></member>
+      <member refid="class_weapon_1a074f6fa47b6ee3202dc6751eabdfb000" prot="protected" virt="virtual"><scope>Laser</scope><name>CalculateCooldown</name></member>
+      <member refid="class_laser_1a7c9b3d0e6e57512742c16b62fcb8d59e" prot="protected" virt="virtual"><scope>Laser</scope><name>CalculateDamage</name></member>
+      <member refid="class_weapon_1ad860905094346042ba8ea674dd78de6d" prot="protected" virt="virtual" ambiguityscope="Weapon."><scope>Laser</scope><name>CalculateDamage</name></member>
+      <member refid="class_laser_1aa972a38ed03915e08e18dcf81a6d3ab8" prot="private" virt="non-virtual"><scope>Laser</scope><name>CalculateLaserStats</name></member>
+      <member refid="class_weapon_1a188e2513ead27db5ffe844e168804ae4" prot="public" virt="virtual"><scope>Laser</scope><name>CanLevelUp</name></member>
+      <member refid="class_laser_1a3ea98276898928bca9a1f44b4675e288" prot="private" virt="non-virtual"><scope>Laser</scope><name>CreateLaserBeam</name></member>
+      <member refid="class_weapon_1ad532fb0f0dfc1c6360f208fc34156197" prot="protected" virt="non-virtual"><scope>Laser</scope><name>currentCooldown</name></member>
+      <member refid="class_weapon_1aaf922eb1468b4fc9a7621717db389c5b" prot="protected" virt="non-virtual"><scope>Laser</scope><name>currentDamage</name></member>
+      <member refid="class_laser_1a90a0463e40542c7a992738a5d4c27979" prot="private" virt="non-virtual"><scope>Laser</scope><name>currentLaserArea</name></member>
+      <member refid="class_laser_1a2a7284de5c528d0d9a4aa0fef7ee5087" prot="private" virt="non-virtual"><scope>Laser</scope><name>currentLaserLength</name></member>
+      <member refid="class_laser_1a6274724512c2f9d80f1410bb18116cf2" prot="private" virt="non-virtual"><scope>Laser</scope><name>currentLaserLifetime</name></member>
+      <member refid="class_weapon_1a2a0c19d2dbdb2cddf5f548a140589791" prot="public" virt="non-virtual"><scope>Laser</scope><name>CurrentLevel</name></member>
+      <member refid="class_weapon_1ae299df08a60611f9f0fc6fdc4c659b46" prot="public" virt="non-virtual"><scope>Laser</scope><name>currentLevel</name></member>
+      <member refid="class_weapon_1a635065fdc99dea24985f112f1254ed5a" prot="public" virt="non-virtual"><scope>Laser</scope><name>Data</name></member>
+      <member refid="class_weapon_1a479491c816e68b0137996348b49fe781" prot="public" virt="non-virtual"><scope>Laser</scope><name>DebugWeaponStats</name></member>
+      <member refid="class_laser_1a290ff9cbd41cbcde9cb037e4c180a504" prot="private" virt="non-virtual"><scope>Laser</scope><name>enemyDetector</name></member>
+      <member refid="class_laser_1a0999fd1d40ffd63a35b0bf29d5bf2178" prot="public" virt="virtual"><scope>Laser</scope><name>GetArea</name></member>
+      <member refid="class_weapon_1a31a4342b893bf970f73826ff0c343c44" prot="public" virt="virtual"><scope>Laser</scope><name>GetCooldown</name></member>
+      <member refid="class_weapon_1a0d972514250825c4b7aaecd42235f0e7" prot="public" virt="virtual"><scope>Laser</scope><name>GetDamage</name></member>
+      <member refid="class_weapon_1aca9f32807207e86ccf29a6ffb126bde7" prot="public" virt="virtual"><scope>Laser</scope><name>GetDamageType</name></member>
+      <member refid="class_weapon_1a50e11db3148996b29f6bbc6856120c95" prot="public" virt="virtual"><scope>Laser</scope><name>GetItemDescription</name></member>
+      <member refid="class_laser_1afbf224b7c0e8caaf2f9e9f9ec1e4543c" prot="public" virt="virtual"><scope>Laser</scope><name>GetLifetime</name></member>
+      <member refid="class_weapon_1ac586cb11ef39baffaa3d7365d48ce12f" prot="public" virt="virtual"><scope>Laser</scope><name>GetProjectileSpeed</name></member>
+      <member refid="class_laser_1a3aa1e5349df6e09fc7ec496ca51e916d" prot="public" virt="non-virtual"><scope>Laser</scope><name>GetTextDescriptionInfo</name></member>
+      <member refid="class_laser_1a32f293ade967ff5fe6498abb669bdf96" prot="public" virt="non-virtual"><scope>Laser</scope><name>GetTextTitleInfo</name></member>
+      <member refid="class_weapon_1ad13d312d049e1ebd6b5fe3c1a890a66c" prot="public" virt="virtual"><scope>Laser</scope><name>GetUpgradeDescriptionForNextLevel</name></member>
+      <member refid="class_laser_1aa63b6a72414ffbc0c54423f7f1914baa" prot="public" virt="virtual"><scope>Laser</scope><name>GetWeaponStats</name></member>
+      <member refid="class_laser_1a6654e03613bf66b4700c877c4904866a" prot="protected" virt="virtual"><scope>Laser</scope><name>InitializeWeapon</name></member>
+      <member refid="class_laser_1aab51a3c7217120bf3d82c3d4dd59fd46" prot="private" virt="non-virtual"><scope>Laser</scope><name>isActive</name></member>
+      <member refid="class_weapon_1a69231f675123b5bf16b82c1b05804eff" prot="public" virt="non-virtual"><scope>Laser</scope><name>IsAvailable</name></member>
+      <member refid="class_weapon_1a9e59d0d3f26119eccc69d89d216ed887" prot="public" virt="non-virtual"><scope>Laser</scope><name>IsMaxLevel</name></member>
+      <member refid="class_laser_1a257f0a7272440cef2ca000cde621adb7" prot="private" virt="non-virtual"><scope>Laser</scope><name>laserCoroutine</name></member>
+      <member refid="class_laser_1aab37687d7687de393f40407b9eaca8c8" prot="private" virt="non-virtual"><scope>Laser</scope><name>LaserData</name></member>
+      <member refid="class_laser_1adda70e7f93bef9e49bfd3b00816f7b4d" prot="private" virt="non-virtual"><scope>Laser</scope><name>LaserRoutine</name></member>
+      <member refid="class_laser_1a2c57de4d47eea79a9437eef48ee350bf" prot="private" virt="non-virtual"><scope>Laser</scope><name>maxLaserArea</name></member>
+      <member refid="class_laser_1ad256f668bfdc71997cf52cbbd07e5a26" prot="private" virt="non-virtual"><scope>Laser</scope><name>maxLaserLength</name></member>
+      <member refid="class_laser_1a35a6254bfb525d3e353881c47f8b7dd5" prot="private" virt="non-virtual"><scope>Laser</scope><name>OnAreaMultiplierChanged</name></member>
+      <member refid="class_laser_1ae39847a9b4dbd255338d8801815f7777" prot="private" virt="non-virtual"><scope>Laser</scope><name>OnDamageMultiplierChanged</name></member>
+      <member refid="class_laser_1ac46b167036adfff743c9e46a0afc4cc1" prot="private" virt="non-virtual"><scope>Laser</scope><name>OnDisable</name></member>
+      <member refid="class_laser_1a224f3532761149816549ba1edff2ad84" prot="public" virt="non-virtual"><scope>Laser</scope><name>OnLaserFinished</name></member>
+      <member refid="class_weapon_1a9529168f0afe4ae01428686c03852eec" prot="public" virt="non-virtual"><scope>Laser</scope><name>OnLevelUp</name></member>
+      <member refid="class_weapon_1afa5c22658e6121b9a39e3e9936c4ad2d" prot="public" virt="non-virtual"><scope>Laser</scope><name>playerStats</name></member>
+      <member refid="class_weapon_1ac4df25f5b4036c98320959a73f28e947" prot="public" virt="non-virtual"><scope>Laser</scope><name>PlayerStatsData</name></member>
+      <member refid="class_weapon_1a4ac4fcc1733a670d99607f52d6160701" prot="public" virt="virtual"><scope>Laser</scope><name>ReduceLevel</name></member>
+      <member refid="class_weapon_1aa2c6401b0e18582811ac05d70e5c167c" prot="public" virt="non-virtual"><scope>Laser</scope><name>SetAvailable</name></member>
+      <member refid="class_laser_1a04d63c821886af7ae7c7be16c33b7c43" prot="private" virt="non-virtual"><scope>Laser</scope><name>Start</name></member>
+      <member refid="class_laser_1a886e556ed3c71507f07a8b4c9f9daa84" prot="private" virt="non-virtual"><scope>Laser</scope><name>StartLaser</name></member>
+      <member refid="class_laser_1aebcb8f640ced2c40a139180aa23b86e8" prot="private" virt="non-virtual"><scope>Laser</scope><name>StopLaser</name></member>
+      <member refid="class_laser_1a48874baaaf83a6072dc6903c649a0126" prot="protected" virt="virtual"><scope>Laser</scope><name>SubscribeToPlayerStats</name></member>
+      <member refid="class_weapon_1afe9d6a5606e4e8bcd65e3f5280269038" prot="public" virt="non-virtual"><scope>Laser</scope><name>TestAddLevel</name></member>
+      <member refid="class_laser_1a74bd6014268750877dd4999cd2d299d4" prot="protected" virt="virtual"><scope>Laser</scope><name>UnsubscribeFromPlayerStats</name></member>
+      <member refid="class_weapon_1a08149e046d2aa78ee427066886146517" prot="public" virt="non-virtual"><scope>Laser</scope><name>weaponData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

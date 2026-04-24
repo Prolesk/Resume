@@ -1,0 +1,5 @@
+<map id="GameMenuController.GiveMutationReward" name="GameMenuController.GiveMutationReward">
+<area shape="rect" id="Node000001" title="Executes the GiveMutationReward operation." alt="" coords="158,5,383,48"/>
+<area shape="rect" id="Node000002" href="$class_chest.html#a1f382bd9cea967ac4aa29ba97ce332fd" title=" " alt="" coords="5,13,110,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,27,110,29,110,24,144,26"/>
+</map>

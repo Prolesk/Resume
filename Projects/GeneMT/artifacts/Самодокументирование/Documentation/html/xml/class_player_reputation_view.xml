@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_player_reputation_view" kind="class" language="C#" prot="public">
+    <compoundname>PlayerReputationView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_reputation_view_1aa134ef55cd50da3cce50875db500cdb8" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image PlayerReputationView._magicProgressBarImage</definition>
+        <argsstring></argsstring>
+        <name>_magicProgressBarImage</name>
+        <qualifiedname>PlayerReputationView._magicProgressBarImage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerReputationView.cs" line="12" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerReputationView.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_reputation_view_1a7d3f986206189e1c1a31cab7b795fe54" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image PlayerReputationView._technoProgressBarImage</definition>
+        <argsstring></argsstring>
+        <name>_technoProgressBarImage</name>
+        <qualifiedname>PlayerReputationView._technoProgressBarImage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerReputationView.cs" line="13" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerReputationView.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_reputation_view_1a90bb2fe54da2282df49de41b0ddd2c56" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerReputationView.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>PlayerReputationView.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerReputationView.cs" line="16" column="10" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerReputationView.cs" bodystart="16" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_reputation_view_1a9c9e36d33bc016c66b94c10f2a1960a1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerReputationView.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>PlayerReputationView.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerReputationView.cs" line="22" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerReputationView.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_reputation_view_1a846e2640862f1ad99455342cd26669f9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerReputationView.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>PlayerReputationView.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerReputationView.cs" line="27" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerReputationView.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_reputation_view_1ad9c0c22d7e355d14a7c9adf19dd81c10" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerReputationView.UpdateProgressBar</definition>
+        <argsstring>(float Reputation)</argsstring>
+        <name>UpdateProgressBar</name>
+        <qualifiedname>PlayerReputationView.UpdateProgressBar</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>Reputation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerReputationView.cs" line="32" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerReputationView.cs" bodystart="32" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_player_reputation_view" kindref="compound">PlayerReputationView</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PlayerReputationView</label>
+        <link refid="class_player_reputation_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PlayerReputationView</label>
+        <link refid="class_player_reputation_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerReputationView.cs" line="10" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/PlayerStats/PlayerReputationView.cs" bodystart="11" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_player_reputation_view_1aa134ef55cd50da3cce50875db500cdb8" prot="private" virt="non-virtual"><scope>PlayerReputationView</scope><name>_magicProgressBarImage</name></member>
+      <member refid="class_player_reputation_view_1a7d3f986206189e1c1a31cab7b795fe54" prot="private" virt="non-virtual"><scope>PlayerReputationView</scope><name>_technoProgressBarImage</name></member>
+      <member refid="class_player_reputation_view_1a846e2640862f1ad99455342cd26669f9" prot="private" virt="non-virtual"><scope>PlayerReputationView</scope><name>OnDisable</name></member>
+      <member refid="class_player_reputation_view_1a9c9e36d33bc016c66b94c10f2a1960a1" prot="private" virt="non-virtual"><scope>PlayerReputationView</scope><name>OnEnable</name></member>
+      <member refid="class_player_reputation_view_1a90bb2fe54da2282df49de41b0ddd2c56" prot="private" virt="non-virtual"><scope>PlayerReputationView</scope><name>Start</name></member>
+      <member refid="class_player_reputation_view_1ad9c0c22d7e355d14a7c9adf19dd81c10" prot="private" virt="non-virtual"><scope>PlayerReputationView</scope><name>UpdateProgressBar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

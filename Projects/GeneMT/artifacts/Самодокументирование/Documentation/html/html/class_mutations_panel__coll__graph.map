@@ -1,0 +1,11 @@
+<map id="MutationsPanel" name="MutationsPanel">
+<area shape="rect" id="Node000001" title="The MutationsPanel class." alt="" coords="27,256,138,283"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,157,117,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,197,82,256,77,256,65,201"/>
+<area shape="rect" id="Node000003" href="$class_mutation_controller_s_o.html" title="The MutationControllerSO class." alt="" coords="141,157,288,184"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,194,101,258,98,253,182,193"/>
+<area shape="rect" id="Node000004" href="$class_singleton_scriptable_object-1-g.html" title=" " alt="" coords="113,81,316,108"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="216,121,217,158,212,156,213,125"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="156,5,273,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="215,45,217,82,212,80,213,49"/>
+</map>

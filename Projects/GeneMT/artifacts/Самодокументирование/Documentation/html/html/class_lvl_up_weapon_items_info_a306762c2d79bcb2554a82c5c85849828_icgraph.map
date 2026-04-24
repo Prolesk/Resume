@@ -1,0 +1,5 @@
+<map id="LvlUpWeaponItemsInfo.SetItemsInfo" name="LvlUpWeaponItemsInfo.SetItemsInfo">
+<area shape="rect" id="Node000001" title="Sets the ItemsInfo." alt="" coords="248,5,429,48"/>
+<area shape="rect" id="Node000002" href="$class_lvl_up_weapon_items_info.html#a39d1e98dc31bb0e8cfc40fe5396da4b3" title="Executes the ForceRefreshUI operation." alt="" coords="5,5,200,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,27,200,29,200,24,235,26"/>
+</map>

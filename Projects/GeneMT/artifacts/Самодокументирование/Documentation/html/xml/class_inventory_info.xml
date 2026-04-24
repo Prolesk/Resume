@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_inventory_info" kind="class" language="C#" prot="public">
+    <compoundname>InventoryInfo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_inventory_info_1aacd260312d1bf9eae97f94cdb9ed505c" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_weapon" kindref="compound">Weapon</ref> &gt;</type>
+        <definition>List&lt;Weapon&gt; InventoryInfo.allWeaponList</definition>
+        <argsstring></argsstring>
+        <name>allWeaponList</name>
+        <qualifiedname>InventoryInfo.allWeaponList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/InventoryInfo.cs" line="11" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/InventoryInfo.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_inventory_info_1ae95c7f5e0fe71888805886ad7fb5852a" compoundref="_inventory_info_8cs" startline="16" endline="56">SetInventoryItemsInfo</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_inventory_info_1ae95c7f5e0fe71888805886ad7fb5852a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InventoryInfo.SetInventoryItemsInfo</definition>
+        <argsstring>()</argsstring>
+        <name>SetInventoryItemsInfo</name>
+        <qualifiedname>InventoryInfo.SetInventoryItemsInfo</qualifiedname>
+        <briefdescription>
+<para>Sets the InventoryItemsInfo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/InventoryInfo.cs" line="16" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/InventoryInfo.cs" bodystart="16" bodyend="56"/>
+        <references refid="class_inventory_info_1aacd260312d1bf9eae97f94cdb9ed505c" compoundref="_inventory_info_8cs" startline="11">allWeaponList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_inventory_info_1ad1f4a923db171d1fdeb25a84d59d83d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InventoryInfo.ClearWeaponAndItemList</definition>
+        <argsstring>()</argsstring>
+        <name>ClearWeaponAndItemList</name>
+        <qualifiedname>InventoryInfo.ClearWeaponAndItemList</qualifiedname>
+        <briefdescription>
+<para>Executes the ClearWeaponAndItemList operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/InventoryInfo.cs" line="61" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/InventoryInfo.cs" bodystart="61" bodyend="67"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_inventory_info" kindref="compound">InventoryInfo</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>InventoryInfo</label>
+        <link refid="class_inventory_info"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>InventoryInfo</label>
+        <link refid="class_inventory_info"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/InventoryInfo.cs" line="9" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/InventoryInfo.cs" bodystart="10" bodyend="68"/>
+    <listofallmembers>
+      <member refid="class_inventory_info_1aacd260312d1bf9eae97f94cdb9ed505c" prot="public" virt="non-virtual"><scope>InventoryInfo</scope><name>allWeaponList</name></member>
+      <member refid="class_inventory_info_1ad1f4a923db171d1fdeb25a84d59d83d4" prot="public" virt="non-virtual"><scope>InventoryInfo</scope><name>ClearWeaponAndItemList</name></member>
+      <member refid="class_inventory_info_1ae95c7f5e0fe71888805886ad7fb5852a" prot="public" virt="non-virtual"><scope>InventoryInfo</scope><name>SetInventoryItemsInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_universal_damage_give_shield_item_s_o" kind="class" language="C#" prot="public">
+    <compoundname>UniversalDamageGiveShieldItemSO</compoundname>
+    <basecompoundref refid="class_item_data_s_o" prot="public" virt="non-virtual">ItemDataSO</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_universal_damage_give_shield_item_s_o_1a4df12313adc5ede6f575a91f92fded74" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniversalDamageGiveShieldItemSO.OnDelay</definition>
+        <argsstring></argsstring>
+        <name>OnDelay</name>
+        <qualifiedname>UniversalDamageGiveShieldItemSO.OnDelay</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>The OnDelay field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/UniversalDamageGiveShieldItemSO.cs" line="13" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/UniversalDamageGiveShieldItemSO.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_universal_damage_give_shield_item_s_o_1a4eb2695bcfa3a6351cbb122379c09495" compoundref="_universal_damage_give_shield_item_s_o_8cs" startline="20" endline="25">OnDamageGive</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_universal_damage_give_shield_item_s_o_1ac621ac89dec826f7d238f0dbf0268659" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UniversalDamageGiveShieldItemSO.OnPick</definition>
+        <argsstring>()</argsstring>
+        <name>OnPick</name>
+        <qualifiedname>UniversalDamageGiveShieldItemSO.OnPick</qualifiedname>
+        <reimplements refid="class_item_data_s_o_1a43ed92677adc25345561338f3837b53c">OnPick</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/UniversalDamageGiveShieldItemSO.cs" line="15" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/UniversalDamageGiveShieldItemSO.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_universal_damage_give_shield_item_s_o_1a4eb2695bcfa3a6351cbb122379c09495" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UniversalDamageGiveShieldItemSO.OnDamageGive</definition>
+        <argsstring>()</argsstring>
+        <name>OnDamageGive</name>
+        <qualifiedname>UniversalDamageGiveShieldItemSO.OnDamageGive</qualifiedname>
+        <reimplements refid="class_item_data_s_o_1ab4f3e7698e40647ea7c8d4090cc9666f">OnDamageGive</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/UniversalDamageGiveShieldItemSO.cs" line="20" column="26" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/UniversalDamageGiveShieldItemSO.cs" bodystart="20" bodyend="25"/>
+        <references refid="class_universal_damage_give_shield_item_s_o_1a4df12313adc5ede6f575a91f92fded74" compoundref="_universal_damage_give_shield_item_s_o_8cs" startline="13">OnDelay</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_universal_damage_give_shield_item_s_o_1ae74292267a8f72676cc3892b98e9928b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void UniversalDamageGiveShieldItemSO.StartInvincibilityTimer</definition>
+        <argsstring>()</argsstring>
+        <name>StartInvincibilityTimer</name>
+        <qualifiedname>UniversalDamageGiveShieldItemSO.StartInvincibilityTimer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/UniversalDamageGiveShieldItemSO.cs" line="27" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/UniversalDamageGiveShieldItemSO.cs" bodystart="27" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_universal_damage_give_shield_item_s_o_1a16804b259fde0a94b03a0fc207ed474b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void UniversalDamageGiveShieldItemSO.StartInvincibilityTimerDelay</definition>
+        <argsstring>()</argsstring>
+        <name>StartInvincibilityTimerDelay</name>
+        <qualifiedname>UniversalDamageGiveShieldItemSO.StartInvincibilityTimerDelay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/UniversalDamageGiveShieldItemSO.cs" line="42" column="24" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/UniversalDamageGiveShieldItemSO.cs" bodystart="42" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_universal_damage_give_shield_item_s_o" kindref="compound">UniversalDamageGiveShieldItemSO</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ItemDataSO</label>
+        <link refid="class_item_data_s_o"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>UniversalDamageGiveShieldItemSO</label>
+        <link refid="class_universal_damage_give_shield_item_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>ItemControllerSO</label>
+        <link refid="class_item_controller_s_o"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ItemDataSO</label>
+        <link refid="class_item_data_s_o"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>ItemController</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="5">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>UniversalDamageGiveShieldItemSO</label>
+        <link refid="class_universal_damage_give_shield_item_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/UniversalDamageGiveShieldItemSO.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Items/ItemsSO/UniversalDamageGiveShieldItemSO.cs" bodystart="9" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_item_data_s_o_1a63afd093c454396299e889192e1b0910" prot="public" virt="non-virtual"><scope>UniversalDamageGiveShieldItemSO</scope><name>description</name></member>
+      <member refid="class_item_data_s_o_1a00da7d169e6c24ee0e468c8f22a8c2a4" prot="public" virt="non-virtual"><scope>UniversalDamageGiveShieldItemSO</scope><name>HasOnDamageGiveEvent</name></member>
+      <member refid="class_item_data_s_o_1abf68c439ed6f5843535937b226cc9de2" prot="public" virt="non-virtual"><scope>UniversalDamageGiveShieldItemSO</scope><name>HasOnEnemyDeathEvent</name></member>
+      <member refid="class_item_data_s_o_1a7b70c5edc7f8e809275d8d8c8f6f865d" prot="public" virt="non-virtual"><scope>UniversalDamageGiveShieldItemSO</scope><name>HasOnLVLUpEvent</name></member>
+      <member refid="class_item_data_s_o_1aee0e17336125d0081f5284e1a83fda7d" prot="public" virt="non-virtual"><scope>UniversalDamageGiveShieldItemSO</scope><name>HasOnSceneChangeEvent</name></member>
+      <member refid="class_item_data_s_o_1aa78a1aef6f977de0a4fd2b8cb901e839" prot="public" virt="non-virtual"><scope>UniversalDamageGiveShieldItemSO</scope><name>icon</name></member>
+      <member refid="class_item_data_s_o_1a45036bbeb1a61524955ca904d0fd1297" prot="public" virt="non-virtual"><scope>UniversalDamageGiveShieldItemSO</scope><name>isActive</name></member>
+      <member refid="class_item_data_s_o_1aa9f6e3a5e7ec3c471e3963adcfb0f7af" prot="public" virt="non-virtual"><scope>UniversalDamageGiveShieldItemSO</scope><name>isActiveItem</name></member>
+      <member refid="class_item_data_s_o_1a2ebabf148add445b25c1368176de9c66" prot="public" virt="non-virtual"><scope>UniversalDamageGiveShieldItemSO</scope><name>ItemController</name></member>
+      <member refid="class_item_data_s_o_1a5b20ae8dc705d55f4b82e8832d4b0c4f" prot="public" virt="non-virtual"><scope>UniversalDamageGiveShieldItemSO</scope><name>itemTitle</name></member>
+      <member refid="class_item_data_s_o_1a5312a6a37cbb4eb16528f11583800d9c" prot="public" virt="non-virtual"><scope>UniversalDamageGiveShieldItemSO</scope><name>itemType</name></member>
+      <member refid="class_universal_damage_give_shield_item_s_o_1a4eb2695bcfa3a6351cbb122379c09495" prot="public" virt="virtual"><scope>UniversalDamageGiveShieldItemSO</scope><name>OnDamageGive</name></member>
+      <member refid="class_universal_damage_give_shield_item_s_o_1a4df12313adc5ede6f575a91f92fded74" prot="public" virt="non-virtual"><scope>UniversalDamageGiveShieldItemSO</scope><name>OnDelay</name></member>
+      <member refid="class_item_data_s_o_1a5ddcb4bd447509672a6df851df2c0564" prot="public" virt="virtual"><scope>UniversalDamageGiveShieldItemSO</scope><name>OnEnemyDeath</name></member>
+      <member refid="class_item_data_s_o_1ac9607ff62d9b2b5eaa7326293473593c" prot="public" virt="virtual"><scope>UniversalDamageGiveShieldItemSO</scope><name>OnLVLUp</name></member>
+      <member refid="class_universal_damage_give_shield_item_s_o_1ac621ac89dec826f7d238f0dbf0268659" prot="public" virt="virtual"><scope>UniversalDamageGiveShieldItemSO</scope><name>OnPick</name></member>
+      <member refid="class_item_data_s_o_1a7f858d552e74dc3c8d701b39e620a177" prot="public" virt="virtual"><scope>UniversalDamageGiveShieldItemSO</scope><name>OnSceneChange</name></member>
+      <member refid="class_item_data_s_o_1a577209997c0f356ad2e9d98be3033dae" prot="public" virt="non-virtual"><scope>UniversalDamageGiveShieldItemSO</scope><name>ReputationAmount</name></member>
+      <member refid="class_universal_damage_give_shield_item_s_o_1ae74292267a8f72676cc3892b98e9928b" prot="private" virt="non-virtual"><scope>UniversalDamageGiveShieldItemSO</scope><name>StartInvincibilityTimer</name></member>
+      <member refid="class_universal_damage_give_shield_item_s_o_1a16804b259fde0a94b03a0fc207ed474b" prot="private" virt="non-virtual"><scope>UniversalDamageGiveShieldItemSO</scope><name>StartInvincibilityTimerDelay</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

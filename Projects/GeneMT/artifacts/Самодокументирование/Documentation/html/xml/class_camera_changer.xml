@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_camera_changer" kind="class" language="C#" prot="public">
+    <compoundname>CameraChanger</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_camera_changer_1a1eaaf2b24ffef526f782f0e382762e72" prot="private" static="no" mutable="no">
+        <type>CinemachineVirtualCamera</type>
+        <definition>CinemachineVirtualCamera CameraChanger._gameVirtualCamera</definition>
+        <argsstring></argsstring>
+        <name>_gameVirtualCamera</name>
+        <qualifiedname>CameraChanger._gameVirtualCamera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" line="9" column="39" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_changer_1aac4843a6815dfdb9d86be290064d764b" prot="private" static="no" mutable="no">
+        <type>CinemachineVirtualCamera</type>
+        <definition>CinemachineVirtualCamera CameraChanger._menuVirtualCamera</definition>
+        <argsstring></argsstring>
+        <name>_menuVirtualCamera</name>
+        <qualifiedname>CameraChanger._menuVirtualCamera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" line="10" column="39" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_camera_changer_1a654b7166bc706e4415597a2b105fb46e" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_camera_changer" kindref="compound">CameraChanger</ref></type>
+        <definition>CameraChanger CameraChanger.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>CameraChanger.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" line="12" column="33" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_camera_changer_1ad4efd91424bd8d27082e3875ec832472" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraChanger.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>CameraChanger.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" line="14" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_changer_1a7a2a5739e368dbe7f52dfd4acbb1e32a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraChanger.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>CameraChanger.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" line="26" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_changer_1a443b6e7e38bf08bed2f7334f169bf40e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraChanger.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <qualifiedname>CameraChanger.OnDestroy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" line="33" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" bodystart="33" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_changer_1a298ee7cbfcae4811538265ace44785f2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraChanger.InitializeCameraPriorities</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeCameraPriorities</name>
+        <qualifiedname>CameraChanger.InitializeCameraPriorities</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" line="41" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" bodystart="41" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_changer_1a828cf35ee32e2ff1743f269729cb3b03" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraChanger.OnPauseChanged</definition>
+        <argsstring>(bool isPaused, GameStateManager.PauseType pauseType)</argsstring>
+        <name>OnPauseChanged</name>
+        <qualifiedname>CameraChanger.OnPauseChanged</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isPaused</declname>
+        </param>
+        <param>
+          <type><ref refid="class_game_state_manager_1a87e1de70e766821616aa1e1aa9051178" kindref="member">GameStateManager.PauseType</ref></type>
+          <declname>pauseType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" line="47" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" bodystart="47" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_camera_changer_1ac1de7a3ef2bf2d4537ae32364cc46521" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraChanger.SwitchToGameCamera</definition>
+        <argsstring>()</argsstring>
+        <name>SwitchToGameCamera</name>
+        <qualifiedname>CameraChanger.SwitchToGameCamera</qualifiedname>
+        <briefdescription>
+<para>Executes the SwitchToGameCamera operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" line="62" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" bodystart="62" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_changer_1afb40c8e2792e894885dc4a77f88d74ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraChanger.SwitchToMenuCamera</definition>
+        <argsstring>()</argsstring>
+        <name>SwitchToMenuCamera</name>
+        <qualifiedname>CameraChanger.SwitchToMenuCamera</qualifiedname>
+        <briefdescription>
+<para>Executes the SwitchToMenuCamera operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" line="71" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" bodystart="71" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_camera_changer" kindref="compound">CameraChanger</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CameraChanger</label>
+        <link refid="class_camera_changer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CameraChanger</label>
+        <link refid="class_camera_changer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" line="7" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Game/GameState/CameraChanger.cs" bodystart="8" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_camera_changer_1a1eaaf2b24ffef526f782f0e382762e72" prot="private" virt="non-virtual"><scope>CameraChanger</scope><name>_gameVirtualCamera</name></member>
+      <member refid="class_camera_changer_1aac4843a6815dfdb9d86be290064d764b" prot="private" virt="non-virtual"><scope>CameraChanger</scope><name>_menuVirtualCamera</name></member>
+      <member refid="class_camera_changer_1ad4efd91424bd8d27082e3875ec832472" prot="private" virt="non-virtual"><scope>CameraChanger</scope><name>Awake</name></member>
+      <member refid="class_camera_changer_1a298ee7cbfcae4811538265ace44785f2" prot="private" virt="non-virtual"><scope>CameraChanger</scope><name>InitializeCameraPriorities</name></member>
+      <member refid="class_camera_changer_1a654b7166bc706e4415597a2b105fb46e" prot="public" virt="non-virtual"><scope>CameraChanger</scope><name>Instance</name></member>
+      <member refid="class_camera_changer_1a443b6e7e38bf08bed2f7334f169bf40e" prot="private" virt="non-virtual"><scope>CameraChanger</scope><name>OnDestroy</name></member>
+      <member refid="class_camera_changer_1a828cf35ee32e2ff1743f269729cb3b03" prot="private" virt="non-virtual"><scope>CameraChanger</scope><name>OnPauseChanged</name></member>
+      <member refid="class_camera_changer_1a7a2a5739e368dbe7f52dfd4acbb1e32a" prot="private" virt="non-virtual"><scope>CameraChanger</scope><name>Start</name></member>
+      <member refid="class_camera_changer_1ac1de7a3ef2bf2d4537ae32364cc46521" prot="public" virt="non-virtual"><scope>CameraChanger</scope><name>SwitchToGameCamera</name></member>
+      <member refid="class_camera_changer_1afb40c8e2792e894885dc4a77f88d74ab" prot="public" virt="non-virtual"><scope>CameraChanger</scope><name>SwitchToMenuCamera</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

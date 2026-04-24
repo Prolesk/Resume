@@ -1,0 +1,648 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="class_magic_staff" kind="class" language="C#" prot="public">
+    <compoundname>MagicStaff</compoundname>
+    <basecompoundref refid="class_weapon" prot="public" virt="non-virtual">Weapon</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_magic_staff_1a75f48c4a4b966b55c5bb4cb3ff51fe2e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_enemy_detector" kindref="compound">EnemyDetector</ref></type>
+        <definition>EnemyDetector MagicStaff.enemyDetector</definition>
+        <argsstring></argsstring>
+        <name>enemyDetector</name>
+        <qualifiedname>MagicStaff.enemyDetector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="11" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_magic_staff_1a6689eb9809044e4189add27910875e1d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MagicStaff.maxExplosionArea</definition>
+        <argsstring></argsstring>
+        <name>maxExplosionArea</name>
+        <qualifiedname>MagicStaff.maxExplosionArea</qualifiedname>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="12" column="20" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_magic_staff_1aae20d5f81c7e8ec256f95bcd9d8b9dd2" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MagicStaff.currentExplosionArea</definition>
+        <argsstring></argsstring>
+        <name>currentExplosionArea</name>
+        <qualifiedname>MagicStaff.currentExplosionArea</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="14" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_magic_staff_1a43a3f97970c93a828a4db1a13fb597fc" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MagicStaff.currentExplosionLifetime</definition>
+        <argsstring></argsstring>
+        <name>currentExplosionLifetime</name>
+        <qualifiedname>MagicStaff.currentExplosionLifetime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="15" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_magic_staff_1a04a1bd59c0037564d58f2b37685cb03e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MagicStaff.currentExplosionCooldown</definition>
+        <argsstring></argsstring>
+        <name>currentExplosionCooldown</name>
+        <qualifiedname>MagicStaff.currentExplosionCooldown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="16" column="19" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_magic_staff_1a4a5d4a320b73676578fe0e1bd70a534d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MagicStaff.currentMaxActiveExplosions</definition>
+        <argsstring></argsstring>
+        <name>currentMaxActiveExplosions</name>
+        <qualifiedname>MagicStaff.currentMaxActiveExplosions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="17" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_magic_staff_1ab0b3a6ebd06353bd7ce60aac01065781" prot="private" static="no" mutable="no">
+        <type>Coroutine</type>
+        <definition>Coroutine MagicStaff.explosionCoroutine</definition>
+        <argsstring></argsstring>
+        <name>explosionCoroutine</name>
+        <qualifiedname>MagicStaff.explosionCoroutine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="19" column="23" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_magic_staff_1a159582b9259a114d8c78ab9ea9e176c4" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_explosion" kindref="compound">Explosion</ref> &gt;</type>
+        <definition>List&lt;Explosion&gt; MagicStaff.activeExplosions</definition>
+        <argsstring></argsstring>
+        <name>activeExplosions</name>
+        <qualifiedname>MagicStaff.activeExplosions</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_explosion" kindref="compound">Explosion</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="20" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_magic_staff_1a3b42bcb389d0afcd6f5bc9266bacb0b3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MagicStaff.isActive</definition>
+        <argsstring></argsstring>
+        <name>isActive</name>
+        <qualifiedname>MagicStaff.isActive</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="21" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_magic_staff_1a16ccd611b338fc22aaffb17bb1fc31fa" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_magic_staff_data_s_o" kindref="compound">MagicStaffDataSO</ref></type>
+        <definition>MagicStaffDataSO MagicStaff.MagicData</definition>
+        <argsstring></argsstring>
+        <name>MagicData</name>
+        <qualifiedname>MagicStaff.MagicData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="23" column="30" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_magic_staff_1add2046708cf2c898846ba6976110ce70" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void MagicStaff.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>MagicStaff.Awake</qualifiedname>
+        <reimplements refid="class_weapon_1ada39248fef5791eef332e2be9b701fce">Awake</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="25" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="25" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_staff_1a2c2a1ce86df1a50d3916f373b0398999" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void MagicStaff.InitializeWeapon</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeWeapon</name>
+        <qualifiedname>MagicStaff.InitializeWeapon</qualifiedname>
+        <reimplements refid="class_weapon_1a9182d6c16efa79826dbe1a268f430594">InitializeWeapon</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="33" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="33" bodyend="43"/>
+        <references refid="class_weapon_1a08149e046d2aa78ee427066886146517" compoundref="_weapon_8cs" startline="14">Weapon.weaponData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_staff_1a44e78817c7935a3f4d4bfacdf2281ba2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void MagicStaff.SubscribeToPlayerStats</definition>
+        <argsstring>()</argsstring>
+        <name>SubscribeToPlayerStats</name>
+        <qualifiedname>MagicStaff.SubscribeToPlayerStats</qualifiedname>
+        <reimplements refid="class_weapon_1ab616652596d92596f8fce9f408319f3c">SubscribeToPlayerStats</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="50" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="50" bodyend="60"/>
+        <references refid="class_weapon_1afa5c22658e6121b9a39e3e9936c4ad2d" compoundref="_weapon_8cs" startline="10">Weapon.playerStats</references>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_staff_1a92cff298e167b2d1f5d2b41797219e6e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void MagicStaff.UnsubscribeFromPlayerStats</definition>
+        <argsstring>()</argsstring>
+        <name>UnsubscribeFromPlayerStats</name>
+        <qualifiedname>MagicStaff.UnsubscribeFromPlayerStats</qualifiedname>
+        <reimplements refid="class_weapon_1a328e690c7cf25db86ec7d361f57be72f">UnsubscribeFromPlayerStats</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="62" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="62" bodyend="72"/>
+        <references refid="class_weapon_1afa5c22658e6121b9a39e3e9936c4ad2d" compoundref="_weapon_8cs" startline="10">Weapon.playerStats</references>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_staff_1ad39dcf5ba699229245373d985e233eb0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void MagicStaff.CalculateDamage</definition>
+        <argsstring>(float DamageMultiplier)</argsstring>
+        <name>CalculateDamage</name>
+        <qualifiedname>MagicStaff.CalculateDamage</qualifiedname>
+        <reimplements refid="class_weapon_1aee4ad85a276c0d27301fdf29d379bacb">CalculateDamage</reimplements>
+        <param>
+          <type>float</type>
+          <declname>DamageMultiplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="84" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="84" bodyend="89"/>
+        <references refid="class_weapon_1aaf922eb1468b4fc9a7621717db389c5b" compoundref="_weapon_8cs" startline="16">Weapon.currentDamage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_staff_1a52dcbd81ed6258d3c49670f55beccb13" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void MagicStaff.CalculateAllStats</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateAllStats</name>
+        <qualifiedname>MagicStaff.CalculateAllStats</qualifiedname>
+        <reimplements refid="class_weapon_1a06a4040601202b7335c1066af462861f">CalculateAllStats</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="91" column="29" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="91" bodyend="96"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_magic_staff_1a97f0bb4f9a070f1ce31b33fa1b4af09f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MagicStaff.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>MagicStaff.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="45" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_staff_1aaf8d1829b2f3ac2715931e94bc3de853" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MagicStaff.OnAreaMultiplierChanged</definition>
+        <argsstring>(float areaMultiplier)</argsstring>
+        <name>OnAreaMultiplierChanged</name>
+        <qualifiedname>MagicStaff.OnAreaMultiplierChanged</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>areaMultiplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="74" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_staff_1a6ed59ea8ca314cf0a0351997ac78da43" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MagicStaff.OnDamageMultiplierChanged</definition>
+        <argsstring>(float DamageMultiplier)</argsstring>
+        <name>OnDamageMultiplierChanged</name>
+        <qualifiedname>MagicStaff.OnDamageMultiplierChanged</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>DamageMultiplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="79" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="79" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_staff_1a9dff1e74af1715fe803dc654f2ecd38f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MagicStaff.CalculateExplosionStats</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateExplosionStats</name>
+        <qualifiedname>MagicStaff.CalculateExplosionStats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="98" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="98" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_staff_1a7dd51e0c08d1c55e6ef3a681954b687f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MagicStaff.StartExplosions</definition>
+        <argsstring>()</argsstring>
+        <name>StartExplosions</name>
+        <qualifiedname>MagicStaff.StartExplosions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="131" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="131" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_staff_1ace5e6e04c938ecd96a95435193a6448c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MagicStaff.StopExplosions</definition>
+        <argsstring>()</argsstring>
+        <name>StopExplosions</name>
+        <qualifiedname>MagicStaff.StopExplosions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="144" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="144" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_staff_1a29d8c499003024cd28559d58af702321" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator MagicStaff.ExplosionRoutine</definition>
+        <argsstring>()</argsstring>
+        <name>ExplosionRoutine</name>
+        <qualifiedname>MagicStaff.ExplosionRoutine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="154" column="25" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="154" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_staff_1a3b90c5a740fef9db58ed689c491c65e9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MagicStaff.CreateExplosionOnClosestEnemy</definition>
+        <argsstring>()</argsstring>
+        <name>CreateExplosionOnClosestEnemy</name>
+        <qualifiedname>MagicStaff.CreateExplosionOnClosestEnemy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="169" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="169" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_staff_1adc077f32e3a5b746cdbb3f9793d173d1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MagicStaff.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>MagicStaff.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="240" column="18" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="240" bodyend="244"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_magic_staff_1a013a86036c466463cc2667273716979a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MagicStaff.OnExplosionFinished</definition>
+        <argsstring>(Explosion explosion)</argsstring>
+        <name>OnExplosionFinished</name>
+        <qualifiedname>MagicStaff.OnExplosionFinished</qualifiedname>
+        <param>
+          <type><ref refid="class_explosion" kindref="compound">Explosion</ref></type>
+          <declname>explosion</declname>
+        </param>
+        <briefdescription>
+<para>Event handler for OnExplosionFinished. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>explosion</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The explosion.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="206" column="17" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="206" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_staff_1a939c7526dd954942bc3cb77729387e25" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override float</type>
+        <definition>override float MagicStaff.GetArea</definition>
+        <argsstring>()</argsstring>
+        <name>GetArea</name>
+        <qualifiedname>MagicStaff.GetArea</qualifiedname>
+        <reimplements refid="class_weapon_1a5367855dc2202f9cbf9f23b8de25ae92">GetArea</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="211" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_staff_1ad8fe03a2d9c624ee5734a46a9d6f5efa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override float</type>
+        <definition>override float MagicStaff.GetLifetime</definition>
+        <argsstring>()</argsstring>
+        <name>GetLifetime</name>
+        <qualifiedname>MagicStaff.GetLifetime</qualifiedname>
+        <reimplements refid="class_weapon_1a69d700917c994a2da5273a50db72ba8e">GetLifetime</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="212" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_staff_1af75b8545a50c6408b9df88881ed6b2ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override float</type>
+        <definition>override float MagicStaff.GetCooldown</definition>
+        <argsstring>()</argsstring>
+        <name>GetCooldown</name>
+        <qualifiedname>MagicStaff.GetCooldown</qualifiedname>
+        <reimplements refid="class_weapon_1a31a4342b893bf970f73826ff0c343c44">GetCooldown</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="213" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_staff_1ab66817b06f1566bb1ac67b96cd784ea4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string MagicStaff.GetWeaponStats</definition>
+        <argsstring>()</argsstring>
+        <name>GetWeaponStats</name>
+        <qualifiedname>MagicStaff.GetWeaponStats</qualifiedname>
+        <reimplements refid="class_weapon_1ae72d0bc59613640dd76e71f72931f68e">GetWeaponStats</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="215" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="215" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_staff_1af9317c1fe43a31503a54febb9c30231c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string MagicStaff.GetTextTitleInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetTextTitleInfo</name>
+        <qualifiedname>MagicStaff.GetTextTitleInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="226" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="226" bodyend="229"/>
+        <references refid="class_weapon_1a08149e046d2aa78ee427066886146517" compoundref="_weapon_8cs" startline="14">Weapon.weaponData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_magic_staff_1a9fcc42d8b0d63c293c320b3c3154eb2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string MagicStaff.GetTextDescriptionInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetTextDescriptionInfo</name>
+        <qualifiedname>MagicStaff.GetTextDescriptionInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="231" column="28" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="231" bodyend="238"/>
+        <references refid="class_weapon_1ad13d312d049e1ebd6b5fe3c1a890a66c" compoundref="_weapon_8cs" startline="239" endline="249">Weapon.GetUpgradeDescriptionForNextLevel</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_magic_staff" kindref="compound">MagicStaff</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MagicStaff</label>
+        <link refid="class_magic_staff"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>Weapon</label>
+        <link refid="class_weapon"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8">
+        <label>LevelUpgrade</label>
+        <link refid="class_level_upgrade"/>
+      </node>
+      <node id="1">
+        <label>MagicStaff</label>
+        <link refid="class_magic_staff"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="4">
+        <label>PlayerStatsSO</label>
+        <link refid="class_player_stats_s_o"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="5">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object-1-g"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Weapon</label>
+        <link refid="class_weapon"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>playerStats</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>weaponData</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>WeaponDataSO</label>
+        <link refid="class_weapon_data_s_o"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>ExstraLevelUpgrades</edgelabel>
+          <edgelabel>levelUpgrades</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>currentWeapon</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" line="8" column="7" bodyfile="C:/Users/cooki/ProjectLL/Assets/Scripts/Player/Weapons/MagicStaff/MagicStaff.cs" bodystart="9" bodyend="245"/>
+    <listofallmembers>
+      <member refid="class_magic_staff_1a159582b9259a114d8c78ab9ea9e176c4" prot="private" virt="non-virtual"><scope>MagicStaff</scope><name>activeExplosions</name></member>
+      <member refid="class_weapon_1a6d7148708171a55fe10eb250d73c9f71" prot="public" virt="virtual"><scope>MagicStaff</scope><name>AddLevel</name></member>
+      <member refid="class_weapon_1a6311c5a63cd709c4b2ca3a0161ff7ad5" prot="public" virt="non-virtual"><scope>MagicStaff</scope><name>AvailableChanged</name></member>
+      <member refid="class_magic_staff_1add2046708cf2c898846ba6976110ce70" prot="protected" virt="virtual"><scope>MagicStaff</scope><name>Awake</name></member>
+      <member refid="class_magic_staff_1a52dcbd81ed6258d3c49670f55beccb13" prot="protected" virt="virtual"><scope>MagicStaff</scope><name>CalculateAllStats</name></member>
+      <member refid="class_weapon_1a074f6fa47b6ee3202dc6751eabdfb000" prot="protected" virt="virtual"><scope>MagicStaff</scope><name>CalculateCooldown</name></member>
+      <member refid="class_magic_staff_1ad39dcf5ba699229245373d985e233eb0" prot="protected" virt="virtual"><scope>MagicStaff</scope><name>CalculateDamage</name></member>
+      <member refid="class_weapon_1ad860905094346042ba8ea674dd78de6d" prot="protected" virt="virtual" ambiguityscope="Weapon."><scope>MagicStaff</scope><name>CalculateDamage</name></member>
+      <member refid="class_magic_staff_1a9dff1e74af1715fe803dc654f2ecd38f" prot="private" virt="non-virtual"><scope>MagicStaff</scope><name>CalculateExplosionStats</name></member>
+      <member refid="class_weapon_1a188e2513ead27db5ffe844e168804ae4" prot="public" virt="virtual"><scope>MagicStaff</scope><name>CanLevelUp</name></member>
+      <member refid="class_magic_staff_1a3b90c5a740fef9db58ed689c491c65e9" prot="private" virt="non-virtual"><scope>MagicStaff</scope><name>CreateExplosionOnClosestEnemy</name></member>
+      <member refid="class_weapon_1ad532fb0f0dfc1c6360f208fc34156197" prot="protected" virt="non-virtual"><scope>MagicStaff</scope><name>currentCooldown</name></member>
+      <member refid="class_weapon_1aaf922eb1468b4fc9a7621717db389c5b" prot="protected" virt="non-virtual"><scope>MagicStaff</scope><name>currentDamage</name></member>
+      <member refid="class_magic_staff_1aae20d5f81c7e8ec256f95bcd9d8b9dd2" prot="private" virt="non-virtual"><scope>MagicStaff</scope><name>currentExplosionArea</name></member>
+      <member refid="class_magic_staff_1a04a1bd59c0037564d58f2b37685cb03e" prot="private" virt="non-virtual"><scope>MagicStaff</scope><name>currentExplosionCooldown</name></member>
+      <member refid="class_magic_staff_1a43a3f97970c93a828a4db1a13fb597fc" prot="private" virt="non-virtual"><scope>MagicStaff</scope><name>currentExplosionLifetime</name></member>
+      <member refid="class_weapon_1a2a0c19d2dbdb2cddf5f548a140589791" prot="public" virt="non-virtual"><scope>MagicStaff</scope><name>CurrentLevel</name></member>
+      <member refid="class_weapon_1ae299df08a60611f9f0fc6fdc4c659b46" prot="public" virt="non-virtual"><scope>MagicStaff</scope><name>currentLevel</name></member>
+      <member refid="class_magic_staff_1a4a5d4a320b73676578fe0e1bd70a534d" prot="private" virt="non-virtual"><scope>MagicStaff</scope><name>currentMaxActiveExplosions</name></member>
+      <member refid="class_weapon_1a635065fdc99dea24985f112f1254ed5a" prot="public" virt="non-virtual"><scope>MagicStaff</scope><name>Data</name></member>
+      <member refid="class_weapon_1a479491c816e68b0137996348b49fe781" prot="public" virt="non-virtual"><scope>MagicStaff</scope><name>DebugWeaponStats</name></member>
+      <member refid="class_magic_staff_1a75f48c4a4b966b55c5bb4cb3ff51fe2e" prot="private" virt="non-virtual"><scope>MagicStaff</scope><name>enemyDetector</name></member>
+      <member refid="class_magic_staff_1ab0b3a6ebd06353bd7ce60aac01065781" prot="private" virt="non-virtual"><scope>MagicStaff</scope><name>explosionCoroutine</name></member>
+      <member refid="class_magic_staff_1a29d8c499003024cd28559d58af702321" prot="private" virt="non-virtual"><scope>MagicStaff</scope><name>ExplosionRoutine</name></member>
+      <member refid="class_magic_staff_1a939c7526dd954942bc3cb77729387e25" prot="public" virt="virtual"><scope>MagicStaff</scope><name>GetArea</name></member>
+      <member refid="class_magic_staff_1af75b8545a50c6408b9df88881ed6b2ef" prot="public" virt="virtual"><scope>MagicStaff</scope><name>GetCooldown</name></member>
+      <member refid="class_weapon_1a0d972514250825c4b7aaecd42235f0e7" prot="public" virt="virtual"><scope>MagicStaff</scope><name>GetDamage</name></member>
+      <member refid="class_weapon_1aca9f32807207e86ccf29a6ffb126bde7" prot="public" virt="virtual"><scope>MagicStaff</scope><name>GetDamageType</name></member>
+      <member refid="class_weapon_1a50e11db3148996b29f6bbc6856120c95" prot="public" virt="virtual"><scope>MagicStaff</scope><name>GetItemDescription</name></member>
+      <member refid="class_magic_staff_1ad8fe03a2d9c624ee5734a46a9d6f5efa" prot="public" virt="virtual"><scope>MagicStaff</scope><name>GetLifetime</name></member>
+      <member refid="class_weapon_1ac586cb11ef39baffaa3d7365d48ce12f" prot="public" virt="virtual"><scope>MagicStaff</scope><name>GetProjectileSpeed</name></member>
+      <member refid="class_magic_staff_1a9fcc42d8b0d63c293c320b3c3154eb2a" prot="public" virt="non-virtual"><scope>MagicStaff</scope><name>GetTextDescriptionInfo</name></member>
+      <member refid="class_magic_staff_1af9317c1fe43a31503a54febb9c30231c" prot="public" virt="non-virtual"><scope>MagicStaff</scope><name>GetTextTitleInfo</name></member>
+      <member refid="class_weapon_1ad13d312d049e1ebd6b5fe3c1a890a66c" prot="public" virt="virtual"><scope>MagicStaff</scope><name>GetUpgradeDescriptionForNextLevel</name></member>
+      <member refid="class_magic_staff_1ab66817b06f1566bb1ac67b96cd784ea4" prot="public" virt="virtual"><scope>MagicStaff</scope><name>GetWeaponStats</name></member>
+      <member refid="class_magic_staff_1a2c2a1ce86df1a50d3916f373b0398999" prot="protected" virt="virtual"><scope>MagicStaff</scope><name>InitializeWeapon</name></member>
+      <member refid="class_magic_staff_1a3b42bcb389d0afcd6f5bc9266bacb0b3" prot="private" virt="non-virtual"><scope>MagicStaff</scope><name>isActive</name></member>
+      <member refid="class_weapon_1a69231f675123b5bf16b82c1b05804eff" prot="public" virt="non-virtual"><scope>MagicStaff</scope><name>IsAvailable</name></member>
+      <member refid="class_weapon_1a9e59d0d3f26119eccc69d89d216ed887" prot="public" virt="non-virtual"><scope>MagicStaff</scope><name>IsMaxLevel</name></member>
+      <member refid="class_magic_staff_1a16ccd611b338fc22aaffb17bb1fc31fa" prot="private" virt="non-virtual"><scope>MagicStaff</scope><name>MagicData</name></member>
+      <member refid="class_magic_staff_1a6689eb9809044e4189add27910875e1d" prot="private" virt="non-virtual"><scope>MagicStaff</scope><name>maxExplosionArea</name></member>
+      <member refid="class_magic_staff_1aaf8d1829b2f3ac2715931e94bc3de853" prot="private" virt="non-virtual"><scope>MagicStaff</scope><name>OnAreaMultiplierChanged</name></member>
+      <member refid="class_magic_staff_1a6ed59ea8ca314cf0a0351997ac78da43" prot="private" virt="non-virtual"><scope>MagicStaff</scope><name>OnDamageMultiplierChanged</name></member>
+      <member refid="class_magic_staff_1adc077f32e3a5b746cdbb3f9793d173d1" prot="private" virt="non-virtual"><scope>MagicStaff</scope><name>OnDisable</name></member>
+      <member refid="class_magic_staff_1a013a86036c466463cc2667273716979a" prot="public" virt="non-virtual"><scope>MagicStaff</scope><name>OnExplosionFinished</name></member>
+      <member refid="class_weapon_1a9529168f0afe4ae01428686c03852eec" prot="public" virt="non-virtual"><scope>MagicStaff</scope><name>OnLevelUp</name></member>
+      <member refid="class_weapon_1afa5c22658e6121b9a39e3e9936c4ad2d" prot="public" virt="non-virtual"><scope>MagicStaff</scope><name>playerStats</name></member>
+      <member refid="class_weapon_1ac4df25f5b4036c98320959a73f28e947" prot="public" virt="non-virtual"><scope>MagicStaff</scope><name>PlayerStatsData</name></member>
+      <member refid="class_weapon_1a4ac4fcc1733a670d99607f52d6160701" prot="public" virt="virtual"><scope>MagicStaff</scope><name>ReduceLevel</name></member>
+      <member refid="class_weapon_1aa2c6401b0e18582811ac05d70e5c167c" prot="public" virt="non-virtual"><scope>MagicStaff</scope><name>SetAvailable</name></member>
+      <member refid="class_magic_staff_1a97f0bb4f9a070f1ce31b33fa1b4af09f" prot="private" virt="non-virtual"><scope>MagicStaff</scope><name>Start</name></member>
+      <member refid="class_magic_staff_1a7dd51e0c08d1c55e6ef3a681954b687f" prot="private" virt="non-virtual"><scope>MagicStaff</scope><name>StartExplosions</name></member>
+      <member refid="class_magic_staff_1ace5e6e04c938ecd96a95435193a6448c" prot="private" virt="non-virtual"><scope>MagicStaff</scope><name>StopExplosions</name></member>
+      <member refid="class_magic_staff_1a44e78817c7935a3f4d4bfacdf2281ba2" prot="protected" virt="virtual"><scope>MagicStaff</scope><name>SubscribeToPlayerStats</name></member>
+      <member refid="class_weapon_1afe9d6a5606e4e8bcd65e3f5280269038" prot="public" virt="non-virtual"><scope>MagicStaff</scope><name>TestAddLevel</name></member>
+      <member refid="class_magic_staff_1a92cff298e167b2d1f5d2b41797219e6e" prot="protected" virt="virtual"><scope>MagicStaff</scope><name>UnsubscribeFromPlayerStats</name></member>
+      <member refid="class_weapon_1a08149e046d2aa78ee427066886146517" prot="public" virt="non-virtual"><scope>MagicStaff</scope><name>weaponData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
