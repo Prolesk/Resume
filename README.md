@@ -5,6 +5,6 @@
 
 ## Подробности:
 ### Проект [GeneMT](Projects/GeneMT/)
-Игра survivors-like жанра. Есть [видео](Projects/GeneMT/GeneMTVideo.mp4) с перечислением и показом геймплея и основных механик, [артефакты](Projects/GeneMT/artifacts/) и [документация](Projects/GeneMT/artifacts/Основные%20артефакты.docx) также прект можно [скачать](Projects/GeneMT/GeneMT.zip).
+Игра survivors-like жанра. Есть [видео](Projects/GeneMT/GeneMTVideo.mp4) с перечислением и показом геймплея и основных механик, есть [артефакты](Projects/GeneMT/artifacts/) и [документация с описанием проекта в деталях](Projects/GeneMT/artifacts/Основные%20артефакты.docx). Также прект можно [скачать](Projects/GeneMT/GeneMT.zip).
 ### Проект [Corrector](Projects/Corrector/)
 Является [курсовой работой](Projects/Corrector/Курсовая_Пролесковского_Данила_ПИ2303.docx) первого семестра 2024 года. Выполняет функцию форматирования таких ошибок как лишние пробелы и ошибочные символы.
